@@ -1,0 +1,59 @@
+{
+  "status": "PASS_PINNED_LEAN_AFFINE_TANGENT_SHEAR_BRIDGE",
+  "lean_version": "Lean (version 4.24.0, x86_64-unknown-linux-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)",
+  "mathlib_commit": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7",
+  "theorem_and_equivalence_count": 10,
+  "axiom_audits": {
+    "xor_cancel_right": [
+      "Quot.sound"
+    ],
+    "shear_involution": [
+      "Quot.sound"
+    ],
+    "shearEquiv": [
+      "Quot.sound"
+    ],
+    "shear_pair_vector": [
+      "Quot.sound"
+    ],
+    "shear_pair_iff": [
+      "Quot.sound"
+    ],
+    "shear_endpoint": [
+      "Quot.sound"
+    ],
+    "lineContained_shear_iff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "line_exists_shear_iff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "binaryKakeya_shear_iff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "shear_anchor": [
+      "Quot.sound"
+    ]
+  },
+  "formalized": [
+    "Every fibre tangent translation is an involution/equivalence.",
+    "Common affine tangent shear transports pair and carried line witnesses exactly.",
+    "For every index type and both coordinate ring kinds, primitive Kakeya coverage is invariant under any XOR-linear shear with common tangent translation.",
+    "A specified interpolation value puts a chosen fibre point at tangent zero."
+  ],
+  "not_formalized": [
+    "Existence of the linear interpolant on five independent residue vectors.",
+    "The Python encoders, their emitted CNFs, exact quotient enumeration, or support-orbit completeness.",
+    "Any unrestricted dimension-five lower bound."
+  ],
+  "source_hashes": {
+    "research_round7/lean/ShearBridge.lean": "2bf8ffb776d84e6b3420c2437759443fab8f69ab3e74f0491759b3ea062414da",
+    "research_round5/encoding_bridge/CarryBridge.lean": "07501d6508595a87b3c33a44b8b23c3c4ca01f9dc515973ed1eb092f2d81ac0a",
+    "research_round7/lean/verify_shear_lean.py": "fcc26cb888f03f70ed23f5033d5dbf47c283a7276c0ef0043c8e238d5e0035f0"
+  },
+  "compile_log_sha256": "bafeead0ab942f4814c22c0662353df10e52af831c00fb4da552636c4f84cb52",
+  "seconds": 5.889222
+}

@@ -1,0 +1,16 @@
+Verified support 10; total 102620; local keys 54803
+Verified support 11; total 282424; local keys 103924
+Verified support 12; total 540216; local keys 164008
+Verified support 13; total 857840; local keys 224215
+Verified support 14; total 1206024; local keys 273922
+Verified support 15; total 1554432; local keys 306887
+Verified support 16; total 1878816; local keys 322700
+Verified support 17; total 2163945; local keys 327970
+PASS complete quota inventory: 2163945 profiles, 435832 survivors
+{"stage": "complete_quota_inventory", "seconds": 18.71, "profiles": 2163945, "survivors": 435832}
+{"stage": "geometric_certificate_progress", "seconds": 19.608, "checked": 50000, "local_keys": 4120}
+{"stage": "geometric_certificate_progress", "seconds": 20.575, "checked": 100000, "local_keys": 8877}
+{"stage": "geometric_certificate_progress", "seconds": 21.711, "checked": 150000, "local_keys": 14160}
+{"stage": "all_geometric_cuts", "seconds": 24.074, "new": 135877, "inherited": 23164, "survivors": 276791}
+{"stage": "joint_spectrum_cube_energy", "seconds": 26.067, "cuts": 524, "covering_branches": 2498, "survivors": 276267}
+{"stage": "PASS", "seconds": 26.184, "profiles": 2163945, "remaining": 276267, "new_cuts": 136401}

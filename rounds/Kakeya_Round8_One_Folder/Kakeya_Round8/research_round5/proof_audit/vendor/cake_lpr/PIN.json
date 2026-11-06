@@ -1,0 +1,41 @@
+{
+  "project": "cake_lpr",
+  "repository": "https://github.com/tanyongkiam/cake_lpr",
+  "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa",
+  "commit_date": "2026-07-22T23:43:47+01:00",
+  "HOL4_commit": "0ae7030322cdf2b0d46dc9d5503e2d5eae2fa726",
+  "CakeML_commit": "fb377b4bb704497c921cde68ccc8da3b4f0e9132",
+  "source_files_sha256": {
+    "cake_lpr.S": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+    "basis_ffi.c": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+    "Makefile": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+    "LICENSE": "eb1e4ff71900d55d384ff18afad5aae48417ce0fff25231565862c42b45e5dbc",
+    "cake_lpr.sha256": "449be5fbee561f30dbc94bd8bc5588011af9a80a17d3e1fc284a81952c2744ec"
+  },
+  "upstream_checksum_comparison": {
+    "cake_lpr.S": {
+      "declared": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+      "actual": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+      "match": true
+    },
+    "basis_ffi.c": {
+      "declared": "3fbd8f31c380e7fb40fede74496ff8b7fb63043645b1afff1e5f26aacdccfa69",
+      "actual": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+      "match": false
+    },
+    "Makefile": {
+      "declared": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+      "actual": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+      "match": true
+    }
+  },
+  "upstream_assembly_sha256_verified": true,
+  "upstream_wrapper_checksum_note": "The upstream checksum file predates the July2026 wrapper change from environment settings to CLI flags. The assembly and Makefile hashes match; the current wrapper is pinned by the exact Git commit and its actual hash recorded here. This mismatch is not silently treated as a successful checksum check.",
+  "assembly_architecture": "x86_64",
+  "formal_status": "Upstream verified checker artifact produced by the HOL4/CakeML development. This session checks its published assembly hash, assembles/links the supplied artifact and runs it; it does not rebuild HOL4 or rerun the upstream proof development. The C wrapper, compiler/linker/runtime environment, encoding and orbit completeness remain distinct trust obligations.",
+  "primary_sources": [
+    "https://cakeml.org/checkers.html",
+    "https://cakeml.org/tacas21.pdf",
+    "https://github.com/tanyongkiam/cake_lpr"
+  ]
+}

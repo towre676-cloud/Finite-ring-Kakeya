@@ -1,0 +1,35 @@
+{
+  "status": "PASS_Q211_NAMED_INTERFACE_COMPOSITION_NO_SAT_SEARCH",
+  "marked_nonzero_mask": 377850134,
+  "maximum_interval": [
+    12,
+    13
+  ],
+  "total_upper_bound": 93,
+  "baseline_variables": 45905,
+  "baseline_clauses": 329298,
+  "final_variables": 58854,
+  "final_clauses": 458792,
+  "q211_extension": {
+    "enabled": true,
+    "dimensions": [
+      3,
+      4
+    ],
+    "ordinary_or_effective_space_cap_rows": 3900,
+    "three_by_three_cap7_rows": 1170,
+    "eligible_spectrum_indices": [
+      60
+    ],
+    "effective_containment_flags": 7800,
+    "added_variables": 12949,
+    "added_clauses": 129494
+  },
+  "SAT_solver_invoked": false,
+  "new_exclusion_claimed": false,
+  "seconds": 0.6529645349946804,
+  "source_hashes": {
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round8/geometry/q211_paired_spaces.py": "09e5117422db9aadfdecc9ec78a8cd0de75bb975831d12d1dc4469e08aa45fb4"
+  }
+}

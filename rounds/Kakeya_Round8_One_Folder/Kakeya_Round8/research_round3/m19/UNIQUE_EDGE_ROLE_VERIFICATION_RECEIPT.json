@@ -1,0 +1,44 @@
+{
+  "status": "PASS_EXACT_NORMALIZED_SUPPORT_CENSUS_AND_HALL_CERTIFICATES",
+  "census_sha256": "d1cd69dca9cfd10cd694db81001870c2139e98ca86329992082e304db37ad008",
+  "census": {
+    "11": {
+      "normalized_sets_visited": 65780,
+      "covering_normalized_sets": 7676,
+      "role_patterns": 10
+    },
+    "12": {
+      "normalized_sets_visited": 230230,
+      "covering_normalized_sets": 94648,
+      "role_patterns": 15
+    }
+  },
+  "supports": {
+    "11": {
+      "input_profiles": 9733,
+      "whole_profile_exclusions": 8837,
+      "remaining_profiles": 896,
+      "hall_witnesses_checked": 88370,
+      "input_sha256": "fb1e3195aca31a13a51acd0936c8577b1d667dfbae733d879746cd9350f98990",
+      "candidates_sha256": "975e74a1e33cf4d755a699ad86098e975a3152ab10afb60cac60ecd505c8ac3c",
+      "verified_profiles_sha256": "411f1209b91f948f33bc1003eac54aece3b57367be79017a6872194c4ed26b6b",
+      "survivors_sha256": "baad3778468db325cdcf499b7c51b3aac338a368645259ef37b297998959f6f2",
+      "simple_two_unqualified_fibre_exclusions": 6241
+    },
+    "12": {
+      "input_profiles": 2902,
+      "whole_profile_exclusions": 0,
+      "remaining_profiles": 2902,
+      "hall_witnesses_checked": 0,
+      "input_sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445",
+      "candidates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified_profiles_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "survivors_sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445",
+      "simple_two_unqualified_fibre_exclusions": 0
+    }
+  },
+  "total_whole_profile_exclusions": 8837,
+  "total_remaining_profiles": 3798,
+  "total_hall_witnesses_checked": 88370,
+  "seconds": 5.0601794719696045
+}

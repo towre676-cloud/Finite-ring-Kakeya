@@ -1,0 +1,1024 @@
+{
+  "normalization": "0,e1,...,er with all extra points in F2^r; every positive own direction examined",
+  "counts": {
+    "rank3_weight6": 6,
+    "rank3_weight7": 4,
+    "rank3_weight8": 1,
+    "rank4_weight6": 11,
+    "rank4_weight7": 55,
+    "rank4_weight8": 165,
+    "rank5_weight6": 1,
+    "rank5_weight7": 26,
+    "rank5_weight8": 325
+  },
+  "weights": {
+    "6": {
+      "1": [
+        {
+          "hist": [
+            12,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 63,
+          "own_direction": 2,
+          "own_pairs": 2,
+          "affine_rank": 3,
+          "full_hist": [
+            24,
+            0,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            12,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 63,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 3,
+          "full_hist": [
+            24,
+            0,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "2": [
+        {
+          "hist": [
+            5,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65815,
+          "own_direction": 1,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            16,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            4,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 287,
+          "own_direction": 4,
+          "own_pairs": 1,
+          "affine_rank": 4,
+          "full_hist": [
+            19,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 33047,
+          "own_direction": 1,
+          "own_pairs": 1,
+          "affine_rank": 4,
+          "full_hist": [
+            16,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            9,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 287,
+          "own_direction": 1,
+          "own_pairs": 2,
+          "affine_rank": 4,
+          "full_hist": [
+            19,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "7": {
+      "1": [
+        {
+          "hist": [
+            12,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 127,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 3,
+          "full_hist": [
+            24,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "2": [
+        {
+          "hist": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 98583,
+          "own_direction": 16,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            10,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            3,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65823,
+          "own_direction": 4,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            13,
+            15,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            3,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 98583,
+          "own_direction": 1,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            10,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            5,
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65823,
+          "own_direction": 1,
+          "own_pairs": 2,
+          "affine_rank": 5,
+          "full_hist": [
+            13,
+            15,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            0,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 319,
+          "own_direction": 8,
+          "own_pairs": 1,
+          "affine_rank": 4,
+          "full_hist": [
+            18,
+            6,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            2,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 4383,
+          "own_direction": 5,
+          "own_pairs": 1,
+          "affine_rank": 4,
+          "full_hist": [
+            16,
+            9,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            3,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 4383,
+          "own_direction": 1,
+          "own_pairs": 2,
+          "affine_rank": 4,
+          "full_hist": [
+            16,
+            9,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 319,
+          "own_direction": 2,
+          "own_pairs": 2,
+          "affine_rank": 4,
+          "full_hist": [
+            18,
+            6,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            9,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 319,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 4,
+          "full_hist": [
+            18,
+            6,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "8": {
+      "1": [
+        {
+          "hist": [
+            12,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 255,
+          "own_direction": 1,
+          "own_pairs": 4,
+          "affine_rank": 3,
+          "full_hist": [
+            24,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "2": [
+        {
+          "hist": [
+            0,
+            9,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 69919,
+          "own_direction": 16,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            9,
+            16,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            0,
+            12,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 536936735,
+          "own_direction": 4,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            6,
+            22,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            0,
+            14,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 536936735,
+          "own_direction": 2,
+          "own_pairs": 2,
+          "affine_rank": 5,
+          "full_hist": [
+            6,
+            22,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            2,
+            6,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65855,
+          "own_direction": 8,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            11,
+            13,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            2,
+            8,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 69919,
+          "own_direction": 5,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            9,
+            16,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            2,
+            10,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 536936735,
+          "own_direction": 12,
+          "own_pairs": 1,
+          "affine_rank": 5,
+          "full_hist": [
+            6,
+            22,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            3,
+            8,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 69919,
+          "own_direction": 1,
+          "own_pairs": 2,
+          "affine_rank": 5,
+          "full_hist": [
+            9,
+            16,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            3,
+            9,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65855,
+          "own_direction": 2,
+          "own_pairs": 2,
+          "affine_rank": 5,
+          "full_hist": [
+            11,
+            13,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            3,
+            11,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 536936735,
+          "own_direction": 1,
+          "own_pairs": 2,
+          "affine_rank": 5,
+          "full_hist": [
+            6,
+            22,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            5,
+            7,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 65855,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 5,
+          "full_hist": [
+            11,
+            13,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 383,
+          "own_direction": 8,
+          "own_pairs": 1,
+          "affine_rank": 4,
+          "full_hist": [
+            17,
+            7,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            0,
+            5,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 1343,
+          "own_direction": 4,
+          "own_pairs": 2,
+          "affine_rank": 4,
+          "full_hist": [
+            16,
+            4,
+            9,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            0,
+            6,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 831,
+          "own_direction": 2,
+          "own_pairs": 2,
+          "affine_rank": 4,
+          "full_hist": [
+            18,
+            0,
+            12,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            2,
+            4,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 1343,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 4,
+          "full_hist": [
+            16,
+            4,
+            9,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            8,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 383,
+          "own_direction": 1,
+          "own_pairs": 3,
+          "affine_rank": 4,
+          "full_hist": [
+            17,
+            7,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "hist": [
+            9,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mask": 831,
+          "own_direction": 1,
+          "own_pairs": 4,
+          "affine_rank": 4,
+          "full_hist": [
+            18,
+            0,
+            12,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

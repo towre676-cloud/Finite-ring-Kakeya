@@ -1,0 +1,1 @@
+{"n": 4, "status": "FEASIBLE", "seconds": 1400.0, "bound": 15.0, "conjecture": 46, "value": 46.0, "profile": [16, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]}

@@ -1,0 +1,24 @@
+M11 support18 five-profile probe: frozen exploratory cross-check
+
+All five intended profiles have18 fibres, total weight93, and maximum11.
+The initially pasted E contained one extra weight2. Root explicitly confirmed
+the corrected E=11,8^6,6^2,4^2,2^7, which is the version actually tested.
+
+Global full-spectrum resource producer results (doubled demand992):
+A:986, a candidate exclusion by this independent numerical route.
+B:1030, not excluded by this relaxation.
+C:1024, not excluded by this relaxation.
+D:1008, not excluded by this relaxation.
+E:1010, not excluded by this relaxation.
+
+The screen used exact integer arithmetic, the previously independently verified
+complete pair-spectrum census, and the existing global matching resource formula.
+Separate matching-dual certificates were not exported for this small probe,
+because the structural branch independently closed all five profiles
+analytically before further probe work was required. Therefore no extra closure
+count is attributed to this probe; the structural proof and its independent
+replay are the authoritative M11 result.
+
+These files do not alter the frozen M19 counts, profile lists or certificates.
+The input JSON, native profile file, producer source and all five producer bounds
+are preserved. No additional search or spectral probe is running.

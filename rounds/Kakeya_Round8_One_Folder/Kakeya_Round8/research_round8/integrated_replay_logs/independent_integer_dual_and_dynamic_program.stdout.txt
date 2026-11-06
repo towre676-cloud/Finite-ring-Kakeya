@@ -1,0 +1,34 @@
+{
+  "status": "PASS_EXACT_INTEGER_DUAL_AND_INDEPENDENT_DP",
+  "seconds": 0.021,
+  "resource_table": {
+    "U_rank5_top9": {
+      "6": 9,
+      "7": 18,
+      "8": 35,
+      "9": 65,
+      "10": 114,
+      "11": 121
+    },
+    "W_rank3_top3": {
+      "4": 3,
+      "5": 12,
+      "6": 17,
+      "7": 27,
+      "8": 48
+    },
+    "W_rank_ge4_top3": {
+      "5": 3,
+      "6": 12,
+      "7": 17,
+      "8": 27,
+      "9": 48,
+      "10": 49,
+      "11": 51
+    }
+  },
+  "total_fourfold_upper": 2757,
+  "integer_resource_upper": 689,
+  "required_resource": 768,
+  "exact_fourfold_gap": 315
+}

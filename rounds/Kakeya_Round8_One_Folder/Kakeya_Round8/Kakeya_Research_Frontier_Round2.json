@@ -1,0 +1,223 @@
+{
+  "title": "Kakeya research continuation, round2",
+  "status": "VERIFIED_PARTIAL_THEOREMS_AND_EXCLUSIONS",
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/(epsilon^2)"
+  ],
+  "general_target": "3*2^n-2",
+  "unrestricted_general_theorem": "OPEN",
+  "dimension5_target": 94,
+  "unrestricted_dimension5_theorem": "OPEN",
+  "verified_small_dimension_minima_inherited": {
+    "1": 4,
+    "2": 10,
+    "3": 22,
+    "4": 46
+  },
+  "dimension5_strata": {
+    "maximum_at_most10": "EXCLUDED_INHERITED",
+    "maximum11": {
+      "status": "OPEN",
+      "new_necessary_pair_active_support_upper_bound": 17,
+      "previous_open_affine_support_classes": 130,
+      "new_whole_affine_support_class_exclusions": 73,
+      "remaining_affine_support_classes": 57,
+      "remaining_counts_by_support": {
+        "13": 4,
+        "14": 9,
+        "15": 16,
+        "16": 23,
+        "17": 5
+      },
+      "remaining_orbits": [
+        105,
+        109,
+        110,
+        111,
+        126,
+        130,
+        131,
+        132,
+        133,
+        134,
+        139,
+        141,
+        142,
+        151,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        177,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        201,
+        202,
+        203,
+        204,
+        367,
+        373,
+        374,
+        376,
+        377
+      ],
+      "exhaustive_weight_partitions_verified": 121336,
+      "resource_exclusions": 121147,
+      "analytic_geometry_exclusions": 189
+    },
+    "maximum12_through18": {
+      "status": "OPEN",
+      "new_necessary_pair_active_support_upper_bound": 18,
+      "exhaustive_weight_partitions_verified": 747922,
+      "exhaustively_excluded_supports": "19 through32",
+      "method_counts": {
+        "global_pair_mass_and_maximum_direction_quota": 747867,
+        "missing_directions_light_ports": 31,
+        "exact_spectrum_matching": 19,
+        "six_missing_directions_halfspace_obstruction": 1,
+        "three_missing_directions_triangle_obstruction": 1,
+        "unique_cap6_hub_savings": 3
+      },
+      "selected_additional_lower_support_weight_multisets_excluded": 23381,
+      "additional_cut_supports": "15 through18",
+      "count_scope": "These weight-multiset counts are separate from M19 profiles and M11 affine support classes."
+    },
+    "maximum19": {
+      "status": "OPEN",
+      "remaining_pair_active_support_sizes": [
+        11,
+        12
+      ],
+      "previous_selected_profiles": 69205,
+      "new_disjoint_whole_profile_exclusions": 38734,
+      "remaining_selected_profiles": 30471,
+      "supports": {
+        "11": {
+          "previous": 51173,
+          "new_exclusions": 29817,
+          "remaining": 21356
+        },
+        "12": {
+          "previous": 18032,
+          "new_exclusions": 8917,
+          "remaining": 9115
+        }
+      },
+      "stages": [
+        {
+          "method": "full_pair_spectra",
+          "total_exclusions": 22695,
+          "support11": 17398,
+          "support12": 5297
+        },
+        {
+          "method": "outside_support_pair_budget",
+          "total_exclusions": 1459,
+          "support11": 1437,
+          "support12": 22
+        },
+        {
+          "method": "paired_direction_blocks",
+          "total_exclusions": 7172,
+          "support11": 5918,
+          "support12": 1254
+        },
+        {
+          "method": "hub_inclusive_spectra",
+          "total_exclusions": 7383,
+          "support11": 5039,
+          "support12": 2344
+        },
+        {
+          "method": "actual_support_degrees",
+          "total_exclusions": 25,
+          "support11": 25,
+          "support12": 0
+        }
+      ]
+    },
+    "maximum_at_least20": "EXCLUDED_INHERITED"
+  },
+  "new_analytic_results": [
+    "Outside-support selector budget: sum p <= C(w,2)-t*(w-t), hence <=C(w-1,2) for positive own pair count.",
+    "Eight residues in F2^5 have at most25 nonzero differences; missing count is6 or at least9. If6, missing directions form an affine3-flat minus a line, and each residue has at most3 heavy neighbours through them.",
+    "Nine residues in F2^5 have at most28 nonzero differences.",
+    "Ten-heavy deletion/unique-edge inequality: light pair mass >=4r+k*max(0,3-r)>=min(3k,12), for heavy caps<=5 with k selected caps<=3 and light fibre sizes<=3.",
+    "Full-hub outer-cap6 theorem for n>=4: size>=3*2^n-2.",
+    "Full-hub outer-cap7 theorem for n>=5: size>=3*2^n-2, equality exactly generalized stars.",
+    "For r affine3-flat tangent fibres, the sum of actual quotient-sumset edge capacities<=8*floor(r^2/2). This is not a bound on the coarser scalar M(p,q). No profile cuts credited."
+  ],
+  "new_exact_halfspace_pair_square_energy": {
+    "13": 222,
+    "14": 301,
+    "15": 392,
+    "16": 512,
+    "17": 520,
+    "18": 561,
+    "19": 618,
+    "20": 712
+  },
+  "finite_censuses": {
+    "complete_pair_spectrum_counts_weights1_to19": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      5,
+      7,
+      9,
+      14,
+      16,
+      21,
+      24,
+      27,
+      30,
+      32,
+      30,
+      27,
+      24
+    ],
+    "paired_block_census": "independently complete via adapted affine-basis normalization",
+    "outside_support_degree_patterns": {
+      "11": 12,
+      "12": 18
+    }
+  },
+  "prior_checkpoint": {
+    "library_file_id": "libfile_484e32ac6d5081918c800c09cd6cf3d2",
+    "sha256": "f32a2dc052e12c483f5e7ddfbf3715edf22ffc3df82b35e55d020785e5c1200e",
+    "scope": "Inherited strata exclusions, exact small-dimensional minima, original selected M19 input census, prior16,841 profile cuts and balanced-two-image theorem."
+  },
+  "counting_caution": "M11 counts affine support classes; middle counts weight multisets; M19 counts selected weight/own-direction profiles. These are different objects and are not summed. Surviving relaxations are not Kakeya constructions.",
+  "next_mathematical_frontier": "Simultaneous residue adjacency, actual tangent subspaces, common shape choices and exact quotient lift coverage; no support17 M11 closure claimed."
+}

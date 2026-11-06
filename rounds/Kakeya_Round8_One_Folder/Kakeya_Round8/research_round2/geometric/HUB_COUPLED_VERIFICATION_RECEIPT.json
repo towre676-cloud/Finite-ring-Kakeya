@@ -1,0 +1,31 @@
+{
+  "status": "PASS_EXACT_INTEGER_HUB_DUAL_AND_PROFILE_REPLAY",
+  "census_sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+  "dual_file_sha256": "28adadab5d992237ea509753045b0a29f9251876ad2c0d3414ada985ef26a0a2",
+  "local_keys": 4824,
+  "spectrum_duals": 43524,
+  "verified_integer_inequalities": 10999576,
+  "supports": {
+    "11": {
+      "input_profiles": 26420,
+      "input_sha256": "e888e28d1b3b0083acf3813b02767d04691bf932b3772dc7a89652ed4fda0330",
+      "new_exclusions": 5039,
+      "prior_overlap": 0,
+      "remaining": 21381,
+      "minimum_gap_doubled": 1,
+      "certificate_sha256": "c9ce5ff3e8003add11b0901ad82b7a85091f5badd3fe9366354eb2dfdb68deba"
+    },
+    "12": {
+      "input_profiles": 11459,
+      "input_sha256": "03d70236ed3e9f5c5363faf6e141513753fea4bba353400b279add19414893b6",
+      "new_exclusions": 2344,
+      "prior_overlap": 0,
+      "remaining": 9115,
+      "minimum_gap_doubled": 2,
+      "certificate_sha256": "ad8157ac27c125d606e2a5f546e384edc6abc4c535d486d652a3c1319ab36dbf"
+    }
+  },
+  "total_new_exclusions": 7383,
+  "total_remaining": 30496,
+  "seconds": 4.780293703079224
+}

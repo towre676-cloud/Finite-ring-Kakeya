@@ -1,0 +1,449 @@
+{
+  "status": "PASS_READ_ONLY_ROUND8_EXTENDED_MERGE_AND_THEOREM_REVIEW",
+  "reviewer": "/root/support13_certification",
+  "source_sha256": {
+    "research_round8/merge_round8.py": "7e42fed8c151c001d9938306c88d4329cab9241b276d7600c199d3b7eaf6c3a5",
+    "research_round8/SUPPORT13_MAXIMUM11_THEOREM.txt": "88bf99bf2c767d9623dba73154b90dee1a1b0dbd98ae931815dd758d2fda2e86",
+    "research_round8/strengthened/compact/compact_certificates.py": "fd6b2cda41aa94ac6586c58b7733fd8ec968788ad5aac3a38d130eca12de139d",
+    "research_round8/strengthened/compact/COMPACT_CERTIFICATE_REPLAY.json": "429d3cee0ffd86653f8c04e8793dbd8b0a4453a0151ce5919661a28048dda8fb",
+    "research_round8/incidence/INCIDENCE_PROFILE_EXCLUSIONS_REPLAY.json": "c16ab6fdb54b125109fad599f4ce90bfa45ecec0797c0c4fc82dc91fdf742c23",
+    "research_round8/incidence/after_incidence_survivors.txt": "892032e51ecdac50c351759cba7b8b2eb42fa8c3b102583ac687780e7a0a4835",
+    "research_round8/incidence/EXTENDED_INCIDENCE_PROFILE_REPLAY.json": "ff42bd28862886e59718f4ff03b2eaa656937a3e2bc24a5e15ccd979aca6abf4",
+    "research_round8/incidence/after_extended_incidence_survivors.txt": "b15dc1e11b2c8f661cc30745e5a40a7239816c8166993f5324209aedeadb5a05",
+    "research_round8/incidence/EXTENDED_INCIDENCE_PROFILE_EXCLUSIONS.json": "51b60f9083281dace3cf6a1aba4099f80caef98c9eaa8548b3d5f2b5ac870d87",
+    "research_round8/incidence/verify_extended_incidence_profiles.py": "6da613dc592a2b0f55ff08e1d695a66551d254e82f579f9056c4b52ae64fa1f0",
+    "VERIFY_ROUND8.py": "1666f94e5291b32f4e236bccb1bbf6f3b94f505db5921bd57f61c5b0b32b6003",
+    "research_round8/incidence/SUPPORT13_MAX15_HEAVY_COROLLARY.md": "80673ba770f061123e9a984e299ec1d3b948650ff268ce84f34c67adc4d4b407",
+    "MANIFEST_ROUND7.json": "7646c5f0c2664a9206666cdbf1ff9ae7b920af0badeb952c3ae0aa00e19d9ae9",
+    "research_round8/strengthened/compact/COMPACT_CERTIFICATE_MANIFEST.json": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+    "research_round8/incidence/verify_incidence_profile_exclusions.py": "99b30853580d4372056b9fd5ce89aedbcc33155de3d12ce6b4b9b7ccc96d494e",
+    "research_round8/incidence/INCIDENCE_PROFILE_EXCLUSIONS.json": "5afcdb87d3711760d6854db2c9a822ce4f43406e606d6b09567ed043f7de156a"
+  },
+  "control_count": 50,
+  "controls": [
+    {
+      "control": "valid_complete_merge",
+      "expected_success": true,
+      "status": "PASS_EXACT_ROUND8_FRONTIER_ACCOUNTING",
+      "exception": null,
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "inherited_manifest_changed",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Inherited manifest changed')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_case_status",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_marked_role",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_maximum_interval",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_mode",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_representation",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_checked_proof_hash",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh replay row has different status or mathematical meaning')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "missing_exclusion_credit",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh case lacks exact proof binding')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_checked_case_id",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Checked-case IDs differ from the compact inventory')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "duplicate_checked_case",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Exactly four checked new cases required')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "incomplete_checked_inventory",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Exactly four checked new cases required')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "wrong_exact_cnf_binding",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Fresh case lacks exact proof binding')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "incomplete_full_replay",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('A complete accepted compact replay is required')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_status",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence whole-profile replay has not passed for this exact ledger')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_input_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence receipt has stale or mismatched file binding: research_round7/charging/after_integer_dual_survivors.txt')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_certificate_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence receipt has stale or mismatched file binding: research_round8/incidence/INCIDENCE_PROFILE_EXCLUSIONS.json')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_survivor_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence receipt has stale or mismatched file binding: research_round8/incidence/after_incidence_survivors.txt')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_verifier_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence profile verifier changed after its replay')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_whole_profiles_excluded",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence whole-profile replay has not passed for this exact ledger')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_source_line",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence receipt coverage differs from the independent complete scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "profile_wrong_analytic_pin",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Incidence proof premises differ from the replay')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "dropped_surviving_profile_byte",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('New survivor file does not preserve exactly the unexcluded profile bytes')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_status",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_original_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_intermediate_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_previously_excluded_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_newly_excluded_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_cumulative_excluded_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_remaining_profiles",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended profile replay lacks the exact accepted counts')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_original_input_file",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt has stale or mismatched file binding: research_round7/charging/after_integer_dual_survivors.txt')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_original_input_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt has stale or mismatched file binding: research_round7/charging/after_integer_dual_survivors.txt')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_certificate_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt has stale or mismatched file binding: research_round8/incidence/EXTENDED_INCIDENCE_PROFILE_EXCLUSIONS.json')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_survivor_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt has stale or mismatched file binding: research_round8/incidence/after_extended_incidence_survivors.txt')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_verifier_sha256",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended incidence verifier changed after replay')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_scope",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended incidence receipt or certificate has the wrong mathematical scope')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_analytic_proof_pins",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt premise binding changed: analytic_proof_pins')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_missing_analytic_proof_pins",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt premise binding changed: analytic_proof_pins')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_prior_stage_pins",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt premise binding changed: prior_stage_pins')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_missing_prior_stage_pins",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt premise binding changed: prior_stage_pins')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_false_flag_every_original_source_line_accounted_for",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_false_flag_every_retained_original_line_preserved_byte_identically_and_in_order",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_false_flag_direct_and_intermediate_frontier_regeneration_identical",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_false_flag_prior_sixteen_semantic_artifacts_unchanged",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_false_flag_inherited_energy_metadata_used_in_exclusion",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_excluded_original_source_lines",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_previously_excluded_original_source_lines",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_wrong_newly_excluded_original_source_lines",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt coverage differs from the independent cumulative scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_dropped_survivor_byte",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended survivor bytes differ from the independent original-frontier scan')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    },
+    {
+      "control": "extension_changed_certificate_bytes",
+      "expected_success": false,
+      "status": "FAIL",
+      "exception": "ValueError('Extended receipt has stale or mismatched file binding: research_round8/incidence/EXTENDED_INCIDENCE_PROFILE_EXCLUSIONS.json')",
+      "publications_redirected_in_memory": true,
+      "begins_with_running": true
+    }
+  ],
+  "whole_class_result": {
+    "new_marked_roles": 4,
+    "new_affine_classes": [
+      109,
+      110,
+      111
+    ],
+    "remaining_affine_classes": 42,
+    "combined_direct_marked_coverage": "39 of 55",
+    "full_support13_maximum11_closure_uses_inherited_reduction": true
+  },
+  "separate_whole_profile_result": {
+    "excluded": 128,
+    "remaining": 183348,
+    "initial16_included": true,
+    "additional_exclusions": 112,
+    "sat_role_exclusions_used": false
+  },
+  "theorem_note_review": "Scope, common-ring carry translation, conditional inherited encoder/census trust, four new versus 39 combined marked cases, and separation of 128 cumulative whole-profile exclusions (16 + 112) are accurate.",
+  "blocking_issues": [],
+  "fresh_sat_or_certificate_replays_run": false,
+  "compact_inventory_bytes_and_sources_validated_once": true,
+  "all_merge_writes_were_redirected_in_memory": true,
+  "inherited_sources_and_other_agent_artifacts_written": false
+}

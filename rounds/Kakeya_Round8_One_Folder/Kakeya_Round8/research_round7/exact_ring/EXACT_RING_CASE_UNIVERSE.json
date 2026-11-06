@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "n2_z4_s3_budget9",
+    "dimension": 2,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      2
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 9,
+    "normalize": true,
+    "purpose": "complete_dimension2_lower_bound"
+  },
+  {
+    "case_id": "n2_z4_s4_budget9",
+    "dimension": 2,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 9,
+    "normalize": true,
+    "purpose": "complete_dimension2_lower_bound"
+  },
+  {
+    "case_id": "n2_z4_s4_budget10",
+    "dimension": 2,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 10,
+    "normalize": true,
+    "purpose": "dimension2_concrete_upper_bound"
+  },
+  {
+    "case_id": "n2_dual_s3_budget9",
+    "dimension": 2,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 9,
+    "normalize": true,
+    "purpose": "complete_dimension2_lower_bound"
+  },
+  {
+    "case_id": "n2_dual_s4_budget9",
+    "dimension": 2,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 9,
+    "normalize": true,
+    "purpose": "complete_dimension2_lower_bound"
+  },
+  {
+    "case_id": "n2_dual_s4_budget10",
+    "dimension": 2,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 10,
+    "normalize": true,
+    "purpose": "dimension2_concrete_upper_bound"
+  },
+  {
+    "case_id": "n5_z4_s13_T1022358_m2_18_budget93",
+    "dimension": 5,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "maximum": 18,
+    "hub_min": 2,
+    "total": 93,
+    "normalize": true,
+    "purpose": "new_support13_exact_ring_diagnostic"
+  },
+  {
+    "case_id": "n5_dual_s13_T1022358_m2_18_budget93",
+    "dimension": 5,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "maximum": 18,
+    "hub_min": 2,
+    "total": 93,
+    "normalize": true,
+    "purpose": "new_support13_exact_ring_diagnostic"
+  }
+]

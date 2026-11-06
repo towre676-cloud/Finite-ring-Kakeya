@@ -1,0 +1,9 @@
+s13_T10069398_m2_18_exactshape_first_attack PASS_REGENERATION_ONLY_NO_EXCLUSION
+s13_T10069398_m18_18_exactshape_first_attack PASS_REGENERATION_ONLY_NO_EXCLUSION
+{
+  "status": "PASS_ALL_EXACT_SHAPE_TRIAL_REGENERATIONS_AND_COMPLETED_PROOFS",
+  "checked_cases": 2,
+  "accepted_proofs": 0,
+  "uncertified_cases": 2,
+  "seconds": 1.432814
+}

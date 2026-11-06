@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "accepted_certificates": 2,
+  "uncertified_timeouts": 2,
+  "distinct_marked_support_exclusions": 1,
+  "seconds": 7.720723
+}

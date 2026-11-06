@@ -1,0 +1,124 @@
+SHARED PERIODS AND ROOTED LOW-RANK CAPACITY
+
+Scope: both Z/4Z and F2[epsilon]/(epsilon^2), in arbitrary binary dimension.
+These are analytic compatibility theorems. Profile exclusions using them
+must separately quantify over every permitted shape mode and support.
+
+1. EXACT COVERAGE OBJECT
+
+Let V=F2^n and let A_a be the tangent fibre at residue a. For d!=0 write
+P_a(d)={x+<d>: x and x+d belong to A_a}, a subset of Q_d=V/<d>.
+Its size is p_a(d), the number of unordered d-pairs in A_a. The actual
+capacity of an edge {a,b}, d=a+b, is
+
+    C_ab=|P_a(d)+P_b(d)+c_R(a,d)|.
+
+The carry c_R is a quotient translation. All bounds below hold uniformly
+over internal translations and both ring carries. Empty pair sets give
+capacity zero.
+
+2. SHARED OWN-PERIOD THEOREM
+
+Translate a distinguished hub residue to zero. Let a,b be distinct nonzero
+residues. Suppose A_a+a=A_a and A_b+b=A_b. Then, on d=a+b,
+
+    p_a(d) and p_b(d) are even,
+    C_ab <= p_a(d)*p_b(d)/2.                              (P)
+
+Proof. The class h=a+<d>=b+<d> is nonzero: otherwise a is0 or d,
+which would make a or b zero. Translation by a preserves every d-pair in
+A_a, so P_a(d)+h=P_a(d). Similarly P_b(d)+h=P_b(d). Each pair set is
+a union of two-element h-orbits, proving evenness. The involution
+(u,v)->(u+h,v+h) on P_a(d) x P_b(d) is fixed-point-free and leaves u+v
+unchanged. Every output therefore has at least two representations, and
+(P) follows. The empty cases are immediate.
+
+More generally, if P,Q share a translation-period subgroup H, then
+|P+Q|<=|P||Q|/|H|, by the same diagonal H-action. The own-period theorem
+forces such an H without knowing the detailed shapes.
+
+3. TWO OWN-POSITIVE LOW-RANK FIBRES
+
+For each selected nonzero residue a, suppose the affine hull of A_a has
+direction space H_a of dimension at most k, and p_a(a)>0. Thus a lies in H_a.
+For an active edge to b, d=a+b lies in H_a and H_b. Hence
+
+    span(a,b) subset H_a intersect H_b.
+
+Because a,b are distinct nonzero binary vectors, this span has dimension2.
+The pair-label set P_a(d) lies in an affine subspace of Q_d with direction
+H_a/<d>. Consequently
+
+    C_ab <= 2^(dim H_a + dim H_b - dim(H_a intersect H_b)-1)
+         <= 2^(2k-3).                                   (R1)
+
+In particular k=3 gives an actual edge cap8 for any two own-positive
+fibres of affine rank at most3, including appropriate six-, seven-, and
+eight-point fibres. It is not a bound on the coarser scalar M(p,q).
+
+4. OUTSIDE-SUPPORT SUBGRAPH THEOREM
+
+Let S contain0 and r distinct nonzero selected residues. At every selected
+residue a, assume the fibre has affine rank at most k and p_a(a)>0, with
+k>=2. Consider only selected-selected edges {a,b} whose direction a+b
+lies outside S. Then
+
+    sum C_ab <= 2^(2k-4)*floor(r^2/2).                    (R2)
+
+For k=3 this is4*floor(r^2/2), giving72 for six selected fibres.
+For k=2 it is floor(r^2/2). No affine-flat assumption is necessary: only
+the dimension bound on each fibre's affine hull is used.
+
+Proof. Put L=2^(2k-4). Equation(R1) bounds every edge by2L. Consider a
+triangle of positive outside-support edges, with residues a,b,c. The three
+residues are linearly independent: the only possible dependence among
+three distinct nonzero binary vectors would be a+b=c, but then the edge
+direction a+b belongs to S. At vertex a, own positivity and the active
+edges put a,b,c in H_a; the same holds at the other two vertices. Thus
+span(a,b,c) lies in all three direction spaces and has dimension3.
+
+If k=2, such a triangle is impossible. If k>=3, every edge in it has
+actual capacity at most2^(2k-4)=L. Therefore an edge of capacity greater
+than L has no common neighbour joined positively to both endpoints.
+
+Normalize edge weights by L. All weights are in[0,2]. Every edge of weight
+greater than1 belongs to no positive triangle. The total weight is at most
+floor(r^2/2), by induction. If all edges have weight at most1, use
+binom(r,2)<=floor(r^2/2). Otherwise remove an edge uv of weight>1 and its
+endpoints. Every other vertex meets at most one of u,v positively, so the
+removed weight is at most2+2(r-2)=2r-2. Induction on r-2 gives
+
+    2r-2+floor((r-2)^2/2)=floor(r^2/2).
+
+Multiplying by L proves(R2). This proof permits arbitrary real edge
+weights in[0,2]; it does not assume every actual sumset is a power of two.
+
+5. SAFE COMBINATION WITH OTHER HEAVY-EDGE DEFICITS
+
+Suppose a heavy-edge baseline B has certified endpoint losses l_v, and a
+selected low-rank subgroup U has baseline B_U but actual subgroup capacity
+at most C_U. Let D_U=max(0,B_U-C_U). Endpoint losses at vertices outside U
+charge only edges not internal to U. Their combined loss is at least
+
+    D_out=max(max_{v not in U} l_v, ceil(sum_{v not in U}l_v/2)).
+
+The internal loss D_U and this external loss concern disjoint edge sets.
+Thus a valid total loss lower bound is
+
+    max(max_v l_v, ceil(sum_v l_v/2), D_U+D_out).
+
+It would generally be invalid to add D_U to the total endpoint-loss bound,
+because the latter may already charge the same internal edges.
+
+6. FINITE CONTROLS AND SCOPE
+
+verify_shared_geometry.py checks the shared-period involution exhaustively
+on normalized independent residues in F2^4, checks the low-rank flat edge
+and triangle geometry directly in F2^5, and exhausts weighted graphs through
+five vertices. These controls supplement the analytic proofs; they do not
+replace their arbitrary-dimensional arguments.
+
+The prior round's unrooted cube theorem remains valid. The stronger bound
+here uses the own-positive hypothesis and restriction to directions outside
+the support; omitting either hypothesis would invalidate this stronger
+argument. All exclusion counts are recorded separately in branch ledgers.

@@ -1,0 +1,21 @@
+{
+  "status": "PASS_INDEPENDENT_MODEL_MATHEMATICAL_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "document": "research_round7/dimension3/DIMENSION3_ELEMENTARY_PROOF.md",
+  "sha256": "c314e8655de48575d3dc3609a840587a5bf638cb0c0e1026dcc7a928e0128185",
+  "scope": "Read every case and re-derived all numerical bounds, capacities and budget implications. No SAT outcomes used as premises.",
+  "checked_arguments": [
+    "Fibre reduction, singleton removal, seven directions times four lifts, the coverage inequality and the energy threshold 56.",
+    "The complete local weight 2 through 8 pair table follows from pair counting and the complement identity p_A = w - 4 + p_B.",
+    "Support five is an affine plane plus one central point, with four unique spokes. The weight-five central case uses an intersection of at most two points with a linear two-space. The full-centre case correctly forces small fibres to support all three or two plane directions, violating the outer budget thirteen.",
+    "For support six, missing directions a and b give perfect matchings on the complementary coset of span(a,b). The maximum-eight and maximum-seven outer budgets close as stated. The two affine four-point fibres must share the direction space when needed, giving capacity two independently of the carry.",
+    "The heavy/light inequality (8) is valid: outside D(H), charge each edge to one light endpoint with pair count at most one. The ordinary cost is at most twice that count. Each six-point fibre contributes at most one additional unit, from its unique three-pair direction. Direction-edge uniqueness bounds all light charges by C0.",
+    "For support six, h is at most three. The h=1 energy bound 48, h=2 bounds C0<=10 and n6<=2 giving 24<=22, and h=3 bounds C0<=5 and n6<=1 giving 16<=11 are all correct.",
+    "The support-seven maximum-seven exception locks all five two-point fibres to the missing direction. Remaining coverage then fails. The other energy and budget bounds are correct.",
+    "The support-eight profile of one seven and seven twos has x+2y<=7 and capacity at most 3x+y<=21<28. Lower-maximum energy bounds are correct.",
+    "The twenty-two-point construction contains the displayed line for every primitive direction in both rings. Literal ring multiplication confirms the four listed points."
+  ],
+  "conclusion": "The standalone elementary proof establishes k_R(3)=22 for both rings, without a spectrum census, support-orbit enumeration or SAT assumptions. Full proof-assistant formalization remains separate.",
+  "original_reviewed_sha256": "c6e3963e785feaf0482c65cbcc4930a8cd0cb567987699ca2553e262e2f9022b",
+  "final_formatting_review": "Inspected the final typeset version and the heavy-vertex wording clarification; mathematical argument unchanged."
+}

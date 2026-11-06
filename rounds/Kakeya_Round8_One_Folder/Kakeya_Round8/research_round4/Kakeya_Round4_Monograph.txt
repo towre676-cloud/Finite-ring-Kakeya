@@ -1,0 +1,75 @@
+KAKEYA OVER FOUR-ELEMENT RINGS: WHAT THE AUDIT CHANGED
+
+**The theorem is still open**
+
+Our project studies Kakeya sets over Z/4Z and F2[epsilon]/(epsilon^2). Such a set must contain a complete four-point line in every primitive direction. The proposed minimum in dimension n is 3*2^n-2. In dimension five, the familiar generalized-star construction has 94 points, and the lower-bound problem is to exclude every set with at most 93.
+
+Round Three established useful exclusions, but its presentation gave too little attention to the unexplored region beneath its support bounds. Round Four addresses that weakness directly. We have replaced one crucial census input by an analytic theorem, enumerated the middle branch's weight profiles, implemented a precise type-based optimization model, and formalized a bounded part of the argument in Lean. None of these steps proves the unrestricted 94-point lower bound.
+
+**What the fibres must accomplish**
+
+Reduction to binary coordinates divides the ambient space into residue classes. At each residue sits a tangent fibre, a subset of F2^5. A primitive line uses a pair of tangent points in each endpoint of a residue edge. If p_A(d) counts unordered pairs separated by direction d, then sum_d p_A(d)=binom(|A|,2).
+
+There are 31 nonzero residue directions, each with sixteen lifted directions to cover. Thus total coverage must reach 496. Pair-square energy, Q(A)=sum_d p_A(d)^2, gives the necessary inequality sum_A Q(A)>=992. This follows by applying 2pq<=p^2+q^2 to every edge, with each fibre-direction incidence charged at most once.
+
+The support contains residues whose fibres have at least two points. Singleton fibres cannot participate in a primitive line. The support must determine every nonzero binary difference. The elementary pair count suggests support at least nine, but the inherited nine-point theorem gives at most twenty-eight differences. Consequently the remaining middle range begins at support ten, not nine.
+
+**The fragile energy value now has a proof**
+
+The last support-eighteen exclusion used an upper bound of 991 against required doubled coverage 992. Its critical input was Q_max(12)=300. An exact one-unit gap is sufficient, but every premise supporting it deserves scrutiny.
+
+We now prove analytically that every twelve-point binary set has energy at most 300, in every dimension where such sets exist. Equality holds exactly when the set is an affine four-flat with an affine plane removed.
+
+The starting identity is universal:
+
+ Q(A)=binom(|A|,2)+6 Z_4(A),
+
+where Z_4 counts affine planes. Two distinct pairs with the same difference form a plane, and each plane contributes through its three nonzero directions. This proves the identity for every fibre size.
+
+At affine rank four, twelve points occupy a sixteen-point flat. Their complement has four points. Direct complement counting gives Q(A)=288+Q(complement). Four points have energy twelve when they form a plane and six otherwise. The possible energies are therefore exactly 300 and 294.
+
+At rank five, hyperplane second moments force some hyperplane to contain at least eight points. Splitting the set into its two hyperplane parts gives an exact energy identity involving their individual energies and common pair directions. The splits nine-plus-three, ten-plus-two, eleven-plus-one, and eight-plus-four all have energy at most 222. The last case uses only cube, plane, and tetrahedron coset occupancies.
+
+At rank at least six, the augmented relation code bounds the number of affine planes and gives energy at most 252. Thus only rank four can attain 300. A new implementation, reading no earlier census, also checks all 230,560 affine-basis-normalized twelve-sets in F2^5. It independently counts pairs and planes and reproduces maxima 300 and 222 in ranks four and five. The enumeration corroborates the analytic proof.
+
+**The middle branch now has a denominator**
+
+For maximum fibre sizes twelve through eighteen, the previous support-eighteen closure leaves supports ten through seventeen. These eight support sizes and seven maxima give fifty-six cells. Padding existing fibres to total size 93 preserves every line and provides an exhaustive normalization.
+
+There are 2,163,945 normalized weight profiles in this region. Before the final priced stage, the accepted resource, geometry, spectrum, and joint cube-energy screens leave 276,267 profiles. A final priced stage excludes another 512, leaving 275,755. It closes the support-seventeen, maximum-eighteen cell; the other fifty-five cells remain represented. The updated ledger supplies the exact survivor list and stage accounting.
+
+This is an inventory of weights, not residue placements or fibre shapes. Its size makes the remaining task visible. The maximum-eleven branch still has forty-six affine support classes; the maximum-nineteen branch still has 3,798 tracked weight/own-direction profiles. Those objects differ, so their counts cannot be combined into a fraction of the conjecture completed.
+
+The inventory also tests strategy. Smaller support does not automatically make every numerical bound weaker: there are fewer available incidences, while fibres become heavier. Both effects matter. We should measure their competition across the full ledger rather than infer convergence from one successful boundary case.
+
+**A common-type optimization model**
+
+The useful next variable describes a fibre's actual geometry. An affine shape class alone is insufficient. Its orientation determines which residue directions receive its pairs, and its translation determines the quotient labels those pairs supply. Every incident edge must use the same orientation and translation.
+
+The energy theorem supplies concrete types for this program. A twelve-point fibre of energy 300 has three directions with six pairs, twelve with four pairs, and sixteen with none. Its period subgroup is the removed plane's two-space. The other rank-four type has energy 294, six directions with five pairs and nine with four, with no nonzero period. Every rank-five twelve-point fibre has energy at most 222. These distinctions can force common geometric choices across many edges. A useful strengthening also optimizes Q(A)+2H_A over one spectrum: the fibre that contributes energy must be the same fibre that contributes the cube-edge surplus. Maximizing those two resources separately can spend incompatible extremizers. The supplied proofs and receipts document each claim.
+
+The implemented finite-domain model assigns variables to node types and endpoint-type pairs. Marginal equations force every edge to agree with its endpoints' type choices. Coverage rows require either enough capacity or coverage of each specific quotient label. With integral node choices and complete embedded type domains, the label formulation describes actual realizability.
+
+Relaxing the variables gives a necessary linear program. Infeasibility can yield a rational dual certificate, verified after clearing denominators by integer arithmetic. Every permitted type must be covered. A restricted search over attractive examples cannot certify the full problem unless omitted types are bounded by a complete pricing argument.
+
+Weighted AM-GM fits this framework. For positive theta, pq is at most half of theta*p^2+theta^(-1)*q^2. An edge with counts nine and one costs forty-one under the symmetric bound but only nine at theta=1/9. The weighting must remain valid throughout the common-type optimization. Several existing screens already retain sharper edge products; global consistency is the important additional constraint.
+
+**Carry and fractional consistency**
+
+The ring carry translates an edge's quotient label set. Translation preserves cardinality, so adding carry to a table containing only capacities cannot distinguish the rings. Ring dependence must enter the labelled coverage rows and the shared translation constraints from the start.
+
+A complete dimension-two example makes the distinction concrete. Take all four residue classes, each with a three-point fibre. Each fibre is a four-point plane with one point omitted, so there are 256 choices of the four omitted points. Direct ring arithmetic finds zero realizations over dual numbers and sixty-four over Z/4Z. The difference is an incompatible versus compatible system of translation parity equations.
+
+Nevertheless, the basic label LP has a feasible uniform fractional solution for both rings. Every pairwise marginal agrees, although the dual-number marginals cannot arise from any global choice. This example concerns one profile, not the unrestricted minima. It shows why ring-aware edge tables still need cycle constraints, higher-order marginals, or certified geometric cuts.
+
+**What Lean now verifies**
+
+A pinned Lean module proves thirteen finite-sum and algebraic theorems. Its main result derives the doubled cube master bound from injective energy-slot assignments, seven incidence slots per cube, local capacity inequalities, and an explicit bound on expensive cube edges. The energy cannot be spent twice. The module also proves weighted AM-GM, the local surplus arithmetic, and all six final numerical contradictions.
+
+The geometric construction of those injections, the cube triangle lemma, Mantel's application, the binary-set energy identity, and the twelve-point classification remain outside this formalization. The module does not prove the support-eighteen theorem by itself. Model-agent cross-checks are separately written checks, not independent human mathematical review.
+
+**The next proof obligation**
+
+The full-hub theorem assumes n>=6, one full residue fibre, and at most twelve points in every other fibre. It gives the sharp lower bound and generalized-star equality classification under those hypotheses. It does not force a hub into a hypothetical small configuration. In dimension five, the inherited large-fibre exclusion removes every subthreshold full hub. In higher dimensions, full hubs with larger outer fibres remain outside this conditional theorem.
+
+The next task is to turn the explicit weight inventory into compatible embedded shapes, enforce shared translations and ring-specific labels, and produce exact exclusions that cover every permitted choice. This checkpoint supplies stronger premises and a testable optimization architecture, while preserving a clear boundary between proved statements and the substantial work still open.

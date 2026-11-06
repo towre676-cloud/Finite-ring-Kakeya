@@ -1,0 +1,193 @@
+{
+  "method": "independent tuple arithmetic, exhaustive finite census, exact integer transforms",
+  "rings": {
+    "Z4": {
+      "subsets_checked": 65536,
+      "minimum": 10,
+      "minimum_sets": 32,
+      "counts_by_size": {
+        "10": 32,
+        "11": 240,
+        "12": 692,
+        "13": 560,
+        "14": 120,
+        "15": 16,
+        "16": 1
+      },
+      "equality_profiles": {
+        "4,2,2,2": 32
+      },
+      "extremal_masks": [
+        7607,
+        11899,
+        16234,
+        16277,
+        18413,
+        22268,
+        23027,
+        26063,
+        27199,
+        29918,
+        31534,
+        31697,
+        35806,
+        38207,
+        39631,
+        42739,
+        43516,
+        46877,
+        47074,
+        47341,
+        53093,
+        53146,
+        53627,
+        56948,
+        56971,
+        58039,
+        60743,
+        60856,
+        62297,
+        62374,
+        64598,
+        64681
+      ],
+      "line_partitions": 6,
+      "fibre_identity_disagreements": 0
+    },
+    "D2": {
+      "subsets_checked": 65536,
+      "minimum": 10,
+      "minimum_sets": 32,
+      "counts_by_size": {
+        "10": 32,
+        "11": 240,
+        "12": 628,
+        "13": 560,
+        "14": 120,
+        "15": 16,
+        "16": 1
+      },
+      "equality_profiles": {
+        "4,2,2,2": 32
+      },
+      "extremal_masks": [
+        7607,
+        11899,
+        16234,
+        16277,
+        18413,
+        22268,
+        23027,
+        26063,
+        27199,
+        29918,
+        31534,
+        31697,
+        35806,
+        38207,
+        39631,
+        42739,
+        43516,
+        46877,
+        47074,
+        47341,
+        53093,
+        53146,
+        53627,
+        56948,
+        56971,
+        58039,
+        60743,
+        60856,
+        62297,
+        62374,
+        64598,
+        64681
+      ],
+      "line_partitions": 6,
+      "fibre_identity_disagreements": 0
+    }
+  },
+  "same_minimum_family": true,
+  "complete_ring_comparison": {
+    "Z4_only": {
+      "12": 64
+    },
+    "D2_only": {},
+    "both": {
+      "10": 32,
+      "11": 240,
+      "12": 628,
+      "13": 560,
+      "14": 120,
+      "15": 16,
+      "16": 1
+    }
+  },
+  "local_tables": {
+    "1": {
+      "subsets_checked": 4,
+      "distinct_profiles": 3,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      }
+    },
+    "2": {
+      "subsets_checked": 16,
+      "distinct_profiles": 7,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 1
+      }
+    },
+    "3": {
+      "subsets_checked": 256,
+      "distinct_profiles": 46,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 7,
+        "3": 7,
+        "4": 14,
+        "5": 7,
+        "6": 7,
+        "7": 1,
+        "8": 1
+      }
+    },
+    "4": {
+      "subsets_checked": 65536,
+      "distinct_profiles": 3967,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 15,
+        "3": 35,
+        "4": 140,
+        "5": 273,
+        "6": 526,
+        "7": 715,
+        "8": 555,
+        "9": 715,
+        "10": 526,
+        "11": 273,
+        "12": 140,
+        "13": 35,
+        "14": 15,
+        "15": 1,
+        "16": 1
+      }
+    }
+  },
+  "equality_count_correction": {
+    "range_n_ge_2": "2^n * 2^((n-1)*(2^n-1))",
+    "n1_actual": 1,
+    "n1_unrestricted_formula": 2
+  },
+  "seconds": 1.744047
+}

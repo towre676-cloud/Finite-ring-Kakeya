@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CURRENT_BYTES_BOUND_TO_COMPLETED_FULL_REPLAYS",
+  "fresh_proof_checker_execution_in_this_script": false,
+  "collections": [
+    {
+      "collection": "exact_ring",
+      "receipt": "research_round7/exact_ring/EXACT_RING_CERTIFICATE_REPLAY.json",
+      "receipt_sha256": "dbe45464d9989df0e970b2c964710b79e95f9fabd566a649dc5d9b1c0f8bd20d",
+      "cases": 18,
+      "full_replay_bound": true
+    },
+    {
+      "collection": "support13",
+      "receipt": "research_round7/compact_support13/COMPACT_SUPPORT13_REPLAY.json",
+      "receipt_sha256": "94e07c1f4152c3b5e49a7467b3a2090efa438b1b32f4cc72b1931948d18ebbc9",
+      "cases": 48,
+      "full_replay_bound": true
+    },
+    {
+      "collection": "dimension4",
+      "receipt": "research_round7/dimension4_compact/COMPACT_DIMENSION4_REPLAY.json",
+      "receipt_sha256": "7e63945feba52c8744dd2edda364cd86318d95924d546abb3b7c427fc8ce2e07",
+      "cases": 56,
+      "full_replay_bound": true
+    }
+  ],
+  "lean_compilation_receipts_bound": [
+    {
+      "module": "SHEAR",
+      "receipt_sha256": "83990dff57b7e2215eb2f7e1493ff5aa404cce351ea0c820cda697db2340ee3a",
+      "statements": 10
+    },
+    {
+      "module": "CHARGING",
+      "receipt_sha256": "a7f827d161e658c339d0dda32b0c54ec64ad0bdf145e802be19585170ad006c0",
+      "statements": 4
+    }
+  ],
+  "scope": "Receipt and source/payload binding only. The cited full replay receipts record actual checker executions. Run VERIFY_ROUND7.py without --reuse-checked-certificates for fresh proof checking."
+}

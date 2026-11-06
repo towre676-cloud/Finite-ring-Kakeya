@@ -1,0 +1,100 @@
+ROOT MATHEMATICAL REVIEW — RESEARCH ROUND 3
+
+The unrestricted lower bound 3*2^n-2 remains open in this project. The
+following statements have been reviewed as conditional theorems or necessary
+conditions; no feasible relaxation is treated as a Kakeya construction.
+
+1. SHARED PERIODS AND ROOTED AFFINE RANK — PASS
+
+For an offhub residue edge a,b with d=a+b, own periods a and b induce the
+same nonzero quotient period modulo <d>. The diagonal period action on the
+two label sets is free and preserves their sum, giving the actual sumset
+upper bound pq/2. Off-own pair counts are consequently even. For own-positive
+rank-at-most-k fibres, an active edge forces span(a,b) into both tangent
+direction spaces, giving capacity at most2^(2k-3). A triangle of positive
+edges with directions outside the support forces three independent residue
+vectors into each tangent direction space. Its edge capacities are at most
+2^(2k-4). The weighted-graph induction then gives the subgroup total
+2^(2k-4)*floor(r^2/2). This argument does not assume nonflat sumsets have
+power-of-two size. The endpoint deficit combination is valid only with the
+disjoint-edge accounting stated in the proof.
+
+2. FULL HUB, OUTER CAP TWELVE, ALL n>=6 — PASS
+
+The F2^5 energy table extends to all binary dimensions: affine rank at least
+six yields at most2^(w-7)-1 affine planes for w<=12 through the augmented
+relation code, and these energy bounds are strictly smaller than the
+attained table maxima. The defect inequality counts low outer residues and
+uses the exact point-excess budget. The two knapsack recurrences agree for
+z=2..12. The large-z argument gives N<=3817/60<64. The remaining z=1
+configuration fails a second direction, and z=0 forces the generalized
+star. A separate structural reviewer independently checked this proof and
+all15,756 small cost allocations. This result requires a full hub; that
+hypothesis has not been established for arbitrary small Kakeya sets.
+
+3. MAXIMUM ELEVEN, SUPPORT SEVENTEEN — PASS
+
+The complete assignment-envelope certificates and explicit remaining
+placements were independently replayed. The P and R reductions use the
+sum-free missing set and equality in cube-pair budgets. The Q reduction
+requires an eight-point fibre to carry four independent translation periods,
+which is impossible because a nonempty set invariant under the generated
+four-space has size divisible by16. All five previously surviving
+support-seventeen affine classes are excluded. This proves support<=16,
+subject to the explicitly inherited complete affine-support reduction.
+
+The new nine-point equality normal form was also checked analytically:
+one triple-pair direction supplies a six-point subset of a three-space,
+and the three extra points occupy the three nonzero quotient cosets. The
+three missing directions are independent. This is a structural lemma,
+not an assumption that an arbitrary missing set is a character halfspace.
+
+4. MIDDLE MAXIMA, SUPPORT EIGHTEEN — PASS
+
+Root read the complete resource lemma, the maximum-sixteen equality proof,
+the cube-energy proof, the final theorem overview, and the full independent
+verifier. Root reran all239,246 normalized partitions and obtained PASS:
+238,744 inherited quota cuts,217 inherited spectrum cuts,277 new resource
+cuts, and8 final analytic cuts, with zero survivors. All seven maxima12..18
+therefore have pair-active support<=17, combining the frozen earlier result.
+
+The priced missing-direction bounds count distinct residue neighbors and
+use a slope at most32 when extrapolating from a minimum missing-direction
+count. The three-heavy exceptional vertex is unique because three maximal
+directions of quota three form a binary plane. The deleted-direction bound
+retains all three correlated pair counts in that plane. A missing set for
+more than eight heavy bases is sum-free, giving the stated Mantel bound.
+
+The maximum-sixteen boundary has equality in a resource inequality. That
+equality forces its hub to be an affine four-flat and its four-point light
+fibres to be affine planes with tangent spaces inside the hub. Their actual
+quotient sumsets have size8, whereas equality required16.
+
+For the three final maximum-twelve profiles, the energy gap forces at least
+five eight-point cubes. Every cube supplies only seven active directions;
+cube-cube capacity16 edges form a triangle-free graph. In the residual
+energy estimate, subtracting the noncube endpoint energy q^2/2 on cube
+edges is essential and correct. Charging lambda=11/2 per cube incidence
+gives doubled bound E_R+77r+10 floor(r^2/4)+2 sum H_A. The six resulting
+bounds972,991,954,972,962,980 are all below992. Root independently derived
+this inequality and checked the arithmetic; the structural reviewer also
+returned PASS. No ten-point support census is needed for this final step.
+
+5. MAXIMUM NINETEEN — REVIEW PRINCIPLES
+
+Common rank modes must be fixed across every incidence of a fibre. Common
+periodic modes must also be fixed, and all possible mode branches covered.
+The exact spectrum matching certificates upper-bound every permitted local
+shape. The paired-block relaxations for nonperiodic modes are supersets,
+which is safe for exclusions. No internal group deficit is added twice.
+
+The one deleted-direction profile gives956<960 by a direct calculation.
+For actual support roles, a unique outside-support edge forces both outer
+weights>=8 under the verified outer cap14. A sole hub edge forces an
+own-positive endpoint of weight>=4. Linear basis normalization fixing the
+hub covers every marked support. Violated Hall inequalities are necessary
+placement obstructions; passing them is not a realization theorem.
+
+Detailed stage receipts, source hashes, and the consolidated frontier give
+the final accepted counts. Analytic review and exact arithmetic replay are
+complementary; neither is a proof-assistant formalization of the other.

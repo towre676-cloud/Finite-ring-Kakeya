@@ -1,0 +1,528 @@
+{
+  "status": "PASS_EXACT_INTEGER_DUAL_AND_INDEPENDENT_DP",
+  "seconds": 0.021,
+  "pair_prices": [
+    0,
+    1,
+    4,
+    9,
+    16,
+    17
+  ],
+  "elementary_capacity_checks": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      0,
+      4
+    ],
+    [
+      0,
+      3,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      16
+    ],
+    [
+      0,
+      5,
+      0,
+      17
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      3,
+      4
+    ],
+    [
+      1,
+      4,
+      4,
+      9
+    ],
+    [
+      1,
+      5,
+      5,
+      8
+    ],
+    [
+      2,
+      0,
+      0,
+      4
+    ],
+    [
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      2,
+      4,
+      0
+    ],
+    [
+      2,
+      3,
+      6,
+      1
+    ],
+    [
+      2,
+      4,
+      8,
+      4
+    ],
+    [
+      2,
+      5,
+      10,
+      1
+    ],
+    [
+      3,
+      0,
+      0,
+      9
+    ],
+    [
+      3,
+      1,
+      3,
+      4
+    ],
+    [
+      3,
+      2,
+      6,
+      1
+    ],
+    [
+      3,
+      3,
+      9,
+      0
+    ],
+    [
+      3,
+      4,
+      12,
+      1
+    ],
+    [
+      3,
+      5,
+      13,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      16
+    ],
+    [
+      4,
+      1,
+      4,
+      9
+    ],
+    [
+      4,
+      2,
+      8,
+      4
+    ],
+    [
+      4,
+      3,
+      12,
+      1
+    ],
+    [
+      4,
+      4,
+      16,
+      0
+    ],
+    [
+      4,
+      5,
+      16,
+      1
+    ],
+    [
+      5,
+      0,
+      0,
+      17
+    ],
+    [
+      5,
+      1,
+      5,
+      8
+    ],
+    [
+      5,
+      2,
+      10,
+      1
+    ],
+    [
+      5,
+      3,
+      13,
+      0
+    ],
+    [
+      5,
+      4,
+      16,
+      1
+    ],
+    [
+      5,
+      5,
+      16,
+      2
+    ]
+  ],
+  "checked_raw_census_role_rows": 95,
+  "resource_table": {
+    "U_rank5_top9": {
+      "6": 9,
+      "7": 18,
+      "8": 35,
+      "9": 65,
+      "10": 114,
+      "11": 121
+    },
+    "W_rank3_top3": {
+      "4": 3,
+      "5": 12,
+      "6": 17,
+      "7": 27,
+      "8": 48
+    },
+    "W_rank_ge4_top3": {
+      "5": 3,
+      "6": 12,
+      "7": 17,
+      "8": 27,
+      "9": 48,
+      "10": 49,
+      "11": 51
+    }
+  },
+  "dual_inequalities": [
+    "4 R_U <= 45 w + 6 (rank5, nine slots)",
+    "4 R_W <= 45 w - 213 + 45 [rank=3] (rank>=3, three slots)",
+    "4 R_L <= 45 w - 15 (w=2 or3, R_L=10*choose(w,2))"
+  ],
+  "total_fourfold_upper": 2757,
+  "integer_resource_upper": 689,
+  "required_resource": 768,
+  "exact_fourfold_gap": 315,
+  "independent_dynamic_maxima": {
+    "None": {
+      "maximum_resource": 687,
+      "total_weight": 93,
+      "rank_three_W_vertices": 2,
+      "light_weights": [
+        3,
+        3,
+        3
+      ],
+      "heavy_witness": [
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "W",
+          "weight": 5,
+          "rank_three": false,
+          "resource": 3,
+          "raw_census_line": 6
+        },
+        {
+          "role": "W",
+          "weight": 6,
+          "rank_three": false,
+          "resource": 12,
+          "raw_census_line": 10
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank_three": true,
+          "resource": 48,
+          "raw_census_line": 23
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank_three": true,
+          "resource": 48,
+          "raw_census_line": 23
+        }
+      ]
+    },
+    "W": {
+      "maximum_resource": 663,
+      "total_weight": 93,
+      "rank_three_W_vertices": 2,
+      "light_weights": [
+        3,
+        3,
+        3
+      ],
+      "heavy_witness": [
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "W",
+          "weight": 11,
+          "rank_three": false,
+          "resource": 51,
+          "raw_census_line": 62
+        },
+        {
+          "role": "W",
+          "weight": 6,
+          "rank_three": false,
+          "resource": 12,
+          "raw_census_line": 10
+        },
+        {
+          "role": "W",
+          "weight": 6,
+          "rank_three": false,
+          "resource": 12,
+          "raw_census_line": 10
+        },
+        {
+          "role": "W",
+          "weight": 5,
+          "rank_three": true,
+          "resource": 12,
+          "raw_census_line": 7
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank_three": true,
+          "resource": 48,
+          "raw_census_line": 23
+        }
+      ]
+    },
+    "U": {
+      "maximum_resource": 685,
+      "total_weight": 93,
+      "rank_three_W_vertices": 2,
+      "light_weights": [
+        3,
+        3,
+        3
+      ],
+      "heavy_witness": [
+        {
+          "role": "U",
+          "weight": 11,
+          "rank_three": false,
+          "resource": 121,
+          "raw_census_line": 60
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank_three": false,
+          "resource": 114,
+          "raw_census_line": 42
+        },
+        {
+          "role": "W",
+          "weight": 5,
+          "rank_three": false,
+          "resource": 3,
+          "raw_census_line": 6
+        },
+        {
+          "role": "W",
+          "weight": 4,
+          "rank_three": true,
+          "resource": 3,
+          "raw_census_line": 4
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank_three": true,
+          "resource": 48,
+          "raw_census_line": 23
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank_three": false,
+          "resource": 48,
+          "raw_census_line": 32
+        }
+      ]
+    }
+  },
+  "required_geometric_premises": [
+    "Three U vertices, seven W vertices, three light vertices",
+    "Twenty-four directions have a unique heavy-heavy edge",
+    "Each U fibre is rank5 and contributes on nine such edges",
+    "Each W fibre has rank>=3 and contributes on three such edges",
+    "At most two W fibres have rank3",
+    "Every fibre has weight<=11; total weight<=93"
+  ],
+  "mathematical_status": "Exact dual conditional on the separate geometry and complete fibre census; no SAT premise.",
+  "source_sha256": {
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round8/root_audit/verify_ten_heavy_dual.py": "606ac1324de24a1dd82a4068952837d707b5bf9fcad62441b35b45eeee9a2438",
+    "research_round8/root_audit/TEN_HEAVY_INTEGER_DUAL.txt": "ad9b954b642ecf02ef8e6e869b27674cf9e38da5803ea729b60eee98634c069c"
+  }
+}

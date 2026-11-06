@@ -1,0 +1,101 @@
+{
+  "status": "PRODUCED_EXACT_RATIONAL_CANDIDATES",
+  "input_profiles": 275755,
+  "searched_profiles": 4510,
+  "cuts": 34,
+  "remaining_profiles": 275721,
+  "minimum_support": 16,
+  "maximum_support": 17,
+  "limit": null,
+  "local_feature_keys": 972,
+  "floating_optimum_diagnostics": {
+    "above96": 4442,
+    "below96": 34,
+    "equal96": 34
+  },
+  "records": [
+    {
+      "support": 16,
+      "maximum": 12,
+      "searched": 1260,
+      "cuts": 5
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "searched": 512,
+      "cuts": 3
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "searched": 770,
+      "cuts": 4
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "searched": 374,
+      "cuts": 1
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "searched": 907,
+      "cuts": 9
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "searched": 209,
+      "cuts": 3
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "searched": 44,
+      "cuts": 0
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "searched": 151,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "searched": 46,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "searched": 86,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "searched": 42,
+      "cuts": 0
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "searched": 95,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "searched": 14,
+      "cuts": 1
+    }
+  ],
+  "input_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+  "certificates": "BENCHMARK_MULTI_PRICE_CUTS.jsonl",
+  "survivors": "benchmark_after_multi_price_survivors.txt",
+  "scope": "Exact upper-bound certificates after rationalizing discovered prices; this producer is not the independent replay and does not prove LP optimality for remaining profiles.",
+  "seconds": 7.903
+}

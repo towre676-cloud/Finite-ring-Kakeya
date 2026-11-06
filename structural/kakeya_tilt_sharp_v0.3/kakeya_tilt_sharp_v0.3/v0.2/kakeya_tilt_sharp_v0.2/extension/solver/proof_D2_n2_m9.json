@@ -1,0 +1,19 @@
+{
+  "ring": "D2",
+  "n": 2,
+  "bound": 9,
+  "status": "UNSAT",
+  "solver": "cadical195",
+  "variables": 104,
+  "clauses": 291,
+  "proof_lines": 169,
+  "proof_file": "proof_D2_n2_m9.drat",
+  "seconds": 0.002132,
+  "proof_check": {
+    "accepted": true,
+    "additions": 129,
+    "deletions": 40,
+    "rat_only_steps": 0,
+    "checker": "independent standard-library RUP/RAT checker"
+  }
+}

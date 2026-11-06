@@ -1,0 +1,394 @@
+{
+  "status": "PASS_ALL_ROUND8_OUTCOMES_VIA_COMPACT_EXACT_CNF_CAKEML_PROOFS",
+  "cases": [
+    {
+      "case_id": "s13_T2185856310_m11_heavy_cover_tetrahedral_first120",
+      "nonzero_support_mask": 2185856310,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "mode": "heavy_cover_tetrahedral",
+      "representation": "COMPACT_DRAT",
+      "status": "PASS_EXACT_ROUND8_REGENERATED_UNSAT_CAKEML",
+      "original_large_drat_read": false,
+      "regeneration": {
+        "cnf_sha256": "3d197cdcc997a5079f73d918d561e086d43eb472f530910161c143911baec15e",
+        "variables": 42738,
+        "clauses": 288370
+      },
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 42738,
+          "clauses": 288370
+        },
+        "input_sha256": {
+          "cnf": "3d197cdcc997a5079f73d918d561e086d43eb472f530910161c143911baec15e",
+          "drat": "037788adbe87c2fe07cb82805d6503ebe16ce9aa61d00585ca31b7df48deeffc"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 48.212029,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "1539b3e1574cc1e37c0335c15ade751c1e9cc549c6cbc92c1d30f87009049735",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "f444ffe3c75defe1443eb3411f34c121d2ce80df7f3bc223201c9b07bbf8ed7f",
+        "lrat_bytes": 430482513,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 14.209803,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "exclusion_credited": true,
+      "checked_proof_sha256": "037788adbe87c2fe07cb82805d6503ebe16ce9aa61d00585ca31b7df48deeffc",
+      "seconds": 64.917507
+    },
+    {
+      "case_id": "s13_T377850134_m11_heavy_cover_tetrahedral_first120",
+      "nonzero_support_mask": 377850134,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "mode": "heavy_cover_tetrahedral",
+      "representation": "COMPACT_DRAT",
+      "status": "PASS_EXACT_ROUND8_REGENERATED_UNSAT_CAKEML",
+      "original_large_drat_read": false,
+      "regeneration": {
+        "cnf_sha256": "e3133c3ef51eade40501b889d1343934bc7850d3de950f8b8b11e85ed5f2868b",
+        "variables": 42802,
+        "clauses": 291570
+      },
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 42802,
+          "clauses": 291570
+        },
+        "input_sha256": {
+          "cnf": "e3133c3ef51eade40501b889d1343934bc7850d3de950f8b8b11e85ed5f2868b",
+          "drat": "05a15f04d1d9d7e573e2613976e007aed5b32f40211d464a500d453b017a0dc6"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 20.626103,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "bd5e67a2b449034bc00e34fd4f5d46cd108b288d6129bfce8cefeaca406dbec7",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "e63964aa05d0443f77124373e94797cf1cb83045121af9974c0a61ec84e248f0",
+        "lrat_bytes": 249588623,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 7.988773,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "exclusion_credited": true,
+      "checked_proof_sha256": "05a15f04d1d9d7e573e2613976e007aed5b32f40211d464a500d453b017a0dc6",
+      "seconds": 30.444229
+    },
+    {
+      "case_id": "s13_T411136406_m11_heavy_cover_tetrahedral_first120",
+      "nonzero_support_mask": 411136406,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "mode": "heavy_cover_tetrahedral",
+      "representation": "COMPACT_DRAT",
+      "status": "PASS_EXACT_ROUND8_REGENERATED_UNSAT_CAKEML",
+      "original_large_drat_read": false,
+      "regeneration": {
+        "cnf_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+        "variables": 42802,
+        "clauses": 291570
+      },
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 42802,
+          "clauses": 291570
+        },
+        "input_sha256": {
+          "cnf": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+          "drat": "abc33e70e97e7ebcc59cd847719cde3a32d75664197811f134bf96e088080f3d"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 31.559747,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "3c087aed7920100081cb95780671810d166f67c3ca32deada434ee65cee112ef",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "10084f59e8a9bf47fe9cad3b282370e383777669066a3f99ca8e6eaf328ab20e",
+        "lrat_bytes": 331512551,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 11.047843,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "exclusion_credited": true,
+      "checked_proof_sha256": "abc33e70e97e7ebcc59cd847719cde3a32d75664197811f134bf96e088080f3d",
+      "seconds": 44.704553
+    },
+    {
+      "case_id": "s13_T671697334_m11_heavy_cover_tetrahedral_first120",
+      "nonzero_support_mask": 671697334,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "mode": "heavy_cover_tetrahedral",
+      "representation": "COMPACT_DRAT",
+      "status": "PASS_EXACT_ROUND8_REGENERATED_UNSAT_CAKEML",
+      "original_large_drat_read": false,
+      "regeneration": {
+        "cnf_sha256": "8605c1a792483ac29ef3b08e9708a8cd39463ac610c51c9ca9b6b7f110e236d3",
+        "variables": 42738,
+        "clauses": 288370
+      },
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 42738,
+          "clauses": 288370
+        },
+        "input_sha256": {
+          "cnf": "8605c1a792483ac29ef3b08e9708a8cd39463ac610c51c9ca9b6b7f110e236d3",
+          "drat": "9a3e8c7955500b26599800ad66ba55ca1be6ed562ff4fd279a618cea18dd6131"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 36.125457,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "df98f8ab202470c01ca6c2f3422ecfea853b6aa712eb313a3bc088d93a6c437b",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "6a0758e0f38fc418c314758a2a54997d791f85915c485cf8d6621361daff70f0",
+        "lrat_bytes": 361925011,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 14.60141,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "exclusion_credited": true,
+      "checked_proof_sha256": "9a3e8c7955500b26599800ad66ba55ca1be6ed562ff4fd279a618cea18dd6131",
+      "seconds": 52.983445
+    }
+  ],
+  "full_inventory_replayed": true,
+  "SAT_solver_invoked": false,
+  "original_large_drat_required": false,
+  "compact_manifest_sha256": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+  "source_manifest_sha256": "648578dab0d8b985afee7a9fe6757cc4d192ba2375fa339a62c358465d6a764f",
+  "source_hashes": {
+    "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8",
+    "research_round7/geometry/SUPPORT13_EIGHT_HEAVY_COROLLARIES.md": "4547cf9b15eb3fa0e29cea2fdfafdea283e7fb7b2add9b315447cdd96a21e513",
+    "research_round7/geometry/SUPPORT13_HEAVY_FIBRES.md": "d7b141bc35c2ecfef4a86245df4cedfb83db4b5b763c45dd88e1449639dd3a80",
+    "research_round7/support13/certify_support13.py": "5ce133998d254aebcb48072fdf8cf961855cbd97b55bd7ae46a17ee106bce4d0",
+    "research_round7/support13/four_pair_cut/FOUR_PAIR_CAPACITY_LEMMA.txt": "e92cccd9470e975a305192128136e62fe6be622669f49c697704ea74984d342d",
+    "research_round7/support13/rup_unit_solver.py": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+    "research_round8/charging/HEAVY_DIFFERENCE_COVER_THEOREM.md": "80a487d63d069216a2bc04aa99173a7534d0da8f92cda2de647dc458744b84c3",
+    "research_round8/charging/heavy_cover_cut.py": "f3b24fa5b8c6a48bc58ccabccdeeeb0302d53e23d068801597083c09546cfba6",
+    "research_round8/charging/verify_heavy_cover.py": "e38578488388364b03133b18ed06b5b9f9c5d182b5cab494b772ff92a517e91e",
+    "research_round8/strengthened/ONE_WAY_SOUNDNESS.txt": "5080c8e36a22b3961e436f76b4e247d35b3be9448ffa46dc7fd9fb0e0a7c984c",
+    "research_round8/strengthened/certify_strengthened.py": "c7f727120cc53172239371a5d4a2455132c1af40306ff9113c4c7a35a0b33970",
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round8/strengthened/verify_certificates.py": "c0730696e09138001528e9cbe2c74c963f5b14069d83c8ce77b4111fc90aae21",
+    "research_round8/strengthened/verify_strengthened.py": "44bd826a09acea7c867a6b73984cfe1bc5221bc689f864c6181f7fc58ae60871",
+    "research_round8/strengthened/compact/compact_certificates.py": "fd6b2cda41aa94ac6586c58b7733fd8ec968788ad5aac3a38d130eca12de139d"
+  },
+  "checker_source_pins": {
+    "drat-trim": {
+      "project": "DRAT-trim",
+      "repository": "https://github.com/marijnheule/drat-trim",
+      "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "commit_date": "2024-11-25T10:20:26-05:00",
+      "source_files_sha256": {
+        "drat-trim.c": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+        "lrat-check.c": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95",
+        "LICENSE": "71ab2a9dc5a294ad8fba4ccb8c45aaa8a439596d314a2a046ac9b62266872a18"
+      },
+      "license": "MIT; complete license included",
+      "formal_status": "The vendored C DRAT and LRAT checkers are ordinary compiled programs. This package does not claim their C implementations are proof-assistant verified.",
+      "ordinary_C_LRAT_checker_role": "DIAGNOSTIC_ONLY; never an UNSAT acceptance authority in this package",
+      "observed_C_LRAT_false_acceptance": {
+        "input_CNF": "p cnf 1 1\n1 0\n",
+        "input_LRAT": "2 0 0\n",
+        "satisfying_assignment": {
+          "1": true
+        },
+        "observed_exit_code": 0,
+        "observed_stdout_marker": "c VERIFIED",
+        "tested_invocation": "lrat-check FILE.cnf FILE.lrat",
+        "correct_CakeML_result": "Rejects: pivot must be non-zero",
+        "reproducer": "verify_pipeline.py and control_audit/C_checker_false_positive/",
+        "scope": "Observed behavior of the exact pinned C utility; not a claim that the LRAT calculus or formally verified LRAT checkers are unsound."
+      }
+    },
+    "cake_lpr": {
+      "project": "cake_lpr",
+      "repository": "https://github.com/tanyongkiam/cake_lpr",
+      "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa",
+      "commit_date": "2026-07-22T23:43:47+01:00",
+      "HOL4_commit": "0ae7030322cdf2b0d46dc9d5503e2d5eae2fa726",
+      "CakeML_commit": "fb377b4bb704497c921cde68ccc8da3b4f0e9132",
+      "source_files_sha256": {
+        "cake_lpr.S": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+        "basis_ffi.c": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+        "Makefile": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+        "LICENSE": "eb1e4ff71900d55d384ff18afad5aae48417ce0fff25231565862c42b45e5dbc",
+        "cake_lpr.sha256": "449be5fbee561f30dbc94bd8bc5588011af9a80a17d3e1fc284a81952c2744ec"
+      },
+      "upstream_checksum_comparison": {
+        "cake_lpr.S": {
+          "declared": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "actual": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "match": true
+        },
+        "basis_ffi.c": {
+          "declared": "3fbd8f31c380e7fb40fede74496ff8b7fb63043645b1afff1e5f26aacdccfa69",
+          "actual": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+          "match": false
+        },
+        "Makefile": {
+          "declared": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "actual": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "match": true
+        }
+      },
+      "upstream_assembly_sha256_verified": true,
+      "upstream_wrapper_checksum_note": "The upstream checksum file predates the July2026 wrapper change from environment settings to CLI flags. The assembly and Makefile hashes match; the current wrapper is pinned by the exact Git commit and its actual hash recorded here. This mismatch is not silently treated as a successful checksum check.",
+      "assembly_architecture": "x86_64",
+      "formal_status": "Upstream verified checker artifact produced by the HOL4/CakeML development. This session checks its published assembly hash, assembles/links the supplied artifact and runs it; it does not rebuild HOL4 or rerun the upstream proof development. The C wrapper, compiler/linker/runtime environment, encoding and orbit completeness remain distinct trust obligations.",
+      "primary_sources": [
+        "https://cakeml.org/checkers.html",
+        "https://cakeml.org/tacas21.pdf",
+        "https://github.com/tanyongkiam/cake_lpr"
+      ]
+    }
+  },
+  "checker_build": {
+    "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "checkers": {
+      "drat-trim": {
+        "binary_sha256": "95b3498f04f97cd604c368d9e80a83a9df268b3f75c4bef9df2591d325430729",
+        "compile_returncode": 0,
+        "compile_log_sha256": "3da430562818ad2aca0336ae022d742d8fa8e509605e4b7bd7e06b041acf81d2",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/tmp/kakeya_round8_fresh_5ogxmmzy/Kakeya_Round8/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+        ]
+      },
+      "lrat-check": {
+        "binary_sha256": "d1a11b014ca49bcd0df6f87cd90c3b88bcc0b43185005f4a55934549a95dfa72",
+        "compile_returncode": 0,
+        "compile_log_sha256": "a9a878e8bcfe1a54eff139bb3cad12f431ac321632392fc9932d73d3c7f310cd",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "-DLONGTYPE",
+          "/tmp/kakeya_round8_fresh_5ogxmmzy/Kakeya_Round8/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+        ]
+      },
+      "cake_lpr": {
+        "binary_sha256": "33038f3b4e15c282b145ae7b428118883cc56438ea436e63b8aabfb64e084ee2",
+        "compile_returncode": 0,
+        "compile_log_sha256": "bc3a5484909640c22d191872333a70095f8518fc7114684cb4ec33f56d01582f",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/tmp/kakeya_round8_fresh_5ogxmmzy/Kakeya_Round8/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+          "/tmp/kakeya_round8_fresh_5ogxmmzy/Kakeya_Round8/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+        ]
+      }
+    }
+  },
+  "checked_coverage": {
+    "declared_marked_roles": [
+      377850134,
+      411136406,
+      671697334,
+      2185856310
+    ],
+    "accepted_exact11_masks": [
+      377850134,
+      411136406,
+      671697334,
+      2185856310
+    ],
+    "accepted_distinct_marked_roles": 4,
+    "all_four_declared_roles_have_new_exact11_refutations": true,
+    "whole_55_case_support13_claimed": false,
+    "whole_weight_profiles_subtracted": 0,
+    "ring_scope": "common_necessary_relaxation_both_rings"
+  },
+  "seconds": 196.353203
+}

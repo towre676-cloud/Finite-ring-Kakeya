@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXACT_ROLE_PRODUCER",
+  "input_profiles": 648,
+  "new_exclusions": 641,
+  "remaining_profiles": 7,
+  "by_maximum": [
+    {
+      "maximum": 12,
+      "initial": 18,
+      "excluded": 17,
+      "remaining": 1
+    },
+    {
+      "maximum": 13,
+      "initial": 18,
+      "excluded": 17,
+      "remaining": 1
+    },
+    {
+      "maximum": 14,
+      "initial": 59,
+      "excluded": 59,
+      "remaining": 0
+    },
+    {
+      "maximum": 15,
+      "initial": 53,
+      "excluded": 53,
+      "remaining": 0
+    },
+    {
+      "maximum": 16,
+      "initial": 203,
+      "excluded": 200,
+      "remaining": 3
+    },
+    {
+      "maximum": 17,
+      "initial": 181,
+      "excluded": 179,
+      "remaining": 2
+    },
+    {
+      "maximum": 18,
+      "initial": 116,
+      "excluded": 116,
+      "remaining": 0
+    }
+  ],
+  "input": "research_round5/nine_geometry/after_nine_geometry_survivors.txt",
+  "input_sha256": "6bb5db2cc6681d4e472c433cbc9b46f9c7056df4607bb14bff6c633c3ad00dd3",
+  "dependencies": "No Qmax census, maximum-direction quota, LP, or SAT. Uses unique-edge coverage, three-point sumset lemma, and sum-free Mantel bound."
+}

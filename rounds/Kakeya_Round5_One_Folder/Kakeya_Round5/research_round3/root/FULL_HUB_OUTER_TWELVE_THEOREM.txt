@@ -1,0 +1,144 @@
+FULL HUB WITH OUTER FIBRES OF SIZE AT MOST TWELVE
+
+Theorem. For either R=Z/4Z or F2[epsilon]/(epsilon^2), let n>=6 and N=2^n.
+If a Kakeya set K subset R^n has one full residue fibre and every other
+residue fibre has size at most12, then |K|>=3N-2. Equality holds exactly
+for generalized stars (one full fibre and an own-direction pair at every
+other residue).
+
+This is a conditional, dimension-uniform theorem. It does not assert the
+existence of a full fibre in an arbitrary small Kakeya set, and is not a
+new complete maximum-fibre exclusion in dimension5.
+
+1. DIMENSION-FREE SMALL-FIBRE ENERGY
+
+For a binary set A, let p_A(d) count unordered d-pairs and put
+E(A)=sum_{d!=0}p_A(d)^2. The exact maxima through12 points are
+
+    w: 2 3  4  5  6  7   8   9  10  11  12
+ e(w): 1 3 12 16 33 63 112 120 153 211 300.
+
+The complete, independently verified round2 spectrum census proves this
+for affine rank at most5. It also contains attaining sets. To extend it
+to all dimensions, let w=|A| and r=affine rank(A)>=6. The augmented point
+matrix has kernel dimension w-r-1<=w-7. Every affine plane in A gives a
+distinct nonzero kernel vector. If Z is the number of such planes, then
+
+    Z<=2^(w-7)-1,
+    E(A)=binom(w,2)+6Z.
+
+For7<=w<=12 this upper bound is respectively21,34,54,87,145,252, all below
+the corresponding e(w). No set withw<=6 has affine rank6. Thus the table
+is exact in every binary dimension where the set exists. This step is
+computer-assisted only through the complete F2^5 spectrum census.
+
+2. MAXIMUM-DIRECTION QUOTA AND RESTRICTED ENERGY
+
+Write c=floor(w/2). The maximum-pair directions together with zero form
+a subspace of size at mostq(w)+1, where
+
+ q(w)=2^v2(w)-1                         if w is even,
+ q(w)=max(2^v2(w-1),2^v2(w+1))-1       if w is odd.
+
+For even w this is the translation-period subgroup and its order dividesw.
+For odd w the half-symmetric-difference defect is1 on maximum directions;
+the triangle inequality and odd parity give closure. Counting occupancies
+in its cosets shows its order divides w-1 or w+1. The complete inherited
+proof is in research_round2/inherited/maximum_pair_direction_quotas.md.
+
+For any set T of z nonzero directions, therefore,
+
+ sum_{d in T}p_A(d)^2 <= R_z(w),
+ R_z(w)=min(e(w), min(z,q(w))*c^2 + max(0,z-q(w))*(c-1)^2). (1)
+
+3. DEFECT BUDGET
+
+Translate the full fibre to residue0, so A_0=V. Let L be the nonzero
+residues with fibre size at most1, and let z=|L|. Put
+
+    B=sum_{a!=0,w_a>=3}(w_a-2).
+
+Assume |K|<=3N-2. Counting points gives B<=2z, with a further deduction
+for any singleton mass. For d in L, the central edge contributes nothing.
+Coverage requires sum of noncentral pair products>=N/2. The inequality
+2pq<=p^2+q^2 gives
+
+    N <= sum_{a!=0}p_a(d)^2.
+
+Summing over L, and giving each of the N-1-z nonlow fibres base energy1,
+
+    Nz <= N-1-z + sum_{w_a>=3}(R_z(w_a)-1).                (2)
+
+Let G_z(b) be the following unbounded integer knapsack upper bound:
+
+    G_z(0)=0,
+    G_z(b)=max(G_z(b-1),
+               max_{3<=w<=12,w-2<=b}[G_z(b-w+2)+R_z(w)-1]).
+
+Ignoring the number of available fibres only enlarges this upper bound.
+Equations B<=2z and(2) require
+
+    G_z(2z) >= (z-1)N+z+1.                               (3)
+
+4. EXCLUDE z>=2
+
+For2<=z<=12 the exact recurrence gives the following upper bounds. The
+last column is the required value at the smallest possible N=64.
+
+    z   G_z(2z)   64(z-1)+z+1
+    2       14          67
+    3       47         132
+    4       74         197
+    5      157         262
+    6      193         327
+    7      239         392
+    8      343         457
+    9      409         522
+   10      564         587
+   11      609         652
+   12      630         717
+
+Every row contradicts(3). The verifier independently uses an equivalent
+coin-allocation recurrence as a check on these stated values.
+
+For z>=13, the unrestricted energy table gives
+
+    e(w)-1 <= (299/10)(w-2),
+    (z-1)N <= (299/5)z-z-1.
+
+Consequently
+
+    N <= 294/5 + 289/[5(z-1)] <=3817/60 <64,
+
+again impossible. This includes every larger z, in all dimensions n>=6.
+
+5. EXCLUDE z=1 AND CLASSIFY z=0
+
+If z=1, then B<=2. If no outer fibre has size4, all noncentral edges in
+the missing direction have capacity at most1. There are N/2-1 such edges,
+which cannot cover N/2 lifted labels. The sole remaining possibility is
+one four-point fibre, one empty outer fibre at d, and all other outer
+fibres of size2. In direction d, the four-point fibre's edge can contribute
+at most2, and every other noncentral edge at most1. Reaching N/2 forces
+every two-point outer fibre to have pair direction d. Choose the residue
+e of any such fibre, with e!=0,d. No two-point fibre has an e-pair, and
+the lone four-point fibre cannot make an offhub edge by itself. The hub
+edge at e also fails. Hence direction e is uncovered, a contradiction.
+
+Thus z=0. The point budget forces every outer fibre to have size exactly2.
+If its own pair were absent at residue d, the N/2-1 noncentral edges in
+direction d would each have capacity at most1, again insufficient. Every
+outer fibre therefore is an own-direction pair. This is a generalized star.
+
+Conversely every such star is Kakeya: the full hub provides all N/2 pair
+labels in each quotient, while the corresponding outer pair supplies one.
+Its size is N+2(N-1)=3N-2. This proves both the bound and equality rigidity.
+
+6. VERIFICATION DEPENDENCIES
+
+The exact F2^5 spectrum census is independently complete by affine-basis
+normalization (round2/root/verify_censuses.py), not by an unverified affine
+orbit list. verify_full_hub_twelve.py extracts the energy maxima and their
+witnesses, checks the higher-rank comparisons, evaluates(1), and computes
+the small knapsacks by two independent recurrences. The analytic arguments
+above provide the arbitrary-dimension and equality statements.

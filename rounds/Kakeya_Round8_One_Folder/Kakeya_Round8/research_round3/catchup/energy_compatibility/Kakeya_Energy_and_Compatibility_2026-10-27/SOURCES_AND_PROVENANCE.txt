@@ -1,0 +1,64 @@
+SOURCE AND VERIFICATION BOUNDARIES
+27 October 2026
+
+Recovered project archives (read-only inputs; not reproduced in this ZIP):
+
+1. Kakeya_Proof_Continuation_2026-10-27.zip
+   Library file: libfile_640b2e91bd7881919701450c049f2ff2, version 1.
+   Relevant sources: README, all_dimension/STRUCTURAL_LEMMAS.md,
+   all_dimension/MINIMUM_IMAGE_PRODUCT_RIGIDITY.md,
+   all_dimension/CAP11_EXTENSION.md,
+   independent_reduction/BALANCED_IMAGE_THEOREM.md,
+   independent_reduction/QUOTIENT_SUMSET_THEOREMS.md,
+   n5_computation/CAP10_COMPOSITION_FINAL.json.
+
+2. Kakeya_Max24_Proof_2026-10-27.zip
+   Library file: libfile_fbd1a73d21f08191a4e9650df2a9d370.
+   Main status source: advance_audit/max24_theorem/MAX24_THEOREM.md.
+   Reported final receipt SHA256:
+   f3f5f1eb9634d938c04bd0de486f2ba1ed826c279190a55d34babcb11fe72811
+
+3. Kakeya_Claude_Handoff_2026-10-27.zip
+   Library file: libfile_c08849c9e9bc8191986c8baca3d8e276.
+   The newer continuation and max24 records supersede older frontier
+   summaries where they differ.
+
+The inherited maximum-nine and maximum-twenty-four closures were taken
+from those recovered proof reports. This session did not replay all of
+their large proof streams. Its independent proof replay is confined to
+the small new fixed-shape cases included in compute/.
+
+The optional C checker compute/rupcheck2.c was copied unchanged from the
+continuation's independent_reduction/rupcheck2.c. Its SHA256 and origin
+are in compute/CHECKER_PROVENANCE.json. Default package verification also
+uses a separate Python forward-RUP implementation and direct ring arithmetic.
+
+Primary external sources consulted for the earlier transfer assessment:
+
+  OpenAI announcement, 26 October 2026:
+  https://openai.com/index/building-scientific-understanding-with-academic-communities/
+
+  OpenAI mathematics source repository:
+  https://github.com/openai/math
+
+  Formalization scope entry inspected:
+  https://github.com/openai/math/blob/main/lean/docs/079.md
+
+  Related finite-ring literature consulted:
+  https://arxiv.org/html/2209.11443v1
+  https://arxiv.org/pdf/2202.11344
+
+No result of those external works is used as an unproved transfer premise
+for the new finite theorems. The bounds in analytic/, the finite coverage
+identities in energy/, and the weighted-star obstruction in review/ have
+their proofs included. References to the previously known balanced-star
+equality classification identify inherited context; none is necessary to
+prove the included numerical lower bounds.
+
+The package does not claim literature novelty or external peer review.
+"Independent" here means a separate derivation or checker implementation
+within this research session, not an independent institution or publication.
+
+Numeric case certificates prove only their encoded fixed shapes, permitted
+translations, ring, and listed residue directions. They do not by themselves
+establish completeness of an enumeration of possible dimension-five sets.

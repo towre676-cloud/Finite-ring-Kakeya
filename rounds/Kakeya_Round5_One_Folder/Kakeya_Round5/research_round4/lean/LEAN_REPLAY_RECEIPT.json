@@ -1,0 +1,92 @@
+{
+  "status": "PASS_PINNED_LEAN_KERNEL_COMPILATION",
+  "lean_version": "Lean (version 4.24.0, x86_64-unknown-linux-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)",
+  "mathlib_commit": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7",
+  "theorem_count": 13,
+  "theorem_axiom_audits": {
+    "pair_capacity_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "weighted_pair_capacity_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "sum_injective_resource": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "remaining_energy_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "cube_incidence_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "cube_edge_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "cube_other_surplus_row": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "small_surplus_table": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "surplus_zero_of_ge_five": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "cube_master_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "critical_profile_arithmetic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "six_boundary_arithmetic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "critical_profile_exclusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "main_theorem": "KakeyaRound4.cube_master_bound",
+  "main_conclusion": "2*total_capacity<=remaining_energy+77*number_of_cubes+10*expensive_edge_bound+sum_cross_gains",
+  "formalized": [
+    "Finite injective resource accounting and disjoint remaining-endpoint energy.",
+    "Seven slots per cube imply the doubled-edge incidence budget.",
+    "Summation of cheap/expensive cube-edge and cross-edge inequalities.",
+    "Ordinary and weighted AM-GM algebra; cube cross-edge surplus algebra.",
+    "The general cube master aggregation theorem and all six boundary arithmetic inequalities."
+  ],
+  "not_formalized": [
+    "Actual binary sets, pair counting, affine planes, and the Q identity.",
+    "The twelve-point energy theorem.",
+    "Geometric construction of incidence injections, quotient capacities, triangle geometry, and Mantel.",
+    "Profile-specific energy/gain bounds, exhaustive support reductions, and unrestricted Kakeya."
+  ],
+  "source_sha256": "abc2ee760fb09370e9961a80bc4d14209f5c7cf685cb3884e5b1ee2661d725a8",
+  "log_sha256": "bbe880aa6e83036a7f61a08da9e472a7ac424a8aedbad62179bc212b37b1839d",
+  "standard_axioms_only": true,
+  "seconds": 4.185474
+}

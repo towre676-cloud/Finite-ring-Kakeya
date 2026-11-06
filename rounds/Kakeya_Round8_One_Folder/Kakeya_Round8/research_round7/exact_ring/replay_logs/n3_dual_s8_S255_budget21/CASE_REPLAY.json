@@ -1,0 +1,64 @@
+{
+  "case_id": "n3_dual_s8_S255_budget21",
+  "parameters": {
+    "case_id": "n3_dual_s8_S255_budget21",
+    "dimension": 3,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "maximum": 8,
+    "hub_min": 2,
+    "total": 21,
+    "normalize": true,
+    "purpose": "complete_dimension3_lower_bound"
+  },
+  "production_status": "PASS_EXACT_RING_UNSAT_CAKEML",
+  "status": "PASS_EXACT_REGENERATED_UNSAT_CAKEML",
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 1098,
+      "clauses": 3764
+    },
+    "input_sha256": {
+      "cnf": "168ca0c6631adb14fab56e3fc7a7c9d15f60097ddf3fb79663d9f7836406c4f2",
+      "drat": "8f6d1dd53afb5ba5a84431fba478950b6d947c27a6e38e19ac86cbc6f83f69ff"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 0.615645,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "3946baf5226aac905ccc7c28fe01554cef2fe4e0ad4e4428d2392c376773f8b1",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "c324ca43fa28e9b075b027ffbfea367fd5a5cf6a4b96928e169ef5935aa28647",
+    "lrat_bytes": 7753870,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 0.365288,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 1.078859
+}

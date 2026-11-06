@@ -1,0 +1,23 @@
+{
+  "status": "PASS_MANUAL_MATHEMATICAL_AND_CODE_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "reviewed_sha256": {
+    "research_round7/span_capacity/encode_span_capacity.py": "9e0e872369a851873e87408cd38973c43189075a1437cf338d1b0911ec3e5d19",
+    "research_round7/span_capacity/SPAN_CAPACITY_LEMMA.md": "19bc0ee03ce7405bed6dd20415b9f19700d096be6424f1b2753ef88533a79834"
+  },
+  "findings": [
+    "The quotient affine-span argument bounds actual pair-class sumset size by 2^(dim(Ha+Hb)-1) whenever both pair sets are nonempty.",
+    "The translated carry term preserves cardinality; zero-pair edges remain covered by the original M[0][q]=0 bound.",
+    "inside(v,L) is an exact OR of existing one-hot H selectors contained in L. Its clauses have correct implications in both directions.",
+    "The unary edge clause uses bit index cap, correctly forbidding contribution at least cap+1. Dimensions1..4 yield caps1,2,4,8 within16bits.",
+    "Only L containing d is needed: if both actual pair counts are positive then d lies in both selected H spaces.",
+    "Duplicating capacity variables is sound for one-way extension: assign both old and new families actual sumset sizes; equality is not necessary.",
+    "Per-direction lower bound total[15] correctly requires at least16. Empty or too-small available total emits contradiction.",
+    "No mathematical or code-level blocker found; finite tests and complete CNF proofs remain separate obligations."
+  ],
+  "limitations": [
+    "Manual review only; not a proof-assistant formalization.",
+    "Default dimensions2,3,4 omit an optional dim1 bound, a weakening rather than a soundness issue.",
+    "No claim of SAT-search speed benefit from mathematical strengthening."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "release": "0.2",
+  "profile": "standard-library quick",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "spectral_theory",
+      "status": "passed",
+      "seconds": 7.1703
+    },
+    {
+      "name": "carry_transfer",
+      "status": "passed",
+      "seconds": 0.6653
+    },
+    {
+      "name": "independent_plane_and_local_census",
+      "status": "passed",
+      "seconds": 1.8571
+    },
+    {
+      "name": "shared_period_capacity",
+      "status": "passed",
+      "seconds": 0.7324
+    },
+    {
+      "name": "nonfull_24_point_family",
+      "status": "passed",
+      "seconds": 0.0695
+    },
+    {
+      "name": "trace_laws",
+      "status": "passed",
+      "seconds": 2.6567
+    },
+    {
+      "name": "stored_sat_refutations",
+      "status": "passed",
+      "seconds": 0.0798
+    }
+  ],
+  "seconds": 13.2393
+}

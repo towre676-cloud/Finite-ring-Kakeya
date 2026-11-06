@@ -1,0 +1,9 @@
+c parsing input formula with 2158 variables and 11439 clauses
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 146 0
+c finished parsing
+c detected empty clause; start verification via backward checking
+c 5174 of 11439 clauses in core                            
+c 13438 of 53642 lemmas in core using 453043 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.415 seconds

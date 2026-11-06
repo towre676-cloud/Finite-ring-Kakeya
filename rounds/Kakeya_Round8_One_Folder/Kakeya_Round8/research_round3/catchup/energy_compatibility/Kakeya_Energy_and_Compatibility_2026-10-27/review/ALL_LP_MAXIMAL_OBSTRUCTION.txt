@@ -1,0 +1,56 @@
+ALL FULL Lp MAXIMAL NORM ROUTES HAVE A WEIGHTED-STAR BARRIER
+27 October 2026. Elementary analytic result; no new Kakeya lower bound.
+
+Let R be Z/4Z or F2[e]/e^2, n>=1, N=2^n, and normalize counting
+measure on G=R^n and its primitive projective directions. Let
+
+  M_R f(d) = max_{L parallel d} (1/4) sum_{x in L} |f(x)|.
+
+Suppose a uniform functional estimate ||M_R f||_r <= A ||f||_p
+is used ONLY through f=1_K to lower-bound a Kakeya set K. Here
+1<=p<infinity and any 1<=r<=infinity. This yields |K|>=N^2/A^p.
+
+The explicit full-hub star consists of N central points and 2N-2
+outer points. Put f=a on the central points, b on the outer points,
+and zero elsewhere, with a>=b>=0. Every direction has a line with
+two central and two outer points. Every primitive line has at most
+two central points. Thus M_R f is the constant (a+b)/2.
+
+For p>1, put t=1/(p-1). Holder duality, or differentiation in a/b,
+gives
+
+  A >= (1/2) [ (N^2/N)^t + (N^2/(2N-2))^t ]^(1/(pt)).
+
+The maximizing ratio is a/b=((2N-2)/N)^t>=1, so it is allowed.
+Consequently the real-valued cardinality bound from this method is
+at most
+
+  B_p = 2 [ (N^(-t)+(2N-2)^(-t))/2 ]^(-1/t)
+      <= 2 sqrt(N(2N-2)).
+
+The inequality is the arithmetic-geometric mean applied to the two
+negative powers. For p=1 the same argument gives B_1<=2N, which
+satisfies the displayed ceiling. The ceiling is approached by this
+star obstruction as p tends to infinity. At p=infinity itself the
+indicator norm contains no cardinality information.
+
+For n=5 the universal real ceiling is
+
+  2 sqrt(32*62) = 89.08422980528034...
+
+Thus changing the exponent, or the output norm, cannot make this
+standalone full-norm-to-indicator argument establish 94. Its integer
+conclusion can be at most90. At p=5 the stronger numerical ceiling
+is87.8760782759306..., corresponding to at most88 after rounding.
+
+This is a ceiling on a proof route, not a proof of a lower bound of
+88 or90. It does not exclude set-specific estimates, weighted or
+localized arguments using additional structure, or other analytic
+methods. The construction exists regardless of whether it is optimal.
+
+For n>=4, even the best-in-p real ceiling lies below3N-3, so this
+route cannot prove the sharp integer target3N-2. Indeed
+
+  (3N-3)^2 - 4N(2N-2) = N^2-10N+9 >0 for N>=16.
+
+The numerical comparisons are checked by review/verify_independent.py.

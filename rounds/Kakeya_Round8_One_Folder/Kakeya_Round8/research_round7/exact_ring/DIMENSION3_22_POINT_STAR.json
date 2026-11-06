@@ -1,0 +1,70 @@
+{
+  "status": "PASS_EXPLICIT_22_POINT_KAKEYA_STAR_BOTH_RINGS",
+  "dimension": 3,
+  "fibres": {
+    "0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "1": [
+      0,
+      1
+    ],
+    "2": [
+      0,
+      2
+    ],
+    "3": [
+      0,
+      3
+    ],
+    "4": [
+      0,
+      4
+    ],
+    "5": [
+      0,
+      5
+    ],
+    "6": [
+      0,
+      6
+    ],
+    "7": [
+      0,
+      7
+    ]
+  },
+  "ring_checks": [
+    {
+      "ring": "z4",
+      "direct_check": {
+        "is_kakeya": true,
+        "point_count": 22,
+        "direction_count": 28,
+        "missing_directions": []
+      },
+      "all_exact_cnf_clauses_satisfied": true,
+      "variables": 1105,
+      "clauses": 3861
+    },
+    {
+      "ring": "dual",
+      "direct_check": {
+        "is_kakeya": true,
+        "point_count": 22,
+        "direction_count": 28,
+        "missing_directions": []
+      },
+      "all_exact_cnf_clauses_satisfied": true,
+      "variables": 1105,
+      "clauses": 3861
+    }
+  ]
+}

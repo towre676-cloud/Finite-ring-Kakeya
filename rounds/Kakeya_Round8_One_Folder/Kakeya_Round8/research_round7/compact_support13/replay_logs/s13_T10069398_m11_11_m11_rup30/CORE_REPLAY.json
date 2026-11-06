@@ -1,0 +1,58 @@
+{
+  "case_id": "s13_T10069398_m11_11_m11_rup30",
+  "status": "PASS_EXACT_ORIGINAL_CNF_AND_PORTABLE_CAKEML_PROOF",
+  "nonzero_support_mask": 10069398,
+  "maximum_interval": [
+    11,
+    11
+  ],
+  "representation": "COMPACT_DRAT",
+  "original_round7_drat_read": false,
+  "formula_regeneration": {
+    "variables": 34568,
+    "clauses": 217916,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "84ab6b6079fcd63a3c90f310c310c1348f427007051ac56160853875c194c911"
+  },
+  "cnf_sha256": "84ab6b6079fcd63a3c90f310c310c1348f427007051ac56160853875c194c911",
+  "checked_proof_sha256": "fa5fb2945cae1e6f32b2064e7173913c2906acc06155ae8c994df9f6d58511c5",
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 34568,
+      "clauses": 217916
+    },
+    "input_sha256": {
+      "cnf": "84ab6b6079fcd63a3c90f310c310c1348f427007051ac56160853875c194c911",
+      "drat": "fa5fb2945cae1e6f32b2064e7173913c2906acc06155ae8c994df9f6d58511c5"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 7.136737,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "ff768db49aac9d47e106b792dabd17b6400a0178f1fac9c8a29065d544066f8e",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "8710c64fb0a56b532bd1e617e39a4c2197ddb09321454d87293005553a41a6b9",
+    "lrat_bytes": 89195550,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 3.578554,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 12.033435
+}

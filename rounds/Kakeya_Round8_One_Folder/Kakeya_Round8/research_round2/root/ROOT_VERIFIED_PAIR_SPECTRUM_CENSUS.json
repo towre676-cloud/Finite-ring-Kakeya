@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "method": "independent C++ recomputes unordered differences at every normalized set, without incremental histogram packing; Python directly validates every supplied witness mask",
+  "normalization_proof": "Any affine rank-r subset has an affine basis and an ambient affine transformation taking it to 0,e1,...,er in F2^r. Pair histograms are invariant. Every subset of remaining coordinates up to total weight16 is enumerated. Complements cover17\u201319 via p_complement(d)=16-w+p_original(d).",
+  "normalized_sets_by_rank": [
+    1,
+    1,
+    2,
+    16,
+    2048,
+    10970272
+  ],
+  "counts": [
+    {
+      "weight": 1,
+      "spectra": 1
+    },
+    {
+      "weight": 2,
+      "spectra": 1
+    },
+    {
+      "weight": 3,
+      "spectra": 1
+    },
+    {
+      "weight": 4,
+      "spectra": 2
+    },
+    {
+      "weight": 5,
+      "spectra": 2
+    },
+    {
+      "weight": 6,
+      "spectra": 3
+    },
+    {
+      "weight": 7,
+      "spectra": 5
+    },
+    {
+      "weight": 8,
+      "spectra": 7
+    },
+    {
+      "weight": 9,
+      "spectra": 9
+    },
+    {
+      "weight": 10,
+      "spectra": 14
+    },
+    {
+      "weight": 11,
+      "spectra": 16
+    },
+    {
+      "weight": 12,
+      "spectra": 21
+    },
+    {
+      "weight": 13,
+      "spectra": 24
+    },
+    {
+      "weight": 14,
+      "spectra": 27
+    },
+    {
+      "weight": 15,
+      "spectra": 30
+    },
+    {
+      "weight": 16,
+      "spectra": 32
+    },
+    {
+      "weight": 17,
+      "spectra": 30
+    },
+    {
+      "weight": 18,
+      "spectra": 27
+    },
+    {
+      "weight": 19,
+      "spectra": 24
+    }
+  ],
+  "census_sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35"
+}

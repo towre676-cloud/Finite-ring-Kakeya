@@ -1,0 +1,30 @@
+{
+  "status": "PASS_READ_ONLY_CODE_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "source_hashes": {
+    "research_round7/compact_support13/common.py": "5b06bc2466c9e20a2119f4e31dd8853482cd8c322bc659de89154094822ebabe",
+    "research_round7/compact_support13/produce_cores.py": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+    "research_round7/compact_support13/verify_compact_support13.py": "b846a19e5455fd629671fe49fdc9e83c2872004a65fe3a91c87c0406795fb9b4",
+    "research_round7/support13/verify_support13.py": "71844439d6dfbc5fee0f900b9a1f82fec0962b60c82cf0e1f2d6f3bdb3d81272",
+    "research_round7/compact_support13/run_disjoint_worker.py": "de0b6bbb863cbc48134eca7370f0c6ddec981fbd9ab7e2b1aaa499f5aa0351f8"
+  },
+  "review_focus": [
+    "The original support/interval/semantic manifest is bound through load_manifest(check_artifact_bytes=False); this skips old payloads but does not claim UNSAT.",
+    "Every compact row equals its original case exactly; production receipt hashes, original CNF hash, replacement proof hash and stored/decoded hashes are checked.",
+    "regenerate_formula checks byte-identical original CNF regeneration. Replacement cores are checked against that original CNF, with no added clauses.",
+    "DRAT trimming is untrusted. A fresh DRAT-trim to LRAT to pinned CakeML chain is mandatory for the replacement core.",
+    "The final compact manifest requires all original accepted case IDs in their original order, with duplicate rejection and unchanged coverage arithmetic.",
+    "Portable replay opens only replacement DRATs, exact original CNFs, and the one inherited LRAT. Old Round7 DRAT payloads are not needed.",
+    "Final source and persisted logical byte guards catch changes during replay. Quick replay explicitly does not establish whole-inventory coverage.",
+    "The explicit two-worker producer split rejects duplicate case IDs and binds every assigned original row exactly; each worker uses private checker binaries and its own progress/log files. It does not claim whole-inventory completeness.",
+    "The portable replay launches at most two processes, gives every case a private temporary directory, and binds case-specific logs to distinct IDs. An exception or a failed case blocks final PASS.",
+    "Full replay requires the returned case-ID set to equal the final manifest set and every result to have the mandatory original-CNF CakeML acceptance status. Parallel completion order does not change coverage.",
+    "Final global source hashes include the new worker wrapper and the inherited frontier file, closing those previously unpinned replay dependencies."
+  ],
+  "limitations": [
+    "No full runtime replay performed by this reviewer; production and portable replay receipts are separate evidence.",
+    "An interrupted unpublished destination may block resumability until explicitly repaired, but cannot silently receive PASS."
+  ],
+  "conclusion": "No semantic, input-binding, scope-preservation, or new concurrency blocker found. This final read-only review binds all four frozen compact-workflow source files and the unchanged original verifier. Complete final production and the portable replay before claiming full accepted compact inventory.",
+  "reviewed_original_manifest_sha256": "e857fee69f0181ce1505cfe77e085599d3f644d55da636e313517d989b23b4c2"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "matching_marked_masks": [
+    8481174,
+    286331166,
+    2172748182
+  ],
+  "scope": "No at-most-93-point Kakeya set has pair-active support affine-equivalent to V union W, dimensions 3 and 2, complementary in F2^5"
+}

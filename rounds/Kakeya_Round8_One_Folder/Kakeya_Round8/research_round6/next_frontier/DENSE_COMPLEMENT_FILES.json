@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "DENSE_COMPLEMENT_REPLAY.json",
+      "bytes": 1177,
+      "sha256": "b84d4d3d9da767339c62bb96a864c267d06d3c3674835f761b6fb36c8d5baefe"
+    },
+    {
+      "file": "DENSE_FIBRE_COMPLEMENT_LEMMAS.md",
+      "bytes": 7565,
+      "sha256": "38ddcc588c192bb7f73acdf94be234a1de9cd5b93497b2176f1838b89424e9da"
+    },
+    {
+      "file": "verify_dense_complements.py",
+      "bytes": 4207,
+      "sha256": "717afb62e0b11006c88947603f19f0c750eacc5d9ead3657ce466bd5bce43106"
+    }
+  ],
+  "new_exclusions": 0,
+  "SAT_jobs": 0
+}

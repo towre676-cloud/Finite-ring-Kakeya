@@ -1,0 +1,15 @@
+{
+  "n": 4,
+  "mode": "E",
+  "status": "UNKNOWN",
+  "seconds": 180.021431,
+  "solver": "OR-Tools CP-SAT",
+  "solver_version": "9.15.6755",
+  "workers": 2,
+  "upper_constraint": 45,
+  "max_fibre_constraint": null,
+  "objective_bound": null,
+  "certification": "solver verdict; no independently checked UNSAT trace",
+  "search_branches": 450679,
+  "conflicts": 33611
+}

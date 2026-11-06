@@ -1,0 +1,27 @@
+{
+  "case_id": "s13_T10069398_m18_18_exactshape_first_attack",
+  "support": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    10,
+    13,
+    15,
+    16,
+    19,
+    20,
+    23
+  ],
+  "maximum_interval": [
+    18,
+    18
+  ],
+  "cnf_regeneration": "BYTE_IDENTICAL",
+  "producer_status": "TIMEOUT_UNCERTIFIED",
+  "status": "PASS_REGENERATION_ONLY_NO_EXCLUSION",
+  "exclusion_credited": false,
+  "seconds": 0.202711
+}

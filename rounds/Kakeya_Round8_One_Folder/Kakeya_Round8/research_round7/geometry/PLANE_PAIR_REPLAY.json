@@ -1,0 +1,167 @@
+{
+  "status": "PASS_EXACT_PLANE_RELATION_AND_CLAUSE_WRAPPER",
+  "ambient_dimension": 5,
+  "full_state_count": 2233,
+  "distinct_pair_triples": 629,
+  "local_subsets_checked": 16,
+  "binary4_subsets_exhausted": 65536,
+  "binary4_relation_size": 201,
+  "closed_form_quadruples_checked": 162129,
+  "explicit_binary5_witnesses_checked": 2233,
+  "actual_fibre_clause_extensions_checked": 1558,
+  "census_compatible_impossible_quadruples_rejected": 2006,
+  "census_compatible_possible_quadruples_accepted": 1558,
+  "sample_wrapper_stats": {
+    "local_planes": 1,
+    "forbidden_triples": 336,
+    "lower_weight_cuts": 282,
+    "upper_weight_cuts": 184,
+    "weight_thresholds": 14,
+    "added_variables": 14,
+    "added_clauses": 3246
+  },
+  "by_weight": [
+    {
+      "weight": 0,
+      "feasible_ordered_pair_triples": 1
+    },
+    {
+      "weight": 1,
+      "feasible_ordered_pair_triples": 1
+    },
+    {
+      "weight": 2,
+      "feasible_ordered_pair_triples": 4
+    },
+    {
+      "weight": 3,
+      "feasible_ordered_pair_triples": 5
+    },
+    {
+      "weight": 4,
+      "feasible_ordered_pair_triples": 12
+    },
+    {
+      "weight": 5,
+      "feasible_ordered_pair_triples": 15
+    },
+    {
+      "weight": 6,
+      "feasible_ordered_pair_triples": 27
+    },
+    {
+      "weight": 7,
+      "feasible_ordered_pair_triples": 34
+    },
+    {
+      "weight": 8,
+      "feasible_ordered_pair_triples": 53
+    },
+    {
+      "weight": 9,
+      "feasible_ordered_pair_triples": 64
+    },
+    {
+      "weight": 10,
+      "feasible_ordered_pair_triples": 88
+    },
+    {
+      "weight": 11,
+      "feasible_ordered_pair_triples": 101
+    },
+    {
+      "weight": 12,
+      "feasible_ordered_pair_triples": 128
+    },
+    {
+      "weight": 13,
+      "feasible_ordered_pair_triples": 140
+    },
+    {
+      "weight": 14,
+      "feasible_ordered_pair_triples": 167
+    },
+    {
+      "weight": 15,
+      "feasible_ordered_pair_triples": 176
+    },
+    {
+      "weight": 16,
+      "feasible_ordered_pair_triples": 201
+    },
+    {
+      "weight": 17,
+      "feasible_ordered_pair_triples": 176
+    },
+    {
+      "weight": 18,
+      "feasible_ordered_pair_triples": 167
+    },
+    {
+      "weight": 19,
+      "feasible_ordered_pair_triples": 140
+    },
+    {
+      "weight": 20,
+      "feasible_ordered_pair_triples": 128
+    },
+    {
+      "weight": 21,
+      "feasible_ordered_pair_triples": 101
+    },
+    {
+      "weight": 22,
+      "feasible_ordered_pair_triples": 88
+    },
+    {
+      "weight": 23,
+      "feasible_ordered_pair_triples": 64
+    },
+    {
+      "weight": 24,
+      "feasible_ordered_pair_triples": 53
+    },
+    {
+      "weight": 25,
+      "feasible_ordered_pair_triples": 34
+    },
+    {
+      "weight": 26,
+      "feasible_ordered_pair_triples": 27
+    },
+    {
+      "weight": 27,
+      "feasible_ordered_pair_triples": 15
+    },
+    {
+      "weight": 28,
+      "feasible_ordered_pair_triples": 12
+    },
+    {
+      "weight": 29,
+      "feasible_ordered_pair_triples": 5
+    },
+    {
+      "weight": 30,
+      "feasible_ordered_pair_triples": 4
+    },
+    {
+      "weight": 31,
+      "feasible_ordered_pair_triples": 1
+    },
+    {
+      "weight": 32,
+      "feasible_ordered_pair_triples": 1
+    }
+  ],
+  "source_hashes": {
+    "research_round7/geometry/plane_cuts.py": "def2cdaf466cd51c9aa4c83b40d394a841f1f04f2987e87f03587e262f7cb0b3",
+    "research_round7/geometry/verify_plane_cuts.py": "39ae522528280f2c6713cb46c2bc096bf711488481ee0a9f59df2b0b38b9e78f",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round7/geometry/PLANE_PAIR_TABLE.json": "f711abad22a7f60be13ab2369b8e97e08bd5778ab4538bfca5cfb9c0c011b85a"
+  },
+  "seconds": 6.712098,
+  "whole_support_exclusions_credited": 0,
+  "formalization": "Finite replay and written proof; not proof-assistant formalized."
+}

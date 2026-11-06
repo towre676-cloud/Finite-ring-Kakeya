@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "All weight4/5 complements inside one fixed F2^4; affine invariance gives the stated universal lemmas.",
+  "subsets_checked": 6188,
+  "types": [
+    {
+      "weight": 12,
+      "Q": 300,
+      "subsets": 140,
+      "distinct_labelled_pair_profiles": 35
+    },
+    {
+      "weight": 12,
+      "Q": 294,
+      "subsets": 1680,
+      "distinct_labelled_pair_profiles": 105
+    },
+    {
+      "weight": 11,
+      "Q": 211,
+      "subsets": 1680,
+      "distinct_labelled_pair_profiles": 105
+    },
+    {
+      "weight": 11,
+      "Q": 205,
+      "subsets": 2688,
+      "distinct_labelled_pair_profiles": 168
+    }
+  ],
+  "conditions_checked": [
+    "exact complement identity",
+    "zero pair counts outside the4-space",
+    "subspace flags",
+    "rank3 support of the six p5 directions",
+    "unique p4 direction in that3-space",
+    "five-circuit dependence and all proper-subset independence",
+    "maximal-pair subspace is trivial exactly for the two targeted types"
+  ],
+  "new_support_exclusions": 0,
+  "SAT_search_performed": false,
+  "formalization": "Hand proof plus complete finite corroboration; no Lean claim.",
+  "seconds": 0.496059
+}

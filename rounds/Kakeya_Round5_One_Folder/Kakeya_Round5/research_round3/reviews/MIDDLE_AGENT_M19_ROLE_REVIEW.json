@@ -1,0 +1,34 @@
+{
+  "status": "PASS_INDEPENDENT_BOUNDED_ROLE_HALL_REVIEW",
+  "reviewer": "middle_maxima agent",
+  "exhaustive_normalized_support_census_rerun": false,
+  "scope": "analytic proof and complete-enumeration code reviewed; all25 witness masks and all88370 Hall witnesses independently checked",
+  "four_inequalities": "necessary and sufficient for the two-attribute assignment relaxation; not sufficient for Kakeya",
+  "supports": {
+    "11": {
+      "profile_inputs": 9733,
+      "role_witness_masks_checked": 10,
+      "excluded": 8837,
+      "remaining": 896,
+      "hall_witnesses_checked": 88370
+    },
+    "12": {
+      "profile_inputs": 2902,
+      "role_witness_masks_checked": 15,
+      "excluded": 0,
+      "remaining": 2902,
+      "hall_witnesses_checked": 0
+    }
+  },
+  "hall_type_subsets_crosscheck_keys": 1033,
+  "dependencies": {
+    "m19/S11_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl": "975e74a1e33cf4d755a699ad86098e975a3152ab10afb60cac60ecd505c8ac3c",
+    "m19/S12_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "m19/UNIQUE_EDGE_ROLE_NORMALIZED_CENSUS.json": "d1cd69dca9cfd10cd694db81001870c2139e98ca86329992082e304db37ad008",
+    "m19/UNIQUE_EDGE_ROLE_VERIFICATION_RECEIPT.json": "7465121005097cba7d7e0fb024cf6b4a7fa8b0a489ae694945018b2c150e66ca",
+    "m19/s11_after_own_periodic.txt": "fb1e3195aca31a13a51acd0936c8577b1d667dfbae733d879746cd9350f98990",
+    "m19/s11_after_unique_edge_roles.txt": "baad3778468db325cdcf499b7c51b3aac338a368645259ef37b297998959f6f2",
+    "m19/s12_after_own_periodic.txt": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445",
+    "m19/s12_after_unique_edge_roles.txt": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+  }
+}

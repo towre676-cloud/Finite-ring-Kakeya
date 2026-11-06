@@ -1,0 +1,146 @@
+{
+  "status": "PASS_ALL_DISJOINT_WORKER_CORES",
+  "worker": "0",
+  "split_sha256": "d65916b584886b82985fb6360d71f0a54a26ea815185966bc1e473f61f4ac996",
+  "requested_case_ids": [
+    "s13_T1611227990_m11_11_m11_rup30",
+    "s13_T675359134_m11_11_m11_rup30",
+    "s13_T360808918_m11_11_m11_rup30"
+  ],
+  "cases": [
+    {
+      "case_id": "s13_T1611227990_m11_11_m11_rup30",
+      "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+      "old_compressed_bytes": 11985828,
+      "core_compressed_bytes": 3507928,
+      "production_seconds": 46.532269
+    },
+    {
+      "case_id": "s13_T675359134_m11_11_m11_rup30",
+      "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+      "old_compressed_bytes": 7112592,
+      "core_compressed_bytes": 1931596,
+      "production_seconds": 19.442934
+    },
+    {
+      "case_id": "s13_T360808918_m11_11_m11_rup30",
+      "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+      "old_compressed_bytes": 4491628,
+      "core_compressed_bytes": 1262488,
+      "production_seconds": 12.83109
+    }
+  ],
+  "producer_sha256": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+  "worker_source_sha256": "de0b6bbb863cbc48134eca7370f0c6ddec981fbd9ab7e2b1aaa499f5aa0351f8",
+  "worker_partition_disjoint": true,
+  "checker_pins": {
+    "drat-trim": {
+      "project": "DRAT-trim",
+      "repository": "https://github.com/marijnheule/drat-trim",
+      "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "commit_date": "2024-11-25T10:20:26-05:00",
+      "source_files_sha256": {
+        "drat-trim.c": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+        "lrat-check.c": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95",
+        "LICENSE": "71ab2a9dc5a294ad8fba4ccb8c45aaa8a439596d314a2a046ac9b62266872a18"
+      },
+      "license": "MIT; complete license included",
+      "formal_status": "The vendored C DRAT and LRAT checkers are ordinary compiled programs. This package does not claim their C implementations are proof-assistant verified.",
+      "ordinary_C_LRAT_checker_role": "DIAGNOSTIC_ONLY; never an UNSAT acceptance authority in this package",
+      "observed_C_LRAT_false_acceptance": {
+        "input_CNF": "p cnf 1 1\n1 0\n",
+        "input_LRAT": "2 0 0\n",
+        "satisfying_assignment": {
+          "1": true
+        },
+        "observed_exit_code": 0,
+        "observed_stdout_marker": "c VERIFIED",
+        "tested_invocation": "lrat-check FILE.cnf FILE.lrat",
+        "correct_CakeML_result": "Rejects: pivot must be non-zero",
+        "reproducer": "verify_pipeline.py and control_audit/C_checker_false_positive/",
+        "scope": "Observed behavior of the exact pinned C utility; not a claim that the LRAT calculus or formally verified LRAT checkers are unsound."
+      }
+    },
+    "cake_lpr": {
+      "project": "cake_lpr",
+      "repository": "https://github.com/tanyongkiam/cake_lpr",
+      "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa",
+      "commit_date": "2026-07-22T23:43:47+01:00",
+      "HOL4_commit": "0ae7030322cdf2b0d46dc9d5503e2d5eae2fa726",
+      "CakeML_commit": "fb377b4bb704497c921cde68ccc8da3b4f0e9132",
+      "source_files_sha256": {
+        "cake_lpr.S": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+        "basis_ffi.c": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+        "Makefile": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+        "LICENSE": "eb1e4ff71900d55d384ff18afad5aae48417ce0fff25231565862c42b45e5dbc",
+        "cake_lpr.sha256": "449be5fbee561f30dbc94bd8bc5588011af9a80a17d3e1fc284a81952c2744ec"
+      },
+      "upstream_checksum_comparison": {
+        "cake_lpr.S": {
+          "declared": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "actual": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "match": true
+        },
+        "basis_ffi.c": {
+          "declared": "3fbd8f31c380e7fb40fede74496ff8b7fb63043645b1afff1e5f26aacdccfa69",
+          "actual": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+          "match": false
+        },
+        "Makefile": {
+          "declared": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "actual": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "match": true
+        }
+      },
+      "upstream_assembly_sha256_verified": true,
+      "upstream_wrapper_checksum_note": "The upstream checksum file predates the July2026 wrapper change from environment settings to CLI flags. The assembly and Makefile hashes match; the current wrapper is pinned by the exact Git commit and its actual hash recorded here. This mismatch is not silently treated as a successful checksum check.",
+      "assembly_architecture": "x86_64",
+      "formal_status": "Upstream verified checker artifact produced by the HOL4/CakeML development. This session checks its published assembly hash, assembles/links the supplied artifact and runs it; it does not rebuild HOL4 or rerun the upstream proof development. The C wrapper, compiler/linker/runtime environment, encoding and orbit completeness remain distinct trust obligations.",
+      "primary_sources": [
+        "https://cakeml.org/checkers.html",
+        "https://cakeml.org/tacas21.pdf",
+        "https://github.com/tanyongkiam/cake_lpr"
+      ]
+    }
+  },
+  "checker_build": {
+    "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "checkers": {
+      "drat-trim": {
+        "binary_sha256": "1997db9ae901ce6c92b80b0567d767ebf0d475ae8fbeed0c0daad57a3c70274b",
+        "compile_returncode": 0,
+        "compile_log_sha256": "22a707fba5e991ed1151baa2eb1d9ca1f480fc7c9e604b0661937f36a7ecadb8",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+        ]
+      },
+      "lrat-check": {
+        "binary_sha256": "9629490cbf998667ac5171d820f67c6691b837a7d2534468ecf291d84150f95d",
+        "compile_returncode": 0,
+        "compile_log_sha256": "9c23be9c12fd3454586c658a2ba9bfc584e64608f0605a75d69df0f27fbfb800",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "-DLONGTYPE",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+        ]
+      },
+      "cake_lpr": {
+        "binary_sha256": "19e237597b7b8d554dc5f224d0f893aa06a0d9d2844129db0b05ee5afb6b12ef",
+        "compile_returncode": 0,
+        "compile_log_sha256": "62b9a31597bb2fdb0f67ece5463bf00d9d87bbb85fa7062d8c45bb683d5835ae",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+        ]
+      }
+    }
+  },
+  "seconds": 80.282183
+}

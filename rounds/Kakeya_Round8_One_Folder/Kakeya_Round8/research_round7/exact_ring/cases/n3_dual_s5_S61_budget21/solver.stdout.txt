@@ -1,0 +1,113 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.1.2
+c clang++-Clang 19.1.2 (https://github.com/llvm/llvm-project 7ba7d8e2f7b6445b60679da826210cdde29eaf8b)
+c Jan  1 1980 00:00:00
+c 
+c --- [ limit ] --------------------------------------------------------------
+c 
+c setting time limit to 60 seconds real time (due to '-t 60')
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/tmp/kakeya_exact_ring_jrtr2brl/proof.drat'
+c writing non-binary proof trace to '/tmp/kakeya_exact_ring_jrtr2brl/proof.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/tmp/kakeya_exact_ring_jrtr2brl/input.cnf'
+c opening file to read '/tmp/kakeya_exact_ring_jrtr2brl/input.cnf'
+c found 'p cnf 524 2097' header
+c parsed 2097 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reductions  redundant irredundant
+c         MB    restarts       trail    variables
+c          level   conflicts       glue     remaining
+c 
+c *  0.00  0  0 0   0    0    0  0% 0 2086 500 95%
+c {  0.00  0  0 0   0    0    0  0% 0 2086 500 95%
+c i  0.00  0  8 0   0   53   40 69% 3 2086 499 95%
+c i  0.00  0  9 0  14  169  149 66% 4 2086 497 95%
+c i  0.00  0  9 0  23  215  189 68% 4 2086 496 95%
+c -  0.01  0  8 1  23  301  245 68% 4 1946 496 95%
+c i  0.01  0  9 1  71  779  668 66% 4 1946 483 92%
+c -  0.01  0  9 2  71  902  711 67% 4 1843 483 92%
+c }  0.02  0  9 2  79 1000  805 66% 4 1843 483 92%
+c [  0.02  0  0 2  79 1000  805  0% 0 1843 483 92%
+c O  0.02  0 10 2  79 1002  807 67% 6 1843 483 92%
+c i  0.02  0  7 2  79 1109  889 61% 4 1843 391 75%
+c ]  0.02  0  6 2  79 1117  894 60% 4 1843 331 63%
+c 0  0.02  0  6 2  79 1117  894 60% 4 1843 331 63%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/tmp/kakeya_exact_ring_jrtr2brl/proof.drat' closed
+c DRAT 1449 added clauses 70.20%
+c DRAT 615 deleted clauses 29.80%
+c DRAT 57549 bytes (0.05 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.02   99.80% search
+c         0.02   87.68% unstable
+c         0.00   11.41% stable
+c         0.00    2.75% parse
+c         0.00    0.61% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.02   95.72% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:               279        24.98 %  of conflicts
+c conflicts:                  1117     62972.15    per second
+c decisions:                  1971    111117.38    per second
+c fixed:                       193        36.83 %  of all variables
+c learned:                    1087        97.31 %  per conflict
+c learned_lits:              14275       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                   3965        27.78 %  learned literals
+c minishrunken:               1393         9.76 %  learned literals
+c otfs:                          6         0.54 %  of conflict
+c propagations:             116170         6.55 M  per second
+c reduced:                      16         1.43 %  per conflict
+c rephased:                      1      1117.00    interval
+c restarts:                     79        14.14    interval
+c stabilizing:                   1        10.47 %  of conflicts
+c subsumed:                    120         3.79 %  of all clauses
+c strengthened:                  6         0.19 %  of all clauses
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.02    seconds
+c total real time since initialization:            0.02    seconds
+c maximum resident set size of process:           17.39    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

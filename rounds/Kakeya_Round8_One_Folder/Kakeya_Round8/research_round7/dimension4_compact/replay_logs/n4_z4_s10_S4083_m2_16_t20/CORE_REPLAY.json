@@ -1,0 +1,36 @@
+{
+  "case_id": "n4_z4_s10_S4083_m2_16_t20",
+  "parameters": {
+    "case_id": "n4_z4_s10_S4083_m2_16_t20",
+    "dimension": 4,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "maximum": 16,
+    "hub_min": 2,
+    "total": 45,
+    "normalize": true,
+    "purpose": "dimension4_complete_catalogue_bounded_search",
+    "catalogue_full_mask": 4083
+  },
+  "representation": "TIMEOUT_CNF_ONLY",
+  "original_drat_read": false,
+  "status": "PASS_TIMEOUT_REGENERATION_NO_EXCLUSION",
+  "regeneration": {
+    "variables": 5166,
+    "clauses": 22739,
+    "cnf_sha256": "568d77cec38021de4c02dc0f238e87f5307b39352792bd7e026cdf469c191cfd"
+  },
+  "exclusion_credited": false,
+  "seconds": 0.02738
+}

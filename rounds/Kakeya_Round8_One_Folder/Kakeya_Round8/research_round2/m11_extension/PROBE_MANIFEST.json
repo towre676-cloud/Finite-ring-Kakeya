@@ -1,0 +1,26 @@
+{
+  "status": "FROZEN_EXPLORATORY_CROSSCHECK_NO_ADDITIONAL_CLOSURE_CREDIT",
+  "m19_changes": 0,
+  "files": [
+    {
+      "path": "research_round2/m11_extension/FIVE_PROFILE_INPUT.json",
+      "sha256": "73cfd90fb5b2ff4c01d076055598339bca623608d45b8e864b71ded75ec719dc"
+    },
+    {
+      "path": "research_round2/m11_extension/five_profiles.txt",
+      "sha256": "f570af7fb9fbd6660ae816770c90167b2a805fa00fb4bad371f002a7c5ec926e"
+    },
+    {
+      "path": "research_round2/m11_extension/five_profile_spectrum_screen.cpp",
+      "sha256": "503e3401d3d2348f4cfb3f1f2bc6437f4e793e3572ebf59d234eadae3a1432f7"
+    },
+    {
+      "path": "research_round2/m11_extension/FIVE_PROFILE_SPECTRUM_BOUNDS.jsonl",
+      "sha256": "04692be0ff6f6b8b39316d8b08e495f53ddff6e7183e988a0fa7fc1c50df1289"
+    },
+    {
+      "path": "research_round2/m11_extension/PROBE_STATUS.txt",
+      "sha256": "40e535945630593009dac7db561257a5ceffeeac83f79a87bc6c107f983e5789"
+    }
+  ]
+}

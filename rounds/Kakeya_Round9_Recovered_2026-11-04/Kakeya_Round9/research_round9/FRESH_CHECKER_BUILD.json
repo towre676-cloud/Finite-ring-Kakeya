@@ -1,0 +1,39 @@
+{
+  "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "checkers": {
+    "drat-trim": {
+      "binary_sha256": "b4842f8840c8ee8fb4c2d89582ed7a4435a6d909f52d6308cce94b9d8da250b6",
+      "compile_returncode": 0,
+      "compile_log_sha256": "2b16fe339c156409657b9700b60082ddaac7cf293f421fc554afb48d61996c67",
+      "compile_arguments": [
+        "-O2",
+        "-std=c99",
+        "/workspace/scratch/c084111f9526/recovered/Kakeya_Round9/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+      ]
+    },
+    "lrat-check": {
+      "binary_sha256": "4fd285e6d976d32a0c855e12dd40c8236d1f8f10f261c4eacf4f4488e9be8bff",
+      "compile_returncode": 0,
+      "compile_log_sha256": "8247a590c3f5be678f7b1681eefa5a1f8763346918c6dd157b4f5b66f4f22eb2",
+      "compile_arguments": [
+        "-O2",
+        "-std=c99",
+        "-DLONGTYPE",
+        "/workspace/scratch/c084111f9526/recovered/Kakeya_Round9/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+      ]
+    },
+    "cake_lpr": {
+      "binary_sha256": "0a41982efd2920fb96ca1a7c5a55ad272a2bcf07052f968344102598c4111e76",
+      "compile_returncode": 0,
+      "compile_log_sha256": "1ef497c2cccdf7cd90331a6bd172f6cf2333d1edd5486968a3549af5ebcb6a66",
+      "compile_arguments": [
+        "-O2",
+        "-std=c99",
+        "/workspace/scratch/c084111f9526/recovered/Kakeya_Round9/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+        "/workspace/scratch/c084111f9526/recovered/Kakeya_Round9/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+      ]
+    }
+  }
+}

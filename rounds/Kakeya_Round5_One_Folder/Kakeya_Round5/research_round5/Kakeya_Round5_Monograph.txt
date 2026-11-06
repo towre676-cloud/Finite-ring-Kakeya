@@ -1,0 +1,176 @@
+**Kakeya Round5: a support theorem and a clearer route forward**
+
+**The question**
+
+A Kakeya set contains a line in every direction. Here the ambient space
+is five dimensional over one of two four-element rings: integers modulo
+four, or binary dual numbers. Each relevant line has four points. Our
+target is an exact minimum of 94 points, the dimension-five instance of
+the proposed formula 3 times two to the dimension, minus two. **The full
+lower bound remains open.** What we have proved in this round is a new
+structural restriction on any hypothetical smaller example.
+
+Reduce every coordinate modulo the ring's two-element residue field.
+The resulting space has 32 residue locations. Above each location sits
+a fibre containing at most 32 points. A fibre with fewer than two points
+cannot contribute to one of the primitive four-point lines. We therefore
+call fibres containing at least two points pair-active. Our new theorem
+says that a Kakeya set with at most 93 points must occupy at least eleven
+pair-active residue locations. The difficult ten-location branch is now
+excluded completely, **with no assumption on the largest fibre.**
+
+**What changed elsewhere**
+
+The other session reports that all 38 maximum-19 cases on the inherited
+open supports have verified DRAT refutations. We have moved our research
+priority to maxima eleven through eighteen. We have not received those
+38 original CNFs and proof files, so their independent acceptance remains
+an explicit task. What we did establish independently is the complete
+case universe: thirteen marked support classes of size eleven and
+twenty-five of size twelve. The reported count is exactly right.
+
+This distinction matters. A proof checker can establish that a particular
+Boolean formula is unsatisfiable. A mathematical argument must establish
+that every hypothetical Kakeya counterexample would satisfy that formula.
+Both links are necessary. Keeping them separate makes the conclusion
+stronger and tells us precisely what remains to be checked.
+
+**The geometry behind ten locations**
+
+Every nonzero residue direction must occur between two active locations.
+A ten-point support must therefore cover all 31 nonzero differences in
+the binary five-dimensional space. We classified these supports directly.
+Normalize an affine basis, then inspect the 14,950 possible extensions
+by four more points. Exactly eighty normalized supports work, and all
+have the same affine structure. A separate implementation verifies every
+case without relying on the previous orbit catalogue.
+
+The structure has three centres and seven ordinary vertices. It is the
+union of the nonzero points of complementary subspaces of dimensions
+two and three. Every edge touching a centre is the only support edge
+in its direction. There are twenty-four such unique edges. The other
+seven directions each occur on three ordinary edges. Uniqueness turns
+an aggregate coverage requirement into a compulsory obligation at each
+endpoint, which is the main reason this support is tractable.
+
+**Counting pairs instead of guessing shapes**
+
+For each direction, count the disjoint pairs inside a fibre. Across a
+unique support edge, the two endpoint pair sets must cover a sixteen-point
+quotient by addition. Their sizes must have product at least sixteen.
+There is also a sharper elementary observation: if one pair set has
+three elements, the other must have at least eight. Three binary points
+span a four-point plane, and each of its four quotient cosets needs at
+least two points from the other summand.
+
+The incident unique directions at each vertex are sum-free. Consequently
+the corresponding graph inside a fibre is triangle-free. Mantel's theorem
+bounds its pairs by the square of the fibre weight divided by four,
+rounded down. At an ordinary vertex the three directions are independent,
+so its graph consists of disjoint three-dimensional cubes. Five points
+in these cubes supply at most five pairs. Three unique edges demanding
+two pairs each therefore cannot be supported by a five-point fibre.
+
+**Why the centres must be large**
+
+Let a be the smallest central weight. If a is at most seven, every
+ordinary neighbour needs at least sixteen points, immediately exceeding
+our total budget. If a is between eight and eleven, every ordinary
+weight is at least eight. At most one of the centre's nine neighbours
+can then have weight at least sixteen. Eight neighbours demand four
+central pairs each, and the possible larger neighbour still demands two.
+That requires at least 34 pairs, exceeding the largest available Mantel
+budget of 30. Every centre therefore has weight at least twelve.
+
+If the smallest centre has weight between twelve and fifteen, the seven
+ordinary fibres each have weight at least eight. The central total is
+at most 37, forcing a twelve-point centre whose neighbours have weight
+at most thirteen. Each of its nine directions requires four pairs.
+The total reaches 36, exactly Mantel's equality threshold.
+
+That equality would require a complete bipartite graph with six vertices
+on each side. But the actual direction geometry forbids it: any six
+candidate opposite vertices have at most two common neighbours. This
+has a short analytic proof, independently corroborated by checking all
+eighty-four six-subsets. The entire low-centre branch is excluded.
+
+**Only three extra points remain**
+
+The remaining centres all have weight at least sixteen. A full thirty-two
+point centre requires separate treatment. Two such centres already force
+at least 94 points. One full centre forces ordinary fibres to supply
+at least five pairs in their three cube directions, hence to contain
+at least five points. The total would then be at least 99. Thus no
+centre is full, and every ordinary edge requires two endpoint pairs.
+
+The cube bound now forces every ordinary weight to be at least six.
+Three centres of weight sixteen and seven ordinary fibres of weight
+six already use ninety points. **There are at most three points left.**
+If a centre has weight sixteen, at least four ordinary neighbours
+still have weight exactly six. Each forces eight central pairs in its
+direction. Those eight pairs exhaust the central fibre, making that
+direction a period of the whole fibre.
+
+Four distinct nonzero periods span at least three dimensions. A sixteen-point
+set with such a period space is two eight-point cosets, hence an affine
+four-dimensional flat. Its positive pair directions lie in four dimensions.
+The centre's required unique directions span five dimensions. This is
+the contradiction that closes every branch containing a sixteen-point centre.
+
+**The last possibility**
+
+Without a sixteen-point centre, all three centres have weight at least
+seventeen. The entire budget is exhausted: their weights must be seventeen,
+and all seven ordinary weights must be six. A central fibre then has
+eight pairs in each of seven directions, for 56 pairs altogether.
+
+Those directions lie in a four-dimensional subspace. Inside either of
+its two cosets, the graph is the complete bipartite graph on eight plus
+eight vertices with a perfect matching removed. Elementary degree and
+triangle-free bounds show that any distribution of seventeen points
+other than sixteen plus one supplies at most 53 pairs. The fibre must
+therefore be a full four-flat plus one exterior point. Outside that
+flat it has only one pair per direction, too few for its remaining
+unique edges. The final branch is impossible.
+
+**Why the two rings still matter**
+
+The exclusions above work for both rings because carry translates
+a edge's quotient sumset without changing its size or whether
+it fills the quotient. That does not mean the two global problems are
+identical. In larger supports, several edges can share responsibility
+for one direction, while the same fibre must participate consistently
+in many directions. Their translated label sets can overlap differently.
+A relaxation that remembers only capacities can miss those global
+constraints. Our next models should preserve the labels and
+the shared fibre choices whenever those distinctions affect feasibility.
+
+The main strategic gain is therefore structural. We have replaced a
+large collection of sparse-support numerical survivors with one theorem
+that excludes every placement and every fibre shape in that branch.
+The remaining problem is substantial, but its boundary is sharper.
+A successful continuation should seek similarly reusable restrictions,
+then certify the residual cases with a complete encoding
+and accepted proofs.
+
+**What the result means**
+
+The weight argument is now analytic; it does not depend on an exhaustive
+weight-profile search. We nevertheless checked all 102,842 total-93 profiles
+with weights at most eighteen through two different enumeration methods.
+Their eleven residual profiles are eliminated by the same rigidity arguments.
+The finite support classification remains a stated dependency. The complete
+theorem has not been formalized in a proof assistant.
+
+Across the middle ledger, this round removes 4,976 additional weight
+profiles. All 3,220 previous support-ten survivors disappear. We retain
+270,779 necessary-condition profiles in 48 support/maximum cells, with
+supports now beginning at eleven. These numbers describe weight multisets,
+not actual constructions and not the other session's SAT case inventory.
+
+We also compiled fifteen Lean theorems connecting ring coordinates,
+carry, four-point lines, and exact pair-sum witnesses. A separate pipeline
+checks archived proofs through the upstream verified CakeML checker.
+It does not certify the unseen new proofs or the unseen encoder.
+The next priority is to combine that acceptance path with the ongoing
+middle sweep and extend the geometric constraints to larger supports.

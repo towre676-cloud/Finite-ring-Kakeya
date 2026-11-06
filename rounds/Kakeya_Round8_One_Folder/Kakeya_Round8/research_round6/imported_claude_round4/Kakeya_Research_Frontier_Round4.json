@@ -1,0 +1,32 @@
+{
+ "title": "Kakeya research continuation, round4 (in progress)",
+ "date": "2026-10-28",
+ "rings": [
+  "Z/4Z",
+  "F2[epsilon]/(epsilon^2)"
+ ],
+ "dimension5_target": 94,
+ "unrestricted_dimension5_theorem": "OPEN",
+ "round3_input_sha256": "191e32c619ddca37ff08c08a23715c4be9fab2ff68a42b96a035e2d725f1eb82",
+ "round3_replay": "PASS_ALL_15_STAGES",
+ "method": "per (m, support orbit) SAT encoding of conditions (A)-(E); DRAT proofs checked by project checkers",
+ "covering_support_orbits_total": 1113,
+ "maximum19": {
+  "status": "EXCLUDED_ON_SUPPORTS_11_12 (38/38 orbits, DRAT-verified); with inherited support lemma, all 3798 round3 profiles excluded",
+  "independent_all_support_sweep": "IN_PROGRESS_UNCREDITED"
+ },
+ "maximum11_to_18": {
+  "status": "OPEN",
+  "exploration": "supports 10-13 solved UNSAT without proofs, 0 survivors; uncredited"
+ },
+ "trust_boundary": [
+  "lemmas A-E",
+  "CNF encoder faithfulness",
+  "project DRAT checkers"
+ ],
+ "not_claimed": [
+  "unrestricted theorem",
+  "proof-assistant formalization",
+  "exclusions without checked proofs"
+ ]
+}

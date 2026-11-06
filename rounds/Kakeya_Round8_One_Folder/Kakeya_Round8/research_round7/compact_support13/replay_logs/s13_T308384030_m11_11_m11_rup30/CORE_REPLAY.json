@@ -1,0 +1,58 @@
+{
+  "case_id": "s13_T308384030_m11_11_m11_rup30",
+  "status": "PASS_EXACT_ORIGINAL_CNF_AND_PORTABLE_CAKEML_PROOF",
+  "nonzero_support_mask": 308384030,
+  "maximum_interval": [
+    11,
+    11
+  ],
+  "representation": "COMPACT_DRAT",
+  "original_round7_drat_read": false,
+  "formula_regeneration": {
+    "variables": 34568,
+    "clauses": 217916,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "7343b6fb374cf9ed75e36eedf6cd08df86506a80992f23d535737dbcd8e94085"
+  },
+  "cnf_sha256": "7343b6fb374cf9ed75e36eedf6cd08df86506a80992f23d535737dbcd8e94085",
+  "checked_proof_sha256": "fd8999ce60ea2e160d5ff196cd3635e3e34e04c87ee511495c98c4dfa0438000",
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 34568,
+      "clauses": 217916
+    },
+    "input_sha256": {
+      "cnf": "7343b6fb374cf9ed75e36eedf6cd08df86506a80992f23d535737dbcd8e94085",
+      "drat": "fd8999ce60ea2e160d5ff196cd3635e3e34e04c87ee511495c98c4dfa0438000"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 5.229714,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "5cf69a99e4672c1816bf05f949b8b4f6e4f8463caab57c5384e0a4698d7f8aef",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "5a53ad680f778e9dd5d6674a666a8542525e8542517da9d30d56045fc30a2bd1",
+    "lrat_bytes": 82484967,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 3.122624,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 9.451149
+}

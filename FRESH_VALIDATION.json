@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "scope": "Selected fresh checks only; not full historical replay.",
+  "checks": {
+    "full_proof_replay": {
+      "status": "NOT_RUN",
+      "reason": "Source preservation and hash verification; archived proof receipts retained without claiming fresh replay."
+    }
+  }
+}

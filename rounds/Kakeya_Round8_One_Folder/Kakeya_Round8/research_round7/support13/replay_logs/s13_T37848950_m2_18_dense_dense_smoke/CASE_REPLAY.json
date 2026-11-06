@@ -1,0 +1,60 @@
+{
+  "case_id": "s13_T37848950_m2_18_dense_dense_smoke",
+  "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+  "nonzero_support_mask": 37848950,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "inherited": false,
+  "variant_mode": "dense",
+  "regenerated_variant_metadata": {
+    "base_variables": 45124,
+    "base_clauses": 400297,
+    "dense": {
+      "variables": 8931,
+      "clauses": 78468
+    }
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 54055,
+      "clauses": 478765
+    },
+    "input_sha256": {
+      "cnf": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+      "drat": "c83f83ab151c4613f1b99754dbea3a6f1a74cee3e43af92a393576594ad95cb7"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 3.4755,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "47efc0a27146b63585c3989698cc032a5e763587037e8e59ef2da51754f91b87",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "aabe4e971d8cd6f96e06e68b81e2779926611155c8d081a9d282f7b58ecb903e",
+    "lrat_bytes": 20516418,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.41894,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "cnf_sha256": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+  "proof_sha256": "c83f83ab151c4613f1b99754dbea3a6f1a74cee3e43af92a393576594ad95cb7",
+  "seconds": 7.394167
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "independent_degree_census": "research_round2/root/ROOT_VERIFIED_DEGREE_CENSUS.json",
+  "degree_census_inherits_382_orbits": false,
+  "dual_checker": "Reviewed and rerun exact local and global assignment-dual checker; all inequalities integral",
+  "supports": {
+    "11": {
+      "input_count": 21381,
+      "new_exclusions": 25,
+      "remaining": 21356,
+      "excluded_parent_ids": [
+        6570,
+        25993,
+        25998,
+        26011,
+        26069,
+        26454,
+        27623,
+        27635,
+        27826,
+        27831,
+        27842,
+        27854,
+        27856,
+        27858,
+        27859,
+        27863,
+        27879,
+        27906,
+        27915,
+        27928,
+        44032,
+        44034,
+        44037,
+        44041,
+        44293
+      ],
+      "certificate_sha256": "678b19bc7414f69f214999af0903dfa159c0a6df7d2c59d2486ef0a67d63aee1"
+    },
+    "12": {
+      "input_count": 9115,
+      "new_exclusions": 0,
+      "remaining": 9115,
+      "excluded_parent_ids": [],
+      "certificate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "total_exclusions": 25,
+  "remaining_selected_profiles": 30471,
+  "dual_receipt_sha256": "36e60bb94457905afd4cc40fd9b13b507a99e89a2dbba63456cbc24d43018ecf"
+}

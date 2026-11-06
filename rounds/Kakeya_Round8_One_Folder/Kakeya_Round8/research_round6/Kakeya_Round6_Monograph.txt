@@ -1,0 +1,81 @@
+**Round 6: a smaller frontier for finite Kakeya**
+
+**Any counterexample to our proposed 94-point bound must now use at least thirteen active residue fibres.** The bound itself remains open. The new result removes every configuration with eleven or twelve active fibres, using complete support classifications and checked refutations, together with previously established reductions. It also supplies two elementary structural proofs that explain why certain configurations cannot work.
+
+We study Kakeya sets in dimension five over two four-element rings: integers modulo four, and binary dual numbers. These are finite arithmetic problems with unusually concrete geometry. A line has four points. A Kakeya set must contain a whole line in every primitive direction. The target is to prove that ninety-four points are necessary; a construction already shows that ninety-four suffice. (Source: Kakeya_Research_Frontier_Round6.json.)
+
+**Why the number ninety-four appears**
+
+Reduce every coordinate modulo the ring's nilpotent element. The resulting residue space has thirty-two points, identified with the binary vector space F₂⁵. Above each residue sits another thirty-two-point space. A fibre is the collection of chosen points above one residue.
+
+A standard construction fills one fibre completely and places two suitable points in each of the other thirty-one fibres. Its size is 32+2·31=94. The conjectural general formula is 3·2ⁿ−2. Proving this formula would require controlling configurations that distribute their points differently, including those without a full fibre.
+
+Singleton fibres contribute no four-point line, so they can be deleted. The remaining fibres are called pair-active. Their residue locations form the support. Their sizes form a weight profile. These are different objects: the same list of sizes can be placed on many different supports, with many different shapes inside each fibre.
+
+For each of the thirty-one nonzero binary directions, there are sixteen lifted ring directions to cover. Thus there are 496 directional demands. A residue edge can help only through pairs lying in its two endpoint fibres.
+
+**What changed computationally**
+
+Earlier resource bounds often counted what each fibre could contribute in isolation. The newer approach fixes the actual support and requires all incident edges to share one compatible set of fibre data.
+
+The obstacle is shared geometry. A fibre might have enough total pairs to meet several separate numerical tests, yet have no way to place those pairs in all the directions demanded by its actual neighbours. Choosing a single affine space and a single maximal-pair subspace forces those demands to interact. This explains why fixing support geometry can eliminate cases that survive extensive collections of scalar inequalities.
+
+At each fibre, the model chooses a realizable pair-count histogram, an affine direction space, and a maximal-pair subspace. For every residue edge it chooses directional pair counts. Exact sumset upper bounds limit that edge's contribution. Every binary direction must receive enough combined capacity to cover its sixteen lifts.
+
+These are necessary conditions. A model assignment need not reconstruct a genuine Kakeya set. Nevertheless, if the necessary conditions are inconsistent, the corresponding Kakeya configuration is impossible.
+
+There are thirteen relevant support classes with eleven active fibres and twenty-five with twelve, when a largest fibre is distinguished. The complete marked universe therefore contains thirty-eight cases. The classification includes tied largest fibres and every allowable placement.
+
+The joint-maximum formulation also changes the organization of the search. Instead of fixing the largest weight separately in every run, it allows a whole interval, counts the hub inside the common point budget, and insists that every other fibre be no larger. One contradiction then rules out every maximum in that interval for the specified marked support. Tied largest fibres remain fully within scope.
+
+We now have two complete certificate collections on that universe. One excludes maximum fibre nineteen. The other excludes all maxima from two through eighteen simultaneously. That is seventy-six exact CNF refutations covering thirty-eight marked geometries across the entire maximum range through nineteen. Each refutation has passed the pinned upstream CakeML checking route. Coverage and hash checks connect every accepted formula to its declared case. (Sources: M19_COMPLETE_CERTIFICATION_RECEIPT.json; JOINT_CERTIFICATE_MANIFEST.json.)
+
+**Why the new handoff mattered**
+
+The other session supplied the mathematical conditions, current encoder, census data, support catalogue, and historical result logs. It did not supply the historical CNFs or proof files. Its thirty-eight recorded maximum-nineteen certifications used an earlier encoder revision.
+
+We therefore regenerated and certified all thirty-eight cases using the actual packaged revision. The resulting claim does not require accepting an asserted equivalence between the missing historical formulas and the available encoder. The inherited reduction restricting maximum nineteen to supports eleven or twelve still matters for closing that entire stratum.
+
+Consequently all 3,798 maximum-nineteen profiles previously left open are excluded, under that inherited support reduction. The new CNFs do not impose the outer-weight-fourteen cap. These are checked results from supplied artifacts and fresh computations; they do not report live progress from an inaccessible external session. (Source: README_CERTIFICATION.txt.)
+
+**A short geometric explanation for one support**
+
+One transparent eleven-point support is S=V∪W, where V and W are complementary binary subspaces of dimensions three and two. There are three nonzero points in W, seven nonzero points in V, and their common origin.
+
+Call the three points centres and the seven ordinary vertices. Every centre-to-ordinary direction occurs on exactly one support edge. Such an edge must therefore cover all sixteen lifted directions by itself. This makes small fibres expensive for their neighbours.
+
+Elementary pair bounds force every centre to contain at least sixteen points. The three directions seen from an ordinary vertex are independent; their pair graph is a union of three-dimensional cubes. Six required edges cannot fit on five selected vertices, forcing each ordinary fibre to contain at least six points. The origin contributes at least two.
+
+The resulting baseline is 3·16+7·6+2=92. A hypothetical ninety-three-point counterexample has only one point of slack. At least two centres therefore have exactly sixteen points, and many adjacent ordinary fibres have exactly six.
+
+Those neighbours force maximal pairings in enough independent directions to make each sixteen-point centre an affine four-dimensional flat. Its pair counts vanish outside its direction space. Every edge joining centres consequently loses its contribution. The origin, with at most three points, cannot replace the missing coverage.
+
+This proves the displayed support impossible without any maximum-fibre assumption, spectrum census, or SAT argument. (Source: SUPPORT11_COMPLEMENTARY_SUBSPACES_PROOF.md.)
+
+**A new lemma about almost-periodicity**
+
+For a fibre A, write p_A(d) for its number of pairs in direction d. Let K contain zero and every direction attaining the largest possible count, floor(|A|/2). These directions form a subspace.
+
+For even |A|, K consists of translation periods. The odd case has a useful additional description: **if K is nontrivial, A differs by one point from a K-invariant set.**
+
+Here is the argument. Put h=|K| and let t_C count the points of A in a K-coset C. Every nonzero maximal direction leaves exactly one point unmatched. Counting those deficits over K gives Σ_C t_C(h−t_C)=h−1. Every partially occupied coset contributes at least h−1. Therefore exactly one coset is partial, containing either one point or all but one; every other coset is empty or full.
+
+It follows that p_A(d)=p_A(e) whenever d,e are nonzero and d+e belongs to K. Pair counts must agree across each outside coset of K. Also K lies inside the fibre's affine direction space.
+
+We implemented these additional constraints. A bounded comparison excluded one marked support-thirteen case, with both baseline and strengthened formulas independently accepted. That is one excluded case, not two. The comparison showed no solver-speed advantage from the extra constraints; another selected case timed out under both formulas. (Sources: MAXIMAL_SUBSPACE_COSET_LEMMA.md; strengthened_trials/ASSESSMENT.md.)
+
+**What the certificates establish**
+
+The checker establishes unsatisfiability of exact Boolean formulas. A separate mathematical argument must show that every hypothetical Kakeya counterexample produces a satisfying assignment of those formulas.
+
+That assignment argument is now written explicitly, including histogram choices, subspace choices, cardinality auxiliaries, weight budgets, and edge capacities. It also explains why the two rings share this relaxation: their carry terms translate quotient sumsets without changing cardinality.
+
+This remains computer-assisted mathematics. The complete spectrum census is a finite computational dependency. The full encoder, census, and geometric argument have not been formalized in Lean. Earlier Lean results verify specific components, not the complete dimension-five theorem. Separate model-agent reviews improve error detection without supplying independent human validation. (Source: ONE_WAY_SOUNDNESS_AUDIT.md.)
+
+**The remaining frontier**
+
+Removing supports eleven and twelve eliminates 84,297 whole middle-stratum weight profiles. The ledger falls from 270,779 to 186,482 profiles across thirty-four nonempty support/maximum cells. Maximum eleven separately retains forty-six affine support classes: four at support thirteen, nine at fourteen, sixteen at fifteen, and seventeen at sixteen.
+
+The extra support-thirteen certificate does not justify subtracting whole weight profiles, since other placements can remain. Weight profiles, affine classes, marked cases, and proof files must be counted separately. (Source: ROUND6_MERGED_REPLAY.json.)
+
+The new minimum support thirteen combines this round with the inherited exclusion of maxima at least twenty and Round 5's exclusion of supports at most ten. Larger supports still require substantial work. The dimension-five lower bound ninety-four and the general formula remain open. Our next task is to extract stronger geometric restrictions from the remaining supports, while certifying every exclusion against the actual formulas used.

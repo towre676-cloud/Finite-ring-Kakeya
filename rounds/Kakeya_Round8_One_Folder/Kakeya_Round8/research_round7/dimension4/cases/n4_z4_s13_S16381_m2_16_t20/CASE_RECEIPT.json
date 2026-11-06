@@ -1,0 +1,90 @@
+{
+  "case_id": "n4_z4_s13_S16381_m2_16_t20",
+  "parameters": {
+    "case_id": "n4_z4_s13_S16381_m2_16_t20",
+    "dimension": 4,
+    "ring": "z4",
+    "support": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "maximum": 16,
+    "hub_min": 2,
+    "total": 45,
+    "normalize": true,
+    "purpose": "dimension4_complete_catalogue_bounded_search",
+    "catalogue_full_mask": 16381
+  },
+  "status": "TIMEOUT_UNCERTIFIED",
+  "source_hashes": {
+    "research_round7/exact_ring/encode_exact_ring.py": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+    "research_round7/exact_ring/verify_exact_ring.py": "1530b590589a69a0f87d5b15f2ef49658a161265df57b64235ee9ae66d79efd9",
+    "research_round7/exact_ring/certify_exact_ring.py": "e9a2ee434ad5e4460a82df64b9177c77d004a391968f9b689675e449417b4aff",
+    "research_round7/dimension4/certify_dimension4.py": "a09d85f9119ae56a214dc4adfcd8ac43637aa5971c65a4594bf40f91720db588",
+    "research_round7/dimension4/catalogue_dimension4.py": "27d31a8fb2dbdbe0334986795a87cd988f095243fcdca8629a465bf1dbc6e1ac",
+    "research_round7/dimension4/DIMENSION4_SUPPORT_CATALOGUE.json": "1228008c588be9153340548fcca72979857b779d3b28afdf65e7e73fb963af89",
+    "research_round7/dimension4/DIMENSION4_ALL_MARKED_TRANSPORTS.json": "e1dc2707613f855e61138e5c0f8fd97efa697b0a49220df16787059f19cc8a48"
+  },
+  "solver_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+  "wall_limit_seconds": 20,
+  "census_dependency": false,
+  "capacity_table_dependency": false,
+  "encoder_formalized": false,
+  "storage": {
+    "input.cnf": {
+      "logical_path": "/tmp/kakeya_exact_ring_hb7xx609/input.cnf",
+      "compressed_path": "/tmp/kakeya_exact_ring_hb7xx609/input.cnf.xz",
+      "raw_sha256": "a43e2acbda7cc1853937ac65b4d42e3dc4750ebc8a8682ebf35ae1e2a9018f7f",
+      "raw_bytes": 515066,
+      "xz_sha256": "87485e9f124718728eaa148c381091e7aede74c01fc47ffa552b1426c86d79e5",
+      "xz_bytes": 74748,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "a43e2acbda7cc1853937ac65b4d42e3dc4750ebc8a8682ebf35ae1e2a9018f7f"
+    }
+  },
+  "variables": 8234,
+  "clauses": 32418,
+  "anchors": [
+    0,
+    2,
+    3,
+    4,
+    8
+  ],
+  "cnf_sha256": "a43e2acbda7cc1853937ac65b4d42e3dc4750ebc8a8682ebf35ae1e2a9018f7f",
+  "cnf_bytes": 515066,
+  "encode_seconds": 0.032662,
+  "solver_returncode": 0,
+  "stop_reason": null,
+  "solver_command": [
+    "/tmp/kakeya_lean_round4/lean-4.24.0-linux/bin/cadical",
+    "--no-binary",
+    "-t",
+    "20",
+    "/tmp/kakeya_exact_ring_hb7xx609/input.cnf",
+    "/tmp/kakeya_exact_ring_hb7xx609/proof.drat"
+  ],
+  "solve_seconds": 20.032414,
+  "proof_sha256": "f3d31c7a9d457a84924adda0ab33e9245833994080dc2259348c1e7529ff93a1",
+  "proof_bytes": 134547264,
+  "discarded_unaccepted_proof": {
+    "sha256": "f3d31c7a9d457a84924adda0ab33e9245833994080dc2259348c1e7529ff93a1",
+    "bytes": 134547264,
+    "reason": "Not an accepted UNSAT refutation; no exclusion credit."
+  },
+  "seconds": 20.201986,
+  "unfinished_proof_retained": false
+}

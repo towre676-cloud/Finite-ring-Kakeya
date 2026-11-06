@@ -1,0 +1,74 @@
+KAKEYA OVER TWO FOUR-ELEMENT RINGS: THE THIRD RESEARCH CHECKPOINT
+
+**The main result**
+
+We have obtained new theorems and substantial exclusions, while the unrestricted conjecture remains open. The proposed minimum is 3*2^n-2 for Kakeya sets over either Z/4Z or F2[epsilon]/(epsilon^2). In dimension five, the target is 94 points. Our task is to rule out every configuration with at most 93 points. This checkpoint advances that task through geometric constraints that force different directions to use the same fibre consistently.
+
+The retrieved sessions and saved records have been reconciled with the previous verified checkpoint. Older candidate counts have been superseded. Conditional results retain their hypotheses, particularly the theorem requiring two minimal parameter images. We have not established that an arbitrary Kakeya set admits such a representation. The new work therefore continues directly with residue fibres, pair counts, actual sumsets, and exhaustive necessary conditions.
+
+**What the finite problem asks**
+
+A Kakeya set contains a complete line in every primitive direction. Over either ring here, such a line has four points. Reducing coordinates to F2 splits the ambient space into residue classes. In dimension five there are 32 residue classes, and each contains a tangent fibre that can be identified with a subset of F2^5.
+
+For a nonzero binary direction d, a four-point line requires a pair of tangent points separated by d at each endpoint of a residue edge. There are 31 binary directions, each with 16 distinct lifted directions to cover. The total required coverage is therefore 496. Twice that number, 992, is the energy threshold appearing throughout our proofs.
+
+Write p_A(d) for the number of unordered d-pairs in a fibre A. These counts satisfy sum_d p_A(d)=binom(|A|,2). If two endpoint fibres provide p and q pairs, their edge covers at most pq lifted directions. Actual coverage is the cardinality of a quotient sumset and can be smaller. That difference becomes decisive when equality forces periods or affine subspaces.
+
+The pair-active support consists of residues containing at least two points. Singleton fibres cannot contribute to a primitive line and may be removed. A surviving weight profile records necessary numerical data; it does not specify an actual Kakeya construction.
+
+**The updated dimension-five frontier**
+
+Let m denote the largest fibre size. The inherited exclusions for m at most 10 and m at least 20 remain in force.
+
+For m=11, the pair-active support now has size at most 16, improving the previous bound of 17. All five previously surviving support-17 affine classes are excluded. Six additional support-16 classes are also excluded. The total remaining class count falls from 57 to 46: four classes at support 13, nine at support 14, sixteen at support 15, and seventeen at support 16.
+
+For every m from 12 through 18, the support now has size at most 17, improving the previous bound of 18. We regenerated all 239,246 normalized support-18 weight partitions. Earlier resource bounds exclude 238,744; earlier exact-spectrum certificates exclude 217; this round excludes all remaining 285. No support-18 weight partition remains in these seven maximum-fibre ranges.
+
+For m=19, the tracked list falls from 30,471 profiles to 3,798. The new exclusions are disjoint: 17,604 from common affine-rank modes, one from a deleted-direction argument, 231 from common periodic modes, and 8,837 from actual support roles. The survivors comprise 896 support-11 profiles and 2,902 support-12 profiles.
+
+These three counts measure different objects: affine support classes, weight multisets, and weight/own-direction profiles. They cannot be added into a single percentage of the conjecture proved.
+
+**The central new inequality**
+
+The last three middle-range profiles all contain six fibres of size eight. Their other weights differ slightly. Pair-square energy forces at least five of those six fibres to be actual affine three-dimensional cubes. A cube has energy 112, whereas a noncube eight-point fibre has energy at most 70. Two noncubes would already leave insufficient total energy.
+
+Each cube has exactly seven usable nonzero pair directions. Furthermore, an edge between two cubes that covers all 16 quotient labels cannot belong to an active triangle of cubes. Three active edges would force the same two-dimensional direction space into all three cubes, reducing each edge's capacity to at most eight. Thus the capacity-16 cube edges form a triangle-free graph.
+
+This gives two simultaneous restrictions: scarce cube directions and restricted highly productive cube edges. We combine them with the pair energy of every remaining fibre. Energy already allocated to a cube edge is subtracted before bounding edges among the remaining fibres, preventing the same resource from being used twice.
+
+Let r be the number of cubes, E_R the remaining fibres' total energy bound, and H_A a local surplus over at most r directions. For 4<=lambda<=8, the resulting inequality is
+
+ C_total <= E_R/2 + 7r*lambda
+            + (16-2lambda)*floor(r^2/4) + sum_A H_A.
+
+Choosing lambda=11/2 makes the surplus depend only on pair counts two, three, and four. Ordinary direction quotas then suffice. For the three final profiles, the doubled upper bounds with five or six cubes are respectively (972,991), (954,972), and (962,980). Every value is below the required 992. The tightest case closes by one unit in the doubled bound.
+
+This is a reusable geometric inequality. Its proof applies to actual cube fibres and their shared incidence structure, beyond the particular three profiles that first required it.
+
+**Other compatibility obstructions**
+
+Own-positive means possessing a residue-direction pair.
+
+The maximum-11 exclusions provide a useful example of how a numerical near-miss becomes a proof. An eight-point fibre on a unique support edge must supply four pairs in that edge's direction: three pairs against any possible partner supply at most fifteen labels. Four pairs force translation invariance. Quotienting by that period leaves four points. If they form a plane, the original fibre is a cube, whose active energy is divisible by sixteen. Otherwise its entire energy is exactly sixty-four. Consequently a previously valid local energy bound of seventy improves to sixty-four. Applying this at two forced vertices lowers one stubborn assignment bound from 992 to 980. The complete support-16 replay checks 20,477 weight partitions and 17,986 assignment certificates. Its conclusion covers every weight placement and every permitted geometry in each excluded support class over both rings.
+
+When two outer fibres are periodic in their own residue directions, their pair-label sets acquire the same nonzero period after quotienting by their connecting direction. Every sum then has at least two representations. Their actual edge capacity is at most pq/2. The periodic choice must remain fixed at every incidence of each fibre; separate edge optimizations would lose this restriction.
+
+A related rank theorem applies to own-positive fibres whose affine tangent ranks are at most three. Their connecting edge has capacity at most eight. Among r such fibres, edges whose directions lie outside the support have total capacity at most 4*floor(r^2/2). The proof follows the common subspaces forced by edges and triangles.
+
+Actual support placement supplies another strong obstruction. If a direction outside the support has only one residue edge, that edge must cover all 16 labels. Under the verified outer-weight bound 14, both endpoints must have weight at least eight. A vertex whose own direction has only its hub edge must be own-positive and have weight at least four.
+
+We independently enumerated all 296,010 normalized marked supports of sizes 11 and 12. Their forced roles impose four Hall assignment inequalities. The resulting 88,370 checked failure witnesses exclude 8,837 profiles uniformly over every permitted placement. At support 11, every covering support has at most one outer vertex lacking both forced roles; that simple consequence alone explains 6,241 exclusions.
+
+**A theorem in every higher dimension**
+
+There is also a dimension-uniform result. For either ring and every n>=6, suppose one residue fibre is full and every other fibre has at most twelve points. Then the Kakeya set has at least 3*2^n-2 points. Equality holds exactly for generalized stars: one full central fibre and an own-direction pair in each other residue.
+
+The proof combines dimension-independent energy maxima through twelve points with a defect budget. Empty or singleton outer residues need extra pair energy elsewhere. The available point budget cannot pay for that energy. Small defect counts are settled by exact integer recurrences; a single inequality handles every larger defect count. The full-fibre hypothesis remains essential to the statement.
+
+**Verification and the next problem**
+
+The certificates use exact integers, complete partition enumeration, independently implemented finite censuses, and directly checked assignment inequalities. The geometric proofs received independent internal mathematical review. This is not proof-assistant formalization. The portable archive includes the prior checkpoint, new proofs, replay scripts, certificates, and exact survivor lists.
+
+The next target is simultaneous realizability. At maximum 11, the surviving support-16 cases involve 66 distinct weight profiles. In the middle range, support 17 is now the boundary. At maximum 19, each remaining profile must be assigned to an actual support with one common shape for every fibre. After shapes are fixed, translations and ring carries must satisfy all coverage conditions together.
+
+The guiding question is now concrete: can these remaining numerical budgets be realized by a single compatible geometry? Every exclusion in this checkpoint answers that question negatively for a specified, completely checked family.

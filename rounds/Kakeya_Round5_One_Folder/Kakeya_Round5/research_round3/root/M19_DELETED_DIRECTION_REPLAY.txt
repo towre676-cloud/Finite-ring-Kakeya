@@ -1,0 +1,29 @@
+{
+  "status": "PASS_ANALYTIC_DELETED_DIRECTION_PROFILE",
+  "proof_uses_census": false,
+  "bounds": {
+    "own_zero_weight8": 128,
+    "own_positive_weight3": 30,
+    "total_doubled": 956,
+    "required_doubled": 960
+  },
+  "supports": {
+    "11": {
+      "input_profiles": 9829,
+      "new_exclusions": 1,
+      "remaining_profiles": 9828,
+      "input_sha256": "5803aea98b6106decf97181578761e315c6c2ae87229bc58c87b1290d2df5cfd",
+      "candidate_sha256": "841f2fc6cfb262fb5e1015ce8cb870cc0267a73eee5f5491e83c024212a1a9fd",
+      "survivors_sha256": "9164e23187e791566197a90cab13e7e0d1d6fc65744f51ed5774c6eb6d2ee696"
+    },
+    "12": {
+      "input_profiles": 3038,
+      "new_exclusions": 0,
+      "remaining_profiles": 3038,
+      "input_sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a",
+      "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "survivors_sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+    }
+  },
+  "total_remaining_profiles": 12866
+}

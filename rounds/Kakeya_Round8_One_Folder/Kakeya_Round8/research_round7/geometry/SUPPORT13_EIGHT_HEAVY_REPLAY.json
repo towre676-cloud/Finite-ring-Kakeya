@@ -1,0 +1,98 @@
+{
+  "status": "PASS_EIGHT_HEAVY_COROLLARY_CONTROLS",
+  "distinct_high_weight_relation_pairs": 406,
+  "plane_direction_multiplicities": {
+    "1": 2,
+    "2": 2,
+    "3": 2
+  },
+  "max_weight18_fibres_under_budget": 3,
+  "integer_controls": [
+    {
+      "maximum": 2,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 3,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 4,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 5,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 6,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 7,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 8,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 9,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 10,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 11,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 12,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 13,
+      "possible_light_weight3_counts_by_bound": []
+    },
+    {
+      "maximum": 14,
+      "possible_light_weight3_counts_by_bound": [
+        5
+      ]
+    },
+    {
+      "maximum": 15,
+      "possible_light_weight3_counts_by_bound": [
+        5
+      ]
+    },
+    {
+      "maximum": 16,
+      "possible_light_weight3_counts_by_bound": [
+        4,
+        5
+      ]
+    },
+    {
+      "maximum": 17,
+      "possible_light_weight3_counts_by_bound": [
+        4,
+        5
+      ]
+    },
+    {
+      "maximum": 18,
+      "possible_light_weight3_counts_by_bound": [
+        4,
+        5
+      ]
+    }
+  ],
+  "new_sat_exclusions_claimed": 0,
+  "source_hashes": {
+    "SUPPORT13_EIGHT_HEAVY_COROLLARIES.md": "4547cf9b15eb3fa0e29cea2fdfafdea283e7fb7b2add9b315447cdd96a21e513",
+    "verify_eight_heavy_corollaries.py": "be66bde7e29cd857c848ccb5755954dbd86f5a23dddbead85deb45d4938ae9c5"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS_PINNED_LEAN_COORDINATE_AND_LINE_BRIDGE",
+  "lean_version": "Lean (version 4.24.0, x86_64-unknown-linux-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)",
+  "mathlib_commit": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7",
+  "theorem_count": 15,
+  "axiom_audits": {
+    "encode_injective": [
+      "propext"
+    ],
+    "linePoint_zero": [
+      "Quot.sound"
+    ],
+    "linePoint_nilpotent": [
+      "Quot.sound"
+    ],
+    "linePoint_one": [
+      "Quot.sound"
+    ],
+    "linePoint_one_add_nilpotent": [
+      "Quot.sound"
+    ],
+    "lineContained_iff_two_pairs": [
+      "Quot.sound"
+    ],
+    "vxor_eq_self_forces_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "primitive_pair_distinct": [
+      "propext",
+      "Quot.sound"
+    ],
+    "endpoint_involution": [
+      "propext",
+      "Quot.sound"
+    ],
+    "line_exists_iff_pair_sum": [
+      "propext",
+      "Quot.sound"
+    ],
+    "encode_lt_four": [],
+    "z4_add_encoding": [],
+    "z4_mul_encoding": [],
+    "z4_line_encoding": [],
+    "coordinate_corners": []
+  },
+  "formalized": [
+    "Injective canonical encoding of Bool pairs into the four natural residues.",
+    "Z/4 coefficient addition, multiplication, and line arithmetic agree with literal arithmetic modulo4.",
+    "For both coordinate ring models, four coefficient choices give the two tangent pairs with the correctcarry.",
+    "For any index type, full line containment iff the two tangent pairs exist; primitive pair points are distinct.",
+    "For any index type, line existence iff a carry-shifted pair-sum witness exists."
+  ],
+  "not_formalized": [
+    "A full abstract Ring instance/isomorphism for the dual-number coordinate carrier.",
+    "Quotient-label cardinality, pair-count energy, or support-orbit completeness.",
+    "Affine support normalization over the rings.",
+    "Claudes unavailable conditionsA-E, the actual CNF encoder, DRATchecker, or maximum19closure."
+  ],
+  "source_sha256": "07501d6508595a87b3c33a44b8b23c3c4ca01f9dc515973ed1eb092f2d81ac0a",
+  "log_sha256": "c94ff876d519ebd281914e5a725c8bb82fe95287d800060fa38f3f5b2d6d44f2",
+  "seconds": 2.418712
+}

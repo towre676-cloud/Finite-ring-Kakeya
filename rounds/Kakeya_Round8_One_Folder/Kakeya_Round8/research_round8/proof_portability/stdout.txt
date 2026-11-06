@@ -1,0 +1,35 @@
+[1/15] immutable_inherited_checkpoint
+  PASS (0.85s)
+[2/15] new_strengthened_encoder_controls
+  PASS (8.44s)
+[3/15] ten_heavy_and_full_difference_cover
+  PASS (4.63s)
+[4/15] complete_ten_heavy_geometry_and_rank_consequences
+  PASS (0.10s)
+[5/15] elementary_ten_heavy_exclusion
+  PASS (0.10s)
+[6/15] independent_actual_fibre_price_enumeration
+  PASS (0.43s)
+[7/15] independent_integer_dual_and_dynamic_program
+  PASS (0.05s)
+[8/15] hyperplane_crossing_pair_controls
+  PASS (10.18s)
+[9/15] Q211_effective_pair_spaces
+  PASS (1.18s)
+[10/15] new_missing_direction_incidence_controls
+  PASS (5.37s)
+[11/15] sixteen_whole_profile_incidence_exclusions
+  PASS (0.83s)
+[12/15] complete_pending_middle_maximum_queue
+  PASS (0.03s)
+[13/15] fresh_all_four_compact_proofs
+  PASS (196.41s)
+[14/15] complete_checked_coverage_and_frontier_accounting
+  PASS (2.32s)
+[15/15] exact_monograph_source_and_pdf_binding
+  PASS (0.06s)
+{
+  "status": "PASS_ROUND8_FRESH_ALL_NEW_CERTIFICATES_AND_FINITE_RESULTS",
+  "completed_stages": 15,
+  "seconds": 230.981954
+}

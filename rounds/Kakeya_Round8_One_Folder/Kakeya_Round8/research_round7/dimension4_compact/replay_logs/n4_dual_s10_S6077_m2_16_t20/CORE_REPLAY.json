@@ -1,0 +1,36 @@
+{
+  "case_id": "n4_dual_s10_S6077_m2_16_t20",
+  "parameters": {
+    "case_id": "n4_dual_s10_S6077_m2_16_t20",
+    "dimension": 4,
+    "ring": "dual",
+    "support": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "maximum": 16,
+    "hub_min": 2,
+    "total": 45,
+    "normalize": true,
+    "purpose": "dimension4_complete_catalogue_bounded_search",
+    "catalogue_full_mask": 6077
+  },
+  "representation": "TIMEOUT_CNF_ONLY",
+  "original_drat_read": false,
+  "status": "PASS_TIMEOUT_REGENERATION_NO_EXCLUSION",
+  "regeneration": {
+    "variables": 5166,
+    "clauses": 22739,
+    "cnf_sha256": "a9f1cdf44e7804f2fc1967695c0ddde1baa99b19b810fb5ee04bdf21ec2ef7a3"
+  },
+  "exclusion_credited": false,
+  "seconds": 0.027523
+}

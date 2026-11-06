@@ -1,0 +1,11 @@
+{
+  "answer": "UNSAT_UNCHECKED",
+  "seconds": 17.68818424500205,
+  "stats": {
+    "restarts": 2228,
+    "conflicts": 37086,
+    "decisions": 260571,
+    "propagations": 50731656
+  },
+  "added_rup_units": 39
+}

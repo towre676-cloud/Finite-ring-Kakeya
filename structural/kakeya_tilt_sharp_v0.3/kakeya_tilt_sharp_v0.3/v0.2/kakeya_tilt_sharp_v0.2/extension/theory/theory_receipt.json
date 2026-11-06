@@ -1,0 +1,500 @@
+{
+  "arithmetic": "Python integers only",
+  "solver_dependency": null,
+  "definitions": {
+    "pair_vector_order": "nonzero v in integer order 1..2^n-1",
+    "Walsh_character": "(-1)^popcount(x & xi)"
+  },
+  "dimension_four": {
+    "all_subsets_checked": 65536,
+    "complement_reduces_sizes_to": "0..8",
+    "rows": [
+      {
+        "size": 0,
+        "actual_types": 1,
+        "square_spectral_types": 1,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 1,
+        "actual_types": 1,
+        "square_spectral_types": 1,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 2,
+        "actual_types": 15,
+        "square_spectral_types": 15,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 3,
+        "actual_types": 35,
+        "square_spectral_types": 35,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 4,
+        "actual_types": 140,
+        "square_spectral_types": 140,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 5,
+        "actual_types": 273,
+        "square_spectral_types": 273,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 6,
+        "actual_types": 526,
+        "square_spectral_types": 526,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 7,
+        "actual_types": 715,
+        "square_spectral_types": 715,
+        "four_frequency_rejections": 0
+      },
+      {
+        "size": 8,
+        "actual_types": 555,
+        "square_spectral_types": 1815,
+        "four_frequency_rejections": 1260
+      }
+    ],
+    "actual_total": 3967,
+    "square_total": 5227,
+    "phase_rejections": 1260,
+    "exact_after_four_frequency_cut": true
+  },
+  "dimension_three": {
+    "all_subsets_checked": 256,
+    "rows": [
+      {
+        "size": 0,
+        "actual": 1,
+        "T_local": 1,
+        "square": 1
+      },
+      {
+        "size": 1,
+        "actual": 1,
+        "T_local": 1,
+        "square": 1
+      },
+      {
+        "size": 2,
+        "actual": 7,
+        "T_local": 7,
+        "square": 7
+      },
+      {
+        "size": 3,
+        "actual": 7,
+        "T_local": 7,
+        "square": 7
+      },
+      {
+        "size": 4,
+        "actual": 14,
+        "T_local": 35,
+        "square": 14
+      },
+      {
+        "size": 5,
+        "actual": 7,
+        "T_local": 7,
+        "square": 7
+      },
+      {
+        "size": 6,
+        "actual": 7,
+        "T_local": 7,
+        "square": 7
+      },
+      {
+        "size": 7,
+        "actual": 1,
+        "T_local": 1,
+        "square": 1
+      },
+      {
+        "size": 8,
+        "actual": 1,
+        "T_local": 1,
+        "square": 1
+      }
+    ],
+    "square_condition_exact": true
+  },
+  "strict_square_cut_example": {
+    "n": 3,
+    "s": 4,
+    "p": [
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "spectrum": [
+      16,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  "strict_phase_cut_example": {
+    "n": 4,
+    "s": 8,
+    "p": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3,
+      0,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2,
+      1
+    ],
+    "spectrum": [
+      64,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      16,
+      16,
+      16
+    ],
+    "frequency_xor": 7,
+    "all_16_sign_choices_rejected": true,
+    "positive_control_support": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "positive_control": {
+      "signed_roots": [
+        8,
+        -4,
+        -4,
+        0,
+        -4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mask": 59624
+    }
+  },
+  "four_frequency_family_checks": [
+    {
+      "n": 4,
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "realizable": true
+    },
+    {
+      "n": 4,
+      "support": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "realizable": false
+    },
+    {
+      "n": 4,
+      "support": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "realizable": false
+    },
+    {
+      "n": 5,
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "realizable": true
+    },
+    {
+      "n": 5,
+      "support": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "realizable": false
+    },
+    {
+      "n": 5,
+      "support": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "realizable": false
+    },
+    {
+      "n": 6,
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "realizable": true
+    },
+    {
+      "n": 6,
+      "support": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "realizable": false
+    },
+    {
+      "n": 6,
+      "support": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "realizable": false
+    },
+    {
+      "n": 7,
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "realizable": true
+    },
+    {
+      "n": 7,
+      "support": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "realizable": false
+    },
+    {
+      "n": 7,
+      "support": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "realizable": false
+    },
+    {
+      "n": 8,
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "realizable": true
+    },
+    {
+      "n": 8,
+      "support": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "realizable": false
+    },
+    {
+      "n": 8,
+      "support": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "realizable": false
+    }
+  ],
+  "subspace_occupancy_bounds": {
+    "subspaces": 67,
+    "type_subspace_checks": 265789
+  },
+  "heavy_allocation_checks": {
+    "assignments_checked": 2401,
+    "feasible": 136,
+    "minimum_by_heavy_count": {
+      "3": 11,
+      "1": 10,
+      "2": 11,
+      "4": 12
+    }
+  },
+  "shared_period_capacity_checks": {
+    "all_subset_pair_direction_checks": 458752,
+    "strict_capacity_improvements": 2100,
+    "true_local_24_point_assignment": {
+      "sizes": [
+        6,
+        6,
+        4,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "pairs": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "product_totals": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        4,
+        4
+      ],
+      "period_capacity_totals": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        4
+      ],
+      "refuted_direction": 6
+    }
+  },
+  "local_types_n4_sha256": "8e75f74f46dfa19a7d1ec0a52ec182ed04106dc3f7325a948a6d67c2fa9368f1",
+  "seconds": 7.874
+}

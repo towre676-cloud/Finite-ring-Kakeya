@@ -1,0 +1,6 @@
+{
+  "status": "PASS_PARTIAL_LOCAL_RESTRICTIONS",
+  "star_marked_cases": 2,
+  "double_centre_marked_cases": 5,
+  "complete_support_exclusion": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "new_whole_classes": [
+    373,
+    376
+  ],
+  "remaining_classes": 55,
+  "review": "Root checked all dual allowed-edge inequalities, complete partition accounting and the nine-heavy halfspace lemma. Fresh independent checker rerun passed. Source local energy envelopes are an explicit inherited dependency.",
+  "nine_heavy_lemma": "Pair mass<=15 and cap5 force exactly3missing directions. They cannot form a binarytriangle because9heavyresidues would then meet8cosets atmostonce. Threeindependentdirections lie in a characterhalfspace; restricted low pair mass<12 contradictscoverage.",
+  "source_hashes": {
+    "research_round3/m11/verify_s17_envelope_duals.py": "cd9786395123771404018657dba3dc76020121610ffeed31a77716587f8e53a4",
+    "research_round3/m11/S17_ASSIGNMENT_DUAL_CERTIFICATES.json": "a8b75022438309614f2c419100219de9642ffcb8ed910152559724d3f12f557f",
+    "research_round3/m11/S17_SUPPORT_REDUCTION.json": "290b1b056f0c79e5006850c7ce4d9ba52681ce46c11820a820983f98e0a38c10"
+  }
+}

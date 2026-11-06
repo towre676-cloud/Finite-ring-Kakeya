@@ -1,0 +1,29 @@
+{
+  "status": "PILOT_CORE_ACCEPTED",
+  "case": "m2_18_s11_orbit70_hub15",
+  "original_bytes": 760336747,
+  "core_bytes": 484564216,
+  "kept_additions": 208344,
+  "input_additions": 508975,
+  "retained_hints": 64603230,
+  "negative_hints": 0,
+  "core_sha256": "486327a6c1839011c45071a16ac35e28586881ba9f26277447fdbe7aee2d679f",
+  "cakeml": {
+    "returncode": 0,
+    "stdout": "s VERIFIED UNSAT\n",
+    "stderr": "",
+    "check_seconds": 22.7065777300013,
+    "core_bytes": 484564216,
+    "accepted": true
+  },
+  "hint_minimization": {
+    "before": 64603230,
+    "after": 64603230,
+    "fallback_lines": 0
+  },
+  "xz_preset3_bytes": 35117848,
+  "xz_preset3_dict64_bytes": 34820024,
+  "experimental_delta_packing_xz_bytes": 33113712,
+  "experimental_delta_packing_exact_roundtrip": true,
+  "production_storage_choice": "ordinary .lrat.xz; custom codec unused"
+}

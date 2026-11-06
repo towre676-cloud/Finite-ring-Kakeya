@@ -1,0 +1,113 @@
+ROUND 7 SUPPORT-13 FINAL STATUS
+
+Frozen source inventory:
+SUPPORT13_CERTIFICATE_MANIFEST.json
+SHA256 e857fee69f0181ce1505cfe77e085599d3f644d55da636e313517d989b23b4c2
+
+Frozen portable semantic replay:
+verify_support13.py
+SHA256 71844439d6dfbc5fee0f900b9a1f82fec0962b60c82cf0e1f2d6f3bdb3d81272
+
+All solver searches in this workstream are stopped. There are 48 formula
+certificate rows: 47 new standard-DRAT certificates and the one inherited
+LRAT certificate for T37848950. Each new production has mandatory accepted
+CakeML evidence. The separately owned compact_support13 workflow supplies
+smaller replacement DRATs, freshly checked against the unchanged original
+CNFs, and is the portable full-delivery replay entry point.
+Its completed COMPACT_SUPPORT13_REPLAY.json now records a successful fresh
+replay of all 48 original cases (47 replacement DRATs and the inherited
+LRAT), in 413.492 seconds, without reading old Round7 DRAT streams.
+
+COVERAGE, WITH A DISTINGUISHED MAXIMUM FIBRE AT ZERO
+
+The complete support-13 catalogue contains 55 hub-marked cases, mapping to
+13 unmarked affine classes. These counts refer to sets of total size at
+most 93, and a common necessary relaxation valid for both rings.
+
+Joint maximum 2..18 coverage: 28 of 55 marked cases certified; 27 remain.
+Exact maximum 11: 35 of 55 marked cases have current certificates.
+Exact maximum 17: 31 of 55 marked cases have current certificates.
+Exact maximum 18: 39 of 55 marked cases have current certificates.
+Every other maximum in 2..18: 28 of 55 marked cases have certificates.
+
+No exact-maximum support-13 cell is completely closed by the new 55-case
+inventory, and support 13 is not globally excluded. Duplicate certificates
+or overlapping maximum intervals do not increase case coverage.
+
+The initial joint survey is complete as an outcome inventory: 53 bounded
+new trials, 27 accepted refutations and 26 timeouts, plus inherited
+T37848950 and a separate reserved T1022358 timeout. Thus its complete
+55-outcome account gives 28 joint exclusions and 27 uncertified outcomes.
+Subsequent exact-maximum slices account for the additional partial coverage.
+
+INHERITED MAXIMUM-11 FRONTIER
+
+Round 6 had 46 open affine classes at maximum 11, including four classes
+on support 13 and 14 corresponding marked roles. Class 105 is now fully
+excluded: T411114390, T1093216598 and T2953386390 have joint proofs, and
+T153184662 has an exact-11 proof. Therefore the inherited maximum-11
+frontier decreases from 46 to 45 affine classes, with three support-13
+classes remaining (109,110,111).
+
+Their four remaining marked roles at maximum 11 are:
+377850134, 411136406, 671697334, 2185856310.
+
+This inherited-class update gives no middle-maximum weight-profile
+subtraction by itself. Other inherited maximum-11 exclusions are retained
+as dependencies, not relabelled as new checked proofs.
+
+NEW ANALYTIC CUT AND FINITE REPLAY
+
+If P,Q are nonplanar four-point subsets of F_2^4, then |P+Q| <= 14,
+with equality attained. The proof uses a common nonzero difference in
+their three-dimensional direction spaces, producing two distinct sum
+collisions. Applicable finite fibre flags include weight 8 with Q=64 and
+rank 4, and weight 11 with Q=205 and rank 4. The weight-12 Q=294
+classification records its planar exception separately.
+
+Finite replay checked 1680 tetrahedron partners up to common affine
+equivalence, 2688 eleven-point complements, 1680 normalized noncube
+eight-sets and 1680 twelve-point complements. The encoder controls checked
+52 Boolean assignments, rejected five intended negative controls, and
+verified disabled byte identity with the frozen baseline.
+
+The isolated unique-edge cut was tried for exact maximum 11 on
+T377850134 and T411136406, 45 seconds each. Both timed out and receive
+zero exclusion credit. The first formula acquired one geometric edge
+clause (four total clauses including its type-disjunction gate); the
+second had no applicable unique edge and acquired zero clauses. No
+performance improvement is claimed. Exact CNFs and logs are retained;
+unfinished DRAT traces were hashed and discarded.
+
+PROOF PIPELINE AND LIMITS
+
+The RUP-unit search wrapper exposes entailed common consequences to the
+solver and prefixes them in standard DRAT. Its accepted proofs are always
+checked against the original frozen CNF. It introduces no new Kakeya
+axioms. Finite assignment and checker negative controls pass.
+
+The producer now supervises an entire process group, checks every live
+DRAT file for size limits, kills and reaps descendants, and confirms no
+process remains before publication. The earlier producer bytes are
+preserved. Process-supervision controls pass.
+
+The formal proof checker certifies the CNF refutations. The mathematical
+one-way encoder soundness and finite spectrum catalogue remain separate
+premises; the encoder is not proof-assistant formalized. The dimension-5
+minimum-94 theorem remains open.
+
+REPLAY COMMANDS FROM THE CHECKPOINT ROOT
+
+python3 research_round7/compact_support13/verify_compact_support13.py
+python3 research_round7/support13/verify_collection_controls.py
+python3 research_round7/support13/verify_rup_unit_controls.py --replay
+python3 research_round7/support13/verify_process_supervision.py
+python3 research_round7/support13/four_pair_cut/verify_four_pair_cut.py
+python3 research_round7/support13/four_pair_cut/verify_four_pair_encoder.py
+python3 research_round7/support13/four_pair_cut/verify_four_pair_trials.py
+
+The compact proof replay does not require the original large DRAT payloads
+or a SAT solver. The finite four-pair replays do not invoke a SAT solver.
+The supervision controls launch only artificial process trees, not a
+Kakeya solver. Consult the compact replay receipt for the final freshly
+checked delivered-proof totals.

@@ -1,0 +1,110 @@
+<title>Kakeya: The Full-Fibre Half</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$']] }, svg: { fontCache: 'global' } };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+<style>
+/* Layout: one reading column; numbered sections because the argument is cumulative. */
+:root {
+  --paper: #f6efe1; --ink: #2a1d18; --muted: #6e5a4f; --rule: #d9c9ae;
+  --oxblood: #6d1a1f; --panel: #efe4cf; --ok: #2f5d3a; --open: #8a5a12;
+  --display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --body: "EB Garamond", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #1d1513; --ink: #eadfcc; --muted: #b5a291; --rule: #4a3730;
+  --oxblood: #d9868a; --panel: #281d1a; --ok: #8fc49b; --open: #e0b267; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #1d1513; --ink: #eadfcc; --muted: #b5a291; --rule: #4a3730;
+  --oxblood: #d9868a; --panel: #281d1a; --ok: #8fc49b; --open: #e0b267; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 19px; line-height: 1.6; }
+main { max-width: 42rem; margin: 0 auto; padding-block: 3rem 5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; color: var(--ink); }
+h1 { font-size: 2.6rem; line-height: 1.1; margin: 0 0 .4rem; }
+h2 { font-size: 1.65rem; margin: 2.6rem 0 .6rem; border-top: 1px solid var(--rule); padding-top: 1.4rem; }
+h2 .no { color: var(--oxblood); margin-right: .5rem; }
+.sub { font-family: var(--display); font-style: italic; font-size: 1.25rem; color: var(--muted); margin: 0 0 1.6rem; }
+.meta { font-size: .85rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+p { margin: 0 0 1rem; hyphens: auto; }
+.label { font-family: var(--display); font-weight: 600; font-variant: small-caps; letter-spacing: .06em; color: var(--oxblood); }
+.label.cert { color: var(--ok); } .label.open { color: var(--open); }
+.stmt { background: var(--panel); border-left: 2px solid var(--oxblood); padding: .9rem 1.1rem; margin: 1.2rem 0; }
+.stmt.cert { border-left-color: var(--ok); } .stmt.open { border-left-color: var(--open); }
+.stmt p:last-child { margin-bottom: 0; }
+.tbl { overflow-x: auto; margin: 1.2rem 0; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: .92rem; }
+th, td { padding: .38rem .55rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+th { font-family: var(--display); font-weight: 600; color: var(--muted); }
+td.ok { color: var(--ok); font-weight: 500; } td.op { color: var(--open); font-weight: 500; }
+code { font-family: var(--mono); font-size: .82em; }
+mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; }
+a { color: var(--oxblood); }
+a:focus-visible { outline: 2px solid var(--oxblood); outline-offset: 2px; }
+</style>
+
+<main>
+<p class="meta">kakeya_tilt_sharp v0.3 · Kakeya gauge program · 1 November 2026</p>
+<h1>Kakeya: The Full-Fibre Half</h1>
+<p class="sub">The dimension-four full-fibre case, the exact no-full-fibre threshold in dimension three, a carry separation in the plane, and the reduction of $k(R,4)$ to finitely many heavy supports</p>
+
+<p>This part continues <em>Kakeya — Spectral Realization and Carry Geometry</em> (v0.2, Parts I–V) and the v0.1 note on the sharp law $k(R,n)=3\cdot2^n-2$ for $R\in\{\mathbb Z/4\mathbb Z,\ \mathbb F_2[\varepsilon]/(\varepsilon^2)\}$, whose notation it keeps: $V=\mathbb F_2^n$, $N=2^n$, $H=N/2$, fibres $A_a$, sizes $s_a$, pair counts $p_a(v)=\tfrac12|A_a\cap(A_a+v)|$, heavy fibres those with $s_a\ge3$. Labels follow the house convention. <span class="label">Theorem</span> is proved here by hand. <span class="label cert">Certified</span> is established by exhaustive enumeration or by solver infeasibility on a stated relaxation, with the method and evidence named. <span class="label open">Observed</span> is solver output that is not a proof. <span class="label open">Conjecture</span> and <span class="label open">Open</span> mark what remains.</p>
+
+<h2><span class="no">VI.0</span>Ledger</h2>
+<p>Every Kakeya set either has a full residue fibre or it does not, so $k(R,n)=\min\bigl(k^{\mathrm{full}}(R,n),\,k^{\circ}(R,n)\bigr)$, where $k^{\mathrm{full}}$ ranges over Kakeya sets with at least one full fibre and $k^{\circ}$ over those with none. Since the standard construction has a full fibre, the sharp law is equivalent to the pair of inequalities $k^{\mathrm{full}}\ge3N-2$ and $k^\circ\ge 3N-2$. This part is organised around that split.</p>
+<div class="tbl"><table>
+<thead><tr><th>$n$</th><th>$3N-2$</th><th>$k^{\mathrm{full}}$</th><th>$k^\circ(\mathbb Z/4)$</th><th>$k^\circ(\mathbb F_2[\varepsilon])$</th><th>$k(R,n)$</th></tr></thead>
+<tbody>
+<tr><td>2</td><td>10</td><td class="ok">10</td><td class="ok">12</td><td class="ok">none exists</td><td class="ok">10</td></tr>
+<tr><td>3</td><td>22</td><td class="ok">22</td><td class="ok">24</td><td class="ok">24</td><td class="ok">22</td></tr>
+<tr><td>4</td><td>46</td><td class="ok">46</td><td class="op">LEDGER_N4_NOFULL</td><td class="op">LEDGER_N4_NOFULL</td><td class="op">LEDGER_N4_K</td></tr>
+<tr><td>5</td><td>94</td><td class="op">$\le94$, open</td><td class="op">open</td><td class="op">open</td><td class="op">$\le 94$</td></tr>
+</tbody></table></div>
+
+<h2><span class="no">VI.1</span>Audit of v0.2</h2>
+<p>The v0.2 release verifier was run unchanged from the extracted bundle. All 8 default checks passed in 12.1 s: exact spectra, subspace budgets, period capacities, the 128 constructed sets, the plane census, carry-transfer certificates, the stored SAT refutations and the trace profile. The 24-point family of Part II was then re-derived with the independent bit arithmetic of the v0.1 package, by enumerating the $8^5$ translation parameters and collapsing duplicates. That yields exactly 128 distinct sets, all of size 24, and <span class="label cert">all 128 are Kakeya in $\mathbb Z/4\mathbb Z$ and all 128 in the dual numbers</span>. I re-read the proofs of Theorems 10, 13 and 14 and Corollaries 11 and 12 of Part I and found no gap. Corollary 12, $(h-1)^2\ge N-1$ in the absence of a full fibre, and Corollary 11 with $q\ge2$ are used below as proved statements.</p>
+
+<h2><span class="no">VI.2</span>The plane: a carry separation in the no-full-fibre class</h2>
+<div class="stmt"><p><span class="label">Theorem VI.2.1.</span> Let $n=2$. In $\mathbb F_2[\varepsilon]/(\varepsilon^2)$ every Kakeya set in $R^2$ has a full residue fibre. In $\mathbb Z/4\mathbb Z$ the Kakeya sets with no full fibre have at least 12 points. Those with exactly 12 are precisely the 64 sets whose four fibres are $V\setminus\{z_a\}$ with $\sum_a z_a=(1,1)$.</p></div>
+<p>Proof. Without a full fibre each $s_a\le3$, so $p_a(v)\le1$ and each $P_v(A_a)$ is empty or a single class of $Q_v=V/\langle v\rangle\cong\mathbb F_2$. For a direction $v$ the residue plane splits into exactly 2 edges, $\{0,v\}$ and $\{w,w+v\}$, and each contributes at most 1 of the 2 classes of $Q_v$. Both edges must therefore contribute, so every fibre has a $v$-pair for every $v\neq0$. A subset of $\mathbb F_2^2$ with at most 3 points and pairs in all 3 directions has exactly 3 points, so $A_a=V\setminus\{z_a\}$ and $P_v(A_a)=\{[z_a]+1\}$. The covering identity of v0.1 Theorem 3.1 now asks that the 2 contributed classes differ: $\sum_a[z_a]+[c_R(w,v)]\neq0$ in $Q_v$, where the carry of the edge $\{0,v\}$ vanishes. In the dual numbers $c_R=0$, so $Z=\sum_a z_a$ would have to avoid $\langle v\rangle$ for all 3 nonzero $v$, which no element of $V$ does. In $\mathbb Z/4\mathbb Z$ the carry $c(w,v)=w\odot v$ vanishes in $Q_v$ for $v=(1,0)$ and $v=(0,1)$, while for $v=(1,1)$ it is the class of $(1,0)$, which is nontrivial. The 3 conditions become $Z\notin\{0,(1,0)\}$, $Z\notin\{0,(0,1)\}$ and $Z\notin\{(1,0),(0,1)\}$, leaving exactly $Z=(1,1)$. That leaves $4^3=64$ choices of $(z_a)$. $\square$</p>
+<p><span class="label cert">Certified:</span> both statements were confirmed by exhaustive enumeration of all 65,536 subsets of $R^2$ in each ring, twice. The first run used the package's bit arithmetic. The second used fresh coordinate-tuple arithmetic sharing no code with it, building rings, directions and lines from the multiplication tables. Both runs report no full-fibre-free Kakeya set in the dual numbers, and minimum 12 attained by exactly 64 sets in $\mathbb Z/4\mathbb Z$.</p>
+<p>This is the first point in the program where the two rings differ in an extremal Kakeya quantity. The overall minimum is shared, 10 in both rings. The full-fibre-free class is empty in one ring and has 64 minimisers in the other, and the difference is exactly one carry class in one direction. It is the plane analogue of the Part III carry-transfer obstruction, here acting at the level of existence.</p>
+
+<h2><span class="no">VI.3</span>Dimension three: the no-full-fibre threshold is exactly 24</h2>
+<div class="stmt cert"><p><span class="label cert">Certified VI.3.1.</span> $k^\circ(R,3)=24$ in both rings. The lower bound holds in the exact-local relaxation with shared-period capacities, which every Kakeya set of either ring satisfies. The upper bound is the 128-member family of Part II.</p></div>
+<p>The lower bound has a solver-free proof. <code>stdlib_proof_n3.py</code> is a standard-library exhaustive branch-and-bound over the 44 exact local types of size at most 7. Singletons are discarded, since they lie on no line. The search uses the affine size ordering (S1) of v0.1 §4, the shared-period capacity of Part I Theorem 14, and an optimistic per-direction capacity for unassigned fibres. It visits 12,415,924 nodes in 58.4 s and finds no point of total mass at most 23. Its positive controls find the profile $(8,2,\dots,2)$ at mass 22 and the profile $(6,6,4,4,4)$ at mass 24, the latter with all fibres at most 7. The same search proves the overall bound $k(R,3)\ge22$ in 2.9 million nodes, a third independent proof after the v0.1 SAT runs and the Part V certificate. The v0.2 exhaustive run at mass 23 had stopped at its node limit; the symmetry ordering is what makes the search finish. CP-SAT on the defect relaxation (T) and on the exact-local model X of §VI.6 agree: both are infeasible at 23 and attain 24.</p>
+<p><span class="label cert">Certified VI.3.2.</span> Every point of mass 24 without a full fibre in model X has heavy support affinely equivalent to a 5-point set. Of the 5 admissible $\mathrm{AGL}_3(\mathbb F_2)$-orbits of heavy supports, of sizes 4 through 8, only the orbit of size 5 admits a point. All 5-subsets of $\mathrm{AG}(3,2)$ form one orbit, as the complement of an affinely independent triple, and the v0.2 family's support $\{0,1,2,4,7\}$ lies in it. The no-full-fibre extremum in dimension three therefore has a unique support type with exactly 5 heavy fibres, matching the bound $h\ge 1+\lceil\sqrt7\rceil=4$ of Corollary 12 with one to spare.</p>
+
+<h2><span class="no">VI.4</span>The full-fibre case</h2>
+<div class="stmt cert"><p><span class="label cert">Certified VI.4.1.</span> $k^{\mathrm{full}}(R,4)=46$ in both rings. Every Kakeya set in $R^4$ with a full residue fibre has at least 46 points.</p></div>
+<p>Two different relaxations, both valid for both rings, are infeasible at mass 45 with fibre 0 full. The defect relaxation (T) of v0.1 §7, with the affine size ordering, is infeasible in 247.8 s. Model X of §VI.6, run here with only the 3,967 exact local types and shared-period capacities, is infeasible in 23.2 s. Translation by a residue moves any full fibre to residue 0, and the affine ordering $s_0\ge s_a$ is compatible with $s_0=N$, so the case restriction is sound.</p>
+<p>For general $n$ one direction of the full-fibre case can be proved outright. Fix the full fibre at residue 0 and let $U=\{v\neq0: p_v(v)=0\}$ be the directions that the edge $\{0,v\}$ fails to serve.</p>
+<div class="stmt"><p><span class="label">Theorem VI.4.2.</span> If $K$ is Kakeya with a full fibre and $|U|\le N/4$, then $|K|\ge 3N-2$. More precisely $|K|-(3N-2)\ge\sqrt{N|U|}-2|U|$.</p></div>
+<p>Proof. Put $w_b=s_b-2$ for $b\notin U\cup\{0\}$ and $w_b=s_b$ for $b\in U$, so that $W=\sum_{b\neq0}w_b=|K|-N-2(N-1)+2|U|$. For $v\in U$ the edge $\{0,v\}$ contributes nothing, so the counting form of the covering identity gives $\sum_{b\notin\{0,v\}}p_b(v)p_{b+v}(v)\ge N$ as an ordered sum. Next, $p_b(v)\le w_b$ for every $b\neq0$ and $v\in U$. A 2-point fibre outside $U$ has its only pair in its own direction $b\neq v$; a heavier fibre outside $U$ has $p_b(v)\le\lfloor s_b/2\rfloor\le s_b-2$; a fibre in $U$ has $p_b(v)\le s_b/2$. Each ordered pair $(b,c)$ of distinct nonzero residues occurs for exactly one direction $v=b+c$, so $N|U|\le\sum_{b\neq c}w_bw_c\le W^2$. Hence $|K|-(3N-2)=W-2|U|\ge\sqrt{N|U|}-2|U|$, which is nonnegative when $|U|\le N/4$. $\square$</p>
+<p><span class="label cert">Checked:</span> the inequality $W^2\ge N|U|$ and the conclusion were tested against every cover-feasible exact-type assignment with a full fibre at $n=2$ (66 of 343) and against 69,406 cover-feasible assignments among 200,000 random ones at $n=3$, with no violation. The remaining full-fibre regime, $|U|>N/4$, is reduced in §VI.7 to a statement about heavy fibres alone.</p>
+
+<h2><span class="no">VI.5</span>An energy inequality</h2>
+<div class="stmt"><p><span class="label">Theorem VI.5.1.</span> Every Kakeya set satisfies $\sum_{a\in V}p_a(v)^2\ge N$ for each $v\neq0$. Equivalently, summing over $v$ and writing $E(A)=\sum_{v}|A\cap(A+v)|^2$ for the additive energy, $\sum_a\bigl(E(A_a)-|A_a|^2\bigr)\ge 4N(N-1)$.</p></div>
+<p>Proof. The ordered covering inequality $\sum_a p_a(v)p_{a+v}(v)\ge N$ is bounded above by $\sum_a p_a(v)^2$, since $2xy\le x^2+y^2$ applied edge by edge pairs every fibre with its partner once. Then $\sum_{v\neq0}p_A(v)^2=\tfrac14(E(A)-|A|^2)$. $\square$</p>
+<p>The inequality is sharp at the standard construction: in every direction the full fibre has $p=H$ and its partner has $p=1$, so $\sum_ap_a(v)^2=H^2+1\ge N$ with room, while the ordered product sum is exactly $N$. Fibres that are small and unstructured have low energy, so the cut eliminates configurations built from many small heavy fibres, which the counting relaxation admits. Added to model X it closed the heavy-support case $h=8$, $d=13$ in dimension four, which the model without it had left open after 150 s.</p>
+
+<h2><span class="no">VI.6</span>Dimension four without a full fibre: reduction to heavy supports</h2>
+<p>Every Kakeya set loses nothing by discarding singleton fibres, since a line meets each of its 2 residue fibres in 2 points. Suppose that $K$ has at most 45 points and no full fibre, and let $B$ be its set of heavy residues, $h=|B|$, $d=|(B+B)\setminus\{0\}|$. Corollary 12 gives $h\ge5$. Corollary 11 with $q\ge2$, valid because no fibre is full, gives $2(15-d)\le L\le 16-h$ for the number $L$ of 2-point fibres. Since heavy fibres have at least 3 points, $3h+4(15-d)\le45$. The problem is invariant under $\mathrm{AGL}_4(\mathbb F_2)$, which has exactly 32 orbits on subsets of $\mathrm{AG}(4,2)$; the enumeration recovers all $2^{16}$ subsets from the orbit sizes. Exactly 21 orbits pass the 3 conditions. For each representative $B$, model X is posed with $B$ as heavy support: fibres over $B$ range over the exact local types of sizes 3 to 15, all others over sizes 0 and 2, and the total is at most 45.</p>
+<p>Model X combines every valid constraint in this release. Each fibre's pair vector is restricted to the exact table of realizable local types, recomputed here from all 65,536 subsets and matching the v0.2 count of 3,967. Each edge capacity is $\min(8,p_ap_b)$, halved when Part I Theorem 14's shared-period group is nontrivial. The model adds the defect rows of v0.1 Theorem 7.1, the pair budget, and the energy inequality VI.5.1. Infeasibility of a case is a proof, for both rings, that no Kakeya set of at most 45 points without a full fibre has that heavy support.</p>
+<!--HEAVY_TABLE-->
+
+<h2><span class="no">VI.7</span>What cannot work, and what remains</h2>
+<p>Three negative results bound the search for a proof of the open cases. First, point-level SAT is not competitive. Restricted to a single heavy-support case at $n=3$, CaDiCaL on the exact line encoding with cardinality constraints gave no verdict in 300 s on a case that the exact-local search settles in under a second. In the satisfiable direction, the same encoding at $n=4$, with no full fibre and at most 48 points, also returned no verdict: no witness and no refutation within 1500 s in $\mathbb Z/4\mathbb Z$, nor within 1500 s and again 1200 s in the dual numbers. The upper side of $k^\circ(R,4)$ is therefore not yet located either. The 3N pattern of dimensions 2 and 3 predicts 48.</p>
+<p>Second, no additive per-fibre weighting closes the dimension-four no-full-fibre case. Call $f:\{0,\dots,H-1\}\to\mathbb R_{\ge0}$ admissible if $\min(H,xy)\le f(x)+f(y)$ for all $x,y\le H-1$. Every Kakeya set without a full fibre then supplies $\sum_a\sum_vf(p_a(v))\ge H(N-1)=120$. A cutting-plane LP over admissible $f$, against an exact knapsack over the 3,967 types, finds the best such certificate. Its worst admissible configuration still supplies 270.0. The support-aware refinement credits fibre $a$ only for the $\sigma-1$ directions whose partner is nonempty. Its optimum still allows a supply of 165.6 at mass 45, attained by 8 nonempty fibres of sizes $(7,6,6,6,6,6,6,2)$. Any proof must therefore use how coverage is distributed across directions, not only its total.</p>
+<p>Third, the full-fibre case in dimension five resists the defect relaxation. CP-SAT reached a bound of only 51 against the target 94 in 1500 s, so the general full-fibre theorem has to come from an argument like VI.4.2 rather than from computation.</p>
+<p>The open part of the full-fibre case reduces cleanly. With the full fibre at 0, $|K|-(3N-2)=\sum_{b\neq0}(s_b-2)$, and the only negative terms are residues with at most 1 point. Every direction served by no 2-point fibre must be served by edges between heavy fibres. The required statement is therefore that the heavy excess $\sum_{s_b\ge3}(s_b-2)$ is at least twice the number of directions covered only by heavy–heavy edges, less the number of heavy fibres lacking their own-direction pair. Theorem VI.4.2 proves it when $|U|\le N/4$.</p>
+<div class="stmt open"><p><span class="label open">Conjecture VI.7.1.</span> For all $n\ge2$, $k^{\mathrm{full}}(R,n)=3N-2$ and $k^\circ(\mathbb Z/4\mathbb Z,n)\ge3N$, with equality for $n\le3$. For the dual numbers $k^\circ(\mathbb F_2[\varepsilon],n)\ge 3N$ when such sets exist; they do not exist for $n=2$ and do for $n=3$.</p></div>
+<p>The evidence is the ledger: the no-full-fibre minimum is $3N$ at $n=2$ for $\mathbb Z/4$ and at $n=3$ for both rings, never below. If the conjecture holds, the sharp law follows, and the equality cases are exactly the full-fibre family of v0.1 Theorem 8.1, because full-fibre-free sets would never reach $3N-2$.</p>
+
+<h2><span class="no">VI.8</span>Reproduction</h2>
+<p>New modules in <code>kakeya_sharp/</code>: <code>stdlib_proof_n3.py</code> (solver-free proofs at $n=3$), <code>exact_local4.py</code> (model X: exact types, periods, defect rows, energy cut, heavy-support and full-fibre cases), <code>heavy_orbits.py</code> (the 32 $\mathrm{AGL}_4$ orbits and the admissibility filter), <code>run_heavy_cases.py</code>, <code>sat_cases.py</code> and <code>sat_heavy.py</code> (point-level SAT case splits), <code>dual_weights.py</code> and <code>dual_weights2.py</code> (the weighting certificates of §VI.7 and their failure), <code>theorem_A_check.py</code>, and <code>nofull_n2.py</code> with <code>nofull_n2_independent.py</code> (the plane census twice). Every verdict quoted above has a JSON receipt in <code>results/</code> naming method, status and time. The v0.2 bundle is included unchanged under <code>v0.2/</code>, and its verifier passes from there.</p>
+</main>

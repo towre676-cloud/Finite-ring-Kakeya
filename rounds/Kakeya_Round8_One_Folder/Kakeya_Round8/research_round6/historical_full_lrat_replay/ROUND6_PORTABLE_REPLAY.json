@@ -1,0 +1,84 @@
+{
+  "status": "PASS_ALL_ROUND6_FINITE_AND_CERTIFICATE_REPLAYS",
+  "quick": false,
+  "stages": [
+    {
+      "stage": "inherited_round5_finite_components",
+      "returncode": 0,
+      "seconds": 17.264716,
+      "stdout_sha256": "265bfd1178b61b45fd34f264694883b87cd0aca14d02e5d907f27bdee6d36f7e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "imported_data_and_complete_catalogue",
+      "returncode": 0,
+      "seconds": 33.465089,
+      "stdout_sha256": "d08e98049dd6ff8aabcef3bc1244f6cb69d788f622c275b93fd3f4a549608c23",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "encoder_auxiliaries_and_fibre_lemmas",
+      "returncode": 0,
+      "seconds": 1.448326,
+      "stdout_sha256": "37de2f204decb1288b24abe317e42010537ccfb6d488a32acec793522a129af2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "optional_coset_encoder_soundness_controls",
+      "returncode": 0,
+      "seconds": 7.78593,
+      "stdout_sha256": "7c8fe31240b47798d815c68e91e893047348949fbaaaa53163137f9faea77ae4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "unrestricted_support11_subspace_geometry",
+      "returncode": 0,
+      "seconds": 0.051945,
+      "stdout_sha256": "758969dbf39e76550c0ee898e53358aed128c5e9d68f599cad14f03e372e0cec",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "additional_local_graph_restrictions",
+      "returncode": 0,
+      "seconds": 0.215995,
+      "stdout_sha256": "d54f2e1e87bf8cdd562d8a95d1c4de591aa00b8d35e882f719236733dbf8c2e7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "maximum19_exact_formulas_and_lrat_certificates",
+      "returncode": 0,
+      "seconds": 183.80848,
+      "stdout_sha256": "922763ba71dcbe8d09b76e7ed75d5049a3ba667b470f72418472bac6ab968b45",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "joint_maxima_exact_formulas_and_core_certificates",
+      "returncode": 0,
+      "seconds": 170.202032,
+      "stdout_sha256": "26ed604c404bf9f978e2dab570fcf03054a8ef590565338837dc057da1787441",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "support13_completed_certificates_and_timeout_accounting",
+      "returncode": 0,
+      "seconds": 7.64531,
+      "stdout_sha256": "cda9ff2f35fdfa7a3427def19423b51e02776ddb63ed1b0dd88bff63c5e73451",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "exact_frontier_subtraction",
+      "returncode": 0,
+      "seconds": 0.784055,
+      "stdout_sha256": "a095f462e163d8db2b6b1a3a0ad6c45b06f40850ea4d0763e5bcc98648779873",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "full_main_certificate_replay": true,
+  "main_formulas_to_replay": 76,
+  "additional_support13_formulas_to_replay": 2,
+  "encoder_formally_verified": false,
+  "new_SAT_search_performed": false,
+  "scope": "Proof replay establishes exact CNF unsatisfiability. One-way semantics and analytic proofs are separate written arguments.",
+  "seconds": 422.675282,
+  "completed_stages": 10
+}

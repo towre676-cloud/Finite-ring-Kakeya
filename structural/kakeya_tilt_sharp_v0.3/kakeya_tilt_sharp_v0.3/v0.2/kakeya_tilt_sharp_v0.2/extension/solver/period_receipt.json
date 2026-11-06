@@ -1,0 +1,67 @@
+{
+  "n": 3,
+  "ordered_subset_pair_direction_checks": 458752,
+  "strict_capacity_improvements": 2100,
+  "capacity_violations": 0,
+  "phantom_size": 24,
+  "phantom_local_realization_counts": [
+    4,
+    4,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1
+  ],
+  "phantom_total_realizations": 128,
+  "phantom_kakeya_realizations": {
+    "Z4": 0,
+    "D2": 0
+  },
+  "failing_direction": 6,
+  "required_coverage": 4,
+  "edge_capacities": [
+    {
+      "a": 0,
+      "b": 6,
+      "pair_counts": [
+        2,
+        2
+      ],
+      "common_period_order": 2,
+      "discounted_capacity": 2
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "pair_counts": [
+        2,
+        0
+      ],
+      "common_period_order": 2,
+      "discounted_capacity": 0
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "pair_counts": [
+        0,
+        0
+      ],
+      "common_period_order": 4,
+      "discounted_capacity": 0
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "pair_counts": [
+        0,
+        0
+      ],
+      "common_period_order": 4,
+      "discounted_capacity": 0
+    }
+  ],
+  "seconds": 0.749457
+}

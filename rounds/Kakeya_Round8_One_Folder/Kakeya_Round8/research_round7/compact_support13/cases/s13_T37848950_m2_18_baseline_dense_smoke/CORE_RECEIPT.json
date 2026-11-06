@@ -1,0 +1,138 @@
+{
+  "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+  "case_id": "s13_T37848950_m2_18_baseline_dense_smoke",
+  "original_case": {
+    "case_id": "s13_T37848950_m2_18_baseline_dense_smoke",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      15,
+      16,
+      22,
+      25
+    ],
+    "distinguished_hub": 0,
+    "nonzero_support_mask": 37848950,
+    "maximum_interval": [
+      2,
+      18
+    ],
+    "total_upper_bound": 93,
+    "ring_scope": "common_necessary_relaxation_both_rings",
+    "cnf": "research_round7/variant_cases/s13_T37848950_m2_18_baseline_dense_smoke/input.cnf",
+    "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+    "proof": "research_round7/variant_cases/s13_T37848950_m2_18_baseline_dense_smoke/proof.drat",
+    "proof_sha256": "486588b54e05bf71c72d305b050566d3a536859a57e4e7c4b3f5c7c743fbdf30",
+    "proof_kind": "drat",
+    "receipt": "research_round7/variant_cases/s13_T37848950_m2_18_baseline_dense_smoke/CASE_RECEIPT.json",
+    "receipt_sha256": "0175139560991866decfae2923759218ae22715f2d68392438499a2fc6f93a7a",
+    "inherited": false,
+    "encoder_kind": "audited_common_variant",
+    "variant_mode": "baseline",
+    "variant_semantic_input_hashes": {
+      "research_round7/variant_trials.py": "314703ee05b04510f45daa79f4a0f60d94df9ff705dd0887f9668941b2bb47d1",
+      "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+      "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+      "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+      "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+      "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+      "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc"
+    },
+    "binding_rule": "Every semantic source is pinned; exact variant CNF regeneration and CakeML acceptance are mandatory.",
+    "one_way_encoder_soundness_formalized": false,
+    "cnf_xz_sha256": "60f1ea1db23e11179685e10efabcafefd70c8d85294c11c44e124f0f746a9162",
+    "proof_xz_sha256": "047310cdff11d256423eed0362498f13a8cbf0965778e87822a0ccfe9a27939d"
+  },
+  "source_manifest_sha256_at_production": "764552e3762a09ba55a53c271da87f0fa974858f2893e7ff15127e11042cd0a7",
+  "method": "DRAT_TRIM_CORE_THEN_FRESH_ORIGINAL_CNF_CAKEML",
+  "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+  "original_proof_sha256": "486588b54e05bf71c72d305b050566d3a536859a57e4e7c4b3f5c7c743fbdf30",
+  "original_raw_bytes": 19246275,
+  "original_compressed_bytes": 1898624,
+  "core_sha256": "2b83d2ffbf64c4a9ca96e3aa198fb0a7517c23434bd95eb7bedeea6b8efca423",
+  "core_raw_bytes": 4603015,
+  "storage": {
+    "logical_path": "research_round7/compact_support13/cases/s13_T37848950_m2_18_baseline_dense_smoke/core.drat",
+    "compressed_path": "research_round7/compact_support13/cases/s13_T37848950_m2_18_baseline_dense_smoke/core.drat.xz",
+    "raw_sha256": "2b83d2ffbf64c4a9ca96e3aa198fb0a7517c23434bd95eb7bedeea6b8efca423",
+    "raw_bytes": 4603015,
+    "xz_sha256": "bb2b5e67348798f68e33d7f3564a60ff3fe1b4a0cf6cdf5028a26ca094659fa5",
+    "xz_bytes": 453956,
+    "raw_present": false,
+    "compression": "xz",
+    "preset": 3,
+    "round_trip_sha256": "2b83d2ffbf64c4a9ca96e3aa198fb0a7517c23434bd95eb7bedeea6b8efca423"
+  },
+  "trim": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 1.56844,
+    "stdout_file": "trim.stdout.txt",
+    "stdout_sha256": "23d444b68fb7066d813c21a5c45a83883e6e320e73c5dc62813f29f95c371692",
+    "stderr_file": "trim.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 45124,
+      "clauses": 400297
+    },
+    "input_sha256": {
+      "cnf": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+      "drat": "2b83d2ffbf64c4a9ca96e3aa198fb0a7517c23434bd95eb7bedeea6b8efca423"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.067272,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "230e85f929b402a83a8d8f9f7735ad6fd6aa84f501eb345c5cb7c3e420c3e952",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "197637bb5b1a7aee7b3d59cab623c1c5df76cff6e12dc53b168b8103537c8547",
+    "lrat_bytes": 16879721,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.067393,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "regenerated_formula": {
+    "variant_mode": "baseline",
+    "regenerated_variant_metadata": {
+      "base_variables": 45124,
+      "base_clauses": 400297
+    },
+    "variables": 45124,
+    "clauses": 400297,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44"
+  },
+  "seconds": 5.47672,
+  "producer_sha256": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+  "original_cnf_used_without_new_axioms": true,
+  "original_proof_unchanged": true,
+  "portable_replay_requires_original_drat": false
+}

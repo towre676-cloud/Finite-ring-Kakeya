@@ -1,0 +1,15 @@
+**Draft — not posted**
+
+**Finite Kakeya update: every remaining counterexample needs at least thirteen active residue fibres. The 94-point bound remains open.**
+
+We study Kakeya sets in dimension five over Z/4Z and F₂[ε]/(ε²). A line has four points; the set must contain a line in every primitive direction. An elementary construction uses ninety-four points. We are trying to prove this optimal.
+
+The new result excludes every support with eleven or twelve active fibres and maximum fibre at most nineteen. There are thirty-eight marked support classes: thirteen of size eleven, twenty-five of size twelve. We certified all thirty-eight at maximum nineteen, then all thirty-eight with maxima two through eighteen allowed simultaneously: **seventy-six checked CNF refutations**.
+
+Combining these results with earlier reductions raises the minimum possible counterexample support to thirteen. The middle-stratum ledger loses 84,297 whole weight profiles, leaving 186,482. Maximum eleven still has forty-six affine support classes open.
+
+There is also fresh elementary mathematics. For an odd-sized binary set, its maximal-pair directions form a subspace K; if K is nontrivial, the set differs by one point from a K-periodic set. Counts agree for nonzero directions in the same K-coset. One support-eleven geometry also has a direct proof from a ninety-two-point baseline and forced affine flats.
+
+**The trust boundary matters:** CakeML checks exact formula refutations; a separate hand proof connects hypothetical Kakeya sets to satisfying assignments. The encoder and finite census are not fully formalized. Neither the dimension-five lower bound nor the general formula is proved.
+
+Sources: Kakeya_Research_Frontier_Round6.json; ONE_WAY_SOUNDNESS_AUDIT.md.

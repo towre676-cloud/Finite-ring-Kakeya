@@ -1,0 +1,10 @@
+{
+  "status": "PASS_COMPLETE_INDEPENDENT_SUPPORT10_REPLAY",
+  "normalized_supports": 80,
+  "input_profiles": 648,
+  "new_exclusions": 641,
+  "remaining_profiles": 7,
+  "indexed_role_assignments_checked": 77760,
+  "input_sha256": "6bb5db2cc6681d4e472c433cbc9b46f9c7056df4607bb14bff6c633c3ad00dd3",
+  "scope": "Exact necessary-condition exclusions; seven survivors are not constructions. Separate implementation, not proof-assistant formalization."
+}

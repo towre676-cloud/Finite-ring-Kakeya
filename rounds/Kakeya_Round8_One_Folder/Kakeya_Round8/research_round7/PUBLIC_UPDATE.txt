@@ -1,0 +1,34 @@
+We now have a complete elementary proof of an exact finite-ring Kakeya
+result: for both the integers modulo 4 and the dual numbers over F2,
+the smallest Kakeya set in dimension 3 has 22 points.
+
+The question is concrete: how few points can contain a complete four-point
+line in every primitive direction? Reducing modulo the nilpotent element
+divides the problem into eight binary residue boxes. A22-point construction
+is simple: fill one box and put two appropriately chosen points in each
+of the other seven. The work is proving that 21 points cannot suffice.
+
+The proof combines pair counting with geometry. Large fibres can look
+efficient in a scalar energy estimate, but their useful directions must
+fit together across actual edges. A short heavy/light charging argument,
+plus one shared-plane obstruction, closes every support size.
+
+There is also a separate computational route: all five marked support
+classes, in each of the two rings, have exact actual-point encodings and
+checked refutations. These computations corroborate the elementary proof;
+the proof does not depend on SAT or a spectrum census.
+
+The same charging idea has now excluded 3,006 entire weight profiles in
+our dimension 5 search, reducing the middle-maxima list from 186,482 to
+183,476. New support 13 certificates also close another whole maximum 11
+affine class. The dimension 5 target 94 and the general formula 3*2^n-2
+remain open.
+
+The methodological gain is useful beyond this one count: replace a loose
+global energy estimate by explicit prices for the resources that edges
+actually consume, then keep an exact integer certificate for every exclusion.
+The checkpoint includes the elementary proof, code, certificates, precise
+remaining-case ledger, and an exactly 1,500-word explanation.
+
+Draft only. No claim of literature priority or independent human refereeing.
+Nothing has been posted or sent.

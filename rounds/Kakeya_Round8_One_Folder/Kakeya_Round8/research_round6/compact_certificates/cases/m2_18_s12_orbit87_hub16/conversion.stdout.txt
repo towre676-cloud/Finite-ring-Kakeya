@@ -1,0 +1,1 @@
+{"status":"UNTRUSTED_DRAT_WRITTEN","original_cnf_clauses":339886,"derived_additions":391426,"emitted_deletions":560549,"inactive_deletions_ignored":0,"derived_literals":10354517,"discarded_hint_references":194959401,"negative_hint_references":0,"empty_clause_additions":1,"drat_bytes":126942705,"drat_trim_and_cakeml_required":true}

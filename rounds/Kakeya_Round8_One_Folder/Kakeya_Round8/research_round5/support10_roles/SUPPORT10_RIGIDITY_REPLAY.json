@@ -1,0 +1,435 @@
+{
+  "status": "PASS_ALL_ELEVEN_RIGIDITY_APPLICATIONS",
+  "full_universe_residual_profiles": 11,
+  "excluded_profiles": 11,
+  "earlier_seven_all_included": true,
+  "remaining_support10_profiles": 0,
+  "four_period_rank_choices_checked": 105,
+  "six_subset_common_neighbour_checks": 252,
+  "common_neighbour_histograms": [
+    {
+      "2": 7,
+      "1": 77
+    },
+    {
+      "1": 77,
+      "2": 7
+    },
+    {
+      "1": 77,
+      "2": 7
+    }
+  ],
+  "cube_induced_edge_maxima": [
+    0,
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    9,
+    12
+  ],
+  "five_point_union_of_cubes_edge_maximum": 5,
+  "seventeen_nontrivial_split_bounds": {
+    "2": 53,
+    "3": 51,
+    "4": 46,
+    "5": 42,
+    "6": 39,
+    "7": 37,
+    "8": 36
+  },
+  "applications": [
+    {
+      "weights": [
+        18,
+        17,
+        16,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            18,
+            17,
+            16
+          ],
+          "ordinary_weights": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT",
+            "SEVENTEEN_SPLIT_FORCES_FOUR_FLAT_PLUS_ONE"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        18,
+        16,
+        16,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            18,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            7,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        17,
+        17,
+        17,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            17,
+            17,
+            17
+          ],
+          "ordinary_weights": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "SEVENTEEN_SPLIT_FORCES_FOUR_FLAT_PLUS_ONE"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        17,
+        17,
+        16,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            17,
+            17,
+            16
+          ],
+          "ordinary_weights": [
+            7,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        17,
+        16,
+        16,
+        8,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            17,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            8,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        17,
+        16,
+        16,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            17,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            7,
+            7,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        9,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            16,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            9,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        8,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            16,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            8,
+            7,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        7,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            16,
+            16,
+            16
+          ],
+          "ordinary_weights": [
+            7,
+            7,
+            7,
+            6,
+            6,
+            6,
+            6
+          ],
+          "applicable_obstructions": [
+            "FOUR_PERIODS_FORCE_AFFINE_FOUR_FLAT"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        13,
+        12,
+        12,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            13,
+            12,
+            12
+          ],
+          "ordinary_weights": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "applicable_obstructions": [
+            "MANTEL_EQUALITY_CONTRADICTS_COMMON_NEIGHBOURS"
+          ]
+        }
+      ]
+    },
+    {
+      "weights": [
+        12,
+        12,
+        12,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "all_allowed_role_assignments": [
+        {
+          "central_weights": [
+            12,
+            12,
+            12
+          ],
+          "ordinary_weights": [
+            9,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "applicable_obstructions": [
+            "MANTEL_EQUALITY_CONTRADICTS_COMMON_NEIGHBOURS"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_survivors_sha256": "70f72f97f4f8d28c5381f00693b76f4fa262891767e35a2781213e254fbbdf43",
+  "verifier_sha256": "ca08d4ed7e9554cf51ff57cd619de6f93a344732799ab29e2ebdf9462d7dded1",
+  "scope": "Exact finite premises and every surviving weight-role application of the included analytic proofs. The period/flat, Mantel equality, quotient-capacity and support-normalization arguments are hand proofs, not proof-assistant formalization."
+}

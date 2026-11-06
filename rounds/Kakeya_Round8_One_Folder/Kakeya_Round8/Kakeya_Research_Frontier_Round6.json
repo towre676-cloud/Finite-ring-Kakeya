@@ -1,0 +1,625 @@
+{
+  "title": "Kakeya Round6: complete support11/12 exclusions and actual encoder recertification",
+  "date": "2026-10-28",
+  "previous_checkpoint": "Kakeya_Research_Frontier_Round5.json",
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/(epsilon^2)"
+  ],
+  "general_target": "3*2^n-2",
+  "unrestricted_general_theorem": "OPEN",
+  "dimension5_target": 94,
+  "unrestricted_dimension5_theorem": "OPEN",
+  "new_certified_statement": "No dimension-five Kakeya set of at most93 points in either ring has pair-active support11 or12 and maximum fibre at most19.",
+  "new_global_corollary": "Together with the inherited exclusion of maximum>=20 and Round5 exclusion of support<=10, any at-most93-point counterexample has at least13 pair-active fibres.",
+  "minimum_pair_active_support": 13,
+  "corollary_dependencies": [
+    "Inherited maximum>=20 exclusion",
+    "Round5 unrestricted support<=10 exclusion",
+    "Round6 complete support11/12 computer-assisted exclusion"
+  ],
+  "new_analytic_theorem": {
+    "statement": "Support affinely equivalent to V union W, dimV3,dimW2,V direct-sum W=F2^5, forces at least94 points without any maximum-fibre hypothesis.",
+    "proof": "research_round6/structural_progress/SUPPORT11_COMPLEMENTARY_SUBSPACES_PROOF.md",
+    "SAT_dependency": false,
+    "spectrum_census_dependency": false
+  },
+  "dimension5_strata": {
+    "maximum_at_most10": "EXCLUDED_INHERITED; ALSO INCLUDED IN NEW SUPPORT11/12 CHECKS",
+    "maximum11": {
+      "status": "OPEN",
+      "pair_active_support_upper_bound": 16,
+      "previous_round2_affine_support_classes": 57,
+      "round3_whole_affine_support_class_exclusions": 11,
+      "support17_closed_classes": [
+        367,
+        373,
+        374,
+        376,
+        377
+      ],
+      "support16_closed_classes": [
+        177,
+        187,
+        198,
+        201,
+        202,
+        203
+      ],
+      "remaining_affine_support_classes": 46,
+      "remaining_counts_by_support": {
+        "13": 4,
+        "14": 9,
+        "15": 16,
+        "16": 17
+      },
+      "remaining_orbits": [
+        105,
+        109,
+        110,
+        111,
+        126,
+        130,
+        131,
+        132,
+        133,
+        134,
+        139,
+        141,
+        142,
+        151,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        204
+      ],
+      "support16_remaining_distinct_weight_profiles": 66,
+      "support16_remaining_support_profile_incidences": 764,
+      "support16_verified_partitions": 20477,
+      "support16_exact_assignment_duals": 17986
+    },
+    "maximum12_through18": {
+      "status": "OPEN",
+      "minimum_pair_active_support": 13,
+      "remaining_weight_profiles": 186482,
+      "remaining_nonempty_cells": 34,
+      "maximum_pair_active_support_by_maximum": {
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17,
+        "16": 17,
+        "17": 17,
+        "18": 16
+      },
+      "survivor_file": "research_round6/after_round6_survivors.txt",
+      "survivor_sha256": "d96cd6794e87bede959d813c39e36aefafa42d5c243a465b19f6ec4c065cb52c"
+    },
+    "maximum19": {
+      "status": "CLOSED_WITH_INHERITED_SUPPORT11_12_REDUCTION",
+      "fresh_exact_packaged_encoder_cases_accepted": 38,
+      "old_historical_proofs_supplied": false,
+      "old_encoder_equivalence_assumed": false,
+      "tracked_profiles_excluded": 3798,
+      "inherited_support_reduction_still_used": true,
+      "outer_weight14_cap_used": false,
+      "full_hub_or_all_support_theorem_claimed": false
+    },
+    "maximum_at_least20": "EXCLUDED_INHERITED"
+  },
+  "certificate_collections": {
+    "maximum19": 38,
+    "joint_maximum2_through18": 38,
+    "same_geometric_universe": {
+      "support11": 13,
+      "support12": 25
+    },
+    "main_exact_CNF_refutations": 76,
+    "final_authority": "Pinned upstream verified CakeML artifact on exact CNF plus LRAT",
+    "encoder_formally_verified": false,
+    "one_way_soundness_hand_proof": "research_round6/encoder_audit/ONE_WAY_SOUNDNESS_AUDIT.md"
+  },
+  "new_general_fibre_lemma": {
+    "statement": "For maximal-pair subspace K and nonzero d,e, d+e in K implies p_A(d)=p_A(e); odd fibres with nontrivial K differ by one point from a K-periodic set.",
+    "proof": "research_round6/encoder_audit/MAXIMAL_SUBSPACE_COSET_LEMMA.md",
+    "used_in_main76_certificates": false,
+    "global_solver_speedup_demonstrated": false
+  },
+  "new_dense_fibre_lemmas": {
+    "proof": "research_round6/next_frontier/DENSE_FIBRE_COMPLEMENT_LEMMAS.md",
+    "scope": "Complete labelled pair-pattern descriptions for weights11 and12 in affine four-flats; conditional clauses for the trivial-maximal-subspace types Q205 and Q294.",
+    "finite_complements_checked": 6188,
+    "implemented_in_main_encoder": false,
+    "new_support_exclusions": 0
+  },
+  "additional_support13_result": {
+    "nonzero_support_mask": 37848950,
+    "full_support_mask": 37848951,
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      15,
+      16,
+      22,
+      25
+    ],
+    "distinguished_hub": 0,
+    "maximum_interval": [
+      2,
+      18
+    ],
+    "distinct_marked_cases_excluded": 1,
+    "accepted_proofs_for_that_case": 2,
+    "whole_weight_profiles_subtracted": 0,
+    "other_timed_out_trial_is_excluded": false
+  },
+  "middle_update": {
+    "status": "PASS_EXACT_ROUND6_FRONTIER",
+    "baseline_middle_weight_profiles": 270779,
+    "new_whole_weight_profile_exclusions": 84297,
+    "remaining_middle_weight_profiles": 186482,
+    "previous_nonempty_cells": 48,
+    "remaining_nonempty_cells": 34,
+    "newly_closed_cells": [
+      {
+        "support": 11,
+        "maximum": 12,
+        "excluded_profiles": 1439
+      },
+      {
+        "support": 11,
+        "maximum": 13,
+        "excluded_profiles": 2212
+      },
+      {
+        "support": 11,
+        "maximum": 14,
+        "excluded_profiles": 3530
+      },
+      {
+        "support": 11,
+        "maximum": 15,
+        "excluded_profiles": 3853
+      },
+      {
+        "support": 11,
+        "maximum": 16,
+        "excluded_profiles": 4952
+      },
+      {
+        "support": 11,
+        "maximum": 17,
+        "excluded_profiles": 4261
+      },
+      {
+        "support": 11,
+        "maximum": 18,
+        "excluded_profiles": 3227
+      },
+      {
+        "support": 12,
+        "maximum": 12,
+        "excluded_profiles": 5206
+      },
+      {
+        "support": 12,
+        "maximum": 13,
+        "excluded_profiles": 7183
+      },
+      {
+        "support": 12,
+        "maximum": 14,
+        "excluded_profiles": 9979
+      },
+      {
+        "support": 12,
+        "maximum": 15,
+        "excluded_profiles": 9943
+      },
+      {
+        "support": 12,
+        "maximum": 16,
+        "excluded_profiles": 12232
+      },
+      {
+        "support": 12,
+        "maximum": 17,
+        "excluded_profiles": 9536
+      },
+      {
+        "support": 12,
+        "maximum": 18,
+        "excluded_profiles": 6744
+      }
+    ],
+    "by_support": [
+      {
+        "support": 11,
+        "before": 23474,
+        "excluded": 23474,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "before": 60823,
+        "excluded": 60823,
+        "remaining": 0
+      },
+      {
+        "support": 13,
+        "before": 85802,
+        "excluded": 0,
+        "remaining": 85802
+      },
+      {
+        "support": 14,
+        "before": 75766,
+        "excluded": 0,
+        "remaining": 75766
+      },
+      {
+        "support": 15,
+        "before": 20438,
+        "excluded": 0,
+        "remaining": 20438
+      },
+      {
+        "support": 16,
+        "before": 4051,
+        "excluded": 0,
+        "remaining": 4051
+      },
+      {
+        "support": 17,
+        "before": 425,
+        "excluded": 0,
+        "remaining": 425
+      }
+    ],
+    "by_cell": [
+      {
+        "support": 11,
+        "maximum": 12,
+        "before": 1439,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 13,
+        "before": 2212,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 14,
+        "before": 3530,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 15,
+        "before": 3853,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 16,
+        "before": 4952,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 17,
+        "before": 4261,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 18,
+        "before": 3227,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 12,
+        "before": 5206,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 13,
+        "before": 7183,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 14,
+        "before": 9979,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 15,
+        "before": 9943,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 16,
+        "before": 12232,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 17,
+        "before": 9536,
+        "remaining": 0
+      },
+      {
+        "support": 12,
+        "maximum": 18,
+        "before": 6744,
+        "remaining": 0
+      },
+      {
+        "support": 13,
+        "maximum": 12,
+        "before": 10192,
+        "remaining": 10192
+      },
+      {
+        "support": 13,
+        "maximum": 13,
+        "before": 12004,
+        "remaining": 12004
+      },
+      {
+        "support": 13,
+        "maximum": 14,
+        "before": 15635,
+        "remaining": 15635
+      },
+      {
+        "support": 13,
+        "maximum": 15,
+        "before": 13641,
+        "remaining": 13641
+      },
+      {
+        "support": 13,
+        "maximum": 16,
+        "before": 16262,
+        "remaining": 16262
+      },
+      {
+        "support": 13,
+        "maximum": 17,
+        "before": 11154,
+        "remaining": 11154
+      },
+      {
+        "support": 13,
+        "maximum": 18,
+        "before": 6914,
+        "remaining": 6914
+      },
+      {
+        "support": 14,
+        "maximum": 12,
+        "before": 12861,
+        "remaining": 12861
+      },
+      {
+        "support": 14,
+        "maximum": 13,
+        "before": 11666,
+        "remaining": 11666
+      },
+      {
+        "support": 14,
+        "maximum": 14,
+        "before": 15401,
+        "remaining": 15401
+      },
+      {
+        "support": 14,
+        "maximum": 15,
+        "before": 10836,
+        "remaining": 10836
+      },
+      {
+        "support": 14,
+        "maximum": 16,
+        "before": 14005,
+        "remaining": 14005
+      },
+      {
+        "support": 14,
+        "maximum": 17,
+        "before": 7415,
+        "remaining": 7415
+      },
+      {
+        "support": 14,
+        "maximum": 18,
+        "before": 3582,
+        "remaining": 3582
+      },
+      {
+        "support": 15,
+        "maximum": 12,
+        "before": 5380,
+        "remaining": 5380
+      },
+      {
+        "support": 15,
+        "maximum": 13,
+        "before": 2996,
+        "remaining": 2996
+      },
+      {
+        "support": 15,
+        "maximum": 14,
+        "before": 4191,
+        "remaining": 4191
+      },
+      {
+        "support": 15,
+        "maximum": 15,
+        "before": 2184,
+        "remaining": 2184
+      },
+      {
+        "support": 15,
+        "maximum": 16,
+        "before": 4088,
+        "remaining": 4088
+      },
+      {
+        "support": 15,
+        "maximum": 17,
+        "before": 1223,
+        "remaining": 1223
+      },
+      {
+        "support": 15,
+        "maximum": 18,
+        "before": 376,
+        "remaining": 376
+      },
+      {
+        "support": 16,
+        "maximum": 12,
+        "before": 1255,
+        "remaining": 1255
+      },
+      {
+        "support": 16,
+        "maximum": 13,
+        "before": 509,
+        "remaining": 509
+      },
+      {
+        "support": 16,
+        "maximum": 14,
+        "before": 766,
+        "remaining": 766
+      },
+      {
+        "support": 16,
+        "maximum": 15,
+        "before": 373,
+        "remaining": 373
+      },
+      {
+        "support": 16,
+        "maximum": 16,
+        "before": 898,
+        "remaining": 898
+      },
+      {
+        "support": 16,
+        "maximum": 17,
+        "before": 206,
+        "remaining": 206
+      },
+      {
+        "support": 16,
+        "maximum": 18,
+        "before": 44,
+        "remaining": 44
+      },
+      {
+        "support": 17,
+        "maximum": 12,
+        "before": 148,
+        "remaining": 148
+      },
+      {
+        "support": 17,
+        "maximum": 13,
+        "before": 45,
+        "remaining": 45
+      },
+      {
+        "support": 17,
+        "maximum": 14,
+        "before": 85,
+        "remaining": 85
+      },
+      {
+        "support": 17,
+        "maximum": 15,
+        "before": 42,
+        "remaining": 42
+      },
+      {
+        "support": 17,
+        "maximum": 16,
+        "before": 92,
+        "remaining": 92
+      },
+      {
+        "support": 17,
+        "maximum": 17,
+        "before": 13,
+        "remaining": 13
+      }
+    ],
+    "baseline_sha256": "b83d398cf0c489fabc8d008e0f9fd851d5d59c7d70774ef9283753a25377f778",
+    "survivors_sha256": "d96cd6794e87bede959d813c39e36aefafa42d5c243a465b19f6ec4c065cb52c",
+    "excluded_profiles_sha256": "766dad36894b2915c3e1fed69f8494237c27ddcd4c5e4e11afe02750dccb19df",
+    "joint_certificate_manifest_sha256": "d15d67d5b35a9a37db98f10466faff8056aa73c0a7f6dfb0ce58d61d012f7345",
+    "m19_certificate_manifest_sha256": "8120e07f9c7d741e09ab0026b0bdc79ec5078d04ca4a342bafec7152353a6348",
+    "counting_caution": "Weight profiles, unmarked affine support classes, marked support cases, and formulas are separate inventories.",
+    "verification_scope": "Exact ledger subtraction against completed certificate manifests; this bookkeeping check does not replace actual proof replay or the one-way encoder argument."
+  },
+  "latest_external_snapshot": {
+    "source": "Attached Claude Round4 handoff, not live status",
+    "middle_proof_free_cases_completed": 478,
+    "m19_other_support_proof_free_cases_completed": 120,
+    "those_statuses_credited_as_certificates": false
+  },
+  "next_priorities": [
+    "Complete support13 joint-maxima marked cases, starting with proof-generating bounded splits of hard cases.",
+    "Use maximal-subspace coset constraints selectively; current paired trials show no speed advantage from enabling them globally.",
+    "Test the proved dense-complement direction constraints on Q205/Q294 spectrum branches, where the maximal-pair subspace is trivial.",
+    "Develop reusable local graph and spectrum-branch exclusions for supports14..17."
+  ],
+  "review_scope": "Separate model-agent reviews and actual checker executions; no independent human review or full Kakeya formalization claimed."
+}

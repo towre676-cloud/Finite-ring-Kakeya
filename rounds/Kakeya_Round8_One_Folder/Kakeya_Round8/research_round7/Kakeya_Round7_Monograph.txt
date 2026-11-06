@@ -1,0 +1,63 @@
+Kakeya over two small rings: a theorem and a sharper research programme
+
+**The result we can now state**
+
+The project now proves an exact theorem in dimension three. For either the integers modulo four or the dual numbers over the two-element field, the smallest Kakeya set has **twenty-two points**. In symbols, **k_R(3)=22**. There are two complete routes to this conclusion: an elementary mathematical proof and a separately checked collection of computational refutations. The elementary proof does not depend on SAT, a spectrum census, or the dimension-five reductions that motivated this project. [1,2]
+
+This is a finite geometry problem. A primitive direction is represented by a vector with at least one unit coordinate, and a line contains all four scalar multiples of that vector, translated to a starting point. We seek the smallest set containing such a line in every primitive direction. The two rings have different addition rules, so a proof must account for their difference rather than silently identifying them.
+
+The proposed general answer is 3·2ⁿ−2. The values four, ten, and twenty-two now have direct proofs in dimensions one, two, and three. Dimension five, whose proposed value is ninety-four, remains a separate open target in this project. Establishing one dimension does not establish the general formula.
+
+**Why twenty-two is attainable**
+
+Reduce every coordinate modulo the nilpotent element, either two or epsilon. In dimension three this produces eight residue classes, each containing eight possible tangent points. Think of these classes as eight boxes. Put every tangent point in the zero box. In each other box, indexed by a nonzero binary vector d, put the two tangent points zero and d.
+
+The construction contains eight plus twice seven points: twenty-two. Every primitive direction finds a four-point line using the full zero box and the appropriate two-point box. The same construction works in either ring. This establishes the upper bound; the substantive task is proving that twenty-one points cannot suffice.
+
+Singleton boxes can be removed because a primitive line uses two points in each of its two residue classes. Consequently every relevant box contains at least two points. Its residue support must represent all seven nonzero binary differences. Four boxes provide at most six edges, so a candidate with at most twenty-one points must use five, six, seven, or eight boxes.
+
+**The local accounting**
+
+For a fibre A and nonzero binary direction d, let p_A(d) count its unordered pairs with difference d. An edge joining residue boxes a and a+d can supply at most p_A(d)p_B(d) lifted directions. Four lifted directions must be covered for every d. Each fibre participates in at most one edge of each direction, so summing the elementary inequality 2pq≤p²+q² yields the necessary energy bound Σ_AΣ_d p_A(d)²≥56.
+
+Only very small subsets are involved. Their maximum energies at weights two through eight are 1,3,12,16,33,63,112. These values have short explanations. Four points either form an affine plane, giving three directions with two pairs, or give six distinct pair differences. Larger fibres are understood by taking complements inside the eight-point binary space. A six-point fibre has three pairs in exactly one direction and two in every other direction.
+
+This last fact supports a useful counting principle. Separate fibres of weight at least four from fibres of weight two or three. Away from differences joining two heavy residues, every edge touches a light fibre. Usually its capacity costs at most twice that light fibre's pair count. Each six-point fibre can contribute only one exceptional extra unit. This controls the entire collection of edges without allocating the same directional resource twice.
+
+**How the lower bound closes**
+
+Five residue boxes form an affine plane together with one outside point. The four spokes from that point have unique directions, so each spoke must cover all four lifts itself. Small central fibres cannot supply enough pair directions. Central weights six and seven force four neighbours of weight at least four, already reaching twenty-two. A full central fibre leaves only thirteen points for the plane; its three matching constraints require at least fourteen.
+
+With six boxes, two missing residues identify two particularly restrictive matchings. A full largest fibre leaves insufficient capacity in either matching. A seven-point largest fibre reduces to a few elementary alternatives. The delicate alternative has two four-point plane fibres. Their direction spaces are forced to agree, so their mutual quotient sumset has only two elements. Product counting alone had allowed four, and this geometric correction closes the case.
+
+For largest weight at most six, the heavy and light counting principle completes the argument. Two heavy vertices require twenty-four units in the remaining directions but can supply at most twenty-two. Three heavy vertices require sixteen and can supply at most eleven. The other possibilities fail the energy bound.
+
+Seven and eight boxes leave still less room. Their budgets either force too little energy or concentrate all available directions in a handful of tiny fibres. In the final eight-box alternative, one seven-point fibre meets seven two-point fibres. Their total capacity is at most twenty-one, while the seven directions require twenty-eight. This exhausts every support size and proves the lower bound.
+
+**What the computation adds**
+
+The computational route models actual points. Each possible tangent point has a Boolean membership variable; pair variables record conjunctions of two memberships; witness variables record complete lines. Coverage is required separately for every lifted direction. The integer ring uses its coordinate carry, while the dual-number ring has zero carry. This exact model needs neither the earlier spectrum census nor a table of estimated sumset capacities.
+
+A common affine tangent shear provides sound symmetry reduction. It can place zero in fibres over a residue basis and the origin. Independent translations of every fibre would generally change actual coverage, so the exact encoder uses one common transformation. The preservation of primitive-line coverage under this transformation has now been checked in Lean, for both coordinate ring models and arbitrary dimension. The basis interpolation and Python encoder remain separate mathematical and implementation obligations. [3]
+
+In dimension three, all sixty-four covering supports containing the chosen largest residue reduce to five marked classes. Ten formulas cover those five classes in the two rings. Every refutation was checked against its exact regenerated formula through DRAT, LRAT, and the pinned CakeML checker. A separate replay accepted them again. These certificates corroborate the theorem; they are not premises of the elementary proof.
+
+A verifier establishes unsatisfiability of a particular formula. Its mathematical meaning comes from the separately reviewed encoding and completeness argument. The package binds these components with hashes, explicit parameters, and replay scripts. Separate model agents supply additional review and reproducibility; they do not constitute independent human refereeing. Nor does the Lean symmetry result amount to formal verification of the entire theorem. These distinctions identify precisely what each piece of evidence establishes.
+
+**Where dimension five stands**
+
+The inherited checkpoint excludes supports of size at most twelve for a candidate with at most ninety-three points, using its stated reductions. Maximum fibre nineteen is closed with the inherited restriction to supports eleven and twelve. The large remaining region concerns maxima eleven through eighteen and supports thirteen and above.
+
+The new support-thirteen work distinguishes fifty-five marked cases from thirteen unmarked affine geometries. **A marked case specifies where a largest fibre sits.** Excluding one such placement does not exclude every placement on its underlying geometry. The delivered ledger records complete intervals of maxima for each case and subtracts a whole profile cell only when every required placement is covered.
+
+Several sound strengthenings were implemented: exact direction models for dense eleven- and twelve-point fibres, exact compatibility of three pair counts in a binary plane, and edge capacities bounded by shared affine direction spaces. Their correctness does not guarantee faster search. The initial comparisons did not establish a general speed improvement, and timed-out runs contribute no exclusions.
+
+The elementary proof also yielded **3,006 complete weight profile exclusions**, reducing the middle maxima frontier from 186,482 to 183,476. Outside directions joining two selected heavy residues, every edge touches a light fibre. Integer prices bound its contribution, while complete spectra control the heavy fibres' excess. Every certificate has been replayed by a separate verifier. Elementary bounds for pair sets of size at most three replace the older sumset table here. The spectrum census remains an explicit dependency of these exclusions.
+
+**The next decisive steps**
+
+The dimension-four search now has a complete inventory of twenty-eight marked covering classes, giving fifty-six exact ring-specific cases against the proposed bound forty-six. Its current certificate status is recorded separately from the completed dimension-three theorem. For dimension five, complete maximum intervals and particular affine support classes offer concrete targets while harder instances receive additional structure.
+
+The guiding principle is simple: keep mathematical conclusions, exact formula refutations, and exploratory searches distinct. A checked contradiction proves the encoded case; a written interpretation connects that case to geometry; a complete inventory supplies the universal quantifier. Together they produce a theorem whose scope and supporting evidence can be inspected, reproduced, and explained.
+
+Sources: [1] DIMENSION3_ELEMENTARY_PROOF.md. [2] EXACT_RING_CERTIFICATE_MANIFEST.json and its replay. [3] ShearBridge.lean and SHEAR_LEAN_REPLAY.json. All are included in this checkpoint.

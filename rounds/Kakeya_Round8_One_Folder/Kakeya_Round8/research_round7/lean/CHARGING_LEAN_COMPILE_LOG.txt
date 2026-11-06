@@ -1,0 +1,4 @@
+'KakeyaRound7.light_light_price' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaRound7.heavy_light_price' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaRound7.two_type_charging_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaRound7.strict_charging_gap_is_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

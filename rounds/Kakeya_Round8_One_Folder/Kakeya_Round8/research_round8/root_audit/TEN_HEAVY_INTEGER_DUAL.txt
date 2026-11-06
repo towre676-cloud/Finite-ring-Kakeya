@@ -1,0 +1,72 @@
+A short exact dual certificate for the ten-heavy case
+====================================================
+
+The geometry is a separate input.  The ten heavy residues split into
+three U vertices and seven W vertices.  There are twenty-four directions
+with exactly one heavy-heavy edge.  Each U vertex lies on nine of those
+edges, and each W vertex on three.  U fibres have affine rank five; W
+fibres have rank at least three, with at most two of rank three.  There
+are three light fibres of weight two or three.  All fibres have weight
+at most eleven, and the total weight is at most ninety-three.
+
+Define pair prices
+
+    f(0),...,f(5) = 0,1,4,9,16,17.
+
+For quotient pair-sets of sizes p,q<=5, their sumset size B obeys
+
+    2 B <= f(p)+f(q).
+
+Product and ambient bounds prove this in every case except the sharper
+3-by-5 case.  A three-set lies in an affine binary plane.  In each of
+the four cosets of that plane, r points of the other set give at most
+r+2 sums when the coset is occupied.  Thus B(5,3)<=5+8=13, proving
+the remaining equality 2*13=9+17.  This uses no sumset census.
+
+Let R_U be the sum of the nine largest f-values of a U-fibre's pair
+spectrum and R_W the sum of the three largest for a W-fibre.  Let
+R_L=10*choose(w,2) for a light fibre.  Charging the unique heavy-heavy
+edges and then all edges touching light fibres gives the necessary bound
+
+    768 = 2*16*24 <= sum_U R_U + sum_W R_W + sum_L R_L.
+
+The light charge is valid because a light directional count is at most
+one, its partner has at most five pairs, and each fibre-direction pair
+belongs to at most one residue edge.  Charging an edge with two light
+endpoints to either endpoint only weakens this estimate.
+
+The complete inherited fibre census gives these small resource tables:
+
+    weight             4   5   6   7   8   9   10  11
+    U rank5, top9      -   -   9  18  35  65  114 121
+    W rank3, top3      3  12  17  27  48   -    -   -
+    W rank>=4, top3    -   3  12  17  27  48   49  51
+
+A dash means no such fibre exists.  Every row satisfies, with integers
+only,
+
+    4 R_U <= 45 w + 6,
+    4 R_W <= 45 w - 213 + 45*[rank(W)=3],
+    4 R_L <= 45 w - 15.
+
+Summing three U rows, seven W rows, and three light rows, and using the
+at-most-two rank-three W fibres, yields
+
+    4 (sum R) <= 45*93 + 3*6 - 7*213 + 2*45 - 3*15
+               = 2757 < 3072 = 4*768.
+
+Thus the resource is at most floor(2757/4)=689 although it must be at
+least768.  The strict gap is315 after multiplication by four.  This
+excludes the stated ten-heavy configuration.  No distinguished fibre
+needs to have weight exactly eleven; the bound eleven is enough.
+
+The rational coefficients were found by a small linear optimization.
+Their verification requires no numerical optimizer: the accompanying
+script reads the pinned census directly, checks all integer inequalities,
+and independently recomputes the sharper budget dynamic-program values
+663 (a weight-eleven hub in W) and685 (a weight-eleven hub in U).
+
+Scope: the pair-price argument is elementary.  The resource table depends
+on the inherited exhaustive fibre census, and application to every
+ten-heavy support depends on the separately checked ten-set geometry.
+The LP dual and its replay alone do not certify a whole support orbit.

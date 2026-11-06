@@ -1,0 +1,364 @@
+{
+  "status": "PASS_INDEPENDENT_PROFILE_COUNT_REVIEW",
+  "source_path": "research_round7/charging/after_integer_dual_survivors.txt",
+  "source_sha256": "1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5",
+  "source_count": 183476,
+  "source_duplicate_weight_profiles": 0,
+  "analytic_rule": "support13, maximum<=13 implies at least10 weight>=4 fibres",
+  "excluded_count": 16,
+  "excluded_by_maximum": {
+    "12": 10,
+    "13": 6
+  },
+  "remaining_count": 183460,
+  "expected_remaining_file_sha256": "892032e51ecdac50c351759cba7b8b2eb42fa8c3b102583ac687780e7a0a4835",
+  "remaining_counts_by_support": {
+    "13": 85324,
+    "14": 74373,
+    "15": 19514,
+    "16": 3853,
+    "17": 396
+  },
+  "remaining_nonempty_cells": 34,
+  "removed": [
+    {
+      "source_line": 162466,
+      "source_line_sha256": "f33e84ea8ca20c9cff5d02733be424b481074b70d440bee88c44f0df67a38275",
+      "weight_profile": [
+        13,
+        13,
+        12,
+        8,
+        7,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 164715,
+      "source_line_sha256": "237cf608baaf49d51db7b4033c2d4ffd7fe1a366933f27c27700b6f2ab696e39",
+      "weight_profile": [
+        13,
+        12,
+        12,
+        12,
+        8,
+        6,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 164996,
+      "source_line_sha256": "bba760a41734a8fb926db055bdde9cffc494cc5ff3bed86f1e2e12dc1b8d8361",
+      "weight_profile": [
+        13,
+        12,
+        12,
+        10,
+        8,
+        8,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 165380,
+      "source_line_sha256": "4dfd75bd23125f8f9d69eed1e83953a8a15218fe2f6d7e2cb641794621a6cfdd",
+      "weight_profile": [
+        13,
+        12,
+        12,
+        9,
+        7,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 165455,
+      "source_line_sha256": "95ba7ebb88c1afbe168660b3edb61222584d42c5a7d7671ba0dbc09c34a2e4e1",
+      "weight_profile": [
+        13,
+        12,
+        12,
+        8,
+        8,
+        8,
+        8,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 165520,
+      "source_line_sha256": "3d6e6d633f3e9617706e87425f9b4b4080f6ef0762e340ffd8caebdfdba19d27",
+      "weight_profile": [
+        13,
+        12,
+        12,
+        8,
+        8,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 13,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 173686,
+      "source_line_sha256": "88e70006328053a857fa29388d9acb34789023bb1397029284d56359f2108777",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        12,
+        9,
+        6,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 173712,
+      "source_line_sha256": "a830bf56f7be1b3b55fd60749be6acc3cd30ec6841c69bf514493567fe721c65",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        12,
+        8,
+        7,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 173882,
+      "source_line_sha256": "0843e96e71b61a0d86823d72f34449bf64567ada4a704a2907a11a1ea43231ea",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        11,
+        8,
+        8,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174087,
+      "source_line_sha256": "ef0254887080c3877376dc7e3df82e8e6721b788c2341e1320d56fea81f891c7",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        10,
+        9,
+        8,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174165,
+      "source_line_sha256": "24669b006546ec7e4c7fb7b663d5f41cbc54f7c6a6f6207893691e6fc27260dd",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        10,
+        8,
+        8,
+        7,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174266,
+      "source_line_sha256": "d1326f75192acdefbefc92b03f6a2c1d97e2ab06e84fe1deee53d3db7f1644ad",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        10,
+        7,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174475,
+      "source_line_sha256": "cd21ad1abe551269c3f9723c62e5ddf003bd97c0a6e19c6097d934ef1a3922f8",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        9,
+        8,
+        8,
+        8,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174540,
+      "source_line_sha256": "e3702a478f537b06dc1140a46804e1856df700a65e6e2d57fafec9f452300e30",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        9,
+        8,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174673,
+      "source_line_sha256": "a7c36abbbe24b486f2d85fb1044d0e6d97f25dd89a03070331b67f071ddc8b55",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    },
+    {
+      "source_line": 174700,
+      "source_line_sha256": "7b90609c9ad78b98fd94e0541c7950223dec24552ecb6c3fcc9a9841e1eb4e65",
+      "weight_profile": [
+        12,
+        12,
+        12,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximum": 12,
+      "heavy_count": 9
+    }
+  ],
+  "sat_marked_roles_used_for_profile_exclusions": false,
+  "original_inputs_modified": false,
+  "proof_assistant_formalization": false
+}

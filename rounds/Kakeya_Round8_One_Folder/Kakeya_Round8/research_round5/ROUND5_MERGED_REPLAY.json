@@ -1,0 +1,438 @@
+{
+  "status": "PASS_DISJOINT_ROUND5_FRONTIER",
+  "baseline_weight_profiles": 275755,
+  "disjoint_stage_exclusions": {
+    "analytic_small_light_prices": 240,
+    "nine_residue_geometry": 4088,
+    "support10_unique_roles": 641,
+    "support10_rigidity": 7
+  },
+  "additional_whole_weight_profile_exclusions": 4976,
+  "remaining_middle_weight_profiles": 270779,
+  "remaining_nonempty_middle_cells": 48,
+  "newly_closed_cells": [
+    {
+      "support": 10,
+      "maximum": 12
+    },
+    {
+      "support": 10,
+      "maximum": 13
+    },
+    {
+      "support": 10,
+      "maximum": 14
+    },
+    {
+      "support": 10,
+      "maximum": 15
+    },
+    {
+      "support": 10,
+      "maximum": 16
+    },
+    {
+      "support": 10,
+      "maximum": 17
+    },
+    {
+      "support": 10,
+      "maximum": 18
+    }
+  ],
+  "by_support": [
+    {
+      "support": 10,
+      "before": 3220,
+      "excluded": 3220,
+      "remaining": 0
+    },
+    {
+      "support": 11,
+      "before": 24708,
+      "excluded": 1234,
+      "remaining": 23474
+    },
+    {
+      "support": 12,
+      "before": 61048,
+      "excluded": 225,
+      "remaining": 60823
+    },
+    {
+      "support": 13,
+      "before": 85913,
+      "excluded": 111,
+      "remaining": 85802
+    },
+    {
+      "support": 14,
+      "before": 75865,
+      "excluded": 99,
+      "remaining": 75766
+    },
+    {
+      "support": 15,
+      "before": 20491,
+      "excluded": 53,
+      "remaining": 20438
+    },
+    {
+      "support": 16,
+      "before": 4076,
+      "excluded": 25,
+      "remaining": 4051
+    },
+    {
+      "support": 17,
+      "before": 434,
+      "excluded": 9,
+      "remaining": 425
+    }
+  ],
+  "by_cell": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "before": 178,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "before": 332,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "before": 528,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "before": 581,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "before": 615,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "before": 554,
+      "remaining": 0
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "before": 432,
+      "remaining": 0
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "before": 1600,
+      "remaining": 1439
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "before": 2488,
+      "remaining": 2212
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "before": 3739,
+      "remaining": 3530
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "before": 4029,
+      "remaining": 3853
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "before": 5153,
+      "remaining": 4952
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "before": 4395,
+      "remaining": 4261
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "before": 3304,
+      "remaining": 3227
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "before": 5249,
+      "remaining": 5206
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "before": 7224,
+      "remaining": 7183
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "before": 10044,
+      "remaining": 9979
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "before": 9994,
+      "remaining": 9943
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "before": 12242,
+      "remaining": 12232
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "before": 9547,
+      "remaining": 9536
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "before": 6748,
+      "remaining": 6744
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "before": 10220,
+      "remaining": 10192
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "before": 12033,
+      "remaining": 12004
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "before": 15648,
+      "remaining": 15635
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "before": 13653,
+      "remaining": 13641
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "before": 16279,
+      "remaining": 16262
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "before": 11166,
+      "remaining": 11154
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "before": 6914,
+      "remaining": 6914
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "before": 12872,
+      "remaining": 12861
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "before": 11677,
+      "remaining": 11666
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "before": 15410,
+      "remaining": 15401
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "before": 10842,
+      "remaining": 10836
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "before": 14043,
+      "remaining": 14005
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "before": 7439,
+      "remaining": 7415
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "before": 3582,
+      "remaining": 3582
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "before": 5390,
+      "remaining": 5380
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "before": 3002,
+      "remaining": 2996
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "before": 4194,
+      "remaining": 4191
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "before": 2185,
+      "remaining": 2184
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "before": 4110,
+      "remaining": 4088
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "before": 1234,
+      "remaining": 1223
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "before": 376,
+      "remaining": 376
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "before": 1260,
+      "remaining": 1255
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "before": 512,
+      "remaining": 509
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "before": 770,
+      "remaining": 766
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "before": 374,
+      "remaining": 373
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "before": 907,
+      "remaining": 898
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "before": 209,
+      "remaining": 206
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "before": 44,
+      "remaining": 44
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "before": 151,
+      "remaining": 148
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "before": 46,
+      "remaining": 45
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "before": 86,
+      "remaining": 85
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "before": 42,
+      "remaining": 42
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "before": 95,
+      "remaining": 92
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "before": 14,
+      "remaining": 13
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "before": 0,
+      "remaining": 0
+    }
+  ],
+  "minimum_pair_active_support": 11,
+  "support10_theorem": "Unrestricted in the maximum fibre size; both rings; at most93 points.",
+  "support10_proof_dependencies": "Complete finite support classification and analytic role/cube/period/Mantel arguments. No weight-profile census, earlier middle screen, or SAT result is required for the theorem itself.",
+  "baseline_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+  "survivors_sha256": "b83d398cf0c489fabc8d008e0f9fd851d5d59c7d70774ef9283753a25377f778",
+  "disjoint_certificates_sha256": "5faa20f716b9577b50d6ac1842f2a7c6d70e1abca5eb74a639e0417addc856ff",
+  "counting_caution": "Middle weight profiles, M11 affine support classes, and Claude SAT cases are different objects and cannot be added or subtracted across inventories."
+}

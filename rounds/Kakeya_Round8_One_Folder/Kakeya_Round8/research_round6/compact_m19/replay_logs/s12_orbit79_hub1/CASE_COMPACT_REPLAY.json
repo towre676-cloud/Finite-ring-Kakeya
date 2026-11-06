@@ -1,0 +1,76 @@
+{
+  "case_id": "s12_orbit79_hub1",
+  "status": "PASS_EXACT_CNF_DRAT_TO_CAKEML",
+  "marked_support": {
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      15,
+      16,
+      23,
+      27,
+      28
+    ],
+    "distinguished_hub": 0,
+    "affine_map_to_contract": [
+      0,
+      16,
+      17,
+      5,
+      7,
+      9
+    ]
+  },
+  "cnf_regeneration": "BYTE_IDENTICAL",
+  "cnf_sha256": "7ae308d84c414fbe0378f1bfb0ad742ed193a9647102795bfc44b8192ed970e3",
+  "original_drat_sha256": "43067b514cfd547023c6d398a0955aeacd60c1c8cda64ba1a308e3c92984638a",
+  "proof_check": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 39988,
+      "clauses": 336915
+    },
+    "input_sha256": {
+      "cnf": "7ae308d84c414fbe0378f1bfb0ad742ed193a9647102795bfc44b8192ed970e3",
+      "drat": "43067b514cfd547023c6d398a0955aeacd60c1c8cda64ba1a308e3c92984638a"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.719226,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "b4420e47dbf52038c35b77998194e470317d996d995954f8583371e5be2ae405",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "a94c375f1ab7b1e67a885b43a8bf756319cb22d2c4ee27e2fe79561c5cfd8a5b",
+    "lrat_bytes": 19907378,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.468948,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "original_lrat_required": false,
+  "original_lrat_read": false,
+  "reconstructed_lrat_sha256": "a94c375f1ab7b1e67a885b43a8bf756319cb22d2c4ee27e2fe79561c5cfd8a5b",
+  "reconstructed_lrat_bytes": 19907378,
+  "reconstructed_lrat_retained": false,
+  "seconds": 4.898349
+}

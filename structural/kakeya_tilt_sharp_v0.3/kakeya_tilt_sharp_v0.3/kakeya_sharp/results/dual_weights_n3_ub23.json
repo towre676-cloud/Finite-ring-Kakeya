@@ -1,0 +1,1 @@
+{"f": ["0", "601/1000", "2", "12/5"], "W_holds": true, "knapsack_max": "12901/250", "knapsack_max_float": 51.604, "target": 28, "certified": false, "extremal_sizes": [6, 6, 6, 5, 0, 0, 0, 0], "n": 3, "ub": 23, "lp_rounds": 4}

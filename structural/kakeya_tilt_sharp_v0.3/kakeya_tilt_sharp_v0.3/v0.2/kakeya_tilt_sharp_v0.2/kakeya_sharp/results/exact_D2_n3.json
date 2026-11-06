@@ -1,0 +1,1 @@
+{"ring": "D2", "n": 3, "status": "FEASIBLE", "best": 22, "lower_bound": 4.0, "seconds": 300.04, "conjecture": 22, "witness": [0, 1, 5, 8, 9, 16, 24, 28, 30, 31, 32, 39, 40, 42, 43, 45, 46, 48, 51, 56, 58, 60], "witness_rechecked": true}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_ELEMENTARY_TEN_HEAVY_EXCLUSION_MATHEMATICAL_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review",
+  "source_hashes": {
+    "research_round8/charging/TEN_HEAVY_ELEMENTARY_PRICE_BOUNDS.md": "bee81536f0969dd1ffc78055e644703a7036cc84d4aae1df59c3e0ebae7b549d",
+    "research_round8/charging/verify_ten_heavy_elementary.py": "c4e10fa169788f5b365f2e3dddc66777ee32cafbde4615a534099dd9042a904d",
+    "research_round8/geometry/TEN_HEAVY_RANK_CONSEQUENCES.md": "557ff1588dc0c800341931242758b7edb9caae1b68529dc270b839e2e549f232",
+    "research_round8/geometry/verify_ten_heavy_ranks.py": "1bdd7cb3435a0c63cce03de0d33f8ef277108d3f5e41dd004fd81756d7bba289"
+  },
+  "checked_arguments": [
+    "Three-by-five sumset bound13 follows from four affine-plane cosets; no Mtable premise.",
+    "Every direction needs an active HHedge because three light endpoints contribute at most15.",
+    "The24 unique-HH directions give the required doubled capacity768 with exactly9 incidences at U and3 at W.",
+    "The geometric decomposition forces rank5 at all3 U vertices, rank>=3 at all7 W vertices, and at most2 rank3 W fibres.",
+    "The even-period arguments and odd four-cycle deficit table prove all stated small-weight rank restrictions.",
+    "The augmented relation-code bound and Q=C(w,2)+6Z4 give all U bounds throughweight9; the omitted-pair argument gives126\u22127t atweight10; at mostone5-pair direction gives145 atweight11.",
+    "All W table entries and the three affine inequalities are valid, and the final2994<3072 contradiction is exact.",
+    "The only finite-classification premise is the explicit14950 normalized ten-point support calculation; no imported fibre-spectrum or quotient-sumset census is required."
+  ],
+  "independent_corroboration": "geometry/LOCAL_RANK_PRICE_REPLAY.json checks85184 actual normalized fibres and reproduces the separate stronger663/685 DP bounds; these are not needed for the elementary local proof.",
+  "blocking_issues_found": []
+}

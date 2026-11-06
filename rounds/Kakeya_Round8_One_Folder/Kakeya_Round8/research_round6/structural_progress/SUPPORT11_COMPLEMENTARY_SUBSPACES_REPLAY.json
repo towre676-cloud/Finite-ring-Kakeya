@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "theorem": "No at-most-93-point Kakeya set has pair-active support affine-equivalent to V union W, dimensions 3 and 2, complementary in F2^5",
+  "maximum_fibre_hypothesis": null,
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/epsilon^2"
+  ],
+  "canonical_geometry": {
+    "unique_edges": 21,
+    "direction_multiplicities": {
+      "1": 21,
+      "2": 3,
+      "4": 7
+    },
+    "centres": [
+      8,
+      16,
+      24
+    ],
+    "ordinary": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "five_period_subsets_checked": 63
+  },
+  "eleven_point_component_split_bounds": [
+    27,
+    23,
+    20,
+    18,
+    16,
+    15
+  ],
+  "cube_bounds": {
+    "one_cube": [
+      0,
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      12
+    ],
+    "four_cubes_weights_0_to_5": [
+      0,
+      0,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  "budget": {
+    "budget_baseline": 92,
+    "slack_allocations_checked": 12
+  },
+  "marked_catalogue_candidates": 13,
+  "matching_marked_cases": [
+    {
+      "mask": 8481174,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        23
+      ],
+      "stabilizer": 336,
+      "witness": {
+        "origin": 7,
+        "V": [
+          0,
+          3,
+          5,
+          6,
+          9,
+          10,
+          12,
+          15
+        ],
+        "W": [
+          0,
+          7,
+          16,
+          23
+        ]
+      }
+    },
+    {
+      "mask": 286331166,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "stabilizer": 1008,
+      "witness": {
+        "origin": 0,
+        "V": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28
+        ],
+        "W": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "mask": 2172748182,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        15,
+        16,
+        23,
+        24,
+        31
+      ],
+      "stabilizer": 144,
+      "witness": {
+        "origin": 7,
+        "V": [
+          0,
+          7,
+          8,
+          15,
+          16,
+          23,
+          24,
+          31
+        ],
+        "W": [
+          0,
+          3,
+          5,
+          6
+        ]
+      }
+    }
+  ],
+  "catalogue_sha256": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+  "formalized_in_proof_assistant": false
+}

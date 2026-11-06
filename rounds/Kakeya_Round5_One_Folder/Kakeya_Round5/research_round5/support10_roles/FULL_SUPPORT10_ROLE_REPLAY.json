@@ -1,0 +1,256 @@
+{
+  "status": "PASS_FULL_SUPPORT10_INDEPENDENT_REPLAY",
+  "all_profiles": 102842,
+  "middle_profiles": 102620,
+  "low_maximum_profiles": 222,
+  "bare_role_survivors": 174,
+  "cube_role_survivors": 11,
+  "bare_role_templates": 174,
+  "cube_role_templates": 11,
+  "surviving_rows": [
+    {
+      "weights": [
+        18,
+        17,
+        16,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          18,
+          17,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        18,
+        16,
+        16,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          18,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        17,
+        17,
+        17,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          17,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "weights": [
+        17,
+        17,
+        16,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          17,
+          17,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        17,
+        16,
+        16,
+        8,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          17,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        17,
+        16,
+        16,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          17,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        9,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          16,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        8,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          16,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        16,
+        16,
+        16,
+        7,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6
+      ],
+      "central_triplets": [
+        [
+          16,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "weights": [
+        13,
+        12,
+        12,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "central_triplets": [
+        [
+          13,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "weights": [
+        12,
+        12,
+        12,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "central_triplets": [
+        [
+          12,
+          12,
+          12
+        ]
+      ]
+    }
+  ],
+  "by_maximum": {
+    "10": 15,
+    "11": 207,
+    "12": 1067,
+    "13": 3280,
+    "14": 7268,
+    "15": 12903,
+    "16": 19515,
+    "17": 26262,
+    "18": 32325
+  },
+  "scope": "Independent generating-function count and role-first complete survivor enumeration. Eleven profiles remain for the separately proved rigidity stage; no prior screen is used.",
+  "seconds": 0.054
+}

@@ -1,0 +1,49 @@
+scalar W2^3: 512 cases
+scalar T2^3: 512 cases
+scalar W2^4: 4096 cases
+scalar T2^4: 4096 cases
+scalar W3^3: 2081 cases
+scalar T3^3: 2081 cases
+scalar W3^4: 2243 cases
+scalar T3^4: 2243 cases
+scalar W5^3: 2375 cases
+scalar T5^3: 2375 cases
+scalar W5^4: 3875 cases
+scalar T5^4: 3875 cases
+scalar W7^3: 3029 cases
+scalar T7^3: 3029 cases
+scalar W7^4: 9203 cases
+scalar T7^4: 9203 cases
+vector W2^3: 32 full fibre sets
+vector T2^3: 32 full fibre sets
+vector W2^4: 32 full fibre sets
+vector T2^4: 32 full fibre sets
+vector W3^3: 48 full fibre sets
+vector T3^3: 48 full fibre sets
+vector W3^4: 48 full fibre sets
+vector T3^4: 48 full fibre sets
+vector W5^3: 80 full fibre sets
+vector T5^3: 80 full fibre sets
+vector W5^4: 80 full fibre sets
+vector T5^4: 80 full fibre sets
+vector W7^3: 112 full fibre sets
+vector T7^3: 112 full fibre sets
+vector W7^4: 112 full fibre sets
+vector T7^4: 112 full fibre sets
+census W2^3: complete
+census T2^3: complete
+census W2^4: complete
+census T2^4: complete
+{
+  "receipt": "/tmp/kakeya_v02_verify__rpzi0sq/package/extension/trace/trace_receipt.json",
+  "status": "passed",
+  "totals": {
+    "scalar_cases": 54828,
+    "closed_length3_cases": 15994,
+    "vector_fibre_sets": 1088,
+    "vector_point_incidences": 116032,
+    "census_line_fibre_incidences": 1920,
+    "mismatches": 0
+  },
+  "wall_seconds": 2.613
+}

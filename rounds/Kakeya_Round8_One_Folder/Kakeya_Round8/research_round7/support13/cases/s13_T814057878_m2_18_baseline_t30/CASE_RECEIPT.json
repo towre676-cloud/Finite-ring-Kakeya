@@ -1,0 +1,80 @@
+{
+  "case_id": "s13_T814057878_m2_18_baseline_t30",
+  "status": "TIMEOUT_OR_RESOURCE_UNCERTIFIED",
+  "support": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    11,
+    15,
+    16,
+    18,
+    23,
+    28,
+    29
+  ],
+  "nonzero_support_mask": 814057878,
+  "distinguished_hub": 0,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "total_upper_bound": 93,
+  "ring_scope": "common_necessary_relaxation_both_rings",
+  "encoder": "research_round6/joint_maxima/encode_joint_maxima.py",
+  "semantic_input_hashes": {
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259"
+  },
+  "solver_limit_seconds": 30,
+  "solver_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+  "producer_sha256": "c8a38be609dda40a67d69ddfc7ee1643513d65ebf654223ba6226e81b9d0fd5d",
+  "encoder_soundness_formalized": false,
+  "storage": {
+    "input.cnf": {
+      "logical_path": "input.cnf",
+      "compressed_path": "input.cnf.xz",
+      "raw_sha256": "b14411ba1e1352a6c51f6f1c459721200f83e53e60539ef07484444cb2323d5d",
+      "raw_bytes": 8703613,
+      "xz_sha256": "5546e0ee1b57bd52ed8f59bbd4c5d6848c4cc72a0d71c4bc53d87a5ec3958516",
+      "xz_bytes": 622100,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "b14411ba1e1352a6c51f6f1c459721200f83e53e60539ef07484444cb2323d5d"
+    }
+  },
+  "variables": 45060,
+  "clauses": 397097,
+  "cnf_sha256": "b14411ba1e1352a6c51f6f1c459721200f83e53e60539ef07484444cb2323d5d",
+  "cnf_bytes": 8703613,
+  "encode_seconds": 0.54996,
+  "solver_returncode": 0,
+  "stop_reason": null,
+  "solver_command": [
+    "/tmp/kakeya_lean_round4/lean-4.24.0-linux/bin/cadical",
+    "--no-binary",
+    "--no-witness",
+    "-t",
+    "30",
+    "/tmp/kakeya_r7_s13_814057878_ujif1sur/input.cnf",
+    "/tmp/kakeya_r7_s13_814057878_ujif1sur/proof.drat"
+  ],
+  "solve_seconds": 30.034659,
+  "proof_sha256": "7800e6c91ef62a8067633de13de6b59c8c2c1182e84f7a3462e3c86d4a968bfb",
+  "proof_bytes": 53853837,
+  "discarded_unaccepted_proof": {
+    "sha256": "7800e6c91ef62a8067633de13de6b59c8c2c1182e84f7a3462e3c86d4a968bfb",
+    "bytes": 53853837,
+    "reason": "No mandatory checked refutation; no exclusion credit."
+  },
+  "seconds": 30.912372,
+  "reconstructed_lrat_retained": false,
+  "incomplete_proof_retained": false
+}

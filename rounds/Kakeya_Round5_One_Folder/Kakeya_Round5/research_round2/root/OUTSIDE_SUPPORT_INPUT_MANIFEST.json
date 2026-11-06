@@ -1,0 +1,22 @@
+{
+  "11": {
+    "input_source": "research_round2/geometric/s11_remaining_input.txt",
+    "input_sha256": "ad1bcc89f30e6a8d9f151209100c82f3f7be8fa47034a55e18c451b9af61a487",
+    "spectrum_certificate": "research_round2/geometric/S11_SPECTRUM_CANDIDATES.jsonl",
+    "spectrum_sha256": "6888ae88473be2c2e6d1eacd4160ac97ace0c683325624a869257669e3b64c35",
+    "removed_spectrum_count": 17398,
+    "remaining_count": 33775,
+    "output": "research_round2/root/s11_after_spectrum.txt",
+    "output_sha256": "5c45f2ad46edd9e4d19af1d068429b1f1c44e2cdc4976da6caa1c6852c1a6921"
+  },
+  "12": {
+    "input_source": "research_round2/geometric/s12_remaining_input.txt",
+    "input_sha256": "151d04211142ccc05ec468a0a08a6779c1519e12602d48321410f3b1be4023d3",
+    "spectrum_certificate": "research_round2/geometric/S12_SPECTRUM_CANDIDATES.jsonl",
+    "spectrum_sha256": "44acb3fc25c99023219ef8209c63553590de827e4963588476eeb751ab81c715",
+    "removed_spectrum_count": 5297,
+    "remaining_count": 12735,
+    "output": "research_round2/root/s12_after_spectrum.txt",
+    "output_sha256": "ebeb09736d626fd5ed30d6f527b331d5b5137996fce2c380d1e5cde9e1000afb"
+  }
+}

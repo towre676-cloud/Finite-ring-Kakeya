@@ -1,0 +1,15 @@
+'KakeyaRound5.encode_injective' depends on axioms: [propext]
+'KakeyaRound5.encode_lt_four' does not depend on any axioms
+'KakeyaRound5.z4_add_encoding' does not depend on any axioms
+'KakeyaRound5.z4_mul_encoding' does not depend on any axioms
+'KakeyaRound5.z4_line_encoding' does not depend on any axioms
+'KakeyaRound5.coordinate_corners' does not depend on any axioms
+'KakeyaRound5.linePoint_zero' depends on axioms: [Quot.sound]
+'KakeyaRound5.linePoint_nilpotent' depends on axioms: [Quot.sound]
+'KakeyaRound5.linePoint_one' depends on axioms: [Quot.sound]
+'KakeyaRound5.linePoint_one_add_nilpotent' depends on axioms: [Quot.sound]
+'KakeyaRound5.lineContained_iff_two_pairs' depends on axioms: [Quot.sound]
+'KakeyaRound5.vxor_eq_self_forces_zero' depends on axioms: [propext, Quot.sound]
+'KakeyaRound5.primitive_pair_distinct' depends on axioms: [propext, Quot.sound]
+'KakeyaRound5.endpoint_involution' depends on axioms: [propext, Quot.sound]
+'KakeyaRound5.line_exists_iff_pair_sum' depends on axioms: [propext, Quot.sound]

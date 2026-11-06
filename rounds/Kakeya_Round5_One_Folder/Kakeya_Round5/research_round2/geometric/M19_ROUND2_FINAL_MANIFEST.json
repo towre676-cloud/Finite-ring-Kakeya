@@ -1,0 +1,263 @@
+{
+  "title": "M19 common-fibre compatibility round2",
+  "scope": "Selected size93, maximum19 weight/own-direction profile lists; every exclusion is uniform over support placement and fibre shape for both rings",
+  "unrestricted_dimension5_closed": false,
+  "maximum19_closed": false,
+  "stages": [
+    {
+      "name": "full_pair_spectra",
+      "supports": {
+        "11": {
+          "new_exclusions": 17398,
+          "remaining": 33775,
+          "certificate": {
+            "path": "research_round2/geometric/S11_SPECTRUM_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 5176426,
+            "sha256": "88dc525650c1a00e949b55cb1f206e84c945c2479bfd3147007357e429550527"
+          }
+        },
+        "12": {
+          "new_exclusions": 5297,
+          "remaining": 12735,
+          "certificate": {
+            "path": "research_round2/geometric/S12_SPECTRUM_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 1596104,
+            "sha256": "b97286ff73e3e5ddfd9674a5db359398a51aea49acd562754d89251a3a12f4ca"
+          }
+        }
+      },
+      "total_exclusions": 22695,
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_SPECTRUM_STAGE.json",
+        "bytes": 341905,
+        "sha256": "1f440fceb36fb2ac65d3edbf461963f00d9b9a2cf2a7f9c8eb269c47634627e8",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "outside_support_pair_budget",
+      "supports": {
+        "11": {
+          "new_exclusions": 1437,
+          "remaining": 32338,
+          "certificate": {
+            "path": "research_round2/root/S11_OUTSIDE_SUPPORT_CANDIDATES.jsonl",
+            "bytes": 254505,
+            "sha256": "77ce6311726b96d93b1b8d2d218219079de39a43d9755d5578543f85c756b3f8"
+          }
+        },
+        "12": {
+          "new_exclusions": 22,
+          "remaining": 12713,
+          "certificate": {
+            "path": "research_round2/root/S12_OUTSIDE_SUPPORT_CANDIDATES.jsonl",
+            "bytes": 3832,
+            "sha256": "2fbdfcc9152236214634a28e4f8e1bede9e446b5f763110ce16d5ffd4ff71bb5"
+          }
+        }
+      },
+      "total_exclusions": 1459,
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_OUTSIDE_SUPPORT_STAGE.json",
+        "bytes": 35205,
+        "sha256": "de5f46d8aa0176662ec8932233c42c27fd74864b9238553d5b6f38f7c3f0f198",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "paired_direction_blocks",
+      "supports": {
+        "11": {
+          "new_exclusions": 5918,
+          "remaining": 26420,
+          "certificate": {
+            "path": "research_round2/geometric/S11_PAIRED_BLOCK_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 1720424,
+            "sha256": "a8d0e2160ff78b73b3331afa3d4dd06d282af2b3d753207aca2ce0fd8de0c08a"
+          }
+        },
+        "12": {
+          "new_exclusions": 1254,
+          "remaining": 11459,
+          "certificate": {
+            "path": "research_round2/geometric/S12_PAIRED_BLOCK_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 371481,
+            "sha256": "bfd44bc38f26fc1201ba1ad9d867363ad5ca94942a7da702220d82421c1ea1e5"
+          }
+        }
+      },
+      "total_exclusions": 7172,
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_PAIRED_BLOCK_STAGE.json",
+        "bytes": 109827,
+        "sha256": "4495a530052eb5a20b2f76c6e6792147cbbf28bf295346ec4434dea08973d6db",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "hub_inclusive_spectra",
+      "supports": {
+        "11": {
+          "new_exclusions": 5039,
+          "remaining": 21381,
+          "certificate": {
+            "path": "research_round2/geometric/S11_HUB_COUPLED_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 1488756,
+            "sha256": "c9ce5ff3e8003add11b0901ad82b7a85091f5badd3fe9366354eb2dfdb68deba"
+          }
+        },
+        "12": {
+          "new_exclusions": 2344,
+          "remaining": 9115,
+          "certificate": {
+            "path": "research_round2/geometric/S12_HUB_COUPLED_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 702636,
+            "sha256": "ad8157ac27c125d606e2a5f546e384edc6abc4c535d486d652a3c1319ab36dbf"
+          }
+        }
+      },
+      "total_exclusions": 7383,
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_HUB_COUPLED_STAGE.json",
+        "bytes": 116834,
+        "sha256": "522e3a8cbe689485081229eff0e8dacafc2fd043fd13a82591131da753d95345",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "actual_support_degrees",
+      "supports": {
+        "11": {
+          "new_exclusions": 25,
+          "remaining": 21356,
+          "certificate": {
+            "path": "research_round2/geometric/S11_DEGREE_BLOCK_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 31079,
+            "sha256": "ab19e0e71760bc954fbace162322a6cc7e58acc1c16ec0b5ffc06d260a51dc4c"
+          }
+        },
+        "12": {
+          "new_exclusions": 0,
+          "remaining": 9115,
+          "certificate": {
+            "path": "research_round2/geometric/S12_DEGREE_BLOCK_VERIFIED_CERTIFICATES.jsonl",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        }
+      },
+      "total_exclusions": 25,
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_DEGREE_BLOCK_STAGE.json",
+        "bytes": 1285,
+        "sha256": "db034b3ccf540b860c2302618e6584074605f92c096e33f4da37fb85f807778f",
+        "status": "PASS"
+      }
+    }
+  ],
+  "supports": {
+    "11": {
+      "initial_profiles": 51173,
+      "new_exclusions": 29817,
+      "remaining_profiles": 21356,
+      "initial_input": {
+        "path": "research_round2/geometric/s11_remaining_input.txt",
+        "bytes": 2721709,
+        "sha256": "ad1bcc89f30e6a8d9f151209100c82f3f7be8fa47034a55e18c451b9af61a487"
+      },
+      "final_survivors": {
+        "path": "research_round2/geometric/s11_final_round2_survivors.txt",
+        "bytes": 1101199,
+        "sha256": "4e14cf660d35d8823d03893cc5fe2ed8a2de80e74a18d3df2e62d4558be79fff"
+      }
+    },
+    "12": {
+      "initial_profiles": 18032,
+      "new_exclusions": 8917,
+      "remaining_profiles": 9115,
+      "initial_input": {
+        "path": "research_round2/geometric/s12_remaining_input.txt",
+        "bytes": 984614,
+        "sha256": "151d04211142ccc05ec468a0a08a6779c1519e12602d48321410f3b1be4023d3"
+      },
+      "final_survivors": {
+        "path": "research_round2/geometric/s12_final_round2_survivors.txt",
+        "bytes": 482381,
+        "sha256": "b1f0dc9420e639e4a102a5682bb91a97443d20d9b5e6166d31f6642349128dcc"
+      }
+    }
+  },
+  "complete_censuses": {
+    "full_pair_spectra": {
+      "data": {
+        "path": "research_round2/geometric/PAIR_SPECTRUM_CENSUS.json",
+        "bytes": 13596,
+        "sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35"
+      },
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_PAIR_SPECTRUM_CENSUS.json",
+        "bytes": 1704,
+        "sha256": "32a5ba93a836e5cf23f04227a6f7086c5affdeb7a7a90913b125825a0f0006a8"
+      }
+    },
+    "paired_direction_blocks": {
+      "data": {
+        "path": "research_round2/geometric/PAIRED_BLOCK_MAXIMUM_CENSUS.json",
+        "bytes": 376408,
+        "sha256": "bbdc62428dc4b75eac1d2bae416ffe777041de02ad48eea3e50e0a0793d537be"
+      },
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_BLOCK_CENSUS.json",
+        "bytes": 1397,
+        "sha256": "1dda599b72e4e396923ab7883fd835d070019d951b8734797d862df7a4f47cad"
+      }
+    },
+    "support_degree_patterns": {
+      "data": {
+        "path": "research_round2/geometric/OUTSIDE_SUPPORT_DEGREE_PATTERNS.json",
+        "bytes": 354627,
+        "sha256": "7ca8ecbc1b2b10a9b42830d19b75bc33723bac08766b79261a4aebc56fee431c"
+      },
+      "root_review": {
+        "path": "research_round2/root/ROOT_VERIFIED_DEGREE_CENSUS.json",
+        "bytes": 5538,
+        "sha256": "a49621efb90b5d8a47c514a75ed9ce6b3b292eaf037fd78e6921c7d456ce414a"
+      }
+    }
+  },
+  "proofs": [
+    {
+      "path": "research_round2/geometric/FULL_PAIR_SPECTRUM_RESOURCE_PROOF.md",
+      "bytes": 6985,
+      "sha256": "f90075cdd4340f320bd15861b453e62dafefa9effcbd3b24656e734c93817552"
+    },
+    {
+      "path": "research_round2/geometric/PAIRED_BLOCK_RESOURCE_PROOF.md",
+      "bytes": 5148,
+      "sha256": "94e0c0cd383279c11298ecf005d1bf87a7d055fa68e0f1a38f2d6792a58f4876"
+    },
+    {
+      "path": "research_round2/geometric/PROFILE2_ANALYTIC_BLOCK_EXCLUSION.md",
+      "bytes": 3005,
+      "sha256": "dbfa69dc1230320113628ae9714155fe629bf094f831ea34290b33590b0e13ef"
+    },
+    {
+      "path": "research_round2/geometric/HUB_COUPLED_RESOURCE_PROOF.md",
+      "bytes": 3863,
+      "sha256": "4e879c85dd3d5debe9709ed948abfa75b5bfadd165c06a526335e33f98523c8e"
+    },
+    {
+      "path": "research_round2/geometric/DEGREE_BLOCK_RESOURCE_PROOF.md",
+      "bytes": 4315,
+      "sha256": "3183a69993190a323de603af66598fcc6f61195552cb4b6622c6dcf98f67f11a"
+    },
+    {
+      "path": "research_round2/geometric/M19_NEXT_FRONTIER.md",
+      "bytes": 4016,
+      "sha256": "1a5aac9927b09bb9a4f9b3479db086668a47ba3e6a492384a85e427478deffac"
+    }
+  ],
+  "total_new_exclusions": 38734,
+  "total_remaining_selected_profiles": 30471,
+  "status": "ROOT_VERIFIED"
+}

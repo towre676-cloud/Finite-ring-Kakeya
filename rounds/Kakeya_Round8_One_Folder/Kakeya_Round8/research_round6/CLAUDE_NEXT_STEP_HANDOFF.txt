@@ -1,0 +1,85 @@
+Round6 handoff to the other session (draft; not automatically sent)
+================================================================
+
+Your actual Round4 handoff has been ingested and audited. Its source
+archive SHA256 is bb726afe20324c05ae337b3ad00d1d9bfa67136c5067f3b10bff619b77622505.
+The current encoder and data are now present here. The archive contains
+historical hashes and logs but no old CNFs/DRATs; we therefore regenerated
+all38 maximum19 cases using the exact packaged encode_cnf2.py revision.
+
+ALL38 maximum19 cases passed DRAT-trim -> LRAT -> pinned upstream CakeML.
+All38 then passed a separate compressed-only replay with byte-identical
+CNF regeneration, every hash checked, and the exact13+25 support contract.
+The unavailable older-encoder equivalence claim is no longer needed.
+The inherited support11/12 reduction still closes the overall M19 stratum.
+The new SAT instances impose no outer-weight14 cap and allow tied maxima.
+
+NEW: ALL38 marked support11/12 cases are also excluded for every maximum
+2..18 simultaneously. A joint encoder permits a variable largest fibre,
+counts the hub inside total93, and constrains outer weights not to exceed
+the selected hub weight. There is a detailed one-way assignment proof.
+All38 direct LRAT certificates passed CakeML and final inventory/hash gates.
+
+Consequently support11 and12 are closed for all maxima<=19. Together
+with inherited max>=20 and Round5 support<=10 exclusions, any remaining
+counterexample has support>=13. Redirect further middle-maxima searches
+to supports13 and above. Do not recertify already covered support10..12
+cases unless removing a stated inherited dependency is your explicit aim.
+
+Middle weight ledger:270,779 ->186,482 after84,297 whole-profile cuts.
+There are34 remaining cells. Maximum11 retains46 affine support classes.
+Weight profiles, affine support classes, marked cases, and solver jobs
+remain separate counting units.
+
+The support13 marked case Tmask37848950, S={0,1,2,4,5,6,8,9,10,15,16,22,25},
+largest fibre at0, is also excluded for max2..18. Two formula variants
+have checked certificates for that ONE case. Tmask1022358 timed out in
+both variants at60 seconds and remains uncertified in this diagnostic.
+
+New analytic result: S=V union W, dimV3,dimW2,V direct-sum W=F2^5,
+forces94 points without any maximum-fibre assumption. The proof goes
+through local graph bounds, baseline3*16+7*6+2=92, and forced four-flats.
+It covers marked support11 masks8481174,286331166,2172748182.
+
+New general fibre theorem: let K={0} union maximal-pair directions.
+For nonzero d,e with d+e in K, p_A(d)=p_A(e), and K is inside the affine
+direction space H. If |A| is odd and K nontrivial, A differs by one point
+from a K-periodic set. The proof uses sum_C t_C(|K|-t_C)=|K|-1.
+An optional encoder implements coset constancy and K subset H using
+membership variables. It is sound, but paired S13 diagnostics showed no
+search-speed benefit. Keep the baseline joint encoder as default; use
+the extra constraints selectively on branches with nontrivial periods.
+
+Best next attack: complete the55 hub-marked support13 classes with the
+joint-maxima formulation, splitting hard cases by hub spectrum or small
+weight intervals with an explicitly complete split manifest. Prioritize
+small proof cores and preserve exact CNF/parameter hashes. The all-support
+M19 exploratory sweep is now a dependency-removal project, while the main
+94-point bound remains in maxima11..18 on supports13..17 (max18<=16).
+
+Additional proved cuts for the next attack are in next_frontier/
+DENSE_FIBRE_COMPLEMENT_LEMMAS.md. For A in an affine four-flat, with
+complement B, p_A(d)=|A|-8+p_B(d) on nonzero directions in the flat.
+The weight-12 energy-294 type has six five-pair directions spanning a
+three-space with exactly one four-pair direction. The weight-11
+energy-205 type has five three-pair directions forming a binary
+five-circuit. Both have trivial maximal-pair subspace, so these labelled
+constraints address types untouched by nontrivial-period equalities.
+All 6,188 complements were checked. The necessary clause schemas are
+proved, but have not yet been added to the SAT encoder or benchmarked;
+no additional exclusion is credited to them.
+
+Read research_round6/encoder_audit/ONE_WAY_SOUNDNESS_AUDIT.md for the exact
+semantic argument and research_round6/structural_progress for the hand
+proofs. The root VERIFY_ROUND6.py replays actual delivered certificates
+without installing a SAT solver. Full encoder/geometry formalization
+remains separate work; CakeML acceptance alone does not prove semantics.
+
+An exact structured alternative to the individual forbidding clauses is
+now derived in next_frontier/DENSE_TYPE_ENCODING_DESIGN.txt. The weight-12
+energy-294 profile is encoded by a three-space J inside H and a missing
+nonzero u in J. The weight-11 energy-205 profile is encoded by five distinct
+nonzero vectors in H with XOR zero, ordered to remove their permutation
+symmetry. Constructive converses prove local profile sufficiency as well
+as necessity. These are implementation designs, not yet implemented or
+benchmarked; the ledger is unchanged.

@@ -1,0 +1,79 @@
+ROOT MATHEMATICAL REVIEW
+
+FULL-HUB THEOREMS
+The proofs in structural/FULL_HUB_SMALL_OUTER_FIBRES.md have been read and
+checked independently. The defect budget B<=2z-delta is exact up to discarded
+singleton mass. AM-GM on each missing-central-direction matching gives the
+stated Nz energy requirement. The table for weights2..7 is valid in every
+binary vector space; the six-point parity observation uses p^2=p mod2.
+The odd-cost correction proves N<=15 for a strict subthreshold set with
+outer cap6. For outer cap7, the 62/5 coefficient and restricted3-direction
+table exclude all remaining lower-bound and equality cases for N>=32.
+The z=1 equality case is checked separately: the unique four-point fibre
+cannot repair the absent central direction and retain another direction.
+No assumption that an arbitrary Kakeya set has a full fibre is made.
+Result: PASS.
+
+OUTSIDE-SUPPORT BUDGET
+The coset-pair enumeration (2,2),(1,1),(1,0) proves the exact upper bound
+C(w,2)-t(w-t). Multiple pairs of quotient cosets in one direction block
+are safely combined using max(sum x,sum y)<=sum max(x,y). Effective edge
+counts are set to zero for edges not serving an outside-support direction;
+therefore the heavy/light resource bound applies to a subgraph with these
+budgets. Pair-active support is sufficient; singleton fibres carry no pair.
+Result: PASS, also independently checked by structural_theorems.
+
+HALFSPACE ENERGIES THROUGH18
+The arbitrary-dimensional augmented-matrix kernel argument for nonflat
+8-sets, and the9-point nearperiod classification, were checked. Mixed energy
+Cauchy-Schwarz plus its mod4 congruence gives h13=222. The split arguments
+give h14..18=301,392,512,520,561. All attainment constructions have the
+specified energies. This review concerns the version through18; any later
+extension has a separate proof and controls.
+Result: PASS.
+
+PROFILE B / EXTREMAL8-POINT RESIDUE GEOMETRY
+The plane-existence code argument uses3 nonzero codewords of total weight
+at most16. Equality in25 distinct differences leaves exactlyone plane;
+its outside cosets form a sumfree4-set in F2^3. The resulting normal form
+U union {c,d,e,h+c+d+e} has h nonzero. Its missing6 directions are exactly
+{b,b+h}+{c+d,c+e,d+e}, which lie in ell=1. The demand16<=4m_d+2q_d allows
+m_d=3 only at one of the two heavy-hub edges to the size5 or size4 low
+fibres. Thus at least4r-2 low pairs are required; total25 forcesr6 and the
+halfspace bound gives19<22. The argument excludes all residue placements.
+Result: PASS, with independent normalized-support controls in the companion
+script and receipt.
+
+HALFSPACE ENERGIES19 AND20
+Reviewed STABILITY_AND_HALFSPACE_ENERGY_THROUGH_TWENTY.md. The rank/complement
+bounds give nonstructured E9<=465 and exact E10<=712. The structured mixed
+energy formula q+sum[8(x^2+y^2)+4xy] and the piecewise maximumg(n) are correct;
+g is superadditive for total<=11. Every split comparison, including
+344*1464=503616<712^2=506944, is exact. h19=618 and h20=712 are attained by
+the displayed initial segments. The direct controls were rerun successfully.
+Result: PASS.
+
+SUPPORT-18 PROFILE C
+The ten-heavy deletion identity |D(T\{a})|=|D(T)|-u(a) is exact. The nine-point
+28-difference bound forcesu(a)>=max(0,3-r). Unique heavy edges with one small
+(cap3) heavy endpoint require>=1 light pair; those with two require>=2.
+Adding the disjoint missing-direction cost gives4r+3max(0,3-r)>=9, while
+the eight two-point fibres supply8. No orientation, carry or shared-edge
+double count is omitted. Direct normalized-ten-support controls also pass.
+Result: PASS.
+
+FINAL M11 SUPPORT18 EXTENSION
+Reviewed M11_SUPPORT_AT_MOST_SEVENTEEN.md and the composed backward verifier.
+The extremal8-set normal form gives at most3 heavy neighbors throughF for
+any residue: quotient by<h> yields two doubledclasses0,b andfour oddclasses;
+translates ofb+E see at mostone doubledclass or3 oddclasses. AtQ24 all six
+missing directions have m_d4. An inactive positive low count permits at
+most15capacity; an active low-low edge permits at most11. Thus eachpositive
+low pair count requiresaheavy partner. Seven-pointlowfibres need12pairs
+acrossatleast4directions, while six-pointlowfibresneed9andany3directions
+supplyatmost7. This excludes A/B/D/E. C has the separately audited8<9
+unique-edge proof. The exhaustive replayer accounts for121336partitions,
+121147resourcecuts and189geometrycuts, and maps73newwholeclasses, leaving57.
+Root's fresh replay passed. All five displayed boundary arrays were checked
+to have18 entries and total93. No support17 closure is claimed.
+Result: PASS.

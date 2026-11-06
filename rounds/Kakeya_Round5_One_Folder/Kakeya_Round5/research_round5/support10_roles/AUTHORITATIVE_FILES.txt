@@ -1,0 +1,9 @@
+SUPPORT10_ROLE_PROOF.md
+discover_support10_roles.py
+verify_support10_roles.py
+SUPPORT10_STRUCTURAL_CENSUS.json
+SUPPORT10_ROLE_CUTS.jsonl
+SUPPORT10_ROLE_SURVIVORS.json
+after_support10_roles_survivors.txt
+SUPPORT10_ROLE_PRODUCER.json
+SUPPORT10_ROLE_INDEPENDENT_REPLAY.json

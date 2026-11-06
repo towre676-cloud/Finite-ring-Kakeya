@@ -1,0 +1,110 @@
+THE NEXT ATTACK AFTER ROUND7
+===========================
+
+Decision
+--------
+The best direction is to combine exact edge geometry with systematic
+heavy/light prices. This route has already produced a theorem in dimension3
+and 3,006 universal profile exclusions in dimension 5. Plain longer runs of
+the same loose relaxation are no longer the main mathematical plan.
+
+1. Close a complete, small frontier slice
+----------------------------------------
+For maximum 11 and support 13, only four marked largest-fibre placements
+remain in the inherited frontier:
+
+    class109:377850134
+    class111:411136406
+    class110:671697334 and2185856310
+
+One proof at either of the first two masks closes a whole additional affine
+class. Class 105 is already closed. The current 45-second tetrahedron-cut
+tests did not close either target. At 411136406 the unique-edge wrapper
+adds nothing, so merely rerunning that wrapper longer has no new geometric
+justification.
+
+The immediate strengthening is the proven cardinality constraint that at
+least eight fibres have weight>=4. For maximum<=13, the new h=8 corollary
+strengthens this to at least nine heavy fibres. That is especially relevant
+to maximum 11. Add the cardinality row to the exact new formula and preserve
+its one-way mathematical argument. Then use the tetrahedral capacity<=14
+on all applicable edges, not only directions with one residue edge. This
+requires an explicit edge-capacity interface; attaching the cut to guessed
+auxiliary variable numbers would be unsound engineering.
+
+These modifications have mathematical justification but no credited new
+UNSAT result in this checkpoint. A future completed refutation must bind
+to the exact strengthened formula and pass the mandatory checker.
+
+2. Strengthen the dual where it is still lossy
+---------------------------------------------
+For a selected heavy residue setH, remove its internal direction setD(H).
+Every remaining edge touches a light fibre. With light ceilingell,
+t=floor(ell/2), and integer priceu>=t, define
+
+    g(p)=max(0, max_{1<=q<=t}(2B(p,q)-u*q)).
+
+For the present certificates t<=3, and the elementary capacities are
+
+    B(p,1)=p,
+    B(p,2)=min(2p,16),
+    B(p,3)=min(3p,p+8,16).
+
+IfG_w is the largest sum_d g(p_A(d)) among actual weightw spectra, then
+every configuration satisfies
+
+    32*(31-|D(H)|)
+       <=u*sum_light C(w,2)+sum_heavy G_w.
+
+The 3,006 accepted certificates use the coarser universal bound
+|D(H)|<=C(|H|,2). Optional promotion of a nominally light fibre toH improves
+six certificates; the exact heavy positions are stored, so replay does
+not trust the optimization method. All arithmetic is integer.
+
+The next substantial improvement should use the ACTUAL D(H) for each
+support placement and the actual directions left outsideD(H). The current
+right side pays for all heavy directions, including those never charged.
+Removing that waste while enforcing one consistent direction space and
+period structure should strengthen the bound much more than changing a
+single scalar coefficient. Weight-dependent or direction-dependent prices
+can be found by an LP, then cleared to integers and checked exactly.
+
+The sharp symbolic bounds |D(H)|<=25 for eight heavy residues and<=28 for
+nine are ready. They produced no additional profiles in the current scalar
+screen; retain that negative result. Their main value may emerge when
+coupled to actual support geometry and restricted directional resources.
+
+3. Use exact models selectively
+-------------------------------
+Two exact-shape/point encodings now exist. The common-ring exact-shape model
+uses real pair sets and actual edge sumset cardinalities but relaxes overlaps
+between different edges. Independent fibre translations preserve those
+cardinalities, so that relaxation may normalize each fibre separately.
+
+The ring-specific exact-point model requires actual coverage of every lift.
+It must use the correct carry and one COMMON affine tangent shear. The
+arbitrary-dimensional preservation of line coverage under that common shear
+has been compiled and axiom-audited in Lean. Do not import the independent
+translation normalization from the cardinality relaxation into this model.
+
+The exact-point route completed dimension 2 and 3, and 14 of 56 dimension 4 cases.
+It did not settle the harder dimension 5 trial. The right use is to verify
+small complete slices or geometrically narrowed instances, while the dual
+and compatibility lemmas remove broad families beforehand.
+
+4. Convert the new mathematics into a smaller trusted core
+----------------------------------------------------------
+The complete elementary dimension 3 proof is now a practical formalization
+target. The next Lean bridge for dimension 5 is the geometric construction
+of the injective endpoint-direction charges and the count of directions
+outsideD(H). The abstract summation and strict-gap contradiction already
+compile in ChargingDual.lean. Spectrum completeness and Python-to-CNF
+faithfulness remain separate obligations.
+
+Success criteria
+----------------
+A whole support slice is closed only when every required marked role and
+maximum interval is covered. A whole weight profile is removed only by a
+universal certificate or complete coverage of every placement. A timeout
+does not reduce either count. The exact 22-point theorem is complete;
+46 in dimension 4,94 in dimension 5, and the general formula remain open.

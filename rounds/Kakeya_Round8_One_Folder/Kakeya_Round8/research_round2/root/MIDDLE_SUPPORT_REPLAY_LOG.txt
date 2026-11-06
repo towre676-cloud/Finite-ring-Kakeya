@@ -1,0 +1,15 @@
+{"support_finished": 32, "boundary_seen": 0, "seconds": 0.2755279929988319}
+{"support_finished": 31, "boundary_seen": 0, "seconds": 0.373125837999396}
+{"support_finished": 30, "boundary_seen": 0, "seconds": 0.5215798509962042}
+{"support_finished": 29, "boundary_seen": 0, "seconds": 0.7309761930009699}
+{"support_finished": 28, "boundary_seen": 0, "seconds": 1.041287239997473}
+{"support_finished": 27, "boundary_seen": 0, "seconds": 1.4741010470024776}
+{"support_finished": 26, "boundary_seen": 0, "seconds": 2.0843998229975114}
+{"support_finished": 25, "boundary_seen": 0, "seconds": 2.96403733400075}
+{"support_finished": 24, "boundary_seen": 0, "seconds": 4.169875006002258}
+{"support_finished": 23, "boundary_seen": 0, "seconds": 5.837901102000615}
+{"support_finished": 22, "boundary_seen": 0, "seconds": 8.065124608001497}
+{"support_finished": 21, "boundary_seen": 0, "seconds": 11.102810431999387}
+{"support_finished": 20, "boundary_seen": 3, "seconds": 15.199180342002364}
+{"support_finished": 19, "boundary_seen": 55, "seconds": 23.065849564001837}
+{"status": "PASS_COMPLETE_MIDDLE_MAXIMA_SUPPORT_REDUCTION", "partitions": 747922, "methods": {"global_pair_mass_and_maximum_direction_quota": 747867, "missing_directions_light_ports": 31, "exact_spectrum_matching": 19, "six_missing_directions_halfspace_obstruction": 1, "three_missing_directions_triangle_obstruction": 1, "unique_cap6_hub_savings": 3}, "remaining": 0, "seconds": 23.10958136100089}

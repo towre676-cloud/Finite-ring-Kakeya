@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "input_profiles": 276267,
+  "new_whole_profile_exclusions": 512,
+  "remaining_weight_profiles": 275755,
+  "light_endpoint_rows_recomputed": 2726,
+  "local_row_keys": 9003,
+  "new_empty_weight_cells": [
+    {
+      "support": 17,
+      "maximum": 18
+    }
+  ],
+  "seconds": 3.487037885999598
+}

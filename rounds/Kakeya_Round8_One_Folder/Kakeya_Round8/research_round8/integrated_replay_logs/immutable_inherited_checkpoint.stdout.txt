@@ -1,0 +1,11 @@
+{
+  "status": "PASS_IMMUTABLE_INHERITED_CHECKPOINT_BINDING",
+  "route": "SEALED_ROUND7_ARCHIVE",
+  "payload_files": 4958,
+  "payload_bytes": 1051319972,
+  "manifest_sha256": "7646c5f0c2664a9206666cdbf1ff9ae7b920af0badeb952c3ae0aa00e19d9ae9",
+  "source_archive_sha256": "f935db84b72b7561403017c7c436995a96b291959650fc478a88d3b27d14759d",
+  "fresh_inherited_proof_replay": false,
+  "meaning": "All inherited bytes are bound to the prior completed checkpoint; no old producer or checker was rerun.",
+  "seconds": 2.278656
+}

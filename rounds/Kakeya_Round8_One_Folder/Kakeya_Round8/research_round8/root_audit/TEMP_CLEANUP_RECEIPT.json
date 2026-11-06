@@ -1,0 +1,43 @@
+{
+  "status": "REMOVED_REPRODUCIBLE_COMPLETED_TEMPORARIES",
+  "items": [
+    {
+      "temporary_directory": "/tmp/kakeya_round3_portable_9vcl7g_t",
+      "files": 428,
+      "bytes": 199862152,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    },
+    {
+      "temporary_directory": "/tmp/kakeya_round4_portable_b_f2kimv",
+      "files": 490,
+      "bytes": 263633442,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    },
+    {
+      "temporary_directory": "/tmp/kakeya_round5_portable_20261028",
+      "files": 680,
+      "bytes": 317144044,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    },
+    {
+      "temporary_directory": "/tmp/kakeya_round6_core",
+      "files": 12,
+      "bytes": 554610503,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    },
+    {
+      "temporary_directory": "/tmp/kakeya_round6_compact",
+      "files": 13,
+      "bytes": 496326139,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    },
+    {
+      "temporary_directory": "/tmp/kakeya_s13_core_162mrakn",
+      "files": 5,
+      "bytes": 94741945,
+      "reason": "Completed historical portable extraction or proof-compaction pilot; reproducible from preserved sources and archives; no active dependency observed."
+    }
+  ],
+  "remaining_free_bytes": 3978760192,
+  "preserved": "All workspace proofs, all sealed archives, active Round8 work, and pinned proof/Lean tools."
+}

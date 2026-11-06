@@ -1,0 +1,6 @@
+{
+  "status": "RESOLVED_STORAGE_SETUP_ERROR",
+  "first_attempt": "Publication of completed compressed formula raised EXDEV despite equal st_dev. No mathematical result was credited. The empty destination was removed.",
+  "fix": "Copy completed immutable files when rename crosses mounts; verify destination SHA256 before deleting temporary source.",
+  "existing_certificates_modified": false
+}

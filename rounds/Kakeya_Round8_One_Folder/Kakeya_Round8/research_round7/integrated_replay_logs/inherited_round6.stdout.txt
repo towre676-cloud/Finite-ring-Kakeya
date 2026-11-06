@@ -1,0 +1,28 @@
+[1/11] inherited_round5_finite_components
+  PASS (16.52s)
+[2/11] imported_data_and_complete_catalogue
+  PASS (32.38s)
+[3/11] encoder_auxiliaries_and_fibre_lemmas
+  PASS (1.45s)
+[4/11] optional_coset_encoder_soundness_controls
+  PASS (7.60s)
+[5/11] unrestricted_support11_subspace_geometry
+  PASS (0.06s)
+[6/11] additional_local_graph_restrictions
+  PASS (0.22s)
+[7/11] dense_fibre_complement_geometry
+  PASS (0.43s)
+[8/11] maximum19_exact_formulas_and_compact_certificates
+  PASS (4.76s)
+[9/11] joint_maxima_exact_formulas_and_compact_certificates
+  PASS (3.99s)
+[10/11] support13_completed_certificates_and_timeout_accounting
+  PASS (8.15s)
+[11/11] exact_frontier_subtraction
+  PASS (0.82s)
+{
+  "status": "PASS_QUICK_ROUND6_REPLAY_MAIN_CERTIFICATE_SAMPLES_ONLY",
+  "completed_stages": 11,
+  "full_main_certificate_replay": false,
+  "seconds": 76.394569
+}

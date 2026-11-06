@@ -1,0 +1,142 @@
+{
+  "status": "PASS_COLLECTION_COVERAGE_AND_TRANSPORT_CONTROLS",
+  "controls": [
+    {
+      "name": "empty_collection",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 0
+    },
+    {
+      "name": "one_joint_case_is_not_a_full_support_exclusion",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 1
+    },
+    {
+      "name": "one_missing_marked_case_keeps_every_cell_open",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 54
+    },
+    {
+      "name": "all55_at18_closes_only18",
+      "status": "PASS",
+      "checked_closed_cells": [
+        18
+      ],
+      "checked_joint_marked_cases": 0
+    },
+    {
+      "name": "complete_upper_band_closes_only17_and18",
+      "status": "PASS",
+      "checked_closed_cells": [
+        17,
+        18
+      ],
+      "checked_joint_marked_cases": 0
+    },
+    {
+      "name": "exhaustive_split_is_complete",
+      "status": "PASS",
+      "checked_closed_cells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "checked_joint_marked_cases": 55
+    },
+    {
+      "name": "one_missing_middle_branch_preserves_two_open_cells",
+      "status": "PASS",
+      "checked_closed_cells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18
+      ],
+      "checked_joint_marked_cases": 54
+    },
+    {
+      "name": "duplicate_proofs_do_not_fill_a_missing_case",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 54
+    },
+    {
+      "name": "all55_joint_cases_close_the_support",
+      "status": "PASS",
+      "checked_closed_cells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "checked_joint_marked_cases": 55
+    },
+    {
+      "name": "fourteen_m11_roles_do_not_pretend_to_be_fiftyfive_new_proofs",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 0
+    },
+    {
+      "name": "one_whole_previously_open_m11_class_is_one_class",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 0
+    },
+    {
+      "name": "one_missing_hub_role_prevents_that_m11_class_closure",
+      "status": "PASS",
+      "checked_closed_cells": [],
+      "checked_joint_marked_cases": 0
+    }
+  ],
+  "control_count": 12,
+  "marked_catalogue_cases": 55,
+  "unmarked_groups": 13,
+  "all_hub_transports_independently_rechecked": 169,
+  "catalogue_sha256": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+  "geometry_map_sha256": "82947e90078689b065fc56fc9f19ad682541c110e7808fa24ba464c72e4e3600",
+  "certificate_exclusions_proved_by_synthetic_controls": 0,
+  "seconds": 0.049566
+}

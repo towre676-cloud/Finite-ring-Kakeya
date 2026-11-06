@@ -1,0 +1,388 @@
+{
+  "status": "PRODUCED",
+  "counts": {
+    "survives": 276267,
+    "excluded": 524
+  },
+  "records": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 178
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 332
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 528
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 581
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 615
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 554
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 432
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 1600
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 2488
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 3739
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 4029
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 5153
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 4395
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 3304
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 5249
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 7224
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 10044
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 9994
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 12242
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 9547
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 6748
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "status": "excluded",
+      "profiles": 3
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 10239
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 12058
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 15668
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 13670
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 16306
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 11192
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 6942
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "status": "excluded",
+      "profiles": 109
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 12886
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "status": "excluded",
+      "profiles": 2
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 11691
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 15433
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 10862
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 14065
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 7454
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 3628
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "status": "excluded",
+      "profiles": 214
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 5397
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "status": "excluded",
+      "profiles": 1
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 3009
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 4211
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 2196
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 4127
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 1241
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 403
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "status": "excluded",
+      "profiles": 148
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 1265
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 516
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 782
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 381
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 929
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 221
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 56
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "status": "excluded",
+      "profiles": 47
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "status": "survives",
+      "profiles": 156
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "status": "survives",
+      "profiles": 49
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "status": "survives",
+      "profiles": 92
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "status": "survives",
+      "profiles": 48
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "status": "survives",
+      "profiles": 100
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "status": "survives",
+      "profiles": 17
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "status": "survives",
+      "profiles": 1
+    }
+  ],
+  "seconds": 4.91912967999815
+}

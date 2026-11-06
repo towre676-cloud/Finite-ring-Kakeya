@@ -1,0 +1,16 @@
+{"stage": "regenerate_partitions_progress", "partitions": 50000, "survivors": 236, "seconds": 4.88}
+{"stage": "regenerate_partitions_progress", "partitions": 100000, "survivors": 334, "seconds": 10.054}
+{"stage": "regenerate_partitions_progress", "partitions": 150000, "survivors": 430, "seconds": 14.911}
+{"stage": "regenerate_partitions_progress", "partitions": 200000, "survivors": 491, "seconds": 20.492}
+{"stage": "complete_quota_replay", "partitions": 239246, "excluded": 238744, "survivors": 502, "seconds": 22.875}
+{"stage": "inherited_spectrum_duals", "excluded": 217, "survivors": 285, "local_keys": 463, "duals": 4446, "integer_inequalities": 2261326, "seconds": 24.19}
+{"stage": "eight_heavy_missing_gap", "input": 285, "excluded": 188, "remaining": 97, "cuts_by_maximum": {"12": 83, "13": 47, "14": 29, "15": 16, "16": 8, "17": 3, "18": 2}, "seconds": 24.217}
+{"stage": "three_heavy_single_exception", "input": 97, "excluded": 12, "remaining": 85, "cuts_by_maximum": {"16": 11, "17": 1}, "seconds": 24.225}
+{"stage": "two_heavy_deleted_direction", "input": 85, "excluded": 13, "remaining": 72, "cuts_by_maximum": {"12": 2, "13": 3, "16": 6, "17": 2}, "seconds": 24.256}
+{"stage": "eight_heavy_slot_prices", "input": 72, "excluded": 42, "remaining": 30, "cuts_by_maximum": {"12": 18, "13": 6, "14": 9, "15": 3, "16": 5, "17": 1}, "seconds": 24.275}
+{"stage": "missing_six_three_neighbors", "input": 30, "excluded": 12, "remaining": 18, "cuts_by_maximum": {"12": 8, "13": 2, "14": 1, "16": 1}, "seconds": 24.281}
+{"stage": "nine_heavy_slot_prices", "input": 18, "excluded": 1, "remaining": 17, "cuts_by_maximum": {"14": 1}, "seconds": 24.284}
+{"stage": "halfspace_maximal_direction_bonus", "input": 17, "excluded": 8, "remaining": 9, "cuts_by_maximum": {"12": 6, "13": 1, "14": 1}, "seconds": 24.287}
+{"stage": "nine_heavy_sumfree_resource", "input": 9, "excluded": 1, "remaining": 8, "cuts_by_maximum": {"12": 1}, "seconds": 24.289}
+{"stage": "final_analytic_boundaries", "excluded": 8, "remaining": 0, "methods": {"hub16_equality_actual_sumset": 1, "ten_heavy_weak_unique_directions": 4, "cube_direction_energy": 3}, "maximum_cube_upper_doubled": 991, "seconds": 24.29}
+{"status": "PASS", "partitions": 239246, "round3_new_exclusions": 285, "remaining": 0, "conclusion": "middle maxima12..18 imply support<=17", "seconds": 24.341}

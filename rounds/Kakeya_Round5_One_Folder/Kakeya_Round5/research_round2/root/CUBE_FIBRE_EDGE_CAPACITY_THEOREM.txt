@@ -1,0 +1,55 @@
+SHARED THREE-FLAT FIBRES: A GLOBAL EDGE-CAPACITY THEOREM
+
+This is a separate analytic compatibility theorem. No exclusion count in the
+round2 ledger is credited to it. It is a candidate constraint for the next
+stage using actual tangent subspaces and residue adjacency.
+
+Let r residue fibres in a Kakeya problem over either target ring be affine
+three-dimensional binary flats (each of size8), with tangent direction
+spaces H_i. Consider only edges between these r residues. Define each edge's
+capacity as the actual quotient sumset cardinality
+|P_i(d)+P_j(d)+carry|, with d=a_i+a_j and P_i(d) the set of tangent pair labels
+in V/<d>. This is not the coarser scalar cap M(p_i(d),p_j(d)). The sum of these
+actual capacities is at most
+
+    8*floor(r^2/2).                                           (1)
+
+In particular, six such fibres have mutual capacity at most144, whereas
+independent edge caps would permit16*binom(6,2)=240.
+
+Proof. An edge i--j has residue direction d=a_i+a_j. It is active only if
+d belongs to H_i intersect H_j. Its pair-label sets in V/<d> are affine
+two-flats. If k=dim(H_i intersect H_j), their sum has dimension5-k, so
+its exact cardinality is2^(5-k), one of4,8,16. A ring carry translates this
+sumset and leaves its cardinality unchanged.
+
+If i,j,k form a triangle of active edges, their three nonzero residue
+differences span a two-space U. At each vertex, the two incident differences
+belong to its tangent three-space. Therefore all three tangent spaces contain
+U. Every edge of that triangle has intersection dimension at least2 and
+capacity at most8. Consequently an edge of capacity16 lies in no triangle
+of positive-capacity edges.
+
+Divide all edge capacities by8. The resulting weighted graph has positive
+weights1/2,1,2, and an edge of weight2 has no common positive neighbor.
+We prove its total weight is at mostfloor(r^2/2) by induction. If there is
+no weight2 edge, total weight is at mostbinom(r,2), which is at mostthe
+claimed bound. Otherwise remove a weight2 edgeuv and its two endpoints.
+Every remaining vertex is adjacent positively to at mostone ofu,v, so
+removed weight is at most
+
+    2+2(r-2)=2r-2.
+
+Induction on the remaining r-2 vertices gives
+
+    total <=2r-2+floor((r-2)^2/2)=floor(r^2/2).
+
+Multiplying by8 proves (1). The casesr0,r1 are immediate. The argument
+holds in every ambient binary dimension in which these flats exist; in
+smaller dimensions some of the permitted edge weights are simply absent.
+
+Independent review: root checked the quotient sumset dimension, the common
+triangle two-space, the induction step, and carry invariance. This theorem
+uses actual common fibre geometry, so a weight8 fibre may be treated this
+way only after it is known to be an affine three-flat. It must not be
+applied to all eight-point fibres merely from their cardinality.

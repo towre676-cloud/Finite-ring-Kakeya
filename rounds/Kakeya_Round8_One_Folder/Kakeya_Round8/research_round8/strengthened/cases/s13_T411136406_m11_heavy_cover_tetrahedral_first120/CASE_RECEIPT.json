@@ -1,0 +1,200 @@
+{
+  "case_id": "s13_T411136406_m11_heavy_cover_tetrahedral_first120",
+  "status": "PASS_EXACT_ROUND8_STRENGTHENED_CNF_DRAT_CAKEML",
+  "mode": "heavy_cover_tetrahedral",
+  "nonzero_support_mask": 411136406,
+  "support": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    12,
+    13,
+    14,
+    16,
+    23,
+    27,
+    28
+  ],
+  "distinguished_hub": 0,
+  "maximum_interval": [
+    11,
+    11
+  ],
+  "total_upper_bound": 93,
+  "ring_scope": "common_necessary_relaxation_both_rings",
+  "semantic_input_hashes": {
+    "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8",
+    "research_round7/geometry/SUPPORT13_EIGHT_HEAVY_COROLLARIES.md": "4547cf9b15eb3fa0e29cea2fdfafdea283e7fb7b2add9b315447cdd96a21e513",
+    "research_round7/geometry/SUPPORT13_HEAVY_FIBRES.md": "d7b141bc35c2ecfef4a86245df4cedfb83db4b5b763c45dd88e1449639dd3a80",
+    "research_round7/support13/four_pair_cut/FOUR_PAIR_CAPACITY_LEMMA.txt": "e92cccd9470e975a305192128136e62fe6be622669f49c697704ea74984d342d",
+    "research_round8/charging/HEAVY_DIFFERENCE_COVER_THEOREM.md": "80a487d63d069216a2bc04aa99173a7534d0da8f92cda2de647dc458744b84c3",
+    "research_round8/charging/heavy_cover_cut.py": "f3b24fa5b8c6a48bc58ccabccdeeeb0302d53e23d068801597083c09546cfba6",
+    "research_round8/strengthened/ONE_WAY_SOUNDNESS.txt": "5080c8e36a22b3961e436f76b4e247d35b3be9448ffa46dc7fd9fb0e0a7c984c",
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f"
+  },
+  "frozen_sources_sha256": "9b1bab5e9ed13570cce52536f9f61077eb02a88cfbbb1cb5fed324ba5ce7bfa6",
+  "producer_sha256": "c7f727120cc53172239371a5d4a2455132c1af40306ff9113c4c7a35a0b33970",
+  "search_wrapper_sha256": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+  "solver_binary_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+  "solver_limit_seconds": 120,
+  "encoder_formalized": false,
+  "storage": {
+    "input.cnf": {
+      "logical_path": "input.cnf",
+      "compressed_path": "input.cnf.xz",
+      "raw_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+      "raw_bytes": 6271821,
+      "xz_sha256": "509a2a39485ac9c674903f31d9240cdb21d54727233e134dd6681a66545ca9d7",
+      "xz_bytes": 540292,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb"
+    },
+    "proof.drat": {
+      "logical_path": "proof.drat",
+      "compressed_path": "proof.drat.xz",
+      "raw_sha256": "f0a702407eea984cfd22636d7fa3c677dab54262abb7b99251ec057daca1d067",
+      "raw_bytes": 129982872,
+      "xz_sha256": "c55f1d314205d5675ffb2b095238ebc469562af0e73847cea82f19319eb8c87d",
+      "xz_bytes": 24469392,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "f0a702407eea984cfd22636d7fa3c677dab54262abb7b99251ec057daca1d067"
+    }
+  },
+  "variables": 42802,
+  "clauses": 291570,
+  "extension": {
+    "strengthened": {
+      "enabled": true,
+      "heavy_requested": true,
+      "tetrahedral_requested": true,
+      "components": {
+        "heavy": {
+          "required_heavy_vertices": 9,
+          "heavy_threshold": 4,
+          "largest_domain_weight": 11,
+          "added_variables": 62,
+          "added_clauses": 980
+        },
+        "tetrahedral": {
+          "eligible_spectrum_indices": [
+            20,
+            59
+          ],
+          "edge_count": 78,
+          "direction_count": 31,
+          "conditional_tetrahedral_edges": 78,
+          "new_capacity_bits": 1248,
+          "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+          "added_variables": 8045,
+          "added_clauses": 71429
+        }
+      },
+      "added_variables": 8107,
+      "added_clauses": 72409
+    },
+    "heavy_difference_cover": {
+      "theorem": "SUPPORT13_MAXIMUM_LE11_REQUIRES_TEN_HEAVY_AND_FULL_HEAVY_DIFFERENCE_COVER",
+      "support_size": 13,
+      "maximum_domain_weight": 11,
+      "heavy_threshold": 4,
+      "minimum_heavy": 10,
+      "required_heavy_directions": 31,
+      "total_weight_assumption": null,
+      "new_variables": 127,
+      "new_clauses": 1245,
+      "all_auxiliary_edges_are_exact_ANDs": true,
+      "heavy_flags_redefined_by_equivalence": true
+    }
+  },
+  "cnf_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+  "cnf_bytes": 6271821,
+  "encode_seconds": 0.341372,
+  "solver_returncode": 20,
+  "stop_reason": null,
+  "solve_seconds": 53.699589,
+  "process_supervision": {
+    "process_group_id": 28,
+    "whole_process_group_confirmed_absent": true,
+    "kill_signals_sent": 0,
+    "adopted_descendants_reaped": []
+  },
+  "last_observed_live_drat_bytes": {
+    "proof.drat": 129982872,
+    "search_solver.drat": 129982577
+  },
+  "proof_size_guard_counts_all_live_drat_files": true,
+  "solver_command": [
+    "/workspace/scratch/a2844a91c00e/research_round7/support13/rup_unit_solver.py",
+    "--no-binary",
+    "--no-witness",
+    "-t",
+    "120",
+    "/tmp/kakeya_r8_411136406_b2tn_sz4/input.cnf",
+    "/tmp/kakeya_r8_411136406_b2tn_sz4/proof.drat"
+  ],
+  "live_drat_byte_limit": 805306368,
+  "minimum_free_disk_bytes": 2147483648,
+  "proof_sha256": "f0a702407eea984cfd22636d7fa3c677dab54262abb7b99251ec057daca1d067",
+  "proof_bytes": 129982872,
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 42802,
+      "clauses": 291570
+    },
+    "input_sha256": {
+      "cnf": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+      "drat": "f0a702407eea984cfd22636d7fa3c677dab54262abb7b99251ec057daca1d067"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 55.516881,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "d14cbb8a270f972fe111d2bc7770443008db1f8f3579a4482cd9bf910067b45e",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "261f8ac56e3d477a851f7bcbb498d7bc5a8d6228575e68bf9383c41ca4a8f885",
+    "lrat_bytes": 353326565,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 12.10222,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "untrusted_search_provenance": {
+    "metadata_sha256": "689d2b7f49bd5fad5d3c1ff11a06a14dfb8f2ccc02f46551f582ccc2e346ce4a",
+    "prefix_sha256": "5ce378d7a75583b4efcd7e31843272df0fde376b160e6813e538ba9d17e18cbc",
+    "added_units": 37
+  },
+  "seconds": 129.837033,
+  "unfinished_proof_retained": false,
+  "reconstructed_lrat_retained": false,
+  "original_round6_baseline_claimed_refuted": false,
+  "exclusion_credited": true
+}

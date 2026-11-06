@@ -1,0 +1,23 @@
+{
+  "status": "PASS_READ_ONLY_MATHEMATICAL_AND_WRAPPER_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "source_hashes": {
+    "research_round7/geometry/SUPPORT13_HEAVY_FIBRES.md": "d7b141bc35c2ecfef4a86245df4cedfb83db4b5b763c45dd88e1449639dd3a80",
+    "research_round7/geometry/heavy_fibre_cut.py": "9cb4b98079ef472a22503eccbc195cb6808845223f9df93caf6c390b716bf9bb",
+    "research_round7/geometry/verify_heavy_fibre_cut.py": "ce7855f2520a2e4759c4cfa6aca3bc6752a709c0c3974b584e41599ac1562d24",
+    "research_round7/geometry/SUPPORT13_HEAVY_FIBRE_REPLAY.json": "62cd2ab388d32753394dd9e7d49edea7862fd41c7424158a19c44dbb9e1549d2"
+  },
+  "findings": [
+    "A light fibre has p(d) at most one; the direction sum of p is its unordered-pair count.",
+    "Each non-heavy-heavy edge outside D(H) can be charged once to a light endpoint and costs at most eight times that endpoint pair count, except for a nine-pair incidence of an eighteen-point fibre.",
+    "A nine-pair direction of an eighteen-point fibre is a nonzero period. Two independent periods would force its size divisible by four, so each eighteen-point fibre gives at most one unit of exception.",
+    "The inequality 16(31-|D(H)|) <= 8 C_L+n18 therefore follows without the total budget, any census, or a SAT premise.",
+    "Substituting |D(H)|<=C(h,2), C_L<=3(13-h), n18<=h yields the strictly positive gap 184+31h-8h^2 for 0<=h<=7.",
+    "The wrapper checks thirteen distinct vertices and weight domains 2..18, defines each indicator iff some weight>=4 spectrum is chosen, and forces the eighth output of the exact unary counter. It relies on the documented exactly-one spectrum-domain interface."
+  ],
+  "limitations": [
+    "This reviewer read the proof, wrapper and existing finite replay; no separate runtime replay was necessary for this elementary bound.",
+    "The wrapper is a necessary-condition strengthening, not a new UNSAT certificate."
+  ],
+  "conclusion": "No mathematical or encoding blocker found. The stated support-thirteen theorem is sound."
+}

@@ -1,0 +1,35 @@
+One-way soundness of the unique-edge four-pair extension
+======================================================
+
+Assume a Kakeya set in either ring with total at most93 and the declared
+marked support and maximum interval. The frozen Round6 soundness argument
+supplies an assignment to its baseline spectrum and directional-count
+variables. Each actual fibre selects its actual census spectrum.
+
+The extension flags only two spectrum families whose entire recorded rank
+interval is exactly4: weight8/energy64 with one four-pair direction, and
+weight11/energy205. By FOUR_PAIR_CAPACITY_LEMMA.txt, whenever a flagged
+fibre has four pairs in a direction, its quotient pair-set is a nonplanar
+four-set. Assign every new type-disjunction variable the OR of its selected
+eligible spectrum literals. Its defining clauses then hold automatically.
+
+For a direction with one residue edge, the actual Kakeya set must cover
+all16 lifted directions through that edge. If both endpoint type flags
+and both four-pair literals were true, the lemma bounds the actual edge's
+quotient sumset by14. A ring carry merely translates that sumset, so it
+cannot increase its cardinality. This contradicts Kakeya coverage. Thus
+the new four-literal forbidding clause holds on every real instance.
+
+No assertion is made for directions with two or more residue edges. No
+assertion is made for the planar twelve-point exception, unflagged types,
+or endpoint counts other than exactly4. Rank intervals that include5 are
+not flagged. The code appends clauses and auxiliary OR definitions while
+leaving every original variable and clause unchanged. Disabling the cut
+is checked to regenerate identical DIMACS bytes.
+
+Consequently every real Kakeya counterexample extends to a satisfying
+assignment of the new formula. A checked UNSAT proof for that exact new
+formula therefore gives an exclusion, conditional on the existing census
+and baseline obligations plus the elementary lemma above. This complete
+one-way argument is a mathematical/code audit, not a Lean formalization.
+

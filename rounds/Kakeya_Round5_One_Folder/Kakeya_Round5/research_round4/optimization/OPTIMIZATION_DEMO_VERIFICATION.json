@@ -1,0 +1,228 @@
+{
+  "status": "PASS",
+  "scope": "Finite-domain architecture and n2 demonstrations; no new n5 exclusion is claimed.",
+  "examples": [
+    {
+      "example": "n2_442_low0_dual_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low0_dual_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low0_z4_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low0_z4_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low1_dual_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low1_dual_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low1_z4_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low1_z4_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low2_dual_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low2_dual_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low2_z4_capacity",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 3,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_442_low2_z4_labels",
+      "direct_ring_edge_table_entries_checked": 13,
+      "variables": 21,
+      "equalities": 19,
+      "inequalities": 6,
+      "lp_status": "INFEASIBLE_EXACT_FARKAS_CERTIFICATE",
+      "combined_rhs": "-2",
+      "integer_assignments_checked": 6,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_3333_dual_labels",
+      "direct_ring_edge_table_entries_checked": 96,
+      "variables": 112,
+      "equalities": 52,
+      "inequalities": 6,
+      "lp_status": "FEASIBLE_EXACT_RATIONAL_WITNESS",
+      "integer_assignments_checked": 256,
+      "feasible_integer_assignments": 0,
+      "first_integer_witness": []
+    },
+    {
+      "example": "n2_3333_z4_labels",
+      "direct_ring_edge_table_entries_checked": 96,
+      "variables": 112,
+      "equalities": 52,
+      "inequalities": 6,
+      "lp_status": "FEASIBLE_EXACT_RATIONAL_WITNESS",
+      "integer_assignments_checked": 256,
+      "feasible_integer_assignments": 64,
+      "first_integer_witness": [
+        {
+          "0": [
+            0,
+            1,
+            2
+          ],
+          "1": [
+            0,
+            1,
+            2
+          ],
+          "2": [
+            0,
+            1,
+            2
+          ],
+          "3": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "direct_ring_edge_table_entries_checked": 348,
+  "exact_farkas_certificates": 12,
+  "ring_shift_example": {
+    "dual": [
+      0
+    ],
+    "z4": [
+      1
+    ]
+  },
+  "weighted_square_checks": 700,
+  "hub9_against1": {
+    "unweighted_upper": 41,
+    "weighted_upper": 9,
+    "theta": "1/9"
+  },
+  "files_sha256": {
+    "demo/n2_442_low0_dual_capacity.json": "749fcd1d98aefa9c5886a8904e1e2facd210a14c3eb25fc5b0b07d6d7aa2ecd1",
+    "demo/n2_442_low0_dual_labels.json": "f2bfc1b627edcddf11cc8be66a4cc1f08983cfc1ee7c3fc95f3246e8b33aa999",
+    "demo/n2_442_low0_z4_capacity.json": "21a7cc470a0d7360c99bb0add0108b15362266fbf3f956c0d20184fa13b89b9d",
+    "demo/n2_442_low0_z4_labels.json": "4d984cae1ec344821c88fcd243bd818775ceb8d13e38ac9c7b96b0d7d7643272",
+    "demo/n2_442_low1_dual_capacity.json": "d367aa53f2f05350c1c0e135e592deb9458fe25c28a27bc5d51bb25a657af11b",
+    "demo/n2_442_low1_dual_labels.json": "e485a0ca1ee0a188d2e6b4b90186edc4714b82c9f0c9fb32d2d932db6f93f743",
+    "demo/n2_442_low1_z4_capacity.json": "7d21a608202c86665ef6f5d998129bfbb64c852fa679f2a7ac0ff9f1594bb80a",
+    "demo/n2_442_low1_z4_labels.json": "39f697a30864ae0a52e9228daa3b52add7ad044a677df34b7fc4beb15fd358c3",
+    "demo/n2_442_low2_dual_capacity.json": "68178a100f8ec89487943f35e7daf153c7203c16d95604ac6acca60273794176",
+    "demo/n2_442_low2_dual_labels.json": "8a785b7bb712bc09fe873d0477745f46dba1791480d01592cbbcfd346fa1c984",
+    "demo/n2_442_low2_z4_capacity.json": "7bdebd0167735a9c3d37a5d7e8f9684368f4159456706539a470930133666e15",
+    "demo/n2_442_low2_z4_labels.json": "ce59f5155308bc304fe3e330c6aeb944e548975fb1cc10047a5b1773d563c71e",
+    "demo/n2_3333_dual_labels.json": "7f7746d1cbc9439efe5ddbb5726c205fecb785db21bc5962d5658103ce783ef0",
+    "demo/n2_3333_z4_labels.json": "8efd72686374b9fef479e115ac3f21b41f89b5afcfd0c513b9fd87a4a9ba41f4"
+  },
+  "seconds": 0.064
+}

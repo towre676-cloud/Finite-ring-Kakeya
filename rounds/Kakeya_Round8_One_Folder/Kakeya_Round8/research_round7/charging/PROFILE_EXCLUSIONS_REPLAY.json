@@ -1,0 +1,360 @@
+{
+  "status": "PASS_ROOT_SEPARATE_INTEGER_CERTIFICATE_REPLAY",
+  "profiles_before": 186482,
+  "whole_profiles_excluded": 3006,
+  "profiles_remaining": 183476,
+  "minimum_strict_margin_twice": 1,
+  "by_support": {
+    "13": {
+      "before": 85802,
+      "excluded": 462,
+      "remaining": 85340
+    },
+    "14": {
+      "before": 75766,
+      "excluded": 1393,
+      "remaining": 74373
+    },
+    "15": {
+      "before": 20438,
+      "excluded": 924,
+      "remaining": 19514
+    },
+    "16": {
+      "before": 4051,
+      "excluded": 198,
+      "remaining": 3853
+    },
+    "17": {
+      "before": 425,
+      "excluded": 29,
+      "remaining": 396
+    }
+  },
+  "by_support_and_maximum": [
+    {
+      "support": 13,
+      "maximum": 12,
+      "before": 10192,
+      "excluded": 393,
+      "remaining": 9799
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "before": 12004,
+      "excluded": 36,
+      "remaining": 11968
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "before": 15635,
+      "excluded": 31,
+      "remaining": 15604
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "before": 13641,
+      "excluded": 2,
+      "remaining": 13639
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "before": 16262,
+      "excluded": 0,
+      "remaining": 16262
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "before": 11154,
+      "excluded": 0,
+      "remaining": 11154
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "before": 6914,
+      "excluded": 0,
+      "remaining": 6914
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "before": 12861,
+      "excluded": 1119,
+      "remaining": 11742
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "before": 11666,
+      "excluded": 161,
+      "remaining": 11505
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "before": 15401,
+      "excluded": 100,
+      "remaining": 15301
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "before": 10836,
+      "excluded": 8,
+      "remaining": 10828
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "before": 14005,
+      "excluded": 1,
+      "remaining": 14004
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "before": 7415,
+      "excluded": 2,
+      "remaining": 7413
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "before": 3582,
+      "excluded": 2,
+      "remaining": 3580
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "before": 5380,
+      "excluded": 674,
+      "remaining": 4706
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "before": 2996,
+      "excluded": 84,
+      "remaining": 2912
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "before": 4191,
+      "excluded": 138,
+      "remaining": 4053
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "before": 2184,
+      "excluded": 18,
+      "remaining": 2166
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "before": 4088,
+      "excluded": 4,
+      "remaining": 4084
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "before": 1223,
+      "excluded": 3,
+      "remaining": 1220
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "before": 376,
+      "excluded": 3,
+      "remaining": 373
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "before": 1255,
+      "excluded": 137,
+      "remaining": 1118
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "before": 509,
+      "excluded": 4,
+      "remaining": 505
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "before": 766,
+      "excluded": 38,
+      "remaining": 728
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "before": 373,
+      "excluded": 10,
+      "remaining": 363
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "before": 898,
+      "excluded": 7,
+      "remaining": 891
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "before": 206,
+      "excluded": 2,
+      "remaining": 204
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "before": 44,
+      "excluded": 0,
+      "remaining": 44
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "before": 148,
+      "excluded": 23,
+      "remaining": 125
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "before": 45,
+      "excluded": 0,
+      "remaining": 45
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "before": 85,
+      "excluded": 4,
+      "remaining": 81
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "before": 42,
+      "excluded": 0,
+      "remaining": 42
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "before": 92,
+      "excluded": 1,
+      "remaining": 91
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "before": 13,
+      "excluded": 1,
+      "remaining": 12
+    }
+  ],
+  "input_pins": {
+    "research_round6/after_round6_survivors.txt": "d96cd6794e87bede959d813c39e36aefafa42d5c243a465b19f6ec4c065cb52c",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9"
+  },
+  "discovery_report": "research_round7/dense_encoder/OPTIONAL_HEAVY_DUAL_DIAGNOSTIC.json",
+  "discovery_report_sha256": "e521888e1286a53ddff235937400bd909be9bc8e9364f02aea89dff9ef50f762",
+  "verifier_sha256": "a8d21dcde2a2d9e87b9adc80362db3e6a45e055eb5645554e5e69dc71eb00afd",
+  "survivors_file": "research_round7/charging/after_integer_dual_survivors.txt",
+  "survivors_sha256": "1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5",
+  "excluded_file": "research_round7/charging/EXCLUDED_PROFILES.jsonl",
+  "excluded_sha256": "620803cfc1b6f96e6cb5d1cc704da9fe8558436e042704454bd4bd0823cb0a2e",
+  "negative_controls": [
+    {
+      "control": "wrong_upper_bound",
+      "rejected": true
+    },
+    {
+      "control": "invalid_source_line",
+      "rejected": true
+    },
+    {
+      "control": "negative_price",
+      "rejected": true
+    },
+    {
+      "control": "duplicate_heavy_endpoint",
+      "rejected": true
+    }
+  ],
+  "example": {
+    "source_line": 4,
+    "weights": [
+      17,
+      12,
+      10,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "support": 17,
+    "maximum": 17,
+    "required_twice": 896,
+    "available_twice": 891,
+    "strict_margin_twice": 5,
+    "light_pair_budget": 79,
+    "heavy_costs": [
+      390,
+      174,
+      90
+    ],
+    "certificate": {
+      "source_line": 4,
+      "light_ceiling": 4,
+      "price": 3,
+      "heavy_positions": [
+        0,
+        1,
+        2
+      ],
+      "required_capacity_twice": 896,
+      "available_upper_bound_twice": 891,
+      "method": "mandatory_heavy"
+    }
+  },
+  "capacity_coefficients": "Elementary formulas M(p,1)=p, M(p,2)<=min(2p,16), M(p,3)<=min(3p,p+8,16); no quotient-sumset census premise.",
+  "small_light_capacity_lemma_sha256": "5056d6ee95d0b01a3e436e53346a502b59334226dbf2e2cb4c2fbfe3c3eeb2c2",
+  "scope": "Every placement and fibre shape of these weight profiles, in both rings, under the complete inherited spectrum census and the elementary small-light capacity bounds.",
+  "dependency_boundary": [
+    "The heavy/light geometric charging lemma connects these finite inequalities to Kakeya coverage.",
+    "The spectrum census is an inherited finite dependency, pinned here and reproduced in the earlier checkpoint.",
+    "The old quotient sumset table is checked for agreement only; every coefficient used here is recomputed from an elementary formula proved in SMALL_LIGHT_CAPACITY.md.",
+    "Lean checks the abstract pricing/summation/strict-gap core; the census and Python implementation are not fully formalized.",
+    "Separate model review is reproducibility, not independent human refereeing."
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "status": "PASS_COMPOSED_HEAVY_COVER_AND_ALL_EDGE_INTERFACES",
+  "cases": [
+    {
+      "mask": 377850134,
+      "variables": 42802,
+      "clauses": 291570,
+      "cnf_sha256": "e3133c3ef51eade40501b889d1343934bc7850d3de950f8b8b11e85ed5f2868b",
+      "metadata": {
+        "strengthened": {
+          "enabled": true,
+          "heavy_requested": true,
+          "tetrahedral_requested": true,
+          "components": {
+            "heavy": {
+              "required_heavy_vertices": 9,
+              "heavy_threshold": 4,
+              "largest_domain_weight": 11,
+              "added_variables": 62,
+              "added_clauses": 980
+            },
+            "tetrahedral": {
+              "eligible_spectrum_indices": [
+                20,
+                59
+              ],
+              "edge_count": 78,
+              "direction_count": 31,
+              "conditional_tetrahedral_edges": 78,
+              "new_capacity_bits": 1248,
+              "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+              "added_variables": 8045,
+              "added_clauses": 71429
+            }
+          },
+          "added_variables": 8107,
+          "added_clauses": 72409
+        },
+        "heavy_difference_cover": {
+          "theorem": "SUPPORT13_MAXIMUM_LE11_REQUIRES_TEN_HEAVY_AND_FULL_HEAVY_DIFFERENCE_COVER",
+          "support_size": 13,
+          "maximum_domain_weight": 11,
+          "heavy_threshold": 4,
+          "minimum_heavy": 10,
+          "required_heavy_directions": 31,
+          "total_weight_assumption": null,
+          "new_variables": 127,
+          "new_clauses": 1245,
+          "all_auxiliary_edges_are_exact_ANDs": true,
+          "heavy_flags_redefined_by_equivalence": true
+        }
+      }
+    },
+    {
+      "mask": 411136406,
+      "variables": 42802,
+      "clauses": 291570,
+      "cnf_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+      "metadata": {
+        "strengthened": {
+          "enabled": true,
+          "heavy_requested": true,
+          "tetrahedral_requested": true,
+          "components": {
+            "heavy": {
+              "required_heavy_vertices": 9,
+              "heavy_threshold": 4,
+              "largest_domain_weight": 11,
+              "added_variables": 62,
+              "added_clauses": 980
+            },
+            "tetrahedral": {
+              "eligible_spectrum_indices": [
+                20,
+                59
+              ],
+              "edge_count": 78,
+              "direction_count": 31,
+              "conditional_tetrahedral_edges": 78,
+              "new_capacity_bits": 1248,
+              "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+              "added_variables": 8045,
+              "added_clauses": 71429
+            }
+          },
+          "added_variables": 8107,
+          "added_clauses": 72409
+        },
+        "heavy_difference_cover": {
+          "theorem": "SUPPORT13_MAXIMUM_LE11_REQUIRES_TEN_HEAVY_AND_FULL_HEAVY_DIFFERENCE_COVER",
+          "support_size": 13,
+          "maximum_domain_weight": 11,
+          "heavy_threshold": 4,
+          "minimum_heavy": 10,
+          "required_heavy_directions": 31,
+          "total_weight_assumption": null,
+          "new_variables": 127,
+          "new_clauses": 1245,
+          "all_auxiliary_edges_are_exact_ANDs": true,
+          "heavy_flags_redefined_by_equivalence": true
+        }
+      }
+    },
+    {
+      "mask": 671697334,
+      "variables": 42738,
+      "clauses": 288370,
+      "cnf_sha256": "8605c1a792483ac29ef3b08e9708a8cd39463ac610c51c9ca9b6b7f110e236d3",
+      "metadata": {
+        "strengthened": {
+          "enabled": true,
+          "heavy_requested": true,
+          "tetrahedral_requested": true,
+          "components": {
+            "heavy": {
+              "required_heavy_vertices": 9,
+              "heavy_threshold": 4,
+              "largest_domain_weight": 11,
+              "added_variables": 62,
+              "added_clauses": 980
+            },
+            "tetrahedral": {
+              "eligible_spectrum_indices": [
+                20,
+                59
+              ],
+              "edge_count": 78,
+              "direction_count": 31,
+              "conditional_tetrahedral_edges": 78,
+              "new_capacity_bits": 1248,
+              "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+              "added_variables": 8013,
+              "added_clauses": 69829
+            }
+          },
+          "added_variables": 8075,
+          "added_clauses": 70809
+        },
+        "heavy_difference_cover": {
+          "theorem": "SUPPORT13_MAXIMUM_LE11_REQUIRES_TEN_HEAVY_AND_FULL_HEAVY_DIFFERENCE_COVER",
+          "support_size": 13,
+          "maximum_domain_weight": 11,
+          "heavy_threshold": 4,
+          "minimum_heavy": 10,
+          "required_heavy_directions": 31,
+          "total_weight_assumption": null,
+          "new_variables": 127,
+          "new_clauses": 1245,
+          "all_auxiliary_edges_are_exact_ANDs": true,
+          "heavy_flags_redefined_by_equivalence": true
+        }
+      }
+    },
+    {
+      "mask": 2185856310,
+      "variables": 42738,
+      "clauses": 288370,
+      "cnf_sha256": "3d197cdcc997a5079f73d918d561e086d43eb472f530910161c143911baec15e",
+      "metadata": {
+        "strengthened": {
+          "enabled": true,
+          "heavy_requested": true,
+          "tetrahedral_requested": true,
+          "components": {
+            "heavy": {
+              "required_heavy_vertices": 9,
+              "heavy_threshold": 4,
+              "largest_domain_weight": 11,
+              "added_variables": 62,
+              "added_clauses": 980
+            },
+            "tetrahedral": {
+              "eligible_spectrum_indices": [
+                20,
+                59
+              ],
+              "edge_count": 78,
+              "direction_count": 31,
+              "conditional_tetrahedral_edges": 78,
+              "new_capacity_bits": 1248,
+              "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+              "added_variables": 8013,
+              "added_clauses": 69829
+            }
+          },
+          "added_variables": 8075,
+          "added_clauses": 70809
+        },
+        "heavy_difference_cover": {
+          "theorem": "SUPPORT13_MAXIMUM_LE11_REQUIRES_TEN_HEAVY_AND_FULL_HEAVY_DIFFERENCE_COVER",
+          "support_size": 13,
+          "maximum_domain_weight": 11,
+          "heavy_threshold": 4,
+          "minimum_heavy": 10,
+          "required_heavy_directions": 31,
+          "total_weight_assumption": null,
+          "new_variables": 127,
+          "new_clauses": 1245,
+          "all_auxiliary_edges_are_exact_ANDs": true,
+          "heavy_flags_redefined_by_equivalence": true
+        }
+      }
+    }
+  ],
+  "solver_invoked": false
+}

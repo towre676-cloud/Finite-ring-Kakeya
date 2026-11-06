@@ -1,0 +1,17 @@
+{
+  "status": "PASS_FRESH_SINGLE_FOLDER_ARCHIVE_AND_ALL_NEW_PROOFS",
+  "archive": "/workspace/scratch/a2844a91c00e/Kakeya_Round8_One_Folder.zip",
+  "archive_sha256": "d8654727162dd7a97e979fe0f2095937a138cf0aa91656f3c6ec215807f7acc2",
+  "payload_hashes_verified": 5172,
+  "sole_extraction_root": "Kakeya_Round8",
+  "all_payloads_preserved": true,
+  "fresh_replay_status": "PASS_ROUND8_FRESH_ALL_NEW_CERTIFICATES_AND_FINITE_RESULTS",
+  "completed_stages": 15,
+  "fresh_proofs_checked": 4,
+  "inherited_payloads_hash_bound": true,
+  "inherited_proofs_freshly_rechecked": false,
+  "regenerated_ledger_identical": true,
+  "stdout_sha256": "e939161ea7174c2de13abff2838bc699a7a0f9550a932f2a1d7694c3498d5cd5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 234.079723
+}

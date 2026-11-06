@@ -1,0 +1,1009 @@
+{
+  "total": 25,
+  "by_exact_maximum": {
+    "12": 14,
+    "13": 11
+  },
+  "cases": [
+    {
+      "case": {
+        "case_id": "s13_T1101613334_m12_incidence_pending",
+        "nonzero_support_mask": 1101613334,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          14,
+          16,
+          19,
+          21,
+          23,
+          24,
+          30
+        ],
+        "unmarked_affine_class": 114,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "e32ef48ad3630327a4feb64ab8ea4e37414c445c8c1266953e81b776aac9e795"
+    },
+    {
+      "case": {
+        "case_id": "s13_T308384030_m13_incidence_pending",
+        "nonzero_support_mask": 308384030,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          15,
+          16,
+          21,
+          22,
+          25,
+          28
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "40b97edf8828a1990934483f93ce3076140260972fb41d5e6dacae764eb453d6"
+    },
+    {
+      "case": {
+        "case_id": "s13_T10069398_m12_incidence_pending",
+        "nonzero_support_mask": 10069398,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          10,
+          13,
+          15,
+          16,
+          19,
+          20,
+          23
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "1ee61b8cd3ed91da17b2248ed8889a648ab6707f517c48aac72be5c7757805a5"
+    },
+    {
+      "case": {
+        "case_id": "s13_T411136406_m12_incidence_pending",
+        "nonzero_support_mask": 411136406,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          12,
+          13,
+          14,
+          16,
+          23,
+          27,
+          28
+        ],
+        "unmarked_affine_class": 111,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "3858f73a884f4d0beb7cc8666904c96130f9d2870096bee9e3b8b03ca147e63b"
+    },
+    {
+      "case": {
+        "case_id": "s13_T671697334_m12_incidence_pending",
+        "nonzero_support_mask": 671697334,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          11,
+          14,
+          16,
+          19,
+          27,
+          29
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "d953a2563f26b5106e2bb00ac65889d982756d0ad5fbfd8c24cea23270b4f919"
+    },
+    {
+      "case": {
+        "case_id": "s13_T2185856310_m12_incidence_pending",
+        "nonzero_support_mask": 2185856310,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8,
+          10,
+          15,
+          16,
+          19,
+          22,
+          25,
+          31
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "75feb9db5f0aeefe2c5b5982d995331fb3afcdb01b879ba4e8291ea3ee8b2797"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1101613334_m13_incidence_pending",
+        "nonzero_support_mask": 1101613334,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          14,
+          16,
+          19,
+          21,
+          23,
+          24,
+          30
+        ],
+        "unmarked_affine_class": 114,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "bc7caea69e9f0ad0e5d9341b65a28a7e2b438fafa28bf626e0222e5fecdae78b"
+    },
+    {
+      "case": {
+        "case_id": "s13_T308384030_m12_incidence_pending",
+        "nonzero_support_mask": 308384030,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          15,
+          16,
+          21,
+          22,
+          25,
+          28
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "045f45d7f89f43e59415b5ccb50fa86c3ed7257ab3d968d0b5536a21c0d3bc32"
+    },
+    {
+      "case": {
+        "case_id": "s13_T377850134_m12_incidence_pending",
+        "nonzero_support_mask": 377850134,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          25,
+          26,
+          28
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "4b4965ee3142faa6031170620af25855464640ffd37f5a928d3fd486979c07dc"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1022358_m12_incidence_pending",
+        "nonzero_support_mask": 1022358,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "unmarked_affine_class": 111,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "260ca6adf4c2db5be4b34bd38c8a964b7a017354ecdb65c4f202c445c500797e"
+    },
+    {
+      "case": {
+        "case_id": "s13_T675359134_m12_incidence_pending",
+        "nonzero_support_mask": 675359134,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          11,
+          13,
+          16,
+          22,
+          27,
+          29
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "f0e59e0477d300eb39df7e1c696aa1961300e6410cdd5637b2a8720787116b46"
+    },
+    {
+      "case": {
+        "case_id": "s13_T2185856310_m13_incidence_pending",
+        "nonzero_support_mask": 2185856310,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8,
+          10,
+          15,
+          16,
+          19,
+          22,
+          25,
+          31
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "bebd7cae0aaa8e4c46c017c75fd7b08773d78097054e7c6c347c1ad92b5ecab1"
+    },
+    {
+      "case": {
+        "case_id": "s13_T10069398_m13_incidence_pending",
+        "nonzero_support_mask": 10069398,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          10,
+          13,
+          15,
+          16,
+          19,
+          20,
+          23
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "639cc828a8f41e3a8927b67c29119234ce22ada28f25bd12ced5c5b0b4fce21f"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1611227990_m12_incidence_pending",
+        "nonzero_support_mask": 1611227990,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8,
+          9,
+          13,
+          14,
+          16,
+          19,
+          29,
+          30
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "efe009620ba26515cfd8b8cd45f7c7be3891505b600c0b33f8e9d3d4126fe55b"
+    },
+    {
+      "case": {
+        "case_id": "s13_T377850134_m13_incidence_pending",
+        "nonzero_support_mask": 377850134,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          25,
+          26,
+          28
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "9bfa9c385be336614e35ce8c465e8c21caab7b41eca0bf81c76a1f5bdcb7d937"
+    },
+    {
+      "case": {
+        "case_id": "s13_T814057878_m12_incidence_pending",
+        "nonzero_support_mask": 814057878,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          28,
+          29
+        ],
+        "unmarked_affine_class": 114,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "259965fabf2af062ed9c7c0b5c51fa394d408a6740bb3097ccd0951147605ac7"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1116316054_m12_incidence_pending",
+        "nonzero_support_mask": 1116316054,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          13,
+          15,
+          16,
+          19,
+          23,
+          25,
+          30
+        ],
+        "unmarked_affine_class": 112,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "cc872bf675e8a030e4b596c25ffca1aaf819470be051191485c13626b4d47230"
+    },
+    {
+      "case": {
+        "case_id": "s13_T411136406_m13_incidence_pending",
+        "nonzero_support_mask": 411136406,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          12,
+          13,
+          14,
+          16,
+          23,
+          27,
+          28
+        ],
+        "unmarked_affine_class": 111,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "d7913fa38ba0dcef1eb31f9917def089c91fb949d1e8c1e2ad534d9be35da8f8"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1022358_m13_incidence_pending",
+        "nonzero_support_mask": 1022358,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "unmarked_affine_class": 111,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "ccc74b906a7256ac74593a6295828f03458302bbe0c58c206e31beb44216545c"
+    },
+    {
+      "case": {
+        "case_id": "s13_T671697334_m13_incidence_pending",
+        "nonzero_support_mask": 671697334,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          11,
+          14,
+          16,
+          19,
+          27,
+          29
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "a4b69f175158fa8ecfcce7e649ade8a0b0c64cdcda5cc30534249dd15a9b4fd7"
+    },
+    {
+      "case": {
+        "case_id": "s13_T814057878_m13_incidence_pending",
+        "nonzero_support_mask": 814057878,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          28,
+          29
+        ],
+        "unmarked_affine_class": 114,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "5765ddb747fe59c2cac7da44c8d8ad6f26d8589a98e9e8f117380bc53673987d"
+    },
+    {
+      "case": {
+        "case_id": "s13_T360808918_m12_incidence_pending",
+        "nonzero_support_mask": 360808918,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          15,
+          16,
+          23,
+          24,
+          26,
+          28
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "f167553f300fd327b4e44d96e858fb222184ab593114da39d131ef70de1ba8ef"
+    },
+    {
+      "case": {
+        "case_id": "s13_T675891606_m12_incidence_pending",
+        "nonzero_support_mask": 675891606,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          14,
+          16,
+          19,
+          22,
+          27,
+          29
+        ],
+        "unmarked_affine_class": 106,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          12,
+          12
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "751f2845fc80f6998befa9ae22c215abe2ab4c4713666d18e12532a9f186410e"
+    },
+    {
+      "case": {
+        "case_id": "s13_T675359134_m13_incidence_pending",
+        "nonzero_support_mask": 675359134,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          11,
+          13,
+          16,
+          22,
+          27,
+          29
+        ],
+        "unmarked_affine_class": 109,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "a5dc6c0f5ba8349b1d8250c09cb77cb84aa783a3ee1090fdce0ebb268c06d095"
+    },
+    {
+      "case": {
+        "case_id": "s13_T1611227990_m13_incidence_pending",
+        "nonzero_support_mask": 1611227990,
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8,
+          9,
+          13,
+          14,
+          16,
+          19,
+          29,
+          30
+        ],
+        "unmarked_affine_class": 110,
+        "distinguished_hub": 0,
+        "maximum_interval": [
+          13,
+          13
+        ],
+        "total_upper_bound": 93,
+        "ring_scope": "common_necessary_relaxation_both_rings",
+        "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+        "new_available_cuts": [
+          "at_least_ten_heavy",
+          "missing_direction_light_incidence_budget",
+          "eleven_heavy_implies_full_difference_cover",
+          "all_edge_tetrahedron14"
+        ],
+        "proof_search_performed_in_this_queue": false,
+        "exclusion_credited": false
+      },
+      "status": "UNKNOWN_TIMEOUT",
+      "cnf_sha256": "b5b1a2539ac2adc478d77e193f95cc522a6a32129f8a29bf50e071f689ef58b6"
+    }
+  ]
+}

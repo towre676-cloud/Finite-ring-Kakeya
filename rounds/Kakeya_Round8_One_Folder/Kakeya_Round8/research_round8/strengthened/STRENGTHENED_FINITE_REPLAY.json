@@ -1,0 +1,211 @@
+{
+  "status": "PASS_ROUND8_STRENGTHENED_FINITE_CONTROLS",
+  "SAT_solver_invoked": false,
+  "exclusions_credited": 0,
+  "heavy": {
+    "threshold_cases": [
+      {
+        "largest_domain_weight": 11,
+        "minimum_heavy": 9,
+        "all_boolean_patterns_checked": 8192
+      },
+      {
+        "largest_domain_weight": 13,
+        "minimum_heavy": 9,
+        "all_boolean_patterns_checked": 8192
+      },
+      {
+        "largest_domain_weight": 14,
+        "minimum_heavy": 8,
+        "all_boolean_patterns_checked": 8192
+      },
+      {
+        "largest_domain_weight": 18,
+        "minimum_heavy": 8,
+        "all_boolean_patterns_checked": 8192
+      }
+    ],
+    "invalid_scopes_rejected": 3
+  },
+  "capacities": {
+    "edge_truth_table_assignments": 2448,
+    "rejected_over_capacity_assignments": 1490,
+    "two_edge_direction_assignments": 289,
+    "fourteen_plus_two_witness_accepted": true,
+    "nonmonotone_capacity_rejected": true
+  },
+  "flags": {
+    "eligible_spectrum_indices": [
+      20,
+      59
+    ],
+    "exact_rank_interval_required": true,
+    "selected_type_flag_checks": 1058
+  },
+  "actual_case_identity": [
+    {
+      "support_mask": 377850134,
+      "baseline_sha256": "ca72d55c08f7c7afc109ecd5f78dc909895bd07ced53e42d119c8ede92aa8042",
+      "disabled_sha256": "ca72d55c08f7c7afc109ecd5f78dc909895bd07ced53e42d119c8ede92aa8042",
+      "enabled_sha256": "94422a66ae8b7502ac0d07567aea1181675986d9c25678ac2333588b99664ab6",
+      "base_variables": 34568,
+      "base_clauses": 217916,
+      "variables": 42675,
+      "clauses": 290325,
+      "extension": {
+        "enabled": true,
+        "heavy_requested": true,
+        "tetrahedral_requested": true,
+        "components": {
+          "heavy": {
+            "required_heavy_vertices": 9,
+            "heavy_threshold": 4,
+            "largest_domain_weight": 11,
+            "added_variables": 62,
+            "added_clauses": 980
+          },
+          "tetrahedral": {
+            "eligible_spectrum_indices": [
+              20,
+              59
+            ],
+            "edge_count": 78,
+            "direction_count": 31,
+            "conditional_tetrahedral_edges": 78,
+            "new_capacity_bits": 1248,
+            "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+            "added_variables": 8045,
+            "added_clauses": 71429
+          }
+        },
+        "added_variables": 8107,
+        "added_clauses": 72409
+      }
+    },
+    {
+      "support_mask": 411136406,
+      "baseline_sha256": "ab1e9408915616fdaef265e1c977f0d77d6bfe70306c6c9fea8d4fd03e36a792",
+      "disabled_sha256": "ab1e9408915616fdaef265e1c977f0d77d6bfe70306c6c9fea8d4fd03e36a792",
+      "enabled_sha256": "0c3f8d1852ad1948479dfcd4d20731923f78c9bb9ba5e11e51c88974f947a539",
+      "base_variables": 34568,
+      "base_clauses": 217916,
+      "variables": 42675,
+      "clauses": 290325,
+      "extension": {
+        "enabled": true,
+        "heavy_requested": true,
+        "tetrahedral_requested": true,
+        "components": {
+          "heavy": {
+            "required_heavy_vertices": 9,
+            "heavy_threshold": 4,
+            "largest_domain_weight": 11,
+            "added_variables": 62,
+            "added_clauses": 980
+          },
+          "tetrahedral": {
+            "eligible_spectrum_indices": [
+              20,
+              59
+            ],
+            "edge_count": 78,
+            "direction_count": 31,
+            "conditional_tetrahedral_edges": 78,
+            "new_capacity_bits": 1248,
+            "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+            "added_variables": 8045,
+            "added_clauses": 71429
+          }
+        },
+        "added_variables": 8107,
+        "added_clauses": 72409
+      }
+    },
+    {
+      "support_mask": 671697334,
+      "baseline_sha256": "0f994f2cc216dd0a36a84daf7d6850df3b45dbfd1dbc07dd158291b131c7cd9c",
+      "disabled_sha256": "0f994f2cc216dd0a36a84daf7d6850df3b45dbfd1dbc07dd158291b131c7cd9c",
+      "enabled_sha256": "e2e92b58674e3f89cc51cd0db1587ebcbf9618e5af318e839842e5ee1416c3c4",
+      "base_variables": 34536,
+      "base_clauses": 216316,
+      "variables": 42611,
+      "clauses": 287125,
+      "extension": {
+        "enabled": true,
+        "heavy_requested": true,
+        "tetrahedral_requested": true,
+        "components": {
+          "heavy": {
+            "required_heavy_vertices": 9,
+            "heavy_threshold": 4,
+            "largest_domain_weight": 11,
+            "added_variables": 62,
+            "added_clauses": 980
+          },
+          "tetrahedral": {
+            "eligible_spectrum_indices": [
+              20,
+              59
+            ],
+            "edge_count": 78,
+            "direction_count": 31,
+            "conditional_tetrahedral_edges": 78,
+            "new_capacity_bits": 1248,
+            "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+            "added_variables": 8013,
+            "added_clauses": 69829
+          }
+        },
+        "added_variables": 8075,
+        "added_clauses": 70809
+      }
+    },
+    {
+      "support_mask": 2185856310,
+      "baseline_sha256": "3861ca07a46e4b959e9592377b4fd1c9f3783c4909bcfd0e040e1d28157fc7c8",
+      "disabled_sha256": "3861ca07a46e4b959e9592377b4fd1c9f3783c4909bcfd0e040e1d28157fc7c8",
+      "enabled_sha256": "a4f2635a49b0f17a8da4535cd8a6c110c30c2852646b4898677aed5d7272ba8b",
+      "base_variables": 34536,
+      "base_clauses": 216316,
+      "variables": 42611,
+      "clauses": 287125,
+      "extension": {
+        "enabled": true,
+        "heavy_requested": true,
+        "tetrahedral_requested": true,
+        "components": {
+          "heavy": {
+            "required_heavy_vertices": 9,
+            "heavy_threshold": 4,
+            "largest_domain_weight": 11,
+            "added_variables": 62,
+            "added_clauses": 980
+          },
+          "tetrahedral": {
+            "eligible_spectrum_indices": [
+              20,
+              59
+            ],
+            "edge_count": 78,
+            "direction_count": 31,
+            "conditional_tetrahedral_edges": 78,
+            "new_capacity_bits": 1248,
+            "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+            "added_variables": 8013,
+            "added_clauses": 69829
+          }
+        },
+        "added_variables": 8075,
+        "added_clauses": 70809
+      }
+    }
+  ],
+  "source_hashes": {
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round8/strengthened/ONE_WAY_SOUNDNESS.txt": "5080c8e36a22b3961e436f76b4e247d35b3be9448ffa46dc7fd9fb0e0a7c984c",
+    "research_round8/strengthened/verify_strengthened.py": "44bd826a09acea7c867a6b73984cfe1bc5221bc689f864c6181f7fc58ae60871",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102"
+  },
+  "seconds": 8.302337
+}

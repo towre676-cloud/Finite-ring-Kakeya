@@ -1,0 +1,74 @@
+{
+  "status": "PASS_SUPPORT13_HEAVY_FIBRE_LEMMA_AND_BOOLEAN_CUT",
+  "light_fibres_checked": 5456,
+  "weight18_with_one_specified_period_checked": 11440,
+  "two_period_invariant_sets_checked": 256,
+  "numerical_contradictions": [
+    {
+      "heavy_fibres": 0,
+      "required_capacity": 496,
+      "available_capacity_bound": 312,
+      "strict_gap": 184
+    },
+    {
+      "heavy_fibres": 1,
+      "required_capacity": 496,
+      "available_capacity_bound": 289,
+      "strict_gap": 207
+    },
+    {
+      "heavy_fibres": 2,
+      "required_capacity": 480,
+      "available_capacity_bound": 266,
+      "strict_gap": 214
+    },
+    {
+      "heavy_fibres": 3,
+      "required_capacity": 448,
+      "available_capacity_bound": 243,
+      "strict_gap": 205
+    },
+    {
+      "heavy_fibres": 4,
+      "required_capacity": 400,
+      "available_capacity_bound": 220,
+      "strict_gap": 180
+    },
+    {
+      "heavy_fibres": 5,
+      "required_capacity": 336,
+      "available_capacity_bound": 197,
+      "strict_gap": 139
+    },
+    {
+      "heavy_fibres": 6,
+      "required_capacity": 256,
+      "available_capacity_bound": 174,
+      "strict_gap": 82
+    },
+    {
+      "heavy_fibres": 7,
+      "required_capacity": 160,
+      "available_capacity_bound": 151,
+      "strict_gap": 9
+    }
+  ],
+  "complete_boolean_cardinality_cases": 8192,
+  "sample_cut_metadata": {
+    "statement": "SUPPORT13_REQUIRES_AT_LEAST_EIGHT_WEIGHT_GE4_FIBRES",
+    "support_size": 13,
+    "maximum_allowed_weight": 18,
+    "heavy_threshold": 4,
+    "required_heavy_vertices": 8,
+    "added_variables": 62,
+    "added_clauses": 281
+  },
+  "new_unsat_exclusions_claimed": 0,
+  "source_hashes": {
+    "research_round7/geometry/SUPPORT13_HEAVY_FIBRES.md": "d7b141bc35c2ecfef4a86245df4cedfb83db4b5b763c45dd88e1449639dd3a80",
+    "research_round7/geometry/heavy_fibre_cut.py": "9cb4b98079ef472a22503eccbc195cb6808845223f9df93caf6c390b716bf9bb",
+    "research_round7/geometry/verify_heavy_fibre_cut.py": "ce7855f2520a2e4759c4cfa6aca3bc6752a709c0c3974b584e41599ac1562d24",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba"
+  },
+  "seconds": 1.065155
+}

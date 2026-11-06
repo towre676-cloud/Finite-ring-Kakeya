@@ -1,0 +1,108 @@
+{
+  "status": "PASS_COMPLETE_FOUR_ROLE_MAXIMUM11_SUPPORT13_EXTENSION",
+  "scope": {
+    "dimension": 5,
+    "pair_active_support_size": 13,
+    "exact_maximum_fibre": 11,
+    "total_points_upper_bound": 93,
+    "ring_scope": "common necessary conditions for both Z/4Z and dual numbers"
+  },
+  "all_declared_roles_certified": true,
+  "checked_coverage": {
+    "declared_marked_roles": [
+      377850134,
+      411136406,
+      671697334,
+      2185856310
+    ],
+    "accepted_exact11_masks": [
+      377850134,
+      411136406,
+      671697334,
+      2185856310
+    ],
+    "accepted_distinct_marked_roles": 4,
+    "all_four_declared_roles_have_new_exact11_refutations": true,
+    "whole_55_case_support13_claimed": false,
+    "whole_weight_profiles_subtracted": 0,
+    "ring_scope": "common_necessary_relaxation_both_rings"
+  },
+  "proofs": [
+    {
+      "nonzero_support_mask": 377850134,
+      "inherited_affine_class": 109,
+      "case_id": "s13_T377850134_m11_heavy_cover_tetrahedral_first120",
+      "solve_seconds": 42.880983,
+      "original_complete_production_seconds": 88.665161,
+      "cnf_sha256": "e3133c3ef51eade40501b889d1343934bc7850d3de950f8b8b11e85ed5f2868b",
+      "original_proof_sha256": "fc18acb711d50d763ca2f55fbb403dd03a3748b45e43dc956fd0a987ab861454",
+      "core_sha256": "05a15f04d1d9d7e573e2613976e007aed5b32f40211d464a500d453b017a0dc6",
+      "core_xz_bytes": 5168160,
+      "status": "FRESH_COMPACT_CAKEML_ACCEPTANCE_AGAINST_EXACT_ORIGINAL_CNF"
+    },
+    {
+      "nonzero_support_mask": 411136406,
+      "inherited_affine_class": 111,
+      "case_id": "s13_T411136406_m11_heavy_cover_tetrahedral_first120",
+      "solve_seconds": 53.699589,
+      "original_complete_production_seconds": 129.837033,
+      "cnf_sha256": "aad8ef436be7d831d4900063003df5d399ff48d141393fd2a5aa7861b6c268bb",
+      "original_proof_sha256": "f0a702407eea984cfd22636d7fa3c677dab54262abb7b99251ec057daca1d067",
+      "core_sha256": "abc33e70e97e7ebcc59cd847719cde3a32d75664197811f134bf96e088080f3d",
+      "core_xz_bytes": 7068800,
+      "status": "FRESH_COMPACT_CAKEML_ACCEPTANCE_AGAINST_EXACT_ORIGINAL_CNF"
+    },
+    {
+      "nonzero_support_mask": 671697334,
+      "inherited_affine_class": 110,
+      "case_id": "s13_T671697334_m11_heavy_cover_tetrahedral_first120",
+      "solve_seconds": 65.127188,
+      "original_complete_production_seconds": 144.703489,
+      "cnf_sha256": "8605c1a792483ac29ef3b08e9708a8cd39463ac610c51c9ca9b6b7f110e236d3",
+      "original_proof_sha256": "61768c397f177786561622096f0de8005275ebe3eb90f4c5f474699d509f07a8",
+      "core_sha256": "9a3e8c7955500b26599800ad66ba55ca1be6ed562ff4fd279a618cea18dd6131",
+      "core_xz_bytes": 8484268,
+      "status": "FRESH_COMPACT_CAKEML_ACCEPTANCE_AGAINST_EXACT_ORIGINAL_CNF"
+    },
+    {
+      "nonzero_support_mask": 2185856310,
+      "inherited_affine_class": 110,
+      "case_id": "s13_T2185856310_m11_heavy_cover_tetrahedral_first120",
+      "solve_seconds": 89.963632,
+      "original_complete_production_seconds": 192.153064,
+      "cnf_sha256": "3d197cdcc997a5079f73d918d561e086d43eb472f530910161c143911baec15e",
+      "original_proof_sha256": "b6fcda851c7c66b2bab1a6c2ef67dda6ce48ac425e64056ffac1d034fb3521ea",
+      "core_sha256": "037788adbe87c2fe07cb82805d6503ebe16ce9aa61d00585ca31b7df48deeffc",
+      "core_xz_bytes": 10259152,
+      "status": "FRESH_COMPACT_CAKEML_ACCEPTANCE_AGAINST_EXACT_ORIGINAL_CNF"
+    }
+  ],
+  "new_middle_weight_profiles_subtracted": 0,
+  "inherited_reconciliation": {
+    "requires": "Round7 complete marked/unmarked transport map and previously checked maximum11 exclusions",
+    "newly_closed_affine_classes": [
+      109,
+      110,
+      111
+    ],
+    "previous_maximum11_affine_class_count": 45,
+    "resulting_maximum11_affine_class_count": 42,
+    "support13_maximum11_slice_closed_with_inherited_results": true,
+    "dimension5_minimum94_established": false
+  },
+  "source_and_receipt_hashes": {
+    "research_round8/strengthened/FROZEN_SOURCES.json": "9b1bab5e9ed13570cce52536f9f61077eb02a88cfbbb1cb5fed324ba5ce7bfa6",
+    "research_round8/strengthened/CERTIFICATE_MANIFEST.json": "648578dab0d8b985afee7a9fe6757cc4d192ba2375fa339a62c358465d6a764f",
+    "research_round8/strengthened/compact/COMPACT_CERTIFICATE_MANIFEST.json": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+    "research_round8/strengthened/compact/COMPACT_CERTIFICATE_REPLAY.json": "429d3cee0ffd86653f8c04e8793dbd8b0a4453a0151ce5919661a28048dda8fb",
+    "research_round8/strengthened/compact/ARCHIVE_PAYLOAD_PLAN.json": "b9b17e6c8e4476ebaf0bfd4ddbe840c7499163666dcc6c18ee22dba32d2d3b51"
+  },
+  "original_compressed_proof_bytes": 102007884,
+  "compact_compressed_proof_bytes": 30980380,
+  "fresh_compact_case_replay_seconds": 204.276103,
+  "combined_compaction_and_replay_seconds": 649.081426,
+  "stronger_eleven_heavy_cut_used_in_these_formulas": false,
+  "new_hyperplane_or_Q211_pair_space_cuts_used": false,
+  "encoder_formalized": false,
+  "all_search_and_checker_jobs_finished": true
+}

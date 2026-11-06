@@ -1,0 +1,548 @@
+{
+  "status": "PASS",
+  "scope": "Full residual middle inventory after the frozen276267-profile baseline, both rings.",
+  "input_profiles": 276267,
+  "new_whole_profile_exclusions": 512,
+  "remaining_weight_profiles": 275755,
+  "light_endpoint_rows_recomputed": 2726,
+  "local_row_keys": 9003,
+  "integer_price_histogram": {
+    "2": 33,
+    "4": 138,
+    "6": 161,
+    "8": 124,
+    "10": 56
+  },
+  "supports": [
+    {
+      "support": 10,
+      "input_profiles": 3220,
+      "new_cuts": 0,
+      "remaining_profiles": 3220
+    },
+    {
+      "support": 11,
+      "input_profiles": 24708,
+      "new_cuts": 0,
+      "remaining_profiles": 24708
+    },
+    {
+      "support": 12,
+      "input_profiles": 61048,
+      "new_cuts": 0,
+      "remaining_profiles": 61048
+    },
+    {
+      "support": 13,
+      "input_profiles": 86075,
+      "new_cuts": 162,
+      "remaining_profiles": 85913
+    },
+    {
+      "support": 14,
+      "input_profiles": 76019,
+      "new_cuts": 154,
+      "remaining_profiles": 75865
+    },
+    {
+      "support": 15,
+      "input_profiles": 20584,
+      "new_cuts": 93,
+      "remaining_profiles": 20491
+    },
+    {
+      "support": 16,
+      "input_profiles": 4150,
+      "new_cuts": 74,
+      "remaining_profiles": 4076
+    },
+    {
+      "support": 17,
+      "input_profiles": 463,
+      "new_cuts": 29,
+      "remaining_profiles": 434
+    }
+  ],
+  "records": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "input": 178,
+      "cuts": 0,
+      "remaining": 178
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "input": 332,
+      "cuts": 0,
+      "remaining": 332
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "input": 528,
+      "cuts": 0,
+      "remaining": 528
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "input": 581,
+      "cuts": 0,
+      "remaining": 581
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "input": 615,
+      "cuts": 0,
+      "remaining": 615
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "input": 554,
+      "cuts": 0,
+      "remaining": 554
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "input": 432,
+      "cuts": 0,
+      "remaining": 432
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "input": 1600,
+      "cuts": 0,
+      "remaining": 1600
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "input": 2488,
+      "cuts": 0,
+      "remaining": 2488
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "input": 3739,
+      "cuts": 0,
+      "remaining": 3739
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "input": 4029,
+      "cuts": 0,
+      "remaining": 4029
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "input": 5153,
+      "cuts": 0,
+      "remaining": 5153
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "input": 4395,
+      "cuts": 0,
+      "remaining": 4395
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "input": 3304,
+      "cuts": 0,
+      "remaining": 3304
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "input": 5249,
+      "cuts": 0,
+      "remaining": 5249
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "input": 7224,
+      "cuts": 0,
+      "remaining": 7224
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "input": 10044,
+      "cuts": 0,
+      "remaining": 10044
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "input": 9994,
+      "cuts": 0,
+      "remaining": 9994
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "input": 12242,
+      "cuts": 0,
+      "remaining": 12242
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "input": 9547,
+      "cuts": 0,
+      "remaining": 9547
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "input": 6748,
+      "cuts": 0,
+      "remaining": 6748
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "input": 10239,
+      "cuts": 19,
+      "remaining": 10220
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "input": 12058,
+      "cuts": 25,
+      "remaining": 12033
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "input": 15668,
+      "cuts": 20,
+      "remaining": 15648
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "input": 13670,
+      "cuts": 17,
+      "remaining": 13653
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "input": 16306,
+      "cuts": 27,
+      "remaining": 16279
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "input": 11192,
+      "cuts": 26,
+      "remaining": 11166
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "input": 6942,
+      "cuts": 28,
+      "remaining": 6914
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "input": 12886,
+      "cuts": 14,
+      "remaining": 12872
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "input": 11691,
+      "cuts": 14,
+      "remaining": 11677
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "input": 15433,
+      "cuts": 23,
+      "remaining": 15410
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "input": 10862,
+      "cuts": 20,
+      "remaining": 10842
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "input": 14065,
+      "cuts": 22,
+      "remaining": 14043
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "input": 7454,
+      "cuts": 15,
+      "remaining": 7439
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "input": 3628,
+      "cuts": 46,
+      "remaining": 3582
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "input": 5397,
+      "cuts": 7,
+      "remaining": 5390
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "input": 3009,
+      "cuts": 7,
+      "remaining": 3002
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "input": 4211,
+      "cuts": 17,
+      "remaining": 4194
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "input": 2196,
+      "cuts": 11,
+      "remaining": 2185
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "input": 4127,
+      "cuts": 17,
+      "remaining": 4110
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "input": 1241,
+      "cuts": 7,
+      "remaining": 1234
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "input": 403,
+      "cuts": 27,
+      "remaining": 376
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "input": 1265,
+      "cuts": 5,
+      "remaining": 1260
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "input": 516,
+      "cuts": 4,
+      "remaining": 512
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "input": 782,
+      "cuts": 12,
+      "remaining": 770
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "input": 381,
+      "cuts": 7,
+      "remaining": 374
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "input": 929,
+      "cuts": 22,
+      "remaining": 907
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "input": 221,
+      "cuts": 12,
+      "remaining": 209
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "input": 56,
+      "cuts": 12,
+      "remaining": 44
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "input": 156,
+      "cuts": 5,
+      "remaining": 151
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "input": 49,
+      "cuts": 3,
+      "remaining": 46
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "input": 92,
+      "cuts": 6,
+      "remaining": 86
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "input": 48,
+      "cuts": 6,
+      "remaining": 42
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "input": 100,
+      "cuts": 5,
+      "remaining": 95
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "input": 17,
+      "cuts": 3,
+      "remaining": 14
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "input": 1,
+      "cuts": 1,
+      "remaining": 0
+    }
+  ],
+  "new_empty_weight_cells": [
+    {
+      "support": 17,
+      "maximum": 18
+    }
+  ],
+  "new_support_theorem": "Dimension5, both rings, |K|<=93 and exact maximum18 imply pair-active support<=16, combining the earlier support>=18 exclusions.",
+  "boundary_certificate": {
+    "support": 17,
+    "maximum": 18,
+    "price": 10,
+    "upper_doubled": 94,
+    "weights": [
+      18,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7,
+      6,
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "light_rows": [
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ],
+      [
+        2,
+        8,
+        18
+      ]
+    ]
+  },
+  "optimization_scope": "Complete nonnegative-real one-distinguished-heavy price family: optimum equals sum inactive bounds plus the three largest positive active gains; an integer price in0..31 attains it.",
+  "inherited_scope": "All other middle56-cell inventory data is retained as a frozen preceding stage. The other55 cells remain nonempty.",
+  "dependencies": {
+    "research_round4/middle_inventory/screen_priced_nine.cpp": "b894ba82dae3bbd11d032c29c21baa53d105f17d61b0a114249c9e851ab19502",
+    "research_round4/middle_inventory/PRICED_NINE_HEAVY_CUTS.jsonl": "3c787b6567639257161912670dca7a56a7560d0f335623396ba7afd12db89640",
+    "research_round4/middle_inventory/PRICED_NINE_PRODUCER_COUNTS.json": "df6591b195b62993c1eab7fc37d1c96041b05bcb763b350944d008ab44a3626e",
+    "research_round4/middle_inventory/after_cube_weight_survivors.txt": "1cb90fa5f6e477ba452266cd00f2d823eb43c82a6aa81a03c1720bc1d9b6c768",
+    "research_round4/middle_inventory/after_priced_nine_survivors.txt": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "research_round4/middle_inventory/MIDDLE_COMPLETE_INVENTORY.json": "7a9c03ba0e1e4cbf21fe7c3231aa1ccb693d0c15fd6547313b87f49a99c56c8c",
+    "research_round4/middle_inventory/verify_priced_nine.py": "468b358df11e23445c17131e091644e9275d53af7179b88355ce16beeb7b4135",
+    "research_round3/middle/RESOURCE_COMPATIBILITY_LEMMAS.md": "f696a11c0aad30df7b2734be13c662c2869fc1ca0a35df382b44296092722046",
+    "research_round2/middle/DIFFERENCE_AND_LIGHT_RESOURCE_LEMMAS.md": "4010bff366d52a7a5462672cc3338e56aef4b644a0ee48887e1cad63664cbff0"
+  },
+  "seconds": 3.28766550799628
+}

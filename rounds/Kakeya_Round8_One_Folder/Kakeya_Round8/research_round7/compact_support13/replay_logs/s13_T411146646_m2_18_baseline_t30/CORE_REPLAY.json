@@ -1,0 +1,58 @@
+{
+  "case_id": "s13_T411146646_m2_18_baseline_t30",
+  "status": "PASS_EXACT_ORIGINAL_CNF_AND_PORTABLE_CAKEML_PROOF",
+  "nonzero_support_mask": 411146646,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "representation": "COMPACT_DRAT",
+  "original_round7_drat_read": false,
+  "formula_regeneration": {
+    "variables": 45236,
+    "clauses": 408201,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "a424eecde666586f9a251b4648b9c39de6ed7233627c7cffa1a3f4c360194935"
+  },
+  "cnf_sha256": "a424eecde666586f9a251b4648b9c39de6ed7233627c7cffa1a3f4c360194935",
+  "checked_proof_sha256": "d4eaae1cab1a23379dd19d484c3dc471b215553b20d913e623716558a259ae1b",
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 45236,
+      "clauses": 408201
+    },
+    "input_sha256": {
+      "cnf": "a424eecde666586f9a251b4648b9c39de6ed7233627c7cffa1a3f4c360194935",
+      "drat": "d4eaae1cab1a23379dd19d484c3dc471b215553b20d913e623716558a259ae1b"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 4.527516,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "74dcf35eef32152322a568c24e9fb85805674620500ef7dfceb785585abc10a1",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "aff2474ffb8b61f1d0e3b46ea51ed731caccd17a1e49f5f0e9fc72922bc72d3d",
+    "lrat_bytes": 95850219,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 3.925169,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 10.263913
+}

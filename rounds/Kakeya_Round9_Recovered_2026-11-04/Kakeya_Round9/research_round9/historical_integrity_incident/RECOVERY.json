@@ -1,0 +1,9 @@
+{
+  "original_full_sha256": "1ee61b8cd3ed91da17b2248ed8889a648ab6707f517c48aac72be5c7757805a5",
+  "recovered_prefix_sha256": "1f854be9024d4d0d1a9f424a077270d1a1bee46cfec81dc76107b8f31ff560ca",
+  "full_bytes": 7237210,
+  "prefix_bytes": 4766046,
+  "comparison": "BOTH_MATCH_ORIGINAL_HASHES_RECORDED_IN_TOOL_OUTPUT",
+  "exclusion_credited": false,
+  "cause_of_original_truncation": "UNDETERMINED"
+}

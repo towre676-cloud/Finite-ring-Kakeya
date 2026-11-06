@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "theorem": "n>=6, full hub, all outer fibres<=12 => |K|>=3*2^n-2; equality exactly generalized stars",
+  "spectrum_census_sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+  "census_completeness_dependency": "research_round2/root/ROOT_VERIFIED_PAIR_SPECTRUM_CENSUS.json",
+  "dimension_free_energy_maxima": {
+    "2": 1,
+    "3": 3,
+    "4": 12,
+    "5": 16,
+    "6": 33,
+    "7": 63,
+    "8": 112,
+    "9": 120,
+    "10": 153,
+    "11": 211,
+    "12": 300
+  },
+  "attaining_F2_5_sets": {
+    "2": [
+      0,
+      1
+    ],
+    "3": [
+      0,
+      1,
+      2
+    ],
+    "4": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "5": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "6": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "7": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "8": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "9": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "10": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "11": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "12": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "small_z_rows": [
+    {
+      "low_residues": 2,
+      "excess_budget": 4,
+      "energy_gain_upper": 14,
+      "required_at_N64": 67,
+      "strict_gap": 53,
+      "restricted_energies": {
+        "2": 1,
+        "3": 2,
+        "4": 8,
+        "5": 8,
+        "6": 13,
+        "7": 18,
+        "8": 32,
+        "9": 32,
+        "10": 41,
+        "11": 50,
+        "12": 72
+      }
+    },
+    {
+      "low_residues": 3,
+      "excess_budget": 6,
+      "energy_gain_upper": 47,
+      "required_at_N64": 132,
+      "strict_gap": 85,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 12,
+        "6": 17,
+        "7": 27,
+        "8": 48,
+        "9": 48,
+        "10": 57,
+        "11": 75,
+        "12": 108
+      }
+    },
+    {
+      "low_residues": 4,
+      "excess_budget": 8,
+      "energy_gain_upper": 74,
+      "required_at_N64": 197,
+      "strict_gap": 123,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 13,
+        "6": 21,
+        "7": 36,
+        "8": 64,
+        "9": 64,
+        "10": 73,
+        "11": 91,
+        "12": 133
+      }
+    },
+    {
+      "low_residues": 5,
+      "excess_budget": 10,
+      "energy_gain_upper": 157,
+      "required_at_N64": 262,
+      "strict_gap": 105,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 14,
+        "6": 25,
+        "7": 45,
+        "8": 80,
+        "9": 80,
+        "10": 89,
+        "11": 107,
+        "12": 158
+      }
+    },
+    {
+      "low_residues": 6,
+      "excess_budget": 12,
+      "energy_gain_upper": 193,
+      "required_at_N64": 327,
+      "strict_gap": 134,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 15,
+        "6": 29,
+        "7": 54,
+        "8": 96,
+        "9": 96,
+        "10": 105,
+        "11": 123,
+        "12": 183
+      }
+    },
+    {
+      "low_residues": 7,
+      "excess_budget": 14,
+      "energy_gain_upper": 239,
+      "required_at_N64": 392,
+      "strict_gap": 153,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 112,
+        "10": 121,
+        "11": 139,
+        "12": 208
+      }
+    },
+    {
+      "low_residues": 8,
+      "excess_budget": 16,
+      "energy_gain_upper": 343,
+      "required_at_N64": 457,
+      "strict_gap": 114,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 120,
+        "10": 137,
+        "11": 155,
+        "12": 233
+      }
+    },
+    {
+      "low_residues": 9,
+      "excess_budget": 18,
+      "energy_gain_upper": 409,
+      "required_at_N64": 522,
+      "strict_gap": 113,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 120,
+        "10": 153,
+        "11": 171,
+        "12": 258
+      }
+    },
+    {
+      "low_residues": 10,
+      "excess_budget": 20,
+      "energy_gain_upper": 564,
+      "required_at_N64": 587,
+      "strict_gap": 23,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 120,
+        "10": 153,
+        "11": 187,
+        "12": 283
+      }
+    },
+    {
+      "low_residues": 11,
+      "excess_budget": 22,
+      "energy_gain_upper": 609,
+      "required_at_N64": 652,
+      "strict_gap": 43,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 120,
+        "10": 153,
+        "11": 203,
+        "12": 300
+      }
+    },
+    {
+      "low_residues": 12,
+      "excess_budget": 24,
+      "energy_gain_upper": 630,
+      "required_at_N64": 717,
+      "strict_gap": 87,
+      "restricted_energies": {
+        "2": 1,
+        "3": 3,
+        "4": 12,
+        "5": 16,
+        "6": 33,
+        "7": 63,
+        "8": 112,
+        "9": 120,
+        "10": 153,
+        "11": 211,
+        "12": 300
+      }
+    }
+  ],
+  "large_z_cutoff": 13,
+  "large_z_N_upper": "3817/60 <64",
+  "scope": "Exact finite controls plus the separate analytic proof; no unrestricted Kakeya claim."
+}

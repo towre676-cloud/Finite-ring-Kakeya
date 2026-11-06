@@ -1,0 +1,1 @@
+{"ring": "D2", "n": 3, "m": 21, "status": "UNSAT", "seconds": 58.24, "solver": "cadical195"}

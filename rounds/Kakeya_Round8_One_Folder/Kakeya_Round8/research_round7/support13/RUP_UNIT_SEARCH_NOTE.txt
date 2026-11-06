@@ -1,0 +1,78 @@
+Redundant search units, with a proof against the unchanged formula
+================================================================
+
+The fixed-maximum joint encoder still represents the hub's known weight
+through spectrum selectors. In a fixed maximum18 case, each of the first
+18 hub weight bits is logically true. Its defining clauses say that it is
+the OR of all eligible hub spectrum selectors. That truth need not be
+exposed immediately by unit propagation before a spectrum is selected.
+The same issue affects the first two weight bits of every outer fibre.
+
+A simple resolution rule exposes such constants. Suppose the original
+formula contains a positive clause z1 OR ... OR zk, and every zi implies
+u through a binary clause (-zi OR u). Then u is entailed. Adding u is a
+reverse-unit-propagation step: assuming -u forces all zi false and
+contradicts their original positive clause.
+
+rup_unit_solver.py finds common binary consequences of positive clauses,
+including identity implications. It gives the original formula plus the
+derived units to an untrusted CaDiCaL search. It then concatenates the
+exact unit clauses as a DRAT prefix with that search's ordinary textual
+DRAT output. The production and replay checkers validate this concatenated
+proof against the ORIGINAL exact CNF, whose bytes remain unchanged.
+
+Consequently the preprocessing algorithm is not a new mathematical trust
+assumption. A faulty transformation cannot silently establish a theorem:
+the final certificate must still refute the original necessary-condition
+formula. The optional wrapper is a search aid, not a strengthened encoder.
+Portable proof replay does not execute the wrapper or any SAT solver.
+
+First result
+------------
+
+For marked support Tmask10069398 and exact maximum18, the wrapper exposed
+47 redundant search units. The solve completed in 23.834041 seconds.
+DRAT-trim reconstructed LRAT and the pinned CakeML checker accepted it
+against the unchanged original CNF. The complete solve/check/compression
+pipeline took 59.131687 seconds. This excludes that support/maximum case
+in both rings under the documented common necessary-condition encoding.
+
+The earlier unaugmented search on the same exact CNF timed out at twenty
+seconds. These unequal limits do not establish a search-speed improvement.
+The certificate is useful regardless of whether a longer unaugmented run
+would also have succeeded.
+
+The delivered case contains input.cnf.xz, proof.drat.xz, the exact prefix
+rup_unit_prefix.txt, and rup_unit_preprocessing.txt, which is JSON with all
+units and their original-clause witnesses. The collection manifest binds
+the prefix and metadata hashes to the original CNF and complete proof.
+
+Validation and process supervision
+----------------------------------
+
+The finite unit-discovery check exhausts all sixteen assignments on each
+of one thousand reproducibly generated four-variable formulas. Every
+derived unit holds on every original satisfying assignment. Separate
+checker controls accept a correctly prefixed refutation, reject an
+augmented-only empty proof against the original formula, and reject a
+wrong-unit refutation of a satisfiable formula. These controls themselves
+claim no Kakeya exclusion.
+
+The current producer starts a separate process group and becomes a Linux
+child subreaper. Time and size limits stop the complete group, including
+the wrapper's CaDiCaL child. Every live DRAT stream is counted, including
+search_solver.drat before concatenation. Publication waits until the
+direct process and adopted descendants are joined and the process group
+is absent. Controls explicitly exercise a growing grandchild trace, a
+parent that exits leaving a writer, and a wall timeout; no writer remains.
+
+The original producer revision is retained in producer_snapshots solely
+as historical provenance. Use the current certify_support13.py for new
+searches. Concurrent disjoint batches must choose distinct --worker and
+--tag values so their checker build outputs and progress receipts do not
+collide. Completed case files remain immutable.
+
+Example (provided solver path exists):
+
+    python3 research_round7/support13/certify_support13.py --lower 18 --upper 18 --mask 360808918 --limit 60 --tag rup_trial60 --worker rup_trial --solver /absolute/path/to/research_round7/support13/rup_unit_solver.py
+

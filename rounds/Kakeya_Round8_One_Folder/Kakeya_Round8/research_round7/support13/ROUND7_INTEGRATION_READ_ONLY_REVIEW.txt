@@ -1,0 +1,78 @@
+ROUND 7 INTEGRATION REVIEW
+
+Reviewed VERIFY_ROUND7.py, research_round7/bind_completed_replays.py,
+research_round7/merge_round7.py, README_Round7.txt, and
+research_round7/NEXT_ATTACK.txt. This is a limited model-agent source and
+accounting review, not a fresh proof-checker execution or independent
+human review. Only files in the reviewer's support13 directory were saved.
+
+RESULT
+
+The reviewed integration source and accounting pass. All stage script
+paths exist and supplied flags are declared by their target parsers in
+the default, quick, receipt-reuse, and inherited-full-with-Lean modes.
+The actual expanded stage counts are 24, 24, 21 and 26 respectively.
+
+Two issues were found and repaired by the owner before this final review:
+
+1. Stale PASS receipts: the entrypoints now publish RUNNING before their
+   work and write FAIL on exceptions. The top-level orchestrator also
+   records launch/preflight failures. The repaired dimension4 compact
+   replay has separately controlled failures in both load and freeze.
+
+2. Exact-ring reuse binding: each replay row now matches its source
+   parameters and production status. UNSAT rows bind exact CNF/DRAT
+   checker inputs and CakeML acceptance. SAT witness files are hashed and
+   their literal ring geometry is rechecked. Timeouts explicitly grant no
+   proof credit. Support13 masks/intervals and dimension4 parameters are
+   also compared to their source rows.
+
+The repaired binding script was executed with publication redirected to
+memory. It successfully bound 18 exact-ring outcomes, all 48 support13
+proofs, and all 56 dimension4 outcomes to their completed full receipts.
+It did not run the proof checkers or write the global binding receipt.
+See INTEGRATION_BINDING_READ_ONLY_REPLAY.json.
+
+The binding and merge were then executed together with all publications
+redirected to memory. The merge produced 3,006 whole-profile exclusions,
+183,476 surviving middle profiles, 45 remaining maximum11 affine classes,
+and 28 complete support13 joint marked cases. Dimensions4 and5 remain
+open. See INTEGRATION_MERGE_READ_ONLY_REPLAY.json.
+
+Independent read-only subtraction of source lines agrees exactly:
+186,482 - 3,006 = 183,476. No partial marked-support coverage is deducted
+from the whole-profile list. Maximum11 class105 is removed only because
+all its required largest-fibre roles are covered. The dimension4 receipt
+also matches the document's claim: all marked supports of sizes6,7,8 and
+two of six size9 classes are closed in both rings, totaling14 ring cases;
+the other42 cases remain uncertified.
+
+REPLAY MUTATIONS AND PACKAGING BOUNDARY
+
+The replay stages read the frozen encoder sources, certificate receipts,
+CNFs and proof payloads. Their output consists of replay logs/receipts and
+deterministically regenerated finite tables or ledgers. The support13
+hub-marking stage uses the read-only map replay, not its original producer.
+No frozen encoder or proof-payload mutation was found in the inspected
+replay paths.
+
+Inherited Round5/6 replay scripts do overwrite their historical replay
+logs/receipts in the working directory. The parent explicitly states that
+the delivered inherited payload will be copied directly from the sealed
+Round6 archive, preserving its bytes, with new integration logs retained
+separately. This review did not run the archive builder or verify the final
+ZIP. The archive manifest/helper were still a pending assembly step when
+the review began; their final verification remains the packaging gate.
+
+DOCUMENTATION NOTES SENT TO OWNER
+
+README's option spelling must be '--jobs 1', not '--jobs1'; the Python
+optimization flag is 'Python -O'. The displayed principal replay commands
+otherwise match the CLIs. The NEXT_ATTACK file is correctly located under
+research_round7, as specified in the reading order. Its proposed future
+cuts remain explicitly uncredited, and the remaining research targets
+remain open.
+
+No SAT searches, complete proof-checker replays, or frozen-input mutations
+were performed by this review. The reported full checker acceptances are
+bound evidence from the separate completed replay collections.

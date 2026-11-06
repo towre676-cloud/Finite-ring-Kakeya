@@ -1,0 +1,30 @@
+{
+  "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY",
+  "scope": "Exact maximum11, support16, |K|<=93, both rings in dimension5.",
+  "new_whole_affine_support_class_exclusions": [
+    177,
+    187,
+    198,
+    201,
+    202,
+    203
+  ],
+  "remaining_affine_support_classes": 46,
+  "remaining_counts_by_support": {
+    "13": 4,
+    "14": 9,
+    "15": 16,
+    "16": 17
+  },
+  "normalized_partitions": 20477,
+  "exact_assignment_dual_certificates": 17986,
+  "valid_assignment_edge_inequalities": 4533928,
+  "review": "Root read the complete proof and verifier and reran the exact chain. The new ten-heavy, sum-free, and cube graph bounds are valid. A unique support edge forces a period in a weight8 fibre; its active energy is then at most64 whenever the frozen envelope is70. Every assignment dual and all23-by782 assignments were checked. The inherited minimum weights and local envelopes remain explicit dependencies.",
+  "stable_source_hashes": {
+    "research_sources/extracted/Kakeya_Reconciled_Proofs_2026-10-27/late_parallel_2214/extracted/m11_directional/inputs/CAP11_STRUCTURAL_REDUCTION.json": "e243b21e7496c1c271192b81987a68e3133da0ede8782d3d5ec2b5c50f9da52b",
+    "research_round3/m11/s16/verify_s16_checkpoint.py": "1e97563394958d6c68c40c1dfd61253f8fabe075a8d7e3a5fc14ad8f4fe9f6b7",
+    "research_round3/m11/s16/S16_EXACT_CHECKPOINT.json": "d9bdae0d2acdb67a532faf918ac1092f431a3fcf8525d37b8171b0691cd010ec",
+    "research_round3/m11/s16/S16_ASSIGNMENT_DUAL_CERTIFICATES.json": "c980171c964b01d6032cc279863a97da63cbf3a04638cee5bea6899467a5c273",
+    "research_round3/m11/s16/M11_SIX_SUPPORT16_CLASS_EXCLUSIONS.md": "dbdf032a6f6467387d4d81d0588facb56a57eacf389a4d5b0404073043b6545a"
+  }
+}

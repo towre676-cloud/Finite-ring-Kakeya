@@ -1,0 +1,47 @@
+{
+  "case_id": "m2_18_s12_orbit91_hub0",
+  "source_kind": "joint",
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "total_upper_bound": 93,
+  "marked_support": {
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      15,
+      16,
+      23,
+      24,
+      25,
+      26,
+      28
+    ],
+    "distinguished_hub": 0,
+    "affine_map_to_contract": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "cnf_sha256": "4fd963ef0ed42638d53b433a7dfaf5556a7cf08aa0dd70fef678cb53fb448de4",
+  "expected_lrat_sha256": "346aa0ceda16fc45381793abdeb3aa984f1bdc0b281df89e1dd3ddfc06655775",
+  "source_core_sha256": "21385078bd66da7d74da94f067fc823935e6c8f810244f437cc159e9830b0764",
+  "source_core_bytes": 2255284752,
+  "source_core_compressed_sha256": "26fa9ca439da58aa64eaea31ea6102943ce6613567c99930decbd3af2318042d",
+  "drat_sha256": "ebbc74ee32c04474925595350f309aee8ff3e7a158fce1a91bbb378c378a648c",
+  "drat_bytes": 201024046,
+  "compressed_sha256": "dd68e2aed2d3e133710fe92ed8d4c0cd609e10db8dc262b1561fc253f8569363",
+  "compressed_bytes": 28977672,
+  "cnf": "../joint_maxima/cases/m2_18_s12_orbit91_hub0/input.cnf",
+  "proof": "cases/m2_18_s12_orbit91_hub0/proof.drat.xz",
+  "receipt": "cases/m2_18_s12_orbit91_hub0/CASE_RECEIPT.json",
+  "receipt_sha256": "a1a6cd5a74d22cefd8f07a1de142a8a6e528c0b6ae09ab8b348caf715b114ca3"
+}

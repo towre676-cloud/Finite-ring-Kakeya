@@ -1,0 +1,59 @@
+TWO MINIMUM IMAGES SUFFICE WHEN ONE IS AN ADDITIVE COSET
+27 October 2026. Conditional all-dimension theorem.
+
+Setup. R is Z/4Z or F2[e]/(e^2), G=R^n, pi is 2 or e, N=2^n,
+and S_t=(f+t Id)(G), K_f=union_t S_t for any f:G->G.
+
+THEOREM. Suppose two unit-separated images S_s,S_t each have N
+points, and at least one of those two images is an additive coset.
+Then |K_f|>=3N-2. The other two images need not have size N or
+be additive cosets, and f need not be additive.
+
+Preliminary subgroup-transversal lemma.
+Let A,C be subgroups of a finite abelian group G of order N^2,
+with |A|=N and |C|=2N, and let B be an N-point transversal for A
+containing 0. Put h=|A intersect C|. Then
+
+    |A union B union C| >= 3N-2.
+
+Indeed, C meets exactly |C|/h=2N/h cosets of A. Since B has at
+most one point in each, |B intersect C|<=min(N,2N/h). Also
+A intersect B={0}, and this point lies in C. Therefore
+
+  |A union B union C|
+    =4N-h-|B intersect C|
+    >=4N-h-min(N,2N/h).
+
+For h=1, the final expression is at least 3N-1. For 2<=h<=N,
+h+2N/h<=N+2, equivalently (h-2)(h-N)<=0. This proves the lemma.
+
+Main proof.
+An affine permutation of the parameter t, accompanied by a unit
+rescaling of the argument v, sends the specified unit-separated
+pair to parameters 0,1 and preserves the union of all four images.
+Translate by -f(0). We may therefore write A=S_0 and B=S_1,
+with |A|=|B|=N, A an additive subgroup, and 0 in both sets.
+
+The pair map v -> (f(v),f(v)+v) is a bijection onto A x B.
+Consequently the difference map (a,b)->b-a is bijective, B is a
+transversal for A, and
+
+    C=S_pi=(1-pi)A+pi B.
+
+The subgroup U=(1-pi)A has order N, and C is a union of U-cosets.
+Its cardinality is therefore a positive integer multiple of N.
+
+If |C|>=3N, the theorem is immediate. If |C|=N, there are three
+N-point images, so THREE_MINIMUM_IMAGES_THEOREM.txt applies.
+The remaining case is |C|=2N. Because 0 is in B, one of C's
+two U-cosets is U. Its other coset is U+h0 for some h0 in pi B.
+Every element of pi G has additive order at most two, so 2h0=0.
+It follows that U union (U+h0) is itself an additive subgroup.
+The preliminary lemma now applies to A,B,C and proves
+|K_f|>=|A union B union C|>=3N-2. QED.
+
+Scope. The remaining two-minimum-images case is a genuine exact
+factorization A x B -> G in which both A and B are noncosets.
+Nothing here reduces all factorizations to the coset case. Nor is
+it proved that an arbitrary smaller Kakeya set admits two minimum
+parameter images. This is an enlarged conditional theorem only.

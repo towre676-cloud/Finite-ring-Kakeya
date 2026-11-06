@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FOUR_PAIR_ENCODER_IDENTITY_AND_GATING_CONTROLS",
+  "gate_assignments_checked": 52,
+  "negative_controls_rejected": 5,
+  "eligible_census_types": [
+    {
+      "index": 20,
+      "weight": 8,
+      "rank_interval": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 59,
+      "weight": 11,
+      "rank_interval": [
+        4,
+        4
+      ]
+    }
+  ],
+  "disabled_wrapper_byte_identical": true,
+  "actual_case": {
+    "support_mask": 377850134,
+    "baseline_sha256": "ca72d55c08f7c7afc109ecd5f78dc909895bd07ced53e42d119c8ede92aa8042",
+    "disabled_sha256": "ca72d55c08f7c7afc109ecd5f78dc909895bd07ced53e42d119c8ede92aa8042",
+    "enabled_sha256": "397144bd1d9a106d334c0cb13e31b7efe2ebb78c4e65e0fa83410b97d2571fa5",
+    "extension": {
+      "enabled": true,
+      "eligible_spectrum_indices": [
+        20,
+        59
+      ],
+      "unique_direction_edges": [
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "conditional_edge_clauses": 1,
+      "new_variables": 1,
+      "new_clauses": 4
+    }
+  },
+  "source_sha256": "9a9141cc1be5fc68cb126b3cd00dc34b58ba54f4d93dc51687cbd2f2f4b32ba8",
+  "new_exclusions_credited_by_controls": 0,
+  "seconds": 1.235095
+}

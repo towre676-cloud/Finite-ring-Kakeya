@@ -1,0 +1,39 @@
+{
+  "status": "PASS_ARCHIVE_ONLY_ROUND8_PROOF_OMISSION_PLAN",
+  "compact_manifest_sha256": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+  "full_replay_receipt_sha256": "429d3cee0ffd86653f8c04e8793dbd8b0a4453a0151ce5919661a28048dda8fb",
+  "omit_from_archive_only": [
+    {
+      "path": "research_round8/strengthened/cases/s13_T2185856310_m11_heavy_cover_tetrahedral_first120/proof.drat.xz",
+      "sha256": "19b0fd2fd88e00cd949416f4ab770a1d7b06b6eeb40eafd61214ba32908020be",
+      "bytes": 34205120,
+      "replacement_core_sha256": "037788adbe87c2fe07cb82805d6503ebe16ce9aa61d00585ca31b7df48deeffc",
+      "replacement_xz_path": "research_round8/strengthened/compact/cases/s13_T2185856310_m11_heavy_cover_tetrahedral_first120/core.drat.xz"
+    },
+    {
+      "path": "research_round8/strengthened/cases/s13_T377850134_m11_heavy_cover_tetrahedral_first120/proof.drat.xz",
+      "sha256": "14805a71d79712b4d2addcb3591f92f329fe4076ee51a328fd2c6177c11858e6",
+      "bytes": 17685620,
+      "replacement_core_sha256": "05a15f04d1d9d7e573e2613976e007aed5b32f40211d464a500d453b017a0dc6",
+      "replacement_xz_path": "research_round8/strengthened/compact/cases/s13_T377850134_m11_heavy_cover_tetrahedral_first120/core.drat.xz"
+    },
+    {
+      "path": "research_round8/strengthened/cases/s13_T411136406_m11_heavy_cover_tetrahedral_first120/proof.drat.xz",
+      "sha256": "c55f1d314205d5675ffb2b095238ebc469562af0e73847cea82f19319eb8c87d",
+      "bytes": 24469392,
+      "replacement_core_sha256": "abc33e70e97e7ebcc59cd847719cde3a32d75664197811f134bf96e088080f3d",
+      "replacement_xz_path": "research_round8/strengthened/compact/cases/s13_T411136406_m11_heavy_cover_tetrahedral_first120/core.drat.xz"
+    },
+    {
+      "path": "research_round8/strengthened/cases/s13_T671697334_m11_heavy_cover_tetrahedral_first120/proof.drat.xz",
+      "sha256": "d0e2bb42acc4d30588abbc5c396eb0cf1e8c4d95cd28bd978dd963be97e86dcc",
+      "bytes": 25647752,
+      "replacement_core_sha256": "9a3e8c7955500b26599800ad66ba55ca1be6ed562ff4fd279a618cea18dd6131",
+      "replacement_xz_path": "research_round8/strengthened/compact/cases/s13_T671697334_m11_heavy_cover_tetrahedral_first120/core.drat.xz"
+    }
+  ],
+  "original_workspace_files_deleted": false,
+  "original_proof_xz_bytes": 102007884,
+  "replacement_core_xz_bytes": 30980380,
+  "retain": "Every original CNF, CASE_RECEIPT, semantic source/freeze, source manifest, RUP provenance, core and core receipt."
+}

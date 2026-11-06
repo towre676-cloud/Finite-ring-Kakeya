@@ -1,0 +1,41 @@
+{
+  "status": "ROOT_REVIEWED_AND_REPLAYED_ROUND4_CHECKPOINT",
+  "scope": "Analytic proofs reviewed within this model session; complete exact finite replays and separately written checkers; a pinned Lean finite-incidence/algebra module. No full formalization of the Kakeya reduction, external human review, or unrestricted theorem is claimed.",
+  "reviewed_analytic_proofs": [
+    "Energy12 rank split and equality classification",
+    "Cube master and same-spectrum refinement",
+    "Nine-heavy priced resource and continuous price optimum",
+    "Support17/maximum18 direct47<48 exclusion",
+    "Embedded-type LP, ring carries, and dimension-two parity obstruction"
+  ],
+  "fresh_root_replays": [
+    "Energy12 normalized enumeration",
+    "Complete pair-spectrum input census",
+    "2930 normalized nine-point difference checks",
+    "2163945-profile complete middle quota/geometric/joint-cube replay",
+    "Priced stage over276267 profiles",
+    "Separate priced-stage audit",
+    "Dimension-two exact type LP/ring verifier",
+    "Actual pinned Lean compilation and all13 axiom audits"
+  ],
+  "theorems_open": [
+    "Unrestricted dimension5 minimum94",
+    "Unrestricted dimension-n formula3*2^n-2"
+  ],
+  "middle_profiles": 275755,
+  "closed_cells": [
+    [
+      17,
+      18
+    ]
+  ],
+  "full_n5_type_LP_claimed_solved": false,
+  "monograph_word_count": 1500,
+  "important_source_hashes": {
+    "research_round4/energy12/ENERGY12_ANALYTIC_PROOF.md": "a407d3543f353249aa8d807f49b2c6315b9d6858ec2582ebf821725400e55af6",
+    "research_round4/middle_inventory/MIDDLE_FINAL_FRONTIER_AFTER_PRICING.json": "8868e71bca077cbff57b5852dd6b1c91b9814d7bd4f8b5c6ca5ffa03cc9400f5",
+    "research_round4/middle_inventory/after_priced_nine_survivors.txt": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "research_round4/optimization/TYPE_MODEL_AND_CERTIFICATES.md": "8c2f2fdba82d5ce1a33bec54bd0bdcd68e4ce70c016e60a13e8811b55dfe8f55",
+    "research_round4/lean/CubeMaster.lean": "abc2ee760fb09370e9961a80bc4d14209f5c7cf685cb3884e5b1ee2661d725a8"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "python_sat": "1.9.dev19",
+  "native_sha256": "78b7745aa59e7d1471032206d820715c2d5ca95fe8293ad2bd6eb114766b33e2",
+  "solver": "cadical195",
+  "trusted": false
+}

@@ -1,0 +1,1283 @@
+{
+  "status": "PASS_COMMON_NEIGHBOUR_BOUND_TWO",
+  "dimension": 5,
+  "V": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "W": [
+    0,
+    8,
+    16,
+    24
+  ],
+  "w": 8,
+  "u": 16,
+  "difference_set_F": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    24
+  ],
+  "F_is_sum_free": true,
+  "six_subsets_checked": 84,
+  "common_neighbour_count_histogram": {
+    "1": 77,
+    "2": 7
+  },
+  "maximum_common_neighbours": 2,
+  "translate_overlap_sets": {
+    "0": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      24
+    ],
+    "1": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "2": [
+      9,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "3": [
+      9,
+      10,
+      12,
+      13,
+      14,
+      15
+    ],
+    "4": [
+      9,
+      10,
+      11,
+      13,
+      14,
+      15
+    ],
+    "5": [
+      9,
+      10,
+      11,
+      12,
+      14,
+      15
+    ],
+    "6": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "7": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "8": [
+      16,
+      24
+    ],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [
+      9,
+      24
+    ],
+    "18": [
+      10,
+      24
+    ],
+    "19": [
+      11,
+      24
+    ],
+    "20": [
+      12,
+      24
+    ],
+    "21": [
+      13,
+      24
+    ],
+    "22": [
+      14,
+      24
+    ],
+    "23": [
+      15,
+      24
+    ],
+    "24": [],
+    "25": [
+      9,
+      16
+    ],
+    "26": [
+      10,
+      16
+    ],
+    "27": [
+      11,
+      16
+    ],
+    "28": [
+      12,
+      16
+    ],
+    "29": [
+      13,
+      16
+    ],
+    "30": [
+      14,
+      16
+    ],
+    "31": [
+      15,
+      16
+    ]
+  },
+  "all_six_subsets_and_common_neighbours": [
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "common_neighbours": [
+        0,
+        7
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        6
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        5
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        12,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        4
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        13,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        11,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        3
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        14,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        14,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        13,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        12,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        10,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        2
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        13,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        12,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        11,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        12,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        12,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        12,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        9,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "common_neighbours": [
+        0,
+        1
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        13,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        12,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        11,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        12,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        12,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        12,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        12,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        10,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        12,
+        13,
+        14,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        12,
+        13,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        12,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        11,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    },
+    {
+      "six_vertices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "common_neighbours": [
+        0
+      ]
+    }
+  ],
+  "analytic_corollary": "For any 12-set A in F_2^5, sum_{d in F} p_A(d) <= 35. Hence p_A(d)>=4 for all nine d in F is impossible.",
+  "analytic_corollary_reason": "Triangle freeness gives Mantel bound 36. Equality would give K_6,6, whose six vertices on one side would have six common neighbours, contradicting the verified bound two after translating a vertex on the other side to zero.",
+  "scope": "The finite check proves the stated common-neighbour bound for this explicit F. The accompanying hand proof gives GL_5(F_2) invariance, the structural derivation and the Mantel equality argument. No assertion about unavailable CNF files or complete Kakeya strata is made here.",
+  "source_sha256": "13cb78e7580382f7ab6913650c6a433b76ac2ffb567bfbb9a7fc3378555a14a0"
+}

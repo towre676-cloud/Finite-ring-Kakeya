@@ -1,0 +1,183 @@
+{"dual_stage": "PASS", "keys": 24644, "duals": 233525, "inequalities": 92294719, "seconds": 14.909397595998598}
+{
+  "status": "PASS",
+  "new_whole_weight_multiset_exclusions": 23400,
+  "by_support_and_maximum": [
+    {
+      "support": 15,
+      "maximum": 12,
+      "cuts": 3974
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "cuts": 2299
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "cuts": 3667
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "cuts": 2127
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "cuts": 3160
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "cuts": 1509
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "cuts": 645
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "cuts": 1154
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "cuts": 540
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "cuts": 980
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "cuts": 467
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "cuts": 1078
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "cuts": 325
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "cuts": 152
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "cuts": 187
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "cuts": 132
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "cuts": 210
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "cuts": 123
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "cuts": 286
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "cuts": 106
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "cuts": 43
+    },
+    {
+      "support": 18,
+      "maximum": 12,
+      "cuts": 33
+    },
+    {
+      "support": 18,
+      "maximum": 13,
+      "cuts": 19
+    },
+    {
+      "support": 18,
+      "maximum": 14,
+      "cuts": 57
+    },
+    {
+      "support": 18,
+      "maximum": 15,
+      "cuts": 25
+    },
+    {
+      "support": 18,
+      "maximum": 16,
+      "cuts": 68
+    },
+    {
+      "support": 18,
+      "maximum": 17,
+      "cuts": 13
+    },
+    {
+      "support": 18,
+      "maximum": 18,
+      "cuts": 2
+    },
+    {
+      "support": 19,
+      "maximum": 12,
+      "cuts": 3
+    },
+    {
+      "support": 19,
+      "maximum": 13,
+      "cuts": 3
+    },
+    {
+      "support": 19,
+      "maximum": 14,
+      "cuts": 7
+    },
+    {
+      "support": 19,
+      "maximum": 15,
+      "cuts": 3
+    },
+    {
+      "support": 19,
+      "maximum": 16,
+      "cuts": 3
+    }
+  ],
+  "local_matching_keys": 24644,
+  "spectrum_duals": 233525,
+  "verified_integer_inequalities": 92294719,
+  "minimum_gap_doubled": 2,
+  "dependencies": {
+    "pair_spectrum_census_sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+    "dual_sha256": "83920ce92abcf64a82244e8a808d2a18c270153e39b09097d0eeb39bbeb3849f",
+    "candidates_sha256": "169b9003c4bcf347cb54abb58d24726bb3b9f1e0508ee705db63cf5256585202"
+  },
+  "seconds": 17.126618326001335,
+  "scope": "New cuts relative to this round global quota screen; not counts from the old M19 census and not whole maximum-fibre closures."
+}

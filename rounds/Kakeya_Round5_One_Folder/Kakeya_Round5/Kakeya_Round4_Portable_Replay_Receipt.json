@@ -1,0 +1,125 @@
+{
+  "status": "PASS_ALL_ROUND4_FINITE_REPLAY_STEPS",
+  "scope": "All credited Round4 finite input checks, twelve-point enumeration, complete middle weight inventory, exact local certificates, and bounded type-model demonstrations. Analytic proofs are included separately; this is not a formal proof of the unrestricted theorem.",
+  "initial_manifest_sha256": "8dbaa22aae3a1e6eaed64c871193e1a771918e5bf1edf8968c7c32dd30bf6631",
+  "initial_payload_files_verified": 478,
+  "python_version": "3.12.14",
+  "monograph_whitespace_words": 1500,
+  "report_whitespace_words": 3073,
+  "round3_replayed_in_this_run": false,
+  "inherited_round3_receipt": "Kakeya_Round3_Portable_Replay_Receipt.json",
+  "lean_replayed_in_this_run": false,
+  "lean_status": "NOT_RERUN_BY_PORTABLE_FINITE_RUNNER",
+  "included_separate_lean_receipt": "research_round4/lean/LEAN_REPLAY_RECEIPT.json",
+  "included_separate_lean_receipt_sha256": "1b048c2148b36325545e579388da44ff4b5ea1a98d73c14b985fddb53a7f3e02",
+  "included_separate_lean_theorems": 13,
+  "lean_scope_limit": [
+    "Actual binary sets, pair counting, affine planes, and the Q identity.",
+    "The twelve-point energy theorem.",
+    "Geometric construction of incidence injections, quotient capacities, triangle geometry, and Mantel.",
+    "Profile-specific energy/gain bounds, exhaustive support reductions, and unrestricted Kakeya."
+  ],
+  "network_or_installation_requested": false,
+  "steps": [
+    {
+      "name": "input_spectrum_and_nine_residue_replay",
+      "script": "research_round4/root/verify_round4_inputs.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 2.503,
+      "log": "verification_logs_round4/input_spectrum_and_nine_residue_replay.txt",
+      "log_sha256": "4e0a24f561af031f10928bd25294ccebc27b5ea13f92993122f6c8527799c1b2"
+    },
+    {
+      "name": "inherited_exact_spectrum_certificates",
+      "script": "research_round2/middle/verify_global_spectrum_cuts.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 17.238,
+      "log": "verification_logs_round4/inherited_exact_spectrum_certificates.txt",
+      "log_sha256": "efc2a557aa6b11dce1f3f9bbc1cc94f6643b031355ab095ea9f3f751d97aa0a3"
+    },
+    {
+      "name": "twelve_point_energy_independent_enumeration",
+      "script": "research_round4/energy12/replay_energy12.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.793,
+      "log": "verification_logs_round4/twelve_point_energy_independent_enumeration.txt",
+      "log_sha256": "82dd119c2981f204930a40321ce34a0f72fce8d1d474038365fc57e1a5b72b6e"
+    },
+    {
+      "name": "complete_middle_inventory_with_fresh_quota_enumeration",
+      "script": "research_round4/middle_inventory/verify_middle_inventory.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 26.307,
+      "log": "verification_logs_round4/complete_middle_inventory_with_fresh_quota_enumeration.txt",
+      "log_sha256": "581af8f8beb0649c86d74ae81415d30a754dcc8daf96208ab22deac8729511be"
+    },
+    {
+      "name": "separate_joint_cube_inventory_review",
+      "script": "research_round4/optimization/review_middle_cube_inventory.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.546,
+      "log": "verification_logs_round4/separate_joint_cube_inventory_review.txt",
+      "log_sha256": "a55d9f3b9e6f91e3f48dc486576f69d7ed23bd9ea8909f4346c93eeb6939d970"
+    },
+    {
+      "name": "complete_priced_nine_stage",
+      "script": "research_round4/middle_inventory/verify_priced_nine.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 3.543,
+      "log": "verification_logs_round4/complete_priced_nine_stage.txt",
+      "log_sha256": "c84817f6c34178bc22f68123f8d12783413395fe50b3b1ca37b2536c25810288"
+    },
+    {
+      "name": "separate_priced_nine_stage_review",
+      "script": "research_round4/optimization/review_priced_nine_stage.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.814,
+      "log": "verification_logs_round4/separate_priced_nine_stage_review.txt",
+      "log_sha256": "0cbc1671d970ab3404cba8ed41b50e79e3372083cc61b5d559328cb642e9b195"
+    },
+    {
+      "name": "regenerate_stable_middle_frontier",
+      "script": "research_round4/middle_inventory/build_middle_final_frontier.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.053,
+      "log": "verification_logs_round4/regenerate_stable_middle_frontier.txt",
+      "log_sha256": "fb8ea4f1ec1aedce95933fe838e234294890cbf5eca7b543b218c90db5a8bbb2"
+    },
+    {
+      "name": "exact_type_model_and_ring_carry_demonstrations",
+      "script": "research_round4/optimization/verify_optimization_demo.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.086,
+      "log": "verification_logs_round4/exact_type_model_and_ring_carry_demonstrations.txt",
+      "log_sha256": "f6a75fc6fbe670f0d5e5d78f346a03f7856aa43b8e68fa6e57f12b069dcbb9ce"
+    }
+  ],
+  "seconds": 53.955,
+  "final_frontier": {
+    "unrestricted_dimension5_theorem": "OPEN",
+    "middle_total_normalized_weight_profiles": 2163945,
+    "middle_remaining_weight_profiles": 275755,
+    "middle_new_priced_nine_exclusions": 512,
+    "middle_empty_cells": [
+      {
+        "support": 17,
+        "maximum": 18
+      }
+    ],
+    "middle_remaining_nonempty_cells": 55,
+    "maximum18_pair_active_support_upper_bound": 16,
+    "remaining_list_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "root_frontier_sha256": "f0080c9a31ba2830e2c6b59fc47a1a5b4cf38ed73b152d2335bc260ffda1f77b",
+    "regenerated_middle_frontier_sha256": "8868e71bca077cbff57b5852dd6b1c91b9814d7bd4f8b5c6ca5ffa03cc9400f5",
+    "counting_scope": "Weight-profile relaxation survivors, not Kakeya constructions."
+  }
+}

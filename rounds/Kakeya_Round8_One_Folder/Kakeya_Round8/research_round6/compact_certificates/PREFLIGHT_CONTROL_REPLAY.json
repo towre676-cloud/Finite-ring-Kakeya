@@ -1,0 +1,22 @@
+{
+  "status": "PASS_PREFLIGHT_CONTROLS_ONLY",
+  "controls": [
+    {
+      "control": "missing_manifest",
+      "expected": "FAIL_REPLACES_STALE_PASS",
+      "status": "PASS"
+    },
+    {
+      "control": "nonpositive_timeout",
+      "expected": "FAIL_REPLACES_STALE_PASS",
+      "status": "PASS"
+    },
+    {
+      "control": "nonpositive_heap",
+      "expected": "FAIL_REPLACES_STALE_PASS",
+      "status": "PASS"
+    }
+  ],
+  "converter_correctness_formally_proved": false,
+  "acceptance_authority": "Fresh pinned DRAT-trim conversion followed by mandatory CakeML"
+}

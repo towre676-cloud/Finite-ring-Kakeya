@@ -1,0 +1,316 @@
+KAKEYA RESEARCH: VERIFIED ROUND-2 RESULTS
+Finite rings Z/4Z and F2[epsilon]/(epsilon^2)
+
+MAIN STATUS
+
+The target remains k(R,n)=3*2^n-2. In dimension5 the target is94.
+The unrestricted theorem is OPEN. This continuation proves new support
+reductions, new analytic compatibility theorems, and exact exclusions.
+No numerical survivor is being presented as an actual Kakeya construction.
+
+The three principal advances are:
+
+* Maximum fibre11: pair-active support is at most17. This closes73 whole
+  affine support classes from the previously open130, leaving57.
+* Maximum fibre12 through18: pair-active support is at most18. Every
+  normalized weight partition on supports19 through32 is excluded.
+* Maximum fibre19:38,734 additional whole weight/own-direction profiles are
+  excluded, leaving30,471 in the tracked selected lists.
+
+The counts have different meanings and must not be added: affine support
+classes, weight multisets, and weight/own-direction profiles are different
+mathematical objects.
+
+1. THE PRECISE FINITE-RING SETUP
+
+Put V=F2^n and N=2^n. Write ring points as a+pi*b, where pi=2 or epsilon.
+The tangent fibre at residue a is A_a={b:a+pi*b belongs to K}. For d nonzero,
+let p_a(d) count unordered pairs {b,b+d} in A_a. Then
+
+  p_a(d)<=floor(|A_a|/2),
+  sum_{d!=0}p_a(d)=binom(|A_a|,2).
+
+A primitive line uses one tangent d-pair in each endpoint of the residue
+edge {a,a+d}. Its projective lift label lies in V/<d>. In dimension5 there
+are16 lift labels over each of31 nonzero residue directions. Consequently
+
+  sum_{residue edges of direction d} p_a(d)*p_(a+d)(d)>=16.
+
+The sharper edge cap M(p,q) is min(16,pq), except M(3,5)=13, M(3,6)=14,
+M(3,7)=15 and their symmetric counterparts. These follow from the elementary
+three-point sumset inequality |X+Y|<=min(3|Y|,|Y|+8,16) in F2^4.
+
+The pair-active support is S={a:|A_a|>=2}. Singleton fibres contain no tangent
+pair and cannot participate in any primitive line. They may be deleted for
+lower-bound purposes. Every set under consideration must have S+S=V.
+
+Both rings have the same necessary cardinality bounds. The Z4 carry changes
+lift labels by a translation; the present inequalities retain valid upper
+bounds for every such translation.
+
+2. NEW SUPPORT THEOREMS AND COMPLETE ACCOUNTING
+
+Theorem M11. If K subset R^5 is Kakeya, |K|<=93, and max_a|A_a|=11, then
+|S|<=17.
+
+The independent arithmetic replay regenerated121,336 nonincreasing weight
+partitions of total93, exact maximum11, support18 through32. It excluded
+121,147 by exact pair-budget and maximal-direction resource inequalities,
+and189 by analytic geometry. No weight partition remains in this range.
+
+Intersecting this theorem with the inherited130 open affine support classes
+closes73 entire classes. The57 remaining classes have supports:
+
+  support13:4; support14:9; support15:16; support16:23; support17:5.
+
+The previous59-class reduction on supports19 through24 is an intermediate
+stage. The final73 includes those59 and the14 classes at support18.
+
+Theorem Middle. If K subset R^5 is Kakeya, |K|<=93, and its maximum fibre
+size is between12 and18 inclusive, then |S|<=18.
+
+The independent completion replay regenerated747,922 normalized weight
+partitions, maximum12 through18, support19 through32. Its disjoint counts:
+
+  global pair resources and maximal-direction quotas:747,867;
+  exact pair-spectrum matching:19;
+  missing-direction light-pair resources:31;
+  unique-cap-six hub savings:3;
+  final three-direction triangle obstruction:1;
+  final six-direction halfspace obstruction:1.
+
+The total is747,922 and the remainder is zero. The seven maximum-fibre
+strata remain open on the smaller supports allowed by this theorem.
+
+Padding justifies the normalization to total93: after deleting singleton
+fibres, existing active fibres can be enlarged without changing support or
+exceeding the specified maximum. In the excluded support ranges there is
+more than enough capacity to reach93, and a pre-existing maximum fibre
+preserves the exact maximum. Padding preserves every existing Kakeya line.
+
+There are also23,381 additional verified whole-weight-multiset cuts on
+middle-case supports15 through18:17,381 at15;4,696 at16;1,087 at17;217 at18.
+These are separate selected exclusions, not complete closures of those
+supports and not entries in the M19 ledger.
+
+3. THE RESIDUE GEOMETRY THAT FINISHES THE SUPPORT PROOFS
+
+Eight points T in F2^5 determine at most25 nonzero differences. Their number
+of missing directions is either6 or at least9. If exactly6 are missing,
+after translating T there is a basis h,b,c,d,e such that
+
+  T=<h,b> union {c,d,e,h+c+d+e},
+  F={b,b+h}+{c+d,c+e,d+e}.
+
+Thus F is an affine3-flat with an affine line removed. It lies in a character
+halfspace, and each residue has at most3 neighbours in T along directions F.
+Nine points determine at most28 nonzero differences.
+
+The eight-point plane-existence proof uses the augmented matrix with columns
+(1,t). Its kernel has dimension at least2. With no weight-four relation,
+two independent codewords and their sum would each have weight at least6,
+total at least18. Each coordinate occurs zero or twice across these three
+words, giving total at most16. The contradiction supplies an affine plane.
+Its three repeated directions already reduce28 pairs to at most25 directions.
+
+At equality the plane consumes all repeated differences. The four remaining
+points lie in distinct nonzero cosets of its two-space, with sumfree quotient
+labels. This forces the displayed normal form. The gap from6 to at least9
+missing directions follows from the fact that three parallel pairs already
+have duplicate excess8; otherwise every pair count is at most2 and duplicate
+excess is three times the number of affine planes.
+
+The nine-point bound also has an analytic augmented-code proof. It needs no
+affine-orbit census. The complete arguments and direct normalized-set controls
+are included in the package.
+
+A memorable final middle-case contradiction is the profile
+
+  (12,8^6,6,5,4,2^9).
+
+Choose the first eight heavy fibres. At least six directions have no heavy-
+heavy edge. Four low pairs are needed per missing direction, except that the
+unique cap-six hub can save one pair in at most two directions. The low
+fibres have total pair mass25, so the missing count must be exactly6.
+Its normal form puts all missing directions in one halfspace. The five-point,
+four-point, and nine two-point low fibres supply at most6+4+9=19 pairs across
+that cut. Coverage requires4*6-2=22. The entire profile is excluded by19<22.
+
+4. THE FINAL MAXIMUM-ELEVEN PROFILE: EIGHT PAIRS CANNOT SUPPLY NINE
+
+The last support18 profile was
+
+  (11,8^6,6^3,2^8).
+
+Take ten heavy residues and leave the eight two-point fibres low. Let r be
+the number of missing heavy-heavy directions. Each missing direction costs
+at least four low pairs, since three pair units cover at most3*5=15 lifts.
+
+For a heavy residue a, let u(a) count directions whose unique heavy-heavy
+edge is incident to a. Removing a leaves nine heavy residues, and removes
+exactly those u(a) directions. The nine-point difference bound gives
+
+  31-r-u(a)<=28, hence u(a)>=max(0,3-r).
+
+A unique heavy edge incident to one of the three six-point fibres has
+capacity at most3*5=15 and needs at least one low pair. With two six-point
+endpoints its capacity is at most9; one low pair adds at most5, so at least
+two low pairs are needed. Therefore the three six-point vertices require
+
+  low pair mass >=4r+3*max(0,3-r)>=9.
+
+Only eight low pairs exist. This closes the final profile analytically.
+The other four support18 boundary profiles are excluded by equality in the
+halfspace budget together with the three-heavy-neighbour limit.
+
+5. AN ALL-DIMENSION OUTSIDE-SUPPORT PAIR BUDGET
+
+Translate a selected hub residue to0. At a nonzero active residue a, let
+w=|A_a| and t=p_a(a). For directions outside S that can meet an active
+partner at a+d, we proved
+
+  sum_{d not in S, a+d in S}p_a(d)<=binom(w,2)-t*(w-t).
+
+If t>=1, the right side is at most binom(w-1,2). This weakly improves the
+earlier budget binom(w,2)-1, strictly when w>=3 and the own direction is positive.
+
+The reason is geometric: directions d and d+a form a block. If d is outside
+S and a+d is inside S, the mate direction cannot also be used for an outside-
+support edge. At most one direction from each block is selected.
+
+Partition A_a into t full cosets of<a> and s=w-2t singleton cosets. A pair
+of full cosets contributes(2,2) across one direction block; a full/single
+pair contributes(1,1); two singleton cosets contribute(1,0) or(0,1).
+Selecting one entry per block gives at most
+
+  2*binom(t,2)+t*s+binom(s,2)=binom(w,2)-t*(w-t).
+
+The argument is analytic, dimension independent, and valid for pair-active
+support even when other residue fibres are singletons.
+
+6. EXACT COMMON-FIBRE SPECTRA AND THE MAXIMUM-NINETEEN LEDGER
+
+The complete number of possible pair-count histograms for weights1 through19
+in F2^5 is
+
+  1,1,1,2,2,3,5,7,9,14,16,21,24,27,30,32,30,27,24.
+
+Completeness is established by affine-basis normalization: every rank-r set
+is equivalent to one containing0,e1,...,er inside F2^r. The enumeration visits
+all such subsets through weight16; complements supply17 through19. Root's
+independent implementation recomputes every unordered difference, and checks
+all supplied representative masks. For paired-block completeness, positive-own
+cases normalize a chosen pair to0,e1; zero-own cases enumerate every zero-pair
+direction of each normalized subset. Complements handle the larger weights.
+
+These constraints require different directional counts to occupy distinct
+entries in one realizable fibre spectrum. They are stronger than independent
+pair caps, total pair mass, or a count of maximal directions.
+
+All new M19 stages are uniform over all residue placements and tangent shapes:
+
+  Stage                                  Support11 Support12 Total
+  Complete pair spectra                    17398     5297    22695
+  Outside-support pair budget               1437       22     1459
+  Paired-direction block compatibility      5918     1254     7172
+  Joint hub and outer-fibre spectra         5039     2344     7383
+  Actual support degrees plus blocks          25        0       25
+  NEW EXCLUSIONS                           29817     8917    38734
+  REMAINING                                21356     9115    30471
+
+The input was69,205 previously surviving selected profiles. Every exclusion
+ID is checked against the correct source list and removed exactly once.
+The surviving profiles are relaxed necessary data, not constructions.
+
+Local matching bounds are certified with integer dual inequalities. For
+assignment scores c_ij, potentials lambda_i and nonnegative mu_j obey
+lambda_i+mu_j>=c_ij. Therefore every injective assignment is bounded by
+sum(lambda)+sum(mu). The checkers verify these inequalities directly for every
+eligible spectrum; they do not trust optimizer claims or floating tolerances.
+
+A standalone analytic example, parent2 of support11, has hub19 and own-
+positive outer weights(2,3,3,8,8,8,8,8,8,18). Its outside directions demand336
+capacity. The six eight-point fibres force at least48 loss from the336 heavy
+baseline, and the light fibres add at most18. Hence306<336 excludes the whole
+profile, with no spectrum-census dependency.
+
+7. FURTHER ANALYTIC THEOREMS
+
+Exact character-halfspace pair-square energies now include:
+
+  weight w: 13  14  15  16  17  18  19  20
+  h(w):    222 301 392 512 520 561 618 712
+
+For every binary dimension and nonzero character ell,
+
+  sum_{ell(d)=1} p_A(d)^2<=h(|A|)
+
+for these weights, and all displayed values are attained in dimension5.
+The proofs use relation codes, complements in a sixteen-point affine hull,
+mixed additive energy, and exact integer congruences. They are local theorems,
+not complete exclusions of the corresponding maximum-fibre strata.
+
+With one full residue fibre, we also prove:
+
+* For n>=4, if every other fibre has at most6 points, |K|>=3*2^n-2.
+* For n>=5, if every other fibre has at most7 points, the same bound holds,
+  and equality is exactly a generalized star.
+
+These are new dimension-uniform analytic conditional results. They do not
+assert that an arbitrary small Kakeya set has a full fibre.
+
+Finally, if r actual tangent fibres are affine3-flats, the sum of their actual
+quotient-sumset capacities is at most8*floor(r^2/2). Here edge capacity means
+|P_a(d)+P_b(d)+carry|, where P_a(d) is the actual set of tangent pair labels in
+V/<d>, and d=a+b. It does not mean the coarser scalar upper bound M(p_a,p_b).
+Six such fibres therefore have total actual capacity at most144. A capacity16
+cube-cube edge can lie in no positive triangle,
+because a positive triangle places a common two-space in all three tangent
+spaces and caps all three edges at8. A short weighted-graph induction gives
+the bound. No new profile exclusions are credited to this last theorem.
+
+8. CURRENT OPEN FRONTIER
+
+In dimension5 and total size at most93:
+
+* maximum<=10: excluded by inherited results;
+* maximum11:57 affine support classes remain, supports13 through17;
+* maxima12 through18: remain open only on supports at most18, subject to the
+  previous and new individual profile exclusions;
+* maximum19: remains open on supports11 and12, with30,471 selected profiles;
+* maximum>=20: excluded by inherited results.
+
+The established small-dimensional minima remain4,10,22,46 in dimensions1–4.
+The matching star upper bound94 in dimension5 is known. Proving that every
+Kakeya set has at least94 points remains the outstanding global task.
+
+The next constraints should enforce actual support adjacency, simultaneous
+own-direction demand, shared tangent subspaces and one common shape at each
+fibre, followed by exact quotient lift coverage. Independent local maximizers
+can still choose incompatible geometries, so surviving upper-bound tests do
+not establish a realizable configuration.
+
+9. REPLAY, PROVENANCE AND SCOPE
+
+The companion ZIP contains all new proofs, exact certificate streams, source
+code, current survivor lists, root review notes, and the frozen prior inputs
+needed for this continuation. Run VERIFY_ALL.py from the unpacked package
+using Python3 and a C++17 compiler (g++). Census compilation uses the compiler;
+the exact certificate and partition checkers use Python's standard library.
+The producer sources that use OpenSSL are included for reconstruction, but
+OpenSSL is not required by the default verification path.
+
+The package's MANIFEST.json records every payload size and SHA256. The initial
+hash check precedes replay, because some checkers regenerate runtime-bearing
+receipts. The new proof statements have analytic derivations; finite resources
+are exhaustively checked with integer arithmetic. These are reviewed,
+computer-assisted mathematical results, not Lean-formalized theorems.
+
+Inherited assumptions and their original evidence remain in the previous
+checkpoint Kakeya_Mathematical_Progress_2026-10-28.zip, Library ID
+libfile_484e32ac6d5081918c800c09cd6cf3d2, SHA256
+f32a2dc052e12c483f5e7ddfbf3715edf22ffc3df82b35e55d020785e5c1200e.
+Those inherited items include the older maximum-fibre exclusions and source
+profile census. The new census completeness proofs do not rely on the old
+382-orbit census. The final support-class labels are mapped to frozen prior
+files, with their hashes retained.

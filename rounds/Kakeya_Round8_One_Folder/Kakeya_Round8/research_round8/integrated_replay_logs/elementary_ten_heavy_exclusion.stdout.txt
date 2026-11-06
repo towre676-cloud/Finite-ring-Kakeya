@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ELEVEN_HEAVY_THEOREM_ELEMENTARY_PRICES_AND_COMPLETE_SUPPORT_CLASSIFICATION",
+  "available_times_four": 2994,
+  "required_times_four": 3072,
+  "elementary_DP": [
+    744,
+    729,
+    744
+  ],
+  "normalized_supports": 14950,
+  "seconds": 0.079204
+}

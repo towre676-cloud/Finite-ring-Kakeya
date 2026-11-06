@@ -1,0 +1,29 @@
+{
+  "status": "UNTRUSTED_SEARCH_COMPLETE_NEEDS_ORIGINAL_CNF_CHECK",
+  "original_cnf_sha256": "3c2c80a6e982f513f6335466085c9be329b54d681b3c0e4157bfdd04666fffaf",
+  "augmented_cnf_sha256": "8708115b8f235075805aa539f08d89d935d2a7ab5cdb95b64a2054c4a589256b",
+  "solver_binary_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+  "added_units": [
+    3
+  ],
+  "added_unit_count": 1,
+  "witnesses": {
+    "3": {
+      "positive_clause_index": 1,
+      "positive_clause": [
+        1,
+        2
+      ],
+      "rule": "Every disjunct implies this literal via an original binary clause or identity."
+    }
+  },
+  "prefix_sha256": "f447e635ef60d86f4591ef150e99d027d79600a624955da19c447d2e7f957fc8",
+  "trusted_preprocessor": false,
+  "required_check": "Concatenated prefix+solver DRAT must pass mandatory checker against original CNF.",
+  "requested_total_limit_seconds": 5,
+  "solver_time_limit_seconds_after_preprocessing": 4,
+  "solver_returncode": 20,
+  "solver_proof_sha256": "a708057532a0a97e2ef5c42b3a215e161c290fb9bf71c28fb0f47172391345ad",
+  "concatenated_drat_sha256": "f5451be67e87c84e2067c1728616f408ba6a205ba24a720672343d72b5a44afc",
+  "seconds": 0.004167
+}

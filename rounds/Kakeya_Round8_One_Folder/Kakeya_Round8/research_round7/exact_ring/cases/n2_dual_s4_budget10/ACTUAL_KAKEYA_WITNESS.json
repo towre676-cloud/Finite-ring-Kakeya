@@ -1,0 +1,42 @@
+{
+  "fibres": {
+    "0": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "1": [
+      0,
+      1
+    ],
+    "2": [
+      0,
+      2
+    ],
+    "3": [
+      0,
+      3
+    ]
+  },
+  "weights": {
+    "0": 4,
+    "1": 2,
+    "2": 2,
+    "3": 2
+  },
+  "ring": "dual",
+  "dimension": 2,
+  "direct_check": {
+    "is_kakeya": true,
+    "point_count": 10,
+    "direction_count": 6,
+    "missing_directions": []
+  },
+  "canonical_cnf_assignment_satisfied": true,
+  "anchors": [
+    0,
+    1,
+    2
+  ]
+}

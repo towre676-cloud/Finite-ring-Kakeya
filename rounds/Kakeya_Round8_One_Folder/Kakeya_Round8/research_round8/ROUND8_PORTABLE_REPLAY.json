@@ -1,0 +1,146 @@
+{
+  "status": "PASS_ROUND8_INTEGRATION_WITH_BOUND_FULL_PROOF_RECEIPTS",
+  "stages": [
+    {
+      "stage": "immutable_inherited_checkpoint",
+      "returncode": 0,
+      "seconds": 2.317737,
+      "stdout_sha256": "7991c65b1db594548be2ce50f2fff9f74dd21520c21f42a3f71159335f949b8e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "new_strengthened_encoder_controls",
+      "returncode": 0,
+      "seconds": 8.341389,
+      "stdout_sha256": "00876d08be146e63f8ae5f5aafdf096e409c83a5974a5f16d10b4fc34279db54",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "ten_heavy_and_full_difference_cover",
+      "returncode": 0,
+      "seconds": 4.56964,
+      "stdout_sha256": "5d9ca39792b7e6533f0880c4d1bbb1c8ea694f558f30b053ec4a746b57d54a29",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "complete_ten_heavy_geometry_and_rank_consequences",
+      "returncode": 0,
+      "seconds": 0.118565,
+      "stdout_sha256": "98d35f4faa7f6bc8a6e981575705577289331e2c2b59a886d864053b34638df1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "elementary_ten_heavy_exclusion",
+      "returncode": 0,
+      "seconds": 0.110459,
+      "stdout_sha256": "b7f0e63545a567afee4ef53f0c811c94c6f9454f303b07745983573c8d82188b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "independent_actual_fibre_price_enumeration",
+      "returncode": 0,
+      "seconds": 0.458894,
+      "stdout_sha256": "cccd0b2eebbe7d436a170fdfe7069889ac16281d602e585a9b2bf53e155419cd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "independent_integer_dual_and_dynamic_program",
+      "returncode": 0,
+      "seconds": 0.048064,
+      "stdout_sha256": "cf2ed46104e90cb38e95b640e979dee6f9ad216964f465f29958ecca7db09f5c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "hyperplane_crossing_pair_controls",
+      "returncode": 0,
+      "seconds": 10.373209,
+      "stdout_sha256": "dff9db1399aa533f648dd901a3a5311bd5c7ad50a11dbe1ae70ae3b967027ac4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "Q211_effective_pair_spaces",
+      "returncode": 0,
+      "seconds": 1.226767,
+      "stdout_sha256": "c011e2aebc253c60a8bd1d8f79b652863fdfb9ed2b383c51b409de5936725cd0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "new_missing_direction_incidence_controls",
+      "returncode": 0,
+      "seconds": 5.330788,
+      "stdout_sha256": "4a0792c605cbc0d9796a678706fb603a357ea343a055e34c440c1ed9571f09f6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "sixteen_whole_profile_incidence_exclusions",
+      "returncode": 0,
+      "seconds": 0.883269,
+      "stdout_sha256": "d10c9b27175ed7fb66e0d1ee70831fe1b05467f6e81084ef5da2e7c3b3ae7cd5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "extended_128_whole_profile_incidence_exclusions",
+      "returncode": 0,
+      "seconds": 1.486358,
+      "stdout_sha256": "005c7eb77ecbd5cffc0f000e81c92897c1b80e4f50d1d40f191314fc012f29c2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "general_175_whole_profile_incidence_exclusions",
+      "returncode": 0,
+      "seconds": 2.023061,
+      "stdout_sha256": "ffd644a4fb75383b6afe58b6e5ae1a2c6d0400e517f25f250e3908f96a120219",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "distinct_heavy_partner_matching_controls",
+      "returncode": 0,
+      "seconds": 2.45262,
+      "stdout_sha256": "2bed9b1a1a7eeed8b9cdd6740cb84445e18358738ecefa7c5b8e4b3cf7979e1a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "matching_745_whole_profile_incidence_exclusions",
+      "returncode": 0,
+      "seconds": 2.645306,
+      "stdout_sha256": "7c6a8eb1cc9c7694045db60174d64a77fd6f6045136bb66d69e19304bf46eb73",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "three_direction_950_cumulative_profile_exclusions",
+      "returncode": 0,
+      "seconds": 3.42876,
+      "stdout_sha256": "94cf9a8b919b5fdb45978bde4ec9fb460cbe4486a2a3105c0d068eb1f64e587a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "complete_pending_middle_maximum_queue",
+      "returncode": 0,
+      "seconds": 0.026018,
+      "stdout_sha256": "2f9474a0e5a2f5040371d56aa1d5dba1ab50395d23516eafc6aad99560c36772",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "complete_checked_coverage_and_frontier_accounting",
+      "returncode": 0,
+      "seconds": 2.925128,
+      "stdout_sha256": "1e1534256be858ef02e0c2b76fc0fbc774eccb4146f9b210a0018da81a97edec",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "exact_monograph_source_and_pdf_binding",
+      "returncode": 0,
+      "seconds": 0.027438,
+      "stdout_sha256": "9623f655162e78891a167f98bfa6a97006a553b05fafb5c16426e4babb9b563d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "fresh_all_four_new_proofs_requested": false,
+  "previous_complete_new_proof_replay_receipt_reuse_requested": true,
+  "fresh_all_four_new_proofs_replayed": false,
+  "previous_complete_new_proof_replay_receipts_reused": true,
+  "inherited_proofs_freshly_replayed": false,
+  "SAT_search_performed": false,
+  "seconds": 48.800848,
+  "completed_stages": 19
+}

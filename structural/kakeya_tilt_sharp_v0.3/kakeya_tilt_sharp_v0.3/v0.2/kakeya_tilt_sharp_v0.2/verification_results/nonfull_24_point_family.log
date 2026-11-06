@@ -1,0 +1,38 @@
+{
+  "construction": "two complements of pairs and three affine planes",
+  "n": 3,
+  "size": 24,
+  "maximum_fibre_size": 6,
+  "number_of_distinct_sets": 128,
+  "independent_direct_line_checks": {
+    "Z4": 128,
+    "D2": 128
+  },
+  "example": [
+    2,
+    4,
+    7,
+    8,
+    9,
+    10,
+    12,
+    15,
+    16,
+    17,
+    18,
+    24,
+    26,
+    32,
+    33,
+    36,
+    40,
+    41,
+    44,
+    48,
+    49,
+    55,
+    57,
+    63
+  ],
+  "seconds": 0.033454
+}

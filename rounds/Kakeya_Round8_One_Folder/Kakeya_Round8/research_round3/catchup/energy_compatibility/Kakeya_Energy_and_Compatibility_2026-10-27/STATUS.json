@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-27",
+  "rings": ["Z/4Z", "F2[e]/(e^2)"],
+  "target": "k(R,n)=3*2^n-2",
+  "n5_target": 94,
+  "unrestricted_n5_proved_in_this_package": false,
+  "unrestricted_all_dimension_proved_in_this_package": false,
+  "new_complete_maximum_fibre_strata": [],
+  "new_conditional_all_dimension_results": [
+    "Any three N-point parameter images imply union >=3N-2",
+    "In that class an enlarged fourth image has size >=N+2 and union >=7N/2-3, jointly sharp",
+    "Two unit-separated N-point images with at least one additive coset imply union >=3N-2",
+    "Four additive-coset images imply union >=3N-2; if unbalanced and n>=2, union >=3N-1"
+  ],
+  "new_finite_tools": [
+    "Translation-invariant maximum-spanning-tree overlap bound with independently checked tree certificates",
+    "Shared translation parity certificates across residue directions",
+    "Exact fixed-shape translation completion CNF with ring carries and affine shear gauge"
+  ],
+  "saved_cases": {"total": 10, "sat": 6, "unsat": 4},
+  "default_verification_requires_sat_solver": false,
+  "written_proofs_formalized_in_lean": false,
+  "historical_status_boundary": "Inherited max9 and max24 closure reports were read; their complete large proof streams were not replayed here",
+  "inherited_frontier": {"maximum_fibre_sizes": "10 through 23", "recorded_cap10_active_support_classes": 97},
+  "new_weight_le_93_complete_shape_family_tested": false
+}

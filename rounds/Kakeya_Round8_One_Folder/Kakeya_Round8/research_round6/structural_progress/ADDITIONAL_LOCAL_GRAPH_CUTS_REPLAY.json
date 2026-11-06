@@ -1,0 +1,342 @@
+{
+  "status": "PASS_PARTIAL_LOCAL_RESTRICTIONS",
+  "complete_support_exclusion": false,
+  "star_cases": [
+    {
+      "mask": 360808726,
+      "centre": 1,
+      "period": 24,
+      "intersection_histogram": {
+        "0": 10,
+        "4": 20,
+        "10": 1
+      },
+      "odd_cycle_bounds": [
+        37,
+        34,
+        29,
+        22,
+        13
+      ],
+      "centre_weight_minimum": 16
+    },
+    {
+      "mask": 377585942,
+      "centre": 0,
+      "period": 24,
+      "intersection_histogram": {
+        "0": 10,
+        "4": 20,
+        "10": 1
+      },
+      "odd_cycle_bounds": [
+        37,
+        34,
+        29,
+        22,
+        13
+      ],
+      "centre_weight_minimum": 16
+    }
+  ],
+  "two_degree7_centre_cases": [
+    {
+      "mask": 40468758,
+      "witnesses": [
+        {
+          "centre": 0,
+          "period_of_six_set": 17,
+          "V": [
+            0,
+            3,
+            5,
+            6,
+            17,
+            18,
+            20,
+            23
+          ],
+          "side_generator": 7,
+          "layer_generator": 8,
+          "basis_for_V": [
+            17,
+            3,
+            5
+          ]
+        },
+        {
+          "centre": 15,
+          "period_of_six_set": 17,
+          "V": [
+            0,
+            3,
+            5,
+            6,
+            17,
+            18,
+            20,
+            23
+          ],
+          "side_generator": 8,
+          "layer_generator": 7,
+          "basis_for_V": [
+            17,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "mask": 151587158,
+      "witnesses": [
+        {
+          "centre": 4,
+          "period_of_six_set": 3,
+          "V": [
+            0,
+            3,
+            8,
+            11,
+            16,
+            19,
+            24,
+            27
+          ],
+          "side_generator": 4,
+          "layer_generator": 5,
+          "basis_for_V": [
+            3,
+            8,
+            16
+          ]
+        },
+        {
+          "centre": 6,
+          "period_of_six_set": 3,
+          "V": [
+            0,
+            3,
+            8,
+            11,
+            16,
+            19,
+            24,
+            27
+          ],
+          "side_generator": 5,
+          "layer_generator": 7,
+          "basis_for_V": [
+            3,
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "mask": 287383838,
+      "witnesses": [
+        {
+          "centre": 2,
+          "period_of_six_set": 24,
+          "V": [
+            0,
+            5,
+            9,
+            12,
+            17,
+            20,
+            24,
+            29
+          ],
+          "side_generator": 3,
+          "layer_generator": 26,
+          "basis_for_V": [
+            24,
+            5,
+            9
+          ]
+        },
+        {
+          "centre": 3,
+          "period_of_six_set": 24,
+          "V": [
+            0,
+            5,
+            9,
+            12,
+            17,
+            20,
+            24,
+            29
+          ],
+          "side_generator": 2,
+          "layer_generator": 27,
+          "basis_for_V": [
+            24,
+            5,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "mask": 411111830,
+      "witnesses": [
+        {
+          "centre": 1,
+          "period_of_six_set": 12,
+          "V": [
+            0,
+            7,
+            11,
+            12,
+            16,
+            23,
+            27,
+            28
+          ],
+          "side_generator": 6,
+          "layer_generator": 9,
+          "basis_for_V": [
+            12,
+            7,
+            16
+          ]
+        },
+        {
+          "centre": 2,
+          "period_of_six_set": 12,
+          "V": [
+            0,
+            7,
+            11,
+            12,
+            16,
+            23,
+            27,
+            28
+          ],
+          "side_generator": 5,
+          "layer_generator": 10,
+          "basis_for_V": [
+            12,
+            7,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "mask": 411140502,
+      "witnesses": [
+        {
+          "centre": 1,
+          "period_of_six_set": 7,
+          "V": [
+            0,
+            7,
+            11,
+            12,
+            19,
+            20,
+            24,
+            31
+          ],
+          "side_generator": 2,
+          "layer_generator": 1,
+          "basis_for_V": [
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "centre": 2,
+          "period_of_six_set": 7,
+          "V": [
+            0,
+            7,
+            11,
+            12,
+            19,
+            20,
+            24,
+            31
+          ],
+          "side_generator": 1,
+          "layer_generator": 2,
+          "basis_for_V": [
+            7,
+            11,
+            19
+          ]
+        }
+      ]
+    }
+  ],
+  "exact_degree7_pair_budget": {
+    "status": "PASS_EXACT_INTEGER_DP",
+    "graph": "blowup_2(K4,4-minus-matching) Cartesian K2",
+    "max_induced_edges_by_weight": [
+      0,
+      0,
+      1,
+      2,
+      4,
+      6,
+      9,
+      12,
+      16,
+      18,
+      21,
+      24,
+      28,
+      32,
+      37,
+      42,
+      48,
+      49,
+      51,
+      53,
+      56,
+      59,
+      63,
+      67,
+      72,
+      75,
+      79,
+      83,
+      88,
+      93,
+      99,
+      105,
+      112
+    ],
+    "dp_state_counts": [
+      81,
+      625,
+      2401,
+      6561
+    ]
+  },
+  "two_centre_budget": {
+    "two_centre_weight_minimum": 12,
+    "low_centre_baseline": [
+      12,
+      12,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      2
+    ],
+    "low_centre_slack_at_most": 3,
+    "low_centre_branch_excluded_by_these_bounds": false
+  }
+}

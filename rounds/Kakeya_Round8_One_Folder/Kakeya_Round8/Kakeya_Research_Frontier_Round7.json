@@ -1,0 +1,635 @@
+{
+  "title": "Kakeya research frontier — Round7",
+  "date": "2026-10-28",
+  "previous_checkpoint": "Kakeya_Research_Frontier_Round6.json",
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/(epsilon^2)"
+  ],
+  "general_target": "3*2^n-2",
+  "unrestricted_general_theorem": false,
+  "exact_small_dimensions": {
+    "1": {
+      "minimum_both_rings": 4,
+      "proof": "A primitive line in R is the whole four-element ring."
+    },
+    "2": {
+      "minimum_both_rings": 10,
+      "elementary_proof": "research_round7/exact_ring/DIMENSION2_ELEMENTARY_PROOF.md",
+      "exact_ring_refutations": 4,
+      "actual_upper_bound_witnesses": 2
+    },
+    "3": {
+      "minimum_both_rings": 22,
+      "elementary_proof": "research_round7/dimension3/DIMENSION3_ELEMENTARY_PROOF.md",
+      "elementary_proof_sha256": "c314e8655de48575d3dc3609a840587a5bf638cb0c0e1026dcc7a928e0128185",
+      "elementary_proof_uses_SAT_or_census": false,
+      "separate_complete_exact_ring_refutations": 10,
+      "complete_marked_support_classes": 5,
+      "claimed_literature_novelty": false
+    }
+  },
+  "dimension4": {
+    "target": 46,
+    "status": "OPEN",
+    "checked_scope": {
+      "catalogue_marked_classes": 28,
+      "catalogue_ring_cases": 56,
+      "complete_ring_cases": 14,
+      "complete_marked_classes_both_rings": 7,
+      "complete_ring_keys": [
+        {
+          "support_full_mask": 511,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 511,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 855,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 855,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 857,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 857,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 859,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 859,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 863,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 863,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 893,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 893,
+          "ring": "dual"
+        },
+        {
+          "support_full_mask": 895,
+          "ring": "z4"
+        },
+        {
+          "support_full_mask": 895,
+          "ring": "dual"
+        }
+      ],
+      "complete_both_ring_support_masks": [
+        511,
+        855,
+        857,
+        859,
+        863,
+        893,
+        895
+      ],
+      "remaining_ring_cases": 42,
+      "partial_maxima": [],
+      "actual_counterexample_case_ids": [],
+      "global_dimension4_minimum46_established": false
+    },
+    "certified_all_marked_support_sizes_both_rings": [
+      6,
+      7,
+      8
+    ],
+    "additional_closed_size9_classes_both_rings": 2,
+    "full_proof_replay": "research_round7/dimension4_compact/COMPACT_DIMENSION4_REPLAY.json"
+  },
+  "dimension5_target": 94,
+  "unrestricted_dimension5_theorem": false,
+  "minimum_pair_active_support": 13,
+  "minimum_support_dependencies": [
+    "Inherited maximum>=20 exclusion",
+    "Round5 unrestricted support<=10 exclusion",
+    "Round6 complete support11/12 computer-assisted exclusion"
+  ],
+  "dimension5_strata": {
+    "maximum_at_most10": "EXCLUDED_INHERITED; ALSO INCLUDED IN NEW SUPPORT11/12 CHECKS",
+    "maximum11": {
+      "status": "OPEN",
+      "pair_active_support_upper_bound": 16,
+      "previous_round2_affine_support_classes": 57,
+      "round3_whole_affine_support_class_exclusions": 11,
+      "support17_closed_classes": [
+        367,
+        373,
+        374,
+        376,
+        377
+      ],
+      "support16_closed_classes": [
+        177,
+        187,
+        198,
+        201,
+        202,
+        203
+      ],
+      "remaining_affine_support_classes": 45,
+      "remaining_counts_by_support": {
+        "13": 3,
+        "14": 9,
+        "15": 16,
+        "16": 17
+      },
+      "remaining_orbits": [
+        109,
+        110,
+        111,
+        126,
+        130,
+        131,
+        132,
+        133,
+        134,
+        139,
+        141,
+        142,
+        151,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        204
+      ],
+      "support16_remaining_distinct_weight_profiles": 66,
+      "support16_remaining_support_profile_incidences": 764,
+      "support16_verified_partitions": 20477,
+      "support16_exact_assignment_duals": 17986,
+      "previous_round6_affine_support_classes": 46,
+      "round7_whole_affine_support_class_exclusions": [
+        105
+      ],
+      "support13_remaining_marked_largest_fibre_roles": [
+        377850134,
+        411136406,
+        671697334,
+        2185856310
+      ],
+      "support13_closed": false
+    },
+    "maximum12_through18": {
+      "status": "OPEN",
+      "minimum_pair_active_support": 13,
+      "remaining_weight_profiles": 183476,
+      "remaining_nonempty_cells": 34,
+      "maximum_pair_active_support_by_maximum": {
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17,
+        "16": 17,
+        "17": 17,
+        "18": 16
+      },
+      "survivor_file": "research_round7/charging/after_integer_dual_survivors.txt",
+      "survivor_sha256": "1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5",
+      "previous_round6_weight_profiles": 186482,
+      "round7_whole_weight_profile_exclusions": 3006,
+      "remaining_profiles_by_support": {
+        "13": 85340,
+        "14": 74373,
+        "15": 19514,
+        "16": 3853,
+        "17": 396
+      },
+      "geometric_partial_cases_subtracted_as_whole_profiles": 0,
+      "new_profile_certificate_scope": "Every placement and fibre shape of these weight profiles, in both rings, under the complete inherited spectrum census and the elementary small-light capacity bounds."
+    },
+    "maximum19": {
+      "status": "CLOSED_WITH_INHERITED_SUPPORT11_12_REDUCTION",
+      "fresh_exact_packaged_encoder_cases_accepted": 38,
+      "old_historical_proofs_supplied": false,
+      "old_encoder_equivalence_assumed": false,
+      "tracked_profiles_excluded": 3798,
+      "inherited_support_reduction_still_used": true,
+      "outer_weight14_cap_used": false,
+      "full_hub_or_all_support_theorem_claimed": false
+    },
+    "maximum_at_least20": "EXCLUDED_INHERITED"
+  },
+  "support13_partial_coverage": {
+    "complete_marked_cases": 28,
+    "complete_masks": [
+      1777046,
+      37848950,
+      51979670,
+      142702998,
+      153692502,
+      291594526,
+      293706134,
+      404586838,
+      411113886,
+      411114390,
+      411128726,
+      411146646,
+      411666838,
+      412193054,
+      421872406,
+      557926774,
+      677972310,
+      688458102,
+      1093216598,
+      1094795646,
+      1108936598,
+      1210149206,
+      1210657110,
+      1762206038,
+      2165905814,
+      2187920694,
+      2308014366,
+      2953386390
+    ],
+    "partial_marked_cases": 13,
+    "partial_maxima_by_mask": {
+      "75737494": [
+        17,
+        18
+      ],
+      "110453014": [
+        17,
+        18
+      ],
+      "1022358": [
+        11,
+        17,
+        18
+      ],
+      "360808918": [
+        11,
+        18
+      ],
+      "10069398": [
+        11,
+        18
+      ],
+      "153184662": [
+        11,
+        18
+      ],
+      "375492886": [
+        18
+      ],
+      "157376918": [
+        18
+      ],
+      "308384030": [
+        11,
+        18
+      ],
+      "291627286": [
+        18
+      ],
+      "109144470": [
+        18
+      ],
+      "675359134": [
+        11
+      ],
+      "1611227990": [
+        11
+      ]
+    },
+    "remaining_without_complete_joint_coverage": 27,
+    "support13_closed_for_maximum2_through18": false,
+    "certified_marked_cases_by_exact_maximum": {
+      "2": 28,
+      "3": 28,
+      "4": 28,
+      "5": 28,
+      "6": 28,
+      "7": 28,
+      "8": 28,
+      "9": 28,
+      "10": 28,
+      "11": 35,
+      "12": 28,
+      "13": 28,
+      "14": 28,
+      "15": 28,
+      "16": 28,
+      "17": 31,
+      "18": 39
+    },
+    "closed_support13_exact_maximum_cells": [],
+    "complete_unmarked_affine_classes_for_maximum2_through18": [],
+    "complete_unmarked_affine_classes_by_exact_maximum": {
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": [
+        105
+      ],
+      "12": [],
+      "13": [],
+      "14": [],
+      "15": [],
+      "16": [],
+      "17": [],
+      "18": [
+        97,
+        104,
+        105
+      ]
+    },
+    "unmarked_accounting_includes_inherited_max11_class_exclusions": false,
+    "separate_inherited_maximum11_slice": {
+      "dependency": "Round6 maximum11 affine-class ledger; its exclusions are inherited, not new certificates.",
+      "inherited_total_affine_classes": 46,
+      "inherited_support13_affine_classes": 4,
+      "inherited_support13_marked_roles": 14,
+      "newly_closed_previously_open_affine_classes": [
+        105
+      ],
+      "remaining_support13_affine_classes": [
+        109,
+        110,
+        111
+      ],
+      "remaining_total_maximum11_affine_class_count": 45,
+      "remaining_support13_marked_roles": [
+        377850134,
+        411136406,
+        671697334,
+        2185856310
+      ],
+      "support13_maximum11_closed_with_inherited_reduction": false,
+      "middle_weight_profile_exclusions_from_this_slice": 0
+    },
+    "band_coverage": {
+      "17_18": {
+        "complete_marked_cases": 31,
+        "remaining_masks": [
+          10069398,
+          109144470,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          411130262,
+          411134358,
+          411136406,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          814057878,
+          1101613334,
+          1116316054,
+          1611227990,
+          2185856310,
+          2187956502,
+          2254541078
+        ],
+        "closed": false
+      },
+      "15_16": {
+        "complete_marked_cases": 28,
+        "remaining_masks": [
+          1022358,
+          10069398,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          411130262,
+          411134358,
+          411136406,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          814057878,
+          1101613334,
+          1116316054,
+          1611227990,
+          2185856310,
+          2187956502,
+          2254541078
+        ],
+        "closed": false
+      },
+      "2_14": {
+        "complete_marked_cases": 28,
+        "remaining_masks": [
+          1022358,
+          10069398,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          411130262,
+          411134358,
+          411136406,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          814057878,
+          1101613334,
+          1116316054,
+          1611227990,
+          2185856310,
+          2187956502,
+          2254541078
+        ],
+        "closed": false
+      },
+      "18_18": {
+        "complete_marked_cases": 39,
+        "remaining_masks": [
+          376013078,
+          377850134,
+          411130262,
+          411134358,
+          411136406,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          814057878,
+          1101613334,
+          1116316054,
+          1611227990,
+          2185856310,
+          2187956502,
+          2254541078
+        ],
+        "closed": false
+      },
+      "17_17": {
+        "complete_marked_cases": 31,
+        "remaining_masks": [
+          10069398,
+          109144470,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          411130262,
+          411134358,
+          411136406,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          814057878,
+          1101613334,
+          1116316054,
+          1611227990,
+          2185856310,
+          2187956502,
+          2254541078
+        ],
+        "closed": false
+      }
+    }
+  },
+  "integer_profile_exclusions": {
+    "before": 186482,
+    "excluded": 3006,
+    "remaining": 183476,
+    "by_support": {
+      "13": {
+        "before": 85802,
+        "excluded": 462,
+        "remaining": 85340
+      },
+      "14": {
+        "before": 75766,
+        "excluded": 1393,
+        "remaining": 74373
+      },
+      "15": {
+        "before": 20438,
+        "excluded": 924,
+        "remaining": 19514
+      },
+      "16": {
+        "before": 4051,
+        "excluded": 198,
+        "remaining": 3853
+      },
+      "17": {
+        "before": 425,
+        "excluded": 29,
+        "remaining": 396
+      }
+    },
+    "minimum_strict_margin_twice": 1,
+    "sumset_census_mathematical_dependency": false,
+    "fibre_spectrum_census_dependency": true
+  },
+  "new_structural_lemmas": [
+    "For support13 and maximum<=18, at least eight fibres have weight>=4, without total93 or a census premise.",
+    "In F2^5, an eight-point set has at most25 nonzero differences and a nine-point set at most28; both now have symbolic proofs.",
+    "Two nonplanar four-point subsets of F2^4 have sumset size at most14.",
+    "The heavy/light charging inequality produces explicit integer certificates for complete weight profiles."
+  ],
+  "formal_verification": {
+    "new_Lean_modules": [
+      "ShearBridge.lean",
+      "ChargingDual.lean"
+    ],
+    "new_statements_or_equivalences": 14,
+    "whole_Kakeya_theorem_formalized": false
+  },
+  "dependencies_and_trust_scope": [
+    "The existing dimension5 reductions and complete support/census data are inherited from the preserved Round6 checkpoint.",
+    "New profile exclusions use the geometric heavy/light lemma, complete fibre spectra, and elementary capacities for q<=3.",
+    "Support13 exclusions use the reviewed necessary-condition encoder, exact CNF regeneration, checked interval coverage and pinned CakeML proof checking.",
+    "The dimension3 elementary proof needs no spectrum census, SAT solver, or support-orbit enumeration.",
+    "Lean formalizes the common affine tangent shear and abstract charging core; it does not formalize the whole theorem, Python encoders, or census."
+  ],
+  "latest_external_session_scope": "The supplied Claude Round4 archive and earlier packaged work are preserved in the inherited checkpoint. No claim is made to access unseen live sessions or ongoing remote jobs.",
+  "accounting_rules": [
+    "Timeouts contribute no exclusions.",
+    "A marked case fixes a largest-fibre residue; one marked case is not a whole affine support class.",
+    "Partial support coverage is not subtracted from the whole weight-profile count.",
+    "Separate model agents are not independent human referees."
+  ],
+  "next_priorities": [
+    "Close the four remaining support13 maximum11 marked roles, especially the two single-role gaps in classes109 and111, using the heavy-cardinality cut and edge capacities on all edges.",
+    "Use actual heavy-residue difference sets and direction-specific charges to strengthen the current universal integer dual.",
+    "Extend the tetrahedron capacity14 cut beyond unique-edge directions while retaining exact new-CNF soundness and proof binding.",
+    "Use the ring-specific exact-point model where necessary; retain the common affine tangent shear and exact carry.",
+    "Formalize the elementary dimension3 proof and the geometric incidence bridge for the charging inequality."
+  ]
+}

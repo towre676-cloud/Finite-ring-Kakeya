@@ -1,0 +1,94 @@
+Independent review of the three-direction price bound
+=====================================================
+
+Reviewer: /root/support13_certification
+Scope: the frozen Round7 middle-profile frontier, using a common necessary
+condition for Z/4Z and F2[epsilon]/(epsilon^2). No SAT search or inherited
+fibre-spectrum census is used in this review.
+
+Mathematical argument
+---------------------
+Assume exactly nine residues carry fibres of weight at least four. Let
+H be those residues. The analytic nine-point difference bound gives at
+least three directions outside D(H). No three such directions can form
+the nonzero part of a binary plane: otherwise H has at most one point
+in each of the plane's eight cosets. Thus any three distinct missing
+directions d1,d2,d3 are linearly independent.
+
+Consider only these three directions. Each must cover sixteen lifted
+directions, so the total required edge capacity is at least 48. No edge
+in them joins two heavy residues. A contributing heavy-light edge has
+capacity at most the heavy fibre's pair count, because the light pair
+set is a singleton. A contributing light-light edge has capacity at
+most one. Carries only translate these quotient sumsets.
+
+For a heavy fibre of weight w, let k be the number of these directions
+in which it has a contributing heavy-light edge. Then 0 <= k <= 3, and
+the sum of its contributing pair counts is at most E_k(w), the maximum
+number of induced edges of a w-point subset along k independent binary
+directions. Let u count contributing light-light edges. Consequently
+
+    48 <= sum_heavy E_{k_v}(w_v) + u.
+
+Let n2 and n3 be the numbers of light fibres of weights two and three.
+A weight-two fibre supplies at most one incidence in these directions;
+a weight-three fibre supplies at most two because its three positive
+directions form a plane, whereas d1,d2,d3 are independent. Therefore
+
+    sum_heavy k_v + 2u <= A := n2 + 2n3.
+
+For any integer lambda >= 1, set
+
+    C_lambda(w) = max_{0 <= k <= 3}(E_k(w) - lambda*k).
+
+Every heavy term is at most lambda*k_v + C_lambda(w_v), and u <= 2lambda*u.
+Combining the preceding bounds proves the necessary condition
+
+    48 <= lambda*A + sum_heavy C_lambda(w_v).
+
+A strictly smaller right-hand side excludes the complete weight profile
+for every placement and fibre shape. This argument does not depend on
+the SAT exclusions of marked support roles.
+
+Independent finite computation
+------------------------------
+For k independent directions, the ambient graph is the disjoint union
+of 2^(5-k) copies of the k-dimensional cube. I enumerated every subset
+of each cube, maximizing the number of induced edges at each weight.
+The local tables are
+
+    g0 = (0,0)
+    g1 = (0,0,1)
+    g2 = (0,0,1,2,4)
+    g3 = (0,0,1,2,4,5,7,9,12).
+
+There are 278 enumerated subsets including the two trivial k=0 cases,
+or 276 nontrivial cases for k=1,2,3. Exact max-plus convolution over the
+cosets gives E_k(w) for all weights zero through 32. This is independent
+of the archived complete fibre-spectrum and sumset censuses.
+
+For every one of the 2,187 nine-heavy profiles in the original frontier,
+I also solved the finite allocation relaxation independently: choose
+k_v in {0,1,2,3}, pay k_v incidences for value E_{k_v}(w_v), and allow
+remaining incidences to buy light-light contributions at cost two each.
+Its optimum equals the minimum of the displayed price bound over
+lambda=1,...,9 for every one of those profiles. Equality with this DP
+is corroboration; soundness of any individual strict dual certificate
+already follows from the preceding inequalities.
+
+Accounting
+----------
+The price criterion excludes 488 original profiles. Its intersection
+with the previous 745 matching-threshold exclusions has size 283, so
+it adds 205 and produces a union of 950. None is a new SAT-role claim.
+The remaining frontier contains 182,526 profiles.
+
+Original frontier SHA256:
+1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5
+
+Expected survivor SHA256:
+1eaf4e100d9b9a4a65556c5251249fd1e7062d51e8771b7af83761ffabbd4423
+
+The full E tables, all excluded source lines, count tables, and examples
+are recorded in INDEPENDENT_PRICE_DUAL_PROFILE_REVIEW.json. This is a
+mathematical and finite-program review, not a proof-assistant formalization.

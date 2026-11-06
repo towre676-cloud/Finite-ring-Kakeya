@@ -1,0 +1,33 @@
+{
+  "status": "PASS_EXACT_INCIDENCE_PROFILE_REPLAY",
+  "profiles_before": 183476,
+  "whole_profiles_excluded": 16,
+  "profiles_remaining": 183460,
+  "by_support": {
+    "13": {
+      "before": 85340,
+      "excluded": 16,
+      "remaining": 85324
+    },
+    "14": {
+      "before": 74373,
+      "excluded": 0,
+      "remaining": 74373
+    },
+    "15": {
+      "before": 19514,
+      "excluded": 0,
+      "remaining": 19514
+    },
+    "16": {
+      "before": 3853,
+      "excluded": 0,
+      "remaining": 3853
+    },
+    "17": {
+      "before": 396,
+      "excluded": 0,
+      "remaining": 396
+    }
+  }
+}

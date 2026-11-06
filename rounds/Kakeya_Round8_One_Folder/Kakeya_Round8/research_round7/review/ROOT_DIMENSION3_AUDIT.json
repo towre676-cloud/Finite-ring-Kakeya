@@ -1,0 +1,33 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_DIMENSION3_CATALOGUE_AND_SOURCE_REVIEW",
+  "independent_group_maps": 168,
+  "independent_covering_supports": 64,
+  "orbits": [
+    [
+      31,
+      28
+    ],
+    [
+      61,
+      7
+    ],
+    [
+      63,
+      21
+    ],
+    [
+      127,
+      7
+    ],
+    [
+      255,
+      1
+    ]
+  ],
+  "separate_certificate_replay": "research_round7/review/ROOT_EXACT_RING_CERTIFICATE_REPLAY.json",
+  "certificate_replay_sha256": "dbe45464d9989df0e970b2c964710b79e95f9fabd566a649dc5d9b1c0f8bd20d",
+  "encoder_sha256": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+  "catalogue_sha256": "97b0232cc7706c5df6bbec6c5ffb4b802e03283917c855de4cdb11146268f615",
+  "manual_source_review": "Root reviewed exact point/pair/witness construction, carries and quotient, budget counters, largest-hub scope, and common affine tangent normalization; no blocker found.",
+  "trust_scope": "Separate model execution and review, not independent human review or full encoder formalization."
+}

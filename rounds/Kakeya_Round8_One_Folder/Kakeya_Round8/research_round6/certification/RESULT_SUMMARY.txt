@@ -1,0 +1,67 @@
+Maximum-19 certification: completed result
+=========================================
+
+All 38 exact formulas produced by the supplied encode_cnf2.py have been
+freshly refuted and accepted through the pinned DRAT-trim to LRAT to
+CakeML route. The case universe is exactly 13 marked support-11 classes
+and 25 marked support-12 classes. Tied maxima are allowed; no outer-weight-14
+cap is used. The common necessary-condition interpretation covers both
+rings, subject to the separate mathematical and encoder soundness review.
+
+A second, complete replay forced the actual compressed .xz payloads. It
+regenerated every original CNF byte-identically, checked the full marked
+support contract and semantic-source hashes, verified all original CNF,
+DRAT, and LRAT byte hashes, and reran the mandatory CakeML checker on all
+38 formulas. Every case passed. This replay took 200.917345 seconds.
+
+Authoritative records:
+  M19_CERTIFICATE_MANIFEST.json
+  M19_COMPLETE_CERTIFICATION_RECEIPT.json
+  M19_FRESH_REPLAY.json
+  COMPRESSION_RECEIPT.json
+
+The uploaded archive did not supply the historical CNFs, DRATs, or earlier
+encoder revision. None of those old proofs is claimed to have been checked.
+All newly generated CNF hashes differ from the historical log. The present
+acceptance result concerns the exact supplied encoder, so it does not assume
+that the earlier and current revisions are equivalent.
+
+The original production route used CaDiCaL 2.1.2 as an untrusted search tool.
+Summed per-case timings were 387.805322 solver seconds, 274.515111 DRAT-trim
+seconds, and 183.916298 CakeML seconds. The jobs ran with at most two solver
+workers. Per-case receipts retain full hashes, transcripts, and timings.
+
+All 114 official blobs were losslessly compressed and round-trip checked:
+  Original CNFs: 260,322,324 bytes; .xz copies: 18,457,456 bytes.
+  Original DRATs: 1,312,148,309 bytes; .xz copies: 138,365,336 bytes.
+  Accepted LRATs: 3,592,052,780 bytes; .xz copies: 297,258,580 bytes.
+  All payloads: 5,164,523,413 bytes; .xz copies: 454,081,372 bytes.
+
+A replay distribution containing exact CNFs and accepted LRATs needs
+315,716,036 compressed payload bytes. The original DRAT search traces are
+redundant for that replay, but were preserved here with their exact hashes.
+The verifier has an explicit --lrat-only mode for a distribution that omits
+those traces; its receipt does not claim to have checked absent DRAT bytes.
+
+One integrity incident was caught by the final hash gate: a previously
+accepted DRAT file had become truncated. Its original CNF and checked LRAT
+were intact. Regeneration restored precisely the original DRAT byte length
+and SHA256, and both checkers accepted again. No hash mismatch was waived.
+The complete compressed replay above passed after this repair. The cause
+is undetermined; see integrity_incident/INTEGRITY_INCIDENT.json.
+
+Scope limits:
+  * This verifies exact formula unsatisfiability and binds every formula
+    to its declared input through deterministic regeneration.
+  * It is not a formal proof of the encoder's mathematical soundness.
+  * It does not by itself exclude maximum 19 on larger support sizes.
+    The complete maximum-19 stratum still uses the inherited reduction
+    to support 11 or 12.
+  * Neither the unrestricted dimension-five lower bound of 94 nor the
+    general all-dimension formula is claimed here.
+
+Package notes:
+  Include the canonical records, replay scripts, official lossless proof
+  payloads, source dependencies, and case/checker logs. The optional
+  direct_lrat_pilot folder and the deliberately preserved truncated file
+  are diagnostic intermediates, not accepted proof dependencies.

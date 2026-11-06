@@ -1,0 +1,7 @@
+{
+  "status": "PASS_STANDALONE_ENERGY12_AUDIT",
+  "theorem": "Every binary twelve-point set has Q<=300, with equality exactly an affine4-flat minus an affine plane.",
+  "analytic_rank5_bound": 222,
+  "analytic_higher_rank_bound": 252,
+  "seconds": 0.751164
+}

@@ -1,0 +1,153 @@
+{
+  "status": "PASS_CLOSED_FORM_ANALYTIC_REPLAY",
+  "whole_baseline_profiles": 275755,
+  "profiles_with_all_light_weights_two_or_three": 2467,
+  "exactly_matches_all_new_multi_price_exclusions": true,
+  "profile_exclusions": 240,
+  "bound": "C_F <= b*L+r*sum_h(c_h-b)_+, where b>=1/2 and L=sum_light(w-1). A strict b*L+3*sum_h(c_h-b)_+<48 excludes every r>=3.",
+  "optimizer_needed_for_verification": false,
+  "local_dynamic_program_needed_for_verification": false,
+  "spectrum_census_needed_for_these_profile_proofs": false,
+  "baseline_completeness_dependency": "The Round4 inventory and its earlier exclusions are separate inherited inputs; this analytic replay proves the240 listed weight-profile contradictions.",
+  "remaining_weight_profiles": 275515,
+  "by_cell": [
+    {
+      "support": 13,
+      "maximum": 14,
+      "cuts": 13
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "cuts": 12
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "cuts": 17
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "cuts": 12
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "cuts": 11
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "cuts": 11
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "cuts": 9
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "cuts": 6
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "cuts": 38
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "cuts": 24
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "cuts": 10
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "cuts": 6
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "cuts": 3
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "cuts": 1
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "cuts": 22
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "cuts": 11
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "cuts": 5
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "cuts": 3
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "cuts": 4
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "cuts": 1
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "cuts": 9
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "cuts": 1
+    }
+  ],
+  "input_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+  "multi_price_certificates_sha256": "db63fa5376288828a0e2fa9f61daca6bc0c98f4691d50ec97801fe316b4c1460",
+  "analytic_witnesses_sha256": "13aa444f47d33a88a5400cd2accf1b58558639d29181118d609d52a4874c567f"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS_BOUNDED_PRICED_NINE_CROSS_CHECK",
+  "baseline_weight_profiles": 276267,
+  "new_disjoint_weight_profile_exclusions": 512,
+  "remaining_weight_profiles": 275755,
+  "closed_support_maximum_cells": [
+    [
+      17,
+      18
+    ]
+  ],
+  "independent_local_row_modes": 370,
+  "minimum_doubled_gap": 2,
+  "seconds": 0.784
+}

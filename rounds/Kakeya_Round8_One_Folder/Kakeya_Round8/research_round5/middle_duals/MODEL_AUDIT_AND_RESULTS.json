@@ -1,0 +1,98 @@
+{
+  "status": "PASS_VERIFIED_MULTI_PRICE_AND_ANALYTIC_COMPRESSION",
+  "baseline_middle_profiles": 275755,
+  "profiles_searched_by_LP": 186779,
+  "additional_profile_exclusions": 240,
+  "remaining_under_this_family": 275515,
+  "new_cells_closed": [],
+  "remaining_nonempty_cells": 55,
+  "all_new_prices_integral": true,
+  "minimum_doubled_gap": 2,
+  "all_cuts_have_elementary_closed_form_proof": true,
+  "elementary_theorem": "For2/3-point light fibres, L=sum(w-1), b>=1/2 and Delta=sum(c_h-b)_+, C_F<=bL+rDelta. If bL+3Delta<48, allr>=3 are impossible.",
+  "third_checker_profiles_considered": 2467,
+  "optimizer_needed_to_accept_these_cuts": false,
+  "full_LP_optimality_claimed_on_uncut_profiles": false,
+  "exact_union_comparison_with_root_geometry": {
+    "geometry_cutset": 4088,
+    "overlap": 0,
+    "union": 4328,
+    "remaining_after_union": 271427,
+    "scope": "Exact cutset comparison; root separately owns the geometry certificate replay."
+  },
+  "m11_bounded_diagnostic": {
+    "distinct_profiles": 66,
+    "cuts_found": 0,
+    "new_affine_classes_closed": 0,
+    "discovery_only": true
+  },
+  "by_support": [
+    {
+      "support": 10,
+      "input": 3220,
+      "cuts": 0,
+      "remaining": 3220
+    },
+    {
+      "support": 11,
+      "input": 24708,
+      "cuts": 0,
+      "remaining": 24708
+    },
+    {
+      "support": 12,
+      "input": 61048,
+      "cuts": 0,
+      "remaining": 61048
+    },
+    {
+      "support": 13,
+      "input": 85913,
+      "cuts": 54,
+      "remaining": 85859
+    },
+    {
+      "support": 14,
+      "input": 75865,
+      "cuts": 99,
+      "remaining": 75766
+    },
+    {
+      "support": 15,
+      "input": 20491,
+      "cuts": 53,
+      "remaining": 20438
+    },
+    {
+      "support": 16,
+      "input": 4076,
+      "cuts": 25,
+      "remaining": 4051
+    },
+    {
+      "support": 17,
+      "input": 434,
+      "cuts": 9,
+      "remaining": 425
+    }
+  ],
+  "epistemic_scope": "Model-agent analytic and separately implemented exact cross-checks in one session; not independent human review or Lean formalization.",
+  "files_sha256": {
+    "research_round5/middle_duals/MULTI_HEAVY_PRICE_PROOF.md": "5a9b113225e3c53ac84fc539366cc8421fe8edf9bb3ed4af64876ec8728dc4fe",
+    "research_round5/middle_duals/SMALL_LIGHT_CAPACITY_PROOF.md": "d4a5432599b1505eddb7b2d761b14090c47a5ca23a61908670dd35674b044fb3",
+    "research_round5/middle_duals/discover_multi_prices.py": "b576a66ec334d5f28ca0fcb79a20235fc7729f1a32144bfed15ea20dd3ea3585",
+    "research_round5/middle_duals/verify_multi_prices.py": "3dd90e69f34c0064bd5e7348f4e2d55bc080e77bd38aea9a38f6e80be1ce38c9",
+    "research_round5/middle_duals/verify_small_light_analytic.py": "75b1148c50576b7dfb0d7d62446f6944b40dbfdb5651a4c2560c8cc7520703cd",
+    "research_round5/middle_duals/FULL_MULTI_PRICE_CUTS.jsonl": "db63fa5376288828a0e2fa9f61daca6bc0c98f4691d50ec97801fe316b4c1460",
+    "research_round5/middle_duals/FULL_MULTI_PRICE_PRODUCER.json": "967d2f653aa23978803fd9baeeb6ea5de0ecbbcd16fa7e966e37ab7e48b5b411",
+    "research_round5/middle_duals/FULL_MULTI_PRICE_INDEPENDENT_REPLAY.json": "46079532926ca8a2b60c88ee25aa540156d8454d6e6d13320957215815f5cf16",
+    "research_round5/middle_duals/full_after_multi_price_survivors.txt": "bab2a33996acb240f09c5cbec2bb7c610e0f99859bb1f019a3fd8f245c10a5a1",
+    "research_round5/middle_duals/SMALL_LIGHT_ANALYTIC_CERTIFICATES.jsonl": "13aa444f47d33a88a5400cd2accf1b58558639d29181118d609d52a4874c567f",
+    "research_round5/middle_duals/SMALL_LIGHT_ANALYTIC_REPLAY.json": "2b9e3be6115454449e3979d86ef4e69081fc0e5807fc6ba7c47b009d3e9fb8c4",
+    "research_round5/middle_duals/verify_nine_degree_types.py": "24792221f2fc3adbe9ffeeef361ab758a9e9c0cce02e40770e22747f1b62992b",
+    "research_round5/middle_duals/NINE_DEGREE_TABLE_CROSSCHECK.json": "ad765cd91841e4b51c8a835ea98bd983c291fa807fdea881e4a45b93725b18cc",
+    "research_round5/middle_duals/NINE_GEOMETRY_SCREEN_REVIEW.md": "5f4710d43c80b24d3bbfa495da4a3f1b7d9f27544bacb10ea2edde8ce756b65f",
+    "research_round5/middle_duals/M11_S16_GEOMETRY_DIAGNOSTIC.json": "3db9f4423df34f9701c666b4331674f6f50dff7070d57a6757c903bf4de2d501"
+  },
+  "snapshot_note": "File hashes refreshed after root replay for the delivered archive; elapsed-time receipts may change on a new replay."
+}

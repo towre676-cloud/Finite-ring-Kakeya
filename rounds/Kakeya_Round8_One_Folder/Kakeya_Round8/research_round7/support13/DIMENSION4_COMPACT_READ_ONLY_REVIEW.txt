@@ -1,0 +1,60 @@
+READ-ONLY REVIEW OF DIMENSION-FOUR COMPACT REPLAY
+
+Scope: compact_dimension4.py and verify_dimension4.py, inspected on
+2026-10-28. This is code review by another model agent, not a proof-assistant
+formalization or independent human review. No files in either reviewed
+directory were modified by the reviewer and no solver was run for review.
+
+The compact path correctly retains the exact original formulas and partial
+theorem scope. Its semantic-only V.load(..., check_artifact_bytes=False)
+does not establish UNSAT. Every replacement DRAT must be checked afresh by
+the pinned DRAT-trim -> LRAT -> CakeML chain against the original CNF, and
+the CNF must regenerate byte-identically from the recorded parameters.
+Core receipts bind the full original row, proof hash and checker input
+hashes. The final compact manifest retains the ordered original inventory.
+
+Timeout formulas are regenerated and receive the explicit status
+PASS_TIMEOUT_REGENERATION_NO_EXCLUSION. V.scope(..., checked=True) grants
+coverage only for PASS_EXACT_DIMENSION4_UNSAT_CAKEML; a generic PASS prefix
+does not establish UNSAT. Ring-specific coverage remains separate. The
+whole minimum-46 claim requires complete maximum 2..16 coverage in all
+56 support/ring cases and no actual counterexample. Replaying all 56
+recorded outcomes is not equivalent to certifying all 56 cases.
+
+One report-integrity issue was found in the reviewed compact source:
+main --replay called load() and V.catalogue_replay() before overwriting an
+existing replay report with RUNNING. A preflight rejection could leave an
+older PASS report untouched. Recommendation sent to the owner: write a
+RUNNING report before preflight; wrap the full replay in exception handling
+that writes FAIL. Apply after active producers finish, before the final
+source pin, then repeat compact replay. This issue does not invalidate any
+already accepted exact-CNF proof. The original verify_dimension4.py already
+uses the recommended failure-reporting pattern.
+
+No other input-binding or partial-scope defect was identified in this
+limited read-only review. Direct publication to an incomplete destination
+directory can require manual recovery after interruption, but resume fails
+closed if its required receipt is absent; this is not false proof credit.
+
+FINAL FOLLOW-UP REVIEW
+
+The owner repaired the report issue. The final reviewed script SHA256 is
+53085501263d22357c8eefa5e9dc94fdc71a1e884fe91065a1b5c0a8bda8719f.
+RUNNING is written before preflight, including a combined --freeze --replay
+invocation. An outer BaseException handler writes FAIL and clears the
+full-inventory flag. The production and replay report objects are separate.
+Read-only inspection confirms that these changes address the finding.
+
+REPORT_FAILURE_CONTROL.json records two controlled failures, in load and
+freeze; both replace a pre-existing PASS report with FAIL. The final full
+replay receipt has status
+PASS_ALL_ORIGINAL_DIMENSION4_CASES_VIA_COMPACT_PROOFS and records all 56
+outcomes: 14 accepted refutations and 42 timeout regenerations with no
+exclusion credit. The minimum-46 statement remains false in checked_scope.
+This reviewer inspected the repaired code, source hashes, controls and
+final receipt; the reviewer did not independently rerun those checkers.
+
+Final compact manifest SHA256:
+1ed59fe93e643ddf60b4b9483c8c220741bf860fdc8cd027870651f6161ac9e0
+Final full replay receipt SHA256:
+7e63945feba52c8744dd2edda364cd86318d95924d546abb3b7c427fc8ce2e07

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_READ_ONLY_CODE_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "source_hashes": {
+    "research_round7/compact_support13/common.py": "be18fd65a06fda0ffb7fdd9f24691f1cc1d3e3555771aab7540fd5f094cd0fdb",
+    "research_round7/compact_support13/produce_cores.py": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+    "research_round7/compact_support13/verify_compact_support13.py": "170cd7aa0d5efa9f644ff314614ffcb784aaec82e642e88802f310a776bf7d9c",
+    "research_round7/support13/verify_support13.py": "71844439d6dfbc5fee0f900b9a1f82fec0962b60c82cf0e1f2d6f3bdb3d81272"
+  },
+  "review_focus": [
+    "The original support/interval/semantic manifest is bound through load_manifest(check_artifact_bytes=False); this skips old payloads but does not claim UNSAT.",
+    "Every compact row equals its original case exactly; production receipt hashes, original CNF hash, replacement proof hash and stored/decoded hashes are checked.",
+    "regenerate_formula checks byte-identical original CNF regeneration. Replacement cores are checked against that original CNF, with no added clauses.",
+    "DRAT trimming is untrusted. A fresh DRAT-trim to LRAT to pinned CakeML chain is mandatory for the replacement core.",
+    "The final compact manifest requires all original accepted case IDs in their original order, with duplicate rejection and unchanged coverage arithmetic.",
+    "Portable replay opens only replacement DRATs, exact original CNFs, and the one inherited LRAT. Old Round7 DRAT payloads are not needed.",
+    "Final source and persisted logical byte guards catch changes during replay. Quick replay explicitly does not establish whole-inventory coverage."
+  ],
+  "limitations": [
+    "No full runtime replay performed by this reviewer; production and portable replay receipts are separate evidence.",
+    "An interrupted unpublished destination may block resumability until explicitly repaired, but cannot silently receive PASS."
+  ],
+  "conclusion": "No semantic or input-binding blocker found. Freeze the final source inventory only after production is complete, then perform the full portable replay."
+}

@@ -1,0 +1,105 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.1.2
+c clang++-Clang 19.1.2 (https://github.com/llvm/llvm-project 7ba7d8e2f7b6445b60679da826210cdde29eaf8b)
+c Jan  1 1980 00:00:00
+c 
+c --- [ limit ] --------------------------------------------------------------
+c 
+c setting time limit to 60 seconds real time (due to '-t 60')
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/tmp/kakeya_exact_ring_x3oro00j/proof.drat'
+c writing non-binary proof trace to '/tmp/kakeya_exact_ring_x3oro00j/proof.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/tmp/kakeya_exact_ring_x3oro00j/input.cnf'
+c opening file to read '/tmp/kakeya_exact_ring_x3oro00j/input.cnf'
+c found 'p cnf 524 2097' header
+c parsed 2097 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reductions  redundant irredundant
+c         MB    restarts       trail    variables
+c          level   conflicts       glue     remaining
+c 
+c *  0.00  0  0 0   0    0    0  0% 0 2086 500 95%
+c {  0.00  0  0 0   0    0    0  0% 0 2086 500 95%
+c i  0.00  0  5 0   0   61   47 59% 2 2086 499 95%
+c i  0.00  0  6 0   3   88   72 57% 2 2086 497 95%
+c i  0.00  0  6 0   4   95   76 56% 2 2086 484 92%
+c i  0.00  0  5 0   9  137  108 54% 2 2086 480 92%
+c i  0.00  0  5 0  10  174  136 54% 2 2086 448 85%
+c i  0.00  0  5 0  10  182  140 54% 2 2086 402 77%
+c }  0.00  0  5 0  10  184  140 54% 2 2086 394 75%
+c 0  0.00  0  5 0  10  184  140 54% 2 2086 394 75%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/tmp/kakeya_exact_ring_x3oro00j/proof.drat' closed
+c DRAT 294 added clauses 89.63%
+c DRAT 34 deleted clauses 10.37%
+c DRAT 5222 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   98.15% search
+c         0.00   95.23% unstable
+c         0.00   13.39% parse
+c         0.00    2.60% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   83.44% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                49        26.63 %  of conflicts
+c conflicts:                   184     47929.15    per second
+c decisions:                   250     65121.13    per second
+c fixed:                       130        24.81 %  of all variables
+c learned:                     176        95.65 %  per conflict
+c learned_lits:               1324       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    481        36.33 %  learned literals
+c minishrunken:                 90         6.80 %  learned literals
+c otfs:                          4         2.17 %  of conflict
+c propagations:              18253         4.75 M  per second
+c restarts:                     10        18.40    interval
+c subsumed:                     29         1.29 %  of all clauses
+c strengthened:                  4         0.18 %  of all clauses
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:           16.06    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

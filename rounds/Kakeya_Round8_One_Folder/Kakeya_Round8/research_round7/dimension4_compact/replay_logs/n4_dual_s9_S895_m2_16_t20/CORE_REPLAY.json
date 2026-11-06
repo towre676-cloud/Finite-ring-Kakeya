@@ -1,0 +1,72 @@
+{
+  "case_id": "n4_dual_s9_S895_m2_16_t20",
+  "parameters": {
+    "case_id": "n4_dual_s9_S895_m2_16_t20",
+    "dimension": 4,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "maximum": 16,
+    "hub_min": 2,
+    "total": 45,
+    "normalize": true,
+    "purpose": "dimension4_complete_catalogue_bounded_search",
+    "catalogue_full_mask": 895
+  },
+  "representation": "COMPACT_DRAT",
+  "original_drat_read": false,
+  "status": "PASS_EXACT_DIMENSION4_UNSAT_CAKEML",
+  "regeneration": {
+    "variables": 4298,
+    "clauses": 19742,
+    "cnf_sha256": "1c04dc90dd499c71d82cafb52179cd23a8870ffb0dbb6c592ec883a86a4ac920"
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 4298,
+      "clauses": 19742
+    },
+    "input_sha256": {
+      "cnf": "1c04dc90dd499c71d82cafb52179cd23a8870ffb0dbb6c592ec883a86a4ac920",
+      "drat": "ba6890cb9f96554a309f96284453b08e3d7fde8ad856180e7710225c922a8614"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 6.784404,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "90bf891e9dbb36e36f41dcf9b4ba4a67804aca3796498c606d6e30e513559b54",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "6183e5c660f71766f65f06f1a87b50f5a5a1febdac02ac354665871e63c317ae",
+    "lrat_bytes": 89585708,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 3.073381,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 10.414375
+}

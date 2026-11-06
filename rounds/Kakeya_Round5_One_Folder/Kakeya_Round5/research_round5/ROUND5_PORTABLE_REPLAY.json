@@ -1,0 +1,94 @@
+{
+  "status": "PASS_ALL_ROUND5_FINITE_REPLAYS",
+  "stages": [
+    {
+      "stage": "complete_38_marked_cases",
+      "returncode": 0,
+      "seconds": 7.457807,
+      "stdout_sha256": "02d204661c5befea5cdf512ad961784bea2173d9591461fdfb6574ae87c99d6a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "nine_residue_geometry",
+      "returncode": 0,
+      "seconds": 3.192892,
+      "stdout_sha256": "af8a28affa3be2917070cfd32f520b18736bbf6bfda7bf55514f50e183387c94",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "multiple_price_certificates",
+      "returncode": 0,
+      "seconds": 0.834538,
+      "stdout_sha256": "5544e29abcbcedc500e5d40406607947e277728c581e302a6d5648820ae5c49b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "analytic_240_exclusions",
+      "returncode": 0,
+      "seconds": 0.436178,
+      "stdout_sha256": "759ee8c3613f28caac3d7aab2b7ce87de2b61fd621564b43e741388215347819",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "separate_geometry_table",
+      "returncode": 0,
+      "seconds": 0.089614,
+      "stdout_sha256": "dfe30a8e6f308d5e4f431eba4d65cb8e455620f5d606d88f4bcfebdcfe12f684",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "standalone_support10_classification",
+      "returncode": 0,
+      "seconds": 0.536834,
+      "stdout_sha256": "7946c1ccd3cfe1bf9a2698bb0aee86915b15975417f3f1f22e3ea5b599a6dcfa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "historical_641_role_exclusions",
+      "returncode": 0,
+      "seconds": 1.714908,
+      "stdout_sha256": "2867fdb97d58dd3d2e27ba7cfed822c62ba914fcd4764f581e60bbc44caa3f0e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "full_support10_weight_crosscheck",
+      "returncode": 0,
+      "seconds": 0.078448,
+      "stdout_sha256": "0c532411c7d01113e948c40dcf3e9fcd09fbe54550db5dfefdc4409681b98a50",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "support10_common_neighbours",
+      "returncode": 0,
+      "seconds": 0.026686,
+      "stdout_sha256": "4c4dfd93ea890c328c272e65ebc1f643eb00423f7d1b18110ccc9e3ea46e2c86",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "support10_rigidity_applications",
+      "returncode": 0,
+      "seconds": 0.027889,
+      "stdout_sha256": "cec138f6b077c6cf5d7b0378c5ed7bbba03ca574fa683eab1de563743212704b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "verified_checker_pipeline",
+      "returncode": 0,
+      "seconds": 2.78901,
+      "stdout_sha256": "023b8022260e08a4e1e4cd811e043478e0089c05f592f4c061c1897788f3bdc0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "exact_merged_frontier",
+      "returncode": 0,
+      "seconds": 0.845439,
+      "stdout_sha256": "5b8ec8171f356727d8f346431c75a60775a9c1754d04e9b15c74352a899164c6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "completed_stages": 12,
+  "Lean_recompiled_in_this_run": false,
+  "seconds": 18.030982,
+  "new_Claude_proof_files_checked": 0,
+  "scope": "Exact finite replay plus mandatory CakeML acceptance of four archived examples. Analytic theorem arguments remain explicit hand proofs. New Claude A-E/CNF/DRAT artifacts were unavailable."
+}

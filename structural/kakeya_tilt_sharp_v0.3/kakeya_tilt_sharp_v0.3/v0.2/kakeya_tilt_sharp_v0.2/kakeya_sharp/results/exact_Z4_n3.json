@@ -1,0 +1,1 @@
+{"ring": "Z4", "n": 3, "status": "FEASIBLE", "best": 22, "lower_bound": 4.0, "seconds": 300.04, "conjecture": 22, "witness": [0, 1, 8, 9, 13, 16, 22, 24, 28, 31, 32, 34, 37, 38, 39, 40, 43, 48, 50, 51, 56, 60], "witness_rechecked": true}

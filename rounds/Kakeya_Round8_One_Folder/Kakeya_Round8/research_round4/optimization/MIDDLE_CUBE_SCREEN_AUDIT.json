@@ -1,0 +1,73 @@
+{
+  "status": "PASS_BOUNDED_MATHEMATICAL_AND_CODE_CROSS_CHECK",
+  "scope": "New joint-spectrum cube screen plus generic-screen hypothesis audit and disjoint accounting; complete quota arithmetic is delegated to its separately reviewed replay.",
+  "joint_local_rows": 1683,
+  "spectra_evaluated": 24750,
+  "new_joint_weight_profile_cuts": 524,
+  "actual_cube_branches": 2498,
+  "minimum_strict_doubled_gap": 1,
+  "prior_inherited_spectrum_cuts": 23164,
+  "prior_generic_geometry_cuts": 135877,
+  "final_weight_profiles": 276267,
+  "joint_cuts_by_cell": [
+    {
+      "support": 13,
+      "maximum": 12,
+      "cuts": 3
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "cuts": 109
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "cuts": 2
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "cuts": 214
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "cuts": 1
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "cuts": 148
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "cuts": 47
+    }
+  ],
+  "generic_method_counts": {
+    "TWO_HEAVY_DELETED_DIRECTION": 1855,
+    "INHERITED_EXACT_SPECTRUM": 23164,
+    "THREE_HEAVY_SINGLE_EXCEPTION": 7417,
+    "EIGHT_HEAVY_MISSING_DIRECTIONS": 113067,
+    "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 6877,
+    "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 440,
+    "TOTAL_PAIR_ENERGY": 844,
+    "NINE_HEAVY_SUMFREE_DIRECTIONS": 5377
+  },
+  "epistemic_scope": "Cross-check by another model agent within the same session, not external human independence.",
+  "hashes": {
+    "research_round4/middle_inventory/MIDDLE_INVENTORY_PROOF.md": "f0519ef50c966e4b399aa6fc1532cc6bde2b2bef9c04c963fb936acf8587e18c",
+    "research_round4/middle_inventory/screen_geometry.cpp": "ca741ec058337052a19a7351a2ea3c547b34b6ed0eb52bbd94daedf9bc434c25",
+    "research_round4/middle_inventory/screen_cube_joint_energy.py": "797de644a8d61b14c2aa76e50d0f8f610921cf72fc5343540ded7385b46aa4db",
+    "research_round4/middle_inventory/verify_middle_inventory.py": "fc8692c70312823d9eb9cd1613d6cc3d8d0e05c9d5b2c222ea1c06f5105459ed",
+    "research_round4/middle_inventory/CUBE_JOINT_LOCAL_TABLE.json": "94c7e752b88469cfa1b494d37343151f686bd7ade96c91af81c50688af55b342",
+    "research_round4/middle_inventory/CUBE_JOINT_ENERGY_CUTS.jsonl": "8aa10c0e25fdb4547173068eaff47cbdceaf2a07cdd1f92ea884bc3cd99e816a",
+    "research_round4/middle_inventory/geometry_and_spectrum_cuts.txt": "027ff819df4eb6e37ac9f996ddb061fb981be86ae53fc6b906cff710d28a9b6e",
+    "research_round4/middle_inventory/final_weight_survivors.txt": "5b0eadbf966a93a6108fea78b4204cc8eaf518c4eb7aeec9f3fab0afcc5b40b6",
+    "research_round4/middle_inventory/after_cube_weight_survivors.txt": "1cb90fa5f6e477ba452266cd00f2d823eb43c82a6aa81a03c1720bc1d9b6c768",
+    "research_round2/geometric/PAIR_SPECTRUM_CENSUS.json": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35"
+  },
+  "seconds": 1.463
+}

@@ -1,0 +1,136 @@
+{
+  "status": "UNSAT",
+  "n": 5,
+  "ring": "dual",
+  "weight": 36,
+  "support": [
+    0,
+    1,
+    16,
+    17
+  ],
+  "variables": 60,
+  "clauses": 223,
+  "affine_gauge_basis": [
+    0,
+    1,
+    16
+  ],
+  "seconds": 0.0006337430004350608,
+  "required_residue_directions": [
+    16
+  ],
+  "local_sumset_failures": [],
+  "tree_overlap_failures": [
+    {
+      "d": 16,
+      "base_edges": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "canonical_sumsets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ]
+      ],
+      "required": 16,
+      "upper_bound": 14,
+      "capacity_sum": 16,
+      "tree_weight": 2,
+      "tree_edges": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimum_intersections": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    }
+  ],
+  "cnf_sha256": "b48b68d2cd98d68b23f64a955de7068361ffa3eff4f007b091e26e68467cd153",
+  "fixed_shapes": {
+    "0": [
+      0,
+      16
+    ],
+    "16": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25
+    ],
+    "1": [
+      0,
+      16
+    ],
+    "17": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25
+    ]
+  },
+  "scope": "Independent translations of these fixed labelled fibre shapes, covering only the listed residue directions.",
+  "proof_sha256": "43238aa2e0767d65e978765e4abfe57d421cdfcf31ec0edea05529cdfe3dd7c1",
+  "proof_file": "proof.drat",
+  "proof_check": {
+    "exit_code": 0,
+    "output": "VERIFIED (empty clause reached) lemmas=6 deletions=0"
+  }
+}

@@ -1,0 +1,1 @@
+{"status": "PASS_BOTH_FOUR_PAIR_TIMEOUT_FORMULAS_NO_EXCLUSIONS", "SAT_solver_invoked": false, "exclusions_credited": 0, "seconds": 0.898557}

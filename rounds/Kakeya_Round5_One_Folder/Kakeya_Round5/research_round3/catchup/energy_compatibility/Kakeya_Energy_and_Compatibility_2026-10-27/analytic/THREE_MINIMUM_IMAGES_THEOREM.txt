@@ -1,0 +1,185 @@
+THREE MINIMUM IMAGES SUFFICE FOR THE SHARP LENGTH-TWO KAKEYA BOUND
+27 October 2026. Analytic theorem; no unrestricted lower-bound claim.
+
+Setup. R is Z/4Z or F2[e]/(e^2), pi is 2 or e, G=R^n, N=2^n,
+H=pi G=ker(pi), |G|=N^2, |H|=N. Given any f:G->G, write
+S_t=(f+t Id)(G), K_f=union_{t in R} S_t.
+
+THEOREM. If any three of the four image sets S_t have cardinality N,
+then |K_f| >= 3N-2. This genuinely enlarges the balanced four-image
+class. More precisely, there is a power h of two dividing N such that
+
+    |K_f| >= 4N-h-N/h-1.
+
+The fourth image cannot have size less than N: it is unit-separated
+from one of the N-point images, and the associated pair map is injective.
+The fourth image also cannot have size N+1, as proved below. If it
+has size greater than N, then 1<h<N and therefore
+
+    |K_f| >= (7/2)N-3.
+
+The latter alternative requires n>=2 and is sharp in every such
+dimension for both rings. For n=5 its bound is 109.
+Equality |K_f|=3N-2 forces all four images to have size N, and the
+known full-hub star classification in the balanced class applies.
+
+PROOF.
+1. Replacing f by f+s Id permutes its four parameter images. We can
+   arrange that the potentially nonminimum image has parameter pi.
+   Translate f by -f(0). Thus write A=S_0, B=S_1, D=S_(1+pi), all
+   of size N, with 0 belonging to every image.
+
+2. The map v -> (f(v),f(v)+v) is injective, and its domain G and
+   codomain A x B both have size N^2. It is therefore a bijection.
+   Equivalently the difference map (a,b) -> b-a is a bijection from
+   A x B onto G, and f(b-a)=a for every (a,b). Consequently
+
+       S_pi=(1-pi)A+pi B,
+       D=(1+pi)B-pi A.
+
+3. Since 0 is in A, the second formula includes (1+pi)B in D.
+   Multiplication by 1+pi is a bijection, and |D|=|B|=N, so
+   D=(1+pi)B. For every a in A the translate (1+pi)B-pi a is
+   contained in D and has the same size, hence equals D. Since
+   pi^2=0, multiplication by (1+pi)^(-1) fixes pi a. Therefore
+   B is invariant under pi A, and hence under the subgroup
+   H0=span_F2(pi A) of H. Put h=|H0|.
+
+4. Put p=|pi A| and t=|pi B|. Every nonempty pi-fibre of B is a
+   union of H0-cosets, so t h <= |B|=N. Also p<=h. Applying pi
+   to the surjective difference map gives pi B-pi A=H, so pt>=N.
+   Thus N<=pt<=h(N/h)=N, with equality throughout. In particular
+
+       pi A=H0,  |pi B|=m=N/h.
+
+   The set T=pi B is a transversal for H/H0: the map
+   H0 x T -> H, (x,y)->y-x, is a surjection between sets of the
+   same size N. Each nonempty pi-fibre B_y has exactly h points
+   and is one H0-coset. Since 0 is in B, B_0=H0.
+
+5. For fixed x in H0 and y in T, every vector v with pi v=y-x
+   has its unique difference representation b-a with pi a=x,
+   pi b=y. (The pair of pi-images is unique by the preceding
+   transversal property.) Hence A_x x B_y maps bijectively to
+   this N-point pi-fibre of G, so |A_x|h=N and |A_x|=m.
+   Moreover A_x is a transversal for H0 in that pi-fibre: two
+   distinct a,a' differing by a member of H0 would, by B_y's
+   H0-invariance, give two representations of the same difference.
+   In particular A_0 is a transversal for H/H0 containing 0,
+   and A_0 intersects H0 only in 0.
+
+6. Define A'=(1-pi)A and B'=(1+pi)B. Both have size N, and
+   A union A' union B union B' is a subset of K_f, because
+   0 is in B and hence A' is in S_pi, while B'=D.
+
+   In the pi-fibre labelled x in H0, A' is A_x translated by -x.
+   If x=0 this changes nothing. If x!=0, these two transversals
+   are disjoint: an intersection would give two points of A_x
+   differing by the nonzero element x of H0. Thus
+
+       A intersects A' = A_0, of size m.
+
+   In the pi-fibre labelled y in T, B' is the H0-coset B_y
+   translated by y. Its intersection with B_y is nonempty exactly
+   when y belongs to H0. Since T is a transversal containing 0,
+   this happens only for y=0. Therefore
+
+       B intersects B' = H0, of size h.
+
+   Any cross-intersection of a member of {A,A'} with a member of
+   {B,B'} lies over a label in H0 intersect T={0}; in that fibre
+   it is A_0 intersect H0={0}. Consequently the two unions have
+   sizes 2N-m and 2N-h and intersect only at zero. Their combined
+   size is exactly 4N-h-m-1, proving the more precise bound.
+
+7. Since hm=N, h+m<=N+1, because (h-1)(m-1)>=0. Thus
+   4N-h-m-1>=3N-2. Equality forces h=1 or m=1. If h=1,
+   pi A={0} and A=H, which gives S_pi=H. If m=1, B=H and
+   pi B={0}, which gives S_pi=(1-pi)A. Either endpoint forces
+   the fourth image to have size N. If the fourth is larger,
+   then h,m>=2, and h+m<=2+N/2, giving (7/2)N-3. QED.
+
+STRICTNESS EXAMPLE (both rings, n=2).
+Let e1,e2 be the standard basis of V=F2^2; write points as (x,y)
+with base x and fibre coordinate y. Choose
+
+  A_0={0,e2},  A_e1={0,e1+e2}, other A_x empty;
+  B_0={0,e1},  B_e2={0,e1}, other B_x empty.
+
+The difference map A x B -> G is bijective. Define f(v) as the
+unique a in A in v=b-a. Then |S0|=|S1|=|S_(1+pi)|=4, whereas
+|S_pi|=6. Its union has size11, so the theorem includes examples
+strictly outside the four-balanced/minimum-four-product class.
+
+SHARPNESS OF THE STRICT GAP IN EVERY n>=2.
+Split V=F2^n as P direct-sum T, with P=<e1> and T the span of
+e2,...,en. Thus |P|=2 and |T|=m=N/2. Choose a nonzero linear map
+phi:T->P. Identify each residue fibre with V and choose
+
+  A_0=T,
+  A_e1={t+phi(t): t in T},
+  all other A_x empty;
+
+  B_t=P for every t in T,
+  all other B_x empty.
+
+Both A and B have N points. Their base supports P,T are complementary
+subspaces, so the pair of residues for a prescribed difference is
+unique. Every A-fibre is a transversal for P, and every B-fibre is P;
+therefore the internal difference representation is unique too. This
+proves A x B -> G is a difference tiling for both rings (any binary
+carry in Z/4 merely translates the internal difference). Define f by
+f(b-a)=a.
+
+The set B is invariant under pi A=P, so S_(1+pi)=(1+pi)B has N
+points. The fourth image C=(1-pi)A+pi B has only two base fibres:
+C_0=T, while C_e1=V. The latter follows because phi is onto P,
+so {t+phi(t):t in T}+T is all of V. Thus |C|=m+N=3N/2.
+Furthermore C is contained in A union (1-pi)A: in the e1 fibre,
+the graph of phi and its e1-translate partition V, and in the zero
+fibre the sets both equal T. Hence K_f is exactly the four-set subset
+counted in step6, and
+
+  |K_f|=4N-2-m-1=(7/2)N-3.
+
+This establishes sharpness of the unbalanced fourth-image gap, not
+just nonemptiness of the larger class.
+
+THE FOURTH IMAGE IS EITHER N OR AT LEAST N+2; JOINT SHARPNESS.
+The preceding proof shows that each pi-fibre of C=S_pi is a union
+of translates of an m-point set A_x, with translations in H, a
+binary vector space. If m=1, step7 already forces |C|=N. Otherwise
+m is even. The union of a set of even size m and any of its distinct
+translates has even size: their intersection is invariant under the
+nonzero translating element, hence is partitioned into two-point
+orbits. If a union of translates has more than m points, one translate
+differs from the first, and their union alone has at least m+2 points.
+Thus any fibre expansion adds at least two, and |C| cannot be N+1.
+
+This smallest possible fourth-image expansion is compatible with
+equality in the sharp union gap. Take a coordinate hyperplane H0 in
+V=F2^n, let t be the remaining coordinate vector, and put T={0,t}.
+Choose one nonzero x0 in H0. Define A on base support H0 by
+
+  A_x=T for x in H0 except x0,
+  A_x0={0,t+x0};
+
+and define B on the two base residues in T by B_0=B_t=H0.
+As above, these are N-point sets tiling G uniquely by differences.
+The first, second, and fourth images have N points. The third image
+C has a two-point fibre at every x in H0 except x0, where its fibre
+has four points. Hence its size is exactly N+2. Moreover C is still
+contained in A union (1-pi)A: at x0 the latter union is precisely
+{0,t,x0,t+x0}, and elsewhere C is just the translated A-fibre.
+Consequently
+
+  (|S0|,|S1|,|S_pi|,|S_(1+pi)|)=(N,N,N+2,N),
+  |K_f|=(7/2)N-3.
+
+For n=5 this gives (32,32,34,32) and union109, over both rings.
+
+SCOPE.
+An arbitrary Kakeya set can be represented by a containing-line
+selection f with K_f contained in that set. No argument here makes
+three of its parameter images have size N. Thus this is an enlarged
+conditional all-dimension theorem, not the unrestricted Kakeya law.

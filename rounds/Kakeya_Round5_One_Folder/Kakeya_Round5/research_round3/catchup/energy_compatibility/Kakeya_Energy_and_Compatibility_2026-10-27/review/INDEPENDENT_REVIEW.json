@@ -1,0 +1,943 @@
+{
+  "status": "PASS",
+  "scope": "Independent implementation controls, not unrestricted n5 closure",
+  "three_image_controls": {
+    "transversal_family_checks": {
+      "z4": 108,
+      "dual": 108
+    },
+    "strict_fourth_image_checks": {
+      "z4": 58,
+      "dual": 58
+    },
+    "all_one_dimensional_maps": {
+      "z4": 256,
+      "dual": 256
+    },
+    "dimension5_samples": [
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 1,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 2,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 124
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          120,
+          32
+        ],
+        "union": 177
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          120,
+          32
+        ],
+        "union": 177
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          112,
+          32
+        ],
+        "union": 172
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          112,
+          32
+        ],
+        "union": 172
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          113,
+          32
+        ],
+        "union": 175
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          113,
+          32
+        ],
+        "union": 175
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          114,
+          32
+        ],
+        "union": 173
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 4,
+        "image_sizes": [
+          32,
+          32,
+          114,
+          32
+        ],
+        "union": 173
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          111,
+          32
+        ],
+        "union": 184
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          111,
+          32
+        ],
+        "union": 184
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          99,
+          32
+        ],
+        "union": 171
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          99,
+          32
+        ],
+        "union": 171
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          108,
+          32
+        ],
+        "union": 179
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          108,
+          32
+        ],
+        "union": 179
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          103,
+          32
+        ],
+        "union": 170
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 8,
+        "image_sizes": [
+          32,
+          32,
+          103,
+          32
+        ],
+        "union": 170
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          62,
+          32
+        ],
+        "union": 132
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          62,
+          32
+        ],
+        "union": 132
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 138
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 138
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 140
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          64,
+          32
+        ],
+        "union": 140
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          62,
+          32
+        ],
+        "union": 133
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 16,
+        "image_sizes": [
+          32,
+          32,
+          62,
+          32
+        ],
+        "union": 133
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "z4",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      },
+      {
+        "ring": "dual",
+        "n": 5,
+        "h": 32,
+        "image_sizes": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "union": 94
+      }
+    ]
+  },
+  "sharp_three_image_constructions": [
+    {
+      "ring": "dual",
+      "n": 2,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union": 11
+    },
+    {
+      "ring": "z4",
+      "n": 2,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union": 11
+    },
+    {
+      "ring": "dual",
+      "n": 2,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union": 11
+    },
+    {
+      "ring": "z4",
+      "n": 2,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union": 11
+    },
+    {
+      "ring": "dual",
+      "n": 3,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        8,
+        8,
+        10,
+        8
+      ],
+      "union": 25
+    },
+    {
+      "ring": "z4",
+      "n": 3,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        8,
+        8,
+        10,
+        8
+      ],
+      "union": 25
+    },
+    {
+      "ring": "dual",
+      "n": 3,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        8,
+        8,
+        12,
+        8
+      ],
+      "union": 25
+    },
+    {
+      "ring": "z4",
+      "n": 3,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        8,
+        8,
+        12,
+        8
+      ],
+      "union": 25
+    },
+    {
+      "ring": "dual",
+      "n": 4,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        16,
+        16,
+        18,
+        16
+      ],
+      "union": 53
+    },
+    {
+      "ring": "z4",
+      "n": 4,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        16,
+        16,
+        18,
+        16
+      ],
+      "union": 53
+    },
+    {
+      "ring": "dual",
+      "n": 4,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        16,
+        16,
+        24,
+        16
+      ],
+      "union": 53
+    },
+    {
+      "ring": "z4",
+      "n": 4,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        16,
+        16,
+        24,
+        16
+      ],
+      "union": 53
+    },
+    {
+      "ring": "dual",
+      "n": 5,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        32,
+        32,
+        34,
+        32
+      ],
+      "union": 109
+    },
+    {
+      "ring": "z4",
+      "n": 5,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        32,
+        32,
+        34,
+        32
+      ],
+      "union": 109
+    },
+    {
+      "ring": "dual",
+      "n": 5,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        32,
+        32,
+        48,
+        32
+      ],
+      "union": 109
+    },
+    {
+      "ring": "z4",
+      "n": 5,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        32,
+        32,
+        48,
+        32
+      ],
+      "union": 109
+    },
+    {
+      "ring": "dual",
+      "n": 6,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        64,
+        64,
+        66,
+        64
+      ],
+      "union": 221
+    },
+    {
+      "ring": "z4",
+      "n": 6,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        64,
+        64,
+        66,
+        64
+      ],
+      "union": 221
+    },
+    {
+      "ring": "dual",
+      "n": 6,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        64,
+        64,
+        96,
+        64
+      ],
+      "union": 221
+    },
+    {
+      "ring": "z4",
+      "n": 6,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        64,
+        64,
+        96,
+        64
+      ],
+      "union": 221
+    },
+    {
+      "ring": "dual",
+      "n": 7,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        128,
+        128,
+        130,
+        128
+      ],
+      "union": 445
+    },
+    {
+      "ring": "z4",
+      "n": 7,
+      "construction": "fourth_N_plus_2",
+      "image_sizes": [
+        128,
+        128,
+        130,
+        128
+      ],
+      "union": 445
+    },
+    {
+      "ring": "dual",
+      "n": 7,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        128,
+        128,
+        192,
+        128
+      ],
+      "union": 445
+    },
+    {
+      "ring": "z4",
+      "n": 7,
+      "construction": "fourth_3N_over_2",
+      "image_sizes": [
+        128,
+        128,
+        192,
+        128
+      ],
+      "union": 445
+    }
+  ],
+  "small_proof_replays": [
+    {
+      "case": "n2_three_fibres_dual",
+      "variables": 26,
+      "lemmas": 1,
+      "empty_clause_reached": true,
+      "input_and_proof_hashes_match": true
+    },
+    {
+      "case": "n5_four12_block_dual",
+      "variables": 140,
+      "lemmas": 5,
+      "empty_clause_reached": true,
+      "input_and_proof_hashes_match": true
+    }
+  ],
+  "all_Lp_barrier": {
+    "n5_by_p": [
+      {
+        "p": 2,
+        "norm_lower_bound": 3.482676019681491,
+        "cardinality_bound_ceiling": 84.42553191489363
+      },
+      {
+        "p": 3,
+        "norm_lower_bound": 2.277402255386539,
+        "cardinality_bound_ceiling": 86.6923383673225
+      },
+      {
+        "p": 5,
+        "norm_lower_bound": 1.6341271964220632,
+        "cardinality_bound_ceiling": 87.87607827593062
+      },
+      {
+        "p": 10,
+        "norm_lower_bound": 1.2773611879384192,
+        "cardinality_bound_ceiling": 88.54474568140556
+      },
+      {
+        "p": 100,
+        "norm_lower_bound": 1.0247251375417818,
+        "cardinality_bound_ceiling": 89.03503929855512
+      }
+    ],
+    "n5_all_finite_p_ceiling": 89.08422980528034,
+    "integer_squared_obstruction_checked_n": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

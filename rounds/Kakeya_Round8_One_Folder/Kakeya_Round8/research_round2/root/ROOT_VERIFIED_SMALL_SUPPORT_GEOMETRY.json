@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "method": "all affine-basis-normalized8- and9-subsets in F2^5; unordered differences computed directly",
+  "claims": [
+    "8-points determine at most25 nonzero differences",
+    "8-point missing-direction count is6 or at least9",
+    "extremal8-point missing6 directions lie in one affine halfspace",
+    "each residue has at most3 neighbors in an extremal8-point support along its6 missing directions",
+    "9-points determine at most28 nonzero differences",
+    "extremal9-point missing3 directions are linearly independent"
+  ],
+  "records": [
+    {
+      "weight": 8,
+      "complete_normalized_sets": 491,
+      "maximum_distinct_nonzero_differences": 25,
+      "missing_count_distribution": {
+        "6": 75,
+        "9": 160,
+        "11": 90,
+        "16": 135,
+        "17": 20,
+        "18": 10,
+        "24": 1
+      },
+      "extremal_sets_checked": 75
+    },
+    {
+      "weight": 9,
+      "complete_normalized_sets": 2930,
+      "maximum_distinct_nonzero_differences": 28,
+      "missing_count_distribution": {
+        "3": 260,
+        "4": 750,
+        "6": 660,
+        "8": 810,
+        "9": 60,
+        "10": 60,
+        "16": 330
+      },
+      "extremal_sets_checked": 260
+    }
+  ]
+}

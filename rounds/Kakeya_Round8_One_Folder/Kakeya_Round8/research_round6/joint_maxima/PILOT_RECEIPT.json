@@ -1,0 +1,107 @@
+{
+  "status": "PASS_ALL_REQUESTED_CNF_CERTIFICATES",
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "requested_supports": [
+    11,
+    12
+  ],
+  "requested_cases": 1,
+  "scope_complete": false,
+  "completed_cases": 1,
+  "cases": [
+    {
+      "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+      "case_id": "m2_18_s11_orbit65_hub1",
+      "geometric_case_id": "s11_orbit65_hub1",
+      "maximum_interval": [
+        2,
+        18
+      ],
+      "support_size": 11,
+      "source_mask": 8481174,
+      "marked_support": {
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          13,
+          14,
+          16,
+          23
+        ],
+        "distinguished_hub": 0,
+        "affine_map_to_contract": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          16
+        ]
+      },
+      "semantic_input_hashes": {
+        "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+        "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+        "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+        "research_round6/catalogue_audit/CLAUDE_TO_ROUND5_38_CASE_MAP.json": "5981bf394941a92abf4d52667771ac2c15b8e36fc2095fd9b0c57e4955e100b8"
+      },
+      "mathematical_scope": "Common necessary-condition relaxation for both rings; encoder soundness is a separate obligation.",
+      "cnf_sha256": "35df861dd6c442218d673460b46097f0364032df06389c0cf288db15584b4cc5",
+      "cnf_bytes": 6374979,
+      "variables": 35144,
+      "clauses": 294029,
+      "encode_seconds": 1.0886,
+      "solver_returncode": 20,
+      "solver_command": [
+        "/tmp/kakeya_lean_round4/lean-4.24.0-linux/bin/cadical",
+        "--lrat",
+        "--no-binary",
+        "--no-witness",
+        "-t",
+        "300",
+        "/workspace/scratch/a2844a91c00e/research_round6/joint_maxima/cases/m2_18_s11_orbit65_hub1/input.cnf",
+        "/workspace/scratch/a2844a91c00e/research_round6/joint_maxima/cases/m2_18_s11_orbit65_hub1/proof.lrat"
+      ],
+      "solve_seconds": 4.476557,
+      "lrat_sha256": "b42683faaa3070439e59cc5e451dcb573cd12ec3e0f836fd15f903980bb9657b",
+      "lrat_bytes": 34830604,
+      "cnf_header": {
+        "variables": 35144,
+        "clauses": 294029
+      },
+      "cake_lpr": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 5.187116,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "inputs_unchanged": true,
+      "seconds": 11.149799
+    }
+  ],
+  "seconds": 11.189429,
+  "encoder_formally_verified": false,
+  "solver_trusted_for_unsat": false,
+  "by_support": {
+    "11": {
+      "expected": 1,
+      "accepted": 1
+    },
+    "12": {
+      "expected": 0,
+      "accepted": 0
+    }
+  }
+}

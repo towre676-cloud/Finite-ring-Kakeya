@@ -1,0 +1,33 @@
+{
+  "status": "PASS_EXACT_ROUND8_FRONTIER_ACCOUNTING",
+  "new_roles": [
+    377850134,
+    411136406,
+    671697334,
+    2185856310
+  ],
+  "closed_affine_classes": [
+    109,
+    110,
+    111
+  ],
+  "remaining_maximum11_affine_classes": 42,
+  "direct_exact11_marked_coverage": 39,
+  "direct_catalogue_size": 55,
+  "support13_maximum11_closed_using_inherited_reductions": true,
+  "middle_profiles_removed_by_sat_geometry": 0,
+  "middle_profiles_removed_by_universal_incidence_theorem": 16,
+  "middle_profiles_remaining": 183460,
+  "whole_profile_certificate_sha256": "5afcdb87d3711760d6854db2c9a822ce4f43406e606d6b09567ed043f7de156a",
+  "whole_profile_replay_sha256": "0678bb350811abefaa9f0719c120dffa4ae2b8ac98e2c708f6c675a903796ef4",
+  "whole_profile_survivor_sha256": "892032e51ecdac50c351759cba7b8b2eb42fa8c3b102583ac687780e7a0a4835",
+  "source_sha256": {
+    "Kakeya_Research_Frontier_Round7.json": "bd68ff87f3fc47f72b42657553d4265e03dc8bee1abb9a1097bb42b67759e9f6",
+    "research_round7/geometry/SUPPORT13_MARKING_MAP.json": "82947e90078689b065fc56fc9f19ad682541c110e7808fa24ba464c72e4e3600",
+    "research_round7/support13/SUPPORT13_CERTIFICATE_MANIFEST.json": "e857fee69f0181ce1505cfe77e085599d3f644d55da636e313517d989b23b4c2"
+  },
+  "compact_manifest_sha256": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+  "compact_replay_sha256": "4000ad3a31b4d74fd3c25876f22dcb08ec9bc4de5d14f78cb73c86d01a6e9f65",
+  "ledger_sha256": "a1b3f545b134bddb76b1f7d89e1dbb0ea32386bc59c6862353fd3bb5750c3054",
+  "source_code_sha256": "e3c740061a969ab0eff9978ac3f1c323a29e79017381a2101fa9a1e5f01fd4a8"
+}

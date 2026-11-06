@@ -1,0 +1,39 @@
+{
+  "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+  "cnf_header": {
+    "variables": 47264,
+    "clauses": 362529
+  },
+  "input_sha256": {
+    "cnf": "052a69be37c257938a8dc4bbd559e54642a3e393448751f8fd6c9b5431263d72",
+    "drat": "1115c22d2041845d42657c609aece15c7c94a1acad9d003c54698e6ce0a2977d"
+  },
+  "drat_trim": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 17.801663,
+    "stdout_file": "drat_trim.stdout.txt",
+    "stdout_sha256": "6c9a7c0ebd830e7ebb45b6260e37d696dd2412c0c48296aad7b13bfdc7022f00",
+    "stderr_file": "drat_trim.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "lrat_sha256": "115cebc4f50c96214b9bed2c54bc73329d2a15ebe76beef49b35adab15a1b9d0",
+  "lrat_bytes": 37118697,
+  "lrat_check_c": {
+    "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+  },
+  "cake_lpr": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 12.740152,
+    "stdout_file": "cake_lpr.stdout.txt",
+    "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+    "stderr_file": "cake_lpr.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "case_id": "s13_T376013078_m13_incidence_pending"
+}

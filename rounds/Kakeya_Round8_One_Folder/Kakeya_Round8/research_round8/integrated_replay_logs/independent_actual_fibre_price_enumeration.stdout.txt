@@ -1,0 +1,15 @@
+{
+  "status": "PASS_INDEPENDENT_NORMALIZED_FIBRE_PRICE_AND_AGGREGATE_REPLAY",
+  "imported_census_or_Mtable_read": false,
+  "SAT_solver_invoked": false,
+  "normalized_actual_fibres_checked": 85184,
+  "normalization_completeness": "Every affine-rank-r fibre admits an affine basis mapped to0,e1,...,er; all remaining points are enumerated.",
+  "three_by_five_partner_sets_checked": 4368,
+  "three_by_five_maximum": 13,
+  "stronger_fourfold_price_bound": 2757,
+  "elementary_fourfold_price_bound": 2994,
+  "required_fourfold_price": 3072,
+  "source_sha256": "702509161bec2a56c3193e6f7153c468457f4e97d398fafb5b1fdf8f7a7b36bd",
+  "seconds": 0.430297
+}
+independent DP bounds: [663, 685]

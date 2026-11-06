@@ -1,0 +1,110 @@
+{
+  "status": "PASS_EXPLICIT_46_POINT_KAKEYA_STAR_BOTH_RINGS",
+  "dimension": 4,
+  "fibres": {
+    "0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "1": [
+      0,
+      1
+    ],
+    "2": [
+      0,
+      2
+    ],
+    "3": [
+      0,
+      3
+    ],
+    "4": [
+      0,
+      4
+    ],
+    "5": [
+      0,
+      5
+    ],
+    "6": [
+      0,
+      6
+    ],
+    "7": [
+      0,
+      7
+    ],
+    "8": [
+      0,
+      8
+    ],
+    "9": [
+      0,
+      9
+    ],
+    "10": [
+      0,
+      10
+    ],
+    "11": [
+      0,
+      11
+    ],
+    "12": [
+      0,
+      12
+    ],
+    "13": [
+      0,
+      13
+    ],
+    "14": [
+      0,
+      14
+    ],
+    "15": [
+      0,
+      15
+    ]
+  },
+  "ring_checks": [
+    {
+      "ring": "z4",
+      "direct_check": {
+        "is_kakeya": true,
+        "point_count": 46,
+        "direction_count": 120,
+        "missing_directions": []
+      },
+      "all_exact_cnf_clauses_satisfied": true,
+      "variables": 11969,
+      "clauses": 43490
+    },
+    {
+      "ring": "dual",
+      "direct_check": {
+        "is_kakeya": true,
+        "point_count": 46,
+        "direction_count": 120,
+        "missing_directions": []
+      },
+      "all_exact_cnf_clauses_satisfied": true,
+      "variables": 11969,
+      "clauses": 43490
+    }
+  ]
+}

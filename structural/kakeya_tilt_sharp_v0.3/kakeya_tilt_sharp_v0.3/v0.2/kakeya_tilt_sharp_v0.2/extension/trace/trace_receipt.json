@@ -1,0 +1,1199 @@
+{
+  "schema": "kakeya-teichmuller-trace/1.0",
+  "status": "passed",
+  "profile": "standard",
+  "seed": 20261101,
+  "python": "3.12.14",
+  "script_sha256": "45aee1097055588c84cdd345ec631f4d64571c26fc030d86d286212d2705e76d",
+  "proof_file": "TRACE_THEOREMS.md",
+  "proof_status": "general theorems have symbolic proofs; finite checks validate the implementation",
+  "oracle": "integer arithmetic / truncated polynomials; Teichmuller roots lifted independently",
+  "carry_identities": {
+    "W2^3": {
+      "all_digit_pairs": 4,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    },
+    "T2^3": {
+      "all_digit_pairs": 4,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    },
+    "W3^3": {
+      "all_digit_pairs": 9,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    },
+    "T3^3": {
+      "all_digit_pairs": 9,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    },
+    "W5^3": {
+      "all_digit_pairs": 25,
+      "second_carry_nonzero_pairs": 12,
+      "mismatches": 0
+    },
+    "T5^3": {
+      "all_digit_pairs": 25,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    },
+    "W7^3": {
+      "all_digit_pairs": 49,
+      "second_carry_nonzero_pairs": 18,
+      "mismatches": 0
+    },
+    "T7^3": {
+      "all_digit_pairs": 49,
+      "second_carry_nonzero_pairs": 0,
+      "mismatches": 0
+    }
+  },
+  "boundary_and_coordinate_checks": {
+    "length1_and_length2": {
+      "W2^1": {
+        "all_scalar_triples": 8,
+        "mismatches": 0
+      },
+      "W2^2": {
+        "all_scalar_triples": 64,
+        "mismatches": 0
+      },
+      "T2^1": {
+        "all_scalar_triples": 8,
+        "mismatches": 0
+      },
+      "T2^2": {
+        "all_scalar_triples": 64,
+        "mismatches": 0
+      },
+      "W3^1": {
+        "all_scalar_triples": 27,
+        "mismatches": 0
+      },
+      "W3^2": {
+        "all_scalar_triples": 729,
+        "mismatches": 0
+      },
+      "T3^1": {
+        "all_scalar_triples": 27,
+        "mismatches": 0
+      },
+      "T3^2": {
+        "all_scalar_triples": 729,
+        "mismatches": 0
+      },
+      "W5^1": {
+        "all_scalar_triples": 125,
+        "mismatches": 0
+      },
+      "W5^2": {
+        "all_scalar_triples": 15625,
+        "mismatches": 0
+      },
+      "T5^1": {
+        "all_scalar_triples": 125,
+        "mismatches": 0
+      },
+      "T5^2": {
+        "all_scalar_triples": 15625,
+        "mismatches": 0
+      },
+      "W7^1": {
+        "all_scalar_triples": 343,
+        "mismatches": 0
+      },
+      "W7^2": {
+        "all_scalar_triples": 117649,
+        "mismatches": 0
+      },
+      "T7^1": {
+        "all_scalar_triples": 343,
+        "mismatches": 0
+      },
+      "T7^2": {
+        "all_scalar_triples": 117649,
+        "mismatches": 0
+      }
+    },
+    "length3_slope_conversion": {
+      "W2^3": {
+        "all_coordinate_conversion_triples": 8,
+        "mismatches": 0
+      },
+      "T2^3": {
+        "all_coordinate_conversion_triples": 8,
+        "mismatches": 0
+      },
+      "W3^3": {
+        "all_coordinate_conversion_triples": 27,
+        "mismatches": 0
+      },
+      "T3^3": {
+        "all_coordinate_conversion_triples": 27,
+        "mismatches": 0
+      },
+      "W5^3": {
+        "all_coordinate_conversion_triples": 125,
+        "mismatches": 0
+      },
+      "T5^3": {
+        "all_coordinate_conversion_triples": 125,
+        "mismatches": 0
+      },
+      "W7^3": {
+        "all_coordinate_conversion_triples": 343,
+        "mismatches": 0
+      },
+      "T7^3": {
+        "all_coordinate_conversion_triples": 343,
+        "mismatches": 0
+      }
+    },
+    "invalid_codes_rejected": 14,
+    "invalid_parameter_pairs_rejected": 8
+  },
+  "scalar_affine_checks": {
+    "W2^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 512,
+      "closed_length3_cases": 512,
+      "mismatches": 0
+    },
+    "T2^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 512,
+      "closed_length3_cases": 512,
+      "mismatches": 0
+    },
+    "W2^4": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 4096,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "T2^4": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 4096,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "W3^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 19683,
+      "closed_length3_cases": 19683,
+      "mismatches": 0
+    },
+    "T3^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 19683,
+      "closed_length3_cases": 19683,
+      "mismatches": 0
+    },
+    "W3^4": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 531441,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "T3^4": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 531441,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "W5^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 1953125,
+      "closed_length3_cases": 1953125,
+      "mismatches": 0
+    },
+    "T5^3": {
+      "scope": "all scalar triples (x,v,s), including nonunits",
+      "exhaustive_scalar_triples": true,
+      "scalar_cases": 1953125,
+      "closed_length3_cases": 1953125,
+      "mismatches": 0
+    },
+    "W5^4": {
+      "scope": "each scalar element in each role; all scalar products at x=0; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 412500,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "T5^4": {
+      "scope": "each scalar element in each role; all scalar products at x=0; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 412500,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "W7^3": {
+      "scope": "each scalar element in each role; all scalar products at x=0; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 138678,
+      "closed_length3_cases": 138678,
+      "mismatches": 0
+    },
+    "T7^3": {
+      "scope": "each scalar element in each role; all scalar products at x=0; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 138678,
+      "closed_length3_cases": 138678,
+      "mismatches": 0
+    },
+    "W7^4": {
+      "scope": "each scalar element in each role; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 27203,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    },
+    "T7^4": {
+      "scope": "each scalar element in each role; seeded general scalar triples",
+      "exhaustive_scalar_triples": false,
+      "scalar_cases": 27203,
+      "closed_length3_cases": 0,
+      "mismatches": 0
+    }
+  },
+  "vector_fibre_checks": {
+    "W2^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 192,
+      "point_incidences": 768,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "T2^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 192,
+      "point_incidences": 768,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W2^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 192,
+      "point_incidences": 1536,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "T2^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 192,
+      "point_incidences": 1536,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W3^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 288,
+      "point_incidences": 2592,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": true,
+      "mismatches": 0
+    },
+    "T3^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 288,
+      "point_incidences": 2592,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W3^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 288,
+      "point_incidences": 7776,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "T3^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 288,
+      "point_incidences": 7776,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W5^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 480,
+      "point_incidences": 12000,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": true,
+      "mismatches": 0
+    },
+    "T5^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 480,
+      "point_incidences": 12000,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W5^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 480,
+      "point_incidences": 60000,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "T5^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 480,
+      "point_incidences": 60000,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W7^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 672,
+      "point_incidences": 32928,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": true,
+      "mismatches": 0
+    },
+    "T7^3": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 672,
+      "point_incidences": 32928,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "W7^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 672,
+      "point_incidences": 230496,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    },
+    "T7^4": {
+      "scope": "seeded primitive lines in dimensions 2 and 3; all residue fibres",
+      "lines_per_dimension": 48,
+      "fibre_sets": 672,
+      "point_incidences": 230496,
+      "prefix_balance_checked": true,
+      "odd_prime_affine_criterion_checked": false,
+      "mismatches": 0
+    }
+  },
+  "complete_plane_line_censuses": {
+    "W2^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 12,
+      "lines": 96,
+      "line_fibre_incidences": 192,
+      "affine_dimensions_or_nonaffine": {
+        "2": 192
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    },
+    "T2^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 12,
+      "lines": 96,
+      "line_fibre_incidences": 192,
+      "affine_dimensions_or_nonaffine": {
+        "2": 192
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    },
+    "W2^4": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 24,
+      "lines": 384,
+      "line_fibre_incidences": 768,
+      "affine_dimensions_or_nonaffine": {
+        "3": 640,
+        "nonaffine": 128
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": {
+        "x": [
+          0,
+          1
+        ],
+        "v": [
+          1,
+          1
+        ],
+        "sigma": 1,
+        "higher_digit_trace": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "T2^4": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 24,
+      "lines": 384,
+      "line_fibre_incidences": 768,
+      "affine_dimensions_or_nonaffine": {
+        "3": 768
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    },
+    "W3^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 36,
+      "lines": 972,
+      "line_fibre_incidences": 2916,
+      "affine_dimensions_or_nonaffine": {
+        "2": 1944,
+        "nonaffine": 972
+      },
+      "proved_formula_agrees": true,
+      "proved_formula_counts": {
+        "total": 2916,
+        "affine": 1944,
+        "nonaffine": 972
+      },
+      "first_nonaffine": {
+        "x": [
+          0,
+          1
+        ],
+        "v": [
+          1,
+          1
+        ],
+        "sigma": 1,
+        "higher_digit_trace": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "T3^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 36,
+      "lines": 972,
+      "line_fibre_incidences": 2916,
+      "affine_dimensions_or_nonaffine": {
+        "2": 2916
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    },
+    "W3^4": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 108,
+      "lines": 8748,
+      "line_fibre_incidences": 26244,
+      "affine_dimensions_or_nonaffine": {
+        "3": 7776,
+        "nonaffine": 18468
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": {
+        "x": [
+          0,
+          1
+        ],
+        "v": [
+          1,
+          1
+        ],
+        "sigma": 1,
+        "higher_digit_trace": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2,
+            2,
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "T3^4": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 108,
+      "lines": 8748,
+      "line_fibre_incidences": 26244,
+      "affine_dimensions_or_nonaffine": {
+        "3": 26244
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    },
+    "W5^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 150,
+      "lines": 18750,
+      "line_fibre_incidences": 93750,
+      "affine_dimensions_or_nonaffine": {
+        "2": 43750,
+        "nonaffine": 50000
+      },
+      "proved_formula_agrees": true,
+      "proved_formula_counts": {
+        "total": 93750,
+        "affine": 43750,
+        "nonaffine": 50000
+      },
+      "first_nonaffine": {
+        "x": [
+          0,
+          1
+        ],
+        "v": [
+          1,
+          1
+        ],
+        "sigma": 1,
+        "higher_digit_trace": [
+          [
+            0,
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            4,
+            1,
+            4
+          ],
+          [
+            0,
+            4,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            3,
+            1
+          ],
+          [
+            0,
+            4,
+            4,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            1,
+            4
+          ],
+          [
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            3,
+            1
+          ],
+          [
+            1,
+            0,
+            4,
+            2
+          ],
+          [
+            2,
+            1,
+            0,
+            4
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            4
+          ],
+          [
+            4,
+            3,
+            0,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            3,
+            2
+          ],
+          [
+            4,
+            3,
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    "T5^3": {
+      "scope": "all distinct affine lines in R^2, all residue fibres",
+      "directions": 150,
+      "lines": 18750,
+      "line_fibre_incidences": 93750,
+      "affine_dimensions_or_nonaffine": {
+        "2": 93750
+      },
+      "proved_formula_agrees": null,
+      "proved_formula_counts": null,
+      "first_nonaffine": null
+    }
+  },
+  "explicit_obstructions": {
+    "odd_prime_length3": {
+      "3": {
+        "ring": "W3^3",
+        "x": [
+          0,
+          0
+        ],
+        "v": [
+          1,
+          4
+        ],
+        "sigma": 1,
+        "gamma(1,r)": [
+          0,
+          1,
+          0
+        ],
+        "trace_nonaffine": true
+      },
+      "5": {
+        "ring": "W5^3",
+        "x": [
+          0,
+          0
+        ],
+        "v": [
+          1,
+          6
+        ],
+        "sigma": 1,
+        "gamma(1,r)": [
+          0,
+          4,
+          3,
+          4,
+          0
+        ],
+        "trace_nonaffine": true
+      },
+      "7": {
+        "ring": "W7^3",
+        "x": [
+          0,
+          0
+        ],
+        "v": [
+          1,
+          8
+        ],
+        "sigma": 1,
+        "gamma(1,r)": [
+          0,
+          3,
+          0,
+          2,
+          0,
+          3,
+          0
+        ],
+        "trace_nonaffine": true
+      }
+    },
+    "binary_length4": {
+      "ring": "W2^4",
+      "x": [
+        0,
+        0
+      ],
+      "v": [
+        1,
+        3
+      ],
+      "sigma": 0,
+      "present_points": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          12
+        ]
+      ],
+      "missing_digitwise_sum": [
+        6,
+        10
+      ],
+      "mixed_nonaffine": true,
+      "flat_affine_dimension": 3
+    },
+    "multiplication_carry_witness": {
+      "ring": "W2^3",
+      "s": 3,
+      "v": 3,
+      "actual_product_digits": [
+        1,
+        0,
+        0
+      ],
+      "incorrect_carryless_digits": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "totals": {
+    "scalar_cases": 6174476,
+    "closed_length3_cases": 4223996,
+    "vector_fibre_sets": 6528,
+    "vector_point_incidences": 696192,
+    "census_line_fibre_incidences": 247740,
+    "mismatches": 0
+  },
+  "wall_seconds": 58.718
+}

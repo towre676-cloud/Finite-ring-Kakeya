@@ -1,0 +1,138 @@
+{
+  "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+  "case_id": "s13_T1022358_m17_18_baseline_upper_band_root",
+  "original_case": {
+    "case_id": "s13_T1022358_m17_18_baseline_upper_band_root",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "distinguished_hub": 0,
+    "nonzero_support_mask": 1022358,
+    "maximum_interval": [
+      17,
+      18
+    ],
+    "total_upper_bound": 93,
+    "ring_scope": "common_necessary_relaxation_both_rings",
+    "cnf": "research_round7/variant_cases/s13_T1022358_m17_18_baseline_upper_band_root/input.cnf",
+    "cnf_sha256": "5a3ee5bc1bdf4f1a0effdd3125d724c50d5a69836544de478278550720806607",
+    "proof": "research_round7/variant_cases/s13_T1022358_m17_18_baseline_upper_band_root/proof.drat",
+    "proof_sha256": "c18b8c96c79dda5aae90655c927be02167a0c1a348f88134a741827d73040de4",
+    "proof_kind": "drat",
+    "receipt": "research_round7/variant_cases/s13_T1022358_m17_18_baseline_upper_band_root/CASE_RECEIPT.json",
+    "receipt_sha256": "dc9fe4ae5b70fa4775686f9adf8005d1e190cf469d72c442793f4f6ae4ddcb95",
+    "inherited": false,
+    "encoder_kind": "audited_common_variant",
+    "variant_mode": "baseline",
+    "variant_semantic_input_hashes": {
+      "research_round7/variant_trials.py": "314703ee05b04510f45daa79f4a0f60d94df9ff705dd0887f9668941b2bb47d1",
+      "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+      "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+      "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+      "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+      "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+      "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc"
+    },
+    "binding_rule": "Every semantic source is pinned; exact variant CNF regeneration and CakeML acceptance are mandatory.",
+    "one_way_encoder_soundness_formalized": false,
+    "cnf_xz_sha256": "b2faca3b4abfa85758d73a935913b466d65b3ab5f3b1d6ef52f05e5511941373",
+    "proof_xz_sha256": "b7e73a57253ef2da810aa12291537acc43051e81a0feb70e30835cb56d976076"
+  },
+  "source_manifest_sha256_at_production": "c985470ab9a1d3fcf78e240c51e77c6a970e6fddf83163f269c24b11a1eed763",
+  "method": "DRAT_TRIM_CORE_THEN_FRESH_ORIGINAL_CNF_CAKEML",
+  "cnf_sha256": "5a3ee5bc1bdf4f1a0effdd3125d724c50d5a69836544de478278550720806607",
+  "original_proof_sha256": "c18b8c96c79dda5aae90655c927be02167a0c1a348f88134a741827d73040de4",
+  "original_raw_bytes": 91746548,
+  "original_compressed_bytes": 12729752,
+  "core_sha256": "3461fe61d5f1ed0b5b77cb4fd6f8bbc0f07b4f56ef20a7f5129b9a8bd9cd4186",
+  "core_raw_bytes": 31544776,
+  "storage": {
+    "logical_path": "research_round7/compact_support13/cases/s13_T1022358_m17_18_baseline_upper_band_root/core.drat",
+    "compressed_path": "research_round7/compact_support13/cases/s13_T1022358_m17_18_baseline_upper_band_root/core.drat.xz",
+    "raw_sha256": "3461fe61d5f1ed0b5b77cb4fd6f8bbc0f07b4f56ef20a7f5129b9a8bd9cd4186",
+    "raw_bytes": 31544776,
+    "xz_sha256": "4e1d7a595239074776232fbdd361ad3728c4998149854706c1e8383271192de0",
+    "xz_bytes": 3315252,
+    "raw_present": false,
+    "compression": "xz",
+    "preset": 3,
+    "round_trip_sha256": "3461fe61d5f1ed0b5b77cb4fd6f8bbc0f07b4f56ef20a7f5129b9a8bd9cd4186"
+  },
+  "trim": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 17.828408,
+    "stdout_file": "trim.stdout.txt",
+    "stdout_sha256": "05e6eba254f8b3286d8b435b3701efc759dff43767af2287acb409505f1317b1",
+    "stderr_file": "trim.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 44665,
+      "clauses": 385127
+    },
+    "input_sha256": {
+      "cnf": "5a3ee5bc1bdf4f1a0effdd3125d724c50d5a69836544de478278550720806607",
+      "drat": "3461fe61d5f1ed0b5b77cb4fd6f8bbc0f07b4f56ef20a7f5129b9a8bd9cd4186"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 14.172494,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "88e9bc30220420bf6cd89d8b53e99418f27118b7adc39c12510af961aa4d54c5",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "1ce4ac0d123160a37ef465851d9ca60d1d7642d3b0699ae3e9e43b660d991bc8",
+    "lrat_bytes": 228380610,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 8.33876,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "regenerated_formula": {
+    "variant_mode": "baseline",
+    "regenerated_variant_metadata": {
+      "base_variables": 44665,
+      "base_clauses": 385127
+    },
+    "variables": 44665,
+    "clauses": 385127,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "5a3ee5bc1bdf4f1a0effdd3125d724c50d5a69836544de478278550720806607"
+  },
+  "seconds": 45.864889,
+  "producer_sha256": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+  "original_cnf_used_without_new_axioms": true,
+  "original_proof_unchanged": true,
+  "portable_replay_requires_original_drat": false
+}

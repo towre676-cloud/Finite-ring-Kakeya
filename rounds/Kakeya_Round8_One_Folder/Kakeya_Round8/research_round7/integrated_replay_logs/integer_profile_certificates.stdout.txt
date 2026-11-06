@@ -1,0 +1,33 @@
+{
+  "status": "PASS_ROOT_SEPARATE_INTEGER_CERTIFICATE_REPLAY",
+  "profiles_before": 186482,
+  "whole_profiles_excluded": 3006,
+  "profiles_remaining": 183476,
+  "by_support": {
+    "13": {
+      "before": 85802,
+      "excluded": 462,
+      "remaining": 85340
+    },
+    "14": {
+      "before": 75766,
+      "excluded": 1393,
+      "remaining": 74373
+    },
+    "15": {
+      "before": 20438,
+      "excluded": 924,
+      "remaining": 19514
+    },
+    "16": {
+      "before": 4051,
+      "excluded": 198,
+      "remaining": 3853
+    },
+    "17": {
+      "before": 425,
+      "excluded": 29,
+      "remaining": 396
+    }
+  }
+}

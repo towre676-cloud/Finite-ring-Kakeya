@@ -1,0 +1,1 @@
+{"status": "PASS", "remaining_weight_profiles": 275755, "new_price_cuts": 512, "empty_cells": [{"support": 17, "maximum": 18}]}

@@ -1,0 +1,62 @@
+Round 6 frontier ledger audit
+=============================
+
+Reviewed merge_round6.py and Kakeya_Research_Frontier_Round6.json, then
+independently reconstructed the profile split from the pinned Round 5
+baseline. The resulting surviving and excluded byte streams matched the
+saved Round 6 files exactly.
+
+Verified counts:
+  Baseline middle weight profiles: 270,779.
+  Whole profiles excluded at support 11: 23,474.
+  Whole profiles excluded at support 12: 60,823.
+  New whole-profile exclusions: 84,297.
+  Remaining middle weight profiles: 186,482.
+  Nonempty support/maximum cells: 48 before; 34 after; 14 newly closed.
+  Remaining profiles by support:
+    13: 85,802
+    14: 75,766
+    15: 20,438
+    16: 4,051
+    17: 425
+
+The 46 remaining maximum-11 affine support classes are preserved unchanged.
+Their class count is not added to the middle weight-profile count. Likewise,
+38 geometric marked cases and 76 principal refuted formulas are correctly
+kept distinct. One separately excluded marked support-13 case, supported
+by two proofs, is not subtracted as a whole weight profile or as an entire
+unmarked affine support class. Two timed-out trials remain uncredited.
+
+The global minimum of 13 pair-active fibres is explicitly conditional on
+three named mathematical results: the inherited maximum-at-least-20
+exclusion, Round 5's unrestricted support-at-most-10 exclusion, and the
+complete support-11/12 exclusions for maxima at most 19. This is the correct
+dependency structure. The maximum-19 stratum separately retains its
+inherited support-11/12 reduction. No unrestricted lower bound of 94 is
+claimed. The general all-dimension theorem remains open.
+
+The separate analytic support theorem for S=V union W, with dimensions
+3 and 2 and trivial intersection, was also reviewed. Its stated exclusion
+has no maximum-fibre assumption and no SAT or spectrum-census dependency.
+The budget splits, seven-direction graph bounds, cube bounds, period-span
+argument, and final missing-capacity contradiction are consistent.
+
+Minor metadata / hardening recommendations sent to the root agent:
+
+1. The support-13 integer 37848950 encodes T=S minus {0}. The full support
+   listed in the ledger has mask 37848951. Name the field explicitly as
+   the nonzero-support/T mask, or record both masks, to avoid ambiguity.
+
+2. The merge script should require that the accepted maximum-19 receipt's
+   manifest_sha256 equals the current M19_CERTIFICATE_MANIFEST.json hash.
+   This equality held in this audit but was not explicitly asserted by
+   the merge code at review time. The ledger operation should remain
+   clearly separate from the actual proof replay.
+
+No mathematical overclaim or counting-unit error was found in the reviewed
+ledger. These figures measure the retained profile inventory; they do not
+measure a percentage of the theorem proved or the computational difficulty
+of the surviving cases.
+
+Verified survivor SHA256:
+  d96cd6794e87bede959d813c39e36aefafa42d5c243a465b19f6ec4c065cb52c

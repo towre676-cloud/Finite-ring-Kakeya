@@ -1,0 +1,233 @@
+{
+  "status": "COMPLETED_TWO_BOUNDED_FOUR_PAIR_TRIALS",
+  "requested_masks": [
+    377850134,
+    411136406
+  ],
+  "maximum_interval": [
+    11,
+    11
+  ],
+  "cases": [
+    {
+      "case_id": "s13_T377850134_m11_11_four_pair_unique_t45",
+      "status": "TIMEOUT_OR_UNACCEPTED_UNCERTIFIED",
+      "encoder_kind": "four_pair_unique",
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        11,
+        15,
+        16,
+        18,
+        23,
+        25,
+        26,
+        28
+      ],
+      "nonzero_support_mask": 377850134,
+      "distinguished_hub": 0,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "total_upper_bound": 93,
+      "ring_scope": "common_necessary_relaxation_both_rings",
+      "semantic_input_hashes": {
+        "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+        "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+        "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+        "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+        "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+        "research_round7/support13/four_pair_cut/encode_four_pair.py": "9a9141cc1be5fc68cb126b3cd00dc34b58ba54f4d93dc51687cbd2f2f4b32ba8",
+        "research_round7/support13/four_pair_cut/FOUR_PAIR_CAPACITY_LEMMA.txt": "e92cccd9470e975a305192128136e62fe6be622669f49c697704ea74984d342d",
+        "research_round7/support13/four_pair_cut/ENCODER_SOUNDNESS.txt": "7ba30d740cd7935e717bde77fe9dc6cdee6c1603b593f3f75dc86605ffad8286"
+      },
+      "producer_sha256": "6285b2881c91b6e0012ecab7791581b912008ae57769c639d835bf895fc283c6",
+      "search_wrapper_sha256": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+      "solver_limit_seconds": 45,
+      "encoder_formalized": false,
+      "storage": {
+        "input.cnf": {
+          "logical_path": "/tmp/kakeya_four_pair_trial_xvh3gmwc/input.cnf",
+          "compressed_path": "/tmp/kakeya_four_pair_trial_xvh3gmwc/input.cnf.xz",
+          "raw_sha256": "397144bd1d9a106d334c0cb13e31b7efe2ebb78c4e65e0fa83410b97d2571fa5",
+          "raw_bytes": 4787772,
+          "xz_sha256": "d1fd9b391ca9fcd79050f1b0eed5762cd0f931d14fc7dc90336b15d3cc275e30",
+          "xz_bytes": 402028,
+          "raw_present": false,
+          "compression": "xz",
+          "preset": 1,
+          "round_trip_sha256": "397144bd1d9a106d334c0cb13e31b7efe2ebb78c4e65e0fa83410b97d2571fa5"
+        }
+      },
+      "variables": 34569,
+      "clauses": 217920,
+      "cnf_sha256": "397144bd1d9a106d334c0cb13e31b7efe2ebb78c4e65e0fa83410b97d2571fa5",
+      "cnf_bytes": 4787772,
+      "four_pair_extension": {
+        "enabled": true,
+        "eligible_spectrum_indices": [
+          20,
+          59
+        ],
+        "unique_direction_edges": [
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "conditional_edge_clauses": 1,
+        "new_variables": 1,
+        "new_clauses": 4
+      },
+      "encode_seconds": 0.245007,
+      "solver_returncode": 0,
+      "stop_reason": null,
+      "solve_seconds": 44.878939,
+      "process_supervision": {
+        "process_group_id": 24,
+        "whole_process_group_confirmed_absent": true,
+        "kill_signals_sent": 0,
+        "adopted_descendants_reaped": []
+      },
+      "last_observed_live_drat_bytes": {
+        "proof.drat": 111827230,
+        "search_solver.drat": 111826943
+      },
+      "proof_size_guard_counts_all_live_drat_files": true,
+      "solver_command": [
+        "/workspace/scratch/a2844a91c00e/research_round7/support13/rup_unit_solver.py",
+        "--no-binary",
+        "--no-witness",
+        "-t",
+        "45",
+        "/tmp/kakeya_four_pair_trial_xvh3gmwc/input.cnf",
+        "/tmp/kakeya_four_pair_trial_xvh3gmwc/proof.drat"
+      ],
+      "proof_sha256": "0f5cc8bcb956e05ca3ad9723875199899c7b36ac4e6cf2f0c1d57c7033cd3540",
+      "proof_bytes": 111827230,
+      "discarded_unaccepted_proof": {
+        "sha256": "0f5cc8bcb956e05ca3ad9723875199899c7b36ac4e6cf2f0c1d57c7033cd3540",
+        "bytes": 111827230
+      },
+      "seconds": 45.372803,
+      "original_baseline_CNF_claimed_refuted": false,
+      "scope": "This checks the NEW geometric-extension CNF; the one-way lemma supplies its Kakeya meaning.",
+      "unfinished_proof_retained": false,
+      "reconstructed_lrat_retained": false
+    },
+    {
+      "case_id": "s13_T411136406_m11_11_four_pair_unique_t45",
+      "status": "TIMEOUT_OR_UNACCEPTED_UNCERTIFIED",
+      "encoder_kind": "four_pair_unique",
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        12,
+        13,
+        14,
+        16,
+        23,
+        27,
+        28
+      ],
+      "nonzero_support_mask": 411136406,
+      "distinguished_hub": 0,
+      "maximum_interval": [
+        11,
+        11
+      ],
+      "total_upper_bound": 93,
+      "ring_scope": "common_necessary_relaxation_both_rings",
+      "semantic_input_hashes": {
+        "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+        "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+        "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+        "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+        "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259",
+        "research_round7/support13/four_pair_cut/encode_four_pair.py": "9a9141cc1be5fc68cb126b3cd00dc34b58ba54f4d93dc51687cbd2f2f4b32ba8",
+        "research_round7/support13/four_pair_cut/FOUR_PAIR_CAPACITY_LEMMA.txt": "e92cccd9470e975a305192128136e62fe6be622669f49c697704ea74984d342d",
+        "research_round7/support13/four_pair_cut/ENCODER_SOUNDNESS.txt": "7ba30d740cd7935e717bde77fe9dc6cdee6c1603b593f3f75dc86605ffad8286"
+      },
+      "producer_sha256": "6285b2881c91b6e0012ecab7791581b912008ae57769c639d835bf895fc283c6",
+      "search_wrapper_sha256": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+      "solver_limit_seconds": 45,
+      "encoder_formalized": false,
+      "storage": {
+        "input.cnf": {
+          "logical_path": "/tmp/kakeya_four_pair_trial_yly3i81d/input.cnf",
+          "compressed_path": "/tmp/kakeya_four_pair_trial_yly3i81d/input.cnf.xz",
+          "raw_sha256": "ab1e9408915616fdaef265e1c977f0d77d6bfe70306c6c9fea8d4fd03e36a792",
+          "raw_bytes": 4787702,
+          "xz_sha256": "aeaaaa8b1846d28cf32b98d2315228379c652a0e440528f4a47f0425e77a8cf9",
+          "xz_bytes": 400072,
+          "raw_present": false,
+          "compression": "xz",
+          "preset": 1,
+          "round_trip_sha256": "ab1e9408915616fdaef265e1c977f0d77d6bfe70306c6c9fea8d4fd03e36a792"
+        }
+      },
+      "variables": 34568,
+      "clauses": 217916,
+      "cnf_sha256": "ab1e9408915616fdaef265e1c977f0d77d6bfe70306c6c9fea8d4fd03e36a792",
+      "cnf_bytes": 4787702,
+      "four_pair_extension": {
+        "enabled": true,
+        "eligible_spectrum_indices": [
+          20,
+          59
+        ],
+        "unique_direction_edges": [],
+        "conditional_edge_clauses": 0,
+        "new_variables": 0,
+        "new_clauses": 0
+      },
+      "encode_seconds": 0.218858,
+      "solver_returncode": 0,
+      "stop_reason": null,
+      "solve_seconds": 44.876261,
+      "process_supervision": {
+        "process_group_id": 26,
+        "whole_process_group_confirmed_absent": true,
+        "kill_signals_sent": 0,
+        "adopted_descendants_reaped": []
+      },
+      "last_observed_live_drat_bytes": {
+        "proof.drat": 104161402,
+        "search_solver.drat": 104161115
+      },
+      "proof_size_guard_counts_all_live_drat_files": true,
+      "solver_command": [
+        "/workspace/scratch/a2844a91c00e/research_round7/support13/rup_unit_solver.py",
+        "--no-binary",
+        "--no-witness",
+        "-t",
+        "45",
+        "/tmp/kakeya_four_pair_trial_yly3i81d/input.cnf",
+        "/tmp/kakeya_four_pair_trial_yly3i81d/proof.drat"
+      ],
+      "proof_sha256": "8163086445cf573f274b4763801aec6c3d90f624ed448cf8bafc59b7f31a177c",
+      "proof_bytes": 104161402,
+      "discarded_unaccepted_proof": {
+        "sha256": "8163086445cf573f274b4763801aec6c3d90f624ed448cf8bafc59b7f31a177c",
+        "bytes": 104161402
+      },
+      "seconds": 45.338907,
+      "original_baseline_CNF_claimed_refuted": false,
+      "scope": "This checks the NEW geometric-extension CNF; the one-way lemma supplies its Kakeya meaning.",
+      "unfinished_proof_retained": false,
+      "reconstructed_lrat_retained": false
+    }
+  ],
+  "performance_caveat": "Two bounded trials in a shared environment; no general speed claim.",
+  "accepted_trials": 0
+}

@@ -1,0 +1,265 @@
+{
+  "status": "PASS_ARCHIVED_CERTIFICATES_AND_ACCEPTANCE_CONTROLS",
+  "archived_Kakeya_cases_checked": 4,
+  "genuine_RAT_control_cases": 1,
+  "negative_controls_rejected_by_required_gate": 8,
+  "ordinary_C_checker_false_UNSAT_acceptance_reproduced": true,
+  "new_Claude_maximum19_proofs_checked_here": 0,
+  "new_Claude_maximum19_status": "REPORTED_BY_USER; SOURCE_CNF_AND_PROOF_FILES_NOT_AVAILABLE_HERE",
+  "checks": [
+    "Pinned official DRAT-trim",
+    "Mandatory upstream verified CakeML LPR checker artifact"
+  ],
+  "optional_diagnostic": "The ordinary C LRAT checker is not an acceptance authority; its false positive is reproduced.",
+  "upstream_formal_development_rebuilt_here": false,
+  "encoder_soundness_proved_by_this_audit": false,
+  "case_orbit_completeness_proved_by_this_audit": false,
+  "archived_receipt_sha256": "b888f9e190d3197adaed32cbc0e39fc344bfd0768730bcdf3d9401282507ae57",
+  "control_build": {
+    "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "checkers": {
+      "drat-trim": {
+        "binary_sha256": "1997db9ae901ce6c92b80b0567d767ebf0d475ae8fbeed0c0daad57a3c70274b",
+        "compile_returncode": 0,
+        "compile_log_sha256": "22a707fba5e991ed1151baa2eb1d9ca1f480fc7c9e604b0661937f36a7ecadb8",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+        ]
+      },
+      "lrat-check": {
+        "binary_sha256": "9629490cbf998667ac5171d820f67c6691b837a7d2534468ecf291d84150f95d",
+        "compile_returncode": 0,
+        "compile_log_sha256": "9c23be9c12fd3454586c658a2ba9bfc584e64608f0605a75d69df0f27fbfb800",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "-DLONGTYPE",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+        ]
+      },
+      "cake_lpr": {
+        "binary_sha256": "19e237597b7b8d554dc5f224d0f893aa06a0d9d2844129db0b05ee5afb6b12ef",
+        "compile_returncode": 0,
+        "compile_log_sha256": "a343327f3b8eb7ffb9b3412f2530edf401517fb3f80625f4011a15076eb9598d",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+        ]
+      }
+    }
+  },
+  "controls": [
+    {
+      "control": "genuine_non_RUP_RAT_derivation",
+      "expected": "ACCEPT",
+      "result": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 4,
+          "clauses": 8
+        },
+        "input_sha256": {
+          "cnf": "54bf7f0f0d4c31d53b1922d3d3e8b34c55e0594915e5ab0df4669e56453f8cf4",
+          "drat": "aae1b43658b8cbc98d3c502b95f9ef223056ddd9b2a8644e54b5f4b922250b2d"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 0.064287,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "91dae4f39dd7d9b73bf95e7c089c5fab963901037764d65e6a50eb79437cada1",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "733bc403ee70fefa22500a798eb5636db315eb09e6b161ea72cca3cd28d8d9f5",
+        "lrat_bytes": 94,
+        "lrat_check_c": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 0.016257,
+          "stdout_file": "lrat_check_c.stdout.txt",
+          "stdout_sha256": "983714634e27e7a37ea08e2fa3b08761c1fd04a398fcbcc12e4bdeba23133462",
+          "stderr_file": "lrat_check_c.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "role": "DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 0.001686,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "control": "fake_empty_clause_on_satisfiable_CNF",
+      "expected": "REJECT",
+      "result": {
+        "status": "FAIL",
+        "cnf_header": {
+          "variables": 1,
+          "clauses": 1
+        },
+        "input_sha256": {
+          "cnf": "6642f3ff4fae6f869a53f303bc768802cec0a16af731686c6bf03f342cf0489e",
+          "drat": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        "drat_trim": {
+          "accepted": false,
+          "returncode": 1,
+          "timed_out": false,
+          "success_marker_present": false,
+          "seconds": 0.064129,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "933cf8de4c8cd0fe427358952251018663bdc292b97a549b4606b4240c8ad039",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "control": "omitted_RAT_targets",
+      "expected": "REJECT",
+      "proof_sha256": "2d71578191d6c5257f72bf0f06f975f25944b80555a2f97f7886f5cf4a9c097f",
+      "lrat_check_c": {
+        "accepted": false,
+        "returncode": 1,
+        "timed_out": false,
+        "success_marker_present": false,
+        "seconds": 0.01598,
+        "stdout_file": "lrat_check_c.stdout.txt",
+        "stdout_sha256": "3227a003c80ecd127681d425a84cb8de7b34079bf2334fb1300aac8ed03732ad",
+        "stderr_file": "lrat_check_c.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "cake_lpr": {
+        "accepted": false,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": false,
+        "seconds": 0.001563,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "67eab7529ebf93c8ca0988ac4f7b631c1b70bac51152b30d90ab460b94f13ac4"
+      }
+    },
+    {
+      "control": "omitted_contradiction_hints",
+      "expected": "REJECT",
+      "proof_sha256": "cd6190e5c072703c2614d8d0c48989091cca30580115f8a19fcfd976bd515701",
+      "lrat_check_c": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 0.015788,
+        "stdout_file": "lrat_check_c.stdout.txt",
+        "stdout_sha256": "983714634e27e7a37ea08e2fa3b08761c1fd04a398fcbcc12e4bdeba23133462",
+        "stderr_file": "lrat_check_c.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "cake_lpr": {
+        "accepted": false,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": false,
+        "seconds": 0.001544,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "8d91b7fdefcc925bb159fb629329013f535d7e6e1b0c5243bac3724a80774bd3"
+      }
+    },
+    {
+      "control": "bogus_empty_LRAT_on_satisfiable_CNF",
+      "expected": "REJECT_BY_REQUIRED_GATE",
+      "CNF_satisfying_assignment": {
+        "1": true
+      },
+      "lrat_check_c": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 0.015753,
+        "stdout_file": "lrat_check_c.stdout.txt",
+        "stdout_sha256": "66b6ded2c14f7b1c4d178c7c32af08c40c340be46cf0bb3884f802df986abe83",
+        "stderr_file": "lrat_check_c.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "cake_lpr": {
+        "accepted": false,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": false,
+        "seconds": 0.001582,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "01a9ba84f2403021993b7b7dde2cebf06fdfd79dd39b40549da2d6d34ccbec55"
+      },
+      "consequence": "The ordinary C checker is diagnostic only; CakeML acceptance is mandatory."
+    },
+    {
+      "control": "changed_CNF_hash",
+      "expected": "REJECT",
+      "error": "Input hash mismatch: /workspace/scratch/a2844a91c00e/research_round5/proof_audit/examples/n2_three_fibres_dual/input.cnf"
+    },
+    {
+      "control": "missing_declared_case",
+      "expected": "REJECT",
+      "error": "Actual cases do not equal the declared expected case inventory"
+    },
+    {
+      "control": "38_contract_metadata_records_only",
+      "expected": "ACCEPT_METADATA",
+      "CNF_certificates_checked": 0,
+      "result": {
+        "status": "PASS_EXACT_HASHED_CONTRACT_AND_TRANSPORT_WITNESSES",
+        "contract_sha256": "8d6b60a180c3cefe124e8de47b3c308f840bad9b1b3d1b8b55764ff9f19a5118",
+        "contract_schema": "maximum19-marked-support-contract-v1",
+        "case_count": 38,
+        "counts_by_support": {
+          "11": 13,
+          "12": 25
+        },
+        "declared_ring_scope": "common_relaxation_both_rings",
+        "ring_scope_soundness_checked": false,
+        "CNF_to_declared_support_link_checked": false,
+        "catalogue_completeness_proved_by_this_check": false
+      }
+    },
+    {
+      "control": "wrong_marked_support_transport",
+      "expected": "REJECT",
+      "error": "Marked support does not transport to its named contract representative"
+    },
+    {
+      "control": "incomplete_contract_inventory",
+      "expected": "REJECT",
+      "error": "Expected case ids do not exactly match the 38-case coverage contract"
+    }
+  ],
+  "source_hashes": {
+    "verify_pipeline.py": "b94efba8f7e14fccd715376932b2a93f97b7c65f7ed8494fa746d0cd71659b37",
+    "audit_certificates.py": "4516028ca7308e40bd8502c2036f56e7b192889800bf5e2871bef6d6169cbf28",
+    "ARCHIVED_EXAMPLES_MANIFEST.json": "970b42d36c4e9b8b75daa9a617a38ccc9357b608b12f2cf01adcf6446ef330fb"
+  },
+  "seconds": 2.750745
+}

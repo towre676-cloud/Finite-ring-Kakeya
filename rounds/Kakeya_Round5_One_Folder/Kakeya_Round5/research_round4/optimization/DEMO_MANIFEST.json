@@ -1,0 +1,18 @@
+{
+  "examples": [
+    "n2_442_low0_dual_capacity",
+    "n2_442_low0_dual_labels",
+    "n2_442_low0_z4_capacity",
+    "n2_442_low0_z4_labels",
+    "n2_442_low1_dual_capacity",
+    "n2_442_low1_dual_labels",
+    "n2_442_low1_z4_capacity",
+    "n2_442_low1_z4_labels",
+    "n2_442_low2_dual_capacity",
+    "n2_442_low2_dual_labels",
+    "n2_442_low2_z4_capacity",
+    "n2_442_low2_z4_labels",
+    "n2_3333_dual_labels",
+    "n2_3333_z4_labels"
+  ]
+}

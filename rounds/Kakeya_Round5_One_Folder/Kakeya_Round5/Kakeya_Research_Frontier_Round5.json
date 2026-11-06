@@ -1,0 +1,624 @@
+{
+  "title": "Kakeya Round5: unrestricted support-ten exclusion and proof acceptance bridge",
+  "date": "2026-10-28",
+  "previous_checkpoint": "Kakeya_Research_Frontier_Round4.json",
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/(epsilon^2)"
+  ],
+  "general_target": "3*2^n-2",
+  "unrestricted_general_theorem": "OPEN",
+  "dimension5_target": 94,
+  "unrestricted_dimension5_theorem": "OPEN",
+  "new_theorem": {
+    "statement": "Every dimension-five Kakeya set with at most93 points has at least11 pair-active residue fibres, in both rings, with no assumption on the largest fibre.",
+    "support10_status": "PROVED_WITH_COMPLETE_FINITE_SUPPORT_CLASSIFICATION_AND_ANALYTIC_WEIGHT_ARGUMENT",
+    "weight_census_dependency": false,
+    "SAT_dependency": false,
+    "formalized_in_Lean": false,
+    "proof": "research_round5/support10_roles/SUPPORT10_UNRESTRICTED_PROOF.md"
+  },
+  "dimension5_strata": {
+    "maximum_at_most10": "EXCLUDED_INHERITED",
+    "maximum11": {
+      "status": "OPEN",
+      "pair_active_support_upper_bound": 16,
+      "previous_round2_affine_support_classes": 57,
+      "round3_whole_affine_support_class_exclusions": 11,
+      "support17_closed_classes": [
+        367,
+        373,
+        374,
+        376,
+        377
+      ],
+      "support16_closed_classes": [
+        177,
+        187,
+        198,
+        201,
+        202,
+        203
+      ],
+      "remaining_affine_support_classes": 46,
+      "remaining_counts_by_support": {
+        "13": 4,
+        "14": 9,
+        "15": 16,
+        "16": 17
+      },
+      "remaining_orbits": [
+        105,
+        109,
+        110,
+        111,
+        126,
+        130,
+        131,
+        132,
+        133,
+        134,
+        139,
+        141,
+        142,
+        151,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        204
+      ],
+      "support16_remaining_distinct_weight_profiles": 66,
+      "support16_remaining_support_profile_incidences": 764,
+      "support16_verified_partitions": 20477,
+      "support16_exact_assignment_duals": 17986
+    },
+    "maximum12_through18": {
+      "status": "OPEN",
+      "remaining_weight_profiles": 270779,
+      "remaining_nonempty_cells": 48,
+      "minimum_pair_active_support": 11,
+      "maximum_pair_active_support_by_maximum": {
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17,
+        "16": 17,
+        "17": 17,
+        "18": 16
+      },
+      "survivor_file": "research_round5/after_round5_survivors.txt",
+      "survivor_sha256": "b83d398cf0c489fabc8d008e0f9fd851d5d59c7d70774ef9283753a25377f778",
+      "new_support10_cells_closed": 7,
+      "scope": "Necessary-condition weight survivors, not constructions or enumerated embedded fibre assignments."
+    },
+    "maximum19": {
+      "status": "REPORTED_CLOSED_BY_USER_CLAUDE_SESSION; ACTUAL_CNF_AND_DRAT_AUDIT_PENDING_HERE",
+      "operational_research_priority": "Move to maxima11..18 while preserving the explicit verification obligations.",
+      "reported_cases": 38,
+      "reported_supports": [
+        11,
+        12
+      ],
+      "reported_tracked_profiles_excluded": 3798,
+      "reported_outer_weight14_cap_used": false,
+      "reported_rings": "Both, subject to common-relaxation or ring-specific encoding soundness.",
+      "reported_results_path_in_other_environment": "/home/user/kakeya_round4/results/m19_s11_12.jsonl",
+      "that_path_accessible_here": false,
+      "new_Claude_CNF_DRAT_pairs_checked_here": 0,
+      "complete_marked_case_universe_checked_here": {
+        "11": 13,
+        "12": 25
+      },
+      "normalized_covering_supports_checked": 102324,
+      "normalized_support_candidates_checked": 296010,
+      "all_support_closure_dependency": "Inherited support11/12 reduction or the separately reported exploratory all-support sweep.",
+      "outstanding": [
+        "Read exact A-E and encoder source.",
+        "Prove counterexample-to-satisfying-assignment implication, including tied maxima and both rings.",
+        "Regenerate and hash-match CNFs to exact support metadata.",
+        "Replay all38 actual proofs with the packaged verified-checker acceptance path."
+      ]
+    },
+    "maximum_at_least20": "EXCLUDED_INHERITED"
+  },
+  "middle_update": {
+    "status": "PASS_DISJOINT_ROUND5_FRONTIER",
+    "baseline_weight_profiles": 275755,
+    "disjoint_stage_exclusions": {
+      "analytic_small_light_prices": 240,
+      "nine_residue_geometry": 4088,
+      "support10_unique_roles": 641,
+      "support10_rigidity": 7
+    },
+    "additional_whole_weight_profile_exclusions": 4976,
+    "remaining_middle_weight_profiles": 270779,
+    "remaining_nonempty_middle_cells": 48,
+    "newly_closed_cells": [
+      {
+        "support": 10,
+        "maximum": 12
+      },
+      {
+        "support": 10,
+        "maximum": 13
+      },
+      {
+        "support": 10,
+        "maximum": 14
+      },
+      {
+        "support": 10,
+        "maximum": 15
+      },
+      {
+        "support": 10,
+        "maximum": 16
+      },
+      {
+        "support": 10,
+        "maximum": 17
+      },
+      {
+        "support": 10,
+        "maximum": 18
+      }
+    ],
+    "by_support": [
+      {
+        "support": 10,
+        "before": 3220,
+        "excluded": 3220,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "before": 24708,
+        "excluded": 1234,
+        "remaining": 23474
+      },
+      {
+        "support": 12,
+        "before": 61048,
+        "excluded": 225,
+        "remaining": 60823
+      },
+      {
+        "support": 13,
+        "before": 85913,
+        "excluded": 111,
+        "remaining": 85802
+      },
+      {
+        "support": 14,
+        "before": 75865,
+        "excluded": 99,
+        "remaining": 75766
+      },
+      {
+        "support": 15,
+        "before": 20491,
+        "excluded": 53,
+        "remaining": 20438
+      },
+      {
+        "support": 16,
+        "before": 4076,
+        "excluded": 25,
+        "remaining": 4051
+      },
+      {
+        "support": 17,
+        "before": 434,
+        "excluded": 9,
+        "remaining": 425
+      }
+    ],
+    "by_cell": [
+      {
+        "support": 10,
+        "maximum": 12,
+        "before": 178,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 13,
+        "before": 332,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 14,
+        "before": 528,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 15,
+        "before": 581,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 16,
+        "before": 615,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 17,
+        "before": 554,
+        "remaining": 0
+      },
+      {
+        "support": 10,
+        "maximum": 18,
+        "before": 432,
+        "remaining": 0
+      },
+      {
+        "support": 11,
+        "maximum": 12,
+        "before": 1600,
+        "remaining": 1439
+      },
+      {
+        "support": 11,
+        "maximum": 13,
+        "before": 2488,
+        "remaining": 2212
+      },
+      {
+        "support": 11,
+        "maximum": 14,
+        "before": 3739,
+        "remaining": 3530
+      },
+      {
+        "support": 11,
+        "maximum": 15,
+        "before": 4029,
+        "remaining": 3853
+      },
+      {
+        "support": 11,
+        "maximum": 16,
+        "before": 5153,
+        "remaining": 4952
+      },
+      {
+        "support": 11,
+        "maximum": 17,
+        "before": 4395,
+        "remaining": 4261
+      },
+      {
+        "support": 11,
+        "maximum": 18,
+        "before": 3304,
+        "remaining": 3227
+      },
+      {
+        "support": 12,
+        "maximum": 12,
+        "before": 5249,
+        "remaining": 5206
+      },
+      {
+        "support": 12,
+        "maximum": 13,
+        "before": 7224,
+        "remaining": 7183
+      },
+      {
+        "support": 12,
+        "maximum": 14,
+        "before": 10044,
+        "remaining": 9979
+      },
+      {
+        "support": 12,
+        "maximum": 15,
+        "before": 9994,
+        "remaining": 9943
+      },
+      {
+        "support": 12,
+        "maximum": 16,
+        "before": 12242,
+        "remaining": 12232
+      },
+      {
+        "support": 12,
+        "maximum": 17,
+        "before": 9547,
+        "remaining": 9536
+      },
+      {
+        "support": 12,
+        "maximum": 18,
+        "before": 6748,
+        "remaining": 6744
+      },
+      {
+        "support": 13,
+        "maximum": 12,
+        "before": 10220,
+        "remaining": 10192
+      },
+      {
+        "support": 13,
+        "maximum": 13,
+        "before": 12033,
+        "remaining": 12004
+      },
+      {
+        "support": 13,
+        "maximum": 14,
+        "before": 15648,
+        "remaining": 15635
+      },
+      {
+        "support": 13,
+        "maximum": 15,
+        "before": 13653,
+        "remaining": 13641
+      },
+      {
+        "support": 13,
+        "maximum": 16,
+        "before": 16279,
+        "remaining": 16262
+      },
+      {
+        "support": 13,
+        "maximum": 17,
+        "before": 11166,
+        "remaining": 11154
+      },
+      {
+        "support": 13,
+        "maximum": 18,
+        "before": 6914,
+        "remaining": 6914
+      },
+      {
+        "support": 14,
+        "maximum": 12,
+        "before": 12872,
+        "remaining": 12861
+      },
+      {
+        "support": 14,
+        "maximum": 13,
+        "before": 11677,
+        "remaining": 11666
+      },
+      {
+        "support": 14,
+        "maximum": 14,
+        "before": 15410,
+        "remaining": 15401
+      },
+      {
+        "support": 14,
+        "maximum": 15,
+        "before": 10842,
+        "remaining": 10836
+      },
+      {
+        "support": 14,
+        "maximum": 16,
+        "before": 14043,
+        "remaining": 14005
+      },
+      {
+        "support": 14,
+        "maximum": 17,
+        "before": 7439,
+        "remaining": 7415
+      },
+      {
+        "support": 14,
+        "maximum": 18,
+        "before": 3582,
+        "remaining": 3582
+      },
+      {
+        "support": 15,
+        "maximum": 12,
+        "before": 5390,
+        "remaining": 5380
+      },
+      {
+        "support": 15,
+        "maximum": 13,
+        "before": 3002,
+        "remaining": 2996
+      },
+      {
+        "support": 15,
+        "maximum": 14,
+        "before": 4194,
+        "remaining": 4191
+      },
+      {
+        "support": 15,
+        "maximum": 15,
+        "before": 2185,
+        "remaining": 2184
+      },
+      {
+        "support": 15,
+        "maximum": 16,
+        "before": 4110,
+        "remaining": 4088
+      },
+      {
+        "support": 15,
+        "maximum": 17,
+        "before": 1234,
+        "remaining": 1223
+      },
+      {
+        "support": 15,
+        "maximum": 18,
+        "before": 376,
+        "remaining": 376
+      },
+      {
+        "support": 16,
+        "maximum": 12,
+        "before": 1260,
+        "remaining": 1255
+      },
+      {
+        "support": 16,
+        "maximum": 13,
+        "before": 512,
+        "remaining": 509
+      },
+      {
+        "support": 16,
+        "maximum": 14,
+        "before": 770,
+        "remaining": 766
+      },
+      {
+        "support": 16,
+        "maximum": 15,
+        "before": 374,
+        "remaining": 373
+      },
+      {
+        "support": 16,
+        "maximum": 16,
+        "before": 907,
+        "remaining": 898
+      },
+      {
+        "support": 16,
+        "maximum": 17,
+        "before": 209,
+        "remaining": 206
+      },
+      {
+        "support": 16,
+        "maximum": 18,
+        "before": 44,
+        "remaining": 44
+      },
+      {
+        "support": 17,
+        "maximum": 12,
+        "before": 151,
+        "remaining": 148
+      },
+      {
+        "support": 17,
+        "maximum": 13,
+        "before": 46,
+        "remaining": 45
+      },
+      {
+        "support": 17,
+        "maximum": 14,
+        "before": 86,
+        "remaining": 85
+      },
+      {
+        "support": 17,
+        "maximum": 15,
+        "before": 42,
+        "remaining": 42
+      },
+      {
+        "support": 17,
+        "maximum": 16,
+        "before": 95,
+        "remaining": 92
+      },
+      {
+        "support": 17,
+        "maximum": 17,
+        "before": 14,
+        "remaining": 13
+      },
+      {
+        "support": 17,
+        "maximum": 18,
+        "before": 0,
+        "remaining": 0
+      }
+    ],
+    "minimum_pair_active_support": 11,
+    "support10_theorem": "Unrestricted in the maximum fibre size; both rings; at most93 points.",
+    "support10_proof_dependencies": "Complete finite support classification and analytic role/cube/period/Mantel arguments. No weight-profile census, earlier middle screen, or SAT result is required for the theorem itself.",
+    "baseline_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "survivors_sha256": "b83d398cf0c489fabc8d008e0f9fd851d5d59c7d70774ef9283753a25377f778",
+    "disjoint_certificates_sha256": "5faa20f716b9577b50d6ac1842f2a7c6d70e1abca5eb74a639e0417addc856ff",
+    "counting_caution": "Middle weight profiles, M11 affine support classes, and Claude SAT cases are different objects and cannot be added or subtracted across inventories."
+  },
+  "formal_semantic_bridge": {
+    "new_Lean_theorems": 15,
+    "actual_kernel_compilation": "PASS",
+    "scope": "Binary coefficient operations, Z4 modulo-four arithmetic, all-dimensional line formula and exact line-to-pair/carry equivalence.",
+    "not_formalized": [
+      "Support census",
+      "Full encoder",
+      "A-E",
+      "Whole Kakeya exclusion",
+      "New support10 graph proof"
+    ]
+  },
+  "proof_acceptance_pipeline": {
+    "path": "Exact CNF and DRAT -> pinned DRAT-trim -> LRAT -> mandatory upstream verified CakeML checker",
+    "archived_Kakeya_proofs_replayed": 4,
+    "new_Claude_proofs_replayed": 0,
+    "genuine_RAT_positive_control": 1,
+    "rejected_negative_controls": 8,
+    "upstream_HOL4_CakeML_development_rebuilt_here": false,
+    "ordinary_C_LRAT_utility": "Diagnostic only; pinned utility falsely accepts the bundled satisfiable negative control."
+  },
+  "last_user_report_external_sweep": {
+    "maxima11_through18_cases_done": 191,
+    "cases_total": 8904,
+    "reported_completed_status": "All UNSAT",
+    "live_status_checked_here": false,
+    "note": "This is the last user-supplied snapshot, not a live progress estimate."
+  },
+  "next_priorities": [
+    "Prioritize Claude maxima11..18 cases on supports11 and above; map case identifiers before skipping cases covered by the new theorem.",
+    "Bring actual A-E, encoder, support metadata, CNFs and proofs into the checker handoff.",
+    "Extend direction-labelled type compatibility and reusable support-role constraints on the remaining supports."
+  ],
+  "review_scope": "Separate model-agent mathematical and implementation checks in one session; no independent human review or full proof-assistant formalization is claimed."
+}

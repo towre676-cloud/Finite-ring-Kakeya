@@ -1,0 +1,9 @@
+{
+  "status": "PASS_MISSING_DIRECTION_INCIDENCE_THEOREM_AND_NEXT_FRONTIER_ENCODER",
+  "gate_assignments": {
+    "gate_input_and_auxiliary_assignments": 60,
+    "weighted_counter_all_input_and_auxiliary_assignments": 128
+  },
+  "real_encoder_scopes": 3,
+  "seconds": 5.290741
+}

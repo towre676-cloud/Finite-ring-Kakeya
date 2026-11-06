@@ -1,0 +1,33 @@
+{
+  "status": "PASS_PREFLIGHT_FAILURE_REPLACES_STALE_PASS",
+  "source_sha256": "53085501263d22357c8eefa5e9dc94fdc71a1e884fe91065a1b5c0a8bda8719f",
+  "controls": [
+    {
+      "failure_in": "load",
+      "old_pass_overwritten": true,
+      "receipt": {
+        "status": "FAIL",
+        "quick": false,
+        "cases": [],
+        "full_inventory_replayed": false,
+        "original_drat_required": false,
+        "error": "ValueError('Deliberate load preflight failure')",
+        "seconds": 0.000184
+      }
+    },
+    {
+      "failure_in": "freeze",
+      "old_pass_overwritten": true,
+      "receipt": {
+        "status": "FAIL",
+        "quick": false,
+        "cases": [],
+        "full_inventory_replayed": false,
+        "original_drat_required": false,
+        "error": "ValueError('Deliberate freeze preflight failure')",
+        "seconds": 0.000198
+      }
+    }
+  ],
+  "source_or_proof_bytes_modified": false
+}

@@ -1,0 +1,36 @@
+from pathlib import Path
+import hashlib,json,zipfile
+BASE=Path(__file__).resolve().parent
+ROOT=BASE/'recovered/Kakeya_Round9'
+R=ROOT/'research_round9'
+rows=[json.loads(p.read_text()) for p in sorted((R/'cases').glob('*/CASE.json'))]
+verified=R/'VERIFIED_FRONTIER.json'
+status=json.loads(verified.read_text()) if verified.exists() else {'status':'PARTIAL_RECONSTRUCTION','completed_cases':len(rows),'certified_cases':sum(r['exclusion_credited'] for r in rows)}
+text=['# Kakeya Round 9 — regenerated recovery checkpoint','',json.dumps(status,indent=2),'',
+'This archive contains regenerated replacements for files removed by automated workspace maintenance. It does not claim byte-for-byte recovery of lost proof streams or original timing logs. The original Round 8 source files were restored from the saved source archive. The 27 earlier accepted case masks remain recorded in RECOVERY_ORIGIN.txt.','',
+'Only CASE.json-complete case folders are included. A partial checkpoint is not a completed theorem or a completed replay. The final status FRESH_REPLAY_COMPLETE requires all 54 formulas to be regenerated, all newly accepted refutations to pass independent exact-CNF DRAT/LRAT/CakeML checking again, all 169 hub transports to pass, and all 27 prior targets to be reestablished.','',
+'Reproduce new searches (python-sat required):','```bash','python3 research_round9/recover.py run --jobs 4 --limit 45','```','',
+'Replay complete results without SAT search (Python 3, gcc, Linux x86_64):','```bash','python3 research_round9/recover.py replay --jobs 4','```','',
+'Run without -O. The producer and replayer rebuild the pinned CakeML checker. The ordinary C LRAT checker is diagnostic only. Composed class closures use 28 inherited marked certificates at each exact maximum; those inherited proof streams are in the saved Round 8 archive and are not rechecked by this continuation. The whole encoder/census/reduction is not proof-assistant formalized. The full dimension-five 94-point lower bound remains OPEN.','',
+'The prior integrity incident and the later loss are preserved in RECOVERY_ORIGIN.txt. Regenerated proof bytes and new timing receipts replace lost originals transparently.','']
+(ROOT/'README.md').write_text('\n'.join(text))
+if verified.exists() and (ROOT/'RESULTS_AND_RECOVERY.md').exists():
+ (ROOT/'README.md').write_text((ROOT/'RESULTS_AND_RECOVERY.md').read_text())
+(R/'CHECKPOINT_BUILDER_SOURCE.py.txt').write_text(Path(__file__).read_text())
+paths=[]
+for p in ROOT.rglob('*'):
+ if not p.is_file() or '__pycache__' in p.parts:continue
+ rel=p.relative_to(ROOT)
+ if 'tools' in rel.parts or 'replay_tools' in rel.parts:continue
+ if rel.parts[:2]==('research_round9','cases') and not (ROOT/Path(*rel.parts[:3])/'CASE.json').exists():continue
+ if p.name=='PAYLOAD_SHA256.json':continue
+ paths.append(p)
+manifest={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths)}
+(ROOT/'PAYLOAD_SHA256.json').write_text(json.dumps(manifest,indent=2)+'\n')
+out=BASE/'Kakeya_Round9_Recovered_2026-11-04.zip'
+temp=BASE/'checkpoint_building.zip'
+with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED,compresslevel=1) as z:
+ for p in sorted(paths):z.write(p,'Kakeya_Round9/'+str(p.relative_to(ROOT)))
+ z.write(ROOT/'PAYLOAD_SHA256.json','Kakeya_Round9/PAYLOAD_SHA256.json')
+temp.replace(out)
+print(json.dumps({'path':str(out),'bytes':out.stat().st_size,'files':len(paths)+1,'status':status}))

@@ -1,0 +1,245 @@
+# Kakeya Round 4: repaired premises, a complete middle inventory, and a precise optimization model
+
+28 October 2026
+
+**The unrestricted theorem remains open.** The audit's central strategic criticism was correct: closing support18 did not make the middle-maxima region nearly closed. This continuation repairs the fragile premise, enumerates the region beneath that ceiling, and implements a concrete part of the proposed dual strategy. It also gives a new support theorem for maximum fibre18.
+
+The verified changes are:
+
+* An analytic proof of Q(A)<=300 for every twelve-point binary set, with equality exactly for an affine four-flat minus an affine plane. The critical support18 energy value no longer depends on its old census entry.
+* A complete inventory of2,163,945 normalized middle weight profiles, reduced by specified exact screens to275,755. The list is supplied in full.
+* A new implication, for both target rings in dimension5: size<=93 and maximum fibre18 force pair-active support<=16.
+* An implemented finite embedded-type IP/LP model, rational certificate checker, and complete dimension-two examples that expose both its value and its remaining weakness.
+* A pinned Lean module proving the finite-incidence cube bookkeeping and related algebra, with13 audited theorem declarations. The geometric bridges remain explicit obligations.
+
+The maximum11 branch remains46 affine support classes. The maximum19 branch remains3,798 tracked weight/own-direction profiles. These are different objects from middle weight profiles, and their counts should not be added or presented as a percentage of the conjecture completed. All earlier material is preserved in the archive, with the Round4 ledger governing current counts.
+
+## 1. The twelve-point energy theorem
+
+For a binary set A, define p_A(d)=|A intersect(A+d)|/2 for nonzero d and Q(A)=sum_d p_A(d)^2. Let Z_4(A) count affine planes contained in A. The identity
+
+    Q(A)=binom(|A|,2)+6Z_4(A)
+
+holds at every weight. The first pair moment is binom(|A|,2). Two distinct pairs of the same difference form a plane, and each plane occurs in its three nonzero directions. Expanding p^2=p+2binom(p,2) gives the formula.
+
+For twelve points, the complete analytic conclusion is:
+
+| Affine rank | Energy bound |
+|---|---:|
+| At most3 | Impossible |
+| 4 | Exactly294 or300 |
+| 5 | At most222, attained |
+| At least6 | At most252 |
+
+Thus the maximum300 and its equality classification are dimension independent. No external priority claim is made for this elementary result; the advance here is an explicit analytic proof replacing a computational dependency in our argument.
+
+At rank4, write A=H minus D, where H is its sixteen-point affine hull and |D|=4. For nonzero tangent d,
+
+    p_A(d)=4+p_D(d),
+    Q(A)=288+Q(D).
+
+Four points have energy12 when they form a plane and6 otherwise. This proves the two possible energies and characterizes equality.
+
+The full-rank5 case is the part requiring additional work. For each of the62 affine hyperplanes J, set k_J=|A intersect J|. Double counting points and pairs yields
+
+    sum_J k_J=372,
+    sum_J binom(k_J,2)=990,
+    sum_J(k_J-6)^2=120.
+
+If every hyperplane contained at most7 points, complementary hyperplanes would force5<=k_J<=7. The final sum would then be at most62, a contradiction. Hence a hyperplane contains b points for some b in{8,9,10,11}.
+
+After translation write A=B union(v+C), with B,C in a binary four-space, v outside it, b=|B| and c=|C|=12-b. Put T=sum_d p_B(d)p_C(d). The exact split identity is
+
+    Q(A)=Q(B)+Q(C)+bc+6T.
+
+To verify it, pairs within the two hyperplanes contribute(p_B+p_C)^2. The cross correlations r(h)=|B intersect(C+h)| satisfy sum_h r(h)^2=bc+4T: the diagonal contributes bc, and pairs of distinct choices with common difference contribute4p_Bp_C.
+
+Complement counting inside the sixteen-point hyperplane gives Q(B)<=120,153,211 for b=9,10,11. Using T<=floor(b/2)binom(c,2), the corresponding split bounds are222,204,222.
+
+For b=8,c=4, there are three elementary cases. If B is a noncube and C a plane, the plane's tangent two-space partitions the hyperplane into four cosets. Eight B-points can have twelve within-coset pairs only in the occupancy pattern(4,4,0,0), which makes B a cube. Otherwise there are at mostnine such pairs, hence T<=18. Since Q(B)<=70 and Q(C)=12, the energy is at most70+12+32+108=222.
+
+If both B and C are noncubes in their respective sizes, translate C to a tetrahedron{0,x,y,z}. Its six differences are the nonzero vectors of a three-space except x+y+z. In each three-space coset, the graph of these directions is K8 with a perfect matching removed. The possible B occupancies give T<=18, and the energy is at most70+6+32+108=216.
+
+If B is a cube with tangent three-space U, rank5 forces C to meet both U-cosets of the hyperplane. A1+3 split gives Q(C)=6 and T=12, hence222. A2+2 split gives Q(C)<=12 and T=8, hence204. This completes rank5, with equality attained by{0,1,...,10,16} in the binary integer encoding.
+
+Finally, an augmented point matrix for a w-point set of affine rank r has a binary relation code of dimension w-r-1. Each contained affine plane supplies a distinct nonzero relation. For w=12 and r>=6, there are at most31 planes, so Q<=66+6*31=252.
+
+The separate implementation contains no input census. It normalizes a chosen affine basis and checks330 rank4 sets and230,230 rank5 sets,230,560 in total. Repeated affine classes are harmless: every actual set has a normalized representative. Pair differences, plane counts, and witness energies are recomputed. Root replay passed. This is a separately written implementation, not independent human review, and the analytic proof is still outside Lean.
+
+## 2. The middle branch is now explicitly inventoried
+
+The elementary inequality binom(s,2)>=31 only gives s>=9. The inherited nine-point difference theorem improves this: nine binary residues determine at most28 nonzero differences. A fresh2930-set affine-basis enumeration corroborates that bound. Thus the relevant supports begin at10.
+
+For exact maxima12 through18, the earlier support18 and higher exclusions leave s=10,...,17. Every hypothetical set of size<=93 in this range can be padded to total93 at fixed support and exact maximum, because sm>=120>93. Enlarging existing fibres preserves all lines. This justifies exhaustive weight enumeration at one total mass.
+
+The accounting is disjoint and explicit:
+
+| Stage | Excluded | Remaining |
+|---|---:|---:|
+| All normalized profiles | — | 2,163,945 |
+| Global pair-budget and maximal-direction-quota screen | 1,728,113 | 435,832 |
+| Inherited selected exact-spectrum certificates | 23,164 | 412,668 |
+| Generic geometric/resource applications | 135,877 | 276,791 |
+| Joint same-spectrum cube-energy certificates | 524 | 276,267 |
+| Optimized one-heavy incidence-price family | 512 | 275,755 |
+
+The136,913 additional recorded exclusions consist of the last three rows. The23,164 inherited spectrum exclusions are not credited as new. The quota formula is inherited, but its complete application to this full support range has now been enumerated and separately replayed.
+
+| Support | All profiles | Final remaining |
+|---|---:|---:|
+| 10 | 102,620 | 3,220 |
+| 11 | 179,804 | 24,708 |
+| 12 | 257,792 | 61,048 |
+| 13 | 317,624 | 85,913 |
+| 14 | 348,184 | 75,865 |
+| 15 | 348,408 | 20,491 |
+| 16 | 324,384 | 4,076 |
+| 17 | 285,129 | 434 |
+
+The full56-cell table and every final profile are included. Only the(s,m)=(17,18) cell closes at this checkpoint; the other55 remain nonempty. A profile surviving the screens is not a construction, a feasible residue embedding, or a globally compatible choice of shapes.
+
+The count peaks at support13. This qualifies the claim that every smaller support must be worse: heavier fibres weaken some screens, while fewer available incidences and more missing directions strengthen others. The task remains large, but its difficulty is not monotone in support under the present constraints.
+
+## 3. A concrete new theorem from an exact small dual
+
+The sole remaining(s,m)=(17,18) profile before pricing was
+
+    (18,8^5,7,6^2,2^8).
+
+Choose the nine largest fibres as heavy. Their pair caps are(9,4^5,3^3). The eight light fibres each have weight2 and therefore supply at mostone pair unit. Let F be the missing directions of the heavy residue support, with r=|F|>=3.
+
+Every contributing edge in F has a light endpoint. Four units per light pair pay for every edge except those meeting the cap-nine heavy. Such an edge can add at mostfive further units, and there is at mostone at that heavy residue per direction. Therefore
+
+    C_F<=4*8+5r=32+5r<16r,
+
+contradicting coverage. At r=3 this is47<48. The profile argument needs no energy table or optimizer. The complete inventory establishes that it was the last profile in its cell. With the earlier higher-support exclusions, this proves
+
+    |K|<=93 and max_a|A_a|=18  ==>  |S|<=16
+
+for both rings in dimension5. The maximum18 stratum on smaller supports remains open.
+
+This boundary proof belongs to an automatically optimized family. For each light fibre i, let a_i be its resource maximum when its incidence toward the distinguished heavy is inactive, and b_i the maximum when active. Charge a nonnegative price t on such active incidences. With at leastthree missing directions, the relevant bound is
+
+    U_3(t)=sum_i max(a_i,b_i-t)+3t.
+
+Writing delta_i=(b_i-a_i)_+, its exact minimum over all nonnegative real prices equals
+
+    sum_i a_i + the sum of the three largest delta_i.
+
+This is the dual of the cardinality LP maximizing sum_i delta_i*z_i subject to0<=z_i<=1 and sum_i z_i<=3. All gains are integers at most31, so an integer price in0,...,32 attains the continuous optimum. This is complete optimization of one specified family, not a heuristic price sample.
+
+If the actual missing count is r>=3, the bound becomes U_r=U_3+(r-3)t. A certificate U_3<96 with t<=32 implies U_r<32r for every possible r. Thus no assumption of exactlythree missing directions is hidden in the screen. Across the frozen276,267-profile baseline, this family excludes512 profiles. Separate backward local recursions check all witnesses and the full survivor complement.
+
+## 4. Making the cube inequality systematic
+
+Let r be the actual number of eight-point affine cubes, and put L=2lambda. For a permitted histogram h of pair counts, define
+
+    E(h)=sum_p h_p*p^2,
+    g_L(p)=max(0,2min(16,4p)-p^2-L),
+    J(w,r,L)=max_h [E(h)+the sum of its r largest gains g_L(p)].
+
+Every remaining eight-point fibre is restricted to a noncube histogram. The same histogram supplies both energy and surplus before maximization; incompatible local extremizers cannot be combined. The master inequality gives
+
+    2C_total <=7Lr+(32-2L)floor(r^2/4)+sum_w n_w J(w,r,L).
+
+The bank L=8,...,16 stays in the range where the Mantel coefficient is nonnegative. Every actual cube-count branch must be excluded. This accounts for524 additional profiles and2498 covering branches. A separate bounded-choice DP recomputes all1683 local optima, while the inventory checker uses another reconstruction.
+
+The limitation is measurable. In the final275,755-profile list,269,672 profiles already pass the r=0 energy branch in which every weight-eight fibre is a noncube. Only6083 force at leastone cube by this energy test. These are relaxed energy states, not realizations. Nonetheless, the diagnostic explains why another cube-only argument cannot reasonably be expected to settle most of the remaining middle branch without additional shape forcing.
+
+## 5. The type model must preserve common embeddings
+
+The proposed type architecture is appropriate, with a crucial completeness condition. A type cannot consist only of an affine class or an unlabelled pair spectrum. For a class representative B, an actual type has the form g(B)+t in a common coordinate system. Every incident edge must use the same g and t. Even a direction-labelled pair-count vector generally does not determine the actual quotient pair-label sets.
+
+For each residue a and allowed embedded type A, introduce x_(a,A). For each edge ab and endpoint-type pair(A,B), introduce y_(ab,A,B). Use nonnegativity, node normalization, and the two pair-marginal equations
+
+    sum_A x_(a,A)=1,
+    sum_B y_(ab,A,B)=x_(a,A),
+    sum_A y_(ab,A,B)=x_(b,B).
+
+Weight multiplicity equations can cover every placement of a fixed profile in one model. Exact labelled coverage rows demand at leastone covering edge for each lifted direction. With binary node variables and complete embedded-type domains, the marginal equations force the selected endpoint pairs, making this an exact finite-domain IP. Continuous variables give a necessary LP relaxation.
+
+An infeasible restricted-domain model does not exclude omitted types. A global certificate requires either complete domains or a proved encompassing relaxation. Column generation needs a complete pricing oracle for every omitted node type and every relevant type-pair constraint. This is a mathematical condition, not merely a software optimization.
+
+The implementation builds the rows and verifies rational Farkas certificates. In the convention Az<=b, Ez=f, z>=0, a certificate has lambda>=0 and signed mu with
+
+    lambda*A+mu*E>=0 coordinatewise,
+    lambda*b+mu*f<0.
+
+These are exact rational inequalities; clearing denominators yields an integer certificate. Floating-point solver output alone is not accepted.
+
+The complete dimension-two(4,4,2) examples demonstrate common-type exclusion. The two-point fibre has only one pair direction but would have to supply capacity2 in each of two distinct unique-edge directions. Independent edge maxima hide this conflict. Node normalization exposes it. There are12 exact certificates across all low-fibre positions, both rings, and both capacity and label versions.
+
+The global dimension-five type catalogue and solver have not been completed. The current implementation establishes the formulation and checker on complete small domains. It does not claim to have solved the275,755-profile residual.
+
+## 6. Weighted AM-GM helps where the loss actually occurs
+
+For theta>0,
+
+    2pq<=theta*p^2+theta^(-1)*q^2.
+
+For p=9,q=1, theta=1/9 improves the symmetric cost41 to the exact product9. For rational theta=a/b, the certificate is simply(ap-bq)^2>=0 after clearing denominators. The Lean module proves the corresponding denominator-cleared real inequality.
+
+The weight must be selected consistently before the fibre's resources are maximized and spent. A choice good for(9,1) is poor for(1,1), so one class-pair parameter need not improve all incidences. Weighted squares are one useful family of endpoint messages.
+
+Several inherited screens already use the sharper exact product cap M(p,q), rather than symmetric AM-GM. A weighted quadratic upper bound cannot improve an already exact edge product on that edge. The main opportunity is better global allocation of endpoint resources and common-shape constraints. The newly optimized incidence-price family is one concrete example of that principle.
+
+Likewise, a common two-space gives capacity at most8 for two rank-at-most3 tangent spaces. It is not a universal cap for arbitrary larger-rank types. The general dimension bound is
+
+    capacity<=min(2^(n-1),2^(dim H_A+dim H_B-dim(H_A intersect H_B)-1))
+
+for an active direction. Geometric statements such as the cube triangle lemma, Mantel's bound, shared-period halving, and Hall role constraints must enter as proved valid rows. An LP does not establish their applicability by itself.
+
+## 7. Carry belongs in label rows, and pair marginals still have a gap
+
+Let q_d:V->V/<d> and define P_A(d)={q_d(u):u,u+d in A}. With the canonical binary section, the exact lifted-direction labels on residue edge ab, d=a+b, are
+
+    L_ab^R=P_A(d)+P_B(d)+c_R(a,d),
+    c_dual(a,d)=0,
+    c_Z4(a,d)=q_d(a coordinatewise-multiplied by d).
+
+Changing the chosen endpoint alters the carry by q_d(d)=0. Translating the two fibres adds q_d(t_a+t_b), with the same t_a used at all incidences of a.
+
+The carry translates a single edge's label set and therefore preserves its cardinality. Consequently a table of single-edge capacities cannot become ring-sensitive merely by adding carry. Ring differences enter exact label-incidence coefficients, overlap, and shared translations. One parameterized verifier can handle both coefficient arrays.
+
+A complete small example shows why this is necessary but insufficient for the basic LP. In V=F2^2 take full residue support and four fibres of size3, writing A_a=V minus{t_a}. Set T=sum_a t_a=(T_0,T_1). Coverage in the coordinate directions forces T_0=T_1=1. The third direction requires
+
+    T_0+T_1=1 over dual numbers,
+    T_0+T_1=0 over Z/4Z.
+
+The first system is inconsistent; the second allows exactly64 of the256 assignments. Literal ring arithmetic independently verifies zero versus64. This concerns the profile(3,3,3,3), of total size12, and does not contradict equality of the unrestricted dimension-two minima10.
+
+Nevertheless, x=1/4 for each local type and y=1/16 for each endpoint-type pair gives a feasible fractional label LP in both rings. Each edge covers each label with probability1/2, and two edges supply the required marginal total1. Pairwise consistency therefore misses a global parity obstruction. Cycle constraints, higher-order marginals, or additional geometric rows are needed to eliminate such fractional states.
+
+## 8. What has actually been formalized
+
+Lean4.24.0 with a pinned Mathlib commit compiles13 theorems. The main theorem derives
+
+    2C_total<=E_R+77r+10B+sum_cross gains
+
+from finite incidence maps and local inequalities. An injection of remaining endpoint incidences into energy slots prevents double charging. An injection of cube incidences into Cube x Fin7 gives the seven-incidence budget. Lean sums RR, CC, and CR inequalities and derives the displayed aggregation; it does not assume the aggregated conclusion.
+
+The expensive cube-edge count B remains an explicit hypothesis. Taking B=floor(r^2/4) needs the separate geometric triangle/Mantel argument. The module also proves weighted AM-GM, the local surplus table, all six boundary numerical inequalities, and the critical equality388+77*6+10*9+51=991.
+
+Root recompiled the actual source and inspected all printed axiom dependencies. They contain only propext, Classical.choice, and Quot.sound, with no sorry, admitted theorem, native_decide, or new axiom declaration.
+
+The binary-set Q identity, the energy300 theorem, construction of the incidence maps from actual Kakeya sets, quotient sumset geometry, Mantel's applicability, profile-specific constants, and exhaustive support reduction are not formalized in this module. It is a meaningful checked part of the proof, not a Lean proof of the entire support18 theorem.
+
+## 9. Strategic consequences and the remaining obligation
+
+The full-hub theorem remains a conditional rigidity/equality result: n>=6, one full fibre, and every outer fibre of size<=12. Under those hypotheses it gives the sharp3*2^n-2 bound and stated generalized-star equality characterization. It does not force a full hub in an arbitrary extremizer and is not a quantitative stability theorem.
+
+In dimension5, the inherited exclusion of maximum>=20 removes all subthreshold full hubs. In higher dimensions, both no-full-hub configurations and full hubs with an outer fibre larger than12 remain outside the conditional theorem. Proving an unrestricted lower bound would not, by itself, extend this equality classification to every minimizer.
+
+The next substantive program is therefore a common-shape relaxation with certified completeness, refined only where needed: coarse weight/rank/period buckets; exact spectrum-based pricing; embedded direction and quotient-pair sets at tight vertices; then shared translations and nonlocal consistency constraints. The existing complete weight inventory is an auditable input and a benchmark. The one-heavy pricing and joint-spectrum stages show how proved inequalities can be optimized automatically without pretending the resulting LP is exact.
+
+The stopping criterion for an exclusion is precise: every actual type or enclosing bucket must satisfy all dual rows, and an exact verified combination must give a strict contradiction to required coverage. A surviving LP state triggers a further geometric refinement or branching decision; it is not evidence of a Kakeya construction.
+
+## 10. Literature corrections
+
+The supplied arXiv identifier2108.07652 is Ghurumuruhan Ganesan's "Size of local finite field Kakeya sets," rather than a Dhar paper. Primary record: https://arxiv.org/abs/2108.07652 .
+
+The Princeton record is Dhar and Dvir's square-free-modulus theorem. Its asymptotic conclusion is of the form C_(n,epsilon)N^(n-epsilon), and N=4 is not square-free. Primary record: https://collaborate.princeton.edu/en/publications/proof-of-the-kakeya-set-conjecture-over-rings-of-integers-modulo-/ .
+
+Dhar's general-modulus work is "The Kakeya Set Conjecture for Z/NZ for general N," arXiv2110.14889, published in Advances in Combinatorics2024:2. That general-modulus result is relevant background; it does not supply the exact fixed-ring formula sought here. Primary record: https://arxiv.org/abs/2110.14889 . No claim that all exact values are absent from the literature is made.
+
+The archive includes complete proofs, producer and verifier sources, exact certificates, survivor lists, the bounded Lean project, and a1500-word public monograph. The replay receipts establish the specified computational checks. Separate model-agent implementations support reproducibility; they are not external human review or proof of an unrestricted theorem.

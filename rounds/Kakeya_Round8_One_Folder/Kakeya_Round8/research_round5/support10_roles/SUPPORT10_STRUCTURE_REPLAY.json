@@ -1,0 +1,15 @@
+{
+  "status": "PASS_STANDALONE_SUPPORT10_CLASSIFICATION",
+  "normalized_candidates": 14950,
+  "difference_covers": 80,
+  "affine_types": 1,
+  "canonical_form": "(V minus0) union (W minus0), dimV3, dimW2, V direct-sum W=F2^5.",
+  "earlier_weight_profile_input_used": false,
+  "verified_properties": [
+    "Unique-edge graph K3 joined to independent7-set.",
+    "Unique deleted origin gives complementary subspaces.",
+    "Every vertex has a sum-free set of incident unique directions."
+  ],
+  "finite_checker_sha256": "a5f6a3a9fdc558ef5d87c44ea688909f624ff30b6e04f6cb7aa0751875c36aec",
+  "scope": "Complete normalized finite support classification; analytic affine-normalization argument proves coverage of all supports."
+}

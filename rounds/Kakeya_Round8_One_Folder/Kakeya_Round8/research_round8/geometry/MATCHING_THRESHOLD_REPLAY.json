@@ -1,0 +1,63 @@
+{
+  "status": "PASS_ACTUAL_WEIGHT_MATCHING_THRESHOLD_CONTROLS",
+  "source_hashes": {
+    "research_round8/geometry/verify_matching_threshold.py": "961ff948ee09b8cada22bbb37e7072b2a474ffd9956e3df6f5ffc9565e7458a1",
+    "research_round8/geometry/MATCHING_THRESHOLD_LEMMA.md": "05967dd3a9756b29e9b473b26673fa4f2d11c6272dccac47d94c55a2b1552750",
+    "research_round8/incidence/MISSING_DIRECTION_INCIDENCE.md": "4d52fcdb7b60b09cc52934ab3fab575d07b4320789879de664592c3a129c9034",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8"
+  },
+  "abstract_matching_controls": {
+    "sorted_nine_heavy_ceiling_vectors": 11440,
+    "abstract_matching_capacity_cases": 14643200,
+    "threshold_distribution": {
+      "2": 7656,
+      "3": 3393,
+      "4": 318,
+      "5": 50,
+      "6": 16,
+      "7": 5,
+      "8": 2
+    },
+    "matching_bound_equality_cases": 313624,
+    "minimum_positive_capacity_margin": 1,
+    "ceiling_values": [
+      2,
+      9
+    ],
+    "maximum_active_light_vertices": 8,
+    "per_vector_partner_and_light_light_patterns": 1280
+  },
+  "literal_matching_controls": {
+    "labelled_matchings_of_three_heavy_and_three_light_vertices": 46,
+    "labelled_heavy_ceiling_assignments": 64,
+    "literal_weighted_matchings_checked": 2944
+  },
+  "premise_and_threshold_controls": {
+    "strict_improvement_example": {
+      "heavy_ceilings": [
+        9,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_only_threshold": 2,
+      "matching_threshold": 3
+    },
+    "invalid_heavy_partner_reuse_rejected_by_bound": true,
+    "eight_heavy_example_requires_three_incidences_from_one_light_fibre": true,
+    "integer_incidence_comparisons_checked": 514800
+  },
+  "mathematical_scope": "Nine heavy fibres, at most eight light2/3 fibres; analytic theorem applies to both rings and does not need a total-weight bound.",
+  "finite_control_scope": "All sorted nine-heavy pair ceilings2..9, covering inherited maxima through18; all heavy partner subsets and feasible light-light counts using at most8 lights.",
+  "proof_is_analytic_not_dependent_on_finite_controls": true,
+  "profile_frontier_read_or_written": false,
+  "spectrum_or_sumset_census_read": false,
+  "SAT_or_proof_checker_called": false,
+  "new_ledger_exclusions_claimed_by_this_replay": 0,
+  "seconds": 2.420439
+}

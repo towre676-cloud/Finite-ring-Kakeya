@@ -1,0 +1,59 @@
+{
+  "status": "PASS_FINAL_PDF_VISUAL_AND_TEXT_QA",
+  "source": "Kakeya_Round6_Monograph.txt",
+  "source_sha256": "6869b316c93530c061caf109e696607448e2674f16818b4a2ab235675f2ee71c",
+  "source_whitespace_words": 1500,
+  "pdf": "Kakeya_Round6_Monograph.pdf",
+  "pdf_sha256": "d83604b4e605aca85b90def45276a4a870276baaef6fe235267ec47648122f05",
+  "pdf_bytes": 95671,
+  "page_count": 4,
+  "body_text_matches_source": "Exact after removing Markdown bold delimiters and normalizing layout whitespace; numeric page footers excluded.",
+  "pdf_body_whitespace_words": 1500,
+  "bold_emphasis": "Original double-asterisk emphasis rendered with embedded bold fonts; source TXT unchanged.",
+  "unicode_glyph_check": "PASS: every non-whitespace source character covered by embedded DejaVu Serif.",
+  "visual_review": {
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "render_dpi": 110,
+    "render_tool": "pdftoppm",
+    "findings": "All final pages legible; no missing glyphs, clipping, overlap, orphaned section headings, or paragraphs split across pages. Consistent scholarly typography, margins and numeric footers. Prose, math and citations preserved."
+  },
+  "rendered_page_paths": [
+    "tmp/pdfs/round6_monograph/page-1.png",
+    "tmp/pdfs/round6_monograph/page-2.png",
+    "tmp/pdfs/round6_monograph/page-3.png",
+    "tmp/pdfs/round6_monograph/page-4.png"
+  ],
+  "page_details": [
+    {
+      "page": 1,
+      "width_pt": 595.2756,
+      "height_pt": 841.8898,
+      "body_words": 411
+    },
+    {
+      "page": 2,
+      "width_pt": 595.2756,
+      "height_pt": 841.8898,
+      "body_words": 383
+    },
+    {
+      "page": 3,
+      "width_pt": 595.2756,
+      "height_pt": 841.8898,
+      "body_words": 394
+    },
+    {
+      "page": 4,
+      "width_pt": 595.2756,
+      "height_pt": 841.8898,
+      "body_words": 312
+    }
+  ],
+  "generation_script": "make_monograph_pdf.py",
+  "generation_script_sha256": "af46923699783a33fc67988d8c34b0e3384f646a30bfb6b2c65dacf463b0db42"
+}

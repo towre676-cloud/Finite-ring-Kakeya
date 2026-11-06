@@ -1,0 +1,51 @@
+{
+  "case_id": "s13_T51979670_m2_18_baseline_t30",
+  "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+  "nonzero_support_mask": 51979670,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "inherited": false,
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 45076,
+      "clauses": 398665
+    },
+    "input_sha256": {
+      "cnf": "600f9c85512896a53be8ba127ad734acc3727a8608ee6605d0692077509412c7",
+      "drat": "0e8757cc174ee26946a0d7e70a9690b26a41d8916df0b812b049f990d6b13f0e"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 8.549129,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "086a043c08fff22ed8746d8c1ded34be08db7e789c6b7090af4d7bb75f31ec8b",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "3a05aca92f37940067684d7b6764a114952f2b6dee889cfd17233ff98173fc9a",
+    "lrat_bytes": 143820620,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 5.886924,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "cnf_sha256": "600f9c85512896a53be8ba127ad734acc3727a8608ee6605d0692077509412c7",
+  "proof_sha256": "0e8757cc174ee26946a0d7e70a9690b26a41d8916df0b812b049f990d6b13f0e",
+  "seconds": 16.752605
+}

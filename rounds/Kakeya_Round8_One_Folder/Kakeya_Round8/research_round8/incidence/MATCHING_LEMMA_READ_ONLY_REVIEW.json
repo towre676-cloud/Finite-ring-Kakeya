@@ -1,0 +1,15 @@
+{
+  "status": "PASS_READ_ONLY_MATHEMATICAL_REVIEW",
+  "reviewer_role": "dense_encoder model agent",
+  "proof_file": "research_round8/geometry/MATCHING_THRESHOLD_LEMMA.md",
+  "proof_sha256": "05967dd3a9756b29e9b473b26673fa4f2d11c6272dccac47d94c55a2b1552750",
+  "reviewed_points": [
+    "A fixed-direction residue graph is a matching, so all t active HL partners are distinct.",
+    "For k=t+2u<=8 light endpoints, there are enough unused heavy vertices to enlarge the partner index set to k; their q>=2 ceilings pay every LL capacity.",
+    "The resulting capacity is at most the top-k prefix, so the exact first prefix reaching16 supplies a necessary active-light threshold.",
+    "Nine heavy residues force at least three missing directions, and the missing set is plane-free; summing light incidences gives3*rho<=L2+2*L3.",
+    "The proof is valid when rho>L, and translating quotient sumsets by the ring carry does not change any cardinality bound."
+  ],
+  "scope": "Read-only analytic review, not an independent human referee or proof-assistant formalization.",
+  "blockers": []
+}

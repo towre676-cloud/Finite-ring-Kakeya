@@ -1,0 +1,19 @@
+[1/12] complete_38_marked_cases
+[2/12] nine_residue_geometry
+[3/12] multiple_price_certificates
+[4/12] analytic_240_exclusions
+[5/12] separate_geometry_table
+[6/12] standalone_support10_classification
+[7/12] historical_641_role_exclusions
+[8/12] full_support10_weight_crosscheck
+[9/12] support10_common_neighbours
+[10/12] support10_rigidity_applications
+[11/12] verified_checker_pipeline
+[12/12] exact_merged_frontier
+{
+  "status": "PASS_ALL_ROUND5_FINITE_REPLAYS",
+  "completed_stages": 12,
+  "Lean_recompiled_in_this_run": false,
+  "seconds": 18.612782,
+  "new_Claude_proof_files_checked": 0
+}

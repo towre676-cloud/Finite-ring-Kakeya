@@ -1,0 +1,343 @@
+{
+  "status": "PASS_REPLAY_REPORTING_AND_EXPLICIT_PROOF_REUSE_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review or proof-assistant formalization",
+  "source_hashes": {
+    "research_round8/geometry/verify_replay_reporting.py": "d9092922d3941321bbfe5d1589c7286b8d461eeb488ee9013b0c2b719bd6a0a1",
+    "VERIFY_ROUND8.py": "9e06bfe22c77c79ce67288511539f878fdf0ae28f305d023ca03f89b6b4ea66c",
+    "research_round8/check_fresh_archive.py": "3d0190a03a36dc8f9898703f8999a961a6ab95bdbed132573e102547e57bbe88"
+  },
+  "runner_controls": {
+    "successful_modes": [
+      {
+        "reuse": false,
+        "stage_count": 20,
+        "stages": [
+          "immutable_inherited_checkpoint",
+          "new_strengthened_encoder_controls",
+          "ten_heavy_and_full_difference_cover",
+          "complete_ten_heavy_geometry_and_rank_consequences",
+          "elementary_ten_heavy_exclusion",
+          "independent_actual_fibre_price_enumeration",
+          "independent_integer_dual_and_dynamic_program",
+          "hyperplane_crossing_pair_controls",
+          "Q211_effective_pair_spaces",
+          "new_missing_direction_incidence_controls",
+          "sixteen_whole_profile_incidence_exclusions",
+          "extended_128_whole_profile_incidence_exclusions",
+          "general_175_whole_profile_incidence_exclusions",
+          "distinct_heavy_partner_matching_controls",
+          "matching_745_whole_profile_incidence_exclusions",
+          "three_direction_950_cumulative_profile_exclusions",
+          "complete_pending_middle_maximum_queue",
+          "fresh_all_four_compact_proofs",
+          "complete_checked_coverage_and_frontier_accounting",
+          "exact_monograph_source_and_pdf_binding"
+        ],
+        "all_stage_paths_exist": true
+      },
+      {
+        "reuse": true,
+        "stage_count": 19,
+        "stages": [
+          "immutable_inherited_checkpoint",
+          "new_strengthened_encoder_controls",
+          "ten_heavy_and_full_difference_cover",
+          "complete_ten_heavy_geometry_and_rank_consequences",
+          "elementary_ten_heavy_exclusion",
+          "independent_actual_fibre_price_enumeration",
+          "independent_integer_dual_and_dynamic_program",
+          "hyperplane_crossing_pair_controls",
+          "Q211_effective_pair_spaces",
+          "new_missing_direction_incidence_controls",
+          "sixteen_whole_profile_incidence_exclusions",
+          "extended_128_whole_profile_incidence_exclusions",
+          "general_175_whole_profile_incidence_exclusions",
+          "distinct_heavy_partner_matching_controls",
+          "matching_745_whole_profile_incidence_exclusions",
+          "three_direction_950_cumulative_profile_exclusions",
+          "complete_pending_middle_maximum_queue",
+          "complete_checked_coverage_and_frontier_accounting",
+          "exact_monograph_source_and_pdf_binding"
+        ],
+        "all_stage_paths_exist": true
+      }
+    ],
+    "nonzero_child_returns": [
+      {
+        "reuse": false,
+        "stage": "immutable_inherited_checkpoint",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "new_strengthened_encoder_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "ten_heavy_and_full_difference_cover",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "complete_ten_heavy_geometry_and_rank_consequences",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "elementary_ten_heavy_exclusion",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "independent_actual_fibre_price_enumeration",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "independent_integer_dual_and_dynamic_program",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "hyperplane_crossing_pair_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "Q211_effective_pair_spaces",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "new_missing_direction_incidence_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "sixteen_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "extended_128_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "general_175_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "distinct_heavy_partner_matching_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "matching_745_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "three_direction_950_cumulative_profile_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "complete_pending_middle_maximum_queue",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "fresh_all_four_compact_proofs",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "complete_checked_coverage_and_frontier_accounting",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "exact_monograph_source_and_pdf_binding",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "immutable_inherited_checkpoint",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "new_strengthened_encoder_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "ten_heavy_and_full_difference_cover",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "complete_ten_heavy_geometry_and_rank_consequences",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "elementary_ten_heavy_exclusion",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "independent_actual_fibre_price_enumeration",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "independent_integer_dual_and_dynamic_program",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "hyperplane_crossing_pair_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "Q211_effective_pair_spaces",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "new_missing_direction_incidence_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "sixteen_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "extended_128_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "general_175_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "distinct_heavy_partner_matching_controls",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "matching_745_whole_profile_incidence_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "three_direction_950_cumulative_profile_exclusions",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "complete_pending_middle_maximum_queue",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "complete_checked_coverage_and_frontier_accounting",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "exact_monograph_source_and_pdf_binding",
+        "flags_correct": true
+      }
+    ],
+    "unexpected_child_exceptions": [
+      {
+        "reuse": false,
+        "stage": "immutable_inherited_checkpoint",
+        "flags_correct": true
+      },
+      {
+        "reuse": false,
+        "stage": "exact_monograph_source_and_pdf_binding",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "immutable_inherited_checkpoint",
+        "flags_correct": true
+      },
+      {
+        "reuse": true,
+        "stage": "exact_monograph_source_and_pdf_binding",
+        "flags_correct": true
+      }
+    ],
+    "startup_controls": [
+      {
+        "control": "invalid_CLI",
+        "old_completion_flags_cleared": true
+      },
+      {
+        "control": "Python_O_rejected",
+        "old_completion_flags_cleared": true
+      }
+    ],
+    "optional_inherited_archive_CLI_forwarding": true
+  },
+  "archive_reuse_controls": {
+    "valid_prior_full_replay_bound": true,
+    "negative_controls": [
+      "prior_extraction_status",
+      "prior_extraction_fresh_proofs_checked",
+      "prior_integrated_status",
+      "prior_integrated_fresh_all_four_new_proofs_replayed",
+      "proof_status",
+      "proof_full_inventory_replayed",
+      "proof_compact_manifest_sha256",
+      "proof_source_manifest_sha256",
+      "proof_source_hashes",
+      "case_status",
+      "case_nonzero_support_mask",
+      "case_maximum_interval",
+      "case_mode",
+      "case_representation",
+      "case_checked_proof_sha256",
+      "case_exclusion_credited",
+      "case_regeneration",
+      "audit_input_sha256",
+      "audit_status",
+      "only_three_cases",
+      "duplicate_case_id"
+    ],
+    "invalid_CLI_clears_prior_success_claims": true,
+    "preserved_receipt_hashes": {
+      "research_round8/proof_portability/FULL_PROOF_PORTABILITY_RECEIPT.json": "95b6124315e967b503d1fba045658fdb2513888c0e6ca49fbebaa2a7e8b7dd73",
+      "research_round8/proof_portability/ROUND8_PORTABLE_REPLAY.json": "f9417c3dab8a743b059f834e5fbb90a1f32a6ebc547731f4b695a25f84a42a15",
+      "research_round8/proof_portability/COMPACT_CERTIFICATE_REPLAY.json": "4000ad3a31b4d74fd3c25876f22dcb08ec9bc4de5d14f78cb73c86d01a6e9f65",
+      "research_round8/strengthened/compact/COMPACT_CERTIFICATE_REPLAY.json": "429d3cee0ffd86653f8c04e8793dbd8b0a4453a0151ce5919661a28048dda8fb"
+    }
+  },
+  "read_only_source_findings": [
+    "Fresh and reused proof completion flags start false, are separate from requests, and become true only after the corresponding successful stage.",
+    "All stage entrypoint paths exist; the complete16,128,175,745,950 profile chain and separate matching-lemma controls are included in order.",
+    "The fresh archive checker verifies a single extraction root, safe and unique ZIP names, exact manifest inventory, every extracted payload size/hash, and unchanged archive bytes.",
+    "Explicit proof reuse binds the prior complete fresh-extraction status, semantic source/manifest hashes, all four exact cases, regenerated CNF hashes, proof hashes and audit input pairs.",
+    "The integrated merge separately binds the current replay to the actual compact manifests, immutable source files and proof/CNF payload hashes, and requires four unique expected cases.",
+    "Successful reuse reports zero newly checked proofs and four bound prior fresh checks; this review performs neither operation."
+  ],
+  "child_programs_run": 0,
+  "archives_extracted": 0,
+  "SAT_or_proof_checkers_run": 0,
+  "reviewed_script_writes_redirected_to_memory": true,
+  "only_actual_output": "research_round8/geometry/REPLAY_REPORTING_REVIEW.json",
+  "blocking_issues_found": []
+}

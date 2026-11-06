@@ -1,0 +1,1041 @@
+{
+  "status": "PASS",
+  "scope": "Complete normalized middle weight inventory, both rings, dimension5, size<=93, exact maximum12..18, pair-active support10..17.",
+  "all_weight_profiles": 2163945,
+  "global_quota_cuts": 1728113,
+  "inherited_selected_spectrum_cuts": 23164,
+  "new_generic_geometry_cuts": 135877,
+  "new_joint_cube_energy_cuts": 524,
+  "new_priced_nine_cuts": 512,
+  "total_newly_recorded_weight_exclusions": 136913,
+  "remaining_weight_profiles": 275755,
+  "supports": [
+    {
+      "support": 10,
+      "input_profiles": 3220,
+      "new_cuts": 0,
+      "remaining_profiles": 3220
+    },
+    {
+      "support": 11,
+      "input_profiles": 24708,
+      "new_cuts": 0,
+      "remaining_profiles": 24708
+    },
+    {
+      "support": 12,
+      "input_profiles": 61048,
+      "new_cuts": 0,
+      "remaining_profiles": 61048
+    },
+    {
+      "support": 13,
+      "input_profiles": 86075,
+      "new_cuts": 162,
+      "remaining_profiles": 85913
+    },
+    {
+      "support": 14,
+      "input_profiles": 76019,
+      "new_cuts": 154,
+      "remaining_profiles": 75865
+    },
+    {
+      "support": 15,
+      "input_profiles": 20584,
+      "new_cuts": 93,
+      "remaining_profiles": 20491
+    },
+    {
+      "support": 16,
+      "input_profiles": 4150,
+      "new_cuts": 74,
+      "remaining_profiles": 4076
+    },
+    {
+      "support": 17,
+      "input_profiles": 463,
+      "new_cuts": 29,
+      "remaining_profiles": 434
+    }
+  ],
+  "records": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "profiles": 1067,
+      "quota_cuts": 168,
+      "quota_survivors": 899,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 572,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 149
+      },
+      "remaining_weight_profiles": 178,
+      "baseline_remaining_weight_profiles": 178,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "profiles": 3280,
+      "quota_cuts": 1270,
+      "quota_survivors": 2010,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1473,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 205
+      },
+      "remaining_weight_profiles": 332,
+      "baseline_remaining_weight_profiles": 332,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "profiles": 7268,
+      "quota_cuts": 3991,
+      "quota_survivors": 3277,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2530,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 219
+      },
+      "remaining_weight_profiles": 528,
+      "baseline_remaining_weight_profiles": 528,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "profiles": 12903,
+      "quota_cuts": 9101,
+      "quota_survivors": 3802,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3014,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 207
+      },
+      "remaining_weight_profiles": 581,
+      "baseline_remaining_weight_profiles": 581,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "profiles": 19515,
+      "quota_cuts": 14990,
+      "quota_survivors": 4525,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3676,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 234
+      },
+      "remaining_weight_profiles": 615,
+      "baseline_remaining_weight_profiles": 615,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "profiles": 26262,
+      "quota_cuts": 22320,
+      "quota_survivors": 3942,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3207,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 181
+      },
+      "remaining_weight_profiles": 554,
+      "baseline_remaining_weight_profiles": 554,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "profiles": 32325,
+      "quota_cuts": 29193,
+      "quota_survivors": 3132,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2577,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 123
+      },
+      "remaining_weight_profiles": 432,
+      "baseline_remaining_weight_profiles": 432,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "profiles": 3956,
+      "quota_cuts": 481,
+      "quota_survivors": 3475,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1584,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 2,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 288,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 1
+      },
+      "remaining_weight_profiles": 1600,
+      "baseline_remaining_weight_profiles": 1600,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "profiles": 9160,
+      "quota_cuts": 2995,
+      "quota_survivors": 6165,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3292,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 14,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 369,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 2
+      },
+      "remaining_weight_profiles": 2488,
+      "baseline_remaining_weight_profiles": 2488,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "profiles": 16608,
+      "quota_cuts": 7612,
+      "quota_survivors": 8996,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4831,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 67,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 359
+      },
+      "remaining_weight_profiles": 3739,
+      "baseline_remaining_weight_profiles": 3739,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "profiles": 25424,
+      "quota_cuts": 15787,
+      "quota_survivors": 9637,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5260,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 17,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 321,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 4029,
+      "baseline_remaining_weight_profiles": 4029,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "profiles": 34291,
+      "quota_cuts": 23414,
+      "quota_survivors": 10877,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5430,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 13,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 265,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 15,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 5153,
+      "baseline_remaining_weight_profiles": 5153,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "profiles": 42159,
+      "quota_cuts": 32992,
+      "quota_survivors": 9167,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4497,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 19,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 201,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 45,
+        "TWO_HEAVY_DELETED_DIRECTION": 10
+      },
+      "remaining_weight_profiles": 4395,
+      "baseline_remaining_weight_profiles": 4395,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "profiles": 48206,
+      "quota_cuts": 41180,
+      "quota_survivors": 7026,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3500,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 142,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 40,
+        "TWO_HEAVY_DELETED_DIRECTION": 7
+      },
+      "remaining_weight_profiles": 3304,
+      "baseline_remaining_weight_profiles": 3304,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "profiles": 9340,
+      "quota_cuts": 1223,
+      "quota_survivors": 8117,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2586,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 241,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 6,
+        "TWO_HEAVY_DELETED_DIRECTION": 2
+      },
+      "remaining_weight_profiles": 5249,
+      "baseline_remaining_weight_profiles": 5249,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "profiles": 17870,
+      "quota_cuts": 5905,
+      "quota_survivors": 11965,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4326,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 119,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 275,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 10,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 6,
+        "TWO_HEAVY_DELETED_DIRECTION": 5
+      },
+      "remaining_weight_profiles": 7224,
+      "baseline_remaining_weight_profiles": 7224,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "profiles": 28218,
+      "quota_cuts": 12403,
+      "quota_survivors": 15815,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5190,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 333,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 225,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 4,
+        "TWO_HEAVY_DELETED_DIRECTION": 19
+      },
+      "remaining_weight_profiles": 10044,
+      "baseline_remaining_weight_profiles": 10044,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "profiles": 38826,
+      "quota_cuts": 23493,
+      "quota_survivors": 15333,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4982,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 69,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 173,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 93,
+        "TWO_HEAVY_DELETED_DIRECTION": 22
+      },
+      "remaining_weight_profiles": 9994,
+      "baseline_remaining_weight_profiles": 9994,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "profiles": 48195,
+      "quota_cuts": 31263,
+      "quota_survivors": 16932,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4249,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 53,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 169,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 145,
+        "TWO_HEAVY_DELETED_DIRECTION": 74
+      },
+      "remaining_weight_profiles": 12242,
+      "baseline_remaining_weight_profiles": 12242,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "profiles": 55390,
+      "quota_cuts": 42045,
+      "quota_survivors": 13345,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3300,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 67,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 110,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 230,
+        "TWO_HEAVY_DELETED_DIRECTION": 91
+      },
+      "remaining_weight_profiles": 9547,
+      "baseline_remaining_weight_profiles": 9547,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "profiles": 59953,
+      "quota_cuts": 50442,
+      "quota_survivors": 9511,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2437,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 44,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 65,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 190,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 6748,
+      "baseline_remaining_weight_profiles": 6748,
+      "priced_nine_cuts": 0
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "profiles": 16346,
+      "quota_cuts": 2761,
+      "quota_survivors": 13585,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3000,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 123,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 3,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 152,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 17,
+        "TOTAL_PAIR_ENERGY": 21,
+        "TWO_HEAVY_DELETED_DIRECTION": 30
+      },
+      "remaining_weight_profiles": 10220,
+      "baseline_remaining_weight_profiles": 10239,
+      "priced_nine_cuts": 19
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "profiles": 27302,
+      "quota_cuts": 10703,
+      "quota_survivors": 16599,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4035,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 263,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 136,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 26,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 78,
+        "TWO_HEAVY_DELETED_DIRECTION": 3
+      },
+      "remaining_weight_profiles": 12033,
+      "baseline_remaining_weight_profiles": 12058,
+      "priced_nine_cuts": 25
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "profiles": 38903,
+      "quota_cuts": 18473,
+      "quota_survivors": 20430,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3917,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 545,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 137,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 87,
+        "TWO_HEAVY_DELETED_DIRECTION": 76
+      },
+      "remaining_weight_profiles": 15648,
+      "baseline_remaining_weight_profiles": 15668,
+      "priced_nine_cuts": 20
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "profiles": 49446,
+      "quota_cuts": 31837,
+      "quota_survivors": 17609,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3355,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 97,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 96,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 361,
+        "TWO_HEAVY_DELETED_DIRECTION": 30
+      },
+      "remaining_weight_profiles": 13653,
+      "baseline_remaining_weight_profiles": 13670,
+      "priced_nine_cuts": 17
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "profiles": 57589,
+      "quota_cuts": 37921,
+      "quota_survivors": 19668,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2496,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 78,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 50,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 441,
+        "TWO_HEAVY_DELETED_DIRECTION": 297
+      },
+      "remaining_weight_profiles": 16279,
+      "baseline_remaining_weight_profiles": 16306,
+      "priced_nine_cuts": 27
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "profiles": 62861,
+      "quota_cuts": 49143,
+      "quota_survivors": 13718,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1811,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 85,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 32,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 483,
+        "TWO_HEAVY_DELETED_DIRECTION": 115
+      },
+      "remaining_weight_profiles": 11166,
+      "baseline_remaining_weight_profiles": 11192,
+      "priced_nine_cuts": 26
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "profiles": 65177,
+      "quota_cuts": 56469,
+      "quota_survivors": 8708,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1301,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 66,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 11,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 367,
+        "TWO_HEAVY_DELETED_DIRECTION": 21
+      },
+      "remaining_weight_profiles": 6914,
+      "baseline_remaining_weight_profiles": 6942,
+      "priced_nine_cuts": 28
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "profiles": 23200,
+      "quota_cuts": 6378,
+      "quota_survivors": 16822,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2640,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 357,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 109,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 70,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 39,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 106,
+        "TOTAL_PAIR_ENERGY": 611,
+        "TWO_HEAVY_DELETED_DIRECTION": 4
+      },
+      "remaining_weight_profiles": 12872,
+      "baseline_remaining_weight_profiles": 12886,
+      "priced_nine_cuts": 14
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "profiles": 34966,
+      "quota_cuts": 19598,
+      "quota_survivors": 15368,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2867,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 473,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 2,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 54,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 53,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 203,
+        "TOTAL_PAIR_ENERGY": 1,
+        "TWO_HEAVY_DELETED_DIRECTION": 24
+      },
+      "remaining_weight_profiles": 11677,
+      "baseline_remaining_weight_profiles": 11691,
+      "priced_nine_cuts": 14
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "profiles": 46078,
+      "quota_cuts": 27419,
+      "quota_survivors": 18659,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2247,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 673,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 35,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 253,
+        "TWO_HEAVY_DELETED_DIRECTION": 18
+      },
+      "remaining_weight_profiles": 15410,
+      "baseline_remaining_weight_profiles": 15433,
+      "priced_nine_cuts": 23
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "profiles": 55038,
+      "quota_cuts": 41708,
+      "quota_survivors": 13330,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1739,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 130,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 21,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 535,
+        "TWO_HEAVY_DELETED_DIRECTION": 43
+      },
+      "remaining_weight_profiles": 10842,
+      "baseline_remaining_weight_profiles": 10862,
+      "priced_nine_cuts": 20
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "profiles": 60994,
+      "quota_cuts": 44652,
+      "quota_survivors": 16342,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1255,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 64,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 9,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 729,
+        "TWO_HEAVY_DELETED_DIRECTION": 220
+      },
+      "remaining_weight_profiles": 14043,
+      "baseline_remaining_weight_profiles": 14065,
+      "priced_nine_cuts": 22
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "profiles": 63890,
+      "quota_cuts": 54910,
+      "quota_survivors": 8980,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 845,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 44,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 4,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 559,
+        "TWO_HEAVY_DELETED_DIRECTION": 74
+      },
+      "remaining_weight_profiles": 7439,
+      "baseline_remaining_weight_profiles": 7454,
+      "priced_nine_cuts": 15
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "profiles": 64018,
+      "quota_cuts": 59378,
+      "quota_survivors": 4640,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 505,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 91,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 1,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 380,
+        "TWO_HEAVY_DELETED_DIRECTION": 35
+      },
+      "remaining_weight_profiles": 3582,
+      "baseline_remaining_weight_profiles": 3628,
+      "priced_nine_cuts": 46
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "profiles": 28256,
+      "quota_cuts": 16312,
+      "quota_survivors": 11944,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1651,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 427,
+        "INHERITED_EXACT_SPECTRUM": 3974,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 214,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 19,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 64,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TOTAL_PAIR_ENERGY": 189
+      },
+      "remaining_weight_profiles": 5390,
+      "baseline_remaining_weight_profiles": 5397,
+      "priced_nine_cuts": 7
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "profiles": 39327,
+      "quota_cuts": 32126,
+      "quota_survivors": 7201,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1405,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 363,
+        "INHERITED_EXACT_SPECTRUM": 2299,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 1,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 13,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 69,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 10,
+        "TWO_HEAVY_DELETED_DIRECTION": 32
+      },
+      "remaining_weight_profiles": 3002,
+      "baseline_remaining_weight_profiles": 3009,
+      "priced_nine_cuts": 7
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "profiles": 48697,
+      "quota_cuts": 39286,
+      "quota_survivors": 9411,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 978,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 481,
+        "INHERITED_EXACT_SPECTRUM": 3667,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 5,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 66,
+        "TWO_HEAVY_DELETED_DIRECTION": 3
+      },
+      "remaining_weight_profiles": 4194,
+      "baseline_remaining_weight_profiles": 4211,
+      "priced_nine_cuts": 17
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "profiles": 55363,
+      "quota_cuts": 50057,
+      "quota_survivors": 5306,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 682,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 116,
+        "INHERITED_EXACT_SPECTRUM": 2127,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 3,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 156,
+        "TWO_HEAVY_DELETED_DIRECTION": 26
+      },
+      "remaining_weight_profiles": 2185,
+      "baseline_remaining_weight_profiles": 2196,
+      "priced_nine_cuts": 11
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "profiles": 58921,
+      "quota_cuts": 50617,
+      "quota_survivors": 8304,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 430,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 115,
+        "INHERITED_EXACT_SPECTRUM": 3160,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 385,
+        "TWO_HEAVY_DELETED_DIRECTION": 87
+      },
+      "remaining_weight_profiles": 4110,
+      "baseline_remaining_weight_profiles": 4127,
+      "priced_nine_cuts": 17
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "profiles": 59699,
+      "quota_cuts": 56294,
+      "quota_survivors": 3405,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 253,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 61,
+        "INHERITED_EXACT_SPECTRUM": 1509,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 291,
+        "TWO_HEAVY_DELETED_DIRECTION": 50
+      },
+      "remaining_weight_profiles": 1234,
+      "baseline_remaining_weight_profiles": 1241,
+      "priced_nine_cuts": 7
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "profiles": 58145,
+      "quota_cuts": 56663,
+      "quota_survivors": 1482,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 145,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 58,
+        "INHERITED_EXACT_SPECTRUM": 645,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 204,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 376,
+      "baseline_remaining_weight_profiles": 403,
+      "priced_nine_cuts": 27
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "profiles": 30701,
+      "quota_cuts": 26930,
+      "quota_survivors": 3771,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 794,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 313,
+        "INHERITED_EXACT_SPECTRUM": 1154,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 148,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 5,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 55,
+        "TOTAL_PAIR_ENERGY": 21,
+        "TWO_HEAVY_DELETED_DIRECTION": 16
+      },
+      "remaining_weight_profiles": 1260,
+      "baseline_remaining_weight_profiles": 1265,
+      "priced_nine_cuts": 5
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "profiles": 40067,
+      "quota_cuts": 38138,
+      "quota_survivors": 1929,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 571,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 194,
+        "INHERITED_EXACT_SPECTRUM": 540,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 3,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 47,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 2,
+        "TWO_HEAVY_DELETED_DIRECTION": 56
+      },
+      "remaining_weight_profiles": 512,
+      "baseline_remaining_weight_profiles": 516,
+      "priced_nine_cuts": 4
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "profiles": 47180,
+      "quota_cuts": 44734,
+      "quota_survivors": 2446,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 387,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 252,
+        "INHERITED_EXACT_SPECTRUM": 980,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 44,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 770,
+      "baseline_remaining_weight_profiles": 782,
+      "priced_nine_cuts": 12
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "profiles": 51500,
+      "quota_cuts": 50213,
+      "quota_survivors": 1287,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 248,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 58,
+        "INHERITED_EXACT_SPECTRUM": 467,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 119,
+        "TWO_HEAVY_DELETED_DIRECTION": 14
+      },
+      "remaining_weight_profiles": 374,
+      "baseline_remaining_weight_profiles": 381,
+      "priced_nine_cuts": 7
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "profiles": 53015,
+      "quota_cuts": 50414,
+      "quota_survivors": 2601,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 132,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 81,
+        "INHERITED_EXACT_SPECTRUM": 1078,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 298,
+        "TWO_HEAVY_DELETED_DIRECTION": 83
+      },
+      "remaining_weight_profiles": 907,
+      "baseline_remaining_weight_profiles": 929,
+      "priced_nine_cuts": 22
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "profiles": 52231,
+      "quota_cuts": 51330,
+      "quota_survivors": 901,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 78,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "INHERITED_EXACT_SPECTRUM": 325,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 184,
+        "TWO_HEAVY_DELETED_DIRECTION": 60
+      },
+      "remaining_weight_profiles": 209,
+      "baseline_remaining_weight_profiles": 221,
+      "priced_nine_cuts": 12
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "profiles": 49690,
+      "quota_cuts": 49276,
+      "quota_survivors": 414,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 46,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 29,
+        "INHERITED_EXACT_SPECTRUM": 152,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 95,
+        "TWO_HEAVY_DELETED_DIRECTION": 36
+      },
+      "remaining_weight_profiles": 44,
+      "baseline_remaining_weight_profiles": 56,
+      "priced_nine_cuts": 12
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "profiles": 30555,
+      "quota_cuts": 29691,
+      "quota_survivors": 864,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 300,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 128,
+        "INHERITED_EXACT_SPECTRUM": 187,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 47,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 33,
+        "TOTAL_PAIR_ENERGY": 1,
+        "TWO_HEAVY_DELETED_DIRECTION": 12
+      },
+      "remaining_weight_profiles": 151,
+      "baseline_remaining_weight_profiles": 156,
+      "priced_nine_cuts": 5
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "profiles": 37837,
+      "quota_cuts": 37382,
+      "quota_survivors": 455,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 184,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 45,
+        "INHERITED_EXACT_SPECTRUM": 132,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 18,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 46,
+      "baseline_remaining_weight_profiles": 49,
+      "priced_nine_cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "profiles": 42717,
+      "quota_cuts": 42194,
+      "quota_survivors": 523,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 120,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 86,
+        "INHERITED_EXACT_SPECTRUM": 210,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 14,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 86,
+      "baseline_remaining_weight_profiles": 92,
+      "priced_nine_cuts": 6
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "profiles": 45072,
+      "quota_cuts": 44794,
+      "quota_survivors": 278,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 68,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 15,
+        "INHERITED_EXACT_SPECTRUM": 123,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 22,
+        "TWO_HEAVY_DELETED_DIRECTION": 2
+      },
+      "remaining_weight_profiles": 42,
+      "baseline_remaining_weight_profiles": 48,
+      "priced_nine_cuts": 6
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "profiles": 45102,
+      "quota_cuts": 44487,
+      "quota_survivors": 615,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 39,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "INHERITED_EXACT_SPECTRUM": 286,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 111,
+        "TWO_HEAVY_DELETED_DIRECTION": 46
+      },
+      "remaining_weight_profiles": 95,
+      "baseline_remaining_weight_profiles": 100,
+      "priced_nine_cuts": 5
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "profiles": 43398,
+      "quota_cuts": 43185,
+      "quota_survivors": 213,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 21,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 10,
+        "INHERITED_EXACT_SPECTRUM": 106,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 39,
+        "TWO_HEAVY_DELETED_DIRECTION": 20
+      },
+      "remaining_weight_profiles": 14,
+      "baseline_remaining_weight_profiles": 17,
+      "priced_nine_cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "profiles": 40448,
+      "quota_cuts": 40372,
+      "quota_survivors": 76,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 9,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 7,
+        "INHERITED_EXACT_SPECTRUM": 43,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TWO_HEAVY_DELETED_DIRECTION": 7
+      },
+      "remaining_weight_profiles": 0,
+      "baseline_remaining_weight_profiles": 1,
+      "priced_nine_cuts": 1
+    }
+  ],
+  "empty_cells": [
+    {
+      "support": 17,
+      "maximum": 18
+    }
+  ],
+  "remaining_nonempty_cells": 55,
+  "necessary_support_bounds_by_maximum": {
+    "12": 17,
+    "13": 17,
+    "14": 17,
+    "15": 17,
+    "16": 17,
+    "17": 17,
+    "18": 16
+  },
+  "maximum18_support16_theorem_scope": "Uses complete inventory for support17 and the previously complete exclusions for support>=18; no entire maximum18 stratum is closed.",
+  "baseline_receipt": "MIDDLE_COMPLETE_INVENTORY.json",
+  "priced_stage_receipt": "PRICED_NINE_INDEPENDENT_REPLAY.json",
+  "stable_files": {
+    "after_cube_weight_survivors.txt": "1cb90fa5f6e477ba452266cd00f2d823eb43c82a6aa81a03c1720bc1d9b6c768",
+    "PRICED_NINE_HEAVY_CUTS.jsonl": "3c787b6567639257161912670dca7a56a7560d0f335623396ba7afd12db89640",
+    "after_priced_nine_survivors.txt": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5"
+  },
+  "scope_limit": "Remaining entries are weight-profile relaxation survivors, not constructions or enumerated residue/shape assignments."
+}

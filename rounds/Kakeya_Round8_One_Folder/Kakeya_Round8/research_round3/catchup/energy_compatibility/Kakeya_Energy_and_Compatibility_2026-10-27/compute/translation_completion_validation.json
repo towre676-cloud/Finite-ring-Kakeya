@@ -1,0 +1,46 @@
+{
+  "exhaustive_n2_shape_families_both_rings": 4802,
+  "n2_affine_gauge_offset_assignments_checked": 12578,
+  "n2_status_counts": {
+    "dual": {
+      "SAT": 135,
+      "UNSAT": 2266
+    },
+    "z4": {
+      "SAT": 136,
+      "UNSAT": 2265
+    }
+  },
+  "n2_all_three_point_fibres": {
+    "dual": {
+      "assignments": 256,
+      "kakeya_assignments": 0,
+      "kakeya_by_total_hole_xor": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_witness_holes": null
+    },
+    "z4": {
+      "assignments": 256,
+      "kakeya_assignments": 64,
+      "kakeya_by_total_hole_xor": [
+        0,
+        0,
+        0,
+        64
+      ],
+      "first_witness_holes": [
+        0,
+        0,
+        0,
+        3
+      ]
+    }
+  },
+  "random_n3_pinned_offset_fixtures_both_rings": 500,
+  "seconds": 0.8876360649992421,
+  "scope": "Encoder validation and exact n2 obstruction; no n5 exclusion asserted."
+}

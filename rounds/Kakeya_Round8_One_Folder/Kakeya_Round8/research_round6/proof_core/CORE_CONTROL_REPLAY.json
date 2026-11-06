@@ -1,0 +1,78 @@
+{
+  "status": "PASS_ALL_CORE_CONTROLS",
+  "controls": [
+    {
+      "control": "genuine_rat_core",
+      "expected": "ACCEPT",
+      "status": "PASS",
+      "trim": {
+        "status": "UNTRUSTED_CORE_WRITTEN",
+        "input_bytes": 94,
+        "core_bytes": 88,
+        "original_cnf_clauses": 8,
+        "input_additions": 3,
+        "kept_additions": 3,
+        "input_deletions": 3,
+        "kept_deletions": 2,
+        "retained_deletion_targets": 5,
+        "retained_hint_references": 18,
+        "retained_negative_hints": 3,
+        "final_empty_clause_id": 12,
+        "checker_required": true
+      },
+      "cake_lpr": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 0.001392,
+        "stdout_file": "genuine_rat_core.stdout.txt",
+        "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+        "stderr_file": "genuine_rat_core.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "control": "satisfiable_formula_bogus_empty_clause",
+      "expected": "REJECT",
+      "status": "PASS",
+      "cake_lpr": {
+        "accepted": false,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": false,
+        "seconds": 0.001691,
+        "stdout_file": "bogus_core.stdout.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_file": "bogus_core.stderr.txt",
+        "stderr_sha256": "01a9ba84f2403021993b7b7dde2cebf06fdfd79dd39b40549da2d6d34ccbec55"
+      }
+    },
+    {
+      "control": "CNF_direct",
+      "expected": "REJECT_WITH_INPUTS_UNCHANGED",
+      "status": "PASS",
+      "stderr": "output must differ from both original inputs\n"
+    },
+    {
+      "control": "proof_direct",
+      "expected": "REJECT_WITH_INPUTS_UNCHANGED",
+      "status": "PASS",
+      "stderr": "output must differ from both original inputs\n"
+    },
+    {
+      "control": "CNF_hardlink",
+      "expected": "REJECT_WITH_INPUTS_UNCHANGED",
+      "status": "PASS",
+      "stderr": "output must differ from both original inputs\n"
+    },
+    {
+      "control": "proof_hardlink",
+      "expected": "REJECT_WITH_INPUTS_UNCHANGED",
+      "status": "PASS",
+      "stderr": "output must differ from both original inputs\n"
+    }
+  ],
+  "trimmer_correctness_formally_proved": false,
+  "acceptance_authority": "Pinned CakeML checker, not the trimmer"
+}

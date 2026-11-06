@@ -1,0 +1,687 @@
+{
+  "status": "PASS_SAMPLED_CERTIFICATES_ONLY",
+  "quick": true,
+  "cases": [
+    {
+      "case_id": "inherited_s13_T37848950_m2_18_baseline",
+      "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+      "nonzero_support_mask": 37848950,
+      "maximum_interval": [
+        2,
+        18
+      ],
+      "inherited": true,
+      "audit": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 1.869444,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+      "proof_sha256": "8995ebc18cd2f1eb2c0dae51e13c4ac7cba3347941c383fc92e9ee4f0574436a",
+      "seconds": 3.310484
+    },
+    {
+      "case_id": "s13_T142702998_m2_18_baseline_t30",
+      "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+      "nonzero_support_mask": 142702998,
+      "maximum_interval": [
+        2,
+        18
+      ],
+      "inherited": false,
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 45156,
+          "clauses": 404969
+        },
+        "input_sha256": {
+          "cnf": "ffb17a6b6a5eff47017f12c913eae8acea6702ea6f6bfa3f9739bb6cfe88ba94",
+          "drat": "828522bb593dd537779996cbad63b9c6e14a6f8868b804770859167c62af6796"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 21.537624,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "e0eee7ea0c068fc5a077256784114223846feaf4a2f34e0475fa2f8197ffff12",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "a77bd1a7495feecd25e6e0a4bfc62bad4cef1fd4af047aa94a0f83ce43a43a09",
+        "lrat_bytes": 309477345,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 12.206388,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "cnf_sha256": "ffb17a6b6a5eff47017f12c913eae8acea6702ea6f6bfa3f9739bb6cfe88ba94",
+      "proof_sha256": "828522bb593dd537779996cbad63b9c6e14a6f8868b804770859167c62af6796",
+      "seconds": 36.612462
+    },
+    {
+      "case_id": "s13_T37848950_m2_18_dense_dense_smoke",
+      "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+      "nonzero_support_mask": 37848950,
+      "maximum_interval": [
+        2,
+        18
+      ],
+      "inherited": false,
+      "variant_mode": "dense",
+      "regenerated_variant_metadata": {
+        "base_variables": 45124,
+        "base_clauses": 400297,
+        "dense": {
+          "variables": 8931,
+          "clauses": 78468
+        }
+      },
+      "audit": {
+        "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+        "cnf_header": {
+          "variables": 54055,
+          "clauses": 478765
+        },
+        "input_sha256": {
+          "cnf": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+          "drat": "c83f83ab151c4613f1b99754dbea3a6f1a74cee3e43af92a393576594ad95cb7"
+        },
+        "drat_trim": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 3.4755,
+          "stdout_file": "drat_trim.stdout.txt",
+          "stdout_sha256": "47efc0a27146b63585c3989698cc032a5e763587037e8e59ef2da51754f91b87",
+          "stderr_file": "drat_trim.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "lrat_sha256": "aabe4e971d8cd6f96e06e68b81e2779926611155c8d081a9d282f7b58ecb903e",
+        "lrat_bytes": 20516418,
+        "lrat_check_c": {
+          "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+        },
+        "cake_lpr": {
+          "accepted": true,
+          "returncode": 0,
+          "timed_out": false,
+          "success_marker_present": true,
+          "seconds": 1.41894,
+          "stdout_file": "cake_lpr.stdout.txt",
+          "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+          "stderr_file": "cake_lpr.stderr.txt",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "cnf_sha256": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+      "proof_sha256": "c83f83ab151c4613f1b99754dbea3a6f1a74cee3e43af92a393576594ad95cb7",
+      "seconds": 7.394167
+    }
+  ],
+  "full_inventory_replayed": false,
+  "manifest_sha256": "0276eae7e76a14a8050f30aea980b4c4f75073164b789fa8753628de17cf3aee",
+  "requested_case_ids": [
+    "inherited_s13_T37848950_m2_18_baseline",
+    "s13_T142702998_m2_18_baseline_t30",
+    "s13_T37848950_m2_18_dense_dense_smoke"
+  ],
+  "semantic_input_hashes_checked": {
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259"
+  },
+  "checker_pins": {
+    "drat-trim": {
+      "project": "DRAT-trim",
+      "repository": "https://github.com/marijnheule/drat-trim",
+      "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "commit_date": "2024-11-25T10:20:26-05:00",
+      "source_files_sha256": {
+        "drat-trim.c": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+        "lrat-check.c": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95",
+        "LICENSE": "71ab2a9dc5a294ad8fba4ccb8c45aaa8a439596d314a2a046ac9b62266872a18"
+      },
+      "license": "MIT; complete license included",
+      "formal_status": "The vendored C DRAT and LRAT checkers are ordinary compiled programs. This package does not claim their C implementations are proof-assistant verified.",
+      "ordinary_C_LRAT_checker_role": "DIAGNOSTIC_ONLY; never an UNSAT acceptance authority in this package",
+      "observed_C_LRAT_false_acceptance": {
+        "input_CNF": "p cnf 1 1\n1 0\n",
+        "input_LRAT": "2 0 0\n",
+        "satisfying_assignment": {
+          "1": true
+        },
+        "observed_exit_code": 0,
+        "observed_stdout_marker": "c VERIFIED",
+        "tested_invocation": "lrat-check FILE.cnf FILE.lrat",
+        "correct_CakeML_result": "Rejects: pivot must be non-zero",
+        "reproducer": "verify_pipeline.py and control_audit/C_checker_false_positive/",
+        "scope": "Observed behavior of the exact pinned C utility; not a claim that the LRAT calculus or formally verified LRAT checkers are unsound."
+      }
+    },
+    "cake_lpr": {
+      "project": "cake_lpr",
+      "repository": "https://github.com/tanyongkiam/cake_lpr",
+      "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa",
+      "commit_date": "2026-07-22T23:43:47+01:00",
+      "HOL4_commit": "0ae7030322cdf2b0d46dc9d5503e2d5eae2fa726",
+      "CakeML_commit": "fb377b4bb704497c921cde68ccc8da3b4f0e9132",
+      "source_files_sha256": {
+        "cake_lpr.S": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+        "basis_ffi.c": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+        "Makefile": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+        "LICENSE": "eb1e4ff71900d55d384ff18afad5aae48417ce0fff25231565862c42b45e5dbc",
+        "cake_lpr.sha256": "449be5fbee561f30dbc94bd8bc5588011af9a80a17d3e1fc284a81952c2744ec"
+      },
+      "upstream_checksum_comparison": {
+        "cake_lpr.S": {
+          "declared": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "actual": "2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a",
+          "match": true
+        },
+        "basis_ffi.c": {
+          "declared": "3fbd8f31c380e7fb40fede74496ff8b7fb63043645b1afff1e5f26aacdccfa69",
+          "actual": "8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb",
+          "match": false
+        },
+        "Makefile": {
+          "declared": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "actual": "57f5c407a9274560d8cfe31d60ee8095ac4a8046bbe960b9d706d37006d3ba10",
+          "match": true
+        }
+      },
+      "upstream_assembly_sha256_verified": true,
+      "upstream_wrapper_checksum_note": "The upstream checksum file predates the July2026 wrapper change from environment settings to CLI flags. The assembly and Makefile hashes match; the current wrapper is pinned by the exact Git commit and its actual hash recorded here. This mismatch is not silently treated as a successful checksum check.",
+      "assembly_architecture": "x86_64",
+      "formal_status": "Upstream verified checker artifact produced by the HOL4/CakeML development. This session checks its published assembly hash, assembles/links the supplied artifact and runs it; it does not rebuild HOL4 or rerun the upstream proof development. The C wrapper, compiler/linker/runtime environment, encoding and orbit completeness remain distinct trust obligations.",
+      "primary_sources": [
+        "https://cakeml.org/checkers.html",
+        "https://cakeml.org/tacas21.pdf",
+        "https://github.com/tanyongkiam/cake_lpr"
+      ]
+    }
+  },
+  "claimed_inventory_coverage": {
+    "complete_marked_cases": 7,
+    "complete_masks": [
+      1777046,
+      37848950,
+      51979670,
+      142702998,
+      153692502,
+      291594526,
+      293706134
+    ],
+    "partial_marked_cases": 3,
+    "partial_maxima_by_mask": {
+      "75737494": [
+        17,
+        18
+      ],
+      "110453014": [
+        17,
+        18
+      ],
+      "1022358": [
+        17,
+        18
+      ]
+    },
+    "remaining_without_complete_joint_coverage": 48,
+    "support13_closed_for_maximum2_through18": false,
+    "certified_marked_cases_by_exact_maximum": {
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 7,
+      "14": 7,
+      "15": 7,
+      "16": 7,
+      "17": 10,
+      "18": 10
+    },
+    "closed_support13_exact_maximum_cells": [],
+    "band_coverage": {
+      "17_18": {
+        "complete_marked_cases": 10,
+        "remaining_masks": [
+          10069398,
+          109144470,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      },
+      "15_16": {
+        "complete_marked_cases": 7,
+        "remaining_masks": [
+          1022358,
+          10069398,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      },
+      "2_14": {
+        "complete_marked_cases": 7,
+        "remaining_masks": [
+          1022358,
+          10069398,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          157376918,
+          291627286,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      }
+    }
+  },
+  "encoder_soundness_formalized": false,
+  "checker_build": {
+    "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "checkers": {
+      "drat-trim": {
+        "binary_sha256": "1997db9ae901ce6c92b80b0567d767ebf0d475ae8fbeed0c0daad57a3c70274b",
+        "compile_returncode": 0,
+        "compile_log_sha256": "22a707fba5e991ed1151baa2eb1d9ca1f480fc7c9e604b0661937f36a7ecadb8",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+        ]
+      },
+      "lrat-check": {
+        "binary_sha256": "9629490cbf998667ac5171d820f67c6691b837a7d2534468ecf291d84150f95d",
+        "compile_returncode": 0,
+        "compile_log_sha256": "9c23be9c12fd3454586c658a2ba9bfc584e64608f0605a75d69df0f27fbfb800",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "-DLONGTYPE",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+        ]
+      },
+      "cake_lpr": {
+        "binary_sha256": "19e237597b7b8d554dc5f224d0f893aa06a0d9d2844129db0b05ee5afb6b12ef",
+        "compile_returncode": 0,
+        "compile_log_sha256": "cec7334c2e8560eaa10f1b91ad3e7f63b0d13b3bf9030d4520f454a2615c7102",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+        ]
+      }
+    }
+  },
+  "checked_certificate_count": 3,
+  "checked_coverage": {
+    "complete_marked_cases": 2,
+    "complete_masks": [
+      37848950,
+      142702998
+    ],
+    "partial_marked_cases": 0,
+    "partial_maxima_by_mask": {},
+    "remaining_without_complete_joint_coverage": 53,
+    "support13_closed_for_maximum2_through18": false,
+    "certified_marked_cases_by_exact_maximum": {
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "18": 2
+    },
+    "closed_support13_exact_maximum_cells": [],
+    "band_coverage": {
+      "17_18": {
+        "complete_marked_cases": 2,
+        "remaining_masks": [
+          1022358,
+          1777046,
+          10069398,
+          51979670,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          153692502,
+          157376918,
+          291594526,
+          291627286,
+          293706134,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      },
+      "15_16": {
+        "complete_marked_cases": 2,
+        "remaining_masks": [
+          1022358,
+          1777046,
+          10069398,
+          51979670,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          153692502,
+          157376918,
+          291594526,
+          291627286,
+          293706134,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      },
+      "2_14": {
+        "complete_marked_cases": 2,
+        "remaining_masks": [
+          1022358,
+          1777046,
+          10069398,
+          51979670,
+          75737494,
+          109144470,
+          110453014,
+          153184662,
+          153692502,
+          157376918,
+          291594526,
+          291627286,
+          293706134,
+          308384030,
+          360808918,
+          375492886,
+          376013078,
+          377850134,
+          404586838,
+          411113886,
+          411114390,
+          411128726,
+          411130262,
+          411134358,
+          411136406,
+          411146646,
+          411666838,
+          412193054,
+          421872406,
+          557926774,
+          671697334,
+          673786198,
+          675359134,
+          675891606,
+          677972310,
+          688458102,
+          814057878,
+          1093216598,
+          1094795646,
+          1101613334,
+          1108936598,
+          1116316054,
+          1210149206,
+          1210657110,
+          1611227990,
+          1762206038,
+          2165905814,
+          2185856310,
+          2187920694,
+          2187956502,
+          2254541078,
+          2308014366,
+          2953386390
+        ],
+        "closed": false
+      }
+    }
+  },
+  "seconds": 52.297421
+}

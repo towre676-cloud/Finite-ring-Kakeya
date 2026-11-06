@@ -1,0 +1,123 @@
+Four-pair edges: a sharp capacity14 obstruction
+=============================================
+
+Status: analytic lemma and finite verification. Implementation controls
+and proof-producing trial outcomes are tracked separately. This lemma
+alone is not counted as a SAT exclusion or a search-speed result.
+
+1. Two nonplanar four-sets cannot tile the four-space
+--------------------------------------------------
+
+Let P,Q be four-element subsets of F2^4. If neither is an affine plane,
+then
+
+    |P+Q| <= 14.
+
+Translate a nonplanar four-set to {0,e1,e2,e3}, with the three ei linearly
+independent. Its nonzero difference set is H minus {0,u}, where H is the
+three-dimensional direction space and u=e1+e2+e3. Two three-spaces in
+F2^4 meet in dimension at least two, hence in at least three nonzero
+vectors. Removing the two possible missing vectors leaves a common
+nonzero difference delta.
+
+Choose P-pair {p,p+delta} and Q-pair {q,q+delta}. In the sixteen ordered
+sum representations, (p,q) and (p+delta,q+delta) give the same sum;
+(p,q+delta) and (p+delta,q) give another common sum. These four ordered
+pairs are distinct, and the two resulting sums differ by nonzero delta.
+Thus at least two of the sixteen possible distinct values are lost.
+
+The bound is sharp. P={0,1,2,4} and Q={0,7,8,14}, in binary coordinates,
+give fourteen sums. Consequently a four-pair by four-pair edge can have
+capacity16 only if at least one endpoint's quotient pair-set is an
+affine plane. Two tetrahedral pair-sets have capacity at most14.
+
+2. The period-free eleven-point type always supplies tetrahedra
+-------------------------------------------------------------
+
+Let A be an eleven-point subset of an affine four-flat F=t+H in F2^5,
+and suppose its energy Q(A)=sum_{d!=0} p_A(d)^2 is205. Write B=F minus A.
+For nonzero d in H the complement identity gives
+
+    p_A(d)=3+p_B(d).
+
+Since |B|=5, its pair energy is10+6 Z4(B), and sum p_B(d)=10. Therefore
+
+    Q(A)=15*9+6*10+10+6 Z4(B)=205+6 Z4(B).
+
+So B contains no affine plane. Five points in an affine three-space
+necessarily have a nonzero even affine relation of weight4. Hence B has
+affine rank4 and is an affine-independent five-set.
+
+If p_A(d)=4, then p_B(d)=1. Projection to H/<d> identifies exactly one
+pair of B and leaves four distinct, affinely independent projected
+points. A four-point affine relation after projection would lift either
+to a four-point relation in B or, after toggling the identified pair, to
+another four-point relation in B; both are impossible.
+
+The quotient pair-set P_A(d) consists exactly of the d-cosets containing
+no B-point. It is the complement of those four projected B-points in the
+eight-point quotient three-space. The complement of an affine plane
+there is its parallel affine plane. Therefore the complement of a
+nonplanar four-set is also nonplanar. Thus every p_A(d)=4 direction of
+this eleven-point type supplies a tetrahedral quotient pair-set.
+
+This argument concerns affine rank4 explicitly. The existing census
+records the weight11/energy205 type with affine rank4; an implementation
+must retain that rank hypothesis if using another spectrum catalogue.
+
+3. An eight-point noncube with four pairs supplies a tetrahedron
+--------------------------------------------------------------
+
+If |A|=8 and p_A(d)=4, A is invariant under translation by d. Its image
+P_A(d) has four points. The affine rank of A is one plus the affine rank
+of P_A(d). Thus an eight-point noncube with four d-pairs has affine rank4
+and a nonplanar four-point quotient. Its full pair spectrum is
+
+    one direction with4 pairs, twelve directions with2 pairs,
+    eighteen directions with0 pairs,
+
+so its energy is64. A cube instead has seven maximal directions and
+planar quotient pair-sets. The64-energy type is exactly the relevant
+eight-point type for this cut.
+
+4. A refined twelve-point type
+-----------------------------
+
+For A of weight12 and energy294 in an affine four-flat, B=F minus A is
+a nonplanar four-set. Let J be its three-dimensional direction space,
+and let u be the unique missing nonzero direction in B+B. In each of the
+eight directions d in H minus J, p_A(d)=4 and the quotient pair-set is
+nonplanar. At the exceptional direction d=u, p_A(d)=4 but the quotient
+pair-set is an affine plane. The other six nonzero J-directions have
+five pairs. The existing exact dense-type model already identifies J,u,
+so this distinction can be used without enumerating full fibre shapes.
+
+5. Safe clause schemas
+----------------------
+
+For an actual residue edge {a,b} of direction d, if both endpoint quotient
+pair-sets are four-point tetrahedra, replace the generic cap16 by cap14.
+Carries only translate this edge's quotient sumset, so the cardinality
+bound is common to Z/4Z and the dual-number ring.
+
+In particular, select either the weight8/energy64 noncube type or the
+weight11/energy205 rank4 type at each endpoint. If both directional pair
+counts equal4, their edge capacity is at most14. On a direction having
+only one residue edge, that combination is impossible, because the
+single edge must supply all16 lifted directions. This produces the
+conditional clause
+
+    not(Type_a and Type_b and p_a(d)=4 and p_b(d)=4).
+
+With one Boolean for each endpoint's disjunction of the two types, only
+one four-literal clause per unique residue edge is needed. For a general
+edge whose unary capacity bits are available, add the corresponding
+conditional bound capacity<=14. The exceptional twelve-point flag can
+be included only with its correct d-outside-J condition; its planar
+exception d=u must remain allowed.
+
+These clauses are new geometric information for the spectrum relaxation,
+not mere logical preprocessing of its old CNF. They require the one-way
+mathematical lemma above, unlike the separate proof-prefixed RUP units.
+Any eventual UNSAT certificate must be checked against its exact new CNF.
+

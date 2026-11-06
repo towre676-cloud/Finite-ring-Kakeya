@@ -1,0 +1,224 @@
+{
+  "title": "Kakeya research continuation, round3",
+  "date": "2026-10-28",
+  "status": "ROOT_VERIFIED_PARTIAL_THEOREMS_AND_EXCLUSIONS",
+  "rings": [
+    "Z/4Z",
+    "F2[epsilon]/(epsilon^2)"
+  ],
+  "general_target": "3*2^n-2",
+  "unrestricted_general_theorem": "OPEN",
+  "dimension5_target": 94,
+  "unrestricted_dimension5_theorem": "OPEN",
+  "verified_small_dimension_minima_inherited": {
+    "1": 4,
+    "2": 10,
+    "3": 22,
+    "4": 46
+  },
+  "support_definition": "Residues with at least two points; singleton fibres cannot participate in primitive four-point lines.",
+  "dimension5_strata": {
+    "maximum_at_most10": "EXCLUDED_INHERITED",
+    "maximum11": {
+      "status": "OPEN",
+      "pair_active_support_upper_bound": 16,
+      "previous_round2_affine_support_classes": 57,
+      "round3_whole_affine_support_class_exclusions": 11,
+      "support17_closed_classes": [
+        367,
+        373,
+        374,
+        376,
+        377
+      ],
+      "support16_closed_classes": [
+        177,
+        187,
+        198,
+        201,
+        202,
+        203
+      ],
+      "remaining_affine_support_classes": 46,
+      "remaining_counts_by_support": {
+        "13": 4,
+        "14": 9,
+        "15": 16,
+        "16": 17
+      },
+      "remaining_orbits": [
+        105,
+        109,
+        110,
+        111,
+        126,
+        130,
+        131,
+        132,
+        133,
+        134,
+        139,
+        141,
+        142,
+        151,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        171,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        204
+      ],
+      "support16_remaining_distinct_weight_profiles": 66,
+      "support16_remaining_support_profile_incidences": 764,
+      "support16_verified_partitions": 20477,
+      "support16_exact_assignment_duals": 17986
+    },
+    "maximum12_through18": {
+      "status": "OPEN",
+      "pair_active_support_upper_bound": 17,
+      "new_exhaustively_excluded_support": 18,
+      "all_support18_weight_partitions": 239246,
+      "inherited_quota_cuts": 238744,
+      "inherited_spectrum_cuts": 217,
+      "round3_new_weight_multiset_exclusions": 285,
+      "round3_resource_cuts": 277,
+      "round3_final_analytic_cuts": 8,
+      "remaining_support18_weight_multisets": 0,
+      "last_three_cube_profile_doubled_bounds": {
+        "C": [
+          972,
+          991
+        ],
+        "D": [
+          954,
+          972
+        ],
+        "E": [
+          962,
+          980
+        ]
+      },
+      "required_doubled_capacity": 992,
+      "remaining_scope": "Supports17 and below remain open; earlier selected lower-support cuts remain in force."
+    },
+    "maximum19": {
+      "status": "OPEN",
+      "remaining_pair_active_support_sizes": [
+        11,
+        12
+      ],
+      "previous_round2_selected_profiles": 30471,
+      "round3_disjoint_whole_profile_exclusions": 26673,
+      "remaining_selected_profiles": 3798,
+      "supports": {
+        "11": {
+          "previous": 21356,
+          "round3_exclusions": 20460,
+          "remaining": 896
+        },
+        "12": {
+          "previous": 9115,
+          "round3_exclusions": 6213,
+          "remaining": 2902
+        }
+      },
+      "stages": [
+        {
+          "method": "common_affine_rank_modes",
+          "new_exclusions": 17604,
+          "remaining": 12867
+        },
+        {
+          "method": "analytic_deleted_direction",
+          "new_exclusions": 1,
+          "remaining": 12866
+        },
+        {
+          "method": "common_own_periodic_modes",
+          "new_exclusions": 231,
+          "remaining": 12635
+        },
+        {
+          "method": "actual_unique_edge_support_roles",
+          "new_exclusions": 8837,
+          "remaining": 3798
+        }
+      ]
+    },
+    "maximum_at_least20": "EXCLUDED_INHERITED"
+  },
+  "new_analytic_theorems": [
+    "Shared own periods: actual offhub sumset capacity<=pq/2.",
+    "Own-positive affine rank<=k gives edge capacity<=2^(2k-3), and outside-support subgroup sum<=2^(2k-4)*floor(r^2/2).",
+    "Cube-direction/residual-energy inequality: C_total<=E_R/2+7r*lambda+(16-2lambda)*floor(r^2/4)+sum H_A, 4<=lambda<=8.",
+    "Missing differences of more than2^(n-2) binary residues are sum-free; restricted light-fibre pair mass<=floor(w^2/4).",
+    "Nine-point difference28 equality normal form and independent three missing directions.",
+    "Forced-period weight8 fibre: either an affine cube with active energy divisible by16, or full pair-square energy64.",
+    "Full hub and all outer fibres<=12, n>=6: |K|>=3*2^n-2, equality exactly generalized stars.",
+    "Actual unique-edge and sole-hub roles impose four exact Hall assignment inequalities under the outer-weight cap14."
+  ],
+  "dimension_free_small_fibre_energy_maxima": {
+    "2": 1,
+    "3": 3,
+    "4": 12,
+    "5": 16,
+    "6": 33,
+    "7": 63,
+    "8": 112,
+    "9": 120,
+    "10": 153,
+    "11": 211,
+    "12": 300
+  },
+  "catchup": {
+    "scope": "Retrieved relevant prior sessions and saved research records; no claim of access to every unseen conversation.",
+    "latest_authoritative_start": "Round2 frontier and proof archive.",
+    "additional_compatibility_package": "Kakeya_Energy_and_Compatibility_2026-10-27.zip",
+    "additional_package_replay": "PASS,57 payload files and5 finite-check stages.",
+    "retained_corrections": [
+      "The two-image theorem is conditional; arbitrary line representations need not have two minimal images.",
+      "Shared fibre translations and Z4 carries matter for exact coverage and cannot be replaced by independent edge translations.",
+      "Infeasibility of a necessary-condition relaxation is an exclusion; feasibility is not a construction.",
+      "The caught-up older compatibility package contains a stale frontier; the newer round2 then round3 ledgers govern counts."
+    ]
+  },
+  "prior_checkpoint": {
+    "library_file_id": "libfile_4b5e1c0ac7a48191a425b4db678bb7fb",
+    "archive": "Kakeya_Research_Round2_Proofs.zip",
+    "sha256": "6ddf3c88c04aa8880dc034146578a720a5d71e433409595a3b29e7f008b70948"
+  },
+  "counting_caution": "M11 affine support classes, middle weight multisets, and M19 selected weight/own-direction profiles are different objects and are not summed.",
+  "verification_scope": "Exact integer and finite enumeration replays plus independent analytic review; not proof-assistant formalization or external peer review.",
+  "next_mathematical_frontier": [
+    "M11: actual common cube/period shapes and exact coverage on the46 remaining support classes, particularly the66 support16 weight profiles.",
+    "Middle: apply coupled cube-energy and shared-direction budgets to support17 and lower.",
+    "M19: assign the3798 surviving profiles to actual marked supports and enforce all edge directions with one common shape per fibre.",
+    "After fixing shapes, couple all translations and ring carries; certify union coverage or unavoidable overlap direction by direction."
+  ]
+}

@@ -1,0 +1,115 @@
+KAKEYA ROUND 9: RECOVERY RECORD, NOT A CERTIFICATE RELEASE
+Date: November 4, 2026
+
+Scope
+Dimension five over Z/4Z and F2[epsilon]/(epsilon^2), total size at most 93,
+pair-active support 13, exact maximum fibre 12 or 13.
+
+IMPORTANT STATUS
+Automated workspace maintenance removed the unsaved working directory,
+including the new CNFs, DRAT proofs, receipts, scripts and staged package.
+No Round 9 backup was found in the saved-file search. The final portable
+replay was still running at the last observed update. Its completed status
+was not observed, and no completed receipt survives.
+
+This record preserves observations from tool output in the conversation.
+It contains NO refutation certificates and cannot substitute for them.
+The new exclusions must be regenerated and saved before they are treated
+as a durable, independently replayable mathematical contribution.
+
+Observed production results
+All 54 prepared exact-maximum/support cases received an outcome. The final
+producer output was:
+  COMPLETE 54 ERRORS 0 CERTIFIED 27
+The 27 accepted cases passed the producer's exact-CNF regeneration and
+DRAT-to-LRAT/CakeML acceptance gate. The other 27 were timeouts and received
+no exclusion credit. These observations are distinct from a completed,
+retained independent replay of the packaged deliverable.
+
+Observed accepted marked nonzero-support masks
+Each mask encodes the nonzero residue support after placing a largest
+fibre at residue zero. The full support includes zero. The same necessary
+condition formula applies to both rings; these are not separate ring-specific
+point-set constructions.
+
+Exact maximum 12 (13 marked cases):
+  75737494
+  109144470
+  110453014
+  153184662
+  157376918
+  291627286
+  375492886
+  376013078
+  411130262
+  411134358
+  673786198
+  2187956502
+  2254541078
+
+Exact maximum 13 (14 marked cases):
+  75737494
+  109144470
+  153184662
+  157376918
+  291627286
+  375492886
+  376013078
+  411130262
+  411134358
+  673786198
+  675891606
+  1116316054
+  2187956502
+  2254541078
+
+Provisional composed coverage
+The previous Round 8 ledger has 28 joint-maxima marked cases at each maximum.
+Adding the observed results would give 41/55 at maximum 12 and 42/55 at
+maximum 13, leaving 14 and 13 prepared marked roles respectively.
+
+The resulting proposed whole affine support-class closures are:
+  Maximum 12: 97, 98, 103, 104, 105, 107, 108.
+  Maximum 13: 97, 98, 103, 104, 105, 106, 107, 108.
+These deductions also require the inherited certificates for other marked
+roles and the explicit largest-fibre transport maps. They are recorded as
+recovery targets, not promoted into a new canonical verified frontier here.
+
+No whole weight profiles were subtracted. The saved Round 8 ledger's 182526
+middle-maximum profiles and 42 maximum-11 affine classes remain the durable
+baseline. The unrestricted lower bound 94 and the all-dimensional law remain
+OPEN.
+
+Integrity incident
+One first-pilot working formula, mask 10069398 at exact maximum 12, was found
+truncated to a prefix. Its integrity mismatch was rejected and no exclusion
+was credited. The case was regenerated and rerun, ending UNKNOWN. The cause
+was undetermined. This is separate from the later workspace-wide removal.
+
+Reconstruction route
+1. Obtain the saved Kakeya_Round8_One_Folder.zip.
+2. Use research_round8/incidence/encode_next_frontier.py unchanged, with
+   default enabled, tetrahedral and propagation options, total budget 93,
+   and the exact maximum indicated above.
+3. Match every case to research_round8/NEXT_ATTACK_QUEUE.json.
+4. Regenerate the 27 listed cases first. The original campaign used CaDiCaL
+   1.9.5 through python-sat and the existing RUP-unit search preprocessor.
+   Search success and runtime are not guaranteed on another installation.
+5. Retain each exact original CNF and complete proof. Check the complete
+   preprocessor prefix plus solver proof against that original CNF using
+   pinned DRAT-trim and the mandatory CakeML checker.
+6. Save accepted artifacts immediately, before another long replay.
+7. Verify the 169 largest-fibre transports in
+   research_round7/geometry/SUPPORT13_MARKING_MAP.json and combine only
+   complete marked-role coverage with the inherited Round 8 certificates.
+8. Publish a new frontier only after a complete saved replay receipt exists.
+
+Saved source baseline
+Kakeya_Round8_One_Folder.zip:
+https://chatgpt.com/library?file_id=libfile_3ef78065a308819183f1d70b7006a510&account_id=personal
+
+Trust boundary
+Propositional proof checking does not formalize the entire Kakeya reduction,
+spectrum census or Python encoder. The reviewed one-way soundness arguments
+and inherited reductions remain explicit mathematical dependencies. A SAT
+assignment of the relaxation is not an actual Kakeya counterexample.

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_READ_ONLY_MATHEMATICAL_CODE_AND_RECEIPT_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "source_hashes": {
+    "research_round7/charging/verify_profile_exclusions.py": "a8d21dcde2a2d9e87b9adc80362db3e6a45e055eb5645554e5e69dc71eb00afd",
+    "research_round7/charging/PROFILE_EXCLUSIONS_REPLAY.json": "4109e542ca9b3df3c1f0db239867e09a5171db1c084728aed1130fc18972dd74",
+    "research_round7/charging/SMALL_LIGHT_CAPACITY.md": "5056d6ee95d0b01a3e436e53346a502b59334226dbf2e2cb4c2fbfe3c3eeb2c2",
+    "research_round7/lean/ChargingDual.lean": "fb8c3c23636e5983cce184b3037fb7a1855f009c53faf7d0b543dd26eee66444",
+    "research_round7/lean/CHARGING_LEAN_REPLAY.json": "a7f827d161e658c339d0dda32b0c54ec64ad0bdf145e802be19585170ad006c0",
+    "research_round7/dense_encoder/OPTIONAL_HEAVY_DUAL_DIAGNOSTIC.json": "e521888e1286a53ddff235937400bd909be9bc8e9364f02aea89dff9ef50f762"
+  },
+  "read_only_recomputed_certificates": 3006,
+  "observed_light_ceilings": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "minimum_strict_gap_twice": 1,
+  "findings": [
+    "The elementary q=3 capacity argument is valid: after translating a three-point Q into its two-plane W, any two distinct Q-translates fill a W-coset; each occupied coset contributes at most r+2, and there are four cosets. Product and ambient bounds give min(3p,p+8,16).",
+    "small_capacity supplies every coefficient used by check: the gate 2<=ell<=7 implies q<=3. The returned capacity array is computed from those elementary formulas, independently of the old Mtable entries. The old table is used only for sanity/agreement and remains a file availability/provenance requirement, not a mathematical correctness premise.",
+    "All certificate positions are distinct, in range and tied to an exact one-based line of the pinned 186482-profile file. The routine verifies every unchosen fibre has weight at most ell, recomputes both displayed integers, and requires a strict gap. It neither imports nor calls the discovery optimizer.",
+    "The LL and HL price inequalities are checked directly for every relevant pair count. The price gate u>=floor(ell/2), nonnegative excess definition, exact fibre pair budget, and full spectral maxima give a valid total resource upper bound.",
+    "The use of C(h,2) only, with h<=8, is independent of actual support placement. Any placement may select the certified heavy positions. Full-spectral costs are uniform over directions. This supports exclusion of all placements and fibre shapes of each certified weight profile, in both rings.",
+    "The complete inherited fibre-spectrum census remains necessary: histogram sanity checks alone do not prove that every actual fibre shape is represented. Taking the maximum over its histograms is valid conditional on that completeness.",
+    "The read-only rerun of all 3006 explicit certificates matches the root receipt, output hashes and minimum strict gap. No report, ledger, optimizer source or frozen data file was changed.",
+    "ChargingDual.lean proves two real-valued edge-price lemmas, the abstract two-type injective charging bound, and strict-gap contradiction. Its incidence injections, geometric coverage, per-edge bounds and nonnegative resources are assumptions supplied by the mathematical application. It does not formalize the spectrum census, Python parser, profile inventory, or support geometry."
+  ],
+  "limitations": [
+    "No new independent Lean compilation was performed; this was statement/scope inspection against the pinned Lean receipt.",
+    "The complete census dependency and manual geometric bridge are correctly retained in the public scope."
+  ],
+  "conclusion": "No mathematical, exact-profile-binding, all-placement, or scope blocker found. The new exclusions use elementary small-light sumset bounds and the inherited complete fibre-spectrum census; the larger quotient-sumset census is not a mathematical dependency."
+}

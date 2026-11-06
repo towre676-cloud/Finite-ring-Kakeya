@@ -1,0 +1,107 @@
+<title>The Sharp Kakeya Law over Four-Element Rings</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<script>
+window.MathJax = { tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$']] }, svg: { fontCache: 'global' } };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+<style>
+/* Layout: single reading column, monograph register; numbered sections because the argument is sequential. */
+:root {
+  --paper: #f6efe1; --ink: #2a1d18; --muted: #6e5a4f; --rule: #d9c9ae;
+  --oxblood: #6d1a1f; --panel: #efe4cf; --ok: #2f5d3a; --open: #8a5a12;
+  --display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --body: "EB Garamond", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #1d1513; --ink: #eadfcc; --muted: #b5a291; --rule: #4a3730;
+  --oxblood: #d9868a; --panel: #281d1a; --ok: #8fc49b; --open: #e0b267; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #1d1513; --ink: #eadfcc; --muted: #b5a291; --rule: #4a3730;
+  --oxblood: #d9868a; --panel: #281d1a; --ok: #8fc49b; --open: #e0b267; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 19px; line-height: 1.6; }
+main { max-width: 42rem; margin: 0 auto; padding-block: 3rem 5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; color: var(--ink); }
+h1 { font-size: 2.6rem; line-height: 1.1; margin: 0 0 .4rem; }
+h2 { font-size: 1.65rem; margin: 2.6rem 0 .6rem; border-top: 1px solid var(--rule); padding-top: 1.4rem; }
+h2 .no { color: var(--oxblood); margin-right: .5rem; }
+.sub { font-family: var(--display); font-style: italic; font-size: 1.25rem; color: var(--muted); margin: 0 0 1.6rem; }
+.meta { font-size: .85rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+p { margin: 0 0 1rem; hyphens: auto; }
+.label { font-family: var(--display); font-weight: 600; font-variant: small-caps; letter-spacing: .06em; color: var(--oxblood); }
+.label.cert { color: var(--ok); } .label.open { color: var(--open); }
+.stmt { background: var(--panel); border-left: 2px solid var(--oxblood); padding: .9rem 1.1rem; margin: 1.2rem 0; }
+.stmt.cert { border-left-color: var(--ok); } .stmt.open { border-left-color: var(--open); }
+.stmt p:last-child { margin-bottom: 0; }
+.tbl { overflow-x: auto; margin: 1.2rem 0; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: .95rem; }
+th, td { padding: .4rem .6rem; border-bottom: 1px solid var(--rule); text-align: left; }
+th { font-family: var(--display); font-weight: 600; color: var(--muted); }
+code { font-family: var(--mono); font-size: .82em; }
+mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; }
+a { color: var(--oxblood); }
+a:focus-visible { outline: 2px solid var(--oxblood); outline-offset: 2px; }
+</style>
+
+<main>
+<p class="meta">kakeya_sharp v0.1 · Kakeya gauge program · 1 November 2026</p>
+<h1>The Sharp Kakeya Law over Four-Element Rings</h1>
+<p class="sub">Exact values through dimension 3, a defect-metric relaxation that is tight where the pair-budget relaxation fails, and the complete equality geometry</p>
+
+<p>Every statement below carries one of 4 epistemic labels. <span class="label">Theorem</span> marks a statement proved in this text by hand. <span class="label cert">Certified</span> marks a statement established by exhaustive or solver computation in the accompanying package, with every witness re-verified by independent brute-force line enumeration and every infeasibility claim obtained from 2 independent encodings or solvers where so stated. <span class="label open">Conjecture</span> marks what remains open. <span class="label open">Observed</span> marks solver output that is not a proof.</p>
+
+<h2><span class="no">1</span>Setting</h2>
+<p>Let $R\in\{\mathbb Z/4\mathbb Z,\ \mathbb F_2[\varepsilon]/(\varepsilon^2)\}$, with uniformiser $\pi=2$ or $\pi=\varepsilon$, so $R/\pi R=\mathbb F_2$ and $R^\times=\{1,1+\pi\}$. Write $V=\mathbb F_2^n$ and encode $x\in R^n$ as $x=a+\pi u$ with binary representatives $a,u\in V$; in $\mathbb Z/4\mathbb Z$ addition is $(a_1+2u_1)+(a_2+2u_2)=(a_1\oplus a_2)+2(u_1\oplus u_2\oplus a_1\odot a_2)$, in the dual numbers the carry term is absent. A direction is a primitive vector $b=v+\pi w$ with $v\neq 0$, taken modulo $R^\times$; since $(1+\pi)(v+\pi w)=v+\pi(w+v)$, directions are the pairs $(v,[w])$ with $[w]\in V/\langle v\rangle$, numbering $2^{n-1}(2^n-1)$. A Kakeya set is $K\subseteq R^n$ containing a line $\{x+tb:t\in R\}$ for every direction, and $k(R,n)$ is the least size of one. The target is the law $k(R,n)=3\cdot 2^n-2$.</p>
+
+<h2><span class="no">2</span>The construction</h2>
+<div class="stmt"><p><span class="label">Theorem 2.1.</span> $K_*=\{\pi u:u\in V\}\cup\{v,\ v+\pi v: 0\neq v\in V\}$ is a Kakeya set of size $3\cdot2^n-2$ in both rings.</p></div>
+<p>For $b=v+\pi w$ take $x=\pi w$. The points at $t=0,\pi$ lie in the zero fibre; at $t=1$ the point is $v+2\pi w=v$ in both rings (in $\mathbb Z/4\mathbb Z$, $2w+2w=4w=0$); at $t=1+\pi$ it is $v+\pi v$. <span class="label cert">Certified:</span> membership was rechecked by enumeration of all lines for $n\le 5$ in both rings.</p>
+
+<h2><span class="no">3</span>The fibre covering identity</h2>
+<p>Put $A_a=\{u: a+\pi u\in K\}$, $P_v(A)=\{[u]\in V/\langle v\rangle: u,u+v\in A\}$ and $p_a(v)=|P_v(A_a)|=\tfrac12|A_a\cap(A_a+v)|$. A line of direction $(v,[w])$ through $a+\pi u$ meets exactly the fibres $a$ and $a+v$, in the pairs $\{u,u+v\}$ and $\{u',u'+v\}$ with $u'=u+w+c_R(a,v)$, where $c_R=0$ for the dual numbers and $c_R(a,v)=a\odot v$ for $\mathbb Z/4\mathbb Z$; replacing $a$ by $a+v$ changes $c_R$ by $v\equiv 0$, so the identity is symmetric in the fibre pair.</p>
+<div class="stmt"><p><span class="label">Theorem 3.1.</span> $K$ is Kakeya if and only if for every $v\neq0$ one has $\bigcup_{\{a,a+v\}}\bigl(P_v(A_a)+P_v(A_{a+v})+[c_R(a,v)]\bigr)=V/\langle v\rangle$. Consequently every Kakeya set satisfies the counting inequality $\sum_{\{a,a+v\}}p_a(v)\,p_{a+v}(v)\ge 2^{n-1}$ for each $v\ne0$.</p></div>
+<p><span class="label cert">Certified:</span> the identity and brute-force line enumeration agreed on 12,000 random and perturbed subsets for $n\in\{2,3\}$ in both rings, with 0 disagreements.</p>
+
+<h2><span class="no">4</span>Symmetry reductions</h2>
+<p>Every element of $\mathrm{AGL}_n(\mathbb F_2)$ lifts to an affine automorphism of $R^n$ (lift the matrix entrywise in $\{0,1\}$; its determinant is a unit), which permutes fibres and preserves the Kakeya property. Because $\mathrm{AGL}_n(\mathbb F_2)$ is 3-transitive and the pointwise stabiliser of $0,e_1,\dots,e_{k-1}$ is transitive off $\mathrm{span}(e_1,\dots,e_{k-1})$, one may assume $s_0\ge s_a$ for all $a$, $s_{e_1}\ge s_a$ for $a\neq0$, and $s_{e_k}\ge s_a$ for $a\notin\mathrm{span}(e_1,\dots,e_{k-1})$, where $s_a=|A_a|$. The kernel of reduction acts by $x\mapsto(I+\pi M)x+\pi c$, shifting $A_a$ by $c+Ma$, so one may further take $0\in A_0$ and $0\in A_{e_i}$ when $A_{e_i}\neq\emptyset$. Alternatively, transitivity on directions and points allows one to fix the line $R e_1$ inside $K$. Both reductions are sound and were used in separate encodings.</p>
+
+<h2><span class="no">5</span>Exact values</h2>
+<div class="tbl"><table>
+<thead><tr><th>$n$</th><th>$3\cdot2^n-2$</th><th>$k(\mathbb Z/4,n)$</th><th>$k(\mathbb F_2[\varepsilon]/\varepsilon^2,n)$</th><th>Method for the lower bound</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>4</td><td>4</td><td>4</td><td>trivial</td></tr>
+<tr><td>2</td><td>10</td><td>10</td><td>10</td><td>exhaustive census of all $\binom{16}{k}$ subsets, $k\le 10$; CP-SAT; CaDiCaL</td></tr>
+<tr><td>3</td><td>22</td><td>22</td><td>22</td><td>CaDiCaL on the line encoding (UNSAT at 21: 112.6 s and 58.2 s); independently, CP-SAT on the defect relaxation (§7)</td></tr>
+<tr><td>4</td><td>46</td><td colspan="2">$\le 46$ (open)</td><td>$K_*$ gives 46; (T) after 1400 s CP-SAT: incumbent 46, proved bound 15</td></tr>
+</tbody></table></div>
+<div class="stmt cert"><p><span class="label cert">Certified 5.1.</span> $k(R,n)=3\cdot2^n-2$ for $n\le3$ and both rings.</p></div>
+
+<div class="stmt open"><p><span class="label open">Observed 5.2.</span> At $n=4$, 1400 s of CP-SAT on (T) found no point below 46 and its best incumbent is again the profile $(16,2,\dots,2)$, but the proved dual bound is only 15. A direct CaDiCaL attack on the line encoding at 45 points was abandoned without a verdict. The law at $n=4$ is therefore open in this release.</p></div>
+
+<h2><span class="no">6</span>Why the counting relaxation fails</h2>
+<p>The relaxation (PB) keeps only the sizes $s_a$, the exact pair budget $\sum_{v\neq0}p_a(v)=\binom{s_a}{2}$, the cap $p_a(v)\le\lfloor s_a/2\rfloor$, and the counting inequality of Theorem 3.1. It is ring-independent and bounds $k(R,n)$ from below. <span class="label cert">Certified:</span> its optimum is 10 at $n=2$ but 21 at $n=3$, attained by the profile $(5,4,4,4,4,0,0,0)$, and at $n=4$ the solver exhibits a feasible point of value 36 with profile six fibres of size 6.</p>
+<p>The $n=4$ point exposes the incompatibility precisely. Six fibres of size 6 sitting on a Sidon set of $\mathbb F_2^4$ realise each of the 15 directions by exactly 1 fibre pair, so each pair must cover 8 classes with $p_ap_{a+v}=9$, forcing $p_a(v)=3=s_a/2$ in 5 directions per fibre. But $p_A(v)=|A|/2$ means $A+v=A$, so these 5 directions together with $0$ would lie in the stabiliser subgroup of $A$, whose order divides $|A|=6$ and is therefore at most 2. A counting relaxation cannot see that perfect pairings in different directions compose. The repair must encode composition.</p>
+
+<h2><span class="no">7</span>The defect metric</h2>
+<div class="stmt"><p><span class="label">Theorem 7.1 (fibre defect inequality).</span> For $A\subseteq V$ with $|A|=s$ define $d_A(v)=|A\setminus(A+v)|=s-2p_A(v)$. Then $d_A(v+w)\le d_A(v)+d_A(w)$ for all $v,w$, together with $0\le d_A(v)\le\min(s,2^n-s)$, $d_A(v)\equiv s \pmod 2$ and $\sum_{v\neq0}d_A(v)=s(2^n-s)$.</p></div>
+<p>Proof. $2d_A(v)=|A\,\triangle\,(A+v)|$ and the symmetric difference is a metric on subsets, so $|A\triangle(A+v+w)|\le|A\triangle(A+v)|+|(A+v)\triangle(A+v+w)|$, and the last term equals $|A\triangle(A+w)|$ by translation. The sum identity counts pairs $(u,v)$ with $u\in A$, $u+v\notin A$. $\square$ The stabiliser fact used in §6 is the case $d_A(v)=d_A(w)=0$.</p>
+<p>The relaxation (T) adjoins Theorem 7.1 for every fibre to (PB). Every Kakeya set in either ring induces a feasible point of (T), so $\min\mathrm{T}_n\le k(R,n)$ for both rings at once, and (T) forgets the carry entirely.</p>
+<div class="stmt cert"><p><span class="label cert">Certified 7.2.</span> $\min \mathrm T_2=10$ and $\min\mathrm T_3=22$. At $n=3$ the only optimal profile is $(8,2,2,2,2,2,2,2)$, and every point of (T) with all $s_a\le7$ has value at least 24.</p></div>
+<p>So at $n=3$ the single inequality $d(v+w)\le d(v)+d(w)$, applied fibre by fibre, carries the whole sharp law for both rings; positional data within fibres and the carry cocycle are not needed for the lower bound. This is the universal fibre inequality the program asked for, in its first verified form.</p>
+
+<h2><span class="no">8</span>Equality geometry</h2>
+<div class="stmt"><p><span class="label">Theorem 8.1.</span> Suppose that every Kakeya set of size $3\cdot2^n-2$ has fibre profile $(2^n,2,\dots,2)$. Then the extremal sets are exactly $K=\pi V+a_0\ \cup\ \{a+\pi u_a,\ a+\pi(u_a+a-a_0): a\neq a_0\}$, with $a_0\in V$ and $u_a\in V$ arbitrary, and there are exactly $2^n\cdot 2^{(n-1)(2^n-1)}$ of them in each ring.</p></div>
+<p>Proof. Translate so that the full fibre is $A_0$. For $a\neq0$, direction $a$ receives at most $2^{n-1}p_a(a)$ classes from the pair $\{0,a\}$ and at most 1 from each of the $2^{n-1}-1$ remaining pairs of 2-point fibres, so $p_a(a)\ge1$ and $A_a=\{u_a,u_a+a\}$. Conversely $P_a(A_0)=V/\langle a\rangle$, so the sumset in Theorem 3.1 is already everything, whatever the carry. The count is $2^n$ choices of $a_0$ times $2^{n-1}$ classes $[u_a]$ for each of $2^n-1$ fibres, each class giving 2 representatives of the same pair. $\square$</p>
+<div class="stmt cert"><p><span class="label cert">Certified 8.2.</span> The hypothesis of Theorem 8.1 holds for $n\le3$ (Certified 7.2), so there are exactly 32 extremal sets at $n=2$ and $131{,}072$ at $n=3$ in each ring. The $n=2$ count was confirmed by exhaustive census in both rings: 32 and 32, all with profile $(4,2,2,2)$.</p></div>
+<p>This answers the equality questions in the range where they are settled. Optimality forces total concentration into one fibre; there is a single extremal mechanism; the 2 rings share both the minimum and the equality family, because a full fibre absorbs every carry class. The arithmetic difference between $\mathbb Z/4\mathbb Z$ and the dual numbers is invisible at the extremum and can only matter strictly above it.</p>
+
+<h2><span class="no">9</span>The reduced conjecture</h2>
+<div class="stmt open"><p><span class="label open">Conjecture 9.1 (defect form).</span> For all $n$, the minimum of (T) is $3\cdot2^n-2$: if $s_a\in[0,2^n]$ and $d_a:V\setminus\{0\}\to\mathbb Z_{\ge0}$ satisfy the conditions of Theorem 7.1 for every $a\in V$ and $\sum_{\{a,a+v\}}\tfrac14(s_a-d_a(v))(s_{a+v}-d_{a+v}(v))\ge2^{n-1}$ for every $v\neq0$, then $\sum_a s_a\ge 3\cdot2^n-2$.</p></div>
+<p>Conjecture 9.1 implies the sharp law for both rings simultaneously, and it is a statement about subadditive functions on $\mathbb F_2^n$ with no ring left in it. Its proof would need to show that subadditivity forbids medium fibres from serving many directions at once: a fibre with $d_A$ small on a set $D$ has $d_A$ at most twice as large on $D+D$, so many cheap directions in one fibre generate an approximate subgroup and therefore force size, while the pair budget prevents a small fibre from serving more than $\binom{s}{2}$ directions. Every relaxation solution found so far that beats $3\cdot2^n-2$ under (PB) is killed by exactly this mechanism. The decisive computational test is $n=5$, where a point of (T) of value at most 93 would refute Conjecture 9.1 without refuting the ring law, and an actual Kakeya set of at most 93 points would refute both.</p>
+
+<h2><span class="no">10</span>Reproduction</h2>
+<p>The package <code>kakeya_sharp</code> contains <code>rings.py</code> (exact bit arithmetic, line enumeration, Theorem 3.1 checker), <code>sat_decide.py</code> (CaDiCaL line encoding), <code>exact_sym.py</code> (CP-SAT with the §4 reductions), <code>relaxation.py</code> ((PB) and (T)), <code>profiles.py</code> (equality-profile enumeration) and <code>equality_n2.py</code> (census). Every JSON in <code>results/</code> records solver, status, wall time and, for feasible outcomes, a witness rechecked by enumeration. Solver UNSAT claims are not accompanied by DRAT proofs in this release; the $n=3$ lower bound is supported by 2 independent encodings and 2 independent solvers.</p>
+</main>

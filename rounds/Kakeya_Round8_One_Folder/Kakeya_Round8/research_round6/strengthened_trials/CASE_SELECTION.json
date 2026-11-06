@@ -1,0 +1,176 @@
+[
+  {
+    "mask": 37848950,
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      15,
+      16,
+      22,
+      25
+    ],
+    "stabilizer_order": 12,
+    "selection_label": "easy",
+    "historical_fixed_maximum_trials": [
+      {
+        "m": 17,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 3.4,
+        "clauses": 343276
+      },
+      {
+        "m": 18,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 5.6,
+        "clauses": 375713
+      },
+      {
+        "m": 15,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 1.6,
+        "clauses": 294852
+      },
+      {
+        "m": 16,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 4.0,
+        "clauses": 326798
+      },
+      {
+        "m": 13,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 1.1,
+        "clauses": 251822
+      },
+      {
+        "m": 14,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 3.2,
+        "clauses": 280039
+      },
+      {
+        "m": 12,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 3.2,
+        "clauses": 240613
+      },
+      {
+        "m": 11,
+        "s": 13,
+        "T": 37848950,
+        "sat": false,
+        "sec": 3.1,
+        "clauses": 216181
+      }
+    ],
+    "selection_rule": "Easy, intermediate, hard relative to imported fixed-maximum exploration; not a representative performance sample."
+  },
+  {
+    "mask": 1022358,
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "stabilizer_order": 1152,
+    "selection_label": "intermediate",
+    "historical_fixed_maximum_trials": [
+      {
+        "m": 18,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 34.4,
+        "clauses": 374049
+      },
+      {
+        "m": 17,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 40.5,
+        "clauses": 341612
+      },
+      {
+        "m": 15,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 33.3,
+        "clauses": 293188
+      },
+      {
+        "m": 16,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 44.0,
+        "clauses": 325134
+      },
+      {
+        "m": 14,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 47.0,
+        "clauses": 278375
+      },
+      {
+        "m": 13,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 49.1,
+        "clauses": 250158
+      },
+      {
+        "m": 12,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 41.9,
+        "clauses": 238949
+      },
+      {
+        "m": 11,
+        "s": 13,
+        "T": 1022358,
+        "sat": false,
+        "sec": 40.9,
+        "clauses": 214517
+      }
+    ],
+    "selection_rule": "Easy, intermediate, hard relative to imported fixed-maximum exploration; not a representative performance sample."
+  }
+]

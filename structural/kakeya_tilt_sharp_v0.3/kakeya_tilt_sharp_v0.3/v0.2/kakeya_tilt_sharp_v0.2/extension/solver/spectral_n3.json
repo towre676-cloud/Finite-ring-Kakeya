@@ -1,0 +1,111 @@
+{
+  "n": 3,
+  "mode": "S",
+  "status": "OPTIMAL",
+  "seconds": 0.218285,
+  "solver": "OR-Tools CP-SAT",
+  "solver_version": "9.15.6755",
+  "workers": 2,
+  "upper_constraint": null,
+  "max_fibre_constraint": null,
+  "objective_bound": 22.0,
+  "certification": "exported feasible relaxation point; independently checked in exact integers",
+  "value": 22,
+  "profile": [
+    8,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "sizes": [
+    8,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "pairs": [
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "witness_integer_rechecked": true,
+  "search_branches": 3992,
+  "conflicts": 113
+}

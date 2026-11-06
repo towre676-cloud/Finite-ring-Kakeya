@@ -1,0 +1,159 @@
+{
+  "status": "PASS_EXACT_REDUCTION",
+  "scope": "n5,both rings,W<=93,exactmax11,support17",
+  "global_partition_counts": {
+    "total": 21822,
+    "resource": 21081,
+    "inherited_geometry": 631
+  },
+  "residual_profiles_before_local_envelopes": 110,
+  "records": [
+    {
+      "orbit": 367,
+      "support_size": 17,
+      "envelope": 107,
+      "unresolved": 1,
+      "nine_heavy_geometry": 2,
+      "status": "OPEN",
+      "surviving_weight_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "orbit": 373,
+      "support_size": 17,
+      "envelope": 108,
+      "nine_heavy_geometry": 2,
+      "status": "CLOSED",
+      "surviving_weight_profiles": []
+    },
+    {
+      "orbit": 374,
+      "support_size": 17,
+      "envelope": 107,
+      "unresolved": 1,
+      "nine_heavy_geometry": 2,
+      "status": "OPEN",
+      "surviving_weight_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "orbit": 376,
+      "support_size": 17,
+      "envelope": 108,
+      "nine_heavy_geometry": 2,
+      "status": "CLOSED",
+      "surviving_weight_profiles": []
+    },
+    {
+      "orbit": 377,
+      "support_size": 17,
+      "envelope": 105,
+      "unresolved": 3,
+      "nine_heavy_geometry": 2,
+      "status": "OPEN",
+      "surviving_weight_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          6,
+          6,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "path": "research_sources/extracted/Kakeya_Reconciled_Proofs_2026-10-27/late_parallel_2214/extracted/m11_directional/inputs/CAP11_STRUCTURAL_REDUCTION.json",
+    "sha256": "e243b21e7496c1c271192b81987a68e3133da0ede8782d3d5ec2b5c50f9da52b"
+  },
+  "seconds": 4.279827897000359,
+  "full_spectra_used_in_claimed_exclusions": false
+}

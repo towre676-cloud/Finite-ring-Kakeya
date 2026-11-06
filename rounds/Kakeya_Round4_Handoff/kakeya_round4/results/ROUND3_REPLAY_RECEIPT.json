@@ -1,0 +1,157 @@
+{
+  "status": "PASS_ALL_ROUND3_REPLAY_STEPS",
+  "scope": "All credited round3 finite exclusions and controls, plus the included complete round2 replay. Analytic proofs are separately supplied and reviewed; inherited earlier full results are anchored to prior checkpoints.",
+  "initial_manifest_sha256": "1b3913640a9d5b0f2738a982ab46f9a24b23be8b3f242ccb3d0189fcbdb12c86",
+  "initial_payload_files_verified": 395,
+  "python_version": "3.13.17",
+  "steps": [
+    {
+      "name": "inherited_round2_complete_replay",
+      "script": "VERIFY_ALL.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 113.301,
+      "log": "verification_logs_round3/inherited_round2_complete_replay.txt",
+      "log_sha256": "8cc6a3dd53ff3557798695cc5dbe0804877564b28f39cce28bf55f9257664ea9"
+    },
+    {
+      "name": "caught_up_compatibility_package",
+      "script": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/verify_package.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 11.185,
+      "log": "verification_logs_round3/caught_up_compatibility_package.txt",
+      "log_sha256": "5a1292e32a36be1a9431bacacca61eb4eb52491854e89a9309e6db4eeef3bd8a"
+    },
+    {
+      "name": "shared_period_and_rooted_rank_controls",
+      "script": "research_round3/root/verify_shared_geometry.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.639,
+      "log": "verification_logs_round3/shared_period_and_rooted_rank_controls.txt",
+      "log_sha256": "54eb72c30e1eb4333e49822f075883c78d8de21d92421f9af5c2e7220b88e02e"
+    },
+    {
+      "name": "full_hub_outer_twelve_controls",
+      "script": "research_round3/root/verify_full_hub_twelve.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.048,
+      "log": "verification_logs_round3/full_hub_outer_twelve_controls.txt",
+      "log_sha256": "0a9d19bbceea83d8db4a5146d35b43b50a1fd6144345598ab1d3f41a9463e31c"
+    },
+    {
+      "name": "m11_support17_assignment_duals",
+      "script": "research_round3/m11/verify_s17_envelope_duals.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 5.059,
+      "log": "verification_logs_round3/m11_support17_assignment_duals.txt",
+      "log_sha256": "ba00dae6fe24580609036ef638b7ef6bad960f0dd95e6f3bfd27536e4d7d34a4"
+    },
+    {
+      "name": "m11_support17_remaining_placements",
+      "script": "research_round3/m11/verify_remaining_s17_placements.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.407,
+      "log": "verification_logs_round3/m11_support17_remaining_placements.txt",
+      "log_sha256": "fa6e1fbaa8b3faab0b00eb0ea529d1c3af60e16eb4ffd145a4f79424a14c2911"
+    },
+    {
+      "name": "m11_support16_six_classes",
+      "script": "research_round3/m11/s16/verify_s16_checkpoint.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 12.052,
+      "log": "verification_logs_round3/m11_support16_six_classes.txt",
+      "log_sha256": "4b5d6a522313697e1fb3f8b838b2a4bd7d2862445e73f6ab7d190ed19bc5e709"
+    },
+    {
+      "name": "middle_complete_support18_exclusion",
+      "script": "research_round3/middle/verify_support18_completion.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 32.915,
+      "log": "verification_logs_round3/middle_complete_support18_exclusion.txt",
+      "log_sha256": "a540bea1ca404b96b16e7354e5f75a64e4d89ce7edada68a62ef799401f079a5"
+    },
+    {
+      "name": "m19_common_rank_modes",
+      "script": "research_round3/m19/verify_common_shape_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 37.862,
+      "log": "verification_logs_round3/m19_common_rank_modes.txt",
+      "log_sha256": "0d6e1ed36873a7fdfd654bd77783ccabc5e3283945fcbd46d44b0d5b126d1de5"
+    },
+    {
+      "name": "m19_deleted_direction",
+      "script": "research_round3/m19/verify_deleted_direction_profile.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.071,
+      "log": "verification_logs_round3/m19_deleted_direction.txt",
+      "log_sha256": "26124ee412b10257590249a6f31cd7cd5451dc27db8ce6e10bcd2dcf7c7ce6b2"
+    },
+    {
+      "name": "m19_common_periodic_modes",
+      "script": "research_round3/m19/verify_own_periodic_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 7.164,
+      "log": "verification_logs_round3/m19_common_periodic_modes.txt",
+      "log_sha256": "a08fd12eb18d8b5d8d4b41aa4bf6beea9eb447ae2770e0646516aca02629ccce"
+    },
+    {
+      "name": "m19_normalized_support_roles",
+      "script": "research_round3/m19/verify_unique_edge_roles.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 7.792,
+      "log": "verification_logs_round3/m19_normalized_support_roles.txt",
+      "log_sha256": "0c9db5aa1b3e7bdca4b001026effbcdecf622371eafb79e9017ef1fd38eb69f6"
+    },
+    {
+      "name": "independent_m19_role_review",
+      "script": "research_round3/reviews/review_m19_role_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.417,
+      "log": "verification_logs_round3/independent_m19_role_review.txt",
+      "log_sha256": "af9e9c610e0fb694506dfbfb7303d71bc03f269f290ac50d844a59aa550d2474"
+    },
+    {
+      "name": "m19_disjoint_stage_accounting",
+      "script": "research_round3/m19/build_m19_round3_manifest.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.842,
+      "log": "verification_logs_round3/m19_disjoint_stage_accounting.txt",
+      "log_sha256": "ee54f205bd380a6d973d52b40a15f6cf9b83605ba881a374ec3c9d51063cae1a"
+    },
+    {
+      "name": "consolidated_round3_frontier",
+      "script": "research_round3/root/build_round3_frontier.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.085,
+      "log": "verification_logs_round3/consolidated_round3_frontier.txt",
+      "log_sha256": "8e58c02a31e2cc7c95cc314086072bf1642a9a75d4e87aebb09bc259f9f69864"
+    }
+  ],
+  "seconds": 231.856,
+  "report_word_count": 1500,
+  "regenerated_frontier_sha256": "151370310ac9f82c3154c6eb34386cf5b4d61b5aef78bb025e6c9c730787150b",
+  "final_frontier": {
+    "unrestricted_dimension5_theorem": "OPEN",
+    "m11_support_upper_bound": 16,
+    "m11_remaining_affine_classes": 46,
+    "middle_support_upper_bound": 17,
+    "middle_support18_survivors": 0,
+    "m19_round3_exclusions": 26673,
+    "m19_remaining_profiles": 3798,
+    "full_hub_outer_cap12_theorem": "n>=6,sharp3*2^n-2,star equality"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASS_Q211_EFFECTIVE_PAIR_GEOMETRY_AND_CONSTRUCTIVE_CNF_CONTROLS",
+  "five_point_complements_checked": 4368,
+  "Q211_fibres": 1680,
+  "Q211_nonmaximal_pair_directions_checked": 20160,
+  "Q205_fibres": 2688,
+  "Q205_tetrahedral_missing_direction_checks": 26880,
+  "tetrahedron_plane_partners_checked": 140,
+  "tetrahedron_plane_capacity_histogram": {
+    "8": 28,
+    "12": 96,
+    "16": 16
+  },
+  "three_by_three_common_three_space_checks": 3136,
+  "complete_actual_CNF_assignments": 128,
+  "disabled_identity_controls": 8,
+  "strict_improvements_over_full_fibre_span_bound": [
+    {
+      "direction": 4,
+      "left_family": 0,
+      "right_family": 2,
+      "actual_capacity": 8,
+      "inflated_capacity_rejected": 9,
+      "full_fibre_spans_together_fill_ambient5": true
+    },
+    {
+      "direction": 8,
+      "left_family": 0,
+      "right_family": 1,
+      "actual_capacity": 7,
+      "inflated_capacity_rejected": 8,
+      "full_fibre_spans_together_fill_ambient5": true
+    }
+  ],
+  "sample_two_vertex_CNF_metadata": {
+    "enabled": true,
+    "dimensions": [
+      3,
+      4
+    ],
+    "ordinary_or_effective_space_cap_rows": 50,
+    "three_by_three_cap7_rows": 15,
+    "eligible_spectrum_indices": [
+      2
+    ],
+    "effective_containment_flags": 100,
+    "added_variables": 848,
+    "added_clauses": 14675
+  },
+  "new_SAT_exclusions_claimed": 0,
+  "source_hashes": {
+    "verify_q211_paired_spaces.py": "0e217500925986478721d9276fafbb39a09bbcdfa8d31882156e919535862b15",
+    "q211_paired_spaces.py": "09e5117422db9aadfdecc9ec78a8cd0de75bb975831d12d1dc4469e08aa45fb4",
+    "Q211_PAIRED_SPACES.md": "53ac838e18f333eae49e8a7914479b35882480c2f80d00ff3e78b8c3f67b7237"
+  },
+  "seconds": 1.195727
+}

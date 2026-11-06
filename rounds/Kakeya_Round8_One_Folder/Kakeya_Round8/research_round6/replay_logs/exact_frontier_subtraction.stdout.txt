@@ -1,0 +1,50 @@
+{
+  "status": "PASS_EXACT_ROUND6_FRONTIER",
+  "new_whole_weight_profile_exclusions": 84297,
+  "remaining_middle_weight_profiles": 186482,
+  "remaining_nonempty_cells": 34,
+  "by_support": [
+    {
+      "support": 11,
+      "before": 23474,
+      "excluded": 23474,
+      "remaining": 0
+    },
+    {
+      "support": 12,
+      "before": 60823,
+      "excluded": 60823,
+      "remaining": 0
+    },
+    {
+      "support": 13,
+      "before": 85802,
+      "excluded": 0,
+      "remaining": 85802
+    },
+    {
+      "support": 14,
+      "before": 75766,
+      "excluded": 0,
+      "remaining": 75766
+    },
+    {
+      "support": 15,
+      "before": 20438,
+      "excluded": 0,
+      "remaining": 20438
+    },
+    {
+      "support": 16,
+      "before": 4051,
+      "excluded": 0,
+      "remaining": 4051
+    },
+    {
+      "support": 17,
+      "before": 425,
+      "excluded": 0,
+      "remaining": 425
+    }
+  ]
+}

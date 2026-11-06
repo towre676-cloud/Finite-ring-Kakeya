@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "scope": "Remaining exactmax11 support17 profiles on orbits367,374,377",
+  "records": [
+    {
+      "orbit": 367,
+      "profile": "P",
+      "status": "CLOSED_ALL_PLACEMENTS",
+      "subsets": 24310,
+      "maximal_subsets": 1983,
+      "port_cases": 1344,
+      "low_assignments": 48
+    },
+    {
+      "orbit": 374,
+      "profile": "P",
+      "status": "CLOSED_ALL_PLACEMENTS",
+      "subsets": 24310,
+      "maximal_subsets": 1971,
+      "port_cases": 3416,
+      "low_assignments": 492,
+      "weighted_cases": 864
+    },
+    {
+      "orbit": 377,
+      "profile": "P",
+      "status": "CLOSED_ALL_PLACEMENTS",
+      "subsets": 24310,
+      "maximal_subsets": 2082,
+      "port_cases": 2652,
+      "low_assignments": 432
+    },
+    {
+      "orbit": 377,
+      "profile": "R",
+      "status": "CLOSED_ALL_PLACEMENTS",
+      "subsets": 24310,
+      "maximal_subsets": 2082,
+      "port_cases": 882,
+      "low_assignments": 360,
+      "weighted_cases": 2592,
+      "energy_pass": 1872,
+      "capacity_excluded": 1872
+    },
+    {
+      "status": "CLOSED_ALL_PLACEMENTS",
+      "orbit": 377,
+      "profile": "Q",
+      "subsets": 19448,
+      "missing_direction_budget_exclusions": 19352,
+      "full_difference_subsets": 96,
+      "weak_pairs": 4320,
+      "unique_degree_budget_exclusions": 2304,
+      "forced_period_rank_exclusions": 2016
+    }
+  ],
+  "new_whole_support_class_exclusions": [
+    367,
+    374,
+    377
+  ],
+  "combined_with_envelope_stage_new_exclusions": [
+    367,
+    373,
+    374,
+    376,
+    377
+  ],
+  "previous_M11_open_support_classes": 57,
+  "new_M11_open_support_classes": 52,
+  "source_sha256": "e243b21e7496c1c271192b81987a68e3133da0ede8782d3d5ec2b5c50f9da52b",
+  "seconds": 0.7818697449984029
+}

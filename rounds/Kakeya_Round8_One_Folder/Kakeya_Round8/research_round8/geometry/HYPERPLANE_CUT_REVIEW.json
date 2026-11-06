@@ -1,0 +1,19 @@
+{
+  "status": "PASS_READ_ONLY_CODE_AND_SOUNDNESS_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review",
+  "source_hashes": {
+    "research_round8/hyperplane/hyperplane_cut.py": "02179710176cb48d7138e4ce0e70e732267af03070f2ad26fe568914a398ff7a",
+    "research_round8/hyperplane/HYPERPLANE_CROSSING_LEMMA.txt": "e6b20a5f3cdc3cfe8290a79e4d89d6c72b28ac58b14246ada062041f0304ab15",
+    "research_round8/hyperplane/verify_hyperplane_cut.py": "07986987a66564a437156facecb896f5cb13d29c2f89e7c18ed9a66edfee79c5"
+  },
+  "review_focus": [
+    "The crossing identity counts exactly the a(w-a) unordered pairs straddling a binary hyperplane, and any subset of those directions obeys the same floor(w\u00b2/4) bound.",
+    "Each added pair-count threshold is reified in both directions from the existing one-hot directional count choices.",
+    "The bidirectional totalizer counts all active thresholds, hence exactly the sum of selected directional pair counts.",
+    "The conditional negative output at index budget means count\u2264budget; no off-by-one issue.",
+    "Spectrum/rank screening omits rows only and cannot strengthen the model unsafely; the stated rank-based position upper bound is valid.",
+    "The disabled branch adds no variables or clauses. Auxiliary reconstruction order agrees with the recursive totalizer."
+  ],
+  "runtime_replay_by_this_reviewer": false,
+  "blocking_issues_found": []
+}

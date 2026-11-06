@@ -1,0 +1,1 @@
+{"ring": "Z4", "n": 1, "status": "OPTIMAL", "best": 4, "lower_bound": 4.0, "seconds": 0.01, "conjecture": 4, "witness": [0, 1, 2, 3], "witness_rechecked": true}

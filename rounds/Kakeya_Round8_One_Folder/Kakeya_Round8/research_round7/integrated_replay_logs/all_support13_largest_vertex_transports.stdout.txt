@@ -1,0 +1,12 @@
+{
+  "status": "PASS_READ_ONLY_55_MARKED_CASE_AFFINE_TRANSPORT_REPLAY",
+  "map_sha256": "82947e90078689b065fc56fc9f19ad682541c110e7808fa24ba464c72e4e3600",
+  "map_unchanged": true,
+  "verified_invertible_affine_hub_maps": 169,
+  "marked_case_count": 55,
+  "unmarked_affine_support_classes": 13,
+  "inherited_maximum11_open_affine_classes": 4,
+  "inherited_maximum11_open_marked_cases": 14,
+  "new_exclusions_credited": 0,
+  "seconds": 0.015889
+}

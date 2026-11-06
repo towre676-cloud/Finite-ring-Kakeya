@@ -1,0 +1,48 @@
+Hyperplane crossing-pair budgets
+===============================
+
+Let A be a w-element subset of V=F_2^n.  For nonzero d let p_A(d)
+be its number of unordered pairs with difference d.  Let u:V->F_2
+be a nonzero linear functional and put a=|A intersect ker(u)|.
+Then
+
+    sum_{u(d)=1} p_A(d) = a(w-a) <= floor(w^2/4).
+
+Indeed, a pair has u(d)=1 exactly when its two endpoints lie on
+opposite sides of the hyperplane ker(u).  There are a(w-a) such pairs.
+The inequality follows from (2a-w)^2 >= 0.  In particular, the same
+upper bound holds when only some of the directions are summed.
+
+This is an elementary statement about one binary fibre.  It uses no
+spectrum census, Kakeya assumption, support catalogue, or SAT solver.
+It holds for fibres belonging to either of the two rings under study.
+
+The Round8 wrapper uses only existing directional count selectors y and
+fibre spectrum selectors z.  It defines shared unary thresholds
+q(v,d,j) iff p_v(d)>=j, takes a bidirectional totalizer over the
+thresholds with u(d)=1, and adds
+
+    selected_spectrum_i -> crossing_total <= floor(w_i^2/4).
+
+Set all new thresholds and counter outputs to their actual values for
+a real fibre.  The displayed identity proves every appended bound.
+Thus every genuine counterexample extends to the strengthened CNF.
+
+For efficiency the wrapper omits a bound when the largest possible
+sum of that many entries of the selected histogram already lies below
+the bound.  The number of positions can be further bounded by
+2^(r_max-1), since a linear functional is either zero on the affine
+direction space or nonzero on exactly half its vectors.  This omission
+only weakens the formula and does not affect one-way soundness.  It
+does not assert that every retained row is logically independent of
+all previous constraints.
+
+This family addresses the arrangement of near-maximal directions.
+For example, the weight-eight, energy-seventy histogram has seven
+directions with three pairs and seven with one pair.  Six directions
+with three pairs cannot all lie on the nonzero side of one linear
+functional: their contribution would be18>16.  A histogram by itself
+does not record that obstruction.
+
+No new support exclusion is implied by this lemma or its local replay.
+A whole-case exclusion requires a checked refutation of its exact CNF.

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "s13_T37848950_m2_18_baseline",
+      "formula_regeneration": "BYTE_IDENTICAL",
+      "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+      "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+      "cake_lpr": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 1.769266,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case_id": "s13_T37848950_m2_18_maximal_cosets",
+      "formula_regeneration": "BYTE_IDENTICAL",
+      "cnf_sha256": "4a0b08ab3710db2da57e07de52f44e836e285a221722fbafc15de23c7d405799",
+      "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+      "cake_lpr": {
+        "accepted": true,
+        "returncode": 0,
+        "timed_out": false,
+        "success_marker_present": true,
+        "seconds": 1.769689,
+        "stdout_file": "cake_lpr.stdout.txt",
+        "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+        "stderr_file": "cake_lpr.stderr.txt",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case_id": "s13_T1022358_m2_18_maximal_cosets",
+      "formula_regeneration": "BYTE_IDENTICAL",
+      "cnf_sha256": "527a7ae0fac73d96e24565482edd0c2c102e29ffe6100f75e9dc81eb53bd2149",
+      "status": "UNCERTIFIED_TIMEOUT_REMAINS_UNCERTIFIED"
+    },
+    {
+      "case_id": "s13_T1022358_m2_18_baseline",
+      "formula_regeneration": "BYTE_IDENTICAL",
+      "cnf_sha256": "5a1be812a54196b223eb1179e6789b703a2bf378aadf209fc78011d16db56c88",
+      "status": "UNCERTIFIED_TIMEOUT_REMAINS_UNCERTIFIED"
+    }
+  ],
+  "accepted_certificates": 2,
+  "uncertified_timeouts": 2,
+  "checker_build": {
+    "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "checkers": {
+      "drat-trim": {
+        "binary_sha256": "1997db9ae901ce6c92b80b0567d767ebf0d475ae8fbeed0c0daad57a3c70274b",
+        "compile_returncode": 0,
+        "compile_log_sha256": "22a707fba5e991ed1151baa2eb1d9ca1f480fc7c9e604b0661937f36a7ecadb8",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/drat-trim.c"
+        ]
+      },
+      "lrat-check": {
+        "binary_sha256": "9629490cbf998667ac5171d820f67c6691b837a7d2534468ecf291d84150f95d",
+        "compile_returncode": 0,
+        "compile_log_sha256": "9c23be9c12fd3454586c658a2ba9bfc584e64608f0605a75d69df0f27fbfb800",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "-DLONGTYPE",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/drat-trim/lrat-check.c"
+        ]
+      },
+      "cake_lpr": {
+        "binary_sha256": "19e237597b7b8d554dc5f224d0f893aa06a0d9d2844129db0b05ee5afb6b12ef",
+        "compile_returncode": 0,
+        "compile_log_sha256": "064f6716d177722534daa91c2c7b9a32d2be21c8646d6f42695a1158c6f7867f",
+        "compile_arguments": [
+          "-O2",
+          "-std=c99",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/basis_ffi.c",
+          "/workspace/scratch/a2844a91c00e/research_round5/proof_audit/vendor/cake_lpr/cake_lpr.S"
+        ]
+      }
+    }
+  },
+  "distinct_marked_support_exclusions": 1,
+  "scope": "One selected support13 marked class at maximum2..18; both baseline and strengthened certificates accepted. The second selected class remains uncertified.",
+  "seconds": 7.720723,
+  "encoder_formally_verified": false
+}

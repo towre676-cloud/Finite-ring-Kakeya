@@ -1,0 +1,399 @@
+{
+  "scope": "Exhaustive R^2 normalized |S0|=|S1|=4 tilings; not an all-dimension proof",
+  "tiling_checks": [
+    {
+      "ring": "dual",
+      "normalized_balanced_pair_tilings": 3920,
+      "minimum_union_all_tilings": 10,
+      "three_minimum_images_count": 296,
+      "strict_three_minimum_count": 144,
+      "minimum_union_strict_three": 11,
+      "size_histogram": [
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "count": 152
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            8
+          ],
+          "count": 24
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            6,
+            8
+          ],
+          "count": 240
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            4
+          ],
+          "count": 24
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            6
+          ],
+          "count": 240
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            8
+          ],
+          "count": 1896
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "count": 1152
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            16,
+            16
+          ],
+          "count": 96
+        }
+      ],
+      "strict_example": {
+        "A": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "B": [
+          0,
+          2,
+          4,
+          14
+        ],
+        "images": [
+          [
+            0,
+            1,
+            8,
+            9
+          ],
+          [
+            0,
+            2,
+            4,
+            14
+          ],
+          [
+            0,
+            5,
+            8,
+            13
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14
+          ]
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          6
+        ],
+        "union_size": 11,
+        "f": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          8,
+          9,
+          8,
+          9,
+          8,
+          9,
+          8,
+          9,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "ring": "z4",
+      "normalized_balanced_pair_tilings": 1136,
+      "minimum_union_all_tilings": 10,
+      "three_minimum_images_count": 296,
+      "strict_three_minimum_count": 144,
+      "minimum_union_strict_three": 11,
+      "size_histogram": [
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "count": 152
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            4,
+            8
+          ],
+          "count": 24
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            6,
+            8
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            4
+          ],
+          "count": 24
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            6
+          ],
+          "count": 48
+        },
+        {
+          "sizes": [
+            4,
+            4,
+            8,
+            8
+          ],
+          "count": 744
+        }
+      ],
+      "strict_example": {
+        "A": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "B": [
+          0,
+          2,
+          4,
+          14
+        ],
+        "images": [
+          [
+            0,
+            1,
+            8,
+            9
+          ],
+          [
+            0,
+            2,
+            4,
+            14
+          ],
+          [
+            0,
+            5,
+            8,
+            13
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            10,
+            14
+          ]
+        ],
+        "sizes": [
+          4,
+          4,
+          4,
+          6
+        ],
+        "union_size": 11,
+        "f": [
+          0,
+          1,
+          0,
+          9,
+          0,
+          1,
+          8,
+          1,
+          8,
+          9,
+          8,
+          1,
+          8,
+          9,
+          0,
+          9
+        ]
+      }
+    }
+  ],
+  "stated_examples": [
+    {
+      "ring": "dual",
+      "images": [
+        [
+          0,
+          1,
+          8,
+          13
+        ],
+        [
+          0,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          5,
+          8,
+          9,
+          13
+        ],
+        [
+          0,
+          4,
+          10,
+          14
+        ]
+      ],
+      "sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union_size": 11
+    },
+    {
+      "ring": "z4",
+      "images": [
+        [
+          0,
+          1,
+          8,
+          13
+        ],
+        [
+          0,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          5,
+          8,
+          9,
+          13
+        ],
+        [
+          0,
+          4,
+          10,
+          14
+        ]
+      ],
+      "sizes": [
+        4,
+        4,
+        6,
+        4
+      ],
+      "union_size": 11
+    }
+  ]
+}

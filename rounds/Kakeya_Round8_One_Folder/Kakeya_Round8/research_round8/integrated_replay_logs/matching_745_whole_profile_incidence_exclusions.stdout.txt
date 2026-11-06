@@ -1,0 +1,45 @@
+{
+  "status": "PASS_MATCHING_INCIDENCE_PROFILE_REPLAY",
+  "original_profiles": 183476,
+  "previously_excluded_profiles": 175,
+  "newly_excluded_profiles": 570,
+  "cumulative_excluded_profiles": 745,
+  "remaining_profiles": 182731,
+  "by_support": {
+    "13": {
+      "original": 85340,
+      "previously_excluded": 128,
+      "newly_excluded": 264,
+      "cumulative_excluded": 392,
+      "remaining": 84948
+    },
+    "14": {
+      "original": 74373,
+      "previously_excluded": 36,
+      "newly_excluded": 184,
+      "cumulative_excluded": 220,
+      "remaining": 74153
+    },
+    "15": {
+      "original": 19514,
+      "previously_excluded": 9,
+      "newly_excluded": 79,
+      "cumulative_excluded": 88,
+      "remaining": 19426
+    },
+    "16": {
+      "original": 3853,
+      "previously_excluded": 2,
+      "newly_excluded": 36,
+      "cumulative_excluded": 38,
+      "remaining": 3815
+    },
+    "17": {
+      "original": 396,
+      "previously_excluded": 0,
+      "newly_excluded": 7,
+      "cumulative_excluded": 7,
+      "remaining": 389
+    }
+  }
+}

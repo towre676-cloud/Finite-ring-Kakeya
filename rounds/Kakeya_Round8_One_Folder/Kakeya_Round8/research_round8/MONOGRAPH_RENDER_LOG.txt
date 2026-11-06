@@ -1,0 +1,79 @@
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+
+Fontconfig error: No writable cache directories
+	/workspace/var/cache/fontconfig
+{
+  "status": "PASS_TEXT_AND_PAGE_COUNT_PENDING_VISUAL_QA",
+  "source": "research_round8/Round8_Monograph_1500.md",
+  "pdf": "research_round8/Round8_Monograph_1500.pdf",
+  "rendered_words_including_title": 1500,
+  "pages": 3,
+  "pdf_text_exactly_matches_source": true,
+  "source_sha256": "5063cb7b1d3e105e91dbf6c59ce5ea42d94fc5797d4945ea9237f1b999771f89",
+  "pdf_sha256": "496471502458fb3fe4a8e0c84111b2eb479291ac7108fc1ffa77d27f6611e8c3",
+  "authoring_script_sha256": "b2a89918a685ac16fb1a63285ea3023c12a30471837af74a2acf400893e7fd03",
+  "page_pngs": [
+    "/workspace/scratch/a2844a91c00e/tmp/pdfs/round8/page-1.png",
+    "/workspace/scratch/a2844a91c00e/tmp/pdfs/round8/page-2.png",
+    "/workspace/scratch/a2844a91c00e/tmp/pdfs/round8/page-3.png"
+  ]
+}

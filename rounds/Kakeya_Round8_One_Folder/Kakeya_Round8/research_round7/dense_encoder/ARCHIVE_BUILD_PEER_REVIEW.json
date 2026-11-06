@@ -1,0 +1,37 @@
+{
+  "status": "PASS_READ_ONLY_ARCHIVE_SELECTION_AND_MANIFEST_REVIEW",
+  "reviewer": "Separate model agent /root/dense_encoder; not independent human review",
+  "source_hashes": {
+    "research_round7/build_round7_archive.py": "e9f818faf2c0a75be482f7a350c1aa1b5c86affa8f70b25d1451e4456ab749ff",
+    "research_round7/verify_archive_manifest.py": "ba977589f85a1b1b8345dd2dae2c386c795895ecdfc71723bd8c3b3ee1a6c75b",
+    "VERIFY_ROUND7.py": "c879987ea444517389b853d2582c9b42c922d8bc658339564b00f90e83b4aff2"
+  },
+  "inventory_at_review": {
+    "round6_archive_sha256_verified": true,
+    "round6_file_count": 2683,
+    "round7_selected_file_count": 2238,
+    "required_named_dependencies_checked": 435,
+    "semantic_source_pins_verified_against_actual_delivered_bytes": 37,
+    "original_s13_drat_payloads_omitted_with_checked_replacements": 47,
+    "original_dimension4_drat_payloads_omitted_with_checked_replacements": 14,
+    "all_61_omitted_originals_absent_from_selection": true,
+    "tiny_rup_replay_inputs_present": true,
+    "exact_ring_originals_and_timeout_cnfs_present": true,
+    "all_56_dimension4_cnfs_present": true,
+    "selected_bytes": 173983294
+  },
+  "concrete_bugs_found": [],
+  "findings": [
+    "Every named replay dependency checked is in the selected Round7 payload or the sealed Round6 archive, including all 47 S13 original CNFs and replacement cores, all 56 dimension4 CNFs and 14 replacement cores, all exact-ring original proof payloads, exact-shape/four-pair trial CNFs, and tiny RUP controls.",
+    "All 61 large original DRAT streams intentionally replaced by compact proofs are absent from selection; their semantic manifests, source receipts and provenance remain included. The integrated replay routes S13 and dimension4 to compact verifiers rather than original-proof CLIs.",
+    "The sealed base archive hash matches its pin. All 2683 inherited files are selected directly from that archive after stripping exactly the old top-level prefix. New payloads cannot overwrite inherited paths, and every copied byte is hashed both before and after ZIP creation.",
+    "All 37 semantic source pins examined agree with the actual bytes that would be delivered, reading inherited bytes from the sealed base archive rather than the mutable workspace.",
+    "ZIP writing creates one Kakeya_Round7 directory, rejects duplicate paths and unsafe traversal, verifies exact payload inventory and every hash before atomic publication, and verifies the published archive hash.",
+    "The standalone manifest verifier rejects missing, changed, duplicated and unsafe declared paths. Its documented pre-replay use is necessary because replay intentionally updates procedural receipts."
+  ],
+  "limitations": [
+    "No new archive build, extraction, full theorem replay or proof-checker execution was performed by this reviewer. Root is performing the integration/extraction checks.",
+    "Selection counts are a read-only snapshot before this review receipt itself was added; the actual builder performs a fresh selection and manifest inventory."
+  ],
+  "conclusion": "No concrete packaging or replay-payload blocker found."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_MATHEMATICAL_CHECKPOINT_RECONSTRUCTION",
+  "prior_successful_cases_reestablished": "27/27",
+  "exact_formulas_regenerated": "54/54",
+  "fresh_refutations_checked": 29,
+  "remaining_timeouts": 25,
+  "hub_transports_checked": 169,
+  "additional_exclusions_beyond_prior_run": [
+    {
+      "maximum": 13,
+      "mask": 110453014
+    },
+    {
+      "maximum": 13,
+      "mask": 360808918
+    }
+  ],
+  "original_dependency_files_byte_matched": 47,
+  "original_integrity_incident_raw_files_hash_matched": 2,
+  "original_source_programs": "Reconstructed from conversation tool-input text; no original hashes survive for independent identity comparison",
+  "original_timing_logs": "NOT RECOVERABLE; replacement timings retained",
+  "original_proof_stream_byte_identity": "NOT CLAIMED; valid independently checked regenerated replacements retained",
+  "prior_unfinished_replay": "Replaced by completed fresh replay",
+  "full_n5_theorem": "OPEN"
+}

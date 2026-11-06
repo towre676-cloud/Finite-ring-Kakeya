@@ -1,0 +1,33 @@
+Checking analytic/check_three_images.py
+Checking analytic/check_image_structure.py
+Checking energy/finite_energy.py
+Checking compute/verify_completion_results.py
+Checking review/verify_independent.py
+{
+  "status": "PASS",
+  "manifest_files_checked": 57,
+  "checks": [
+    {
+      "script": "analytic/check_three_images.py",
+      "status": "PASS"
+    },
+    {
+      "script": "analytic/check_image_structure.py",
+      "status": "PASS"
+    },
+    {
+      "script": "energy/finite_energy.py",
+      "status": "PASS"
+    },
+    {
+      "script": "compute/verify_completion_results.py",
+      "status": "PASS"
+    },
+    {
+      "script": "review/verify_independent.py",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Included finite controls and fixed-shape certificates; no unrestricted n5 theorem",
+  "package_modified": false
+}

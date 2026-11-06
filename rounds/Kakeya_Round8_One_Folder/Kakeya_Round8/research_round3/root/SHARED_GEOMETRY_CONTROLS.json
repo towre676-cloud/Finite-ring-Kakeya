@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Finite controls supplement the analytic arbitrary-dimensional proofs. No profile-count credit is taken here.",
+  "periodic_pairs_F2_4": 65536,
+  "three_spaces_F2_5": 155,
+  "rooted_edge_checks": 1225,
+  "active_rooted_edges": 49,
+  "maximum_rooted_edge_capacity": 8,
+  "rooted_triangle_checks": 42875,
+  "positive_outside_triangles": 1,
+  "weighted_graphs": [
+    {
+      "vertices": 1,
+      "graphs_checked": 1,
+      "admissible": 1,
+      "maximum_normalized_weight": 0,
+      "theorem_bound": 0
+    },
+    {
+      "vertices": 2,
+      "graphs_checked": 3,
+      "admissible": 3,
+      "maximum_normalized_weight": 2,
+      "theorem_bound": 2
+    },
+    {
+      "vertices": 3,
+      "graphs_checked": 27,
+      "admissible": 20,
+      "maximum_normalized_weight": 4,
+      "theorem_bound": 4
+    },
+    {
+      "vertices": 4,
+      "graphs_checked": 729,
+      "admissible": 284,
+      "maximum_normalized_weight": 8,
+      "theorem_bound": 8
+    },
+    {
+      "vertices": 5,
+      "graphs_checked": 59049,
+      "admissible": 8071,
+      "maximum_normalized_weight": 12,
+      "theorem_bound": 12
+    }
+  ]
+}

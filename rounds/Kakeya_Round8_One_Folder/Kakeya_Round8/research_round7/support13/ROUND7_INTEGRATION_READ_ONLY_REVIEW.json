@@ -1,0 +1,44 @@
+{
+  "status": "PASS_LIMITED_INTEGRATION_SOURCE_BINDING_AND_ACCOUNTING_REVIEW",
+  "source_hashes": {
+    "VERIFY_ROUND7.py": "c879987ea444517389b853d2582c9b42c922d8bc658339564b00f90e83b4aff2",
+    "research_round7/bind_completed_replays.py": "95a1a3fbf1e57654f6941744cd547dd9bcfacc6a9feb7245fa5f5c02524b104f",
+    "research_round7/merge_round7.py": "e04fe472ffbb77913145e8f5cf5b64a350028cd8d89ad37610af49c6691767f8",
+    "README_Round7.txt": "13da87f9d88718ada9931256fe0edd673931a7c544b9c1fb1a55291061b509a8",
+    "research_round7/NEXT_ATTACK.txt": "51242213f93e4e81e929666cc798c9b12ddbedec8033bb76e0ae94c9219c5990"
+  },
+  "full_certificate_replays_executed_by_review": false,
+  "frozen_inputs_mutated_by_review": false,
+  "global_publications_intercepted_in_memory": true,
+  "stage_CLI_paths_and_flags_checked": true,
+  "stage_counts": {
+    "default": 24,
+    "quick": 24,
+    "reuse_full_receipts": 21,
+    "inherited_full_plus_Lean": 26
+  },
+  "profile_and_marked_case_counts_separated": true,
+  "repaired_findings": [
+    "stale PASS on failed integration preflight",
+    "exact-ring per-row input and actual witness binding"
+  ],
+  "binding_case_counts": {
+    "exact_ring": 18,
+    "support13": 48,
+    "dimension4": 56
+  },
+  "merge_counts": {
+    "whole_weight_profiles_excluded": 3006,
+    "middle_weight_profiles_remaining": 183476,
+    "maximum11_affine_classes_remaining": 45,
+    "support13_joint_marked_cases_closed": 28,
+    "dimension4_remains_open": true,
+    "dimension5_remains_open": true
+  },
+  "archive_assembly_not_reviewed": true,
+  "documentation_notes": [
+    "Use --jobs 1 and Python -O with spaces.",
+    "Final archive manifest and archive verification helper are the parent assembly gate."
+  ],
+  "review_scope": "Limited model-agent source and exact bookkeeping review; current full replay receipts are bound, not newly executed by this reviewer."
+}

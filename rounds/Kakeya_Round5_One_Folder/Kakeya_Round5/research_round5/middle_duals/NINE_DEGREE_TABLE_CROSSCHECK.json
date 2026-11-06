@@ -1,0 +1,77 @@
+{
+  "status": "PASS_SEPARATE_DIRECT_SET_GEOMETRY_CROSSCHECK",
+  "normalized_nine_sets": 2930,
+  "rank_counts": {
+    "4": 330,
+    "5": 2600
+  },
+  "geometry_types": [
+    {
+      "missing": 3,
+      "outside_degree_counts": {
+        "0": 1,
+        "1": 18,
+        "2": 3,
+        "3": 1
+      },
+      "normalized_multiplicity": 260
+    },
+    {
+      "missing": 4,
+      "outside_degree_counts": {
+        "0": 7,
+        "2": 12,
+        "3": 4
+      },
+      "normalized_multiplicity": 750
+    },
+    {
+      "missing": 6,
+      "outside_degree_counts": {
+        "0": 3,
+        "2": 12,
+        "3": 2,
+        "4": 6
+      },
+      "normalized_multiplicity": 660
+    },
+    {
+      "missing": 8,
+      "outside_degree_counts": {
+        "1": 8,
+        "2": 2,
+        "4": 9,
+        "6": 4
+      },
+      "normalized_multiplicity": 810
+    },
+    {
+      "missing": 9,
+      "outside_degree_counts": {
+        "2": 15,
+        "6": 7,
+        "9": 1
+      },
+      "normalized_multiplicity": 60
+    },
+    {
+      "missing": 10,
+      "outside_degree_counts": {
+        "0": 1,
+        "3": 8,
+        "4": 12,
+        "9": 2
+      },
+      "normalized_multiplicity": 60
+    },
+    {
+      "missing": 16,
+      "outside_degree_counts": {
+        "0": 7,
+        "9": 16
+      },
+      "normalized_multiplicity": 330
+    }
+  ],
+  "scope": "Verifies the geometry table by complete affine-basis normalization and direct set differences; does not replay the full resource-profile cut list."
+}

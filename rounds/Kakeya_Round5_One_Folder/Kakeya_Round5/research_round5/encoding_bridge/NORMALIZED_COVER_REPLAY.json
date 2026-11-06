@@ -1,0 +1,414 @@
+{
+  "status": "PASS_COMPLETE_38_CASE_COVER_WITHOUT_INHERITED_CATALOGUE",
+  "candidate_cases": 38,
+  "marked_cases_by_support": {
+    "11": 13,
+    "12": 25
+  },
+  "normalized_sets_checked": 296010,
+  "normalized_all": {
+    "11": 65780,
+    "12": 230230
+  },
+  "normalized_covering": {
+    "11": 7676,
+    "12": 94648
+  },
+  "explicit_linear_map_witnesses": 102324,
+  "missing_normalized_covering_sets": 0,
+  "cross_case_normalized_orbit_overlaps": 0,
+  "exact_marked_orbit_sizes": [
+    {
+      "case_id": "s11_orbit65_hub0",
+      "ordered_bases": 10080,
+      "linear_automorphisms": 1008,
+      "normalized_orbit_size": 10
+    },
+    {
+      "case_id": "s11_orbit65_hub1",
+      "ordered_bases": 16800,
+      "linear_automorphisms": 336,
+      "normalized_orbit_size": 50
+    },
+    {
+      "case_id": "s11_orbit65_hub2",
+      "ordered_bases": 11520,
+      "linear_automorphisms": 144,
+      "normalized_orbit_size": 80
+    },
+    {
+      "case_id": "s11_orbit66_hub0",
+      "ordered_bases": 13920,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 290
+    },
+    {
+      "case_id": "s11_orbit66_hub1",
+      "ordered_bases": 14880,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 310
+    },
+    {
+      "case_id": "s11_orbit66_hub2",
+      "ordered_bases": 14400,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 1800
+    },
+    {
+      "case_id": "s11_orbit66_hub7",
+      "ordered_bases": 16320,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 340
+    },
+    {
+      "case_id": "s11_orbit66_hub16",
+      "ordered_bases": 19200,
+      "linear_automorphisms": 24,
+      "normalized_orbit_size": 800
+    },
+    {
+      "case_id": "s11_orbit69_hub0",
+      "ordered_bases": 17280,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 2160
+    },
+    {
+      "case_id": "s11_orbit69_hub1",
+      "ordered_bases": 16200,
+      "linear_automorphisms": 12,
+      "normalized_orbit_size": 1350
+    },
+    {
+      "case_id": "s11_orbit69_hub20",
+      "ordered_bases": 18720,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 390
+    },
+    {
+      "case_id": "s11_orbit70_hub0",
+      "ordered_bases": 16320,
+      "linear_automorphisms": 192,
+      "normalized_orbit_size": 85
+    },
+    {
+      "case_id": "s11_orbit70_hub15",
+      "ordered_bases": 21120,
+      "linear_automorphisms": 1920,
+      "normalized_orbit_size": 11
+    },
+    {
+      "case_id": "s12_orbit79_hub0",
+      "ordered_bases": 21120,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 440
+    },
+    {
+      "case_id": "s12_orbit79_hub1",
+      "ordered_bases": 25920,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 540
+    },
+    {
+      "case_id": "s12_orbit79_hub4",
+      "ordered_bases": 23040,
+      "linear_automorphisms": 16,
+      "normalized_orbit_size": 1440
+    },
+    {
+      "case_id": "s12_orbit79_hub16",
+      "ordered_bases": 32160,
+      "linear_automorphisms": 48,
+      "normalized_orbit_size": 670
+    },
+    {
+      "case_id": "s12_orbit80_hub0",
+      "ordered_bases": 24000,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 3000
+    },
+    {
+      "case_id": "s12_orbit80_hub4",
+      "ordered_bases": 25920,
+      "linear_automorphisms": 16,
+      "normalized_orbit_size": 1620
+    },
+    {
+      "case_id": "s12_orbit80_hub8",
+      "ordered_bases": 24720,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 3090
+    },
+    {
+      "case_id": "s12_orbit80_hub16",
+      "ordered_bases": 33600,
+      "linear_automorphisms": 16,
+      "normalized_orbit_size": 2100
+    },
+    {
+      "case_id": "s12_orbit85_hub0",
+      "ordered_bases": 25920,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 3240
+    },
+    {
+      "case_id": "s12_orbit85_hub1",
+      "ordered_bases": 27360,
+      "linear_automorphisms": 4,
+      "normalized_orbit_size": 6840
+    },
+    {
+      "case_id": "s12_orbit85_hub2",
+      "ordered_bases": 28800,
+      "linear_automorphisms": 4,
+      "normalized_orbit_size": 7200
+    },
+    {
+      "case_id": "s12_orbit85_hub6",
+      "ordered_bases": 30720,
+      "linear_automorphisms": 4,
+      "normalized_orbit_size": 7680
+    },
+    {
+      "case_id": "s12_orbit85_hub8",
+      "ordered_bases": 27600,
+      "linear_automorphisms": 2,
+      "normalized_orbit_size": 13800
+    },
+    {
+      "case_id": "s12_orbit85_hub18",
+      "ordered_bases": 32640,
+      "linear_automorphisms": 8,
+      "normalized_orbit_size": 4080
+    },
+    {
+      "case_id": "s12_orbit86_hub0",
+      "ordered_bases": 27720,
+      "linear_automorphisms": 4,
+      "normalized_orbit_size": 6930
+    },
+    {
+      "case_id": "s12_orbit86_hub4",
+      "ordered_bases": 29400,
+      "linear_automorphisms": 2,
+      "normalized_orbit_size": 14700
+    },
+    {
+      "case_id": "s12_orbit86_hub16",
+      "ordered_bases": 31320,
+      "linear_automorphisms": 4,
+      "normalized_orbit_size": 7830
+    },
+    {
+      "case_id": "s12_orbit87_hub0",
+      "ordered_bases": 26880,
+      "linear_automorphisms": 96,
+      "normalized_orbit_size": 280
+    },
+    {
+      "case_id": "s12_orbit87_hub1",
+      "ordered_bases": 29280,
+      "linear_automorphisms": 24,
+      "normalized_orbit_size": 1220
+    },
+    {
+      "case_id": "s12_orbit87_hub4",
+      "ordered_bases": 27840,
+      "linear_automorphisms": 16,
+      "normalized_orbit_size": 1740
+    },
+    {
+      "case_id": "s12_orbit87_hub16",
+      "ordered_bases": 34560,
+      "linear_automorphisms": 96,
+      "normalized_orbit_size": 360
+    },
+    {
+      "case_id": "s12_orbit89_hub0",
+      "ordered_bases": 29520,
+      "linear_automorphisms": 10,
+      "normalized_orbit_size": 2952
+    },
+    {
+      "case_id": "s12_orbit90_hub0",
+      "ordered_bases": 30240,
+      "linear_automorphisms": 16,
+      "normalized_orbit_size": 1890
+    },
+    {
+      "case_id": "s12_orbit90_hub2",
+      "ordered_bases": 31680,
+      "linear_automorphisms": 32,
+      "normalized_orbit_size": 990
+    },
+    {
+      "case_id": "s12_orbit91_hub0",
+      "ordered_bases": 30720,
+      "linear_automorphisms": 1920,
+      "normalized_orbit_size": 16
+    }
+  ],
+  "by_case": [
+    {
+      "case_id": "s11_orbit65_hub0",
+      "normalized_witnesses": 10
+    },
+    {
+      "case_id": "s11_orbit65_hub1",
+      "normalized_witnesses": 50
+    },
+    {
+      "case_id": "s11_orbit65_hub2",
+      "normalized_witnesses": 80
+    },
+    {
+      "case_id": "s11_orbit66_hub0",
+      "normalized_witnesses": 290
+    },
+    {
+      "case_id": "s11_orbit66_hub1",
+      "normalized_witnesses": 310
+    },
+    {
+      "case_id": "s11_orbit66_hub2",
+      "normalized_witnesses": 1800
+    },
+    {
+      "case_id": "s11_orbit66_hub7",
+      "normalized_witnesses": 340
+    },
+    {
+      "case_id": "s11_orbit66_hub16",
+      "normalized_witnesses": 800
+    },
+    {
+      "case_id": "s11_orbit69_hub0",
+      "normalized_witnesses": 2160
+    },
+    {
+      "case_id": "s11_orbit69_hub1",
+      "normalized_witnesses": 1350
+    },
+    {
+      "case_id": "s11_orbit69_hub20",
+      "normalized_witnesses": 390
+    },
+    {
+      "case_id": "s11_orbit70_hub0",
+      "normalized_witnesses": 85
+    },
+    {
+      "case_id": "s11_orbit70_hub15",
+      "normalized_witnesses": 11
+    },
+    {
+      "case_id": "s12_orbit79_hub0",
+      "normalized_witnesses": 440
+    },
+    {
+      "case_id": "s12_orbit79_hub1",
+      "normalized_witnesses": 540
+    },
+    {
+      "case_id": "s12_orbit79_hub4",
+      "normalized_witnesses": 1440
+    },
+    {
+      "case_id": "s12_orbit79_hub16",
+      "normalized_witnesses": 670
+    },
+    {
+      "case_id": "s12_orbit80_hub0",
+      "normalized_witnesses": 3000
+    },
+    {
+      "case_id": "s12_orbit80_hub4",
+      "normalized_witnesses": 1620
+    },
+    {
+      "case_id": "s12_orbit80_hub8",
+      "normalized_witnesses": 3090
+    },
+    {
+      "case_id": "s12_orbit80_hub16",
+      "normalized_witnesses": 2100
+    },
+    {
+      "case_id": "s12_orbit85_hub0",
+      "normalized_witnesses": 3240
+    },
+    {
+      "case_id": "s12_orbit85_hub1",
+      "normalized_witnesses": 6840
+    },
+    {
+      "case_id": "s12_orbit85_hub2",
+      "normalized_witnesses": 7200
+    },
+    {
+      "case_id": "s12_orbit85_hub6",
+      "normalized_witnesses": 7680
+    },
+    {
+      "case_id": "s12_orbit85_hub8",
+      "normalized_witnesses": 13800
+    },
+    {
+      "case_id": "s12_orbit85_hub18",
+      "normalized_witnesses": 4080
+    },
+    {
+      "case_id": "s12_orbit86_hub0",
+      "normalized_witnesses": 6930
+    },
+    {
+      "case_id": "s12_orbit86_hub4",
+      "normalized_witnesses": 14700
+    },
+    {
+      "case_id": "s12_orbit86_hub16",
+      "normalized_witnesses": 7830
+    },
+    {
+      "case_id": "s12_orbit87_hub0",
+      "normalized_witnesses": 280
+    },
+    {
+      "case_id": "s12_orbit87_hub1",
+      "normalized_witnesses": 1220
+    },
+    {
+      "case_id": "s12_orbit87_hub4",
+      "normalized_witnesses": 1740
+    },
+    {
+      "case_id": "s12_orbit87_hub16",
+      "normalized_witnesses": 360
+    },
+    {
+      "case_id": "s12_orbit89_hub0",
+      "normalized_witnesses": 2952
+    },
+    {
+      "case_id": "s12_orbit90_hub0",
+      "normalized_witnesses": 1890
+    },
+    {
+      "case_id": "s12_orbit90_hub2",
+      "normalized_witnesses": 990
+    },
+    {
+      "case_id": "s12_orbit91_hub0",
+      "normalized_witnesses": 16
+    }
+  ],
+  "catalogue_completeness_dependency": false,
+  "mathematical_normalization": "A difference-covering support spans F2^5. Translate a distinguished maximum-weight vertex to 0; select a linear basis from the support and send it to the coordinate basis. Every normalized support is exhaustively checked here.",
+  "orbit_size_argument": "For each marked support, ordered source bases map it to supports containing the coordinate basis. Every resulting support has exactly the linear automorphism group size many such source bases. Both counts are independently recomputed; each supplied mask belongs to the claimed orbit and the supplied count exhausts its entire normalized orbit. The unique mask assignment therefore also proves the 38 orbits disjoint.",
+  "scope": "This proves the 38 representatives cover all hub-marked difference-covering supports of sizes 11/12. It does not verify Claude CNFs, proofs, A-E, or the inherited restriction of maximum 19 to these support sizes.",
+  "sha256": {
+    "M19_MARKED_CASE_CONTRACT.json": "8d6b60a180c3cefe124e8de47b3c308f840bad9b1b3d1b8b55764ff9f19a5118",
+    "NORMALIZED_SUPPORT_TO_CASE.csv": "d7bbb75c95bea1f88f8948839867cd85858562ba278a422f5b79117ae5cb750d",
+    "verify_marked_cover.py": "66e3f29d8a48b303033d2287c2e584299f15039d43da496c4bcea758c56932a9"
+  },
+  "seconds": 7.423783
+}

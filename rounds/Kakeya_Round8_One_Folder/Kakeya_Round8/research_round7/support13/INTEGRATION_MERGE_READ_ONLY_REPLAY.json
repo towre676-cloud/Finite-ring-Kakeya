@@ -1,0 +1,23 @@
+{
+  "status": "PASS_READ_ONLY_BOUND_FRONTIER_MERGE_EXECUTION",
+  "source_hashes": {
+    "research_round7/bind_completed_replays.py": "95a1a3fbf1e57654f6941744cd547dd9bcfacc6a9feb7245fa5f5c02524b104f",
+    "research_round7/merge_round7.py": "e04fe472ffbb77913145e8f5cf5b64a350028cd8d89ad37610af49c6691767f8"
+  },
+  "publications_redirected_to_memory": true,
+  "global_receipts_or_frontier_written": false,
+  "full_proof_checker_invoked": false,
+  "merged_receipt": {
+    "status": "PASS_EXACT_ROUND7_FRONTIER_ACCOUNTING",
+    "frontier_sha256": "bd68ff87f3fc47f72b42657553d4265e03dc8bee1abb9a1097bb42b67759e9f6",
+    "whole_weight_profiles_excluded": 3006,
+    "middle_weight_profiles_remaining": 183476,
+    "maximum11_affine_classes_remaining": 45,
+    "support13_joint_marked_cases_closed": 28,
+    "dimension4_remains_open": true,
+    "dimension5_remains_open": true,
+    "source_sha256": "e04fe472ffbb77913145e8f5cf5b64a350028cd8d89ad37610af49c6691767f8"
+  },
+  "profile_and_marked_case_units_kept_separate": true,
+  "seconds": 5.140603
+}

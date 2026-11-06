@@ -1,0 +1,79 @@
+{
+  "status": "PASS_NESTED_PROCESS_GROUP_RESOURCE_CONTROLS",
+  "cases": [
+    {
+      "mode": "guard",
+      "status": "PASS",
+      "result": {
+        "solver_returncode": -9,
+        "stop_reason": "PROOF_SIZE_GUARD",
+        "solve_seconds": 0.202126,
+        "process_supervision": {
+          "process_group_id": 5,
+          "whole_process_group_confirmed_absent": true,
+          "kill_signals_sent": 1,
+          "adopted_descendants_reaped": [
+            {
+              "pid": 6,
+              "wait_status": 9
+            }
+          ]
+        },
+        "last_observed_live_drat_bytes": {
+          "search_solver.drat": 1572864
+        },
+        "proof_size_guard_counts_all_live_drat_files": true
+      },
+      "proof_bytes_after_stop": 1572864
+    },
+    {
+      "mode": "orphan",
+      "status": "PASS",
+      "result": {
+        "solver_returncode": 0,
+        "stop_reason": null,
+        "solve_seconds": 0.250945,
+        "process_supervision": {
+          "process_group_id": 7,
+          "whole_process_group_confirmed_absent": true,
+          "kill_signals_sent": 1,
+          "adopted_descendants_reaped": [
+            {
+              "pid": 8,
+              "wait_status": 9
+            }
+          ]
+        },
+        "last_observed_live_drat_bytes": {},
+        "proof_size_guard_counts_all_live_drat_files": true
+      },
+      "proof_bytes_after_stop": 1572864
+    },
+    {
+      "mode": "wall",
+      "status": "PASS",
+      "result": {
+        "solver_returncode": -9,
+        "stop_reason": "WALL_TIMEOUT",
+        "solve_seconds": 2.205168,
+        "process_supervision": {
+          "process_group_id": 9,
+          "whole_process_group_confirmed_absent": true,
+          "kill_signals_sent": 1,
+          "adopted_descendants_reaped": [
+            {
+              "pid": 10,
+              "wait_status": 9
+            }
+          ]
+        },
+        "last_observed_live_drat_bytes": {},
+        "proof_size_guard_counts_all_live_drat_files": true
+      },
+      "proof_bytes_after_stop": 0
+    }
+  ],
+  "producer_sha256": "5ce133998d254aebcb48072fdf8cf961855cbd97b55bd7ae46a17ee106bce4d0",
+  "retained_v1_producer_sha256": "c8a38be609dda40a67d69ddfc7ee1643513d65ebf654223ba6226e81b9d0fd5d",
+  "seconds": 2.962225
+}

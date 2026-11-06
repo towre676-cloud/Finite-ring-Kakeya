@@ -1,0 +1,23 @@
+User-supplied status, received in this conversation on2026-10-28.
+This is a report from another session, not a live tool observation here.
+
+The maximum-19 stratum is reported settled on its open supports:
+all38 support-11/12 orbits are excluded by checked DRAT proofs.
+The inherited reduction restricts maximum19 to these supports, so the
+reported result excludes all3,798 Round3 tracked profiles, every
+placement and fibre shape, in both rings, without the outer-weight14 cap.
+
+The user explicitly identifies the trust obligations: correctness of
+the CNF encoder for conditions(A)-(E), supported by soundness tests but
+not proved; and the other session's own DRAT checker, not a proof-assistant
+formalization. Longest instance reportedly took20minutes including checking.
+
+Reported output path:
+/home/user/kakeya_round4/results/m19_s11_12.jsonl
+
+This path does not exist in the current environment. No new38-case
+CNF, DRAT, JSONL log, or exact A-E source was available for this package.
+
+Last reported running work: exploratory maximum19 sweep over other
+support sizes, and maxima11..18 sweep with191 of8,904 cases completed,
+all UNSAT. These figures have not been refreshed or projected here.

@@ -1,0 +1,1 @@
+{"status": "PASS_RUP_UNIT_PREPROCESSING_CONTROLS", "truth_table_formulas": 1000, "formulas_with_added_units": 105, "seconds": 1.374813}

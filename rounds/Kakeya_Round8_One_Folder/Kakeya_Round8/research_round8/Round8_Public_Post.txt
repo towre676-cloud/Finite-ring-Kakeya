@@ -1,0 +1,13 @@
+We have a new, reproducible exclusion in a finite-ring Kakeya problem.
+
+The setting is five dimensions over the integers modulo four or the binary dual-number ring. A Kakeya set must contain a line in every primitive direction. A 94-point construction is known; the goal is to prove that 93 points cannot suffice.
+
+The natural reduction to binary residues groups points into 32 fibres; the active support counts fibres containing at least two points.
+
+**We have closed the maximum-fibre-11, active-support-13 branch in both rings.** Four remaining marked cases now have refutation proofs checked against their exact Boolean formulas. Together with the inherited reductions, this covers every fibre shape and every position of a largest fibre in that branch.
+
+The useful mathematical advance is a way to track shared resources. Edges in a fixed direction must use distinct partners. Across three missing directions, the same fibre also has a limited total contribution. These observations yield short integer certificates: in one 93-point profile, coverage needs 48 units but the geometry supplies at most 46.
+
+The new incidence and price inequalities exclude **950 complete weight profiles**, including cases with maximum fibre 18. Their certificates require no full fibre-spectrum census; the price tables come from just 276 small cube subsets and exact coset calculations.
+
+**The full 94-point lower bound remains open.** There are 42 open maximum-11 support classes and 182,526 middle-maximum profiles. The Boolean proofs are checked; the entire mathematical reduction and Python encoding are not yet formalized in a proof assistant. Code, certificates, the precise remaining frontier, and a replay script are preserved in one checkpoint.

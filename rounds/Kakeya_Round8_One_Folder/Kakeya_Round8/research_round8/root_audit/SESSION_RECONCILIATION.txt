@@ -1,0 +1,43 @@
+Round8 continuity and scope reconciliation
+=========================================
+
+The starting checkpoint for this attack is the complete Round7 archive,
+not the older Round4 status pasted earlier in the conversation.  The
+unchanged starting ledger is Kakeya_Research_Frontier_Round7.json.
+
+The reported Round4 maximum-nineteen result is already incorporated in
+that checkpoint: all38 relevant marked support11/12 cases have fresh
+certifications against the packaged encoder, with the inherited support
+reduction still explicit.  The old outer-weight-fourteen cap is not used.
+
+Round7 leaves four exact-maximum-eleven, support-thirteen marked roles:
+377850134,411136406,671697334,2185856310.  They belong respectively to
+affine classes109,111,110,110.  The marking map contains explicit affine
+transports for every largest-fibre placement.  This is the target of
+the new Round8 proof-producing attack.
+
+The historical snippets retrieved from other sessions do not establish
+a newer complete dimension-four closure.  Some reported support-fourteen
+closures concern a maximum-eight branch; they do not close arbitrary
+maxima on support fourteen.  No complete newer artifact binding a claimed
+dimension-four theorem was recovered in this turn.  The audited ledger
+therefore continues to mark the minimum-forty-six dimension-four target
+OPEN, with fourteen of fifty-six exact ring cases certified.
+
+Likewise, access to a historical snapshot does not mean that a remote
+Claude sweep is running in this workspace or that its latest unprovided
+results have been checked.  The supplied archive and results actually
+present here are usable evidence; unseen live jobs are not credited.
+
+Accounting rules continue unchanged: timeouts exclude nothing; a marked
+case fixes a largest-fibre residue; partial placement coverage does not
+remove whole middle-maximum weight profiles; multiple model agents are
+not independent human referees.  The final Round8 ledger is generated
+from accepted proof receipts and explicit coverage reconciliation.
+
+Primary local references:
+  Kakeya_Research_Frontier_Round7.json
+  research_round7/geometry/SUPPORT13_MARKING_MAP.json
+  research_round7/support13/SUPPORT13_CERTIFICATE_MANIFEST.json
+  research_round7/compact_support13/COMPACT_SUPPORT13_REPLAY.json
+  research_round7/dimension4_compact/COMPACT_DIMENSION4_REPLAY.json

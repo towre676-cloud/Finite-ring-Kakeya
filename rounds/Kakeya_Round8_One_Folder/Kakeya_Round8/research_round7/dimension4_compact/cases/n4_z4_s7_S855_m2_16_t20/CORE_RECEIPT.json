@@ -1,0 +1,131 @@
+{
+  "status": "PASS_COMPACT_DIMENSION4_DRAT_AGAINST_ORIGINAL_CNF",
+  "case_id": "n4_z4_s7_S855_m2_16_t20",
+  "original_case": {
+    "case_id": "n4_z4_s7_S855_m2_16_t20",
+    "parameters": {
+      "case_id": "n4_z4_s7_S855_m2_16_t20",
+      "dimension": 4,
+      "ring": "z4",
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "maximum": 16,
+      "hub_min": 2,
+      "total": 45,
+      "normalize": true,
+      "purpose": "dimension4_complete_catalogue_bounded_search",
+      "catalogue_full_mask": 855
+    },
+    "status": "PASS_EXACT_RING_UNSAT_CAKEML",
+    "receipt_sha256": "be67be452d27655ae8f823d8f70e19abb5ff14e273e970224009c71d105c7151",
+    "storage": {
+      "input.cnf": {
+        "logical_path": "/tmp/kakeya_exact_ring_uyhb0a98/input.cnf",
+        "compressed_path": "/tmp/kakeya_exact_ring_uyhb0a98/input.cnf.xz",
+        "raw_sha256": "53aa58fb711b36aa8e2630fffe9085252aa769ca3e90b3717174e1bfe859c207",
+        "raw_bytes": 213522,
+        "xz_sha256": "f7450691d9c04f7b9041d9e6fa957f7ad002a9978e8ef5715309b3f1dc424566",
+        "xz_bytes": 30552,
+        "raw_present": false,
+        "compression": "xz",
+        "preset": 1,
+        "round_trip_sha256": "53aa58fb711b36aa8e2630fffe9085252aa769ca3e90b3717174e1bfe859c207"
+      },
+      "proof.drat": {
+        "logical_path": "/tmp/kakeya_exact_ring_uyhb0a98/proof.drat",
+        "compressed_path": "/tmp/kakeya_exact_ring_uyhb0a98/proof.drat.xz",
+        "raw_sha256": "04011a0bf68243aab619b320c6aee8f7986e9b68319df1a7875982ee252345db",
+        "raw_bytes": 3693321,
+        "xz_sha256": "70848bebc4172eb0588b3eed1445a16bb886896b3de6b199600935d898133654",
+        "xz_bytes": 843376,
+        "raw_present": false,
+        "compression": "xz",
+        "preset": 1,
+        "round_trip_sha256": "04011a0bf68243aab619b320c6aee8f7986e9b68319df1a7875982ee252345db"
+      }
+    },
+    "cnf_sha256": "53aa58fb711b36aa8e2630fffe9085252aa769ca3e90b3717174e1bfe859c207",
+    "proof_sha256": "04011a0bf68243aab619b320c6aee8f7986e9b68319df1a7875982ee252345db"
+  },
+  "source_inventory_sha256_at_production": "2f81a54870d845134c1f1dcc34ded524f181c225726cbbdaeb54d06b29f09650",
+  "core_sha256": "8741d2a76076d4b62ea15c90bd993d8930207ef9f40fa163d25e9df3b0ce20e6",
+  "core_raw_bytes": 1298341,
+  "storage": {
+    "logical_path": "/tmp/kakeya_n4_core_9rh3ovwv/core.drat",
+    "compressed_path": "/tmp/kakeya_n4_core_9rh3ovwv/core.drat.xz",
+    "raw_sha256": "8741d2a76076d4b62ea15c90bd993d8930207ef9f40fa163d25e9df3b0ce20e6",
+    "raw_bytes": 1298341,
+    "xz_sha256": "f1ed9914055978dff413b4430f2eca30419802a9642db975d86f21ea5c533e0d",
+    "xz_bytes": 203324,
+    "raw_present": false,
+    "compression": "xz",
+    "preset": 6,
+    "round_trip_sha256": "8741d2a76076d4b62ea15c90bd993d8930207ef9f40fa163d25e9df3b0ce20e6"
+  },
+  "original_proof_compressed_bytes": 843376,
+  "formula_regeneration": {
+    "variables": 2796,
+    "clauses": 14096,
+    "cnf_sha256": "53aa58fb711b36aa8e2630fffe9085252aa769ca3e90b3717174e1bfe859c207"
+  },
+  "trim": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 0.415474,
+    "stdout_file": "trim.stdout.txt",
+    "stdout_sha256": "b6329e9aec1000d8626eb952156c5758d4d0d674830a40949abdc2595991ce2e",
+    "stderr_file": "trim.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 2796,
+      "clauses": 14096
+    },
+    "input_sha256": {
+      "cnf": "53aa58fb711b36aa8e2630fffe9085252aa769ca3e90b3717174e1bfe859c207",
+      "drat": "8741d2a76076d4b62ea15c90bd993d8930207ef9f40fa163d25e9df3b0ce20e6"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 0.315155,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "47cd0e2a41296a5248e2b599e479388c089705e586d347de7ee826aafe22af3d",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "cd716d762ae8eac559b8faa72eb69c532cf409c12dd95d5d828f9c2dc0e0bf75",
+    "lrat_bytes": 3958711,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 0.265024,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "original_cnf_used_without_added_axioms": true,
+  "original_proof_payload_required_for_replay": false,
+  "producer_sha256": "d7a4d76c3ae9aaf9887ebfe2d7605c6d282bc36e472b6253d2df11c53336522a",
+  "seconds": 1.511798
+}

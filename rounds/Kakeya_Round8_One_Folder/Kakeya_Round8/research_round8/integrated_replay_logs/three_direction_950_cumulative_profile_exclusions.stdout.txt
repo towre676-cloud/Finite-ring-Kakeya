@@ -1,0 +1,45 @@
+{
+  "status": "PASS_THREE_DIRECTION_PROFILE_REPLAY",
+  "original_profiles": 183476,
+  "previously_excluded_profiles": 745,
+  "newly_excluded_profiles": 205,
+  "cumulative_excluded_profiles": 950,
+  "remaining_profiles": 182526,
+  "by_support": {
+    "13": {
+      "original": 85340,
+      "previously_excluded": 392,
+      "newly_excluded": 2,
+      "cumulative_excluded": 394,
+      "remaining": 84946
+    },
+    "14": {
+      "original": 74373,
+      "previously_excluded": 220,
+      "newly_excluded": 114,
+      "cumulative_excluded": 334,
+      "remaining": 74039
+    },
+    "15": {
+      "original": 19514,
+      "previously_excluded": 88,
+      "newly_excluded": 64,
+      "cumulative_excluded": 152,
+      "remaining": 19362
+    },
+    "16": {
+      "original": 3853,
+      "previously_excluded": 38,
+      "newly_excluded": 22,
+      "cumulative_excluded": 60,
+      "remaining": 3793
+    },
+    "17": {
+      "original": 396,
+      "previously_excluded": 7,
+      "newly_excluded": 3,
+      "cumulative_excluded": 10,
+      "remaining": 386
+    }
+  }
+}

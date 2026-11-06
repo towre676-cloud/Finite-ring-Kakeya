@@ -1,0 +1,463 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_MULTI_PRICE_REPLAY",
+  "input_profiles": 275755,
+  "additional_disjoint_profile_exclusions": 240,
+  "remaining_weight_profiles": 275515,
+  "newly_empty_cells": [],
+  "remaining_nonempty_cells": 55,
+  "local_rows_recomputed": 75,
+  "price_denominators": {
+    "1": 240
+  },
+  "minimum_doubled_gap": 2.0,
+  "records": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "input": 178,
+      "cuts": 0,
+      "remaining": 178
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "input": 332,
+      "cuts": 0,
+      "remaining": 332
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "input": 528,
+      "cuts": 0,
+      "remaining": 528
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "input": 581,
+      "cuts": 0,
+      "remaining": 581
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "input": 615,
+      "cuts": 0,
+      "remaining": 615
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "input": 554,
+      "cuts": 0,
+      "remaining": 554
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "input": 432,
+      "cuts": 0,
+      "remaining": 432
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "input": 1600,
+      "cuts": 0,
+      "remaining": 1600
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "input": 2488,
+      "cuts": 0,
+      "remaining": 2488
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "input": 3739,
+      "cuts": 0,
+      "remaining": 3739
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "input": 4029,
+      "cuts": 0,
+      "remaining": 4029
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "input": 5153,
+      "cuts": 0,
+      "remaining": 5153
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "input": 4395,
+      "cuts": 0,
+      "remaining": 4395
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "input": 3304,
+      "cuts": 0,
+      "remaining": 3304
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "input": 5249,
+      "cuts": 0,
+      "remaining": 5249
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "input": 7224,
+      "cuts": 0,
+      "remaining": 7224
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "input": 10044,
+      "cuts": 0,
+      "remaining": 10044
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "input": 9994,
+      "cuts": 0,
+      "remaining": 9994
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "input": 12242,
+      "cuts": 0,
+      "remaining": 12242
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "input": 9547,
+      "cuts": 0,
+      "remaining": 9547
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "input": 6748,
+      "cuts": 0,
+      "remaining": 6748
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "input": 10220,
+      "cuts": 0,
+      "remaining": 10220
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "input": 12033,
+      "cuts": 0,
+      "remaining": 12033
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "input": 15648,
+      "cuts": 13,
+      "remaining": 15635
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "input": 13653,
+      "cuts": 12,
+      "remaining": 13641
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "input": 16279,
+      "cuts": 17,
+      "remaining": 16262
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "input": 11166,
+      "cuts": 12,
+      "remaining": 11154
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "input": 6914,
+      "cuts": 0,
+      "remaining": 6914
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "input": 12872,
+      "cuts": 11,
+      "remaining": 12861
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "input": 11677,
+      "cuts": 11,
+      "remaining": 11666
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "input": 15410,
+      "cuts": 9,
+      "remaining": 15401
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "input": 10842,
+      "cuts": 6,
+      "remaining": 10836
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "input": 14043,
+      "cuts": 38,
+      "remaining": 14005
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "input": 7439,
+      "cuts": 24,
+      "remaining": 7415
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "input": 3582,
+      "cuts": 0,
+      "remaining": 3582
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "input": 5390,
+      "cuts": 10,
+      "remaining": 5380
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "input": 3002,
+      "cuts": 6,
+      "remaining": 2996
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "input": 4194,
+      "cuts": 3,
+      "remaining": 4191
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "input": 2185,
+      "cuts": 1,
+      "remaining": 2184
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "input": 4110,
+      "cuts": 22,
+      "remaining": 4088
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "input": 1234,
+      "cuts": 11,
+      "remaining": 1223
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "input": 376,
+      "cuts": 0,
+      "remaining": 376
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "input": 1260,
+      "cuts": 5,
+      "remaining": 1255
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "input": 512,
+      "cuts": 3,
+      "remaining": 509
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "input": 770,
+      "cuts": 4,
+      "remaining": 766
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "input": 374,
+      "cuts": 1,
+      "remaining": 373
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "input": 907,
+      "cuts": 9,
+      "remaining": 898
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "input": 209,
+      "cuts": 3,
+      "remaining": 206
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "input": 44,
+      "cuts": 0,
+      "remaining": 44
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "input": 151,
+      "cuts": 3,
+      "remaining": 148
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "input": 46,
+      "cuts": 1,
+      "remaining": 45
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "input": 86,
+      "cuts": 1,
+      "remaining": 85
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "input": 42,
+      "cuts": 0,
+      "remaining": 42
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "input": 95,
+      "cuts": 3,
+      "remaining": 92
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "input": 14,
+      "cuts": 1,
+      "remaining": 13
+    }
+  ],
+  "supports": [
+    {
+      "support": 10,
+      "input": 3220,
+      "cuts": 0,
+      "remaining": 3220
+    },
+    {
+      "support": 11,
+      "input": 24708,
+      "cuts": 0,
+      "remaining": 24708
+    },
+    {
+      "support": 12,
+      "input": 61048,
+      "cuts": 0,
+      "remaining": 61048
+    },
+    {
+      "support": 13,
+      "input": 85913,
+      "cuts": 54,
+      "remaining": 85859
+    },
+    {
+      "support": 14,
+      "input": 75865,
+      "cuts": 99,
+      "remaining": 75766
+    },
+    {
+      "support": 15,
+      "input": 20491,
+      "cuts": 53,
+      "remaining": 20438
+    },
+    {
+      "support": 16,
+      "input": 4076,
+      "cuts": 25,
+      "remaining": 4051
+    },
+    {
+      "support": 17,
+      "input": 434,
+      "cuts": 9,
+      "remaining": 425
+    }
+  ],
+  "validity_scope": "Nonnegative prices at all nine selected heavy vertices with total price<=32; common local pair and maximal-direction budgets; exact rational upper bounds below96 extrapolate to every missing count r>=3.",
+  "optimization_scope": "The certificate checker proves every credited exclusion. It does not trust the floating optimizer and does not claim optimality of its results on surviving profiles.",
+  "remaining_object_type": "Weight-profile relaxation survivors, not residue placements, compatible shapes, or Kakeya constructions.",
+  "dependencies": {
+    "research_round4/middle_inventory/after_priced_nine_survivors.txt": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "research_round5/middle_duals/FULL_MULTI_PRICE_CUTS.jsonl": "db63fa5376288828a0e2fa9f61daca6bc0c98f4691d50ec97801fe316b4c1460",
+    "research_round5/middle_duals/FULL_MULTI_PRICE_PRODUCER.json": "967d2f653aa23978803fd9baeeb6ea5de0ecbbcd16fa7e966e37ab7e48b5b411",
+    "research_round5/middle_duals/full_after_multi_price_survivors.txt": "bab2a33996acb240f09c5cbec2bb7c610e0f99859bb1f019a3fd8f245c10a5a1",
+    "research_round5/middle_duals/verify_multi_prices.py": "3dd90e69f34c0064bd5e7348f4e2d55bc080e77bd38aea9a38f6e80be1ce38c9",
+    "research_round3/middle/RESOURCE_COMPATIBILITY_LEMMAS.md": "f696a11c0aad30df7b2734be13c662c2869fc1ca0a35df382b44296092722046",
+    "research_round2/middle/DIFFERENCE_AND_LIGHT_RESOURCE_LEMMAS.md": "4010bff366d52a7a5462672cc3338e56aef4b644a0ee48887e1cad63664cbff0"
+  },
+  "seconds": 0.787
+}

@@ -1,0 +1,171 @@
+{
+  "status": "PASS_STANDALONE_ENERGY12_AUDIT",
+  "theorem": "Every binary twelve-point set has Q<=300, with equality exactly an affine4-flat minus an affine plane.",
+  "analytic_rank5_bound": 222,
+  "analytic_higher_rank_bound": 252,
+  "proof": "ENERGY12_ANALYTIC_PROOF.md",
+  "enumeration": {
+    "status": "PASS",
+    "scope": "all twelve-point subsets of F2^5 by affine-basis normalization",
+    "reads_prior_census": false,
+    "ranks": [
+      {
+        "affine_rank": 4,
+        "normalized_sets_checked": 330,
+        "maximum_energy": 300,
+        "maximum_affine_planes": 39,
+        "normalized_maximizers": 25,
+        "witness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "energy_histogram": {
+          "294": 305,
+          "300": 25
+        },
+        "independent_witness_control": {
+          "affine_rank": 4,
+          "energy": 300,
+          "planes": 39,
+          "directional_pair_counts": [
+            6,
+            6,
+            6,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "affine_rank": 5,
+        "normalized_sets_checked": 230230,
+        "maximum_energy": 222,
+        "maximum_affine_planes": 26,
+        "normalized_maximizers": 1050,
+        "witness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          16
+        ],
+        "energy_histogram": {
+          "150": 2880,
+          "156": 33358,
+          "162": 88920,
+          "168": 40950,
+          "174": 20130,
+          "180": 28020,
+          "186": 12000,
+          "198": 1035,
+          "204": 165,
+          "216": 1722,
+          "222": 1050
+        },
+        "independent_witness_control": {
+          "affine_rank": 5,
+          "energy": 222,
+          "planes": 26,
+          "directional_pair_counts": [
+            5,
+            5,
+            5,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "maximum_energy": 300,
+    "total_normalized_sets_checked": 230560,
+    "independent_counters": [
+      "direct unordered-pair differences",
+      "direct affine-plane triple completion"
+    ]
+  },
+  "analytic_occupancy_controls": {
+    "plane_non_cube_max_pairs": 9,
+    "tetrahedron_two_coset_pair_bounds": [
+      18,
+      14,
+      12,
+      12,
+      12,
+      14,
+      18
+    ]
+  },
+  "source_sha256": "edf0841ad008b3b6cbd83ef6fcf2f275ea367f74a7f50d7482c1aba9897a2ead",
+  "proof_sha256": "a407d3543f353249aa8d807f49b2c6315b9d6858ec2582ebf821725400e55af6",
+  "reviewer_scope": "A new model-authored implementation and analytic derivation, not epistemically independent human review or Lean formalization.",
+  "seconds": 0.846316
+}

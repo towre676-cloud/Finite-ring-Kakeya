@@ -1,0 +1,20 @@
+{
+  "status": "PASS_READ_ONLY_CODE_AND_SOUNDNESS_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review",
+  "source_hashes": {
+    "research_round8/strengthened/compact/compact_certificates.py": "fd6b2cda41aa94ac6586c58b7733fd8ec968788ad5aac3a38d130eca12de139d",
+    "research_round8/strengthened/certify_strengthened.py": "c7f727120cc53172239371a5d4a2455132c1af40306ff9113c4c7a35a0b33970",
+    "research_round8/strengthened/verify_certificates.py": "c0730696e09138001528e9cbe2c74c963f5b14069d83c8ce77b4111fc90aae21",
+    "research_round8/strengthened/FROZEN_SOURCES.json": "9b1bab5e9ed13570cce52536f9f61077eb02a88cfbbb1cb5fed324ba5ce7bfa6"
+  },
+  "review_focus": [
+    "Semantic-only source adapter retains exact original scope, frozen sources, receipts, CNFs, stopped-process status and provenance; it makes no UNSAT claim and does not read old DRAT bytes.",
+    "Every core binds the entire original case and is freshly checked by CakeML against the exact original CNF after byte-identical regeneration.",
+    "Published compressed and decoded core bytes are verified; original compressed inputs are rechecked and never rewritten.",
+    "Complete compact inventory must match every original case in its original order. Accepted cases require compact proofs; uncertified cases remain CNF-only.",
+    "Portable replay invokes no SAT solver and opens only original CNFs and new compact proofs. It reruns exact original-CNF CakeML acceptance and repeats source/inventory bindings.",
+    "Final checked coverage counts only freshly accepted refutations. Unaccepted formula regeneration remains explicitly non-excluding."
+  ],
+  "runtime_replay_by_this_reviewer": false,
+  "blocking_issues_found": []
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "n5_z4_s13_T1022358_m2_18_budget93",
+  "parameters": {
+    "case_id": "n5_z4_s13_T1022358_m2_18_budget93",
+    "dimension": 5,
+    "ring": "z4",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "maximum": 18,
+    "hub_min": 2,
+    "total": 93,
+    "normalize": true,
+    "purpose": "new_support13_exact_ring_diagnostic"
+  },
+  "production_status": "TIMEOUT_UNCERTIFIED",
+  "status": "PASS_TIMEOUT_CNF_REGENERATION_NO_EXCLUSION",
+  "exclusion_credited": false,
+  "seconds": 0.138974
+}

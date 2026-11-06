@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_PENDING_MAX12_13_SUPPORT13_ROLE_QUEUE",
+  "counts_by_exact_maximum": {
+    "12": 27,
+    "13": 27
+  },
+  "total_pending_cases": 54,
+  "new_exclusions_credited": 0
+}

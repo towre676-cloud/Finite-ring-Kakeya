@@ -1,0 +1,17 @@
+{
+  "status": "PASS_LIMITED_READ_ONLY_FINAL_DIMENSION4_COMPACT_REVIEW",
+  "source_hashes": {
+    "research_round7/dimension4_compact/compact_dimension4.py": "53085501263d22357c8eefa5e9dc94fdc71a1e884fe91065a1b5c0a8bda8719f",
+    "research_round7/dimension4/verify_dimension4.py": "9fd517f4356c9e4be13ee05a4d411fbf95b0767248d60e6c28bb64c81f6a436a",
+    "research_round7/dimension4_compact/COMPACT_DIMENSION4_MANIFEST.json": "1ed59fe93e643ddf60b4b9483c8c220741bf860fdc8cd027870651f6161ac9e0",
+    "research_round7/dimension4_compact/COMPACT_DIMENSION4_REPLAY.json": "7e63945feba52c8744dd2edda364cd86318d95924d546abb3b7c427fc8ce2e07",
+    "research_round7/dimension4_compact/REPORT_FAILURE_CONTROL.json": "bf85dc597675987996695eb5e9f20c03ffc6fd269eb575511f1814be0ccab7e2"
+  },
+  "reporting_issue_resolved": true,
+  "full_proof_checker_execution_by_this_review": false,
+  "source_or_proof_mutations_by_this_review": false,
+  "scope": "Model-agent source and receipt review of exact input binding and preservation of partial coverage; not proof-assistant formalization or independent human review.",
+  "observed_full_replay_outcomes": 56,
+  "observed_accepted_refutations": 14,
+  "observed_uncertified_timeouts": 42
+}

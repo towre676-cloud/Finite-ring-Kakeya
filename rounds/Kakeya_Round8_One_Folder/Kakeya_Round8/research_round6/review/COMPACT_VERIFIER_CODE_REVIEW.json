@@ -1,0 +1,24 @@
+{
+  "status": "CODE_REVIEW_NO_BLOCKER",
+  "reviewer": "Separate model agent /root/round6_encoder_audit; not an independent human reviewer",
+  "reviewed_source_sha256": {
+    "research_round6/compact_certificates/verify_compact_certificates.py": "b196eea98712c098c7cbd054aa2b490b5c434d8e95175f3ca82ca731581f1fb7",
+    "research_round6/compact_m19/verify_compact_m19.py": "5d7fa26688ca7e9c3bb4ce52b5dfa2ce2822bb249b273ee037ae2a8d64a58a14",
+    "research_round6/proof_core/verify_cores.py": "12eb45bad07cc718dd8e6e9ac6468cfd1c88a01877c063416f959a8b1977b1f0"
+  },
+  "checks": [
+    "Complete38-case canonical coverage and affine transport",
+    "Exact maximum ranges and total93 budget",
+    "Source manifest and semantic-input binding",
+    "Byte-identical CNF regeneration",
+    "Exact decoded DRAT hashes; explicit compressed-artifact hashes in the joint gate and all stored-file hashes in the final ZIP manifest",
+    "Fresh private LRAT reconstruction",
+    "Mandatory pinned DRAT-trim and CakeML acceptance",
+    "Persisted input hashes rechecked",
+    "No stale PASS on preflight failure",
+    "Quick samples never count as complete coverage"
+  ],
+  "scope": "Read-only code review; does not itself establish certificate acceptance. Full production and replay receipts supply that evidence.",
+  "missing_old_LRAT_payloads_required": false,
+  "required_helper": "research_round6/proof_core/verify_cores.py"
+}

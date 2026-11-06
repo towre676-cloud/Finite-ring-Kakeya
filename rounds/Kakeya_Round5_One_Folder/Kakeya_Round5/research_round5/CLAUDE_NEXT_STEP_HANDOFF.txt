@@ -1,0 +1,76 @@
+Round5 handoff to the other session (draft; not sent automatically)
+=================================================================
+
+We now have a stronger independent theorem:
+
+For both R=Z/4Z and R=F2[epsilon]/(epsilon^2), any Kakeya set in R^5
+with at most93 points has at least11 pair-active residue fibres.
+There is NO maximum-fibre hypothesis. The complete support10 branch
+is excluded. Proof: support10_roles/SUPPORT10_UNRESTRICTED_PROOF.md.
+
+The only finite classification required by that proof is the complete
+support10 classification:80 covers among14,950 normalized candidates,
+all affine-equivalent to (V\0) union (W\0), dimV3,dimW2,V direct-sum W=F2^5.
+The weight argument is analytic. The102,842-profile bounded-weight census
+is a redundant crosscheck. No Qmax(12), outer-weight14 cap, SAT result,
+or prior middle survivor screen is used by the theorem.
+
+Please prioritize your maxima11..18 sweep on supports11 and above.
+Map case identifiers and support definitions explicitly before skipping
+any listed solver cases. Our270,779 middle weight profiles are not the
+same objects as your8,904 SAT cases, so there is no direct subtraction.
+
+We also independently established the exact maximum19 case universe:
+13 hub-marked support11 classes and25 hub-marked support12 classes.
+The38-case contract is complete without the inherited support catalogue.
+Every one of102,324 normalized covering supports has an explicit map;
+the entire296,010-candidate universe was checked.
+
+To turn your reported38 DRAT exclusions into a separately accepted result,
+please export the exact A-E statements, encoder source and version,
+case metadata, original CNFs, original DRAT proofs, and your JSONL receipt.
+The reported /home/user/kakeya_round4/results path is not mounted here.
+The current archive contains zero of those new38 proof pairs.
+
+Use encoding_bridge/map_marked_case.py to map each support plus distinguished
+hub to the canonical contract and obtain an explicit affine transport.
+The distinguished maximum need not be unique: tied weight19 fibres must
+remain allowed unless separately excluded. A removed outer14 cap alone
+does not establish all needed completeness conditions.
+
+Use proof_audit/README_PROOF_AUDIT.md for the exact manifest schema.
+From the archive root, after preparing the manifest with original hashes:
+
+    python3 research_round5/proof_audit/audit_certificates.py /path/to/manifest.json --output /path/to/audit
+
+The mandatory path is DRAT-trim conversion to LRAT followed by acceptance
+by the pinned upstream verified CakeML checker on the same CNF bytes.
+The optional C LRAT utility has a reproduced false-positive control and
+is not an acceptance authority. Nothing here alleges the same bug in
+your custom checker. All sources, licenses, negative controls and logs
+are bundled; no network install is needed for the checker replay.
+
+A common necessary-condition encoding can justify38 proofs for both rings.
+An exact ring-specific encoding must include the respective carry and
+complete ring-specific manifests. Do not double the case count without
+first checking what the actual A-E formulas assert.
+
+The remaining semantic proof obligation is one-way soundness:
+every hypothetical Kakeya counterexample in a named support case must
+induce a satisfying assignment of its exact CNF. This includes the affine
+normalization, auxiliary variables, cardinality encoding, all quantifiers,
+and any symmetry or fibre-domain restrictions. Proving every satisfying
+assignment is a Kakeya set is unnecessary for an UNSAT-based exclusion.
+
+Fifteen new Lean theorems already verify the coordinate/carry line formula
+and exact line-to-pair equivalence in arbitrary dimension. They do not
+formalize your A-E encoder. The proof harness verifies UNSAT of exact CNF
+bytes and support metadata; it does not prove that the CNF encodes that
+metadata. Deterministic regeneration and hash matching should join those
+two layers once the encoder argument is written.
+
+The maximum19 all-support sweep remains useful for removing inherited
+dependencies, but the reported support11/12 result already closes the
+previous operational branch conditional on the inherited support bound
+and the stated encoder/checker obligations. Our new computational effort
+has therefore gone into the remaining middle geometry and acceptance path.

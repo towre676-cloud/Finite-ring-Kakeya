@@ -1,0 +1,918 @@
+{
+  "status": "PASS_INDEPENDENT_NORMALIZED_FIBRE_PRICE_AND_AGGREGATE_REPLAY",
+  "imported_census_or_Mtable_read": false,
+  "SAT_solver_invoked": false,
+  "normalized_actual_fibres_checked": 85184,
+  "normalization_completeness": "Every affine-rank-r fibre admits an affine basis mapped to0,e1,...,er; all remaining points are enumerated.",
+  "local_price_maxima": [
+    {
+      "affine_rank": 3,
+      "weight": 4,
+      "normalized_actual_fibres_checked": 1,
+      "maximum_top3_price": 3,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "maximum_top9_price": 6,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "affine_rank": 3,
+      "weight": 5,
+      "normalized_actual_fibres_checked": 4,
+      "maximum_top3_price": 12,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "maximum_top9_price": 16,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "affine_rank": 3,
+      "weight": 6,
+      "normalized_actual_fibres_checked": 6,
+      "maximum_top3_price": 17,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maximum_top9_price": 33,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "affine_rank": 3,
+      "weight": 7,
+      "normalized_actual_fibres_checked": 4,
+      "maximum_top3_price": 27,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "maximum_top9_price": 63,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "affine_rank": 3,
+      "weight": 8,
+      "normalized_actual_fibres_checked": 1,
+      "maximum_top3_price": 48,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_top9_price": 112,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 5,
+      "normalized_actual_fibres_checked": 1,
+      "maximum_top3_price": 3,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "maximum_top9_price": 9,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 6,
+      "normalized_actual_fibres_checked": 11,
+      "maximum_top3_price": 12,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "maximum_top9_price": 18,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 7,
+      "normalized_actual_fibres_checked": 55,
+      "maximum_top3_price": 17,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "maximum_top9_price": 35,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 8,
+      "normalized_actual_fibres_checked": 165,
+      "maximum_top3_price": 27,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "maximum_top9_price": 65,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 9,
+      "normalized_actual_fibres_checked": 330,
+      "maximum_top3_price": 48,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_top9_price": 114,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 10,
+      "normalized_actual_fibres_checked": 462,
+      "maximum_top3_price": 49,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "maximum_top9_price": 121,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "affine_rank": 4,
+      "weight": 11,
+      "normalized_actual_fibres_checked": 462,
+      "maximum_top3_price": 51,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "maximum_top9_price": 144,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 6,
+      "normalized_actual_fibres_checked": 1,
+      "maximum_top3_price": 3,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "maximum_top9_price": 9,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 7,
+      "normalized_actual_fibres_checked": 26,
+      "maximum_top3_price": 12,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        16
+      ],
+      "maximum_top9_price": 18,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        16
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 8,
+      "normalized_actual_fibres_checked": 325,
+      "maximum_top3_price": 17,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        16
+      ],
+      "maximum_top9_price": 35,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        16
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 9,
+      "normalized_actual_fibres_checked": 2600,
+      "maximum_top3_price": 27,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        16
+      ],
+      "maximum_top9_price": 65,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        16
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 10,
+      "normalized_actual_fibres_checked": 14950,
+      "maximum_top3_price": 48,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        16
+      ],
+      "maximum_top9_price": 114,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        16
+      ]
+    },
+    {
+      "affine_rank": 5,
+      "weight": 11,
+      "normalized_actual_fibres_checked": 65780,
+      "maximum_top3_price": 49,
+      "top3_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        16
+      ],
+      "maximum_top9_price": 121,
+      "top9_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        16
+      ]
+    }
+  ],
+  "three_by_five_partner_sets_checked": 4368,
+  "three_by_five_maximum": 13,
+  "scalar_price_controls": [
+    {
+      "p": 0,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 0
+    },
+    {
+      "p": 0,
+      "q": 1,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 1
+    },
+    {
+      "p": 0,
+      "q": 2,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 4
+    },
+    {
+      "p": 0,
+      "q": 3,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 9
+    },
+    {
+      "p": 0,
+      "q": 4,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 16
+    },
+    {
+      "p": 0,
+      "q": 5,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 17
+    },
+    {
+      "p": 1,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 1
+    },
+    {
+      "p": 1,
+      "q": 1,
+      "sumset_capacity_bound": 1,
+      "doubled_bound": 2,
+      "endpoint_prices": 2
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "sumset_capacity_bound": 2,
+      "doubled_bound": 4,
+      "endpoint_prices": 5
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "sumset_capacity_bound": 3,
+      "doubled_bound": 6,
+      "endpoint_prices": 10
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "sumset_capacity_bound": 4,
+      "doubled_bound": 8,
+      "endpoint_prices": 17
+    },
+    {
+      "p": 1,
+      "q": 5,
+      "sumset_capacity_bound": 5,
+      "doubled_bound": 10,
+      "endpoint_prices": 18
+    },
+    {
+      "p": 2,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 4
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "sumset_capacity_bound": 2,
+      "doubled_bound": 4,
+      "endpoint_prices": 5
+    },
+    {
+      "p": 2,
+      "q": 2,
+      "sumset_capacity_bound": 4,
+      "doubled_bound": 8,
+      "endpoint_prices": 8
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "sumset_capacity_bound": 6,
+      "doubled_bound": 12,
+      "endpoint_prices": 13
+    },
+    {
+      "p": 2,
+      "q": 4,
+      "sumset_capacity_bound": 8,
+      "doubled_bound": 16,
+      "endpoint_prices": 20
+    },
+    {
+      "p": 2,
+      "q": 5,
+      "sumset_capacity_bound": 10,
+      "doubled_bound": 20,
+      "endpoint_prices": 21
+    },
+    {
+      "p": 3,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 9
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "sumset_capacity_bound": 3,
+      "doubled_bound": 6,
+      "endpoint_prices": 10
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "sumset_capacity_bound": 6,
+      "doubled_bound": 12,
+      "endpoint_prices": 13
+    },
+    {
+      "p": 3,
+      "q": 3,
+      "sumset_capacity_bound": 9,
+      "doubled_bound": 18,
+      "endpoint_prices": 18
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "sumset_capacity_bound": 12,
+      "doubled_bound": 24,
+      "endpoint_prices": 25
+    },
+    {
+      "p": 3,
+      "q": 5,
+      "sumset_capacity_bound": 13,
+      "doubled_bound": 26,
+      "endpoint_prices": 26
+    },
+    {
+      "p": 4,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 16
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "sumset_capacity_bound": 4,
+      "doubled_bound": 8,
+      "endpoint_prices": 17
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "sumset_capacity_bound": 8,
+      "doubled_bound": 16,
+      "endpoint_prices": 20
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "sumset_capacity_bound": 12,
+      "doubled_bound": 24,
+      "endpoint_prices": 25
+    },
+    {
+      "p": 4,
+      "q": 4,
+      "sumset_capacity_bound": 16,
+      "doubled_bound": 32,
+      "endpoint_prices": 32
+    },
+    {
+      "p": 4,
+      "q": 5,
+      "sumset_capacity_bound": 16,
+      "doubled_bound": 32,
+      "endpoint_prices": 33
+    },
+    {
+      "p": 5,
+      "q": 0,
+      "sumset_capacity_bound": 0,
+      "doubled_bound": 0,
+      "endpoint_prices": 17
+    },
+    {
+      "p": 5,
+      "q": 1,
+      "sumset_capacity_bound": 5,
+      "doubled_bound": 10,
+      "endpoint_prices": 18
+    },
+    {
+      "p": 5,
+      "q": 2,
+      "sumset_capacity_bound": 10,
+      "doubled_bound": 20,
+      "endpoint_prices": 21
+    },
+    {
+      "p": 5,
+      "q": 3,
+      "sumset_capacity_bound": 13,
+      "doubled_bound": 26,
+      "endpoint_prices": 26
+    },
+    {
+      "p": 5,
+      "q": 4,
+      "sumset_capacity_bound": 16,
+      "doubled_bound": 32,
+      "endpoint_prices": 33
+    },
+    {
+      "p": 5,
+      "q": 5,
+      "sumset_capacity_bound": 16,
+      "doubled_bound": 32,
+      "endpoint_prices": 34
+    }
+  ],
+  "independent_aggregate_DP": [
+    {
+      "hub_component": "W",
+      "maximum_price": 663,
+      "required_price": 768,
+      "total_weight": 93,
+      "rank3_W_fibres": 2,
+      "maximizing_relaxed_assignment": [
+        {
+          "role": "U",
+          "weight": 10,
+          "rank": 5,
+          "price": 114
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank": 5,
+          "price": 114
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank": 5,
+          "price": 114
+        },
+        {
+          "role": "W",
+          "weight": 11,
+          "rank": 4,
+          "price": 51
+        },
+        {
+          "role": "W",
+          "weight": 6,
+          "rank": 4,
+          "price": 12
+        },
+        {
+          "role": "W",
+          "weight": 6,
+          "rank": 4,
+          "price": 12
+        },
+        {
+          "role": "W",
+          "weight": 5,
+          "rank": 3,
+          "price": 12
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank": 3,
+          "price": 48
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        }
+      ]
+    },
+    {
+      "hub_component": "U",
+      "maximum_price": 685,
+      "required_price": 768,
+      "total_weight": 93,
+      "rank3_W_fibres": 2,
+      "maximizing_relaxed_assignment": [
+        {
+          "role": "U",
+          "weight": 11,
+          "rank": 5,
+          "price": 121
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank": 5,
+          "price": 114
+        },
+        {
+          "role": "U",
+          "weight": 10,
+          "rank": 5,
+          "price": 114
+        },
+        {
+          "role": "W",
+          "weight": 5,
+          "rank": 4,
+          "price": 3
+        },
+        {
+          "role": "W",
+          "weight": 4,
+          "rank": 3,
+          "price": 3
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 8,
+          "rank": 3,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "W",
+          "weight": 9,
+          "rank": 4,
+          "price": 48
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        },
+        {
+          "role": "L",
+          "weight": 3,
+          "rank": null,
+          "price": 30
+        }
+      ]
+    }
+  ],
+  "stronger_fourfold_price_bound": 2757,
+  "elementary_fourfold_price_bound": 2994,
+  "required_fourfold_price": 3072,
+  "source_sha256": "702509161bec2a56c3193e6f7153c468457f4e97d398fafb5b1fdf8f7a7b36bd",
+  "seconds": 0.430297
+}

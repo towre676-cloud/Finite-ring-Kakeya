@@ -1,0 +1,43 @@
+{
+  "status": "PASS_ALL_REQUESTED_COMPRESSIONS_BYTE_IDENTICAL",
+  "requested_files": 3,
+  "completed_files": 3,
+  "uncompressed_bytes": 917893396,
+  "xz_bytes": 85253172,
+  "seconds": 87.212098,
+  "files": [
+    {
+      "raw_path": "cases/s12_orbit91_hub0/input.cnf",
+      "xz_path": "cases/s12_orbit91_hub0/input.cnf.xz",
+      "uncompressed_sha256": "a7250d819ed297b2ed1ec875121ddb92a461e89768a8fa23ea7a05115e8eaf93",
+      "uncompressed_bytes": 7203102,
+      "xz_sha256": "d7f15c365b616179fdbcdda3e11fb89dd055f9d99aa5d49e7570efc811671930",
+      "xz_bytes": 510704,
+      "preset": 3,
+      "seconds": 0.472787,
+      "status": "PASS_DECOMPRESSED_BYTES_IDENTICAL"
+    },
+    {
+      "raw_path": "cases/s12_orbit91_hub0/proof.drat",
+      "xz_path": "cases/s12_orbit91_hub0/proof.drat.xz",
+      "uncompressed_sha256": "b3d104099035db734b1eed27fa5f697622c735646a68194a05797764b4f050c5",
+      "uncompressed_bytes": 181686906,
+      "xz_sha256": "f8eb5fdf9941cec5ec8ffc93e852f7ea10cca33d4a1dae39111e56435c66b24b",
+      "xz_bytes": 22032556,
+      "preset": 3,
+      "seconds": 20.652272,
+      "status": "PASS_DECOMPRESSED_BYTES_IDENTICAL"
+    },
+    {
+      "raw_path": "cases/s12_orbit91_hub0/audit/converted.lrat",
+      "xz_path": "cases/s12_orbit91_hub0/audit/converted.lrat.xz",
+      "uncompressed_sha256": "92409ed1f01970c7fbabc91ee17ee38566ba1dbde58bad8530796e822abf7377",
+      "uncompressed_bytes": 729003388,
+      "xz_sha256": "f283928e2aae5d5128f2fa72be8fb9847f7ca85f1f327e6600225900b3dbca89",
+      "xz_bytes": 62709912,
+      "preset": 3,
+      "seconds": 86.689133,
+      "status": "PASS_DECOMPRESSED_BYTES_IDENTICAL"
+    }
+  ]
+}

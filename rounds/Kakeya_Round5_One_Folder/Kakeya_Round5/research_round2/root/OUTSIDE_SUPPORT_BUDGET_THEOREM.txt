@@ -1,0 +1,74 @@
+OUTSIDE-SUPPORT PAIR-BUDGET THEOREM
+
+Scope: both R=Z/4Z and R=F2[epsilon]/(epsilon^2), all dimensions.
+Let V=F2^n, N=2^n, and let A_a be the tangent fibre at residue a.
+Let S={a: |A_a|>=2} be the pair-active residue support. Translate a selected
+hub residue to zero, so 0 belongs to S. For a in S\{0}, write w=|A_a|
+and t=p_a(a), the number of own-direction unordered pairs in A_a.
+
+Theorem. The pair counts which can contribute through the vertex a to
+lifted directions whose residue d lies outside S satisfy
+
+  sum_{d not in S, a+d in S} p_a(d) <= binom(w,2)-t(w-t).           (1)
+
+Consequently, if t>=1 then this sum is at most binom(w-1,2).
+If t=0 the bound is binom(w,2).
+
+Proof. Nonzero directions other than a split into unordered blocks
+{d,d+a}. If d is outside S and a+d is inside S, the mate direction d+a
+cannot contribute to another outside-support edge at a: its opposite
+endpoint is a+(d+a)=d, which is outside S and has no tangent pair.
+Thus the sum on the left uses at most one entry from every block.
+
+Partition A_a by cosets of <a>. There are t full cosets (two points
+each) and s=w-2t singleton cosets. Consider an unordered pair of distinct
+cosets. Its tangent differences lie in one block {d,d+a}:
+
+  full/full: the two directional pair contributions are (2,2);
+  full/single: they are (1,1);
+  single/single: they are either (1,0) or (0,1).
+
+For each block, the maximum of its two total contributions is at most
+the sum of the maxima contributed by its coset pairs. Summing gives
+
+  sum_blocks max(p_a(d),p_a(d+a))
+    <= 2*binom(t,2)+t*s+binom(s,2)
+     = binom(w,2)-t(w-t).
+
+This proves (1). For 1<=t<=floor(w/2), t(w-t)>=w-1, giving the final
+assertion. Carries in Z4 affect lift labels but not these pair counts.
+
+WHY THE SUPPORT MAY IGNORE SINGLETON FIBRES
+
+A fibre of size zero or one has no tangent pair in any direction, so it
+cannot be an endpoint of a full primitive line. An outside-support
+residue may still contain one point; the proof uses only the absence
+of pairs. This is exactly the pair-active support used in our M19 lists.
+
+APPLICATION TO THE MAXIMUM-19 PROFILE LISTS
+
+For n=5 and support size k=11 or12, every d outside S must receive all16
+projective lifts from nonhub edges. Therefore the sum of their capped
+edge capacities is at least16*(32-k), respectively336 or320.
+
+Use c_i=floor(w_i/2), and the new budget
+ B_i=binom(w_i-1,2) for own-positive fibres,
+ B_i=binom(w_i,2) for own-zero fibres.
+The actual selected pair counts obey these budgets and the previously
+proved maximum-direction quota r(w_i). Edges not serving outside-S
+directions have zero effective capacity in this argument.
+
+The existing heavy/light resource inequality remains valid on this
+subgraph, enlarged to the complete graph for its upper bound. A light
+endpoint pays ell*p to cover light/light contributions using
+2*M(p,q)<=ell*(p+q); its remaining heavy-edge gains are optimized subject
+to sum p<=B_i and at most r(w_i) counts equal to c_i. Heavy endpoints
+similarly have incident deficits from their shared B_i budget. If the
+sum of deficits is D and their maximum is Dmax, total heavy-edge loss
+is at least max(Dmax,ceil(D/2)). This is subtracted from the complete
+heavy-edge baseline. All arithmetic is integral and exact.
+
+This stage starts after the full-spectrum stage, so its exclusions are
+disjoint. The C++ producer and independent Python recursive checker are
+included. Verified counts belong to ROOT_VERIFIED_OUTSIDE_SUPPORT_STAGE.json.
+The unrestricted Kakeya theorem and maximum-19 stratum remain OPEN.

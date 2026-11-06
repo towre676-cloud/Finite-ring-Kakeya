@@ -1,0 +1,45 @@
+{
+  "status": "PASS_EXTENDED_INCIDENCE_PROFILE_REPLAY",
+  "original_profiles": 183476,
+  "previously_excluded_profiles": 16,
+  "newly_excluded_profiles": 112,
+  "cumulative_excluded_profiles": 128,
+  "remaining_profiles": 183348,
+  "by_support": {
+    "13": {
+      "original": 85340,
+      "previously_excluded": 16,
+      "newly_excluded": 112,
+      "cumulative_excluded": 128,
+      "remaining": 85212
+    },
+    "14": {
+      "original": 74373,
+      "previously_excluded": 0,
+      "newly_excluded": 0,
+      "cumulative_excluded": 0,
+      "remaining": 74373
+    },
+    "15": {
+      "original": 19514,
+      "previously_excluded": 0,
+      "newly_excluded": 0,
+      "cumulative_excluded": 0,
+      "remaining": 19514
+    },
+    "16": {
+      "original": 3853,
+      "previously_excluded": 0,
+      "newly_excluded": 0,
+      "cumulative_excluded": 0,
+      "remaining": 3853
+    },
+    "17": {
+      "original": 396,
+      "previously_excluded": 0,
+      "newly_excluded": 0,
+      "cumulative_excluded": 0,
+      "remaining": 396
+    }
+  }
+}

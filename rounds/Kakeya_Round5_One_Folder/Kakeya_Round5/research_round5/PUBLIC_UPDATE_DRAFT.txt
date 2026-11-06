@@ -1,0 +1,32 @@
+Draft public update — not posted
+
+We have a new partial result in an exact finite Kakeya problem over the
+two four-element local rings, Z/4Z and F2[epsilon]/(epsilon^2).
+
+The dimension-five target is 94 points. **We have not proved that lower
+bound in full.** What we can now exclude is every hypothetical smaller
+example whose points occupy at most ten pair-active residue fibres.
+The support-ten theorem has **no restriction on the largest fibre**.
+
+The mechanism is concrete. Every ten-point residue difference cover has
+the same affine form: seven nonzero points of a three-space together
+with three nonzero points of a complementary two-space. That forces
+24 residue directions to have a unique supporting edge. Those edges
+must each cover a whole 16-point quotient.
+
+Pair counting, a three-point sumset lemma, and Mantel rigidity then force
+a contradiction. A sixteen-point central fibre becomes an affine
+four-flat but needs five-dimensional direction span. The remaining
+seventeen-point case becomes a four-flat plus one point and cannot cover
+its other required directions. The weight argument is analytic; the
+support classification has separately checked finite certificates.
+
+Across the ongoing middle search, this removes 4,976 further weight
+profiles and closes the whole support-ten layer. Larger supports remain
+open. We also independently established the 38 marked support cases
+underlying the other session's reported maximum-19 closure, and built
+a verified-checker acceptance route. The actual new encoder and proof
+files still need to pass through that route.
+
+The result gives a sharper structural theorem and a precise, auditable
+description of the cases that remain open.

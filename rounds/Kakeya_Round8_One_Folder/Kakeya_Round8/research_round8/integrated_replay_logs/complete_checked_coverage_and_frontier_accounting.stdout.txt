@@ -1,0 +1,44 @@
+{
+  "status": "PASS_EXACT_ROUND8_FRONTIER_ACCOUNTING",
+  "new_roles": [
+    377850134,
+    411136406,
+    671697334,
+    2185856310
+  ],
+  "closed_affine_classes": [
+    109,
+    110,
+    111
+  ],
+  "remaining_maximum11_affine_classes": 42,
+  "direct_exact11_marked_coverage": 39,
+  "direct_catalogue_size": 55,
+  "support13_maximum11_closed_using_inherited_reductions": true,
+  "middle_profiles_removed_by_sat_geometry": 0,
+  "middle_profiles_removed_by_incidence_and_price_theorems": 950,
+  "initial_incidence_profile_exclusions": 16,
+  "cumulative_profile_stage_counts": [
+    16,
+    128,
+    175,
+    745,
+    950
+  ],
+  "matching_profile_exclusions": 745,
+  "three_direction_price_exclusions": 488,
+  "matching_price_overlap": 283,
+  "middle_profiles_remaining": 182526,
+  "whole_profile_certificate_sha256": "5878aa56c776066aff4ffe63e99e99cacaa50d8e4abdf3710c5f679ce11bfa91",
+  "whole_profile_replay_sha256": "57ca0996bd2ff275220e92399a1add4c81c50d40ce8b72f93a8a4cdfb29fcbee",
+  "whole_profile_survivor_sha256": "1eaf4e100d9b9a4a65556c5251249fd1e7062d51e8771b7af83761ffabbd4423",
+  "source_sha256": {
+    "Kakeya_Research_Frontier_Round7.json": "bd68ff87f3fc47f72b42657553d4265e03dc8bee1abb9a1097bb42b67759e9f6",
+    "research_round7/geometry/SUPPORT13_MARKING_MAP.json": "82947e90078689b065fc56fc9f19ad682541c110e7808fa24ba464c72e4e3600",
+    "research_round7/support13/SUPPORT13_CERTIFICATE_MANIFEST.json": "e857fee69f0181ce1505cfe77e085599d3f644d55da636e313517d989b23b4c2"
+  },
+  "compact_manifest_sha256": "1b324bcf522c422cd84cdceea0b871396adb19dc01e13561dace417890ac1324",
+  "compact_replay_sha256": "429d3cee0ffd86653f8c04e8793dbd8b0a4453a0151ce5919661a28048dda8fb",
+  "ledger_sha256": "7dfb95105c012c34bed77aabbe29f797642f0eb2181df8a16a90b7a482cfb888",
+  "source_code_sha256": "782a73b2c9ead07de640d9ec253aa7bef7edf7bbcd662c3237273873e2dc16a0"
+}

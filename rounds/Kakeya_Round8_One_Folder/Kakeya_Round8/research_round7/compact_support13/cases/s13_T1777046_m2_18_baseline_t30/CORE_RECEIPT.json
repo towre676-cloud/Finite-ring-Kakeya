@@ -1,0 +1,105 @@
+{
+  "status": "PASS_CORE_DRAT_CHECKED_AGAINST_EXACT_ORIGINAL_CNF",
+  "case_id": "s13_T1777046_m2_18_baseline_t30",
+  "original_case": {
+    "case_id": "s13_T1777046_m2_18_baseline_t30",
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      10,
+      11,
+      12,
+      16,
+      17,
+      19,
+      20
+    ],
+    "distinguished_hub": 0,
+    "nonzero_support_mask": 1777046,
+    "maximum_interval": [
+      2,
+      18
+    ],
+    "total_upper_bound": 93,
+    "ring_scope": "common_necessary_relaxation_both_rings",
+    "cnf": "research_round7/support13/cases/s13_T1777046_m2_18_baseline_t30/input.cnf",
+    "cnf_sha256": "893cd93fa5df0ec00d359d03950b5e027fadee1e7f6850e60d45ae1dfcb6d69d",
+    "proof": "research_round7/support13/cases/s13_T1777046_m2_18_baseline_t30/proof.drat",
+    "proof_sha256": "a1642b6654ef0fa96352a50fa7c17365786e12629205fad9ba10d3c0b740ef88",
+    "proof_kind": "drat",
+    "receipt": "research_round7/support13/cases/s13_T1777046_m2_18_baseline_t30/CASE_RECEIPT.json",
+    "receipt_sha256": "f8d75dff93f0f6f903d8e71071dfa773e26fa7b4196de64bd3230060ef5a3d80",
+    "inherited": false,
+    "cnf_xz_sha256": "8f94c06e8ffb0307437944b7c2eb062db5f235ce14828a6dd62536801d353783",
+    "proof_xz_sha256": "c89857150bf50ea06ffcffb5abc28cfd58b6fb4d87cd0d29190877205bb7957a"
+  },
+  "source_manifest_sha256_at_production": "764552e3762a09ba55a53c271da87f0fa974858f2893e7ff15127e11042cd0a7",
+  "method": "IMPORTED_ALREADY_CHECKED_CORE_PILOT",
+  "pilot_receipt": "research_round7/compact_pilot/PILOT_RECEIPT.json",
+  "pilot_receipt_sha256": "07bf35ca0750baf0cb4a0405d371d0aea07e06c6fbb437ba62f1e98313f41c7b",
+  "cnf_sha256": "893cd93fa5df0ec00d359d03950b5e027fadee1e7f6850e60d45ae1dfcb6d69d",
+  "original_proof_sha256": "a1642b6654ef0fa96352a50fa7c17365786e12629205fad9ba10d3c0b740ef88",
+  "original_raw_bytes": 62756418,
+  "original_compressed_bytes": 9315756,
+  "core_sha256": "242bc1e20a8791d190d485792e4f31fcda9f2afe8a70f4554ba5fc6400055f17",
+  "core_raw_bytes": 25872858,
+  "storage": {
+    "logical_path": "research_round7/compact_support13/cases/s13_T1777046_m2_18_baseline_t30/core.drat",
+    "compressed_path": "research_round7/compact_support13/cases/s13_T1777046_m2_18_baseline_t30/core.drat.xz",
+    "raw_sha256": "242bc1e20a8791d190d485792e4f31fcda9f2afe8a70f4554ba5fc6400055f17",
+    "raw_bytes": 25872858,
+    "xz_sha256": "f5854b131d7f6f08d7dd9d6ebdcbdaa7a55d19f36c03246eb785c9d2a742a7be",
+    "xz_bytes": 3106572,
+    "raw_present": false,
+    "compression": "xz",
+    "preset": 3,
+    "round_trip_sha256": "242bc1e20a8791d190d485792e4f31fcda9f2afe8a70f4554ba5fc6400055f17"
+  },
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 45060,
+      "clauses": 397097
+    },
+    "input_sha256": {
+      "cnf": "893cd93fa5df0ec00d359d03950b5e027fadee1e7f6850e60d45ae1dfcb6d69d",
+      "drat": "242bc1e20a8791d190d485792e4f31fcda9f2afe8a70f4554ba5fc6400055f17"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 23.485245,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "1e4383f07805ec23d73ac3380ef2ede9b66b6e86c8dfc42f90fb6626a566ad30",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "093483037b82ca9238c5ec98a546cd3429bf4237bd85ab87131b2acbb08b99af",
+    "lrat_bytes": 345546460,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 13.161544,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 67.32965315099864,
+  "producer_sha256": "080eebcec214b8251fe9bd8024bfd9b0b1c4252969e27dcb1e7109cd3e40d6e3",
+  "original_cnf_used_without_new_axioms": true,
+  "original_proof_unchanged": true,
+  "portable_replay_requires_original_drat": false
+}

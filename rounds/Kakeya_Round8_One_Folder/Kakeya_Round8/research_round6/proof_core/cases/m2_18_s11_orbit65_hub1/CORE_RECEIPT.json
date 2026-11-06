@@ -1,0 +1,85 @@
+{
+  "case_id": "m2_18_s11_orbit65_hub1",
+  "source_kind": "joint",
+  "cnf": "/workspace/scratch/a2844a91c00e/research_round6/joint_maxima/cases/m2_18_s11_orbit65_hub1/input.cnf",
+  "source_lrat": "/workspace/scratch/a2844a91c00e/research_round6/joint_maxima/cases/m2_18_s11_orbit65_hub1/proof.lrat",
+  "expected_cnf_sha256": "35df861dd6c442218d673460b46097f0364032df06389c0cf288db15584b4cc5",
+  "expected_lrat_sha256": "b42683faaa3070439e59cc5e451dcb573cd12ec3e0f836fd15f903980bb9657b",
+  "source_receipt": "/workspace/scratch/a2844a91c00e/research_round6/joint_maxima/cases/m2_18_s11_orbit65_hub1/CASE_RECEIPT.json",
+  "source_receipt_sha256": "ebdffb47f623dcc1d06605cb9bfb1377edb3d87b17d0151c369b8bdf7d617d37",
+  "original_case_id": "m2_18_s11_orbit65_hub1",
+  "marked_support": {
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      16,
+      23
+    ],
+    "distinguished_hub": 0,
+    "affine_map_to_contract": [
+      0,
+      3,
+      5,
+      7,
+      9,
+      16
+    ]
+  },
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "original_lrat_bytes": 34830604,
+  "status": "PASS_CORE_LRAT_VIA_CAKEML",
+  "trimmer_trusted_for_unsat": false,
+  "checker": "pinned upstream CakeML cake_lpr",
+  "original_files_modified": false,
+  "cnf_sha256": "35df861dd6c442218d673460b46097f0364032df06389c0cf288db15584b4cc5",
+  "trimming": {
+    "status": "UNTRUSTED_CORE_WRITTEN",
+    "input_bytes": 34830604,
+    "core_bytes": 15492641,
+    "original_cnf_clauses": 294029,
+    "input_additions": 141851,
+    "kept_additions": 32138,
+    "input_deletions": 34334,
+    "kept_deletions": 30085,
+    "retained_deletion_targets": 134101,
+    "retained_hint_references": 1730158,
+    "retained_negative_hints": 0,
+    "final_empty_clause_id": 435880,
+    "checker_required": true
+  },
+  "core_bytes": 15492641,
+  "core_sha256": "73e54e248a3e63ee13e9b202c218c448eda3c3a9a74b78d96f11de1267d709c7",
+  "cake_lpr": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 1.117425,
+    "stdout_file": "cake_lpr.stdout.txt",
+    "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+    "stderr_file": "cake_lpr.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "compression_seconds": 1.456973,
+  "compression": {
+    "format": "xz",
+    "lzma2_preset": 3,
+    "dictionary_mib": 64
+  },
+  "compressed_bytes": 1380060,
+  "compressed_sha256": "472a9730f302b1d70b0a68a65349969e3ccb770ded3d3f764da33a75e7549b5c",
+  "exact_compression_roundtrip": true,
+  "cnf_from_case_folder": "../../../joint_maxima/cases/m2_18_s11_orbit65_hub1/input.cnf",
+  "core_file": "core.lrat.xz",
+  "seconds": 2.791667
+}

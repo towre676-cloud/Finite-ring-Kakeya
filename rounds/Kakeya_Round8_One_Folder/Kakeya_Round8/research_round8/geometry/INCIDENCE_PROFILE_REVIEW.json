@@ -1,0 +1,80 @@
+{
+  "status": "PASS_INDEPENDENT_SIXTEEN_PROFILE_INCIDENCE_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review or proof-assistant formalization",
+  "source_hashes": {
+    "research_round7/charging/after_integer_dual_survivors.txt": "1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5",
+    "research_round8/incidence/verify_incidence_profile_exclusions.py": "99b30853580d4372056b9fd5ce89aedbcc33155de3d12ce6b4b9b7ccc96d494e",
+    "research_round8/incidence/INCIDENCE_PROFILE_EXCLUSIONS.json": "5afcdb87d3711760d6854db2c9a822ce4f43406e606d6b09567ed043f7de156a",
+    "research_round8/incidence/after_incidence_survivors.txt": "892032e51ecdac50c351759cba7b8b2eb42fa8c3b102583ac687780e7a0a4835",
+    "research_round8/incidence/MISSING_DIRECTION_INCIDENCE.md": "4d52fcdb7b60b09cc52934ab3fab575d07b4320789879de664592c3a129c9034",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8"
+  },
+  "independent_runtime_check_executed": true,
+  "independent_check_imports_producer_or_verifier": false,
+  "independent_check_reads_spectrum_sumset_or_SAT_files": false,
+  "profiles_before": 183476,
+  "whole_profiles_excluded": 16,
+  "profiles_remaining": 183460,
+  "excluded_source_lines": [
+    162466,
+    164715,
+    164996,
+    165380,
+    165455,
+    165520,
+    173686,
+    173712,
+    173882,
+    174087,
+    174165,
+    174266,
+    174475,
+    174540,
+    174673,
+    174700
+  ],
+  "by_support": {
+    "13": {
+      "before": 85340,
+      "excluded": 16,
+      "remaining": 85324
+    },
+    "14": {
+      "before": 74373,
+      "excluded": 0,
+      "remaining": 74373
+    },
+    "15": {
+      "before": 19514,
+      "excluded": 0,
+      "remaining": 19514
+    },
+    "16": {
+      "before": 3853,
+      "excluded": 0,
+      "remaining": 3853
+    },
+    "17": {
+      "before": 396,
+      "excluded": 0,
+      "remaining": 396
+    }
+  },
+  "removed_by_maximum": {
+    "12": 10,
+    "13": 6
+  },
+  "all_profiles_unique_valid_sorted_and_accounted_for": true,
+  "every_retained_source_line_preserved_byte_identically_in_original_order": true,
+  "all_certificate_row_fields_and_aggregate_tables_independently_recomputed": true,
+  "mathematical_review": [
+    "Nine heavy residues have at most28 pair differences, hence at least3 missing directions.",
+    "The missing set contains no complete binary plane minus zero, because9 heavy residues cannot occupy at most one point in each of8 plane cosets.",
+    "For maximum12 or13, each missing direction requires at least3 active light incidences; each weight3 fibre supplies at most2 incidences across the missing set.",
+    "All16 removed profiles have exactly9 heavy fibres and4 weight3 fibres, so9 required incidences exceed8 available, independent of placements, fibre shapes and ring carry.",
+    "The general incidence proof and the exact certificate/replayer were reviewed. Source pins, exact row regeneration, complete removal inventory, survivor order and failure propagation are correct."
+  ],
+  "scope": "All support placements and fibre shapes of these16 profiles, in both rings. No new SAT instance or marked-support exclusion is credited here.",
+  "new_SAT_exclusions_claimed": 0,
+  "blocking_issues_found": []
+}

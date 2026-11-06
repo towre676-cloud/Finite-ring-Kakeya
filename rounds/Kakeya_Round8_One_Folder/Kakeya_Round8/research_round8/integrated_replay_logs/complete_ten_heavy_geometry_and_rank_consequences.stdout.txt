@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COMPLETE_TEN_POINT_DIFFERENCE_COVER_STRUCTURE_AND_RANK_BRIDGE",
+  "normalized_sets_checked": 14950,
+  "normalized_difference_covers": 80,
+  "complete_normalization_argument": "Every difference cover has affine rank5 and contains an affine basis of6 points.",
+  "analytic_rank_lemma_uses_no_spectrum_census": true,
+  "new_unsat_exclusions_claimed": 0,
+  "source_hashes": {
+    "research_round8/geometry/verify_ten_heavy_ranks.py": "1bdd7cb3435a0c63cce03de0d33f8ef277108d3f5e41dd004fd81756d7bba289",
+    "research_round8/geometry/TEN_HEAVY_RANK_CONSEQUENCES.md": "557ff1588dc0c800341931242758b7edb9caae1b68529dc270b839e2e549f232"
+  },
+  "seconds": 0.084106
+}

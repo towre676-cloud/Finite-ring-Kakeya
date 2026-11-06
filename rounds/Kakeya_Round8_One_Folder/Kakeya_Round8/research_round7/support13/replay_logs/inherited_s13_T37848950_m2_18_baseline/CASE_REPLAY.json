@@ -1,0 +1,24 @@
+{
+  "case_id": "inherited_s13_T37848950_m2_18_baseline",
+  "status": "PASS_EXACT_REGENERATION_AND_CAKEML",
+  "nonzero_support_mask": 37848950,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "inherited": true,
+  "audit": {
+    "accepted": true,
+    "returncode": 0,
+    "timed_out": false,
+    "success_marker_present": true,
+    "seconds": 1.869444,
+    "stdout_file": "cake_lpr.stdout.txt",
+    "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+    "stderr_file": "cake_lpr.stderr.txt",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cnf_sha256": "b3c9c81e14003db1a2eee804ef798d114faf54aaaa53b2816d11c226d3c54d44",
+  "proof_sha256": "8995ebc18cd2f1eb2c0dae51e13c4ac7cba3347941c383fc92e9ee4f0574436a",
+  "seconds": 3.310484
+}

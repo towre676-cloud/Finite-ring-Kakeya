@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Finite-domain architecture and n2 demonstrations; no new n5 exclusion is claimed.",
+  "exact_farkas_certificates": 12,
+  "direct_ring_edge_table_entries_checked": 348,
+  "seconds": 0.055
+}
+{
+  "n2_3333_dual_labels": 0,
+  "n2_3333_z4_labels": 64
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "Root reviewed the analytic rank-mode classification, quotient sumset caps, outside triangle theorem, matching-dual inequalities and disjoint subgroup/endpoint deficit combination, then reran independent full certificate replay.",
+  "supports": [
+    {
+      "support": 11,
+      "input": 21356,
+      "new_exclusions": 11527,
+      "remaining": 9829
+    },
+    {
+      "support": 12,
+      "input": 9115,
+      "new_exclusions": 6077,
+      "remaining": 3038
+    }
+  ],
+  "new_whole_profile_exclusions": 17604,
+  "remaining_selected_profiles": 12867,
+  "covering_mode_branches": 109954,
+  "spectrum_duals": 98495,
+  "integer_inequalities": 21111511,
+  "rank_census_sets": 594,
+  "rank_census_own_cases": 11108,
+  "independent_receipt_sha256": "0208ed04ebc2794b31cb916a5c19fab8fa2ec0d11c3a228d47eaedb02fad0bd4",
+  "scope": "Both rings, all residue arrangements, all tangent shapes for each tracked weight/own-flag profile; unrestricted theorem remains open."
+}

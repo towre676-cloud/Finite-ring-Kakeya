@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "scope": "dimension five, both rings, total weight <=93, maximum12..18",
+  "normalization": "remove singleton fibres, then enlarge existing fibres to total93 without exceeding the given maximum",
+  "support_checked": 18,
+  "all_weight_partitions": 239246,
+  "partitions_by_maximum": {
+    "12": 28409,
+    "13": 33650,
+    "14": 36668,
+    "15": 37572,
+    "16": 36695,
+    "17": 34586,
+    "18": 31666
+  },
+  "quota_cuts": 238744,
+  "quota_first_successful_cutoffs": {
+    "2": 235514,
+    "1": 1672,
+    "3": 1213,
+    "0": 345
+  },
+  "quota_survivors": 502,
+  "inherited_exact_spectrum_cuts": 217,
+  "inherited_spectrum_dual_replay": {
+    "local_keys": 463,
+    "duals": 4446,
+    "integer_inequalities": 2261326
+  },
+  "round3_input_profiles": 285,
+  "round3_resource_cuts": 277,
+  "round3_final_analytic_cuts": 8,
+  "round3_final_methods": {
+    "hub16_equality_actual_sumset": 1,
+    "ten_heavy_weak_unique_directions": 4,
+    "cube_direction_energy": 3
+  },
+  "remaining_weight_profiles": 0,
+  "stages": [
+    {
+      "stage": "eight_heavy_missing_gap",
+      "input": 285,
+      "excluded": 188,
+      "remaining": 97,
+      "cuts_by_maximum": {
+        "12": 83,
+        "13": 47,
+        "14": 29,
+        "15": 16,
+        "16": 8,
+        "17": 3,
+        "18": 2
+      }
+    },
+    {
+      "stage": "three_heavy_single_exception",
+      "input": 97,
+      "excluded": 12,
+      "remaining": 85,
+      "cuts_by_maximum": {
+        "16": 11,
+        "17": 1
+      }
+    },
+    {
+      "stage": "two_heavy_deleted_direction",
+      "input": 85,
+      "excluded": 13,
+      "remaining": 72,
+      "cuts_by_maximum": {
+        "12": 2,
+        "13": 3,
+        "16": 6,
+        "17": 2
+      }
+    },
+    {
+      "stage": "eight_heavy_slot_prices",
+      "input": 72,
+      "excluded": 42,
+      "remaining": 30,
+      "cuts_by_maximum": {
+        "12": 18,
+        "13": 6,
+        "14": 9,
+        "15": 3,
+        "16": 5,
+        "17": 1
+      }
+    },
+    {
+      "stage": "missing_six_three_neighbors",
+      "input": 30,
+      "excluded": 12,
+      "remaining": 18,
+      "cuts_by_maximum": {
+        "12": 8,
+        "13": 2,
+        "14": 1,
+        "16": 1
+      }
+    },
+    {
+      "stage": "nine_heavy_slot_prices",
+      "input": 18,
+      "excluded": 1,
+      "remaining": 17,
+      "cuts_by_maximum": {
+        "14": 1
+      }
+    },
+    {
+      "stage": "halfspace_maximal_direction_bonus",
+      "input": 17,
+      "excluded": 8,
+      "remaining": 9,
+      "cuts_by_maximum": {
+        "12": 6,
+        "13": 1,
+        "14": 1
+      }
+    },
+    {
+      "stage": "nine_heavy_sumfree_resource",
+      "input": 9,
+      "excluded": 1,
+      "remaining": 8,
+      "cuts_by_maximum": {
+        "12": 1
+      }
+    }
+  ],
+  "final_cube_branch_uppers_doubled": [
+    972,
+    991,
+    954,
+    972,
+    962,
+    980
+  ],
+  "conclusion": "Together with the frozen round2 support>=19 theorem: maximum12..18 implies support<=17.",
+  "caveat": "No exclusion is claimed for middle maxima on support17 or lower; no proof of the full94 lower bound is claimed.",
+  "dependencies": {
+    "research_round2/geometric/PAIR_SPECTRUM_CENSUS.json": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+    "research_round2/middle/DIFFERENCE_AND_LIGHT_RESOURCE_LEMMAS.md": "4010bff366d52a7a5462672cc3338e56aef4b644a0ee48887e1cad63664cbff0",
+    "research_round2/middle/GLOBAL_SPECTRUM_CANDIDATES.jsonl": "169b9003c4bcf347cb54abb58d24726bb3b9f1e0508ee705db63cf5256585202",
+    "research_round2/middle/GLOBAL_SPECTRUM_DUAL_CERTIFICATES.jsonl": "83920ce92abcf64a82244e8a808d2a18c270153e39b09097d0eeb39bbeb3849f",
+    "research_round2/middle/GLOBAL_SUPPORT_REDUCTION_PROOF.md": "a7752b6ddf1124f0bf4fa86eb0f7252709a7757c08e2c658ecbbe9732bbd72af",
+    "research_round2/middle/HALFSPACE_ENERGY_THROUGH_EIGHTEEN.md": "2409a4d34cab30bae65f639f3f852b3ddcbd71cb35a0b74e96e88f5dc038dec5",
+    "research_round2/middle/MIDDLE_MAXIMA_SUPPORT_COMPLETION.json": "7bb926f9e18ee4fbd04e75ad77467d1b44760e92d1f8272953cfaaf4f71979a6",
+    "research_round2/middle/MIDDLE_MAXIMA_SUPPORT_THEOREM.md": "d423602b600e145abbf9c3508ef1e9b165c20f065aedeb9e10c5d961bf2b4daf",
+    "research_round2/middle/global_survivors_15_18.txt": "ee1e70e829a05d27504748d4804efe4b7c28a89946a7f9e00ec113c7bb578a19",
+    "research_round2/middle/verify_global_support_reductions.py": "f4052fdc40b6b744b9b85832580884a3302c73d299ddd9e1c54b416246106901",
+    "research_round2/root/CUBE_FIBRE_EDGE_CAPACITY_THEOREM.txt": "97fd516e1aeb72ec5ca0964365b6a1ee33891dd5039f869ab7f17cae501761c9",
+    "research_round2/root/ROOT_VERIFIED_PAIR_SPECTRUM_CENSUS.json": "32a5ba93a836e5cf23f04227a6f7086c5affdeb7a7a90913b125825a0f0006a8",
+    "research_round2/structural/m11_support/M11_SUPPORT_AT_MOST_SEVENTEEN.md": "a8634c4cadde055253c90fe0cd199f610ccb8446046200778c68a1589ec29376",
+    "research_round3/middle/BINARY_PLANE_PAIR_TRIPLES.json": "91f6d355cdd6f0285c91ff108a208afc6a2632e5032f3c7beea686b1c3e44cdd",
+    "research_round3/middle/BOUNDARY16_ACTUAL_SUMSET_EXCLUSION.md": "db8ed6beb6525bf2a8a2c9f1a3e9a59d2f3bbc533e46e30ba8f7cc14f16db9a9",
+    "research_round3/middle/CUBE_ENERGY_SUPPORT18_EXCLUSIONS.md": "4c8c9b604ff1ef54b3e2767e4da07edbb9829cb1a0437ff3151995a3970e5b3a",
+    "research_round3/middle/EIGHT_HEAVY_GAP_SCREEN.jsonl": "f0db1397d4e8f62274e608566901f01fc1045e87f270152a5f103ebae78892a2",
+    "research_round3/middle/EIGHT_HEAVY_SLOT_PRICE_SCREEN.jsonl": "8270fc727f2ab2c0e7dc8ac4d277071d1d592664cb5275d8724e4892fdb2c85d",
+    "research_round3/middle/FINAL_ANALYTIC_SUPPORT18_CERTIFICATES.jsonl": "8083f51ae8084c695b3fe4a5a703a5d942c48b8a664bf6723a301d0475666df6",
+    "research_round3/middle/HALFSPACE_MAXIMAL_DIRECTION_BONUS_SCREEN.jsonl": "49bfbc0761c5f2a94ed4c90e3bc706131cdb1f289978a45178c488aad1c4f840",
+    "research_round3/middle/NINE_HEAVY_SLOT_PRICE_SCREEN.jsonl": "5ad7d81dd639796aa3405d3499f6e75ad3a88eb244c6a2c306b77198dd3270e6",
+    "research_round3/middle/NINE_HEAVY_SUMFREE_PRICE_SCREEN.jsonl": "1e7b53fc6c555add8fe0b45191e2fe97becd8436c44709c7fc1c7d2a9d05dea9",
+    "research_round3/middle/RESOURCE_COMPATIBILITY_LEMMAS.md": "f696a11c0aad30df7b2734be13c662c2869fc1ca0a35df382b44296092722046",
+    "research_round3/middle/THREE_HEAVY_PERIOD_SCREEN.jsonl": "e7d86c967863286fa4faa806baeca865dae6ec266f0f6d7926f4876a12b1066b",
+    "research_round3/middle/THREE_NEIGHBOR_SLOT_PRICE_SCREEN.jsonl": "ec003654a1ab06c87f83599a1f105ea6e0b3c230fefc12089441c70fd0c2fc3a",
+    "research_round3/middle/TWO_HEAVY_DELETED_DIRECTION_SCREEN.jsonl": "f0e769ffd2508e59da56dd9bae234eb5c83065e1fcef755cf7fd4a9390ef7cea",
+    "research_round3/middle/support18_after_gap.jsonl": "b1d307fa6e92b549923d924152ea2c51f6659936bad1675c4a01727c7e254e8f",
+    "research_round3/middle/support18_after_nine_heavy.jsonl": "a689e256862ce2f530007e04043b4e75aa49568e8c4d08ede20da259c244d8a4",
+    "research_round3/middle/support18_after_period3.jsonl": "32d2ac4fa3d3233a7e41e341d37aafefac191f8517c08990cc999d264b74fb17",
+    "research_round3/middle/support18_after_period_bonus.jsonl": "d02a35847d6908c58ac011d344d34d352f466bbd46099177cad42e30d14a3cb2",
+    "research_round3/middle/support18_after_round2.jsonl": "018a795606ac3377921869774a1fa7fe5ed85636844457bcbf495aab2d372c85",
+    "research_round3/middle/support18_after_slots.jsonl": "f988950a3c1ab985636a1e566a5ebe7340d576bad68d35c404d4382e7c64b8ed",
+    "research_round3/middle/support18_after_sumfree9.jsonl": "1e82cb9b542d7a4543a34f8a1474324766c4e0dcaf041f0e6c4c45678b16dfb7",
+    "research_round3/middle/support18_after_three_neighbor.jsonl": "f7d98d7da25123848630ffb799c4d681368737c0f61071b8365fb82c2998c9e2",
+    "research_round3/middle/support18_after_twoheavy.jsonl": "ba83d88d840d07ee705b66b3c1998b48f93e0757f18b0d479e3a2825b7df3821",
+    "research_round3/middle/verify_support18_completion.py": "daff09ed2f2b891cc1cffce1abcde0c1545a8b697ae948ca02ee99b96bf1aaf6"
+  },
+  "seconds": 24.341
+}

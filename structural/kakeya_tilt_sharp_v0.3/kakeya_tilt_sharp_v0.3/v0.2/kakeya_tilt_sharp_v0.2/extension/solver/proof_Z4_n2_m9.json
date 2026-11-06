@@ -1,0 +1,19 @@
+{
+  "ring": "Z4",
+  "n": 2,
+  "bound": 9,
+  "status": "UNSAT",
+  "solver": "cadical195",
+  "variables": 104,
+  "clauses": 291,
+  "proof_lines": 164,
+  "proof_file": "proof_Z4_n2_m9.drat",
+  "seconds": 0.00206,
+  "proof_check": {
+    "accepted": true,
+    "additions": 120,
+    "deletions": 44,
+    "rat_only_steps": 0,
+    "checker": "independent standard-library RUP/RAT checker"
+  }
+}

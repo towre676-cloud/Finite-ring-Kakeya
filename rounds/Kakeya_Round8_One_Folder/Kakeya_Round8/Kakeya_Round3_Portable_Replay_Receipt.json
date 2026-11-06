@@ -1,0 +1,163 @@
+{
+  "status": "PASS_ALL_ROUND3_REPLAY_STEPS",
+  "scope": "All credited round3 finite exclusions and controls, plus the included complete round2 replay. Analytic proofs are separately supplied and reviewed; inherited earlier full results are anchored to prior checkpoints.",
+  "initial_manifest_sha256": "1b3913640a9d5b0f2738a982ab46f9a24b23be8b3f242ccb3d0189fcbdb12c86",
+  "initial_payload_files_verified": 395,
+  "python_version": "3.12.14",
+  "steps": [
+    {
+      "name": "inherited_round2_complete_replay",
+      "script": "VERIFY_ALL.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 81.543,
+      "log": "verification_logs_round3/inherited_round2_complete_replay.txt",
+      "log_sha256": "86b0920af12c7697cdb7a431364c035081e48f873f2a51dda4884c2a5c4a4996"
+    },
+    {
+      "name": "caught_up_compatibility_package",
+      "script": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/verify_package.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 6.923,
+      "log": "verification_logs_round3/caught_up_compatibility_package.txt",
+      "log_sha256": "5a1292e32a36be1a9431bacacca61eb4eb52491854e89a9309e6db4eeef3bd8a"
+    },
+    {
+      "name": "shared_period_and_rooted_rank_controls",
+      "script": "research_round3/root/verify_shared_geometry.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.346,
+      "log": "verification_logs_round3/shared_period_and_rooted_rank_controls.txt",
+      "log_sha256": "54eb72c30e1eb4333e49822f075883c78d8de21d92421f9af5c2e7220b88e02e"
+    },
+    {
+      "name": "full_hub_outer_twelve_controls",
+      "script": "research_round3/root/verify_full_hub_twelve.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.041,
+      "log": "verification_logs_round3/full_hub_outer_twelve_controls.txt",
+      "log_sha256": "0a9d19bbceea83d8db4a5146d35b43b50a1fd6144345598ab1d3f41a9463e31c"
+    },
+    {
+      "name": "m11_support17_assignment_duals",
+      "script": "research_round3/m11/verify_s17_envelope_duals.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 4.449,
+      "log": "verification_logs_round3/m11_support17_assignment_duals.txt",
+      "log_sha256": "7015202f5bc6eace61cf167ba5f67b56571411b11f65477fa8ed3ec1031a3f98"
+    },
+    {
+      "name": "m11_support17_remaining_placements",
+      "script": "research_round3/m11/verify_remaining_s17_placements.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.878,
+      "log": "verification_logs_round3/m11_support17_remaining_placements.txt",
+      "log_sha256": "fa9cbf14ad489e2482231d254de45248dc9b2d9671b1684fe262e909180d2e15"
+    },
+    {
+      "name": "m11_support16_six_classes",
+      "script": "research_round3/m11/s16/verify_s16_checkpoint.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 9.299,
+      "log": "verification_logs_round3/m11_support16_six_classes.txt",
+      "log_sha256": "4533e47c5dc0928a8cc92e7f1cd788a63d34d3653a9fb91de9bd63b0c2bb12d2"
+    },
+    {
+      "name": "middle_complete_support18_exclusion",
+      "script": "research_round3/middle/verify_support18_completion.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 23.957,
+      "log": "verification_logs_round3/middle_complete_support18_exclusion.txt",
+      "log_sha256": "d64ed9e43876ade8cd1a76207f431ac75fe050c26cf5b07a1403c9760dd6115d"
+    },
+    {
+      "name": "m19_common_rank_modes",
+      "script": "research_round3/m19/verify_common_shape_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 22.929,
+      "log": "verification_logs_round3/m19_common_rank_modes.txt",
+      "log_sha256": "7ad8f281467f1f356a4f09bf60d3eb641672258dbf6c37b6fb2b383444dab934"
+    },
+    {
+      "name": "m19_deleted_direction",
+      "script": "research_round3/m19/verify_deleted_direction_profile.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.049,
+      "log": "verification_logs_round3/m19_deleted_direction.txt",
+      "log_sha256": "26124ee412b10257590249a6f31cd7cd5451dc27db8ce6e10bcd2dcf7c7ce6b2"
+    },
+    {
+      "name": "m19_common_periodic_modes",
+      "script": "research_round3/m19/verify_own_periodic_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 4.0,
+      "log": "verification_logs_round3/m19_common_periodic_modes.txt",
+      "log_sha256": "375ef8c21ae77722d0023457af474272b4ed9fe7338f299cb173263872278c13"
+    },
+    {
+      "name": "m19_normalized_support_roles",
+      "script": "research_round3/m19/verify_unique_edge_roles.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 5.041,
+      "log": "verification_logs_round3/m19_normalized_support_roles.txt",
+      "log_sha256": "829dbdd742223c01577d7bcebac6c9f24c4c667b72ac8dba70fd11a648cb1538"
+    },
+    {
+      "name": "independent_m19_role_review",
+      "script": "research_round3/reviews/review_m19_role_certificates.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.305,
+      "log": "verification_logs_round3/independent_m19_role_review.txt",
+      "log_sha256": "546df3ebf710e19a141f47cac1f8b4fa05dd106754b0ab402c044809ab7e839a"
+    },
+    {
+      "name": "m19_disjoint_stage_accounting",
+      "script": "research_round3/m19/build_m19_round3_manifest.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.555,
+      "log": "verification_logs_round3/m19_disjoint_stage_accounting.txt",
+      "log_sha256": "4618df48686014befebb3cf4d3b62deab210b60bb5ec11072a9fa243ad3b2a10"
+    },
+    {
+      "name": "consolidated_round3_frontier",
+      "script": "research_round3/root/build_round3_frontier.py",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.051,
+      "log": "verification_logs_round3/consolidated_round3_frontier.txt",
+      "log_sha256": "8e58c02a31e2cc7c95cc314086072bf1642a9a75d4e87aebb09bc259f9f69864"
+    }
+  ],
+  "seconds": 161.373,
+  "report_word_count": 1500,
+  "regenerated_frontier_sha256": "151370310ac9f82c3154c6eb34386cf5b4d61b5aef78bb025e6c9c730787150b",
+  "final_frontier": {
+    "unrestricted_dimension5_theorem": "OPEN",
+    "m11_support_upper_bound": 16,
+    "m11_remaining_affine_classes": 46,
+    "middle_support_upper_bound": 17,
+    "middle_support18_survivors": 0,
+    "m19_round3_exclusions": 26673,
+    "m19_remaining_profiles": 3798,
+    "full_hub_outer_cap12_theorem": "n>=6,sharp3*2^n-2,star equality"
+  },
+  "archive": {
+    "filename": "Kakeya_Research_Round3_Proofs.zip",
+    "bytes": 12787725,
+    "sha256": "44c8663dc9a0a3343196c51fe284f7f09e84f2489cde4d837cbc8c3b95040d05"
+  },
+  "portable_replay": "Fresh independently extracted copy; all395 initial payload hashes verified, all15 stages passed, no previous workspace inputs accessed by the replay path."
+}

@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "regeneration": [
+    {
+      "name": "orbits_all",
+      "status": "PASS_BYTE_IDENTICAL",
+      "source_sha256": "86676ee9d255699be033332884e5f6d3a9e1f6af883a56f697bda97a8cdbad12",
+      "data_sha256": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+      "seconds": 29.489
+    },
+    {
+      "name": "spectra32",
+      "status": "PASS_BYTE_IDENTICAL",
+      "source_sha256": "c19abc14304dafafac2137f030c571ea77488eb67ea5343dce1c69897e19ca8b",
+      "data_sha256": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+      "seconds": 27.783
+    },
+    {
+      "name": "msum",
+      "status": "PASS_BYTE_IDENTICAL",
+      "source_sha256": "ef3aa69c6c343e8fc5e5be6be3e716748f86e3501944e3d2d9b0f8cc6ab79d98",
+      "data_sha256": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+      "seconds": 35.262
+    }
+  ],
+  "catalogue": {
+    "covering_marked_supports": {
+      "10": 2,
+      "11": 13,
+      "12": 25,
+      "13": 55,
+      "14": 88,
+      "15": 113,
+      "16": 131,
+      "17": 145,
+      "18": 129,
+      "19": 113,
+      "20": 91,
+      "21": 67,
+      "22": 50,
+      "23": 34,
+      "24": 21,
+      "25": 14,
+      "26": 9,
+      "27": 5,
+      "28": 3,
+      "29": 2,
+      "30": 1,
+      "31": 1,
+      "32": 1
+    },
+    "mobius_checks": [
+      {
+        "nonzero_points": 5,
+        "orbit_count": 1,
+        "weighted_orbit_count": 83328,
+        "mobius_count": 83328
+      },
+      {
+        "nonzero_points": 6,
+        "orbit_count": 4,
+        "weighted_orbit_count": 583296,
+        "mobius_count": 583296
+      },
+      {
+        "nonzero_points": 7,
+        "orbit_count": 8,
+        "weighted_orbit_count": 2430400,
+        "mobius_count": 2430400
+      },
+      {
+        "nonzero_points": 8,
+        "orbit_count": 15,
+        "weighted_orbit_count": 7689240,
+        "mobius_count": 7689240
+      },
+      {
+        "nonzero_points": 9,
+        "orbit_count": 29,
+        "weighted_orbit_count": 20004920,
+        "mobius_count": 20004920
+      },
+      {
+        "nonzero_points": 10,
+        "orbit_count": 46,
+        "weighted_orbit_count": 44259072,
+        "mobius_count": 44259072
+      },
+      {
+        "nonzero_points": 11,
+        "orbit_count": 64,
+        "weighted_orbit_count": 84630000,
+        "mobius_count": 84630000
+      },
+      {
+        "nonzero_points": 12,
+        "orbit_count": 89,
+        "weighted_orbit_count": 141106420,
+        "mobius_count": 141106420
+      },
+      {
+        "nonzero_points": 13,
+        "orbit_count": 112,
+        "weighted_orbit_count": 206249820,
+        "mobius_count": 206249820
+      },
+      {
+        "nonzero_points": 14,
+        "orbit_count": 128,
+        "weighted_orbit_count": 265182060,
+        "mobius_count": 265182060
+      },
+      {
+        "nonzero_points": 15,
+        "orbit_count": 144,
+        "weighted_orbit_count": 300540164,
+        "mobius_count": 300540164
+      },
+      {
+        "nonzero_points": 16,
+        "orbit_count": 145,
+        "weighted_orbit_count": 300540195,
+        "mobius_count": 300540195
+      },
+      {
+        "nonzero_points": 17,
+        "orbit_count": 129,
+        "weighted_orbit_count": 265182525,
+        "mobius_count": 265182525
+      },
+      {
+        "nonzero_points": 18,
+        "orbit_count": 113,
+        "weighted_orbit_count": 206253075,
+        "mobius_count": 206253075
+      },
+      {
+        "nonzero_points": 19,
+        "orbit_count": 91,
+        "weighted_orbit_count": 141120525,
+        "mobius_count": 141120525
+      },
+      {
+        "nonzero_points": 20,
+        "orbit_count": 67,
+        "weighted_orbit_count": 84672315,
+        "mobius_count": 84672315
+      },
+      {
+        "nonzero_points": 21,
+        "orbit_count": 50,
+        "weighted_orbit_count": 44352165,
+        "mobius_count": 44352165
+      },
+      {
+        "nonzero_points": 22,
+        "orbit_count": 34,
+        "weighted_orbit_count": 20160075,
+        "mobius_count": 20160075
+      },
+      {
+        "nonzero_points": 23,
+        "orbit_count": 21,
+        "weighted_orbit_count": 7888725,
+        "mobius_count": 7888725
+      },
+      {
+        "nonzero_points": 24,
+        "orbit_count": 14,
+        "weighted_orbit_count": 2629575,
+        "mobius_count": 2629575
+      },
+      {
+        "nonzero_points": 25,
+        "orbit_count": 9,
+        "weighted_orbit_count": 736281,
+        "mobius_count": 736281
+      },
+      {
+        "nonzero_points": 26,
+        "orbit_count": 5,
+        "weighted_orbit_count": 169911,
+        "mobius_count": 169911
+      },
+      {
+        "nonzero_points": 27,
+        "orbit_count": 3,
+        "weighted_orbit_count": 31465,
+        "mobius_count": 31465
+      },
+      {
+        "nonzero_points": 28,
+        "orbit_count": 2,
+        "weighted_orbit_count": 4495,
+        "mobius_count": 4495
+      },
+      {
+        "nonzero_points": 29,
+        "orbit_count": 1,
+        "weighted_orbit_count": 465,
+        "mobius_count": 465
+      },
+      {
+        "nonzero_points": 30,
+        "orbit_count": 1,
+        "weighted_orbit_count": 31,
+        "mobius_count": 31
+      },
+      {
+        "nonzero_points": 31,
+        "orbit_count": 1,
+        "weighted_orbit_count": 1,
+        "mobius_count": 1
+      }
+    ],
+    "marked_case_bijection": "PASS_13_PLUS_25",
+    "mathematical_scope": "Completeness also uses the reviewed orbit enumerator: each canonical label is an actual image and reported stabilizers are correct."
+  }
+}

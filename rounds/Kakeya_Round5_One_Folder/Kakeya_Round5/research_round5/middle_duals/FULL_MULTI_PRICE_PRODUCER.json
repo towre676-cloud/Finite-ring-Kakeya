@@ -1,0 +1,227 @@
+{
+  "status": "PRODUCED_EXACT_RATIONAL_CANDIDATES",
+  "input_profiles": 275755,
+  "searched_profiles": 186779,
+  "cuts": 240,
+  "remaining_profiles": 275515,
+  "minimum_support": 13,
+  "maximum_support": 17,
+  "limit": null,
+  "local_feature_keys": 6228,
+  "floating_optimum_diagnostics": {
+    "above96": 186100,
+    "below96": 240,
+    "equal96": 439
+  },
+  "records": [
+    {
+      "support": 13,
+      "maximum": 12,
+      "searched": 10220,
+      "cuts": 0
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "searched": 12033,
+      "cuts": 0
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "searched": 15648,
+      "cuts": 13
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "searched": 13653,
+      "cuts": 12
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "searched": 16279,
+      "cuts": 17
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "searched": 11166,
+      "cuts": 12
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "searched": 6914,
+      "cuts": 0
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "searched": 12872,
+      "cuts": 11
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "searched": 11677,
+      "cuts": 11
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "searched": 15410,
+      "cuts": 9
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "searched": 10842,
+      "cuts": 6
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "searched": 14043,
+      "cuts": 38
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "searched": 7439,
+      "cuts": 24
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "searched": 3582,
+      "cuts": 0
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "searched": 5390,
+      "cuts": 10
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "searched": 3002,
+      "cuts": 6
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "searched": 4194,
+      "cuts": 3
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "searched": 2185,
+      "cuts": 1
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "searched": 4110,
+      "cuts": 22
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "searched": 1234,
+      "cuts": 11
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "searched": 376,
+      "cuts": 0
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "searched": 1260,
+      "cuts": 5
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "searched": 512,
+      "cuts": 3
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "searched": 770,
+      "cuts": 4
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "searched": 374,
+      "cuts": 1
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "searched": 907,
+      "cuts": 9
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "searched": 209,
+      "cuts": 3
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "searched": 44,
+      "cuts": 0
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "searched": 151,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "searched": 46,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "searched": 86,
+      "cuts": 1
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "searched": 42,
+      "cuts": 0
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "searched": 95,
+      "cuts": 3
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "searched": 14,
+      "cuts": 1
+    }
+  ],
+  "input_sha256": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+  "certificates": "FULL_MULTI_PRICE_CUTS.jsonl",
+  "survivors": "full_after_multi_price_survivors.txt",
+  "scope": "Exact upper-bound certificates after rationalizing discovered prices; this producer is not the independent replay and does not prove LP optimality for remaining profiles.",
+  "seconds": 287.67
+}

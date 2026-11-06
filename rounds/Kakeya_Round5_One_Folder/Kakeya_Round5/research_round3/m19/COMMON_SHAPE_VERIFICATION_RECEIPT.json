@@ -1,0 +1,50 @@
+{
+  "status": "PASS_EXACT_COMMON_SHAPE_BRANCH_VERIFICATION",
+  "new_rank_catalogue_normalized_sets": 594,
+  "new_rank_catalogue_own_cases": 11108,
+  "new_rank_catalogue_sha256": "bff23d90ce33cf3da8b9fbb0a786f34ed5cfd02ca1cb7c42203b7cba208bf2be",
+  "input_round2_manifest_sha256": "a5e8bf39559443c1b465458989fbe565da0153d3e4fcf67a5363e2e61ea9d8d3",
+  "dual_sha256": "574dcb58a4a17480e0a69361fd2ab9d2afded3ee32e7fd4a985d3743e1b68068",
+  "local_keys": 14556,
+  "spectrum_duals": 98495,
+  "integer_inequalities": 21111511,
+  "supports": {
+    "11": {
+      "input_profiles": 21356,
+      "input_sha256": "4e14cf660d35d8823d03893cc5fe2ed8a2de80e74a18d3df2e62d4558be79fff",
+      "whole_profile_exclusions": 11527,
+      "covering_branch_certificates": 72265,
+      "remaining_profiles": 9829,
+      "minimum_gap_doubled": 1,
+      "candidate_sha256": "f3f74a3e649077a7fe8dcf5a7862dc2aeb5966121012125697eec4aa98060791",
+      "verified_profiles_sha256": "d518c352c38d8d4c0f1b6984168e4a4dece88f3e1636e816dc64f75a56c4f7fb",
+      "survivors_sha256": "5803aea98b6106decf97181578761e315c6c2ae87229bc58c87b1290d2df5cfd"
+    },
+    "12": {
+      "input_profiles": 9115,
+      "input_sha256": "b1f0dc9420e639e4a102a5682bb91a97443d20d9b5e6166d31f6642349128dcc",
+      "whole_profile_exclusions": 6077,
+      "covering_branch_certificates": 37689,
+      "remaining_profiles": 3038,
+      "minimum_gap_doubled": 1,
+      "candidate_sha256": "77e2fdd0a14b0cf476cfbf740a8e7549f96a4afae9d82764d8ba1142d39d745d",
+      "verified_profiles_sha256": "b00164273daaa546e6a4401ad1134a725a47389e8bb77cbe96f7be4ac5031b61",
+      "survivors_sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+    }
+  },
+  "total_whole_profile_exclusions": 17604,
+  "total_remaining_profiles": 12867,
+  "total_covering_branches": 109954,
+  "certificate_channels": {
+    "0": 104296,
+    "1": 5658
+  },
+  "certificate_cutoffs": {
+    "0": 98717,
+    "1": 5686,
+    "3": 3767,
+    "2": 1769,
+    "4": 15
+  },
+  "seconds": 23.155917406082153
+}

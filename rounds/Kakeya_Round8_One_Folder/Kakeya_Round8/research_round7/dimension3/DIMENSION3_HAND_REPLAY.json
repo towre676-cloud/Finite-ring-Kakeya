@@ -1,0 +1,136 @@
+{
+  "status": "PASS_ELEMENTARY_DIMENSION3_THEOREM_FINITE_CORROBORATION",
+  "theorem": "k_R(3)=22 for R=Z/4Z and R=F2[epsilon]/(epsilon^2)",
+  "proof_does_not_depend_on_this_enumeration": true,
+  "sat_or_external_census_used": false,
+  "binary3_subsets_exhausted": 256,
+  "qmax_by_weight": {
+    "0": 0,
+    "1": 0,
+    "2": 1,
+    "3": 3,
+    "4": 12,
+    "5": 16,
+    "6": 33,
+    "7": 63,
+    "8": 112
+  },
+  "energy_distribution_by_weight": {
+    "0": {
+      "0": 1
+    },
+    "1": {
+      "0": 8
+    },
+    "2": {
+      "1": 28
+    },
+    "3": {
+      "3": 56
+    },
+    "4": {
+      "6": 56,
+      "12": 14
+    },
+    "5": {
+      "16": 56
+    },
+    "6": {
+      "33": 28
+    },
+    "7": {
+      "63": 8
+    },
+    "8": {
+      "112": 1
+    }
+  },
+  "complement_identities_checked": 1792,
+  "four_point_period_span_implications_checked": 84,
+  "shared_plane_sumset_capacity_checks": 84,
+  "five_support_geometries_checked": 56,
+  "five_support_spoke_two_space_intersection_checks": 392,
+  "six_support_and_hub_geometries_checked": 168,
+  "seven_support_and_hub_geometries_checked": 56,
+  "eight_support_geometries_checked": 1,
+  "partitions_checked_by_support": {
+    "5": 124,
+    "6": 83,
+    "7": 44,
+    "8": 19
+  },
+  "support6_cap6_energy_survivors": [
+    [
+      2,
+      2,
+      2,
+      2,
+      6,
+      6
+    ],
+    [
+      2,
+      2,
+      2,
+      3,
+      6,
+      6
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      4,
+      6
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      5,
+      6
+    ],
+    [
+      2,
+      2,
+      3,
+      3,
+      5,
+      6
+    ],
+    [
+      2,
+      2,
+      3,
+      4,
+      4,
+      6
+    ]
+  ],
+  "all_six_survivors_fail_heavy_light_bound": true,
+  "support7_cap6_exact_energy_maximum": 54,
+  "support8_cap6_exact_energy_maximum": 42,
+  "full_support7hub_capacity_upper_bound": 21,
+  "full_support_required_capacity": 28,
+  "full_centre_support5_outer_profiles_checked": 18,
+  "direct_ring_checks": {
+    "z4": {
+      "primitive_line_instances_checked": 3584,
+      "star_points": 22,
+      "star_primitive_vectors_checked": 56,
+      "star_direction_classes": 28
+    },
+    "dual": {
+      "primitive_line_instances_checked": 3584,
+      "star_points": 22,
+      "star_primitive_vectors_checked": 56,
+      "star_direction_classes": 28
+    }
+  },
+  "proof_sha256": "c314e8655de48575d3dc3609a840587a5bf638cb0c0e1026dcc7a928e0128185",
+  "verifier_sha256": "6200a9c82547db1932873b61e6bd7c24985a867eba64d030b8ae6641bb81c41b",
+  "seconds": 0.069523,
+  "formalization": "Written elementary proof plus finite corroboration; not a full proof-assistant theorem."
+}

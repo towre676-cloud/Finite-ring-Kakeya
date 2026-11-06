@@ -1,0 +1,19 @@
+{
+  "case_id": "s11_orbit65_hub1",
+  "expected_sha256": "bc468ee9aba4dfee3d0296e6bd08311f1bab513543cd3c081968e6a18dfc7fe6",
+  "expected_bytes": 13514924,
+  "observed_sha256": "69bc667949521d517683fb1f603abc84829aa0db3f0e278ee7b8124e32d001fb",
+  "observed_bytes": 8851456,
+  "observed_mtime": 1793218432.5080624,
+  "observed_ctime": 1793218444.3123202,
+  "receipt_mtime": 1793218435.3163266,
+  "all_other_37_drat_hashes_matched": true,
+  "original_cnf_and_checked_lrat_hashes_matched": true,
+  "cause": "UNDETERMINED",
+  "response": "Preserve incident record, regenerate exact same case, require full checksum and checker gates again.",
+  "repair_status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+  "regenerated_drat_sha256": "bc468ee9aba4dfee3d0296e6bd08311f1bab513543cd3c081968e6a18dfc7fe6",
+  "regenerated_drat_bytes": 13514924,
+  "deterministic_regeneration_restored_original_proof_bytes": true,
+  "full38_aggregate_hash_and_log_gate": "PASS"
+}

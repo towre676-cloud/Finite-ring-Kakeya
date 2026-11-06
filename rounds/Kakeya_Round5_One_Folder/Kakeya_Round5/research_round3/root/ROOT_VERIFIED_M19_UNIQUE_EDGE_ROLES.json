@@ -1,0 +1,28 @@
+{
+  "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY",
+  "scope": "Whole tracked weight/own-direction profiles at exact maximum19, dimension5, both rings.",
+  "new_whole_profile_exclusions": 8837,
+  "remaining_profiles": 3798,
+  "remaining_by_support": {
+    "11": 896,
+    "12": 2902
+  },
+  "normalized_supports_enumerated": 296010,
+  "hall_witnesses_checked": 88370,
+  "analytic_review": [
+    "A sole outside-support residue edge must cover all16 labels; under the verified outer cap14, either endpoint of weight<=7 makes this impossible by the three-point sumset obstruction.",
+    "A sole hub edge requires an own-positive fibre of weight>=4.",
+    "A covering support spans F2^5 and contains a basis. A linear change fixing the hub normalizes that basis, so all marked supports occur in the enumerated supersets of {0,1,2,4,8,16}.",
+    "Each failed Hall inequality is a necessary capacity obstruction. Every excluded profile has one failed inequality for every observed role pattern; exact role-pattern enumeration establishes completeness.",
+    "The verifier independently counts translated-mask intersections, checks every profile outer cap, and checks exact survivor subtraction. No inherited affine-orbit catalogue is used at this stage."
+  ],
+  "stable_hashes": {
+    "research_round3/m19/UNIQUE_EDGE_ROLE_PROOF.md": "fc42122e47f37fa575f85dc8b79502d84b21d1c6b0824ee412b76560e7272e13",
+    "research_round3/m19/verify_unique_edge_roles.py": "fdc7460dc460daaa3f06437d8f7203c2d484585405963aa3d8411d63b9987d26",
+    "research_round3/m19/UNIQUE_EDGE_ROLE_NORMALIZED_CENSUS.json": "d1cd69dca9cfd10cd694db81001870c2139e98ca86329992082e304db37ad008",
+    "research_round3/m19/S11_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl": "975e74a1e33cf4d755a699ad86098e975a3152ab10afb60cac60ecd505c8ac3c",
+    "research_round3/m19/S12_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research_round3/m19/s11_after_unique_edge_roles.txt": "baad3778468db325cdcf499b7c51b3aac338a368645259ef37b297998959f6f2",
+    "research_round3/m19/s12_after_unique_edge_roles.txt": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BOUNDED_MATHEMATICAL_AND_CODE_CROSS_CHECK",
+  "joint_local_rows": 1683,
+  "spectra_evaluated": 24750,
+  "new_joint_weight_profile_cuts": 524,
+  "actual_cube_branches": 2498,
+  "minimum_strict_doubled_gap": 1,
+  "final_weight_profiles": 276267,
+  "seconds": 1.517
+}

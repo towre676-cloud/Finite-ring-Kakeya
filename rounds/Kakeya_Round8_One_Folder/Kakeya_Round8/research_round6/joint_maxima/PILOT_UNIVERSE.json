@@ -1,0 +1,64 @@
+[
+  {
+    "source_mask": 8481174,
+    "stabilizer_order": 336,
+    "case_id": "m2_18_s11_orbit65_hub1",
+    "support_size": 11,
+    "source_support": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      16,
+      23
+    ],
+    "distinguished_hub": 0,
+    "target_support": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      16,
+      17
+    ],
+    "affine_map_to_contract": [
+      0,
+      3,
+      5,
+      7,
+      9,
+      16
+    ],
+    "normalized_mask": 8481175,
+    "source_normalizing_basis": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "contract_basis_witness": [
+      3,
+      5,
+      7,
+      9,
+      16
+    ],
+    "scope": "Support equivalence only; no claim that a particular CNF or proof matches this support.",
+    "geometric_case_id": "s11_orbit65_hub1",
+    "maximum_interval": [
+      2,
+      18
+    ]
+  }
+]

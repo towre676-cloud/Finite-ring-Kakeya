@@ -1,0 +1,104 @@
+ROUND 8: EXPLICIT HEAVY AND TETRAHEDRAL CAPACITY EXTENSIONS
+
+Scope
+-----
+This is a one-way mathematical and code argument for the common necessary
+relaxation in encode_strengthened.py. It concerns dimension five over both
+Z/4Z and F2[epsilon]/(epsilon^2), a declared support of thirteen pair-active
+residues, and fibre weights in the declared maximum interval. The baseline
+remains the frozen Round6 joint-maxima encoder. Its census and one-way
+soundness obligations are inherited. This text is not a proof-assistant
+formalization.
+
+Start from an actual Kakeya configuration satisfying the support, maximum
+and total-weight hypotheses. The baseline soundness argument supplies its
+actual census spectrum selectors z[v,i] and pair-count selectors y[v,d,p].
+The extension reads these two explicit maps only. The implementation uses
+the frozen audited encode_maximal_cosets.py with strengthen=False, which
+also exposes the actual H/K selector maps for separately reviewed future
+cuts. In that mode it emits the same baseline clauses and variable order;
+the controls independently compare it to encode_joint_maxima.py. No
+baseline auxiliary number, allocation order or clause position is inferred.
+
+Heavy-fibre cardinality
+----------------------
+For each vertex v introduce h_v equivalent to the OR of the spectrum
+selectors having weight at least four. Its defining CNF is
+
+    (not h_v OR all eligible z) AND (not z OR h_v) for every eligible z.
+
+Thus h_v=[actual fibre weight >=4]. An empty eligible domain forces h_v
+false. With13 active fibres and all weights<=18, the preceding geometric
+theorem requires at least8 heavy fibres. If all weights<=13, it requires
+at least9. The theorem threshold is selected from the largest weight in
+the actual selector domains, not from an unchecked caller assertion.
+
+These are the written results in Round7 geometry/SUPPORT13_HEAVY_FIBRES.md
+and SUPPORT13_EIGHT_HEAVY_COROLLARIES.md. The latter uses |D(H)|<=25 for
+eight binary5 points. Five light fibres then supply at most15 directional
+pairs, each charged at most6, whereas at least6 missing heavy directions
+need96 units: 90<96. Neither of these two cardinality conclusions requires
+the total-weight93 assumption. The baseline's bidirectional unary counter
+encodes their indicated cardinality threshold.
+
+Tetrahedral flags
+-----------------
+For each v introduce t_v equivalent to the OR of two sufficient census
+families: rank exactly4 and either weight8/energy64 with one4-pair
+direction, or weight11/energy205. A rank interval containing another rank
+does not qualify. In either family, whenever p_v(d)=4 the quotient pair
+set in F2^5/<d> is a nonplanar four-set. Round7's
+support13/four_pair_cut/FOUR_PAIR_CAPACITY_LEMMA.txt supplies the elementary
+proof and records the excluded planar exceptions.
+
+Two nonplanar four-sets in the quotient four-space have sumset size at
+most14. Their three-dimensional direction spaces meet in at least a
+plane; after excluding one missing nonzero difference from each set, a
+common nonzero difference remains. Its two endpoint pairs force two
+distinct collisions among the16 ordered sums. This is a bound on each
+individual edge, irrespective of how many edges have the same residue
+direction. The ring carry translates that edge sumset and does not change
+its cardinality.
+
+A second, explicit capacity upper bound
+--------------------------------------
+For every edge e={a,b} with direction d=a+b, create16 fresh unary bits
+c[e,j], j=1..16. They mean that a new capacity variable C_e is at least j.
+Monotonicity gives a true prefix of length C_e. For each pair-count choice
+p,q, the inherited sumset table supplies C_e<=M[p,q]. If M[p,q]<16 this is
+encoded by
+
+    not c[e,M[p,q]+1] OR not y[a,d,p] OR not y[b,d,q].
+
+Also impose
+
+    not c[e,15] OR not t_a OR not t_b
+        OR not y[a,d,4] OR not y[b,d,4].
+
+The code uses zero-based bits[cap], so the displayed threshold M+1 is
+exactly bits[M], and the tetrahedral threshold15 is bits[14]. For each
+nonzero d, the bidirectional totalizer requires the sum of the new edge
+capacities in that direction to be at least16.
+
+To extend the assignment of an actual Kakeya configuration, set C_e to
+the actual cardinality of that edge's carried quotient sumset. All table
+bounds hold, and whenever the tetrahedral antecedents hold the new14
+bound holds. The union of the actual edge sumsets covers all16 lifts of
+d, so their cardinalities sum to at least16. Hence every added direction
+constraint is satisfied. Overlaps between edges are allowed; using their
+sum is an upper bound, which is exactly the necessary condition required.
+
+The new capacities are separate from the original baseline capacities.
+Their witnesses may both be chosen from the same actual geometry, so no
+identification with hidden baseline variables is necessary. Every original
+variable and clause is left untouched. Disabling the extension must give
+byte-identical DIMACS output; the finite controls check this for all four
+target supports.
+
+Consequently every actual counterexample satisfying the declared scope
+extends to a satisfying assignment of the strengthened CNF. A refutation
+checked against that exact new CNF excludes that scope, conditional on the
+inherited premises and these geometric lemmas. An old-baseline refutation
+is not claimed merely because a strengthened formula is refuted. RUP-unit
+search preprocessing remains untrusted: its complete prefixed proof is
+checked against the exact unaugmented strengthened CNF.

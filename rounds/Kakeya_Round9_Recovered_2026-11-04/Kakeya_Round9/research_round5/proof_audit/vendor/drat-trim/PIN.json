@@ -1,0 +1,27 @@
+{
+  "project": "DRAT-trim",
+  "repository": "https://github.com/marijnheule/drat-trim",
+  "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "commit_date": "2024-11-25T10:20:26-05:00",
+  "source_files_sha256": {
+    "drat-trim.c": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+    "lrat-check.c": "bf07c2ac96b9035da1ebcc578cb95e956a2b795629d613154cdb307f8a8f4a95",
+    "LICENSE": "71ab2a9dc5a294ad8fba4ccb8c45aaa8a439596d314a2a046ac9b62266872a18"
+  },
+  "license": "MIT; complete license included",
+  "formal_status": "The vendored C DRAT and LRAT checkers are ordinary compiled programs. This package does not claim their C implementations are proof-assistant verified.",
+  "ordinary_C_LRAT_checker_role": "DIAGNOSTIC_ONLY; never an UNSAT acceptance authority in this package",
+  "observed_C_LRAT_false_acceptance": {
+    "input_CNF": "p cnf 1 1\n1 0\n",
+    "input_LRAT": "2 0 0\n",
+    "satisfying_assignment": {
+      "1": true
+    },
+    "observed_exit_code": 0,
+    "observed_stdout_marker": "c VERIFIED",
+    "tested_invocation": "lrat-check FILE.cnf FILE.lrat",
+    "correct_CakeML_result": "Rejects: pivot must be non-zero",
+    "reproducer": "verify_pipeline.py and control_audit/C_checker_false_positive/",
+    "scope": "Observed behavior of the exact pinned C utility; not a claim that the LRAT calculus or formally verified LRAT checkers are unsound."
+  }
+}

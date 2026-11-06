@@ -1,0 +1,43 @@
+{
+  "status": "PASS_SHARP_EIGHT_POINT_DIFFERENCE_BOUND",
+  "normalized_rank_five_sets_checked": 325,
+  "all_contain_a_four_point_affine_plane": true,
+  "difference_count_distribution": {
+    "20": 90,
+    "22": 160,
+    "25": 75
+  },
+  "lower_rank_argument": "Affine rank at most four confines all differences to a space of at most sixteen points, so at most fifteen nonzero differences.",
+  "sharp_example": {
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      29
+    ],
+    "difference_count": 25,
+    "affine_plane": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "difference_caps_zero_through_eight": [
+    0,
+    0,
+    1,
+    3,
+    6,
+    10,
+    15,
+    21,
+    25
+  ],
+  "manual_proof": "HEAVY_LIGHT_DUAL_LEMMA.md",
+  "source_sha256": "f264b3a892d213f0e756814a8af51b78f31df70d90819f7d1b6f199d0991cb68"
+}

@@ -1,0 +1,1566 @@
+{
+  "status": "PASS_COMPLETE_DIMENSION4_MARKED_SUPPORT_CATALOGUE",
+  "dimension": 4,
+  "all_marked_subsets": 32768,
+  "group_order": 20160,
+  "generators": [
+    [
+      1,
+      3,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      5,
+      8
+    ],
+    [
+      1,
+      2,
+      4,
+      9
+    ],
+    [
+      3,
+      2,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      6,
+      8
+    ],
+    [
+      1,
+      2,
+      4,
+      10
+    ],
+    [
+      5,
+      2,
+      4,
+      8
+    ],
+    [
+      1,
+      6,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      4,
+      12
+    ],
+    [
+      9,
+      2,
+      4,
+      8
+    ],
+    [
+      1,
+      10,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      12,
+      8
+    ]
+  ],
+  "group_sorted_columns_sha256": "646db0ca809ad016ee1d2078ab27d1b6dcd27bef2ef79baae3b5137f91ce3469",
+  "all_marked_orbit_count": 46,
+  "covering_marked_orbit_count": 28,
+  "covering_marked_subsets": 23552,
+  "all_orbits_by_support_size": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 5,
+    "8": 6,
+    "9": 6,
+    "10": 5,
+    "11": 4,
+    "12": 3,
+    "13": 2,
+    "14": 1,
+    "15": 1,
+    "16": 1
+  },
+  "covering_orbits_by_support_size": {
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 6,
+    "10": 5,
+    "11": 4,
+    "12": 3,
+    "13": 2,
+    "14": 1,
+    "15": 1,
+    "16": 1
+  },
+  "burnside_all_orbits_by_support_size": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 5,
+    "8": 6,
+    "9": 6,
+    "10": 5,
+    "11": 4,
+    "12": 3,
+    "13": 2,
+    "14": 1,
+    "15": 1,
+    "16": 1
+  },
+  "explicit_transports_checked": 32768,
+  "all_orbits": [
+    {
+      "full_mask": 1,
+      "nonzero_compact_mask": 0,
+      "support": [
+        0
+      ],
+      "support_size": 1,
+      "orbit_size": 1,
+      "stabilizer_order": 20160,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 3,
+      "nonzero_compact_mask": 1,
+      "support": [
+        0,
+        1
+      ],
+      "support_size": 2,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 7,
+      "nonzero_compact_mask": 3,
+      "support": [
+        0,
+        1,
+        2
+      ],
+      "support_size": 3,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 15,
+      "nonzero_compact_mask": 7,
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "support_size": 4,
+      "orbit_size": 35,
+      "stabilizer_order": 576,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 23,
+      "nonzero_compact_mask": 11,
+      "support": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "support_size": 4,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 31,
+      "nonzero_compact_mask": 15,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "support_size": 5,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 61,
+      "nonzero_compact_mask": 30,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_size": 5,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 63,
+      "nonzero_compact_mask": 31,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "support_size": 6,
+      "orbit_size": 315,
+      "stabilizer_order": 64,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 127,
+      "nonzero_compact_mask": 63,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "support_size": 7,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 255,
+      "nonzero_compact_mask": 127,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "support_size": 8,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 279,
+      "nonzero_compact_mask": 139,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "support_size": 5,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 287,
+      "nonzero_compact_mask": 143,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "support_size": 6,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 317,
+      "nonzero_compact_mask": 158,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "support_size": 6,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 319,
+      "nonzero_compact_mask": 159,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "support_size": 7,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 383,
+      "nonzero_compact_mask": 191,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "support_size": 8,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 511,
+      "nonzero_compact_mask": 255,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "support_size": 9,
+      "orbit_size": 120,
+      "stabilizer_order": 168,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 829,
+      "nonzero_compact_mask": 414,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "support_size": 7,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 831,
+      "nonzero_compact_mask": 415,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "support_size": 8,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 855,
+      "nonzero_compact_mask": 427,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 7,
+      "orbit_size": 280,
+      "stabilizer_order": 72,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 857,
+      "nonzero_compact_mask": 428,
+      "support": [
+        0,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 6,
+      "orbit_size": 168,
+      "stabilizer_order": 120,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 859,
+      "nonzero_compact_mask": 429,
+      "support": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 7,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 863,
+      "nonzero_compact_mask": 431,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 8,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 893,
+      "nonzero_compact_mask": 446,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "support_size": 8,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 895,
+      "nonzero_compact_mask": 447,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "support_size": 9,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1021,
+      "nonzero_compact_mask": 510,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "support_size": 9,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1023,
+      "nonzero_compact_mask": 511,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "support_size": 10,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1911,
+      "nonzero_compact_mask": 955,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "support_size": 9,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1919,
+      "nonzero_compact_mask": 959,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "support_size": 10,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2033,
+      "nonzero_compact_mask": 1016,
+      "support": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 8,
+      "orbit_size": 120,
+      "stabilizer_order": 168,
+      "difference_covering": false
+    },
+    {
+      "full_mask": 2035,
+      "nonzero_compact_mask": 1017,
+      "support": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 9,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2039,
+      "nonzero_compact_mask": 1019,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 10,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2047,
+      "nonzero_compact_mask": 1023,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 11,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4081,
+      "nonzero_compact_mask": 2040,
+      "support": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 9,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4083,
+      "nonzero_compact_mask": 2041,
+      "support": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 10,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4087,
+      "nonzero_compact_mask": 2043,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 11,
+      "orbit_size": 315,
+      "stabilizer_order": 64,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4095,
+      "nonzero_compact_mask": 2047,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 12,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6015,
+      "nonzero_compact_mask": 3007,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 11,
+      "orbit_size": 168,
+      "stabilizer_order": 120,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6077,
+      "nonzero_compact_mask": 3038,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 10,
+      "orbit_size": 280,
+      "stabilizer_order": 72,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6079,
+      "nonzero_compact_mask": 3039,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 11,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6143,
+      "nonzero_compact_mask": 3071,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 12,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 8183,
+      "nonzero_compact_mask": 4091,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "support_size": 12,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 8191,
+      "nonzero_compact_mask": 4095,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "support_size": 13,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 16381,
+      "nonzero_compact_mask": 8190,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "support_size": 13,
+      "orbit_size": 35,
+      "stabilizer_order": 576,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 16383,
+      "nonzero_compact_mask": 8191,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "support_size": 14,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 32767,
+      "nonzero_compact_mask": 16383,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "support_size": 15,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 65535,
+      "nonzero_compact_mask": 32767,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "support_size": 16,
+      "orbit_size": 1,
+      "stabilizer_order": 20160,
+      "difference_covering": true
+    }
+  ],
+  "covering_cases": [
+    {
+      "full_mask": 511,
+      "nonzero_compact_mask": 255,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "support_size": 9,
+      "orbit_size": 120,
+      "stabilizer_order": 168,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 855,
+      "nonzero_compact_mask": 427,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 7,
+      "orbit_size": 280,
+      "stabilizer_order": 72,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 857,
+      "nonzero_compact_mask": 428,
+      "support": [
+        0,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 6,
+      "orbit_size": 168,
+      "stabilizer_order": 120,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 859,
+      "nonzero_compact_mask": 429,
+      "support": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 7,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 863,
+      "nonzero_compact_mask": 431,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "support_size": 8,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 893,
+      "nonzero_compact_mask": 446,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "support_size": 8,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 895,
+      "nonzero_compact_mask": 447,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "support_size": 9,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1021,
+      "nonzero_compact_mask": 510,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "support_size": 9,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1023,
+      "nonzero_compact_mask": 511,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "support_size": 10,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1911,
+      "nonzero_compact_mask": 955,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "support_size": 9,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 1919,
+      "nonzero_compact_mask": 959,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "support_size": 10,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2035,
+      "nonzero_compact_mask": 1017,
+      "support": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 9,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2039,
+      "nonzero_compact_mask": 1019,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 10,
+      "orbit_size": 2520,
+      "stabilizer_order": 8,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 2047,
+      "nonzero_compact_mask": 1023,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "support_size": 11,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4081,
+      "nonzero_compact_mask": 2040,
+      "support": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 9,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4083,
+      "nonzero_compact_mask": 2041,
+      "support": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 10,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4087,
+      "nonzero_compact_mask": 2043,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 11,
+      "orbit_size": 315,
+      "stabilizer_order": 64,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 4095,
+      "nonzero_compact_mask": 2047,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "support_size": 12,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6015,
+      "nonzero_compact_mask": 3007,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 11,
+      "orbit_size": 168,
+      "stabilizer_order": 120,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6077,
+      "nonzero_compact_mask": 3038,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 10,
+      "orbit_size": 280,
+      "stabilizer_order": 72,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6079,
+      "nonzero_compact_mask": 3039,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 11,
+      "orbit_size": 1680,
+      "stabilizer_order": 12,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 6143,
+      "nonzero_compact_mask": 3071,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "support_size": 12,
+      "orbit_size": 840,
+      "stabilizer_order": 24,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 8183,
+      "nonzero_compact_mask": 4091,
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "support_size": 12,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 8191,
+      "nonzero_compact_mask": 4095,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "support_size": 13,
+      "orbit_size": 420,
+      "stabilizer_order": 48,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 16381,
+      "nonzero_compact_mask": 8190,
+      "support": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "support_size": 13,
+      "orbit_size": 35,
+      "stabilizer_order": 576,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 16383,
+      "nonzero_compact_mask": 8191,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "support_size": 14,
+      "orbit_size": 105,
+      "stabilizer_order": 192,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 32767,
+      "nonzero_compact_mask": 16383,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "support_size": 15,
+      "orbit_size": 15,
+      "stabilizer_order": 1344,
+      "difference_covering": true
+    },
+    {
+      "full_mask": 65535,
+      "nonzero_compact_mask": 32767,
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "support_size": 16,
+      "orbit_size": 1,
+      "stabilizer_order": 20160,
+      "difference_covering": true
+    }
+  ],
+  "scope": "Every binary support containing the distinguished largest residue zero, modulo all GL(4,2) maps. No fibre-shape restriction.",
+  "small_support_reduction": "At most five active residues supply at most ten edges, fewer than fifteen nonzero directions.",
+  "new_kakeya_exclusions": 0,
+  "transport_file_sha256": "e1dc2707613f855e61138e5c0f8fd97efa697b0a49220df16787059f19cc8a48",
+  "source_sha256": "27d31a8fb2dbdbe0334986795a87cd988f095243fcdca8629a465bf1dbc6e1ac",
+  "seconds": 1.320466
+}

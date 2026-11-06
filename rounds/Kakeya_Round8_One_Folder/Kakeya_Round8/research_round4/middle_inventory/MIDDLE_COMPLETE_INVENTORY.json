@@ -1,0 +1,949 @@
+{
+  "status": "PASS",
+  "scope": "All total93 weight profiles with exact maximum12..18 and pair-active support10..17, both rings in dimension5.",
+  "support9_status": "Excluded by the inherited theorem that nine binary residues have at most28 nonzero differences.",
+  "padding": "For all56 cells, support*maximum>=120>93, so every <=93 candidate can be padded at unchanged support and exact maximum.",
+  "all_weight_profiles": 2163945,
+  "global_quota_cuts": 1728113,
+  "quota_survivors": 435832,
+  "inherited_selected_spectrum_cuts": 23164,
+  "additional_generic_geometry_cuts": 135877,
+  "additional_joint_cube_energy_cuts": 524,
+  "total_new_whole_weight_profile_exclusions": 136401,
+  "remaining_weight_profiles": 276267,
+  "supports": [
+    {
+      "support": 10,
+      "all_weight_profiles": 102620,
+      "quota_survivors": 21587,
+      "remaining_weight_profiles": 3220
+    },
+    {
+      "support": 11,
+      "all_weight_profiles": 179804,
+      "quota_survivors": 55343,
+      "remaining_weight_profiles": 24708
+    },
+    {
+      "support": 12,
+      "all_weight_profiles": 257792,
+      "quota_survivors": 91018,
+      "remaining_weight_profiles": 61048
+    },
+    {
+      "support": 13,
+      "all_weight_profiles": 317624,
+      "quota_survivors": 110317,
+      "remaining_weight_profiles": 86075
+    },
+    {
+      "support": 14,
+      "all_weight_profiles": 348184,
+      "quota_survivors": 94141,
+      "remaining_weight_profiles": 76019
+    },
+    {
+      "support": 15,
+      "all_weight_profiles": 348408,
+      "quota_survivors": 47053,
+      "remaining_weight_profiles": 20584
+    },
+    {
+      "support": 16,
+      "all_weight_profiles": 324384,
+      "quota_survivors": 13349,
+      "remaining_weight_profiles": 4150
+    },
+    {
+      "support": 17,
+      "all_weight_profiles": 285129,
+      "quota_survivors": 3024,
+      "remaining_weight_profiles": 463
+    }
+  ],
+  "records": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "profiles": 1067,
+      "quota_cuts": 168,
+      "quota_survivors": 899,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 572,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 149
+      },
+      "remaining_weight_profiles": 178
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "profiles": 3280,
+      "quota_cuts": 1270,
+      "quota_survivors": 2010,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1473,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 205
+      },
+      "remaining_weight_profiles": 332
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "profiles": 7268,
+      "quota_cuts": 3991,
+      "quota_survivors": 3277,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2530,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 219
+      },
+      "remaining_weight_profiles": 528
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "profiles": 12903,
+      "quota_cuts": 9101,
+      "quota_survivors": 3802,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3014,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 207
+      },
+      "remaining_weight_profiles": 581
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "profiles": 19515,
+      "quota_cuts": 14990,
+      "quota_survivors": 4525,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3676,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 234
+      },
+      "remaining_weight_profiles": 615
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "profiles": 26262,
+      "quota_cuts": 22320,
+      "quota_survivors": 3942,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3207,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 181
+      },
+      "remaining_weight_profiles": 554
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "profiles": 32325,
+      "quota_cuts": 29193,
+      "quota_survivors": 3132,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2577,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 123
+      },
+      "remaining_weight_profiles": 432
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "profiles": 3956,
+      "quota_cuts": 481,
+      "quota_survivors": 3475,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1584,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 2,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 288,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 1
+      },
+      "remaining_weight_profiles": 1600
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "profiles": 9160,
+      "quota_cuts": 2995,
+      "quota_survivors": 6165,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3292,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 14,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 369,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 2
+      },
+      "remaining_weight_profiles": 2488
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "profiles": 16608,
+      "quota_cuts": 7612,
+      "quota_survivors": 8996,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4831,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 67,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 359
+      },
+      "remaining_weight_profiles": 3739
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "profiles": 25424,
+      "quota_cuts": 15787,
+      "quota_survivors": 9637,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5260,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 17,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 321,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 4029
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "profiles": 34291,
+      "quota_cuts": 23414,
+      "quota_survivors": 10877,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5430,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 13,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 265,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 15,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 5153
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "profiles": 42159,
+      "quota_cuts": 32992,
+      "quota_survivors": 9167,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4497,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 19,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 201,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 45,
+        "TWO_HEAVY_DELETED_DIRECTION": 10
+      },
+      "remaining_weight_profiles": 4395
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "profiles": 48206,
+      "quota_cuts": 41180,
+      "quota_survivors": 7026,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3500,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 142,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 40,
+        "TWO_HEAVY_DELETED_DIRECTION": 7
+      },
+      "remaining_weight_profiles": 3304
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "profiles": 9340,
+      "quota_cuts": 1223,
+      "quota_survivors": 8117,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2586,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 241,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 6,
+        "TWO_HEAVY_DELETED_DIRECTION": 2
+      },
+      "remaining_weight_profiles": 5249
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "profiles": 17870,
+      "quota_cuts": 5905,
+      "quota_survivors": 11965,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4326,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 119,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 275,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 10,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 6,
+        "TWO_HEAVY_DELETED_DIRECTION": 5
+      },
+      "remaining_weight_profiles": 7224
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "profiles": 28218,
+      "quota_cuts": 12403,
+      "quota_survivors": 15815,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 5190,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 333,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 225,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 4,
+        "TWO_HEAVY_DELETED_DIRECTION": 19
+      },
+      "remaining_weight_profiles": 10044
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "profiles": 38826,
+      "quota_cuts": 23493,
+      "quota_survivors": 15333,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4982,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 69,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 173,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 93,
+        "TWO_HEAVY_DELETED_DIRECTION": 22
+      },
+      "remaining_weight_profiles": 9994
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "profiles": 48195,
+      "quota_cuts": 31263,
+      "quota_survivors": 16932,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4249,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 53,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 169,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 145,
+        "TWO_HEAVY_DELETED_DIRECTION": 74
+      },
+      "remaining_weight_profiles": 12242
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "profiles": 55390,
+      "quota_cuts": 42045,
+      "quota_survivors": 13345,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3300,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 67,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 110,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 230,
+        "TWO_HEAVY_DELETED_DIRECTION": 91
+      },
+      "remaining_weight_profiles": 9547
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "profiles": 59953,
+      "quota_cuts": 50442,
+      "quota_survivors": 9511,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2437,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 44,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 65,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 190,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 6748
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "profiles": 16346,
+      "quota_cuts": 2761,
+      "quota_survivors": 13585,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3000,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 123,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 3,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 152,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 17,
+        "TOTAL_PAIR_ENERGY": 21,
+        "TWO_HEAVY_DELETED_DIRECTION": 30
+      },
+      "remaining_weight_profiles": 10239
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "profiles": 27302,
+      "quota_cuts": 10703,
+      "quota_survivors": 16599,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 4035,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 263,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 136,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 26,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 78,
+        "TWO_HEAVY_DELETED_DIRECTION": 3
+      },
+      "remaining_weight_profiles": 12058
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "profiles": 38903,
+      "quota_cuts": 18473,
+      "quota_survivors": 20430,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3917,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 545,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 137,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 87,
+        "TWO_HEAVY_DELETED_DIRECTION": 76
+      },
+      "remaining_weight_profiles": 15668
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "profiles": 49446,
+      "quota_cuts": 31837,
+      "quota_survivors": 17609,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 3355,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 97,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 96,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 361,
+        "TWO_HEAVY_DELETED_DIRECTION": 30
+      },
+      "remaining_weight_profiles": 13670
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "profiles": 57589,
+      "quota_cuts": 37921,
+      "quota_survivors": 19668,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2496,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 78,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 50,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 441,
+        "TWO_HEAVY_DELETED_DIRECTION": 297
+      },
+      "remaining_weight_profiles": 16306
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "profiles": 62861,
+      "quota_cuts": 49143,
+      "quota_survivors": 13718,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1811,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 85,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 32,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 483,
+        "TWO_HEAVY_DELETED_DIRECTION": 115
+      },
+      "remaining_weight_profiles": 11192
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "profiles": 65177,
+      "quota_cuts": 56469,
+      "quota_survivors": 8708,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1301,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 66,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 11,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 367,
+        "TWO_HEAVY_DELETED_DIRECTION": 21
+      },
+      "remaining_weight_profiles": 6942
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "profiles": 23200,
+      "quota_cuts": 6378,
+      "quota_survivors": 16822,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2640,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 357,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 109,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 70,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 39,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 106,
+        "TOTAL_PAIR_ENERGY": 611,
+        "TWO_HEAVY_DELETED_DIRECTION": 4
+      },
+      "remaining_weight_profiles": 12886
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "profiles": 34966,
+      "quota_cuts": 19598,
+      "quota_survivors": 15368,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2867,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 473,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 2,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 54,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 53,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 203,
+        "TOTAL_PAIR_ENERGY": 1,
+        "TWO_HEAVY_DELETED_DIRECTION": 24
+      },
+      "remaining_weight_profiles": 11691
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "profiles": 46078,
+      "quota_cuts": 27419,
+      "quota_survivors": 18659,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 2247,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 673,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 35,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 253,
+        "TWO_HEAVY_DELETED_DIRECTION": 18
+      },
+      "remaining_weight_profiles": 15433
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "profiles": 55038,
+      "quota_cuts": 41708,
+      "quota_survivors": 13330,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1739,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 130,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 21,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 535,
+        "TWO_HEAVY_DELETED_DIRECTION": 43
+      },
+      "remaining_weight_profiles": 10862
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "profiles": 60994,
+      "quota_cuts": 44652,
+      "quota_survivors": 16342,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1255,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 64,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 9,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 729,
+        "TWO_HEAVY_DELETED_DIRECTION": 220
+      },
+      "remaining_weight_profiles": 14065
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "profiles": 63890,
+      "quota_cuts": 54910,
+      "quota_survivors": 8980,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 845,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 44,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 4,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 559,
+        "TWO_HEAVY_DELETED_DIRECTION": 74
+      },
+      "remaining_weight_profiles": 7454
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "profiles": 64018,
+      "quota_cuts": 59378,
+      "quota_survivors": 4640,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 505,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 91,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 1,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 380,
+        "TWO_HEAVY_DELETED_DIRECTION": 35
+      },
+      "remaining_weight_profiles": 3628
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "profiles": 28256,
+      "quota_cuts": 16312,
+      "quota_survivors": 11944,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1651,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 427,
+        "INHERITED_EXACT_SPECTRUM": 3974,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 214,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 19,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 64,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TOTAL_PAIR_ENERGY": 189
+      },
+      "remaining_weight_profiles": 5397
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "profiles": 39327,
+      "quota_cuts": 32126,
+      "quota_survivors": 7201,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 1405,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 363,
+        "INHERITED_EXACT_SPECTRUM": 2299,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 1,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 13,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 69,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 10,
+        "TWO_HEAVY_DELETED_DIRECTION": 32
+      },
+      "remaining_weight_profiles": 3009
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "profiles": 48697,
+      "quota_cuts": 39286,
+      "quota_survivors": 9411,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 978,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 481,
+        "INHERITED_EXACT_SPECTRUM": 3667,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 5,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 66,
+        "TWO_HEAVY_DELETED_DIRECTION": 3
+      },
+      "remaining_weight_profiles": 4211
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "profiles": 55363,
+      "quota_cuts": 50057,
+      "quota_survivors": 5306,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 682,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 116,
+        "INHERITED_EXACT_SPECTRUM": 2127,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 3,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 156,
+        "TWO_HEAVY_DELETED_DIRECTION": 26
+      },
+      "remaining_weight_profiles": 2196
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "profiles": 58921,
+      "quota_cuts": 50617,
+      "quota_survivors": 8304,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 430,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 115,
+        "INHERITED_EXACT_SPECTRUM": 3160,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 385,
+        "TWO_HEAVY_DELETED_DIRECTION": 87
+      },
+      "remaining_weight_profiles": 4127
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "profiles": 59699,
+      "quota_cuts": 56294,
+      "quota_survivors": 3405,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 253,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 61,
+        "INHERITED_EXACT_SPECTRUM": 1509,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 291,
+        "TWO_HEAVY_DELETED_DIRECTION": 50
+      },
+      "remaining_weight_profiles": 1241
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "profiles": 58145,
+      "quota_cuts": 56663,
+      "quota_survivors": 1482,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 145,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 58,
+        "INHERITED_EXACT_SPECTRUM": 645,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 204,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 403
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "profiles": 30701,
+      "quota_cuts": 26930,
+      "quota_survivors": 3771,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 794,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 313,
+        "INHERITED_EXACT_SPECTRUM": 1154,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 148,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 5,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 55,
+        "TOTAL_PAIR_ENERGY": 21,
+        "TWO_HEAVY_DELETED_DIRECTION": 16
+      },
+      "remaining_weight_profiles": 1265
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "profiles": 40067,
+      "quota_cuts": 38138,
+      "quota_survivors": 1929,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 571,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 194,
+        "INHERITED_EXACT_SPECTRUM": 540,
+        "NINE_HEAVY_SUMFREE_DIRECTIONS": 3,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 47,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 2,
+        "TWO_HEAVY_DELETED_DIRECTION": 56
+      },
+      "remaining_weight_profiles": 516
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "profiles": 47180,
+      "quota_cuts": 44734,
+      "quota_survivors": 2446,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 387,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 252,
+        "INHERITED_EXACT_SPECTRUM": 980,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 44,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 782
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "profiles": 51500,
+      "quota_cuts": 50213,
+      "quota_survivors": 1287,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 248,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 58,
+        "INHERITED_EXACT_SPECTRUM": 467,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 119,
+        "TWO_HEAVY_DELETED_DIRECTION": 14
+      },
+      "remaining_weight_profiles": 381
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "profiles": 53015,
+      "quota_cuts": 50414,
+      "quota_survivors": 2601,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 132,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 81,
+        "INHERITED_EXACT_SPECTRUM": 1078,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 298,
+        "TWO_HEAVY_DELETED_DIRECTION": 83
+      },
+      "remaining_weight_profiles": 929
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "profiles": 52231,
+      "quota_cuts": 51330,
+      "quota_survivors": 901,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 78,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "INHERITED_EXACT_SPECTRUM": 325,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 184,
+        "TWO_HEAVY_DELETED_DIRECTION": 60
+      },
+      "remaining_weight_profiles": 221
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "profiles": 49690,
+      "quota_cuts": 49276,
+      "quota_survivors": 414,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 46,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 29,
+        "INHERITED_EXACT_SPECTRUM": 152,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 95,
+        "TWO_HEAVY_DELETED_DIRECTION": 36
+      },
+      "remaining_weight_profiles": 56
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "profiles": 30555,
+      "quota_cuts": 29691,
+      "quota_survivors": 864,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 300,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 128,
+        "INHERITED_EXACT_SPECTRUM": 187,
+        "JOINT_SPECTRUM_CUBE_ENERGY": 47,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 33,
+        "TOTAL_PAIR_ENERGY": 1,
+        "TWO_HEAVY_DELETED_DIRECTION": 12
+      },
+      "remaining_weight_profiles": 156
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "profiles": 37837,
+      "quota_cuts": 37382,
+      "quota_survivors": 455,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 184,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 45,
+        "INHERITED_EXACT_SPECTRUM": 132,
+        "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 18,
+        "TWO_HEAVY_DELETED_DIRECTION": 27
+      },
+      "remaining_weight_profiles": 49
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "profiles": 42717,
+      "quota_cuts": 42194,
+      "quota_survivors": 523,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 120,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 86,
+        "INHERITED_EXACT_SPECTRUM": 210,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 14,
+        "TWO_HEAVY_DELETED_DIRECTION": 1
+      },
+      "remaining_weight_profiles": 92
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "profiles": 45072,
+      "quota_cuts": 44794,
+      "quota_survivors": 278,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 68,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 15,
+        "INHERITED_EXACT_SPECTRUM": 123,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 22,
+        "TWO_HEAVY_DELETED_DIRECTION": 2
+      },
+      "remaining_weight_profiles": 48
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "profiles": 45102,
+      "quota_cuts": 44487,
+      "quota_survivors": 615,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 39,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 33,
+        "INHERITED_EXACT_SPECTRUM": 286,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 111,
+        "TWO_HEAVY_DELETED_DIRECTION": 46
+      },
+      "remaining_weight_profiles": 100
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "profiles": 43398,
+      "quota_cuts": 43185,
+      "quota_survivors": 213,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 21,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 10,
+        "INHERITED_EXACT_SPECTRUM": 106,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 39,
+        "TWO_HEAVY_DELETED_DIRECTION": 20
+      },
+      "remaining_weight_profiles": 17
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "profiles": 40448,
+      "quota_cuts": 40372,
+      "quota_survivors": 76,
+      "additional_disjoint_cuts": {
+        "EIGHT_HEAVY_MISSING_DIRECTIONS": 9,
+        "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 7,
+        "INHERITED_EXACT_SPECTRUM": 43,
+        "THREE_HEAVY_SINGLE_EXCEPTION": 9,
+        "TWO_HEAVY_DELETED_DIRECTION": 7
+      },
+      "remaining_weight_profiles": 1
+    }
+  ],
+  "cube_energy_local_table_rows": 1683,
+  "cube_energy_covering_branches": 2498,
+  "final_profiles_with_zero_cube_branch_not_excluded": 270164,
+  "final_profiles_forcing_at_least_one_cube_by_energy": 6103,
+  "generic_geometry_method_counts": {
+    "EIGHT_HEAVY_MISSING_DIRECTIONS": 113067,
+    "HALFSPACE_MAXIMAL_DIRECTION_BONUS": 6877,
+    "INHERITED_EXACT_SPECTRUM": 23164,
+    "NINE_HEAVY_SUMFREE_DIRECTIONS": 5377,
+    "TEN_HEAVY_WEAK_UNIQUE_DIRECTIONS": 440,
+    "THREE_HEAVY_SINGLE_EXCEPTION": 7417,
+    "TOTAL_PAIR_ENERGY": 844,
+    "TWO_HEAVY_DELETED_DIRECTION": 1855
+  },
+  "global_verification": "Separate C++ frequency-vector enumerator and backward local recursion; exact equality with forward-DP producer survivor list.",
+  "geometry_verification": "Python backward recursion/direct plane-coset convolution; every claimed cut recomputed, and exact disjoint survivor subtraction.",
+  "inherited_spectrum_verification": "Previously replayed exact dual certificates, identified by their existing verified receipt and unchanged candidate/dual/census hashes; no additional exclusions from unverified solver output.",
+  "scope_limit": "This enumerates weight profiles, not residue placements or fibre shapes. A survivor is not a Kakeya set. No whole support or maximum stratum is claimed closed unless its full relevant inventory is empty.",
+  "dependencies": {
+    "research_round4/middle_inventory/scan_middle_quota.cpp": "a62fa4bc2395cb11a15295fbc0f9cc577d2b23776d6b9d66d5efca33ea34fb14",
+    "research_round4/middle_inventory/verify_quota_inventory.cpp": "52a924e9351ed00e27d70e46b98f91f38d78c7420b5c79d93a87f6f42318b3c3",
+    "research_round4/middle_inventory/quota_counts.jsonl": "3ce8a030fa9a22e07852b94907f4f18613725c80f6c7515469d07f3022e432a4",
+    "research_round4/middle_inventory/independent_quota_counts.jsonl": "c7cb065fbf1ad5e62a9852a47e0a89412c4671d35496ae28630f5a959b12959f",
+    "research_round4/middle_inventory/quota_survivors.txt": "83598dab0f6e4affb3c18237ccfaf01565f028033cdc190b6b3a6996abc6475a",
+    "research_round4/middle_inventory/screen_geometry.cpp": "ca741ec058337052a19a7351a2ea3c547b34b6ed0eb52bbd94daedf9bc434c25",
+    "research_round4/middle_inventory/geometry_counts.jsonl": "2f81cdf00061bcdbc1cff0134f296438e51c8847b6cc1e92db5fdad0935c1c72",
+    "research_round4/middle_inventory/geometry_and_spectrum_cuts.txt": "027ff819df4eb6e37ac9f996ddb061fb981be86ae53fc6b906cff710d28a9b6e",
+    "research_round4/middle_inventory/final_weight_survivors.txt": "5b0eadbf966a93a6108fea78b4204cc8eaf518c4eb7aeec9f3fab0afcc5b40b6",
+    "research_round4/middle_inventory/inherited_spectrum_cut_weights.txt": "5e2a9b6170ccf902cf69b91d6e9782d6115a25c0c398bcc3ff11cb1e982d68f6",
+    "research_round4/middle_inventory/screen_cube_joint_energy.py": "797de644a8d61b14c2aa76e50d0f8f610921cf72fc5343540ded7385b46aa4db",
+    "research_round4/middle_inventory/CUBE_JOINT_LOCAL_TABLE.json": "94c7e752b88469cfa1b494d37343151f686bd7ade96c91af81c50688af55b342",
+    "research_round4/middle_inventory/CUBE_JOINT_ENERGY_CUTS.jsonl": "8aa10c0e25fdb4547173068eaff47cbdceaf2a07cdd1f92ea884bc3cd99e816a",
+    "research_round4/middle_inventory/after_cube_weight_survivors.txt": "1cb90fa5f6e477ba452266cd00f2d823eb43c82a6aa81a03c1720bc1d9b6c768",
+    "research_round2/geometric/PAIR_SPECTRUM_CENSUS.json": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+    "research_round2/middle/GLOBAL_SPECTRUM_INDEPENDENT_REPLAY.json": "b6a179b0aa59e3daee5e98b5342450e9a3a3d795afdc65cf5469c395645cf4c4",
+    "research_round2/middle/GLOBAL_SPECTRUM_CANDIDATES.jsonl": "169b9003c4bcf347cb54abb58d24726bb3b9f1e0508ee705db63cf5256585202",
+    "research_round2/middle/GLOBAL_SPECTRUM_DUAL_CERTIFICATES.jsonl": "83920ce92abcf64a82244e8a808d2a18c270153e39b09097d0eeb39bbeb3849f",
+    "research_round3/middle/RESOURCE_COMPATIBILITY_LEMMAS.md": "f696a11c0aad30df7b2734be13c662c2869fc1ca0a35df382b44296092722046",
+    "research_round3/middle/CUBE_ENERGY_SUPPORT18_EXCLUSIONS.md": "4c8c9b604ff1ef54b3e2767e4da07edbb9829cb1a0437ff3151995a3970e5b3a",
+    "research_round2/middle/DIFFERENCE_AND_LIGHT_RESOURCE_LEMMAS.md": "4010bff366d52a7a5462672cc3338e56aef4b644a0ee48887e1cad63664cbff0",
+    "research_round4/middle_inventory/verify_middle_inventory.py": "bae14d96c7d124fa8b005dc004d79bb86d2059508ea87bcfe2cbaab4e02ad30d"
+  },
+  "seconds": 9.35265485200216
+}

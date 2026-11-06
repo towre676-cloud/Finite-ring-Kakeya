@@ -1,0 +1,86 @@
+{
+  "method": "independent tuple arithmetic, exhaustive finite census, exact integer transforms",
+  "same_minimum_family": true,
+  "complete_ring_comparison": {
+    "Z4_only": {
+      "12": 64
+    },
+    "D2_only": {},
+    "both": {
+      "10": 32,
+      "11": 240,
+      "12": 628,
+      "13": 560,
+      "14": 120,
+      "15": 16,
+      "16": 1
+    }
+  },
+  "local_tables": {
+    "1": {
+      "subsets_checked": 4,
+      "distinct_profiles": 3,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      }
+    },
+    "2": {
+      "subsets_checked": 16,
+      "distinct_profiles": 7,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 1
+      }
+    },
+    "3": {
+      "subsets_checked": 256,
+      "distinct_profiles": 46,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 7,
+        "3": 7,
+        "4": 14,
+        "5": 7,
+        "6": 7,
+        "7": 1,
+        "8": 1
+      }
+    },
+    "4": {
+      "subsets_checked": 65536,
+      "distinct_profiles": 3967,
+      "counts_by_size": {
+        "0": 1,
+        "1": 1,
+        "2": 15,
+        "3": 35,
+        "4": 140,
+        "5": 273,
+        "6": 526,
+        "7": 715,
+        "8": 555,
+        "9": 715,
+        "10": 526,
+        "11": 273,
+        "12": 140,
+        "13": 35,
+        "14": 15,
+        "15": 1,
+        "16": 1
+      }
+    }
+  },
+  "equality_count_correction": {
+    "range_n_ge_2": "2^n * 2^((n-1)*(2^n-1))",
+    "n1_actual": 1,
+    "n1_unrestricted_formula": 2
+  },
+  "seconds": 1.817663
+}
+Saved /tmp/kakeya_v02_verify__rpzi0sq/package/extension/solver/audit_receipt.json

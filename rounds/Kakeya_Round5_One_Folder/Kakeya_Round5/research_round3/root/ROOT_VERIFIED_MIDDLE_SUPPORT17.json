@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY",
+  "theorem": "Dimension5, both rings, |K|<=93 and maximum12..18 imply pair-active support<=17.",
+  "all_support18_weight_partitions": 239246,
+  "round3_new_weight_multiset_exclusions": 285,
+  "remaining_support18_weight_multisets": 0,
+  "final_cube_upper_bounds_doubled": [
+    972,
+    991,
+    954,
+    972,
+    962,
+    980
+  ],
+  "required_doubled_capacity": 992,
+  "review": "Root read every analytic proof and the complete checker, independently derived the cube-energy inequality, and reran the complete partition and certificate chain. The structural reviewer separately accepted the cube-energy argument.",
+  "inherited_dependency": "The complete frozen support>=19 theorem and independently complete pair-spectrum census.",
+  "scope_limit": "Supports17 and below remain open. The unrestricted94 lower bound is not claimed.",
+  "hashes": {
+    "research_round3/middle/verify_support18_completion.py": "daff09ed2f2b891cc1cffce1abcde0c1545a8b697ae948ca02ee99b96bf1aaf6",
+    "research_round3/middle/MIDDLE_SUPPORT18_INDEPENDENT_REPLAY.json": "d7e6240c0975f99233e3dd29b862746d4f8d9fb157b3befb4f5fce25a27590e4",
+    "research_round3/middle/MIDDLE_SUPPORT_AT_MOST_SEVENTEEN.md": "4e94a66adddf0eb0f358992b9f85992f5599edb0791f89f073a358c3df899fdf",
+    "research_round3/middle/RESOURCE_COMPATIBILITY_LEMMAS.md": "f696a11c0aad30df7b2734be13c662c2869fc1ca0a35df382b44296092722046",
+    "research_round3/middle/CUBE_ENERGY_SUPPORT18_EXCLUSIONS.md": "4c8c9b604ff1ef54b3e2767e4da07edbb9829cb1a0437ff3151995a3970e5b3a",
+    "research_round3/middle/BOUNDARY16_ACTUAL_SUMSET_EXCLUSION.md": "db8ed6beb6525bf2a8a2c9f1a3e9a59d2f3bbc533e46e30ba8f7cc14f16db9a9"
+  }
+}

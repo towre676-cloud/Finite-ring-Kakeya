@@ -1,0 +1,399 @@
+{
+  "status": "PASS",
+  "scope": "n5,both rings,total<=93,exact maximum11,pair-active support>=18",
+  "necessary_support_upper_bound": 17,
+  "proof_obligation_doubled": 992,
+  "total_profiles": 121336,
+  "resource_exclusions": 121147,
+  "geometric_exclusions": 189,
+  "geometry_method_histogram": {
+    "EIGHT_HEAVY_SATURATED_PORT_DEFICIT": 4,
+    "EIGHT_HEAVY_STRICT_HALFSPACE": 183,
+    "NINE_HEAVY_LIGHT_PAIR_DEFICIT": 1,
+    "TEN_HEAVY_UNIQUE_EDGE_DEFICIT": 1
+  },
+  "records": [
+    {
+      "support": 32,
+      "maximum": 11,
+      "profiles": 488,
+      "resource_exclusions": 488,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 558,
+      "cutoff_histogram": {
+        "2": 488
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 31,
+      "maximum": 11,
+      "profiles": 732,
+      "resource_exclusions": 732,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 586,
+      "cutoff_histogram": {
+        "2": 732
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 30,
+      "maximum": 11,
+      "profiles": 1076,
+      "resource_exclusions": 1076,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 618,
+      "cutoff_histogram": {
+        "2": 1076
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 29,
+      "maximum": 11,
+      "profiles": 1549,
+      "resource_exclusions": 1549,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 650,
+      "cutoff_histogram": {
+        "2": 1549
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 28,
+      "maximum": 11,
+      "profiles": 2193,
+      "resource_exclusions": 2193,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 682,
+      "cutoff_histogram": {
+        "2": 2193
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 27,
+      "maximum": 11,
+      "profiles": 3053,
+      "resource_exclusions": 3053,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 714,
+      "cutoff_histogram": {
+        "2": 3053
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 26,
+      "maximum": 11,
+      "profiles": 4176,
+      "resource_exclusions": 4176,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 746,
+      "cutoff_histogram": {
+        "2": 4176
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 25,
+      "maximum": 11,
+      "profiles": 5612,
+      "resource_exclusions": 5612,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 780,
+      "cutoff_histogram": {
+        "2": 5612
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 24,
+      "maximum": 11,
+      "profiles": 7399,
+      "resource_exclusions": 7399,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 842,
+      "cutoff_histogram": {
+        "2": 7399
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 23,
+      "maximum": 11,
+      "profiles": 9547,
+      "resource_exclusions": 9547,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 896,
+      "cutoff_histogram": {
+        "2": 9547
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 22,
+      "maximum": 11,
+      "profiles": 12025,
+      "resource_exclusions": 12025,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 936,
+      "cutoff_histogram": {
+        "2": 12025
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 21,
+      "maximum": 11,
+      "profiles": 14730,
+      "resource_exclusions": 14730,
+      "geometric_exclusions": 0,
+      "max_resource_certificate_doubled": 988,
+      "cutoff_histogram": {
+        "0": 1,
+        "2": 14729
+      },
+      "geometry_method_histogram": {}
+    },
+    {
+      "support": 20,
+      "maximum": 11,
+      "profiles": 17444,
+      "resource_exclusions": 17439,
+      "geometric_exclusions": 5,
+      "max_resource_certificate_doubled": 990,
+      "cutoff_histogram": {
+        "0": 7,
+        "1": 4,
+        "2": 17425,
+        "3": 3
+      },
+      "geometry_method_histogram": {
+        "EIGHT_HEAVY_STRICT_HALFSPACE": 5
+      }
+    },
+    {
+      "support": 19,
+      "maximum": 11,
+      "profiles": 19843,
+      "resource_exclusions": 19819,
+      "geometric_exclusions": 24,
+      "max_resource_certificate_doubled": 991,
+      "cutoff_histogram": {
+        "0": 40,
+        "1": 45,
+        "2": 19701,
+        "3": 33
+      },
+      "geometry_method_histogram": {
+        "EIGHT_HEAVY_STRICT_HALFSPACE": 24
+      }
+    },
+    {
+      "support": 18,
+      "maximum": 11,
+      "profiles": 21469,
+      "resource_exclusions": 21309,
+      "geometric_exclusions": 160,
+      "max_resource_certificate_doubled": 991,
+      "cutoff_histogram": {
+        "0": 186,
+        "1": 175,
+        "2": 20719,
+        "3": 229
+      },
+      "geometry_method_histogram": {
+        "EIGHT_HEAVY_SATURATED_PORT_DEFICIT": 4,
+        "EIGHT_HEAVY_STRICT_HALFSPACE": 154,
+        "NINE_HEAVY_LIGHT_PAIR_DEFICIT": 1,
+        "TEN_HEAVY_UNIQUE_EDGE_DEFICIT": 1
+      }
+    }
+  ],
+  "previous_remaining_support_classes": 130,
+  "new_whole_support_class_exclusions": 73,
+  "remaining_support_classes": 57,
+  "new_excluded_orbits": [
+    226,
+    227,
+    229,
+    230,
+    232,
+    233,
+    249,
+    250,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    264,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    275,
+    276,
+    277,
+    278,
+    279,
+    284,
+    285,
+    286,
+    287,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    308,
+    309,
+    310,
+    311,
+    313,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    332,
+    334,
+    336,
+    337,
+    338,
+    341,
+    342,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350
+  ],
+  "remaining_orbits": [
+    105,
+    109,
+    110,
+    111,
+    126,
+    130,
+    131,
+    132,
+    133,
+    134,
+    139,
+    141,
+    142,
+    151,
+    152,
+    153,
+    155,
+    156,
+    157,
+    158,
+    161,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    171,
+    177,
+    178,
+    181,
+    182,
+    183,
+    184,
+    185,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    201,
+    202,
+    203,
+    204,
+    367,
+    373,
+    374,
+    376,
+    377
+  ],
+  "excluded_counts_by_support": {
+    "18": 14,
+    "19": 14,
+    "20": 16,
+    "21": 12,
+    "22": 11,
+    "23": 4,
+    "24": 2
+  },
+  "remaining_counts_by_support": {
+    "13": 4,
+    "14": 9,
+    "15": 16,
+    "16": 23,
+    "17": 5
+  },
+  "support18_additional_closed_orbits": [
+    332,
+    334,
+    336,
+    337,
+    338,
+    341,
+    342,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350
+  ],
+  "frozen_inputs": [
+    {
+      "path": "research_sources/extracted/Kakeya_Reconciled_Proofs_2026-10-27/late_parallel_2214/extracted/m11_directional/M11_DIRECTIONAL_FRONTIER.json",
+      "sha256": "e434cec193b645b118952fca06a1331c7b9807514d29ebf0c2141e2402a3f5ee",
+      "bytes": 5967
+    },
+    {
+      "path": "research_sources/extracted/Kakeya_Reconciled_Proofs_2026-10-27/late_parallel_2214/extracted/m11_directional/inputs/CAP11_STRUCTURAL_REDUCTION.json",
+      "sha256": "e243b21e7496c1c271192b81987a68e3133da0ede8782d3d5ec2b5c50f9da52b",
+      "bytes": 1317282
+    }
+  ],
+  "local_optimization_keys": 2656,
+  "elapsed_seconds": 4.398245766999025
+}

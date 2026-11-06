@@ -1,0 +1,591 @@
+{
+  "status": "PASS_MISSING_DIRECTION_INCIDENCE_THEOREM_AND_NEXT_FRONTIER_ENCODER",
+  "mathematical_controls": {
+    "all_two_spaces_checked": 155,
+    "actual_light_fibres_checked": 5456,
+    "matching_capacity_combinations_checked": 1024,
+    "budget_identity_cases_checked": 7200,
+    "scope_controls": [
+      {
+        "support_size": 13,
+        "P": 6,
+        "r": 3,
+        "small_heavy_strict_gaps": [
+          262,
+          280,
+          282,
+          268,
+          238,
+          192,
+          130,
+          52
+        ],
+        "eight_heavy_available": 90,
+        "eight_heavy_required": 96,
+        "minimum_heavy": 10,
+        "minimum_heavy_differences": 29,
+        "eleven_heavy_missing_direction_capacity_upper_bound": 12
+      },
+      {
+        "support_size": 14,
+        "P": 5,
+        "r": 4,
+        "small_heavy_strict_gaps": [
+          286,
+          301,
+          300,
+          283,
+          250,
+          201,
+          136,
+          55
+        ],
+        "eight_heavy_available": 90,
+        "eight_heavy_required": 96,
+        "minimum_heavy": 10,
+        "minimum_heavy_differences": 29,
+        "eleven_heavy_missing_direction_capacity_upper_bound": 15
+      }
+    ]
+  },
+  "primitive_controls": {
+    "gate_input_and_auxiliary_assignments": 60,
+    "weighted_counter_all_input_and_auxiliary_assignments": 128
+  },
+  "boolean_controls": {
+    "canonical_scope_assignments_checked": 87,
+    "cases": [
+      {
+        "support_size": 13,
+        "maximum": 13,
+        "metadata": {
+          "enabled": true,
+          "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+          "support_size": 13,
+          "maximum_domain_weight": 13,
+          "minimum_heavy": 10,
+          "minimum_heavy_differences": 29,
+          "heavy_count_for_full_cover": 11,
+          "budget": {
+            "enabled": true,
+            "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+            "support_size": 13,
+            "maximum_domain_weight": 13,
+            "maximum_pair_count": 6,
+            "required_light_incidence_per_missing_direction": 3,
+            "minimum_heavy_premise": 9,
+            "budget_rhs": 26,
+            "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+            "total_weight_assumption": null,
+            "all_flags_exact": true,
+            "added_variables": 1206,
+            "added_clauses": 17679
+          },
+          "propagation_requested": true,
+          "propagation_applies": true,
+          "missing_direction_heavy_partner_pair_lower_bound": 4,
+          "optional_propagation_clauses": 728,
+          "added_variables": 1207,
+          "added_clauses": 18443,
+          "new_SAT_exclusions_claimed": 0
+        },
+        "active_propagation_heavy_residues": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          18,
+          23,
+          28
+        ],
+        "active_missing_directions": [
+          17,
+          27
+        ],
+        "heavy_partner_pair_lower_bound": 4,
+        "inactive_h10_gate_accepts_arbitrary_pair_counts": true,
+        "disabled_pair_propagation_accepts_arbitrary_pair_counts": true
+      },
+      {
+        "support_size": 14,
+        "maximum": 11,
+        "metadata": {
+          "enabled": true,
+          "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+          "support_size": 14,
+          "maximum_domain_weight": 11,
+          "minimum_heavy": 10,
+          "minimum_heavy_differences": 29,
+          "heavy_count_for_full_cover": 11,
+          "budget": {
+            "enabled": true,
+            "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+            "support_size": 14,
+            "maximum_domain_weight": 11,
+            "maximum_pair_count": 5,
+            "required_light_incidence_per_missing_direction": 4,
+            "minimum_heavy_premise": 9,
+            "budget_rhs": 28,
+            "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+            "total_weight_assumption": null,
+            "all_flags_exact": true,
+            "added_variables": 1515,
+            "added_clauses": 27260
+          },
+          "propagation_requested": true,
+          "propagation_applies": true,
+          "missing_direction_heavy_partner_pair_lower_bound": 1,
+          "optional_propagation_clauses": 812,
+          "added_variables": 1516,
+          "added_clauses": 28108,
+          "new_SAT_exclusions_claimed": 0
+        },
+        "active_propagation_heavy_residues": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          10,
+          16,
+          28
+        ],
+        "active_missing_directions": [
+          23,
+          27
+        ],
+        "heavy_partner_pair_lower_bound": 1,
+        "inactive_h10_gate_accepts_arbitrary_pair_counts": true,
+        "disabled_pair_propagation_accepts_arbitrary_pair_counts": true
+      }
+    ],
+    "negative_controls": [
+      {
+        "support_size": 13,
+        "control": "inactive_light_pair",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "insufficient_heavy_partner",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "false_missing_flag",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "false_heavy_edge_AND",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "inactive_light_pair",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "insufficient_heavy_partner",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "false_missing_flag",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "false_heavy_edge_AND",
+        "rejected": true
+      }
+    ],
+    "general_budget_gate": {
+      "eight_heavy_inactive_accepts": true,
+      "nine_heavy_active_rejects": true,
+      "metadata": {
+        "enabled": true,
+        "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+        "support_size": 13,
+        "maximum_domain_weight": 13,
+        "maximum_pair_count": 6,
+        "required_light_incidence_per_missing_direction": 3,
+        "minimum_heavy_premise": 9,
+        "budget_rhs": 26,
+        "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+        "total_weight_assumption": null,
+        "all_flags_exact": true,
+        "added_variables": 1206,
+        "added_clauses": 17679
+      }
+    }
+  },
+  "real_encoder_controls": {
+    "cases": [
+      {
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          25,
+          26,
+          28
+        ],
+        "exact_maximum": 12,
+        "disabled_byte_identity": true,
+        "enabled_baseline_prefix_unchanged": true,
+        "baseline_variables": 37044,
+        "baseline_clauses": 243017,
+        "enabled_variables": 46296,
+        "enabled_clauses": 334454,
+        "baseline_cnf_sha256": "898d46f1b35a0eef5601558c802de693f9c67b470ad260a0778d3646ef5cb825",
+        "enabled_cnf_sha256": "4b4965ee3142faa6031170620af25855464640ffd37f5a928d3fd486979c07dc",
+        "metadata": {
+          "enabled": true,
+          "support": [
+            0,
+            1,
+            2,
+            4,
+            8,
+            11,
+            15,
+            16,
+            18,
+            23,
+            25,
+            26,
+            28
+          ],
+          "maximum_interval": [
+            12,
+            12
+          ],
+          "total_upper_bound": 93,
+          "distinguished_hub": 0,
+          "tetrahedral_requested": true,
+          "optional_pair_propagation_requested": true,
+          "components": {
+            "tetrahedral": {
+              "enabled": true,
+              "heavy_requested": false,
+              "tetrahedral_requested": true,
+              "components": {
+                "tetrahedral": {
+                  "eligible_spectrum_indices": [
+                    20,
+                    59
+                  ],
+                  "edge_count": 78,
+                  "direction_count": 31,
+                  "conditional_tetrahedral_edges": 78,
+                  "new_capacity_bits": 1248,
+                  "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+                  "added_variables": 8045,
+                  "added_clauses": 72052
+                }
+              },
+              "added_variables": 8045,
+              "added_clauses": 72052
+            },
+            "incidence": {
+              "enabled": true,
+              "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+              "support_size": 13,
+              "maximum_domain_weight": 12,
+              "minimum_heavy": 10,
+              "minimum_heavy_differences": 29,
+              "heavy_count_for_full_cover": 11,
+              "budget": {
+                "enabled": true,
+                "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+                "support_size": 13,
+                "maximum_domain_weight": 12,
+                "maximum_pair_count": 6,
+                "required_light_incidence_per_missing_direction": 3,
+                "minimum_heavy_premise": 9,
+                "budget_rhs": 26,
+                "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+                "total_weight_assumption": null,
+                "all_flags_exact": true,
+                "added_variables": 1206,
+                "added_clauses": 18621
+              },
+              "propagation_requested": true,
+              "propagation_applies": true,
+              "missing_direction_heavy_partner_pair_lower_bound": 4,
+              "optional_propagation_clauses": 728,
+              "added_variables": 1207,
+              "added_clauses": 19385,
+              "new_SAT_exclusions_claimed": 0
+            }
+          },
+          "added_variables": 9252,
+          "added_clauses": 91437,
+          "disabled_baseline_identity": false,
+          "SAT_solver_called": false,
+          "new_exclusions_claimed": 0
+        }
+      },
+      {
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          16,
+          18,
+          23,
+          25,
+          26,
+          28
+        ],
+        "exact_maximum": 13,
+        "disabled_byte_identity": true,
+        "enabled_baseline_prefix_unchanged": true,
+        "baseline_variables": 37756,
+        "baseline_clauses": 254929,
+        "enabled_variables": 47008,
+        "enabled_clauses": 346657,
+        "baseline_cnf_sha256": "ac5c321c89cde3724007cdb448dd94cd5bcbed554503aed47b22cc500b63b52d",
+        "enabled_cnf_sha256": "9bfa9c385be336614e35ce8c465e8c21caab7b41eca0bf81c76a1f5bdcb7d937",
+        "metadata": {
+          "enabled": true,
+          "support": [
+            0,
+            1,
+            2,
+            4,
+            8,
+            11,
+            15,
+            16,
+            18,
+            23,
+            25,
+            26,
+            28
+          ],
+          "maximum_interval": [
+            13,
+            13
+          ],
+          "total_upper_bound": 93,
+          "distinguished_hub": 0,
+          "tetrahedral_requested": true,
+          "optional_pair_propagation_requested": true,
+          "components": {
+            "tetrahedral": {
+              "enabled": true,
+              "heavy_requested": false,
+              "tetrahedral_requested": true,
+              "components": {
+                "tetrahedral": {
+                  "eligible_spectrum_indices": [
+                    20,
+                    59
+                  ],
+                  "edge_count": 78,
+                  "direction_count": 31,
+                  "conditional_tetrahedral_edges": 78,
+                  "new_capacity_bits": 1248,
+                  "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+                  "added_variables": 8045,
+                  "added_clauses": 72052
+                }
+              },
+              "added_variables": 8045,
+              "added_clauses": 72052
+            },
+            "incidence": {
+              "enabled": true,
+              "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+              "support_size": 13,
+              "maximum_domain_weight": 13,
+              "minimum_heavy": 10,
+              "minimum_heavy_differences": 29,
+              "heavy_count_for_full_cover": 11,
+              "budget": {
+                "enabled": true,
+                "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+                "support_size": 13,
+                "maximum_domain_weight": 13,
+                "maximum_pair_count": 6,
+                "required_light_incidence_per_missing_direction": 3,
+                "minimum_heavy_premise": 9,
+                "budget_rhs": 26,
+                "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+                "total_weight_assumption": null,
+                "all_flags_exact": true,
+                "added_variables": 1206,
+                "added_clauses": 18912
+              },
+              "propagation_requested": true,
+              "propagation_applies": true,
+              "missing_direction_heavy_partner_pair_lower_bound": 4,
+              "optional_propagation_clauses": 728,
+              "added_variables": 1207,
+              "added_clauses": 19676,
+              "new_SAT_exclusions_claimed": 0
+            }
+          },
+          "added_variables": 9252,
+          "added_clauses": 91728,
+          "disabled_baseline_identity": false,
+          "SAT_solver_called": false,
+          "new_exclusions_claimed": 0
+        }
+      },
+      {
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          16,
+          19,
+          28,
+          31
+        ],
+        "exact_maximum": 11,
+        "disabled_byte_identity": true,
+        "enabled_baseline_prefix_unchanged": true,
+        "baseline_variables": 38820,
+        "baseline_clauses": 265003,
+        "enabled_variables": 50062,
+        "enabled_clauses": 390404,
+        "baseline_cnf_sha256": "622aa26ae21b8062d495c7de2993aeca1863834579ea9b74b462e1332b4ecc3d",
+        "enabled_cnf_sha256": "01b5fb2a84c13e5840a78e40085e02cb573375085efdffcd5afe9331af68fa79",
+        "metadata": {
+          "enabled": true,
+          "support": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            16,
+            19,
+            28,
+            31
+          ],
+          "maximum_interval": [
+            11,
+            11
+          ],
+          "total_upper_bound": 93,
+          "distinguished_hub": 0,
+          "tetrahedral_requested": true,
+          "optional_pair_propagation_requested": true,
+          "components": {
+            "tetrahedral": {
+              "enabled": true,
+              "heavy_requested": false,
+              "tetrahedral_requested": true,
+              "components": {
+                "tetrahedral": {
+                  "eligible_spectrum_indices": [
+                    20,
+                    59
+                  ],
+                  "edge_count": 91,
+                  "direction_count": 31,
+                  "conditional_tetrahedral_edges": 91,
+                  "new_capacity_bits": 1456,
+                  "capacity_semantics": "bits[j] means capacity>=j+1; explicit new edge variables",
+                  "added_variables": 9726,
+                  "added_clauses": 96552
+                }
+              },
+              "added_variables": 9726,
+              "added_clauses": 96552
+            },
+            "incidence": {
+              "enabled": true,
+              "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+              "support_size": 14,
+              "maximum_domain_weight": 11,
+              "minimum_heavy": 10,
+              "minimum_heavy_differences": 29,
+              "heavy_count_for_full_cover": 11,
+              "budget": {
+                "enabled": true,
+                "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+                "support_size": 14,
+                "maximum_domain_weight": 11,
+                "maximum_pair_count": 5,
+                "required_light_incidence_per_missing_direction": 4,
+                "minimum_heavy_premise": 9,
+                "budget_rhs": 28,
+                "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+                "total_weight_assumption": null,
+                "all_flags_exact": true,
+                "added_variables": 1515,
+                "added_clauses": 28001
+              },
+              "propagation_requested": true,
+              "propagation_applies": true,
+              "missing_direction_heavy_partner_pair_lower_bound": 1,
+              "optional_propagation_clauses": 812,
+              "added_variables": 1516,
+              "added_clauses": 28849,
+              "new_SAT_exclusions_claimed": 0
+            }
+          },
+          "added_variables": 11242,
+          "added_clauses": 125401,
+          "disabled_baseline_identity": false,
+          "SAT_solver_called": false,
+          "new_exclusions_claimed": 0
+        }
+      }
+    ],
+    "invalid_scopes_rejected": [
+      "wrong_S13_maximum",
+      "wrong_S14_maximum",
+      "wrong_total",
+      "nonexact_hub"
+    ],
+    "SAT_solver_called": false
+  },
+  "source_hashes": {
+    "research_round8/incidence/verify_incidence_budget.py": "b7b336b2769fd1a86c5a3c8d20b79ed399988b9e1af369481e59ac2d64acc458",
+    "research_round8/incidence/incidence_cuts.py": "8cbf004c172a181dab97a92635bd17565d385fe6c1f97ff940bf33bc2f860cfb",
+    "research_round8/incidence/encode_next_frontier.py": "ba6d760926997e2ab61e1403cdcc363aef39617c6b6c7f3ab59d65836494a825",
+    "research_round8/incidence/MISSING_DIRECTION_INCIDENCE.md": "4d52fcdb7b60b09cc52934ab3fab575d07b4320789879de664592c3a129c9034",
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8"
+  },
+  "SAT_solver_called": false,
+  "new_exclusions_claimed": 0,
+  "seconds": 5.290741
+}

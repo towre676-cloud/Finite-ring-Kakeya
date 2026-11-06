@@ -1,0 +1,27 @@
+{
+  "status": "PASS_READ_ONLY_GEOMETRY_AND_CERTIFICATE_PIPELINE_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review",
+  "source_hashes": {
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round8/strengthened/ONE_WAY_SOUNDNESS.txt": "5080c8e36a22b3961e436f76b4e247d35b3be9448ffa46dc7fd9fb0e0a7c984c",
+    "research_round8/strengthened/certify_strengthened.py": "c7f727120cc53172239371a5d4a2455132c1af40306ff9113c4c7a35a0b33970",
+    "research_round8/strengthened/verify_certificates.py": "c0730696e09138001528e9cbe2c74c963f5b14069d83c8ce77b4111fc90aae21",
+    "research_round8/charging/heavy_cover_cut.py": "f3b24fa5b8c6a48bc58ccabccdeeeb0302d53e23d068801597083c09546cfba6",
+    "research_round8/charging/HEAVY_DIFFERENCE_COVER_THEOREM.md": "80a487d63d069216a2bc04aa99173a7534d0da8f92cda2de647dc458744b84c3",
+    "research_round8/strengthened/FROZEN_SOURCES.json": "9b1bab5e9ed13570cce52536f9f61077eb02a88cfbbb1cb5fed324ba5ce7bfa6"
+  },
+  "reviewed_obligations": [
+    "Heavy flags exactly reify existing spectrum weights; cardinality assumptions are checked from the selected domains.",
+    "The audited H/K-export baseline is invoked with strengthen=False; disabled DIMACS identity is an explicit control.",
+    "Rank4 type flags are sufficient for tetrahedral four-pair quotients; the planar exceptions are not included.",
+    "Explicit monotone edge-capacity variables are bounded by inherited M and conditional14; actual carried sumset cardinalities witness all new coverage inequalities.",
+    "The separate heavy-cover theorem h>=10 and D(H)=31 is mathematically sound for maximum<=11.",
+    "Source freeze binds mathematical scope, semantic files, producer/replayer and inherited search supervision.",
+    "An UNSAT result earns credit only after exact formula regeneration and mandatory original-CNF CakeML proof checking.",
+    "Stopped process groups, resource guards and immutable publication separate unfinished search output from accepted artifacts.",
+    "Unaccepted trials retain CNF and provenance only and receive no exclusion credit.",
+    "Portable replay regenerates exact CNF bytes, checks stored hashes and accepted proofs, and counts only fresh UNSAT acceptance in checked coverage."
+  ],
+  "runtime_replay_by_this_reviewer": false,
+  "blocking_issues_found": []
+}

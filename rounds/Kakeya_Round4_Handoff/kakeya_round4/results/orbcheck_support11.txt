@@ -1,0 +1,15 @@
+s=11 normalized=65780 covering=7676 orbits=13
+218454 stab=1008 orbitsize=9920 normalized_hits=10
+218518 stab=48 orbitsize=208320 normalized_hits=290
+219542 stab=48 orbitsize=208320 normalized_hits=310
+223638 stab=336 orbitsize=29760 normalized_hits=50
+602934 stab=144 orbitsize=69440 normalized_hits=80
+602966 stab=8 orbitsize=1249920 normalized_hits=1800
+632150 stab=48 orbitsize=208320 normalized_hits=340
+1649942 stab=8 orbitsize=1249920 normalized_hits=2160
+1651990 stab=12 orbitsize=833280 normalized_hits=1350
+1665302 stab=24 orbitsize=416640 normalized_hits=800
+18317590 stab=192 orbitsize=52080 normalized_hits=85
+19513622 stab=48 orbitsize=208320 normalized_hits=390
+377585942 stab=1920 orbitsize=5208 normalized_hits=11
+sum orbit sizes=4749448

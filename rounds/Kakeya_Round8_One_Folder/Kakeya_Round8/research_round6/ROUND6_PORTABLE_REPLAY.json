@@ -1,0 +1,91 @@
+{
+  "status": "PASS_ALL_ROUND6_FINITE_AND_CERTIFICATE_REPLAYS",
+  "quick": false,
+  "stages": [
+    {
+      "stage": "inherited_round5_finite_components",
+      "returncode": 0,
+      "seconds": 18.651683,
+      "stdout_sha256": "36faf929f99c73fa9e5f9cf67b553d08f93a9c392c4bceecc78fc65f7553b33f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "imported_data_and_complete_catalogue",
+      "returncode": 0,
+      "seconds": 35.504105,
+      "stdout_sha256": "c95cdadcfd9ab418a8856b10a949b436871cb948e0a6d9c6da0af59f3159a0e3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "encoder_auxiliaries_and_fibre_lemmas",
+      "returncode": 0,
+      "seconds": 1.567812,
+      "stdout_sha256": "68312c345278127e55d2e230413d7e680f745065c87cfbcda6dc34558496c54b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "optional_coset_encoder_soundness_controls",
+      "returncode": 0,
+      "seconds": 8.923059,
+      "stdout_sha256": "84f0fa33fa73da94227c8b6e06f9cdd15adc81f263ef799698bf469a6c23e446",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "unrestricted_support11_subspace_geometry",
+      "returncode": 0,
+      "seconds": 0.057329,
+      "stdout_sha256": "758969dbf39e76550c0ee898e53358aed128c5e9d68f599cad14f03e372e0cec",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "additional_local_graph_restrictions",
+      "returncode": 0,
+      "seconds": 0.300174,
+      "stdout_sha256": "d54f2e1e87bf8cdd562d8a95d1c4de591aa00b8d35e882f719236733dbf8c2e7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "dense_fibre_complement_geometry",
+      "returncode": 0,
+      "seconds": 0.532402,
+      "stdout_sha256": "4d7ad7a34179665d1a9ec848f7dbe6924920300b20bad4ea247c218bf8f154cb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "maximum19_exact_formulas_and_compact_certificates",
+      "returncode": 0,
+      "seconds": 241.937607,
+      "stdout_sha256": "f7681bc80c0f6fcc2f6c58cf1ef6dfff3fa8068b0ebda882f49f799f67a75431",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "joint_maxima_exact_formulas_and_compact_certificates",
+      "returncode": 0,
+      "seconds": 400.621511,
+      "stdout_sha256": "996998fa4e84faa6439200a1362157fa0656f9d60c0f806d09590e4450e3e5a7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "support13_completed_certificates_and_timeout_accounting",
+      "returncode": 0,
+      "seconds": 7.757519,
+      "stdout_sha256": "5d067deca923c6cbad8a7e3c7394db42ba02972961f37fff986251653b5e760f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "exact_frontier_subtraction",
+      "returncode": 0,
+      "seconds": 0.790648,
+      "stdout_sha256": "a095f462e163d8db2b6b1a3a0ad6c45b06f40850ea4d0763e5bcc98648779873",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "full_main_certificate_replay": true,
+  "main_formulas_to_replay": 76,
+  "additional_support13_formulas_to_replay": 2,
+  "encoder_formally_verified": false,
+  "new_SAT_search_performed": false,
+  "scope": "Proof replay establishes exact CNF unsatisfiability. One-way semantics and analytic proofs are separate written arguments.",
+  "seconds": 716.648065,
+  "completed_stages": 11
+}

@@ -1,0 +1,17 @@
+{
+  "Z4": {
+    "accepted": true,
+    "additions": 120,
+    "deletions": 44,
+    "rat_only_steps": 0,
+    "checker": "independent standard-library RUP/RAT checker"
+  },
+  "D2": {
+    "accepted": true,
+    "additions": 129,
+    "deletions": 40,
+    "rat_only_steps": 0,
+    "checker": "independent standard-library RUP/RAT checker"
+  },
+  "premature_empty_clause_rejected": "empty clause not RUP at line 1"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS_ACTUAL_WEIGHT_MATCHING_THRESHOLD_CONTROLS",
+  "vectors": 11440,
+  "matching_cases": 14643200,
+  "literal_cases": 2944,
+  "seconds": 2.420439
+}

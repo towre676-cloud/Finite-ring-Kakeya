@@ -1,0 +1,127 @@
+{
+  "status": "PASS_INDEPENDENT_MATCHING_PROFILE_CERTIFICATE_REVIEW",
+  "reviewer": "Separate model agent /root/support13_geometry; not independent human review or proof-assistant formalization",
+  "source_hashes": {
+    "research_round7/charging/after_integer_dual_survivors.txt": "1c493598b5586dec62b736df01c10df441751a222e0926691a20c330853c2df5",
+    "research_round8/incidence/verify_matching_incidence_profiles.py": "2c396594633cd743d86bd165a4edfb0588eb6bc7df7a61217ce09036ca278e23",
+    "research_round8/incidence/MATCHING_INCIDENCE_PROFILE_EXCLUSIONS.json": "bd9a618e5743ecd1564770e09ab69b018b1e30c2c15d85803aeca7aa5fa9a681",
+    "research_round8/incidence/after_matching_incidence_survivors.txt": "1996a016795c5494c29a07558fb1204306cfb081de5257d7668d2c9e377d2cfd",
+    "research_round8/incidence/verify_incidence_profile_exclusions.py": "99b30853580d4372056b9fd5ce89aedbcc33155de3d12ce6b4b9b7ccc96d494e",
+    "research_round8/incidence/INCIDENCE_PROFILE_EXCLUSIONS.json": "5afcdb87d3711760d6854db2c9a822ce4f43406e606d6b09567ed043f7de156a",
+    "research_round8/incidence/after_incidence_survivors.txt": "892032e51ecdac50c351759cba7b8b2eb42fa8c3b102583ac687780e7a0a4835",
+    "research_round8/incidence/verify_extended_incidence_profiles.py": "6da613dc592a2b0f55ff08e1d695a66551d254e82f579f9056c4b52ae64fa1f0",
+    "research_round8/incidence/EXTENDED_INCIDENCE_PROFILE_EXCLUSIONS.json": "51b60f9083281dace3cf6a1aba4099f80caef98c9eaa8548b3d5f2b5ac870d87",
+    "research_round8/incidence/after_extended_incidence_survivors.txt": "b15dc1e11b2c8f661cc30745e5a40a7239816c8166993f5324209aedeadb5a05",
+    "research_round8/incidence/verify_general_incidence_profiles.py": "f626689310bbaaeeef5891532a0719bc9c9fde02f40e023d176c72fdbd502adc",
+    "research_round8/incidence/GENERAL_INCIDENCE_PROFILE_EXCLUSIONS.json": "a188bc1519b8cd6d5a3d206fc215ba9bbbee6ccace9ae72f5732e87b0d414d9f",
+    "research_round8/incidence/after_general_incidence_survivors.txt": "70bd3c18106c5ea47b7f37dfca52da6121a2bd9440e6c909c5834db06652e27f",
+    "research_round8/geometry/MATCHING_THRESHOLD_LEMMA.md": "05967dd3a9756b29e9b473b26673fa4f2d11c6272dccac47d94c55a2b1552750",
+    "research_round8/incidence/MISSING_DIRECTION_INCIDENCE.md": "4d52fcdb7b60b09cc52934ab3fab575d07b4320789879de664592c3a129c9034",
+    "research_round7/dense_encoder/NINE_POINT_DIFFERENCE_ANALYTIC_PROOF.md": "cb5671d36c1b857023aee9481491881d56cf9aef27734b104208b6fbbb6b5ba8"
+  },
+  "read_only_producer_verifier_review": true,
+  "independent_complete_integer_and_byte_check_executed": true,
+  "independent_check_imported_producer_or_verifier": false,
+  "spectrum_sumset_or_SAT_data_read": false,
+  "original_profiles": 183476,
+  "nine_heavy_profiles": 2187,
+  "cumulative_exclusions": 745,
+  "prior_exclusions_included": 175,
+  "additional_exclusions": 570,
+  "remaining_profiles": 182731,
+  "by_support": {
+    "13": {
+      "original": 85340,
+      "previously_excluded": 128,
+      "newly_excluded": 264,
+      "cumulative_excluded": 392,
+      "remaining": 84948
+    },
+    "14": {
+      "original": 74373,
+      "previously_excluded": 36,
+      "newly_excluded": 184,
+      "cumulative_excluded": 220,
+      "remaining": 74153
+    },
+    "15": {
+      "original": 19514,
+      "previously_excluded": 9,
+      "newly_excluded": 79,
+      "cumulative_excluded": 88,
+      "remaining": 19426
+    },
+    "16": {
+      "original": 3853,
+      "previously_excluded": 2,
+      "newly_excluded": 36,
+      "cumulative_excluded": 38,
+      "remaining": 3815
+    },
+    "17": {
+      "original": 396,
+      "previously_excluded": 0,
+      "newly_excluded": 7,
+      "cumulative_excluded": 7,
+      "remaining": 389
+    }
+  },
+  "by_maximum": {
+    "12": {
+      "original": 27490,
+      "previously_excluded": 12,
+      "newly_excluded": 46,
+      "cumulative_excluded": 58,
+      "remaining": 27432
+    },
+    "13": {
+      "original": 26935,
+      "previously_excluded": 7,
+      "newly_excluded": 28,
+      "cumulative_excluded": 35,
+      "remaining": 26900
+    },
+    "14": {
+      "original": 35767,
+      "previously_excluded": 101,
+      "newly_excluded": 25,
+      "cumulative_excluded": 126,
+      "remaining": 35641
+    },
+    "15": {
+      "original": 27038,
+      "previously_excluded": 55,
+      "newly_excluded": 21,
+      "cumulative_excluded": 76,
+      "remaining": 26962
+    },
+    "16": {
+      "original": 35332,
+      "previously_excluded": 0,
+      "newly_excluded": 250,
+      "cumulative_excluded": 250,
+      "remaining": 35082
+    },
+    "17": {
+      "original": 20003,
+      "previously_excluded": 0,
+      "newly_excluded": 94,
+      "cumulative_excluded": 94,
+      "remaining": 19909
+    },
+    "18": {
+      "original": 10911,
+      "previously_excluded": 0,
+      "newly_excluded": 106,
+      "cumulative_excluded": 106,
+      "remaining": 10805
+    }
+  },
+  "every_certificate_field_and_aggregate_recomputed": true,
+  "all_prefix_brackets_verified": true,
+  "direct745_and_staged175_plus570_removal_byte_identical": true,
+  "all_retained_lines_preserved_byte_identically_in_original_order": true,
+  "earlier16_128_175_artifacts_unchanged": true,
+  "new_SAT_exclusions_claimed": 0,
+  "blocking_issues_found": []
+}

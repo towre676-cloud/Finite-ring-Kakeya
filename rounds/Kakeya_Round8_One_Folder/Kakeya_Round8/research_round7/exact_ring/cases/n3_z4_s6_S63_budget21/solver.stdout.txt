@@ -1,0 +1,161 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.1.2
+c clang++-Clang 19.1.2 (https://github.com/llvm/llvm-project 7ba7d8e2f7b6445b60679da826210cdde29eaf8b)
+c Jan  1 1980 00:00:00
+c 
+c --- [ limit ] --------------------------------------------------------------
+c 
+c setting time limit to 60 seconds real time (due to '-t 60')
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/tmp/kakeya_exact_ring_z8lq9mo6/proof.drat'
+c writing non-binary proof trace to '/tmp/kakeya_exact_ring_z8lq9mo6/proof.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/tmp/kakeya_exact_ring_z8lq9mo6/input.cnf'
+c opening file to read '/tmp/kakeya_exact_ring_z8lq9mo6/input.cnf'
+c found 'p cnf 698 2650' header
+c parsed 2650 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reductions  redundant irredundant
+c         MB    restarts       trail    variables
+c          level   conflicts       glue     remaining
+c 
+c *  0.00  0  0 0   0    0    0  0% 0 2638 673 96%
+c {  0.00  0  0 0   0    0    0  0% 0 2638 673 96%
+c -  0.01  0 10 1   2  300  282 63% 4 2504 673 96%
+c -  0.02  0 10 2 100  902  764 61% 6 2504 673 96%
+c }  0.02  0 10 2 100 1002  825 61% 5 2504 673 96%
+c [  0.02  0  0 2 100 1002  825  0% 0 2504 673 96%
+c O  0.02  0 10 2 100 1003  826 59% 1 2504 673 96%
+c -  0.04  0 12 3 100 1802 1309 67% 6 2504 673 96%
+c ]  0.07  0 11 3 101 3002 2395 66% 7 2504 673 96%
+c {  0.07  0 10 3 101 3002 2395 61% 5 2504 673 96%
+c -  0.07  0 10 4 101 3002 2038 61% 5 2504 673 96%
+c F  0.07  0 10 4 101 3013 2047 61% 5 2504 673 96%
+c i  0.07  0 10 4 119 3168 2161 60% 5 2504 653 94%
+c i  0.08  0  9 4 138 3632 2488 60% 5 2504 643 92%
+c s  0.09  0 10 4 181 3942 2717 61% 5 2504 643 92%
+c v  0.09  0 10 4 181 3942 2717 61% 5 2341 638 91%
+c w  0.09  0 10 4 181 3942 2711 61% 5 2341 635 91%
+c t  0.09  0 10 4 181 3942 2710 61% 5 2330 628 90%
+c e  0.10  0 10 4 181 3942  556 61% 5 1925 478 68%
+c s  0.10  0 10 4 181 3942  555 61% 5 1917 478 68%
+c 
+c  seconds  reductions  redundant irredundant
+c         MB    restarts       trail    variables
+c          level   conflicts       glue     remaining
+c 
+c e  0.10  0 10 4 181 3942  436 61% 5 1901 473 68%
+c -  0.11  0 10 5 249 4506  726 59% 5 1901 473 68%
+c p  0.12  0 10 5 305 5003 1569 59% 6 1901 451 65%
+c d  0.12  0 10 5 305 5003 1395 59% 6 1703 440 63%
+c d  0.12  0 10 5 305 5003 1393 59% 6 1688 433 62%
+c i  0.13  0  9 5 310 5596 1812 58% 5 1688 430 62%
+c #  0.13  0  9 5 315 6015 2145 58% 5 1688 430 62%
+c -  0.14  0  9 6 319 6307 1910 57% 5 1659 430 62%
+c i  0.15  0  9 6 364 6671 2194 57% 5 1659 429 61%
+c }  0.15  0  9 6 411 7002 2481 56% 5 1659 429 61%
+c [  0.15  0 11 6 411 7002 2481 97% 7 1659 429 61%
+c i  0.17  0 10 6 412 8055 3207 82% 6 1659 427 61%
+c -  0.18  0  9 7 412 8409 2618 79% 6 1632 427 61%
+c i  0.18  0  9 7 412 8514 2661 79% 6 1632 424 61%
+c i  0.19  0  9 7 412 8696 2742 77% 6 1632 421 60%
+c i  0.19  0  9 7 412 8758 2764 77% 6 1632 400 57%
+c i  0.19  0  9 7 412 8801 2780 77% 6 1632 387 55%
+c i  0.19  0  9 7 412 8815 2788 76% 6 1632 366 52%
+c i  0.20  0  9 7 412 8821 1931 31% 6 1357 352 50%
+c i  0.20  0  9 7 412 8823 1932 30% 6 1357 347 50%
+c 
+c  seconds  reductions  redundant irredundant
+c         MB    restarts       trail    variables
+c          level   conflicts       glue     remaining
+c 
+c ]  0.20  0  9 7 412 8826 1933 32% 6 1357 234 34%
+c 0  0.20  0  9 7 412 8826 1933 32% 6 1357 234 34%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/tmp/kakeya_exact_ring_z8lq9mo6/proof.drat' closed
+c DRAT 12342 added clauses 51.96%
+c DRAT 11410 deleted clauses 48.04%
+c DRAT 902191 bytes (0.86 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.18   94.08% search
+c         0.10   49.18% unstable
+c         0.09   44.59% stable
+c         0.01    5.90% simplify
+c         0.00    1.52% elim
+c         0.00    1.41% vivify
+c         0.00    1.08% probe
+c         0.00    0.73% subsume
+c         0.00    0.36% ternary
+c         0.00    0.33% parse
+c         0.00    0.08% lucky
+c   =================================
+c         0.19   99.56% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:              1489        16.87 %  of conflicts
+c conflicts:                  8826     45307.54    per second
+c decisions:                 13459     69090.67    per second
+c eliminated:                  155        22.21 %  of all variables
+c fixed:                       291        41.69 %  of all variables
+c learned:                    8631        97.79 %  per conflict
+c learned_lits:             170418       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                  61779        36.25 %  learned literals
+c minishrunken:              19054        11.18 %  learned literals
+c otfs:                         38         0.43 %  of conflict
+c propagations:             893887         4.59 M  per second
+c reduced:                    1183        13.40 %  per conflict
+c rephased:                      3      2942.00    interval
+c restarts:                    412        21.42    interval
+c stabilizing:                   2        43.32 %  of conflicts
+c substituted:                  18         2.58 %  of all variables
+c subsumed:                   1786        13.81 %  of all clauses
+c strengthened:                117         0.90 %  of all clauses
+c ternary:                      75         1.00 %  of resolved
+c vivified:                     77         0.60 %  of all clauses
+c weakened:                    482         2.31    average size
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.20    seconds
+c total real time since initialization:            0.20    seconds
+c maximum resident set size of process:           17.39    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Constructive tests of new necessary clauses; no SAT exclusion is claimed here.",
+  "strong_encoder_sha256": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+  "baseline_encoder_sha256": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+  "actual_fibres": {
+    "actual_shapes": 805,
+    "negative_controls_rejected": 3
+  },
+  "baseline_identity": {
+    "support_mask": 8481174,
+    "support_size": 11,
+    "hub_interval": [
+      2,
+      18
+    ],
+    "baseline_variables": 35144,
+    "baseline_clauses": 294029,
+    "baseline_cnf_sha256": "35df861dd6c442218d673460b46097f0364032df06389c0cf288db15584b4cc5",
+    "strong_variables": 35485,
+    "strong_clauses": 322508,
+    "extra_variables": 341,
+    "extra_clauses": 28479,
+    "strong_cnf_sha256": "0de22aab8c0bfa0e30fd7552cd33e45289527256dbad90a39bb3f7143e1b358a"
+  },
+  "seconds": 8.888
+}

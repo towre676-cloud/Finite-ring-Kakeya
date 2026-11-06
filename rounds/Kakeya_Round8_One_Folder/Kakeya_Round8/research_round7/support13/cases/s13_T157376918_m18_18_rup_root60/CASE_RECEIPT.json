@@ -1,0 +1,136 @@
+{
+  "case_id": "s13_T157376918_m18_18_rup_root60",
+  "status": "PASS_EXACT_CNF_DRAT_TO_CAKEML",
+  "support": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    13,
+    14,
+    16,
+    21,
+    22,
+    24,
+    27
+  ],
+  "nonzero_support_mask": 157376918,
+  "distinguished_hub": 0,
+  "maximum_interval": [
+    18,
+    18
+  ],
+  "total_upper_bound": 93,
+  "ring_scope": "common_necessary_relaxation_both_rings",
+  "encoder": "research_round6/joint_maxima/encode_joint_maxima.py",
+  "semantic_input_hashes": {
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/next_frontier/SUPPORT13_CASE_QUEUE.json": "81d842699ad9cb80cc055df6a1fcc0d54d686bad81cf895b77398536f8e9d259"
+  },
+  "solver_limit_seconds": 60,
+  "solver_sha256": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+  "producer_sha256": "5ce133998d254aebcb48072fdf8cf961855cbd97b55bd7ae46a17ee106bce4d0",
+  "encoder_soundness_formalized": false,
+  "storage": {
+    "input.cnf": {
+      "logical_path": "input.cnf",
+      "compressed_path": "input.cnf.xz",
+      "raw_sha256": "a7600d66b3853ed162508a8b64633368bcf0e0dec46acc6507caf0973acefcf8",
+      "raw_bytes": 8479218,
+      "xz_sha256": "c5e0545aa3e2d315188d71d6ab37a240325a03dc226cb9bf681cad40507ba773",
+      "xz_bytes": 612776,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "a7600d66b3853ed162508a8b64633368bcf0e0dec46acc6507caf0973acefcf8"
+    },
+    "proof.drat": {
+      "logical_path": "proof.drat",
+      "compressed_path": "proof.drat.xz",
+      "raw_sha256": "431c5da8e3755f18f46d11d4bdc5dd82af30c191aea2a47b432bde13096812da",
+      "raw_bytes": 79591210,
+      "xz_sha256": "c86e2c75bce5c8e0a41f077ff85dd4563ace67d9a0cc68754fb0a24562a68edb",
+      "xz_bytes": 9524756,
+      "raw_present": false,
+      "compression": "xz",
+      "preset": 1,
+      "round_trip_sha256": "431c5da8e3755f18f46d11d4bdc5dd82af30c191aea2a47b432bde13096812da"
+    }
+  },
+  "variables": 44684,
+  "clauses": 386191,
+  "cnf_sha256": "a7600d66b3853ed162508a8b64633368bcf0e0dec46acc6507caf0973acefcf8",
+  "cnf_bytes": 8479218,
+  "encode_seconds": 0.476283,
+  "solver_returncode": 20,
+  "stop_reason": null,
+  "solve_seconds": 27.06477,
+  "process_supervision": {
+    "process_group_id": 32,
+    "whole_process_group_confirmed_absent": true,
+    "kill_signals_sent": 0,
+    "adopted_descendants_reaped": []
+  },
+  "last_observed_live_drat_bytes": {
+    "proof.drat": 79591210,
+    "search_solver.drat": 79590839
+  },
+  "proof_size_guard_counts_all_live_drat_files": true,
+  "solver_command": [
+    "/workspace/scratch/a2844a91c00e/research_round7/support13/rup_unit_solver.py",
+    "--no-binary",
+    "--no-witness",
+    "-t",
+    "60",
+    "/tmp/kakeya_r7_s13_157376918_l2dipyjw/input.cnf",
+    "/tmp/kakeya_r7_s13_157376918_l2dipyjw/proof.drat"
+  ],
+  "proof_sha256": "431c5da8e3755f18f46d11d4bdc5dd82af30c191aea2a47b432bde13096812da",
+  "proof_bytes": 79591210,
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 44684,
+      "clauses": 386191
+    },
+    "input_sha256": {
+      "cnf": "a7600d66b3853ed162508a8b64633368bcf0e0dec46acc6507caf0973acefcf8",
+      "drat": "431c5da8e3755f18f46d11d4bdc5dd82af30c191aea2a47b432bde13096812da"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 20.681708,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "777e4ebd62e569b817a0d1127661f16100a07a68102d0375f1d23148e4ddbff5",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "91f65616893684c5c47deba12636a5504170d9f350b3a99f3ad9562074e6b777",
+    "lrat_bytes": 282888081,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 12.258051,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 64.549313,
+  "reconstructed_lrat_retained": false,
+  "incomplete_proof_retained": false
+}

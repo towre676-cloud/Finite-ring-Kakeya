@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXACT_PLANE_RELATION_AND_CLAUSE_WRAPPER",
+  "ambient_dimension": 5,
+  "full_state_count": 2233,
+  "distinct_pair_triples": 629,
+  "local_subsets_checked": 16,
+  "binary4_subsets_exhausted": 65536,
+  "binary4_relation_size": 201,
+  "closed_form_quadruples_checked": 162129,
+  "explicit_binary5_witnesses_checked": 2233,
+  "actual_fibre_clause_extensions_checked": 1558,
+  "census_compatible_impossible_quadruples_rejected": 2006,
+  "census_compatible_possible_quadruples_accepted": 1558,
+  "sample_wrapper_stats": {
+    "local_planes": 1,
+    "forbidden_triples": 336,
+    "lower_weight_cuts": 282,
+    "upper_weight_cuts": 184,
+    "weight_thresholds": 14,
+    "added_variables": 14,
+    "added_clauses": 3246
+  },
+  "seconds": 6.712098,
+  "whole_support_exclusions_credited": 0,
+  "formalization": "Finite replay and written proof; not proof-assistant formalized."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY",
+  "scope": "Whole weight/own-direction profiles for exact maximum19, dimension5, both rings.",
+  "new_deleted_direction_cuts": 1,
+  "new_periodic_mode_cuts": 231,
+  "remaining_profiles_after_these_stages": 12635,
+  "remaining_by_support": {
+    "11": 9733,
+    "12": 2902
+  },
+  "analytic_review": [
+    "The deleted heavy-heavy direction leaves doubled demand960. Seven own-zero eight-fibres contribute at most128 each and two positive-own three-fibres at most30 each:956<960.",
+    "For two own-periodic outer fibres, the offhub pair-label sets share a nonzero quotient period, so their actual sumset capacity is at most pq/2.",
+    "Own-periodic off-own counts are even, hence at most2 floor(w/4). The hub own-slot cap is handled separately.",
+    "The same periodic/nonperiodic mode is fixed for every incidence. Enumerating counts of identical types covers all mode assignments.",
+    "All50,642 relevant quotient subsets were independently enumerated. The nonperiodic block catalogue is used only as an upper relaxation.",
+    "Every local matching bound is supported by integer dual inequalities. Endpoint deficits are combined by max(max loss, ceil(sum loss/2)); no unproved additive independence is assumed."
+  ],
+  "verification": {
+    "covering_mode_branches": 2094,
+    "local_spectrum_duals": 26741,
+    "integer_inequalities": 5983311
+  },
+  "hashes": {
+    "research_round3/m19/PROFILE63342_DELETED_DIRECTION_PROOF.md": "08da3ca6e9a8cc55a407b6002f8ed46bd1ba76395b0f6e62b4f4ef5b3a59dc56",
+    "research_round3/m19/verify_deleted_direction_profile.py": "3940fa5e95f23a2647eb233544fcecee5a31e778677f0c33c3237ddf6090033d",
+    "research_round3/m19/DELETED_DIRECTION_PROFILE_VERIFICATION.json": "26124ee412b10257590249a6f31cd7cd5451dc27db8ce6e10bcd2dcf7c7ce6b2",
+    "research_round3/m19/OWN_PERIODIC_RESOURCE_PROOF.md": "ea9ad614f9b83ca3577593b8c29b01f40c2830719af4b28a5ca656c88d32302e",
+    "research_round3/m19/verify_own_periodic_certificates.py": "dc74ffbb6669400cececd2f0cf3f82e5865a7cf3f8c54b8bcba50ec5dad437d0",
+    "research_round3/m19/OWN_PERIODIC_VERIFICATION_RECEIPT.json": "a8f57163380638ba3ac2eb694574a9a15cacc74c52b11224f87d5864f79d6f79"
+  }
+}

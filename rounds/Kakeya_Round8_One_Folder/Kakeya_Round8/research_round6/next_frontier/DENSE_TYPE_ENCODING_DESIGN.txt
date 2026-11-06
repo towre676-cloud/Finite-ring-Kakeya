@@ -1,0 +1,81 @@
+Exact direction models for two dense fibre types
+===============================================
+
+Status: constructive encoding design, derived from the proved complement
+lemmas. No new encoder, benchmark, SAT certificate or exclusion is claimed.
+Source: DENSE_FIBRE_COMPLEMENT_LEMMAS.md and its complete finite replay.
+
+These models can replace incomplete collections of local forbidding
+clauses for the two four-dimensional types with trivial maximal-pair
+subspace. They describe the entire labelled pair profile of either type.
+Only incident directions need to be linked to the existing SAT variables.
+They do not prescribe the fibre's translation or settle global coverage.
+
+1. Weight twelve, energy 294
+--------------------------
+
+Let H be the selected four-dimensional linear direction space. Choose a
+three-space J contained in H and a nonzero vector u in J. For every nonzero
+direction d, impose the following conditional profile when this type is
+selected:
+
+  p(d)=5  exactly when d is in J and d is not u;
+  p(d)=4  exactly when d is in H and (d is outside J or d=u);
+  p(d)=0  exactly when d is outside H.
+
+Necessity is the proved four-point-complement classification. Conversely,
+choose an ordered basis e1,e2,e3 of J whose sum is u. Such a basis exists:
+an invertible map of J can send the sum of a fixed basis to any prescribed
+nonzero vector. Put B={0,e1,e2,e3} and A=H minus B. Its six pair differences
+are precisely J minus {0,u}, so A realizes the displayed profile.
+
+Thus the model is exact for this fibre type. In a fixed H there are
+15 choices of J and 7 choices of u, giving 105 profiles. Across all 31
+four-spaces in F2^5, there are 3255 labelled profiles. A structured encoding
+can reuse the existing H selector, choose J, and select u; it need not
+introduce one selector for each of all 3255 profiles.
+
+2. Weight eleven, energy 205
+--------------------------
+
+Choose five distinct nonzero vectors c0,...,c4 in the selected four-space H
+whose XOR is zero. These conditions already make them a five-circuit.
+Indeed, a proper zero-sum subset cannot have size 1 or 2; a subset of size 3
+or 4 would leave a zero-sum complement of size 2 or 1, also impossible.
+Every four are therefore independent, so the five vectors span H.
+
+Put C={c0,...,c4}. Conditional on selecting this type, for nonzero d require
+
+  p(d)=3  exactly when d is in C;
+  p(d)=4  exactly when d is in H but not in C;
+  p(d)=0  exactly when d is outside H.
+
+Necessity follows from the five-point-complement lemma. For sufficiency,
+set fi=c0+ci for i=1,...,4. The four fi are independent: a relation among
+them would induce a relation among the five ci, and their unique nonzero
+relation uses all five; the coefficient on c0 would then be four rather
+than one modulo 2, a contradiction. Their sum is c0. Consequently the
+complement of B={0,f1,f2,f3,f4} in H has its five three-pair directions
+exactly at c0 and c0+fi=ci. This realizes the required profile.
+
+There are 168 profiles in a fixed H, hence 5208 in F2^5. A direct binary
+encoding needs five 5-bit vectors, their nonzero/distinctness constraints,
+membership in H, and one five-bit XOR equation. Requiring their integer
+labels to increase removes the 5! ordering symmetry without discarding
+any profile. The last vector can be represented as the XOR of the first
+four; all five must still satisfy the order and nonzero conditions.
+
+3. How to use this next
+----------------------
+
+Gate each model by the existing selector for its weight, affine rank and
+histogram, including all hidden-vector membership, nonzero, distinctness
+and ordering constraints. Link the resulting counts to every existing incident-direction
+pair variable. Keep the selected H consistent with the original encoder.
+The constructions above give a direct one-way extension proof for every
+real fibre of either type, as well as local sufficiency for its profile.
+
+These models address fibres on which the earlier K-coset equalities are
+vacuous because K={0}. Benchmark them against the frozen baseline on the
+same hard support 13 cases, with identical time limits and complete proof
+checking. Their mathematical exactness does not imply faster SAT search.

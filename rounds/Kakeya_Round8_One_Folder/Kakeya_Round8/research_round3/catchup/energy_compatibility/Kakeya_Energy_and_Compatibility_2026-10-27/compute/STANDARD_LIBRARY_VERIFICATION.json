@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "solver_dependency": false,
+  "cases": [
+    {
+      "case": "n2_three_fibres_dual",
+      "status": "UNSAT",
+      "variables": 26,
+      "clauses": 84,
+      "required_residue_directions": [
+        1,
+        2,
+        3
+      ],
+      "tree_overlap_failures": 0,
+      "python_rup_clauses_checked_including_empty": 1
+    },
+    {
+      "case": "n2_three_fibres_z4",
+      "status": "SAT",
+      "variables": 26,
+      "clauses": 84,
+      "required_residue_directions": [
+        1,
+        2,
+        3
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 12
+    },
+    {
+      "case": "n5_forced_overlap_dual",
+      "status": "UNSAT",
+      "variables": 60,
+      "clauses": 223,
+      "required_residue_directions": [
+        16
+      ],
+      "tree_overlap_failures": 1,
+      "python_rup_clauses_checked_including_empty": 7
+    },
+    {
+      "case": "n5_forced_overlap_z4",
+      "status": "UNSAT",
+      "variables": 60,
+      "clauses": 223,
+      "required_residue_directions": [
+        16
+      ],
+      "tree_overlap_failures": 1,
+      "python_rup_clauses_checked_including_empty": 7
+    },
+    {
+      "case": "n5_four12_block_dual",
+      "status": "UNSAT",
+      "variables": 140,
+      "clauses": 663,
+      "required_residue_directions": [
+        1,
+        2,
+        3
+      ],
+      "tree_overlap_failures": 0,
+      "python_rup_clauses_checked_including_empty": 5
+    },
+    {
+      "case": "n5_four12_block_z4",
+      "status": "SAT",
+      "variables": 140,
+      "clauses": 663,
+      "required_residue_directions": [
+        1,
+        2,
+        3
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 96
+    },
+    {
+      "case": "n5_product264_dual",
+      "status": "SAT",
+      "variables": 2800,
+      "clauses": 15342,
+      "required_residue_directions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 992
+    },
+    {
+      "case": "n5_product264_z4",
+      "status": "SAT",
+      "variables": 2800,
+      "clauses": 15342,
+      "required_residue_directions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 992
+    },
+    {
+      "case": "n5_star94_dual",
+      "status": "SAT",
+      "variables": 160,
+      "clauses": 30,
+      "required_residue_directions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 992
+    },
+    {
+      "case": "n5_star94_z4",
+      "status": "SAT",
+      "variables": 160,
+      "clauses": 30,
+      "required_residue_directions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tree_overlap_failures": 0,
+      "coordinate_arithmetic_primitive_vectors_checked": 992
+    }
+  ],
+  "exhaustive_n2_direct_classification": {
+    "dual": {
+      "SAT": 135,
+      "UNSAT": 2266
+    },
+    "z4": {
+      "SAT": 136,
+      "UNSAT": 2265
+    }
+  },
+  "exhaustive_F2_squared_three_set_tree_checks": 65536,
+  "scope": "Fixed-shape translations and stated local direction blocks only; no full n5 closure."
+}

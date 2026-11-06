@@ -1,0 +1,1 @@
+{"status":"UNTRUSTED_CORE_WRITTEN","input_bytes":32329262,"core_bytes":14486560,"original_cnf_clauses":284461,"input_additions":141547,"kept_additions":33040,"input_deletions":28835,"kept_deletions":25451,"retained_deletion_targets":108766,"retained_hint_references":1571595,"retained_negative_hints":0,"final_empty_clause_id":426008,"checker_required":true}

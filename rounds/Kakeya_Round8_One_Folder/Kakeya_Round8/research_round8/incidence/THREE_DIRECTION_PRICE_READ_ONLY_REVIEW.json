@@ -1,0 +1,17 @@
+{
+  "status": "PASS_READ_ONLY_MATHEMATICAL_REVIEW",
+  "reviewer_role": "dense_encoder model agent",
+  "proof_file": "research_round8/incidence/THREE_DIRECTION_PRICE_LEMMA.md",
+  "proof_sha256": "2363be25c67adc6cbe0cbc563904491e0290a9a9a4ba375c180a94237ab6316c",
+  "reviewed_points": [
+    "For at least nine heavy residues, a missing-direction set cannot contain a complete binary plane; any three distinct missing directions are therefore independent.",
+    "Light2/light3 fibres contribute at most one/two incidences over the independent missing triple.",
+    "Pairs in k independent directions form disjoint k-cubes on2^(5-k) cosets; local maxima and exact occupancy convolution therefore give the stated E_k(w).",
+    "Each selected heavy-light edge uses a distinct endpoint-direction incidence, bounded by E_k for its actual set of k directions.",
+    "With u active light-light edges, the identity adding lambda*(sum k+2u) leaves (1-2lambda)*u<=0 when lambda>=1/2; thus the displayed price upper bound is valid.",
+    "The example support17 profile has B9, price4, heavy excesses9 and1, and upper bound46<48.",
+    "Ring carries translate quotient sumsets and do not alter the cardinality inequalities."
+  ],
+  "scope": "Analytic proof review only; no claim of full proof-assistant formalization or human refereeing.",
+  "blockers": []
+}

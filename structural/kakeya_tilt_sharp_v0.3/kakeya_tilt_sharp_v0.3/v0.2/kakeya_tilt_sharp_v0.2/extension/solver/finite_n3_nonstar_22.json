@@ -1,0 +1,30 @@
+{
+  "n": 3,
+  "upper_constraint": 22,
+  "max_fibre_constraint": null,
+  "excluded_profile": [
+    8,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "method": "standard-library exhaustive domain branching over exact local autocorrelations",
+  "status": "INFEASIBLE",
+  "nodes": 1889459,
+  "memoized_states": 66365,
+  "pruning_counts": {
+    "external resources": 10539,
+    "energy": 8358,
+    "domain": 1624116,
+    "size": 77610,
+    "direction": 102470,
+    "excluded profile": 1
+  },
+  "seconds": 184.011975,
+  "local_rows": 45,
+  "witness": null
+}

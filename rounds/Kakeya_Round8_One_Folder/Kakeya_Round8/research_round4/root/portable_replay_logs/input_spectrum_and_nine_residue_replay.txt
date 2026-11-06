@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "nine_point_sets": 2930,
+  "nine_point_maximum": 28,
+  "spectrum_weights_checked": 19,
+  "seconds": 2.454
+}

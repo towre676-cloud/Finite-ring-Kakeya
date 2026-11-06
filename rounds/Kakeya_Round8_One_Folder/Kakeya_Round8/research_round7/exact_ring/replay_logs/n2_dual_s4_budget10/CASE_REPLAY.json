@@ -1,0 +1,28 @@
+{
+  "case_id": "n2_dual_s4_budget10",
+  "parameters": {
+    "case_id": "n2_dual_s4_budget10",
+    "dimension": 2,
+    "ring": "dual",
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maximum": 4,
+    "hub_min": 2,
+    "total": 10,
+    "normalize": true,
+    "purpose": "dimension2_concrete_upper_bound"
+  },
+  "production_status": "PASS_ACTUAL_RING_KAKEYA_SAT_WITNESS",
+  "status": "PASS_EXACT_CNF_AND_ACTUAL_RING_SAT_WITNESS",
+  "direct_geometry": {
+    "is_kakeya": true,
+    "point_count": 10,
+    "direction_count": 6,
+    "missing_directions": []
+  },
+  "seconds": 0.003137
+}

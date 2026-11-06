@@ -1,0 +1,67 @@
+{
+  "case_id": "s13_T37848950_m2_18_dense_dense_smoke",
+  "status": "PASS_EXACT_ORIGINAL_CNF_AND_PORTABLE_CAKEML_PROOF",
+  "nonzero_support_mask": 37848950,
+  "maximum_interval": [
+    2,
+    18
+  ],
+  "representation": "COMPACT_DRAT",
+  "original_round7_drat_read": false,
+  "formula_regeneration": {
+    "variant_mode": "dense",
+    "regenerated_variant_metadata": {
+      "base_variables": 45124,
+      "base_clauses": 400297,
+      "dense": {
+        "variables": 8931,
+        "clauses": 78468
+      }
+    },
+    "variables": 54055,
+    "clauses": 478765,
+    "status": "BYTE_IDENTICAL_CNF_REGENERATION",
+    "cnf_sha256": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585"
+  },
+  "cnf_sha256": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+  "checked_proof_sha256": "dafc1bcb67a9b41df875f8b4e1f9e0bdbb80cff2b8ac9ff7779661aa957b0ba2",
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 54055,
+      "clauses": 478765
+    },
+    "input_sha256": {
+      "cnf": "a9ebf6b99fb91d8a0c3cbce4a1ec2ee92ed9a75e36de12ef8cc1d98766065585",
+      "drat": "dafc1bcb67a9b41df875f8b4e1f9e0bdbb80cff2b8ac9ff7779661aa957b0ba2"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.217496,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "00a4230e9d0795f2c5c72852b564a3c7490ddb0a12011b8045ed7b3ad8972165",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "29b9e730618294f8a1af3c0feeae4e2962a0dfdae951c08bef2f137402699026",
+    "lrat_bytes": 20973569,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 1.367856,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "seconds": 4.225982
+}

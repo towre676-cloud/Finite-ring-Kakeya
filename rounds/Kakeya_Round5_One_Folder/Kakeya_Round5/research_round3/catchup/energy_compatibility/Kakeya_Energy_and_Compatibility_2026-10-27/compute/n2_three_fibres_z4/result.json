@@ -1,0 +1,86 @@
+{
+  "status": "SAT",
+  "n": 2,
+  "ring": "z4",
+  "weight": 12,
+  "support": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "variables": 26,
+  "clauses": 84,
+  "affine_gauge_basis": [
+    0,
+    1,
+    2
+  ],
+  "seconds": 0.0003917499998351559,
+  "local_sumset_failures": [],
+  "cnf_sha256": "00cb9c9f770c03c68776b2bed63a034503269d5bbcecc0254e67237f951d9d24",
+  "fixed_shapes": {
+    "0": [
+      1,
+      2,
+      3
+    ],
+    "1": [
+      1,
+      2,
+      3
+    ],
+    "2": [
+      1,
+      2,
+      3
+    ],
+    "3": [
+      1,
+      2,
+      3
+    ]
+  },
+  "scope": "Independent translations of these fixed labelled fibre shapes, covering only the listed residue directions.",
+  "offsets": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 3
+  },
+  "direct_ring_verification": {
+    "primitive_vectors_checked": 12,
+    "projective_directions_checked": 6,
+    "missing_primitive_vectors": [],
+    "all_required_directions_covered": true,
+    "full_kakeya": true
+  },
+  "witness_fibres": {
+    "0": [
+      1,
+      2,
+      3
+    ],
+    "1": [
+      1,
+      2,
+      3
+    ],
+    "2": [
+      1,
+      2,
+      3
+    ],
+    "3": [
+      0,
+      1,
+      2
+    ]
+  },
+  "required_residue_directions": [
+    1,
+    2,
+    3
+  ],
+  "tree_overlap_failures": []
+}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "new_whole_support_class_exclusions": [
+    373,
+    376
+  ],
+  "previous_M11_open_support_classes": 57,
+  "new_M11_open_support_classes": 55,
+  "exact_assignment_certificates": 550,
+  "partition_counts": {
+    "total": 21822,
+    "resource": 21081,
+    "inherited_geometry": 631
+  },
+  "records": [
+    {
+      "orbit": 367,
+      "methods": {
+        "EXACT_ASSIGNMENT_ENVELOPE": 107,
+        "UNRESOLVED_PROFILE": 1,
+        "NINE_HEAVY_INDEPENDENT_MISSING_DIRECTIONS": 2
+      },
+      "status": "OPEN",
+      "surviving_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "orbit": 373,
+      "methods": {
+        "EXACT_ASSIGNMENT_ENVELOPE": 108,
+        "NINE_HEAVY_INDEPENDENT_MISSING_DIRECTIONS": 2
+      },
+      "status": "CLOSED",
+      "surviving_profiles": []
+    },
+    {
+      "orbit": 374,
+      "methods": {
+        "EXACT_ASSIGNMENT_ENVELOPE": 107,
+        "UNRESOLVED_PROFILE": 1,
+        "NINE_HEAVY_INDEPENDENT_MISSING_DIRECTIONS": 2
+      },
+      "status": "OPEN",
+      "surviving_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "orbit": 376,
+      "methods": {
+        "EXACT_ASSIGNMENT_ENVELOPE": 108,
+        "NINE_HEAVY_INDEPENDENT_MISSING_DIRECTIONS": 2
+      },
+      "status": "CLOSED",
+      "surviving_profiles": []
+    },
+    {
+      "orbit": 377,
+      "methods": {
+        "EXACT_ASSIGNMENT_ENVELOPE": 105,
+        "UNRESOLVED_PROFILE": 3,
+        "NINE_HEAVY_INDEPENDENT_MISSING_DIRECTIONS": 2
+      },
+      "status": "OPEN",
+      "surviving_profiles": [
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          6,
+          6,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          4,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          11,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "seconds": 4.48880314499911
+}

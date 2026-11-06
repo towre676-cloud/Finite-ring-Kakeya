@@ -1,0 +1,21 @@
+Continue the existing maxima 11–18 sweep. The next complementary task is independent checking and a soundness bridge for the reported 38 maximum-19 certificates. No new SAT search is needed for this audit.
+
+The Round 5 package contains research_round5/proof_audit/audit_certificates.py and vendored pinned checkers. It converts each DRAT proof with DRAT-trim and requires acceptance by the upstream verified CakeML cake_lpr artifact on the same exact CNF. It has passed four old Kakeya examples, a genuine RAT control and eight rejection controls. None of the new 38 proof files was accessible to that session.
+
+Please export the actual 38 CNF/DRAT pairs and an explicit kakeya-proof-audit-v1 manifest. Do not infer field names from this handoff: adapt your actual m19_s11_12.jsonl schema and encoder records deliberately. Preserve original case IDs, file SHA256s and source paths as provenance. Include exact encoder source, the mathematical statement of (A)–(E), symmetry restrictions, support list and distinguished hub for every case.
+
+Use the fixed 38-class M19_MARKED_CASE_CONTRACT.json (13 marked classes at support 11, 25 at support 12), SHA256:
+8d6b60a180c3cefe124e8de47b3c308f840bad9b1b3d1b8b55764ff9f19a5118
+
+Map each actual support and hub to its canonical case ID using encoding_bridge/map_marked_case.py. Record its six-entry affine_map_to_contract; the proof audit independently checks invertibility and the actual support/hub transport, as well as exact coverage of all 38 canonical IDs.
+
+For a common necessary-condition relaxation, declare ring_scope=common_relaxation_both_rings and prove the counterexample-to-CNF-assignment implication for both rings. A ring-specific encoding instead needs one complete 38-case manifest per ring (z4 and dual). We have not assumed what (A)–(E) say or that they are exact rather than a relaxation.
+
+Run:
+python3 research_round5/proof_audit/audit_certificates.py /absolute/path/m19_manifest.json --output /absolute/path/m19_independent_audit --timeout 3600 --heap-mb 4096 --stack-mb 256
+
+Return AUDIT_RECEIPT.json, exact input manifest, original CNFs/proofs, generated LRATs, checker logs, encoder source and the explicit mathematical soundness bridge. Hashes and case metadata do not establish that the CNF actually encodes that case; exact deterministic regeneration and the soundness argument remain essential.
+
+Important checker finding: the pinned ordinary C lrat-check utility accepts a bogus empty LRAT clause on the satisfiable one-unit formula. Its success is diagnostic-only. CakeML rejects that control, and CakeML success is mandatory. Also check its stdout marker and stderr, not only its exit code. This does not imply a flaw in the LRAT calculus or in the CakeML checker.
+
+Formal status: this package runs an upstream verified checker artifact, pinned by commit hash with its published assembly hash verified. It does not locally rebuild HOL4/CakeML or formalize the Kakeya encoder. The wrapper hash discrepancy in the upstream checksum file is recorded transparently in vendor/cake_lpr/PIN.json.

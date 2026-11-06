@@ -1,0 +1,466 @@
+{
+  "status": "PASS_COMPLETE_NINE_GEOMETRY_SCREEN",
+  "input_weight_profiles": 275755,
+  "new_whole_weight_profile_exclusions": 4088,
+  "remaining_weight_profiles": 271667,
+  "new_empty_cells": [],
+  "geometry_types": 7,
+  "normalized_nine_sets": 2930,
+  "local_resource_keys": 8990,
+  "assignment_keys": 14021,
+  "minimum_doubled_gap": 1,
+  "by_support": [
+    {
+      "support": 10,
+      "initial": 3220,
+      "excluded": 2572,
+      "remaining": 648
+    },
+    {
+      "support": 11,
+      "initial": 24708,
+      "excluded": 1234,
+      "remaining": 23474
+    },
+    {
+      "support": 12,
+      "initial": 61048,
+      "excluded": 225,
+      "remaining": 60823
+    },
+    {
+      "support": 13,
+      "initial": 85913,
+      "excluded": 57,
+      "remaining": 85856
+    },
+    {
+      "support": 14,
+      "initial": 75865,
+      "excluded": 0,
+      "remaining": 75865
+    },
+    {
+      "support": 15,
+      "initial": 20491,
+      "excluded": 0,
+      "remaining": 20491
+    },
+    {
+      "support": 16,
+      "initial": 4076,
+      "excluded": 0,
+      "remaining": 4076
+    },
+    {
+      "support": 17,
+      "initial": 434,
+      "excluded": 0,
+      "remaining": 434
+    }
+  ],
+  "by_cell": [
+    {
+      "support": 10,
+      "maximum": 12,
+      "initial": 178,
+      "excluded": 160,
+      "remaining": 18
+    },
+    {
+      "support": 10,
+      "maximum": 13,
+      "initial": 332,
+      "excluded": 314,
+      "remaining": 18
+    },
+    {
+      "support": 10,
+      "maximum": 14,
+      "initial": 528,
+      "excluded": 469,
+      "remaining": 59
+    },
+    {
+      "support": 10,
+      "maximum": 15,
+      "initial": 581,
+      "excluded": 528,
+      "remaining": 53
+    },
+    {
+      "support": 10,
+      "maximum": 16,
+      "initial": 615,
+      "excluded": 412,
+      "remaining": 203
+    },
+    {
+      "support": 10,
+      "maximum": 17,
+      "initial": 554,
+      "excluded": 373,
+      "remaining": 181
+    },
+    {
+      "support": 10,
+      "maximum": 18,
+      "initial": 432,
+      "excluded": 316,
+      "remaining": 116
+    },
+    {
+      "support": 11,
+      "maximum": 12,
+      "initial": 1600,
+      "excluded": 161,
+      "remaining": 1439
+    },
+    {
+      "support": 11,
+      "maximum": 13,
+      "initial": 2488,
+      "excluded": 276,
+      "remaining": 2212
+    },
+    {
+      "support": 11,
+      "maximum": 14,
+      "initial": 3739,
+      "excluded": 209,
+      "remaining": 3530
+    },
+    {
+      "support": 11,
+      "maximum": 15,
+      "initial": 4029,
+      "excluded": 176,
+      "remaining": 3853
+    },
+    {
+      "support": 11,
+      "maximum": 16,
+      "initial": 5153,
+      "excluded": 201,
+      "remaining": 4952
+    },
+    {
+      "support": 11,
+      "maximum": 17,
+      "initial": 4395,
+      "excluded": 134,
+      "remaining": 4261
+    },
+    {
+      "support": 11,
+      "maximum": 18,
+      "initial": 3304,
+      "excluded": 77,
+      "remaining": 3227
+    },
+    {
+      "support": 12,
+      "maximum": 12,
+      "initial": 5249,
+      "excluded": 43,
+      "remaining": 5206
+    },
+    {
+      "support": 12,
+      "maximum": 13,
+      "initial": 7224,
+      "excluded": 41,
+      "remaining": 7183
+    },
+    {
+      "support": 12,
+      "maximum": 14,
+      "initial": 10044,
+      "excluded": 65,
+      "remaining": 9979
+    },
+    {
+      "support": 12,
+      "maximum": 15,
+      "initial": 9994,
+      "excluded": 51,
+      "remaining": 9943
+    },
+    {
+      "support": 12,
+      "maximum": 16,
+      "initial": 12242,
+      "excluded": 10,
+      "remaining": 12232
+    },
+    {
+      "support": 12,
+      "maximum": 17,
+      "initial": 9547,
+      "excluded": 11,
+      "remaining": 9536
+    },
+    {
+      "support": 12,
+      "maximum": 18,
+      "initial": 6748,
+      "excluded": 4,
+      "remaining": 6744
+    },
+    {
+      "support": 13,
+      "maximum": 12,
+      "initial": 10220,
+      "excluded": 28,
+      "remaining": 10192
+    },
+    {
+      "support": 13,
+      "maximum": 13,
+      "initial": 12033,
+      "excluded": 29,
+      "remaining": 12004
+    },
+    {
+      "support": 13,
+      "maximum": 14,
+      "initial": 15648,
+      "excluded": 0,
+      "remaining": 15648
+    },
+    {
+      "support": 13,
+      "maximum": 15,
+      "initial": 13653,
+      "excluded": 0,
+      "remaining": 13653
+    },
+    {
+      "support": 13,
+      "maximum": 16,
+      "initial": 16279,
+      "excluded": 0,
+      "remaining": 16279
+    },
+    {
+      "support": 13,
+      "maximum": 17,
+      "initial": 11166,
+      "excluded": 0,
+      "remaining": 11166
+    },
+    {
+      "support": 13,
+      "maximum": 18,
+      "initial": 6914,
+      "excluded": 0,
+      "remaining": 6914
+    },
+    {
+      "support": 14,
+      "maximum": 12,
+      "initial": 12872,
+      "excluded": 0,
+      "remaining": 12872
+    },
+    {
+      "support": 14,
+      "maximum": 13,
+      "initial": 11677,
+      "excluded": 0,
+      "remaining": 11677
+    },
+    {
+      "support": 14,
+      "maximum": 14,
+      "initial": 15410,
+      "excluded": 0,
+      "remaining": 15410
+    },
+    {
+      "support": 14,
+      "maximum": 15,
+      "initial": 10842,
+      "excluded": 0,
+      "remaining": 10842
+    },
+    {
+      "support": 14,
+      "maximum": 16,
+      "initial": 14043,
+      "excluded": 0,
+      "remaining": 14043
+    },
+    {
+      "support": 14,
+      "maximum": 17,
+      "initial": 7439,
+      "excluded": 0,
+      "remaining": 7439
+    },
+    {
+      "support": 14,
+      "maximum": 18,
+      "initial": 3582,
+      "excluded": 0,
+      "remaining": 3582
+    },
+    {
+      "support": 15,
+      "maximum": 12,
+      "initial": 5390,
+      "excluded": 0,
+      "remaining": 5390
+    },
+    {
+      "support": 15,
+      "maximum": 13,
+      "initial": 3002,
+      "excluded": 0,
+      "remaining": 3002
+    },
+    {
+      "support": 15,
+      "maximum": 14,
+      "initial": 4194,
+      "excluded": 0,
+      "remaining": 4194
+    },
+    {
+      "support": 15,
+      "maximum": 15,
+      "initial": 2185,
+      "excluded": 0,
+      "remaining": 2185
+    },
+    {
+      "support": 15,
+      "maximum": 16,
+      "initial": 4110,
+      "excluded": 0,
+      "remaining": 4110
+    },
+    {
+      "support": 15,
+      "maximum": 17,
+      "initial": 1234,
+      "excluded": 0,
+      "remaining": 1234
+    },
+    {
+      "support": 15,
+      "maximum": 18,
+      "initial": 376,
+      "excluded": 0,
+      "remaining": 376
+    },
+    {
+      "support": 16,
+      "maximum": 12,
+      "initial": 1260,
+      "excluded": 0,
+      "remaining": 1260
+    },
+    {
+      "support": 16,
+      "maximum": 13,
+      "initial": 512,
+      "excluded": 0,
+      "remaining": 512
+    },
+    {
+      "support": 16,
+      "maximum": 14,
+      "initial": 770,
+      "excluded": 0,
+      "remaining": 770
+    },
+    {
+      "support": 16,
+      "maximum": 15,
+      "initial": 374,
+      "excluded": 0,
+      "remaining": 374
+    },
+    {
+      "support": 16,
+      "maximum": 16,
+      "initial": 907,
+      "excluded": 0,
+      "remaining": 907
+    },
+    {
+      "support": 16,
+      "maximum": 17,
+      "initial": 209,
+      "excluded": 0,
+      "remaining": 209
+    },
+    {
+      "support": 16,
+      "maximum": 18,
+      "initial": 44,
+      "excluded": 0,
+      "remaining": 44
+    },
+    {
+      "support": 17,
+      "maximum": 12,
+      "initial": 151,
+      "excluded": 0,
+      "remaining": 151
+    },
+    {
+      "support": 17,
+      "maximum": 13,
+      "initial": 46,
+      "excluded": 0,
+      "remaining": 46
+    },
+    {
+      "support": 17,
+      "maximum": 14,
+      "initial": 86,
+      "excluded": 0,
+      "remaining": 86
+    },
+    {
+      "support": 17,
+      "maximum": 15,
+      "initial": 42,
+      "excluded": 0,
+      "remaining": 42
+    },
+    {
+      "support": 17,
+      "maximum": 16,
+      "initial": 95,
+      "excluded": 0,
+      "remaining": 95
+    },
+    {
+      "support": 17,
+      "maximum": 17,
+      "initial": 14,
+      "excluded": 0,
+      "remaining": 14
+    },
+    {
+      "support": 17,
+      "maximum": 18,
+      "initial": 0,
+      "excluded": 0,
+      "remaining": 0
+    }
+  ],
+  "dependencies": {
+    "research_round4/middle_inventory/after_priced_nine_survivors.txt": "4f936a1f929292aaa5bf51f113e9e4070f926b474242e4ecc08853cbbb00fde5",
+    "research_round5/nine_geometry/screen_nine_geometry.cpp": "b07863749fcf311af9abd9ce9d047e5391c54fbd36c783b73988703c31c90486",
+    "research_round5/nine_geometry/NINE_GEOMETRY_CUTS.jsonl": "0c34ee345fc66cee4b300a44e278304f960e77b602e98f39121380116968117e",
+    "research_round5/nine_geometry/NINE_MISSING_DEGREE_CENSUS.json": "e453bb2dc52ed7e0ef784b18091d84ae4c7d1c0d19431d2d91b676ef18640624",
+    "research_round5/nine_geometry/after_nine_geometry_survivors.txt": "6bb5db2cc6681d4e472c433cbc9b46f9c7056df4607bb14bff6c633c3ad00dd3",
+    "research_round5/nine_geometry/verify_nine_geometry.py": "d6174616bf20db20199124b3ec76f071e3138181e7221cfcae4dc2e57451852d"
+  },
+  "scope": "Complete replay of this degree-slot necessary-condition family on the Round4 middle residual. Every geometry branch is covered; remaining profiles are not constructions. Analytic validity uses the included resource proof and maximal-direction subgroup lemma.",
+  "seconds": 3.087
+}

@@ -1,0 +1,162 @@
+{
+  "status": "PASS_EXACT_RING_GEOMETRY_AND_BOOLEAN_REPLAY",
+  "line_family_comparisons": [
+    {
+      "dimension": 2,
+      "ring": "z4",
+      "support": [
+        0,
+        1,
+        2
+      ],
+      "directions": 6,
+      "distinct_line_terms": 12,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    },
+    {
+      "dimension": 2,
+      "ring": "dual",
+      "support": [
+        0,
+        1,
+        2
+      ],
+      "directions": 6,
+      "distinct_line_terms": 12,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    },
+    {
+      "dimension": 2,
+      "ring": "z4",
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "directions": 6,
+      "distinct_line_terms": 24,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    },
+    {
+      "dimension": 2,
+      "ring": "dual",
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "directions": 6,
+      "distinct_line_terms": 24,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    },
+    {
+      "dimension": 5,
+      "ring": "z4",
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "directions": 496,
+      "distinct_line_terms": 19968,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    },
+    {
+      "dimension": 5,
+      "ring": "dual",
+      "support": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "directions": 496,
+      "distinct_line_terms": 19968,
+      "literal_ring_geometry_equals_encoder_line_terms": true
+    }
+  ],
+  "scope": "Line-term equality covers every membership assignment on each tested support; separate manual proof covers arbitrary supports.",
+  "counters": {
+    "small_truncated_totalizer_instances": 10,
+    "exhausted_input_plus_auxiliary_assignments": 7738,
+    "larger_constructive_count_assignments": 105,
+    "and_gate_truth_table_assignments": 8
+  },
+  "normalization": {
+    "all_dimension2_common_affine_tangent_maps": 128,
+    "direct_carried_line_checks": 12288,
+    "dimension5_random_normalized_fibre_systems": 48,
+    "dimension5_direction_reindex_checks": 23808
+  },
+  "positive_94_point_stars": [
+    {
+      "ring": "z4",
+      "variables": 154689,
+      "clauses": 540987,
+      "anchors": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "all_clauses_satisfied": true,
+      "corrupted_pair_gate_rejected": true,
+      "direct_geometry": {
+        "is_kakeya": true,
+        "point_count": 94,
+        "direction_count": 496,
+        "missing_directions": []
+      }
+    },
+    {
+      "ring": "dual",
+      "variables": 154689,
+      "clauses": 540987,
+      "anchors": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "all_clauses_satisfied": true,
+      "corrupted_pair_gate_rejected": true,
+      "direct_geometry": {
+        "is_kakeya": true,
+        "point_count": 94,
+        "direction_count": 496,
+        "missing_directions": []
+      }
+    }
+  ],
+  "source_hashes": {
+    "encode_exact_ring.py": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+    "verify_exact_ring.py": "1530b590589a69a0f87d5b15f2ef49658a161265df57b64235ee9ae66d79efd9"
+  },
+  "proof_assistant_formalized": false,
+  "seconds": 6.816138
+}

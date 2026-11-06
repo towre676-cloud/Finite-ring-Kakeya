@@ -1,0 +1,35 @@
+{
+  "status": "PASS_EXACT_DEGREE_BLOCK_AND_ASSIGNMENT_DUAL_REPLAY",
+  "block_census_sha256": "bbdc62428dc4b75eac1d2bae416ffe777041de02ad48eea3e50e0a0793d537be",
+  "degree_patterns_sha256": "7ca8ecbc1b2b10a9b42830d19b75bc33723bac08766b79261a4aebc56fee431c",
+  "degree_census_completeness": "frozen382 representatives; root normalized-support audit separately",
+  "dual_file_sha256": "ac2e2694e45c1b0444c58fa5c0ecec70b9cfd6988a812283d766ed660b1ca5c5",
+  "local_keys": 330,
+  "block_spectrum_duals": 2655,
+  "verified_local_integer_inequalities": 454005,
+  "supports": {
+    "11": {
+      "input_profiles": 21381,
+      "input_sha256": "f14df34d989a19f6a1b58e84241b193ddf2bdba8d106adcc72a7a0e0a872f49c",
+      "new_exclusions": 25,
+      "prior_overlap": 0,
+      "remaining": 21356,
+      "minimum_gap_doubled": 1,
+      "certificate_sha256": "ab19e0e71760bc954fbace162322a6cc7e58acc1c16ec0b5ffc06d260a51dc4c"
+    },
+    "12": {
+      "input_profiles": 9115,
+      "input_sha256": "b1f0dc9420e639e4a102a5682bb91a97443d20d9b5e6166d31f6642349128dcc",
+      "new_exclusions": 0,
+      "prior_overlap": 0,
+      "remaining": 9115,
+      "minimum_gap_doubled": null,
+      "certificate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "pattern_assignment_duals": 275,
+  "verified_pattern_integer_inequalities": 25892,
+  "total_new_exclusions": 25,
+  "total_remaining": 30471,
+  "seconds": 0.40616440773010254
+}

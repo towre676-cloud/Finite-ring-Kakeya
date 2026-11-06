@@ -1,0 +1,140 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYTIC_AND_FINITE_REVIEW",
+  "theorem": "n>=6 fullhub outer<=12 sharpbound andstar equality",
+  "energy_maxima": {
+    "2": 1,
+    "3": 3,
+    "4": 12,
+    "5": 16,
+    "6": 33,
+    "7": 63,
+    "8": 112,
+    "9": 120,
+    "10": 153,
+    "11": 211,
+    "12": 300
+  },
+  "higher_rank_upper_bounds": {
+    "7": 21,
+    "8": 34,
+    "9": 54,
+    "10": 87,
+    "11": 145,
+    "12": 252
+  },
+  "explicit_integer_partition_controls": [
+    {
+      "z": 2,
+      "enumerated_cost_partitions": 12,
+      "maximum_gain": 14,
+      "attaining_weights": [
+        4,
+        4
+      ],
+      "required": 67
+    },
+    {
+      "z": 3,
+      "enumerated_cost_partitions": 30,
+      "maximum_gain": 47,
+      "attaining_weights": [
+        8
+      ],
+      "required": 132
+    },
+    {
+      "z": 4,
+      "enumerated_cost_partitions": 67,
+      "maximum_gain": 74,
+      "attaining_weights": [
+        4,
+        8
+      ],
+      "required": 197
+    },
+    {
+      "z": 5,
+      "enumerated_cost_partitions": 139,
+      "maximum_gain": 157,
+      "attaining_weights": [
+        12
+      ],
+      "required": 262
+    },
+    {
+      "z": 6,
+      "enumerated_cost_partitions": 269,
+      "maximum_gain": 193,
+      "attaining_weights": [
+        4,
+        12
+      ],
+      "required": 327
+    },
+    {
+      "z": 7,
+      "enumerated_cost_partitions": 494,
+      "maximum_gain": 239,
+      "attaining_weights": [
+        6,
+        12
+      ],
+      "required": 392
+    },
+    {
+      "z": 8,
+      "enumerated_cost_partitions": 870,
+      "maximum_gain": 343,
+      "attaining_weights": [
+        8,
+        12
+      ],
+      "required": 457
+    },
+    {
+      "z": 9,
+      "enumerated_cost_partitions": 1477,
+      "maximum_gain": 409,
+      "attaining_weights": [
+        10,
+        12
+      ],
+      "required": 522
+    },
+    {
+      "z": 10,
+      "enumerated_cost_partitions": 2430,
+      "maximum_gain": 564,
+      "attaining_weights": [
+        12,
+        12
+      ],
+      "required": 587
+    },
+    {
+      "z": 11,
+      "enumerated_cost_partitions": 3890,
+      "maximum_gain": 609,
+      "attaining_weights": [
+        4,
+        12,
+        12
+      ],
+      "required": 652
+    },
+    {
+      "z": 12,
+      "enumerated_cost_partitions": 6078,
+      "maximum_gain": 630,
+      "attaining_weights": [
+        6,
+        12,
+        12
+      ],
+      "required": 717
+    }
+  ],
+  "large_z_bound": "3817/60 <64",
+  "spectrum_source_sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35",
+  "root_proof_sha256": "981ec6e2291f2fd72b1cb9c0bcd38b1e16fe23af2ee5ce20dcb4d6b0023d4a5a"
+}

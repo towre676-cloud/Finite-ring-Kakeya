@@ -1,0 +1,37 @@
+{
+  "status": "PASS_FOUR_PAIR_CAPACITY_AND_FIBRE_FLAGS",
+  "lemma_sha256": "e92cccd9470e975a305192128136e62fe6be622669f49c697704ea74984d342d",
+  "fixed_tetrahedron_partner_cases": 1680,
+  "sumset_size_histogram": {
+    "7": 16,
+    "8": 96,
+    "11": 512,
+    "12": 864,
+    "14": 192
+  },
+  "all_pairs_covered_by_affine_equivalence": true,
+  "sharpness_witness": {
+    "P": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "Q": [
+      0,
+      7,
+      8,
+      14
+    ],
+    "sumset_size": 14
+  },
+  "weight11_Q205_complements": 2688,
+  "weight11_nonplanar_pair_directions": 26880,
+  "weight8_period_normalized_tetrahedra": 1680,
+  "weight12_Q294_complements": 1680,
+  "weight12_nonplanar_pair_directions": 13440,
+  "weight12_exceptional_planar_directions": 1680,
+  "new_SAT_exclusions_credited": 0,
+  "benchmark_speedup_claimed": false,
+  "seconds": 0.109021
+}

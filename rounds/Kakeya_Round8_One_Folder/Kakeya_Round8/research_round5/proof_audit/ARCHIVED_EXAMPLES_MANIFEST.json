@@ -1,0 +1,59 @@
+{
+  "schema": "kakeya-proof-audit-v1",
+  "label": "Four archived Kakeya proof examples",
+  "expected_case_ids": [
+    "n2_three_fibres_dual",
+    "n5_forced_overlap_dual",
+    "n5_forced_overlap_z4",
+    "n5_four12_block_dual"
+  ],
+  "coverage_scope": "Exactly these four archived fixtures; not a complete stratum or support-orbit catalogue.",
+  "encoder_soundness_status": "NOT_AUDITED_BY_THIS_PROOF_CHECKER",
+  "orbit_catalogue_completeness_status": "NOT_APPLICABLE_TO_FIXTURES",
+  "cases": [
+    {
+      "case_id": "n2_three_fibres_dual",
+      "cnf": "examples/n2_three_fibres_dual/input.cnf",
+      "proof": "examples/n2_three_fibres_dual/proof.drat",
+      "cnf_sha256": "6dd2f521f20174fe5f961b88036a57be47706dad9bcc079003044612386d44a9",
+      "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "metadata": {
+        "source_archive_path": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/compute/n2_three_fibres_dual",
+        "scope": "Archived fixed-shape example; not one of the new maximum-19 proofs."
+      }
+    },
+    {
+      "case_id": "n5_forced_overlap_dual",
+      "cnf": "examples/n5_forced_overlap_dual/input.cnf",
+      "proof": "examples/n5_forced_overlap_dual/proof.drat",
+      "cnf_sha256": "b48b68d2cd98d68b23f64a955de7068361ffa3eff4f007b091e26e68467cd153",
+      "proof_sha256": "43238aa2e0767d65e978765e4abfe57d421cdfcf31ec0edea05529cdfe3dd7c1",
+      "metadata": {
+        "source_archive_path": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/compute/n5_forced_overlap_dual",
+        "scope": "Archived fixed-shape example; not one of the new maximum-19 proofs."
+      }
+    },
+    {
+      "case_id": "n5_forced_overlap_z4",
+      "cnf": "examples/n5_forced_overlap_z4/input.cnf",
+      "proof": "examples/n5_forced_overlap_z4/proof.drat",
+      "cnf_sha256": "b48b68d2cd98d68b23f64a955de7068361ffa3eff4f007b091e26e68467cd153",
+      "proof_sha256": "43238aa2e0767d65e978765e4abfe57d421cdfcf31ec0edea05529cdfe3dd7c1",
+      "metadata": {
+        "source_archive_path": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/compute/n5_forced_overlap_z4",
+        "scope": "Archived fixed-shape example; not one of the new maximum-19 proofs."
+      }
+    },
+    {
+      "case_id": "n5_four12_block_dual",
+      "cnf": "examples/n5_four12_block_dual/input.cnf",
+      "proof": "examples/n5_four12_block_dual/proof.drat",
+      "cnf_sha256": "870607fb69e266e025feea75075560f5dff4f7a3cbaff6a17f89932dbe50c6fa",
+      "proof_sha256": "19372815babb46cfad9e411eb9863ee969fd692f7bf84fd2a51181a19c151e4b",
+      "metadata": {
+        "source_archive_path": "research_round3/catchup/energy_compatibility/Kakeya_Energy_and_Compatibility_2026-10-27/compute/n5_four12_block_dual",
+        "scope": "Archived fixed-shape example; not one of the new maximum-19 proofs."
+      }
+    }
+  ]
+}

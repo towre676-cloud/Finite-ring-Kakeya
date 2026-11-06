@@ -1,0 +1,182 @@
+{
+  "status": "COMPLETED_EXACT_RING_DIAGNOSTICS",
+  "cases": [
+    {
+      "case_id": "n5_z4_s13_T1022358_m2_18_budget93",
+      "parameters": {
+        "case_id": "n5_z4_s13_T1022358_m2_18_budget93",
+        "dimension": 5,
+        "ring": "z4",
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maximum": 18,
+        "hub_min": 2,
+        "total": 93,
+        "normalize": true,
+        "purpose": "new_support13_exact_ring_diagnostic"
+      },
+      "status": "TIMEOUT_UNCERTIFIED",
+      "source_hashes": {
+        "research_round7/exact_ring/encode_exact_ring.py": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+        "research_round7/exact_ring/verify_exact_ring.py": "1530b590589a69a0f87d5b15f2ef49658a161265df57b64235ee9ae66d79efd9",
+        "research_round7/exact_ring/certify_exact_ring.py": "e9a2ee434ad5e4460a82df64b9177c77d004a391968f9b689675e449417b4aff"
+      },
+      "solver_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+      "wall_limit_seconds": 60,
+      "census_dependency": false,
+      "capacity_table_dependency": false,
+      "encoder_formalized": false,
+      "storage": {
+        "input.cnf": {
+          "logical_path": "/tmp/kakeya_exact_ring_xxqzigm0/input.cnf",
+          "compressed_path": "/tmp/kakeya_exact_ring_xxqzigm0/input.cnf.xz",
+          "raw_sha256": "bb1c11cfe28af3a16d01cf9fb55c0f2ccebe8f8941e390d69b5d5fd134a8c760",
+          "raw_bytes": 1870410,
+          "xz_sha256": "d755ae6b993013dcfff416377a1a959d4cca44902d8b9aecccc32f3984d2cd9f",
+          "xz_bytes": 197656,
+          "raw_present": false,
+          "compression": "xz",
+          "preset": 1,
+          "round_trip_sha256": "bb1c11cfe28af3a16d01cf9fb55c0f2ccebe8f8941e390d69b5d5fd134a8c760"
+        }
+      },
+      "variables": 26195,
+      "clauses": 108899,
+      "anchors": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "cnf_sha256": "bb1c11cfe28af3a16d01cf9fb55c0f2ccebe8f8941e390d69b5d5fd134a8c760",
+      "cnf_bytes": 1870410,
+      "encode_seconds": 0.130419,
+      "solver_returncode": 0,
+      "stop_reason": null,
+      "solver_command": [
+        "/tmp/kakeya_lean_round4/lean-4.24.0-linux/bin/cadical",
+        "--no-binary",
+        "-t",
+        "60",
+        "/tmp/kakeya_exact_ring_xxqzigm0/input.cnf",
+        "/tmp/kakeya_exact_ring_xxqzigm0/proof.drat"
+      ],
+      "solve_seconds": 60.085207,
+      "proof_sha256": "d2b3d04f25374bc0d293886d2e40177a3279f2515a7a265cb61d4bd81e71f15f",
+      "proof_bytes": 275990086,
+      "discarded_unaccepted_proof": {
+        "sha256": "d2b3d04f25374bc0d293886d2e40177a3279f2515a7a265cb61d4bd81e71f15f",
+        "bytes": 275990086,
+        "reason": "Not an accepted UNSAT refutation; no exclusion credit."
+      },
+      "seconds": 60.524471,
+      "unfinished_proof_retained": false
+    },
+    {
+      "case_id": "n5_dual_s13_T1022358_m2_18_budget93",
+      "parameters": {
+        "case_id": "n5_dual_s13_T1022358_m2_18_budget93",
+        "dimension": 5,
+        "ring": "dual",
+        "support": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maximum": 18,
+        "hub_min": 2,
+        "total": 93,
+        "normalize": true,
+        "purpose": "new_support13_exact_ring_diagnostic"
+      },
+      "status": "TIMEOUT_UNCERTIFIED",
+      "source_hashes": {
+        "research_round7/exact_ring/encode_exact_ring.py": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+        "research_round7/exact_ring/verify_exact_ring.py": "1530b590589a69a0f87d5b15f2ef49658a161265df57b64235ee9ae66d79efd9",
+        "research_round7/exact_ring/certify_exact_ring.py": "e9a2ee434ad5e4460a82df64b9177c77d004a391968f9b689675e449417b4aff"
+      },
+      "solver_sha256": "48bbd538966156dedba887201e656549152a9eaf6ac5a72e00d47f26fcf3c846",
+      "wall_limit_seconds": 60,
+      "census_dependency": false,
+      "capacity_table_dependency": false,
+      "encoder_formalized": false,
+      "storage": {
+        "input.cnf": {
+          "logical_path": "/tmp/kakeya_exact_ring_vez1l1mc/input.cnf",
+          "compressed_path": "/tmp/kakeya_exact_ring_vez1l1mc/input.cnf.xz",
+          "raw_sha256": "eed4fc5069e5d6d1eb26973e8f163a0657aa640d8330c088bb3a8c26e76c3075",
+          "raw_bytes": 1870410,
+          "xz_sha256": "258bee8b662dc844a5c09914798bf2596b9f61adf248159db1a4b348cf7d9a1f",
+          "xz_bytes": 197688,
+          "raw_present": false,
+          "compression": "xz",
+          "preset": 1,
+          "round_trip_sha256": "eed4fc5069e5d6d1eb26973e8f163a0657aa640d8330c088bb3a8c26e76c3075"
+        }
+      },
+      "variables": 26195,
+      "clauses": 108899,
+      "anchors": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "cnf_sha256": "eed4fc5069e5d6d1eb26973e8f163a0657aa640d8330c088bb3a8c26e76c3075",
+      "cnf_bytes": 1870410,
+      "encode_seconds": 0.107317,
+      "solver_returncode": 0,
+      "stop_reason": null,
+      "solver_command": [
+        "/tmp/kakeya_lean_round4/lean-4.24.0-linux/bin/cadical",
+        "--no-binary",
+        "-t",
+        "60",
+        "/tmp/kakeya_exact_ring_vez1l1mc/input.cnf",
+        "/tmp/kakeya_exact_ring_vez1l1mc/proof.drat"
+      ],
+      "solve_seconds": 60.06923,
+      "proof_sha256": "e22c8fd11cf90d68b6651d7f23d0062f9ddeb6d6284a08e4fbfa9d892806f605",
+      "proof_bytes": 247104913,
+      "discarded_unaccepted_proof": {
+        "sha256": "e22c8fd11cf90d68b6651d7f23d0062f9ddeb6d6284a08e4fbfa9d892806f605",
+        "bytes": 247104913,
+        "reason": "Not an accepted UNSAT refutation; no exclusion credit."
+      },
+      "seconds": 60.458272,
+      "unfinished_proof_retained": false
+    }
+  ],
+  "source_hashes": {
+    "research_round7/exact_ring/encode_exact_ring.py": "b9fae460198291a9a59b19ee31b3dcddb9865964342a351f67d092a36c4159c6",
+    "research_round7/exact_ring/verify_exact_ring.py": "1530b590589a69a0f87d5b15f2ef49658a161265df57b64235ee9ae66d79efd9",
+    "research_round7/exact_ring/certify_exact_ring.py": "e9a2ee434ad5e4460a82df64b9177c77d004a391968f9b689675e449417b4aff"
+  }
+}

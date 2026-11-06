@@ -1,0 +1,109 @@
+Round8 branch theorem: maximum eleven, support thirteen
+======================================================
+
+Statement
+---------
+For R=Z/4Z and R=F2[epsilon]/(epsilon^2), no Kakeya subset of R^5 with
+at most93 points has exact maximum fibre size11 and pair-active residue
+support size13, conditional on the inherited reductions and the reviewed
+necessary-condition encoder.
+
+This is a complete computer-assisted exclusion of that branch.  It
+implies that any remaining maximum-eleven counterexample must have
+pair-active support14,15 or16.  The unrestricted94-point lower bound,
+the middle maxima12..18, and the dimension-four target remain open.
+
+Reduction to the four marked formulas
+------------------------------------
+The unchanged Round7 ledger already reduces the support-thirteen,
+maximum-eleven branch to affine support classes109,110,111.  All largest-
+fibre positions in those classes are accounted for by the explicit maps
+in research_round7/geometry/SUPPORT13_MARKING_MAP.json.  Combining those
+maps with the preceding certificates leaves exactly these four roles:
+
+    class109: 377850134
+    class111: 411136406
+    class110: 671697334 and2185856310.
+
+The integers are masks of the nonzero residues after placing a largest
+fibre at residue zero.  Equal largest fibres are allowed.  No assumption
+that the largest fibre occupies an arbitrary symmetry-equivalent role
+is made: every necessary role is either inherited as closed or checked
+here.  merge_round8.py verifies this coverage and closes the classes
+only after all their marked roles are covered.
+
+Necessary conditions encoded
+----------------------------
+The frozen encoder assigns one complete census spectrum to each fibre,
+one directional pair count to every incidence, a consistent affine
+direction space and maximal-pair subspace, and total weight at most93.
+Every nonzero residue direction must receive capacity at least16 from
+its actual support edges.  The usual capacity table bounds each edge.
+
+Round8 appends two new geometric restrictions.  First, thirteen fibres
+of maximum size at most eleven require at least ten fibres of size at
+least four, and those ten-or-more heavy residues must realize all31
+nonzero differences.  This theorem needs no total-weight budget or
+fibre census.  Second, two tetrahedral four-point quotient pair-sets
+have sumset size at most14.  The new formula applies this bound to
+every applicable edge, including directions with several edges.
+
+Each new edge capacity has explicitly allocated unary variables.  It
+does not depend on inferred numbering of hidden old variables.  For
+an actual Kakeya set, assign both old and new capacity families their
+actual edge sumset sizes.  Each bound holds, while their sum in every
+direction is at least16.  Thus every actual counterexample extends
+to a satisfying assignment of its corresponding strengthened formula.
+The ring carry only translates each edge sumset; these cardinality
+bounds are necessary in both rings.
+
+Exact refutations
+-----------------
+All four formulas were frozen before search.  Each produced a complete
+DRAT refutation within its120-second search budget.  Proof reconstruction
+and checking were additional work.  The complete proof, including the
+untrusted search preprocessor's RUP prefix, was checked against the
+original strengthened formula.  DRAT-trim reconstructed LRAT, and the
+pinned CakeML checker accepted that LRAT against the same CNF hash.
+
+Every proof was then trimmed, and the compact replacement was freshly
+checked against that unchanged formula.  The portable replayer rebuilds
+the exact formula byte for byte and checks all four compact proofs.
+The large original DRAT streams are unnecessary for portable replay;
+their hashes and full production provenance remain recorded.
+
+The accepted searches used the ten-heavy/full-cover theorem and the
+all-edge tetrahedral restriction.  The later eleven-heavy theorem,
+general missing-direction incidence bound, hyperplane cuts and Q211
+paired-space cuts are separate results.  They are not retroactively
+credited as premises or speed improvements in these four searches.
+
+Trust boundary and accounting
+-----------------------------
+The theorem uses the inherited support reduction, complete fibre and
+capacity census data, mathematical soundness lemmas, and the Python
+encoder faithfully implementing those lemmas.  Exact proof checking
+removes trust in the SAT solver's answer.  It does not formalize the
+whole mathematical reduction or Python encoder in a proof assistant.
+
+The combined direct exact-eleven coverage is now39 of55 marked cases,
+including the four new refutations, in the full support-thirteen
+catalogue.  Full closure of this maximum uses
+the inherited affine-class exclusions for the other possibilities.
+The maximum-eleven affine ledger changes45 to42.  The four marked SAT
+cases remove no whole middle-maximum weight profiles.  Separately, the
+new incidence and price theorems exclude950 complete middle profiles,
+reducing183476 to182526. Intermediate cumulative counts16,128,175,745
+and the final950 are separately recorded without duplicate credit.
+This second deduction holds for every placement
+of those profiles.  The overall pair-active-support minimum remains13.
+
+Primary evidence
+----------------
+  strengthened/CERTIFICATE_MANIFEST.json
+  strengthened/compact/COMPACT_CERTIFICATE_MANIFEST.json
+  strengthened/compact/COMPACT_CERTIFICATE_REPLAY.json
+  strengthened/ONE_WAY_SOUNDNESS.txt
+  charging/HEAVY_DIFFERENCE_COVER_THEOREM.md
+  ROUND8_MERGED_REPLAY.json
+  ../Kakeya_Research_Frontier_Round8.json

@@ -1,0 +1,76 @@
+FOUR ADDITIVE-COSET IMAGES SUFFICE IN EVERY DIMENSION
+27 October 2026. Developed jointly in the analytic and parent threads.
+
+Let R be Z/4Z or F2[e]/(e^2), G=R^n, pi=2 or e, N=2^n,
+H=pi G=ker(pi), and n>=1. Let f:G->G be any function and set
+S_t=(f+t Id)(G), K_f=union_{t in R} S_t.
+
+THEOREM. If each S_t is a coset of an additive subgroup of G,
+then |K_f|>=3N-2. In particular, the conclusion holds whenever f
+is affine additive. Over dual numbers this includes all affine
+F2-linear f, even when its linear part does not commute with pi.
+
+Proof. Every image contains z=f(0). Translate f by -z; each image
+is now a subgroup. For every unit-separated pair s,t, S_s+S_t=G:
+the difference (f(v)+tv)-(f(v)+sv)=(t-s)v ranges over G. Consequently
+
+    |S_s||S_t| = N^2 |S_s intersect S_t| >= N^2.
+
+Let M be the largest image order, a power of two. If M>=4N, the
+claim is immediate. If M<=N, every image has order N by the last
+product inequality, and the included THREE_MINIMUM_IMAGES_THEOREM.txt
+applies. The only remaining possibility is M=2N.
+
+Adding t Id to f permutes the four images, so write
+
+  U=S_0, U'=S_pi, V=S_1, W=S_(1+pi), |U|=2N.
+
+Both V,W have order at least N/2. If either has order s>=N, the
+subgroup product identity gives
+
+  |U union V|=2N+s-2s/N >=3N-2
+
+(or replace V by W). Here s lies between N and 2N, and the
+expression is nondecreasing in s because N>=2.
+
+The remaining case has |V|=|W|=N/2. Applying the product bound to
+U' and V gives |U'|=2N. If U' differs from U, their intersection
+is a proper subgroup of U, of order at most N. Then
+|U union U'|>=3N, sufficient.
+
+If U'=U, then pi G is contained in U: for every v, both f(v) and
+f(v)+pi v lie in U, whose difference is pi v. Meanwhile
+U intersect V=U intersect W={0}, by the product formula and the
+orders of these groups. For u in U, f(u)+u belongs both to U and
+to V, so f(u)=-u. Hence
+
+  f(u)+(1+pi)u=pi u
+
+belongs to W, and also to U because pi G is contained in U.
+Thus pi u=0, proving U subset ker(pi)=H. This contradicts
+|U|=2N>|H|=N, and eliminates the last case. QED.
+
+Affine-additive corollary. If f(v)=P(v)+z for an additive group
+endomorphism P, then each image is z+im(P+t Id), an additive coset.
+The theorem applies. No additivity of f was used in the main proof.
+
+Equality refinement for n>=2. If the four coset images are not all
+N-point images, then in fact |K_f|>=3N-1. The preceding proof already
+gives at least 3N in every case except a 2N-point subgroup U and an
+N-point unit-separated subgroup V. Suppose this exceptional case had
+union size 3N-2. Since |U union V|=3N-2, all four images would be
+contained in U union V. A subgroup contained in a union of two
+subgroups must be contained in one of them: otherwise choose one
+element outside each and add them to obtain an element outside both.
+The unit-sum requirements U'+V=G and W+U=G therefore force U' subset U
+and W subset V (V and U are proper subgroups when N>=4). Taking
+same-argument differences between S_pi and S_0 gives pi G subset U;
+taking differences between S_(1+pi) and S_1 gives pi G subset V.
+This would put the N-point group H=pi G inside U intersect V, which
+has only two points. Contradiction. Equality 3N-2 is therefore confined
+to the previously classified balanced full-hub stars in this class.
+
+Scope. Arbitrary f need not have coset images. This theorem closes
+an additional structural class, not the unrestricted Kakeya problem.
+The separate AFFINE_ADDITIVE_IMAGE_THEOREM.txt is an earlier, weaker
+form and can be omitted from a final package in favour of this note.

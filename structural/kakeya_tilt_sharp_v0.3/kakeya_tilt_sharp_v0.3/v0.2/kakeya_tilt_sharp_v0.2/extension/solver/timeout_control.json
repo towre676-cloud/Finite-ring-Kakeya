@@ -1,0 +1,7 @@
+{
+  "ring": "Z4",
+  "n": 3,
+  "bound": 21,
+  "status": "TIMEOUT",
+  "limit_seconds": 0.001
+}

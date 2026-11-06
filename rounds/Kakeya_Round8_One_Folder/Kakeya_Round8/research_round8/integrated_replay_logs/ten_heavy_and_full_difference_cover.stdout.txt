@@ -1,0 +1,11 @@
+{
+  "status": "PASS_HEAVY_DIFFERENCE_COVER_THEOREM_CONTROLS_AND_EXACT_PATTERN_INVENTORY",
+  "boolean_assignments": 32768,
+  "remaining_patterns": {
+    "377850134": 37,
+    "411136406": 50,
+    "671697334": 38,
+    "2185856310": 39
+  },
+  "seconds": 4.540448
+}

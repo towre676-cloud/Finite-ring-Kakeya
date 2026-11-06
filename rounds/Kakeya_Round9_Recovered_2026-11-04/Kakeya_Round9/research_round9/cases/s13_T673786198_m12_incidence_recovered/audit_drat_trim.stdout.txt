@@ -1,0 +1,129 @@
+c turning on binary mode checking
+c parsing input formula with 46392 variables and 337718 clauses
+c WARNING: detected and deleted duplicate literal 45304 at position 2 of proof line 321264
+c WARNING: detected and deleted duplicate literal -45304 at position 1 of proof line 321269
+c WARNING: detected and deleted duplicate literal 45306 at position 2 of proof line 321280
+c WARNING: detected and deleted duplicate literal -45306 at position 1 of proof line 321285
+c WARNING: detected and deleted duplicate literal 45310 at position 2 of proof line 321362
+c WARNING: detected and deleted duplicate literal -45310 at position 1 of proof line 321367
+c WARNING: detected and deleted duplicate literal 45312 at position 2 of proof line 321368
+c WARNING: detected and deleted duplicate literal -45312 at position 1 of proof line 321373
+c WARNING: detected and deleted duplicate literal 45314 at position 2 of proof line 321554
+c WARNING: detected and deleted duplicate literal -45314 at position 1 of proof line 321559
+c WARNING: detected and deleted duplicate literal 45316 at position 2 of proof line 321576
+c WARNING: detected and deleted duplicate literal -45316 at position 1 of proof line 321581
+c WARNING: detected and deleted duplicate literal 45318 at position 2 of proof line 321636
+c WARNING: detected and deleted duplicate literal -45318 at position 1 of proof line 321641
+c WARNING: detected and deleted duplicate literal 45320 at position 2 of proof line 321664
+c WARNING: detected and deleted duplicate literal -45320 at position 1 of proof line 321669
+c WARNING: detected and deleted duplicate literal 45322 at position 2 of proof line 321670
+c WARNING: detected and deleted duplicate literal -45322 at position 1 of proof line 321675
+c WARNING: detected and deleted duplicate literal 45324 at position 2 of proof line 322360
+c WARNING: detected and deleted duplicate literal -45324 at position 1 of proof line 322365
+c WARNING: detected and deleted duplicate literal 45326 at position 2 of proof line 322382
+c WARNING: detected and deleted duplicate literal -45326 at position 1 of proof line 322387
+c WARNING: detected and deleted duplicate literal 45328 at position 2 of proof line 322442
+c WARNING: detected and deleted duplicate literal -45328 at position 1 of proof line 322447
+c WARNING: detected and deleted duplicate literal 45330 at position 2 of proof line 322470
+c WARNING: detected and deleted duplicate literal -45330 at position 1 of proof line 322475
+c WARNING: detected and deleted duplicate literal 45332 at position 2 of proof line 322476
+c WARNING: detected and deleted duplicate literal -45332 at position 1 of proof line 322481
+c WARNING: detected and deleted duplicate literal 45334 at position 2 of proof line 322688
+c WARNING: detected and deleted duplicate literal -45334 at position 1 of proof line 322693
+c WARNING: detected and deleted duplicate literal 45336 at position 2 of proof line 322710
+c WARNING: detected and deleted duplicate literal -45336 at position 1 of proof line 322715
+c WARNING: detected and deleted duplicate literal 45338 at position 2 of proof line 322770
+c WARNING: detected and deleted duplicate literal -45338 at position 1 of proof line 322775
+c WARNING: detected and deleted duplicate literal 45340 at position 2 of proof line 322798
+c WARNING: detected and deleted duplicate literal -45340 at position 1 of proof line 322803
+c WARNING: detected and deleted duplicate literal 45342 at position 2 of proof line 322804
+c WARNING: detected and deleted duplicate literal -45342 at position 1 of proof line 322809
+c WARNING: detected and deleted duplicate literal 45344 at position 2 of proof line 325384
+c WARNING: detected and deleted duplicate literal -45344 at position 1 of proof line 325389
+c WARNING: detected and deleted duplicate literal 45346 at position 2 of proof line 325406
+c WARNING: detected and deleted duplicate literal -45346 at position 1 of proof line 325411
+c WARNING: detected and deleted duplicate literal 45348 at position 2 of proof line 325466
+c WARNING: detected and deleted duplicate literal -45348 at position 1 of proof line 325471
+c WARNING: detected and deleted duplicate literal 45350 at position 2 of proof line 325494
+c WARNING: detected and deleted duplicate literal -45350 at position 1 of proof line 325499
+c WARNING: detected and deleted duplicate literal 45352 at position 2 of proof line 325500
+c WARNING: detected and deleted duplicate literal -45352 at position 1 of proof line 325505
+c WARNING: detected and deleted duplicate literal 45354 at position 2 of proof line 325712
+c WARNING: detected and deleted duplicate literal -45354 at position 1 of proof line 325717
+c WARNING: detected and deleted duplicate literal 45356 at position 2 of proof line 325734
+c WARNING: detected and deleted duplicate literal -45356 at position 1 of proof line 325739
+c WARNING: detected and deleted duplicate literal 45358 at position 2 of proof line 325794
+c WARNING: detected and deleted duplicate literal -45358 at position 1 of proof line 325799
+c WARNING: detected and deleted duplicate literal 45360 at position 2 of proof line 325822
+c WARNING: detected and deleted duplicate literal -45360 at position 1 of proof line 325827
+c WARNING: detected and deleted duplicate literal 45362 at position 2 of proof line 325828
+c WARNING: detected and deleted duplicate literal -45362 at position 1 of proof line 325833
+c WARNING: detected and deleted duplicate literal 45364 at position 2 of proof line 326550
+c WARNING: detected and deleted duplicate literal -45364 at position 1 of proof line 326555
+c WARNING: detected and deleted duplicate literal 45304 at position 2 of proof line 338405
+c WARNING: detected and deleted duplicate literal -45304 at position 1 of proof line 338407
+c WARNING: detected and deleted duplicate literal 45306 at position 2 of proof line 338409
+c WARNING: detected and deleted duplicate literal -45306 at position 1 of proof line 338411
+c WARNING: detected and deleted duplicate literal 45310 at position 2 of proof line 338413
+c WARNING: detected and deleted duplicate literal -45310 at position 1 of proof line 338415
+c WARNING: detected and deleted duplicate literal 45312 at position 2 of proof line 338417
+c WARNING: detected and deleted duplicate literal -45312 at position 1 of proof line 338419
+c WARNING: detected and deleted duplicate literal 45314 at position 2 of proof line 338421
+c WARNING: detected and deleted duplicate literal -45314 at position 1 of proof line 338423
+c WARNING: detected and deleted duplicate literal 45316 at position 2 of proof line 338425
+c WARNING: detected and deleted duplicate literal -45316 at position 1 of proof line 338427
+c WARNING: detected and deleted duplicate literal 45318 at position 2 of proof line 338429
+c WARNING: detected and deleted duplicate literal -45318 at position 1 of proof line 338431
+c WARNING: detected and deleted duplicate literal 45320 at position 2 of proof line 338433
+c WARNING: detected and deleted duplicate literal -45320 at position 1 of proof line 338435
+c WARNING: detected and deleted duplicate literal 45322 at position 2 of proof line 338437
+c WARNING: detected and deleted duplicate literal -45322 at position 1 of proof line 338439
+c WARNING: detected and deleted duplicate literal 45324 at position 2 of proof line 338441
+c WARNING: detected and deleted duplicate literal -45324 at position 1 of proof line 338443
+c WARNING: detected and deleted duplicate literal 45326 at position 2 of proof line 338445
+c WARNING: detected and deleted duplicate literal -45326 at position 1 of proof line 338447
+c WARNING: detected and deleted duplicate literal 45328 at position 2 of proof line 338449
+c WARNING: detected and deleted duplicate literal -45328 at position 1 of proof line 338451
+c WARNING: detected and deleted duplicate literal 45330 at position 2 of proof line 338453
+c WARNING: detected and deleted duplicate literal -45330 at position 1 of proof line 338455
+c WARNING: detected and deleted duplicate literal 45332 at position 2 of proof line 338457
+c WARNING: detected and deleted duplicate literal -45332 at position 1 of proof line 338459
+c WARNING: detected and deleted duplicate literal 45334 at position 2 of proof line 338461
+c WARNING: detected and deleted duplicate literal -45334 at position 1 of proof line 338463
+c WARNING: detected and deleted duplicate literal 45336 at position 2 of proof line 338465
+c WARNING: detected and deleted duplicate literal -45336 at position 1 of proof line 338467
+c WARNING: detected and deleted duplicate literal 45338 at position 2 of proof line 338469
+c WARNING: detected and deleted duplicate literal -45338 at position 1 of proof line 338471
+c WARNING: detected and deleted duplicate literal 45340 at position 2 of proof line 338473
+c WARNING: detected and deleted duplicate literal -45340 at position 1 of proof line 338475
+c WARNING: detected and deleted duplicate literal 45342 at position 2 of proof line 338477
+c WARNING: detected and deleted duplicate literal -45342 at position 1 of proof line 338479
+c WARNING: detected and deleted duplicate literal 45344 at position 2 of proof line 338481
+c WARNING: detected and deleted duplicate literal -45344 at position 1 of proof line 338483
+c WARNING: detected and deleted duplicate literal 45346 at position 2 of proof line 338485
+c WARNING: detected and deleted duplicate literal -45346 at position 1 of proof line 338487
+c WARNING: detected and deleted duplicate literal 45348 at position 2 of proof line 338489
+c WARNING: detected and deleted duplicate literal -45348 at position 1 of proof line 338491
+c WARNING: detected and deleted duplicate literal 45350 at position 2 of proof line 338493
+c WARNING: detected and deleted duplicate literal -45350 at position 1 of proof line 338495
+c WARNING: detected and deleted duplicate literal 45352 at position 2 of proof line 338497
+c WARNING: detected and deleted duplicate literal -45352 at position 1 of proof line 338499
+c WARNING: detected and deleted duplicate literal 45354 at position 2 of proof line 338501
+c WARNING: detected and deleted duplicate literal -45354 at position 1 of proof line 338503
+c WARNING: detected and deleted duplicate literal 45356 at position 2 of proof line 338505
+c WARNING: detected and deleted duplicate literal -45356 at position 1 of proof line 338507
+c WARNING: detected and deleted duplicate literal 45358 at position 2 of proof line 338509
+c WARNING: detected and deleted duplicate literal -45358 at position 1 of proof line 338511
+c WARNING: detected and deleted duplicate literal 45360 at position 2 of proof line 338513
+c WARNING: detected and deleted duplicate literal -45360 at position 1 of proof line 338515
+c WARNING: detected and deleted duplicate literal 45362 at position 2 of proof line 338517
+c WARNING: detected and deleted duplicate literal -45362 at position 1 of proof line 338519
+c WARNING: detected and deleted duplicate literal 45364 at position 2 of proof line 338521
+c WARNING: detected and deleted duplicate literal -45364 at position 1 of proof line 338523
+c finished parsing, read 9553833 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 31326 of 337718 clauses in core                            
+c 31675 of 214118 lemmas in core using 3093792 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+c verification time: 8.619 seconds

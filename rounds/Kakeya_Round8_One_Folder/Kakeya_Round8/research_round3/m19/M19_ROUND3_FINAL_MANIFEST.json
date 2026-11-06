@@ -1,0 +1,417 @@
+{
+  "title": "M19 common geometry and actual support roles: round3 frozen checkpoint",
+  "status": "ROOT_VERIFIED",
+  "scope": "Tracked size93, exact-maximum19 weight/own-direction profiles, support11 or12; every exclusion is uniform over residue placement and tangent fibre shape, for both project rings.",
+  "unrestricted_dimension5_closed": false,
+  "maximum19_closed": false,
+  "prior_checkpoint": {
+    "path": "research_round2/geometric/M19_ROUND2_FINAL_MANIFEST.json",
+    "bytes": 9276,
+    "sha256": "a5e8bf39559443c1b465458989fbe565da0153d3e4fcf67a5363e2e61ea9d8d3"
+  },
+  "stages": [
+    {
+      "name": "common_affine_rank_modes",
+      "proof": {
+        "path": "research_round3/m19/COMMON_SHAPE_RESOURCE_PROOF.md",
+        "bytes": 7941,
+        "sha256": "d3caab7526c5e0c48aaac9b0203ff773de9f9677fdb55aa7fad4bf0a68d1aa15"
+      },
+      "verifier": {
+        "path": "research_round3/m19/verify_common_shape_certificates.py",
+        "bytes": 10156,
+        "sha256": "31f64e50aade546649ea3f5f8aec13084dfdfab4ccdf5ad9b982b7c7645c12e8"
+      },
+      "local_replay": {
+        "path": "research_round3/m19/COMMON_SHAPE_VERIFICATION_RECEIPT.json",
+        "bytes": 2019,
+        "sha256": "0208ed04ebc2794b31cb916a5c19fab8fa2ec0d11c3a228d47eaedb02fad0bd4"
+      },
+      "supports": {
+        "11": {
+          "input_profiles": 21356,
+          "new_whole_profile_exclusions": 11527,
+          "remaining_profiles": 9829,
+          "input": {
+            "path": "research_round3/m19/s11_initial_profiles.txt",
+            "bytes": 1101199,
+            "sha256": "4e14cf660d35d8823d03893cc5fe2ed8a2de80e74a18d3df2e62d4558be79fff"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S11_COMMON_SHAPE_CANDIDATES.jsonl",
+            "bytes": 14570476,
+            "sha256": "f3f74a3e649077a7fe8dcf5a7862dc2aeb5966121012125697eec4aa98060791"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s11_after_common_shapes.txt",
+            "bytes": 488265,
+            "sha256": "5803aea98b6106decf97181578761e315c6c2ae87229bc58c87b1290d2df5cfd"
+          }
+        },
+        "12": {
+          "input_profiles": 9115,
+          "new_whole_profile_exclusions": 6077,
+          "remaining_profiles": 3038,
+          "input": {
+            "path": "research_round3/m19/s12_initial_profiles.txt",
+            "bytes": 482381,
+            "sha256": "b1f0dc9420e639e4a102a5682bb91a97443d20d9b5e6166d31f6642349128dcc"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S12_COMMON_SHAPE_CANDIDATES.jsonl",
+            "bytes": 7752497,
+            "sha256": "77e2fdd0a14b0cf476cfbf740a8e7549f96a4afae9d82764d8ba1142d39d745d"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s12_after_common_shapes.txt",
+            "bytes": 153161,
+            "sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+          }
+        }
+      },
+      "total_new_exclusions": 17604,
+      "total_remaining_profiles": 12867,
+      "root_review": {
+        "path": "research_round3/root/ROOT_VERIFIED_M19_COMMON_SHAPES.json",
+        "bytes": 995,
+        "sha256": "c444d18d2e5b630b2c5ae6a38e99bb5ef44790fef643c996f366695d64042cd2",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "analytic_deleted_direction",
+      "proof": {
+        "path": "research_round3/m19/PROFILE63342_DELETED_DIRECTION_PROOF.md",
+        "bytes": 1854,
+        "sha256": "08da3ca6e9a8cc55a407b6002f8ed46bd1ba76395b0f6e62b4f4ef5b3a59dc56"
+      },
+      "verifier": {
+        "path": "research_round3/m19/verify_deleted_direction_profile.py",
+        "bytes": 2169,
+        "sha256": "3940fa5e95f23a2647eb233544fcecee5a31e778677f0c33c3237ddf6090033d"
+      },
+      "local_replay": {
+        "path": "research_round3/m19/DELETED_DIRECTION_PROFILE_VERIFICATION.json",
+        "bytes": 1053,
+        "sha256": "26124ee412b10257590249a6f31cd7cd5451dc27db8ce6e10bcd2dcf7c7ce6b2"
+      },
+      "supports": {
+        "11": {
+          "input_profiles": 9829,
+          "new_whole_profile_exclusions": 1,
+          "remaining_profiles": 9828,
+          "input": {
+            "path": "research_round3/m19/s11_after_common_shapes.txt",
+            "bytes": 488265,
+            "sha256": "5803aea98b6106decf97181578761e315c6c2ae87229bc58c87b1290d2df5cfd"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S11_TWO_HEAVY_OWN_CANDIDATES.jsonl",
+            "bytes": 840,
+            "sha256": "841f2fc6cfb262fb5e1015ce8cb870cc0267a73eee5f5491e83c024212a1a9fd"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s11_after_two_heavy_own.txt",
+            "bytes": 488235,
+            "sha256": "9164e23187e791566197a90cab13e7e0d1d6fc65744f51ed5774c6eb6d2ee696"
+          }
+        },
+        "12": {
+          "input_profiles": 3038,
+          "new_whole_profile_exclusions": 0,
+          "remaining_profiles": 3038,
+          "input": {
+            "path": "research_round3/m19/s12_after_common_shapes.txt",
+            "bytes": 153161,
+            "sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S12_TWO_HEAVY_OWN_CANDIDATES.jsonl",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s12_after_two_heavy_own.txt",
+            "bytes": 153161,
+            "sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+          }
+        }
+      },
+      "total_new_exclusions": 1,
+      "total_remaining_profiles": 12866,
+      "root_review": {
+        "path": "research_round3/root/ROOT_VERIFIED_M19_DELETED_AND_PERIODIC.json",
+        "bytes": 2230,
+        "sha256": "0ee04c375ae4479f5e342ca4718f49fe7f49a8e17eaa86c093f99328ab582138",
+        "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY"
+      }
+    },
+    {
+      "name": "common_own_periodic_modes",
+      "proof": {
+        "path": "research_round3/m19/OWN_PERIODIC_RESOURCE_PROOF.md",
+        "bytes": 4651,
+        "sha256": "ea9ad614f9b83ca3577593b8c29b01f40c2830719af4b28a5ca656c88d32302e"
+      },
+      "verifier": {
+        "path": "research_round3/m19/verify_own_periodic_certificates.py",
+        "bytes": 9407,
+        "sha256": "dc74ffbb6669400cececd2f0cf3f82e5865a7cf3f8c54b8bcba50ec5dad437d0"
+      },
+      "local_replay": {
+        "path": "research_round3/m19/OWN_PERIODIC_VERIFICATION_RECEIPT.json",
+        "bytes": 1693,
+        "sha256": "a8f57163380638ba3ac2eb694574a9a15cacc74c52b11224f87d5864f79d6f79"
+      },
+      "supports": {
+        "11": {
+          "input_profiles": 9828,
+          "new_whole_profile_exclusions": 95,
+          "remaining_profiles": 9733,
+          "input": {
+            "path": "research_round3/m19/s11_after_two_heavy_own.txt",
+            "bytes": 488235,
+            "sha256": "9164e23187e791566197a90cab13e7e0d1d6fc65744f51ed5774c6eb6d2ee696"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S11_OWN_PERIODIC_CANDIDATES.jsonl",
+            "bytes": 185704,
+            "sha256": "642ef16851b12246d7f9c790e157dfaea246b7d839849a89c68157dee1f2f335"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s11_after_own_periodic.txt",
+            "bytes": 483329,
+            "sha256": "fb1e3195aca31a13a51acd0936c8577b1d667dfbae733d879746cd9350f98990"
+          }
+        },
+        "12": {
+          "input_profiles": 3038,
+          "new_whole_profile_exclusions": 136,
+          "remaining_profiles": 2902,
+          "input": {
+            "path": "research_round3/m19/s12_after_two_heavy_own.txt",
+            "bytes": 153161,
+            "sha256": "48eeedec86f3da9b369922c4f20e236f13850fc3744584f19f1beb2f0997972a"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S12_OWN_PERIODIC_CANDIDATES.jsonl",
+            "bytes": 264465,
+            "sha256": "4200e1935c78e3d6e352834611cb466121323f8609ce24ad820f8a5c0b3ba279"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s12_after_own_periodic.txt",
+            "bytes": 145984,
+            "sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+          }
+        }
+      },
+      "total_new_exclusions": 231,
+      "total_remaining_profiles": 12635,
+      "root_review": {
+        "path": "research_round3/root/ROOT_VERIFIED_M19_DELETED_AND_PERIODIC.json",
+        "bytes": 2230,
+        "sha256": "0ee04c375ae4479f5e342ca4718f49fe7f49a8e17eaa86c093f99328ab582138",
+        "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY"
+      }
+    },
+    {
+      "name": "actual_unique_edge_support_roles",
+      "proof": {
+        "path": "research_round3/m19/UNIQUE_EDGE_ROLE_PROOF.md",
+        "bytes": 8125,
+        "sha256": "fc42122e47f37fa575f85dc8b79502d84b21d1c6b0824ee412b76560e7272e13"
+      },
+      "verifier": {
+        "path": "research_round3/m19/verify_unique_edge_roles.py",
+        "bytes": 7575,
+        "sha256": "fdc7460dc460daaa3f06437d8f7203c2d484585405963aa3d8411d63b9987d26"
+      },
+      "local_replay": {
+        "path": "research_round3/m19/UNIQUE_EDGE_ROLE_VERIFICATION_RECEIPT.json",
+        "bytes": 1789,
+        "sha256": "7465121005097cba7d7e0fb024cf6b4a7fa8b0a489ae694945018b2c150e66ca"
+      },
+      "supports": {
+        "11": {
+          "input_profiles": 9733,
+          "new_whole_profile_exclusions": 8837,
+          "remaining_profiles": 896,
+          "input": {
+            "path": "research_round3/m19/s11_after_own_periodic.txt",
+            "bytes": 483329,
+            "sha256": "fb1e3195aca31a13a51acd0936c8577b1d667dfbae733d879746cd9350f98990"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S11_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl",
+            "bytes": 2574603,
+            "sha256": "975e74a1e33cf4d755a699ad86098e975a3152ab10afb60cac60ecd505c8ac3c"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s11_after_unique_edge_roles.txt",
+            "bytes": 39761,
+            "sha256": "baad3778468db325cdcf499b7c51b3aac338a368645259ef37b297998959f6f2"
+          }
+        },
+        "12": {
+          "input_profiles": 2902,
+          "new_whole_profile_exclusions": 0,
+          "remaining_profiles": 2902,
+          "input": {
+            "path": "research_round3/m19/s12_after_own_periodic.txt",
+            "bytes": 145984,
+            "sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+          },
+          "certificates": {
+            "path": "research_round3/m19/S12_UNIQUE_EDGE_ROLE_CANDIDATES.jsonl",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "survivors": {
+            "path": "research_round3/m19/s12_after_unique_edge_roles.txt",
+            "bytes": 145984,
+            "sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+          }
+        }
+      },
+      "total_new_exclusions": 8837,
+      "total_remaining_profiles": 3798,
+      "root_review": {
+        "path": "research_round3/root/ROOT_VERIFIED_M19_UNIQUE_EDGE_ROLES.json",
+        "bytes": 2186,
+        "sha256": "258b5fa7d26474b8b81fac083ab90483a6ec9890c5802dcaffa30f04993ff6c6",
+        "status": "PASS_ROOT_ANALYTIC_REVIEW_AND_FRESH_REPLAY"
+      }
+    }
+  ],
+  "supports": {
+    "11": {
+      "initial_profiles": 21356,
+      "new_whole_profile_exclusions": 20460,
+      "remaining_profiles": 896,
+      "final_survivors": {
+        "path": "research_round3/m19/s11_final_round3_survivors.txt",
+        "bytes": 39761,
+        "sha256": "baad3778468db325cdcf499b7c51b3aac338a368645259ef37b297998959f6f2"
+      }
+    },
+    "12": {
+      "initial_profiles": 9115,
+      "new_whole_profile_exclusions": 6213,
+      "remaining_profiles": 2902,
+      "final_survivors": {
+        "path": "research_round3/m19/s12_final_round3_survivors.txt",
+        "bytes": 145984,
+        "sha256": "cc5e473617147db8ae6634c1fb05baf821c713e7bad637c43c7431fee4c14445"
+      }
+    }
+  },
+  "total_initial_profiles": 30471,
+  "total_new_whole_profile_exclusions": 26673,
+  "total_remaining_selected_profiles": 3798,
+  "disjoint_exclusion_index": {
+    "path": "research_round3/m19/M19_ROUND3_DISJOINT_EXCLUSIONS.jsonl",
+    "bytes": 1881870,
+    "sha256": "5ed16b5643848affe5f5e4b49c85daf354e0f64b9f096e14b1a18c9a41a307a6"
+  },
+  "exact_certificate_data": [
+    {
+      "path": "research_round3/m19/POSITIVE_LOW_RANK_BLOCK_CENSUS.json",
+      "bytes": 17019,
+      "sha256": "bff23d90ce33cf3da8b9fbb0a786f34ed5cfd02ca1cb7c42203b7cba208bf2be"
+    },
+    {
+      "path": "research_round3/m19/COMMON_SHAPE_INTEGER_DUALS.jsonl",
+      "bytes": 15040414,
+      "sha256": "574dcb58a4a17480e0a69361fd2ab9d2afded3ee32e7fd4a985d3743e1b68068"
+    },
+    {
+      "path": "research_round3/m19/OWN_PERIODIC_BLOCK_CENSUS.json",
+      "bytes": 4564,
+      "sha256": "cd89d708aaf1314116b963078d0982d9dcb63bf42512da876f77fdc496ae4f3a"
+    },
+    {
+      "path": "research_round3/m19/OWN_PERIODIC_INTEGER_DUALS.jsonl",
+      "bytes": 4174369,
+      "sha256": "1a0d737207d0f4f046b6666c74ffe64b5bd31763fdce2d24c04baeab143a4984"
+    },
+    {
+      "path": "research_round3/m19/UNIQUE_EDGE_ROLE_NORMALIZED_CENSUS.json",
+      "bytes": 2243,
+      "sha256": "d1cd69dca9cfd10cd694db81001870c2139e98ca86329992082e304db37ad008"
+    }
+  ],
+  "inherited_proof_dependencies": [
+    {
+      "path": "research_round2/geometric/PAIR_SPECTRUM_CENSUS.json",
+      "bytes": 13596,
+      "sha256": "58fba5e0720660ef5a5381fa2f378125f9485bac1e514b57e61d40fc5d6e4c35"
+    },
+    {
+      "path": "research_round2/geometric/PAIRED_BLOCK_MAXIMUM_CENSUS.json",
+      "bytes": 376408,
+      "sha256": "bbdc62428dc4b75eac1d2bae416ffe777041de02ad48eea3e50e0a0793d537be"
+    },
+    {
+      "path": "research_round3/root/SHARED_PERIOD_AND_ROOTED_RANK_THEOREMS.txt",
+      "bytes": 5691,
+      "sha256": "482a0074cbb6c0fce3b9f8d8cd83cabd13486aef3db2787cd24356596d328cc1"
+    }
+  ],
+  "reproduction_sources": [
+    {
+      "path": "research_round3/m19/build_positive_rank_block_census.py",
+      "bytes": 1863,
+      "sha256": "23bb71a376ac63264dd64a602df5f286bad906c1d13f34ea2bfeade17b90e799"
+    },
+    {
+      "path": "research_round3/m19/common_shape_screen.cpp",
+      "bytes": 8935,
+      "sha256": "04d73cf817b21be23ff0595d49d3c858d0431780c6b0201a0a6d3d16f7f9cffd"
+    },
+    {
+      "path": "research_round3/m19/build_common_shape_dual_keys.py",
+      "bytes": 1682,
+      "sha256": "178a485f8f71c9acb1e699c14150b25cee029ca717f3099cad2d1248011b2bf5"
+    },
+    {
+      "path": "research_round3/m19/build_periodic_block_census.py",
+      "bytes": 1412,
+      "sha256": "4d49e3b5fe36ba24db2806bfc6b1c4f441622d3eac2e2a3bdaf4d4775a087f06"
+    },
+    {
+      "path": "research_round3/m19/own_periodic_screen.cpp",
+      "bytes": 9071,
+      "sha256": "56e65a1745b851616e0a94567de4afcb1e2751ede206194f4dfec2ff6a45ac5f"
+    },
+    {
+      "path": "research_round3/m19/build_periodic_dual_keys.py",
+      "bytes": 1934,
+      "sha256": "2c0854c59c145eba7c3e9ce3889e028ebda6bf7ceeeb1e1a84a0e2e49950a22e"
+    },
+    {
+      "path": "research_round3/m19/build_unique_edge_role_census.cpp",
+      "bytes": 3298,
+      "sha256": "f072e5066912894545422a630e327c6aefc4bbb590ccc8bcb1c684b5e6317dbe"
+    },
+    {
+      "path": "research_round3/m19/build_unique_edge_role_certificates.py",
+      "bytes": 2822,
+      "sha256": "815de230c18b6b41c665e75055c54d2364c848f415d08daaefef49bc15d070e4"
+    },
+    {
+      "path": "research_round3/m19/build_m19_round3_manifest.py",
+      "bytes": 9316,
+      "sha256": "a9f2847fb89b47bfcafeb057e26e1dc2c5aa75abba172f63f6c227df43b5dc4b"
+    }
+  ],
+  "next_frontier": {
+    "path": "research_round3/m19/M19_ROUND3_FRONTIER.md",
+    "bytes": 5983,
+    "sha256": "d1d61ccde94bbeb1991a8472951c90ced1fe163f3315d0a056925ca576786d73"
+  },
+  "not_counted_as_proof_dependencies": [
+    "UNIQUE_EDGE_ROLE_CANDIDATE_CENSUS.json",
+    "pilot outputs",
+    "floating-point optimizer output"
+  ]
+}

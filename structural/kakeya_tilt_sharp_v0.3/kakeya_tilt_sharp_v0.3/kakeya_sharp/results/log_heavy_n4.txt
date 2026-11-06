@@ -1,0 +1,14 @@
+{"n": 4, "ub": 45, "local_types": 3967, "status": "INFEASIBLE", "seconds": 12.48, "bound": 0.0, "B": [0, 1, 2, 4, 8], "h": 5, "d": 10}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "INFEASIBLE", "seconds": 142.48, "bound": 0.0, "B": [0, 1, 2, 3, 4, 8], "h": 6, "d": 12}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.99, "bound": 26.0, "B": [0, 1, 2, 3, 4, 5, 8], "h": 7, "d": 13}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 25.0, "B": [0, 1, 2, 3, 4, 5, 6, 8], "h": 8, "d": 14}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.92, "bound": 28.0, "B": [0, 1, 2, 3, 4, 5, 6, 7, 8], "h": 9, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 24.0, "B": [0, 1, 2, 3, 4, 5, 8, 9], "h": 8, "d": 13}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 19.0, "B": [1, 2, 4, 6, 8, 9], "h": 6, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 22.0, "B": [0, 1, 2, 4, 6, 8, 9], "h": 7, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 24.0, "B": [0, 1, 2, 3, 4, 6, 8, 9], "h": 8, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 27.0, "B": [0, 1, 2, 3, 4, 5, 6, 8, 9], "h": 9, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 30.0, "B": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "h": 10, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.08, "bound": 27.0, "B": [0, 1, 2, 4, 5, 6, 8, 9, 10], "h": 9, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.09, "bound": 30.0, "B": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10], "h": 10, "d": 15}
+{"n": 4, "ub": 45, "local_types": 3967, "status": "UNKNOWN", "seconds": 150.12, "bound": 33.0, "B": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "h": 11, "d": 15}

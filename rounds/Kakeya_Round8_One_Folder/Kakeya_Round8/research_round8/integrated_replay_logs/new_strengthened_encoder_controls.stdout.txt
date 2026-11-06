@@ -1,0 +1,1 @@
+{"status": "PASS_ROUND8_STRENGTHENED_FINITE_CONTROLS", "seconds": 8.302337, "SAT_solver_invoked": false, "exclusions_credited": 0}

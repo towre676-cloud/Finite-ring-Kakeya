@@ -1,0 +1,105 @@
+{
+  "release": "0.2",
+  "date": "2026-11-01",
+  "standard_library_release_verifier": {
+    "release": "0.2",
+    "profile": "standard-library quick",
+    "status": "passed",
+    "checks": [
+      {
+        "name": "spectral_theory",
+        "status": "passed",
+        "seconds": 7.1703
+      },
+      {
+        "name": "carry_transfer",
+        "status": "passed",
+        "seconds": 0.6653
+      },
+      {
+        "name": "independent_plane_and_local_census",
+        "status": "passed",
+        "seconds": 1.8571
+      },
+      {
+        "name": "shared_period_capacity",
+        "status": "passed",
+        "seconds": 0.7324
+      },
+      {
+        "name": "nonfull_24_point_family",
+        "status": "passed",
+        "seconds": 0.0695
+      },
+      {
+        "name": "trace_laws",
+        "status": "passed",
+        "seconds": 2.6567
+      },
+      {
+        "name": "stored_sat_refutations",
+        "status": "passed",
+        "seconds": 0.0798
+      }
+    ],
+    "seconds": 13.2393
+  },
+  "completed_full_finite_proofs": [
+    {
+      "claim": "No dimension-three configuration of size at most 21 passes the complete local necessary model.",
+      "receipt": "extension/solver/finite_n3_21.json",
+      "status": "INFEASIBLE",
+      "nodes": 1037085,
+      "seconds": 114.697562
+    },
+    {
+      "claim": "Every dimension-three configuration of size at most 22 passing the complete local necessary model has the star size profile.",
+      "receipt": "extension/solver/finite_n3_nonstar_22.json",
+      "status": "INFEASIBLE",
+      "nodes": 1889459,
+      "seconds": 184.011975
+    }
+  ],
+  "full_trace_census_receipt": "extension/trace/trace_receipt.json",
+  "browser_and_interactive_figure": {
+    "initial": "false",
+    "good": "true",
+    "bad": "false",
+    "goodValues": [
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "0"
+    ],
+    "layout": {
+      "math": 679,
+      "merror": 0,
+      "scroll": 1280,
+      "client": 1280,
+      "unrendered": false
+    },
+    "mobile": {
+      "scroll": 390,
+      "client": 390
+    },
+    "allSupports": {
+      "valid": 105,
+      "invalid": 1260,
+      "errors": 0
+    },
+    "pageErrors": []
+  },
+  "scope": "The quick release verifier and browser checks were rerun on the combined release. The full dimension-three proof runs and full trace census were completed during development; their exact scripts and receipts are included. Bounded unresolved searches are labelled UNKNOWN or NODE_LIMIT and are not claimed as proofs."
+}
