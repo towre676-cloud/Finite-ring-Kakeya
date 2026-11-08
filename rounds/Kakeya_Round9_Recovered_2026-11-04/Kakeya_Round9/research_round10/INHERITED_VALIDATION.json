@@ -1,0 +1,250 @@
+{
+  "incidence_math": {
+    "all_two_spaces_checked": 155,
+    "actual_light_fibres_checked": 5456,
+    "matching_capacity_combinations_checked": 1024,
+    "budget_identity_cases_checked": 7200,
+    "scope_controls": [
+      {
+        "support_size": 13,
+        "P": 6,
+        "r": 3,
+        "small_heavy_strict_gaps": [
+          262,
+          280,
+          282,
+          268,
+          238,
+          192,
+          130,
+          52
+        ],
+        "eight_heavy_available": 90,
+        "eight_heavy_required": 96,
+        "minimum_heavy": 10,
+        "minimum_heavy_differences": 29,
+        "eleven_heavy_missing_direction_capacity_upper_bound": 12
+      },
+      {
+        "support_size": 14,
+        "P": 5,
+        "r": 4,
+        "small_heavy_strict_gaps": [
+          286,
+          301,
+          300,
+          283,
+          250,
+          201,
+          136,
+          55
+        ],
+        "eight_heavy_available": 90,
+        "eight_heavy_required": 96,
+        "minimum_heavy": 10,
+        "minimum_heavy_differences": 29,
+        "eleven_heavy_missing_direction_capacity_upper_bound": 15
+      }
+    ]
+  },
+  "incidence_primitives": {
+    "gate_input_and_auxiliary_assignments": 60,
+    "weighted_counter_all_input_and_auxiliary_assignments": 128
+  },
+  "incidence_boolean": {
+    "canonical_scope_assignments_checked": 87,
+    "cases": [
+      {
+        "support_size": 13,
+        "maximum": 13,
+        "metadata": {
+          "enabled": true,
+          "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+          "support_size": 13,
+          "maximum_domain_weight": 13,
+          "minimum_heavy": 10,
+          "minimum_heavy_differences": 29,
+          "heavy_count_for_full_cover": 11,
+          "budget": {
+            "enabled": true,
+            "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+            "support_size": 13,
+            "maximum_domain_weight": 13,
+            "maximum_pair_count": 6,
+            "required_light_incidence_per_missing_direction": 3,
+            "minimum_heavy_premise": 9,
+            "budget_rhs": 26,
+            "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+            "total_weight_assumption": null,
+            "all_flags_exact": true,
+            "added_variables": 1206,
+            "added_clauses": 17679
+          },
+          "propagation_requested": true,
+          "propagation_applies": true,
+          "missing_direction_heavy_partner_pair_lower_bound": 4,
+          "optional_propagation_clauses": 728,
+          "added_variables": 1207,
+          "added_clauses": 18443,
+          "new_SAT_exclusions_claimed": 0
+        },
+        "active_propagation_heavy_residues": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          15,
+          18,
+          23,
+          28
+        ],
+        "active_missing_directions": [
+          17,
+          27
+        ],
+        "heavy_partner_pair_lower_bound": 4,
+        "inactive_h10_gate_accepts_arbitrary_pair_counts": true,
+        "disabled_pair_propagation_accepts_arbitrary_pair_counts": true
+      },
+      {
+        "support_size": 14,
+        "maximum": 11,
+        "metadata": {
+          "enabled": true,
+          "theorem": "NEXT_FRONTIER_MISSING_DIRECTION_INCIDENCE",
+          "support_size": 14,
+          "maximum_domain_weight": 11,
+          "minimum_heavy": 10,
+          "minimum_heavy_differences": 29,
+          "heavy_count_for_full_cover": 11,
+          "budget": {
+            "enabled": true,
+            "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+            "support_size": 14,
+            "maximum_domain_weight": 11,
+            "maximum_pair_count": 5,
+            "required_light_incidence_per_missing_direction": 4,
+            "minimum_heavy_premise": 9,
+            "budget_rhs": 28,
+            "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+            "total_weight_assumption": null,
+            "all_flags_exact": true,
+            "added_variables": 1515,
+            "added_clauses": 27260
+          },
+          "propagation_requested": true,
+          "propagation_applies": true,
+          "missing_direction_heavy_partner_pair_lower_bound": 1,
+          "optional_propagation_clauses": 812,
+          "added_variables": 1516,
+          "added_clauses": 28108,
+          "new_SAT_exclusions_claimed": 0
+        },
+        "active_propagation_heavy_residues": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          10,
+          16,
+          28
+        ],
+        "active_missing_directions": [
+          23,
+          27
+        ],
+        "heavy_partner_pair_lower_bound": 1,
+        "inactive_h10_gate_accepts_arbitrary_pair_counts": true,
+        "disabled_pair_propagation_accepts_arbitrary_pair_counts": true
+      }
+    ],
+    "negative_controls": [
+      {
+        "support_size": 13,
+        "control": "inactive_light_pair",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "insufficient_heavy_partner",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "false_missing_flag",
+        "rejected": true
+      },
+      {
+        "support_size": 13,
+        "control": "false_heavy_edge_AND",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "inactive_light_pair",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "insufficient_heavy_partner",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "false_missing_flag",
+        "rejected": true
+      },
+      {
+        "support_size": 14,
+        "control": "false_heavy_edge_AND",
+        "rejected": true
+      }
+    ],
+    "general_budget_gate": {
+      "eight_heavy_inactive_accepts": true,
+      "nine_heavy_active_rejects": true,
+      "metadata": {
+        "enabled": true,
+        "theorem": "MISSING_HEAVY_DIRECTIONS_LIGHT_INCIDENCE",
+        "support_size": 13,
+        "maximum_domain_weight": 13,
+        "maximum_pair_count": 6,
+        "required_light_incidence_per_missing_direction": 3,
+        "minimum_heavy_premise": 9,
+        "budget_rhs": 26,
+        "budget_terms": "r*missing_count+heavy_count+not_weight3_count",
+        "total_weight_assumption": null,
+        "all_flags_exact": true,
+        "added_variables": 1206,
+        "added_clauses": 17679
+      }
+    }
+  },
+  "tetra_capacity": {
+    "edge_truth_table_assignments": 2448,
+    "rejected_over_capacity_assignments": 1490,
+    "two_edge_direction_assignments": 289,
+    "fourteen_plus_two_witness_accepted": true,
+    "nonmonotone_capacity_rejected": true
+  },
+  "tetra_flags": {
+    "eligible_spectrum_indices": [
+      20,
+      59
+    ],
+    "exact_rank_interval_required": true,
+    "selected_type_flag_checks": 1058
+  },
+  "status": "PASS",
+  "seconds": 1.7641311989937094,
+  "semantic_source_hashes": {
+    "research_round8/incidence/incidence_cuts.py": "8cbf004c172a181dab97a92635bd17565d385fe6c1f97ff940bf33bc2f860cfb",
+    "research_round8/incidence/encode_next_frontier.py": "ba6d760926997e2ab61e1403cdcc363aef39617c6b6c7f3ab59d65836494a825",
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f"
+  }
+}

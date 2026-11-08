@@ -1,0 +1,1122 @@
+{
+  "case": {
+    "case_id": "s13_T671697334_m13_incidence_pending",
+    "nonzero_support_mask": 671697334,
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      11,
+      14,
+      16,
+      19,
+      27,
+      29
+    ],
+    "unmarked_affine_class": 110,
+    "distinguished_hub": 0,
+    "maximum_interval": [
+      13,
+      13
+    ],
+    "total_upper_bound": 93,
+    "ring_scope": "common_necessary_relaxation_both_rings",
+    "status": "PENDING_NEW_EXACT_CNF_AND_CHECKED_REFUTATION",
+    "new_available_cuts": [
+      "at_least_ten_heavy",
+      "missing_direction_light_incidence_budget",
+      "eleven_heavy_implies_full_difference_cover",
+      "all_edge_tetrahedron14"
+    ],
+    "proof_search_performed_in_this_queue": false,
+    "exclusion_credited": false
+  },
+  "variant": "projected",
+  "baseline_expected_sha256": "a4b69f175158fa8ecfcce7e649ade8a0b0c64cdcda5cc30534249dd15a9b4fd7",
+  "source_hashes": {
+    "research_round9/recover.py": "c510b0ae48c50795bc1e44c73cd7275b05a7b709c58e99264624e8990587bdde",
+    "research_round9/solver_worker.py": "12995dc9ed0bf7d080b77f46a84868773a1220b4ba703c47e93fa3e9a0d5a978",
+    "research_round8/NEXT_ATTACK_QUEUE.json": "6b8df0636be4527ee352fc100d0c29dce3aa9f200b81876633513e8f80fa5fc0",
+    "research_round8/incidence/encode_next_frontier.py": "ba6d760926997e2ab61e1403cdcc363aef39617c6b6c7f3ab59d65836494a825",
+    "research_round8/incidence/incidence_cuts.py": "8cbf004c172a181dab97a92635bd17565d385fe6c1f97ff940bf33bc2f860cfb",
+    "research_round8/strengthened/encode_strengthened.py": "8bc589363ffc4239e349a7dd4a5bf7a93a7d51ca1cb4a102b28189e2db414b4f",
+    "research_round6/joint_maxima/encode_joint_maxima.py": "776af5c5699f5e153990cdfb8b0897d690202c9895dd95134eec9b8df295feba",
+    "research_round6/encoder_audit/encode_maximal_cosets.py": "7e3225d4b5d0ff50d4578fc7d1d4a924d122449ce4e87f00520bac0ee0016102",
+    "research_round7/support13/rup_unit_solver.py": "bca02f863a1f0f109580691be6bcdefdc3f2ca6706561be32974ed26a82c9a44",
+    "research_round6/imported_claude_round4/data/orbits_all.txt": "2532528fed96455f714acf83cb53ba66c4b0b97dc48d541a02718dae1910f1dc",
+    "research_round6/imported_claude_round4/data/spec32.csv": "a61140936f55aa278de40d1b66e537138048322d152141ccc436d42c0f8fefab",
+    "research_round6/imported_claude_round4/data/Mtable.txt": "c67d586fa469e243f633d2def4f36ff605ea61290c782ffb5c717ac21c9372e9",
+    "research_round10/campaign.py": "87eaed2339e7482b90ea119451bbf270e87c26d0a8bef9b6635bef567c032a66",
+    "research_round10/encode_projected.py": "909d6ec4f78e0e418eef62d962f0aef0c4356d7f57c4107baecacbde11f36e75",
+    "research_round10/resume_campaign.py": "777342d135b4f65484c303b7d87ee80bc96d5b34b4f7d4db02b15aa56e87141b",
+    "research_round10/finish_campaign.py": "f7e2458f386d75ec0e162840d5e36a88093a4fb005fedba760dcaa6bee11e84c"
+  },
+  "limit_seconds": 90,
+  "exclusion_credited": true,
+  "solver": {
+    "python_sat": "1.9.dev19",
+    "native_sha256": "78b7745aa59e7d1471032206d820715c2d5ca95fe8293ad2bd6eb114766b33e2",
+    "engine": "cadical195",
+    "trusted": false
+  },
+  "baseline_regenerated": true,
+  "baseline_variables": 46944,
+  "baseline_clauses": 343457,
+  "projection": {
+    "enabled": true,
+    "added_variables": 0,
+    "added_clauses": 163,
+    "pattern_clauses": 43,
+    "pair_projection_clauses": 120,
+    "forbidden_minimal": [
+      {
+        "light": [
+          1,
+          2
+        ],
+        "missing": [
+          17,
+          18
+        ],
+        "direction_capacities": {
+          "17": 12,
+          "18": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          4
+        ],
+        "missing": [
+          1,
+          4
+        ],
+        "direction_capacities": {
+          "1": 12,
+          "4": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          5
+        ],
+        "missing": [
+          1
+        ],
+        "direction_capacities": {
+          "1": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          7
+        ],
+        "missing": [
+          26,
+          28
+        ],
+        "direction_capacities": {
+          "26": 12,
+          "28": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          16
+        ],
+        "missing": [
+          18
+        ],
+        "direction_capacities": {
+          "18": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          19
+        ],
+        "missing": [
+          17
+        ],
+        "direction_capacities": {
+          "17": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          27
+        ],
+        "missing": [
+          28
+        ],
+        "direction_capacities": {
+          "28": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          1,
+          29
+        ],
+        "missing": [
+          26
+        ],
+        "direction_capacities": {
+          "26": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          4
+        ],
+        "missing": [
+          25,
+          31
+        ],
+        "direction_capacities": {
+          "25": 12,
+          "31": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          5
+        ],
+        "missing": [
+          2
+        ],
+        "direction_capacities": {
+          "2": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          7
+        ],
+        "missing": [
+          2,
+          7
+        ],
+        "direction_capacities": {
+          "2": 12,
+          "7": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          16
+        ],
+        "missing": [
+          17
+        ],
+        "direction_capacities": {
+          "17": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          19
+        ],
+        "missing": [
+          18
+        ],
+        "direction_capacities": {
+          "18": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          27
+        ],
+        "missing": [
+          31
+        ],
+        "direction_capacities": {
+          "31": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          2,
+          29
+        ],
+        "missing": [
+          25
+        ],
+        "direction_capacities": {
+          "25": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          5
+        ],
+        "missing": [
+          4
+        ],
+        "direction_capacities": {
+          "4": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          7
+        ],
+        "missing": [
+          20,
+          23
+        ],
+        "direction_capacities": {
+          "20": 12,
+          "23": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          16
+        ],
+        "missing": [
+          23
+        ],
+        "direction_capacities": {
+          "23": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          19
+        ],
+        "missing": [
+          20
+        ],
+        "direction_capacities": {
+          "20": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          27
+        ],
+        "missing": [
+          25
+        ],
+        "direction_capacities": {
+          "25": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          4,
+          29
+        ],
+        "missing": [
+          31
+        ],
+        "direction_capacities": {
+          "31": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          5,
+          7
+        ],
+        "missing": [
+          7
+        ],
+        "direction_capacities": {
+          "7": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          5,
+          11
+        ],
+        "missing": [
+          22
+        ],
+        "direction_capacities": {
+          "22": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          5,
+          14
+        ],
+        "missing": [
+          30
+        ],
+        "direction_capacities": {
+          "30": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          5,
+          16
+        ],
+        "missing": [
+          13,
+          30
+        ],
+        "direction_capacities": {
+          "13": 12,
+          "30": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          5,
+          29
+        ],
+        "missing": [
+          13,
+          22
+        ],
+        "direction_capacities": {
+          "13": 12,
+          "22": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          7,
+          16
+        ],
+        "missing": [
+          20
+        ],
+        "direction_capacities": {
+          "20": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          7,
+          19
+        ],
+        "missing": [
+          23
+        ],
+        "direction_capacities": {
+          "23": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          7,
+          27
+        ],
+        "missing": [
+          26
+        ],
+        "direction_capacities": {
+          "26": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          7,
+          29
+        ],
+        "missing": [
+          28
+        ],
+        "direction_capacities": {
+          "28": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          8,
+          16
+        ],
+        "missing": [
+          13
+        ],
+        "direction_capacities": {
+          "13": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          8,
+          19
+        ],
+        "missing": [
+          8
+        ],
+        "direction_capacities": {
+          "8": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          8,
+          27
+        ],
+        "missing": [
+          8
+        ],
+        "direction_capacities": {
+          "8": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          8,
+          29
+        ],
+        "missing": [
+          13
+        ],
+        "direction_capacities": {
+          "13": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          11,
+          16
+        ],
+        "missing": [
+          16
+        ],
+        "direction_capacities": {
+          "16": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          11,
+          19
+        ],
+        "missing": [
+          22
+        ],
+        "direction_capacities": {
+          "22": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          14,
+          27
+        ],
+        "missing": [
+          30
+        ],
+        "direction_capacities": {
+          "30": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          14,
+          29
+        ],
+        "missing": [
+          29
+        ],
+        "direction_capacities": {
+          "29": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          16,
+          19
+        ],
+        "missing": [
+          17,
+          18,
+          20,
+          23
+        ],
+        "direction_capacities": {
+          "17": 12,
+          "18": 12,
+          "20": 12,
+          "23": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          16,
+          27
+        ],
+        "missing": [
+          16,
+          30
+        ],
+        "direction_capacities": {
+          "16": 12,
+          "30": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          19,
+          29
+        ],
+        "missing": [
+          22,
+          29
+        ],
+        "direction_capacities": {
+          "22": 12,
+          "29": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          27,
+          29
+        ],
+        "missing": [
+          25,
+          26,
+          28,
+          31
+        ],
+        "direction_capacities": {
+          "25": 12,
+          "26": 12,
+          "28": 12,
+          "31": 12
+        },
+        "reason": "capacity_below16"
+      },
+      {
+        "light": [
+          8,
+          11,
+          14
+        ],
+        "missing": [
+          9,
+          10,
+          12,
+          15
+        ],
+        "direction_capacities": {
+          "9": 18,
+          "10": 18,
+          "12": 18,
+          "15": 18
+        },
+        "reason": "incidence_budget"
+      }
+    ],
+    "survivors": [
+      {
+        "light": [],
+        "missing": []
+      },
+      {
+        "light": [
+          1
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          2
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          4
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          5
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          7
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          16
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          19
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          27
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          29
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          1,
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          1,
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          1,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          2,
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          2,
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          2,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          4,
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          4,
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          4,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          5,
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          5,
+          19
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          5,
+          27
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          7,
+          8
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          7,
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          7,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          8,
+          11
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          8,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          11,
+          14
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          11,
+          27
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          11,
+          29
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          14,
+          16
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          14,
+          19
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          16,
+          29
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          19,
+          27
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          1,
+          8,
+          11
+        ],
+        "missing": [
+          15
+        ]
+      },
+      {
+        "light": [
+          1,
+          8,
+          14
+        ],
+        "missing": [
+          10
+        ]
+      },
+      {
+        "light": [
+          1,
+          11,
+          14
+        ],
+        "missing": [
+          9
+        ]
+      },
+      {
+        "light": [
+          2,
+          8,
+          11
+        ],
+        "missing": [
+          12
+        ]
+      },
+      {
+        "light": [
+          2,
+          8,
+          14
+        ],
+        "missing": [
+          9
+        ]
+      },
+      {
+        "light": [
+          2,
+          11,
+          14
+        ],
+        "missing": [
+          10
+        ]
+      },
+      {
+        "light": [
+          4,
+          8,
+          11
+        ],
+        "missing": [
+          10
+        ]
+      },
+      {
+        "light": [
+          4,
+          8,
+          14
+        ],
+        "missing": [
+          15
+        ]
+      },
+      {
+        "light": [
+          4,
+          11,
+          14
+        ],
+        "missing": [
+          12
+        ]
+      },
+      {
+        "light": [
+          5,
+          19,
+          27
+        ],
+        "missing": []
+      },
+      {
+        "light": [
+          7,
+          8,
+          11
+        ],
+        "missing": [
+          9
+        ]
+      },
+      {
+        "light": [
+          7,
+          8,
+          14
+        ],
+        "missing": [
+          12
+        ]
+      },
+      {
+        "light": [
+          7,
+          11,
+          14
+        ],
+        "missing": [
+          15
+        ]
+      }
+    ],
+    "patterns_considered": 299,
+    "surviving_patterns": 50
+  },
+  "cnf_sha256": "716a502c5090cb7f91667532fbca9308009bf0375dbdcb3a1993340766419a25",
+  "variables": 46944,
+  "clauses": 343620,
+  "solver_returncode": 20,
+  "stop_reason": null,
+  "solve_seconds": 68.725569,
+  "process_supervision": {
+    "process_group_id": 18,
+    "whole_process_group_confirmed_absent": true,
+    "kill_signals_sent": 0,
+    "adopted_descendants_reaped": []
+  },
+  "last_observed_live_drat_bytes": {},
+  "disk_guard_target": "actual_work_directory",
+  "initial_work_free_bytes": 4937256960,
+  "proof_size_guard_counts_all_live_drat_files": true,
+  "audit": {
+    "status": "PASS_CNF_UNSAT_VIA_CAKEML_LRAT",
+    "cnf_header": {
+      "variables": 46944,
+      "clauses": 343620
+    },
+    "input_sha256": {
+      "cnf": "716a502c5090cb7f91667532fbca9308009bf0375dbdcb3a1993340766419a25",
+      "drat": "994c1c34166c552841282438a5d6900ea161c66f9b3cd04c2564e200a08ee737"
+    },
+    "drat_trim": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 63.991108,
+      "stdout_file": "drat_trim.stdout.txt",
+      "stdout_sha256": "57b9918e4ed49d5f1123aa1a1c6ccfe1551b15f78890cf4ec0d652beab785d7c",
+      "stderr_file": "drat_trim.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lrat_sha256": "ba5d6e6524e36f6a5adc56fcb462ee01238310e233f8b4b3f03bb42ebdecede2",
+    "lrat_bytes": 607749222,
+    "lrat_check_c": {
+      "status": "NOT_RUN_DIAGNOSTIC_ONLY_KNOWN_FALSE_POSITIVE"
+    },
+    "cake_lpr": {
+      "accepted": true,
+      "returncode": 0,
+      "timed_out": false,
+      "success_marker_present": true,
+      "seconds": 21.369557,
+      "stdout_file": "cake_lpr.stdout.txt",
+      "stdout_sha256": "c680d3bd38a04c7beee7d54999f8f00b43051f75a53cf2bd170ae0cc5f99eb5f",
+      "stderr_file": "cake_lpr.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "status": "CERTIFIED_EXCLUSION",
+  "storage": {
+    "input.cnf": {
+      "raw_sha256": "716a502c5090cb7f91667532fbca9308009bf0375dbdcb3a1993340766419a25",
+      "raw_bytes": 7444631,
+      "xz_sha256": "255a0b661314848073513904e196a0b06680c113db520291b1a105eea71074fd",
+      "xz_bytes": 620280
+    },
+    "proof.drat": {
+      "raw_sha256": "994c1c34166c552841282438a5d6900ea161c66f9b3cd04c2564e200a08ee737",
+      "raw_bytes": 92579286,
+      "xz_sha256": "24b8df60a34c25690f96d8684e2d997927b59edb9983587c0ddce3e55438ecaa",
+      "xz_bytes": 22459680
+    }
+  },
+  "seconds": 163.415619
+}
