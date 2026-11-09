@@ -30,7 +30,8 @@ def main():
             work=Path(tmp);f=R.formula(case);E.N.write_dimacs(f,work/'baseline.cnf')
             require(R.sha(work/'baseline.cnf')==old['cnf_sha256'],'Regenerated baseline differs')
             meta=E.append_projection(f,case['support'],case['maximum_interval'][0],enabled=row['variant']=='projected')
-            require(meta==row['projection'],'Projection metadata differs')
+            # JSON receipts serialize integer direction keys as strings.
+            require(json.loads(json.dumps(meta))==row['projection'],'Projection metadata differs')
             require((f.n,len(f.cl))==(row['variables'],row['clauses']),'Formula size differs')
             E.N.write_dimacs(f,work/'regenerated.cnf');del f;gc.collect()
             R.unpack(folder/'input.cnf.xz',work/'input.cnf',row['storage']['input.cnf'])
