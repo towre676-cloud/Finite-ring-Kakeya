@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "spectrum_leaves_checked": {
+    "14": 88,
+    "15": 4
+  },
+  "normalized_actual_fibres_checked": {
+    "8": 491,
+    "9": 2930
+  },
+  "distinct_pair_histograms": {
+    "8": 7,
+    "9": 9
+  }
+}
