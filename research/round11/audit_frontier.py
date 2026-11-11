@@ -53,6 +53,8 @@ def catalogue(path):
             require(covers == (len(differences) == 31), "Invalid difference-cover flag")
             if covers:
                 result[outer + 1].append(mask)
+    require(all(len(masks) == len(set(masks)) for masks in result.values()),
+            "Duplicate marked catalogue mask")
     require([len(result[s]) for s in result] == [55, 88, 113, 131, 145],
             "Marked catalogue cardinalities changed")
     return result
@@ -75,6 +77,7 @@ def compose_round10(repo, classes, inherited):
     require(len(historical) == len(r9_cases) == 54, "Incomplete Round 9 queue")
     require(sum(r["exclusion_credited"] for r in r9_cases) == 29, "Wrong Round 9 credit")
     additions = {r["case_id"]: r for r in r10["cases"]}
+    require(len(additions) == len(r10["cases"]), "Duplicate Round 10 case")
     require(set(additions) == {k for k, r in historical.items() if not r["exclusion_credited"]},
             "Round 10 queue differs from Round 9 gaps")
     runs = {}
@@ -139,7 +142,7 @@ def audit(repo):
     transports = recover_transports(repo, groups)
     require(transports == 169, "Incomplete hub transport check")
     inherited = set(partial["complete_masks"])
-    require(len(inherited) == 28, "Inherited marked role count changed")
+    require(len(inherited) == 28 and inherited <= classes.keys(), "Invalid inherited marked roles")
     round10 = compose_round10(repo, classes, inherited)
     partial_maxima = {int(k): set(v) for k, v in partial["partial_maxima_by_mask"].items()}
     open_marked = {}
@@ -160,8 +163,12 @@ def audit(repo):
         profiles.add(profile)
         cells[s, m] += 1
     require(len(profiles) == 182526 and len(cells) == 34, "Wrong inherited profile frontier")
-    overlap = {m: cells[13, m] for m in (12, 13)}
-    composed = {f"{s}/{m}": n for (s, m), n in sorted(cells.items()) if s != 13 or m not in overlap}
+    closed_cells = {(13, m) for m, n in round10["complete_roles"].items() if n == len(classes)}
+    require(closed_cells == {(13, 12), (13, 13)} and closed_cells <= cells.keys(),
+            "Wrong Round 10 profile intersection")
+    overlap = {m: cells[s, m] for s, m in sorted(closed_cells)}
+    require(overlap == {12: 9789, 13: 11962}, "Round 10 overlap counts changed")
+    composed = {f"{s}/{m}": n for (s, m), n in sorted(cells.items()) if (s, m) not in closed_cells}
 
     m11 = frontier["dimension5_strata"]["maximum11"]
     previous = read(repo / R8 / "research_round3/m11/s16/M11_CURRENT_FRONTIER_AFTER_S16.json")

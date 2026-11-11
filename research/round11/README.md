@@ -34,7 +34,7 @@ Exact maximum 11 has 42 affine classes without complete exclusion. Their class I
 
 Let $H$ be the heavy residues, whose fibres have weight at least four. Let $D(H)$ be their nonzero differences and write $M$ for the nonzero directions outside $D(H)$.
 
-**At exact maximum 14 or 15 and support 13, every size-at-most-93 candidate must satisfy $D(H)=\mathbb F_2^5\setminus\{0\}$.** The inherited incidence argument gives at least ten heavy fibres and at most two missing directions. If there are at least eleven heavy fibres, two light fibres supply at most $2\lfloor15/2\rfloor=14$ lifts in a missing direction. Only ten heavy fibres with one or two missing directions require new work.
+**At exact maximum 14 or 15 and support 13, every size-at-most-93 candidate must satisfy $D(H)=\mathbb F_2^5\setminus\{0\}$.** The [inherited incidence argument](../../rounds/Kakeya_Round8_One_Folder/Kakeya_Round8/research_round8/incidence/SUPPORT13_MAX15_HEAVY_COROLLARY.md) gives at least ten heavy fibres and at most two missing directions. If there are at least eleven heavy fibres, two light fibres supply at most $2\lfloor15/2\rfloor=14$ lifts in a missing direction. Only ten heavy fibres with one or two missing directions require new work.
 
 In either case all three lights must have heavy partners and be active in every missing direction. Two active lights supply at most 14 lifts. A light-light edge consumes two lights and supplies at most one lift, so at most eight lifts are available in that case. The pair counts of any light are at most one per direction.
 
@@ -83,11 +83,13 @@ The one-missing calculation covers the 27 roles previously open at each maximum.
 
 ### Clauses for a subsequent campaign
 
-For each still-open marked role, let $L$ run through subsets of at most three nonhub residues. Whenever $S\setminus L$ misses a direction, no candidate can have all of $L$ light. Emit the clause (igvee_{a\in L} \operatorname{heavy}(a)) for each inclusion-minimal such $L$. This uses the Round 10 positive-heavy projection format. No existing encoder guard or historical DIMACS input changes.
+For each still-open marked role, let $L$ run through subsets of at most three nonhub residues. Whenever $S\setminus L$ misses a direction, no candidate can have all of $L$ light. Emit the clause $\bigvee_{a\in L} \operatorname{heavy}(a)$ for each inclusion-minimal such $L$. This uses the Round 10 positive-heavy projection format. No existing encoder guard or historical DIMACS input changes.
 
 The replay tests all 8,073 heavy/light labelings per exact maximum across the 27 roles. The 735 minimal positive-heavy clauses reject 7,345 labelings and leave 728 full-cover labelings per maximum, including 74 with exactly ten heavies. These counts measure the geometry of labels. Some labels were already incompatible with earlier incidence bounds. The new result closes every remaining non-cover label, and neither maximum cell has a complete support-level exclusion. The conditional tetrahedral cut remains available to a later SAT campaign with its original type flags. The exclusion here uses the separate small-pair plane bound.
 
 ## Replay and scope
+
+See the [independent verification report](INDEPENDENT_REVIEW.md) for the separate ledger reconstruction, the proof audit and the first proposed certification target.
 
 Run from a checkout of the base revision with the proposed files applied. Restore the Git-hosted evidence and the Round 10 review archive using their maintained scripts. For the new mathematical exclusion, no SAT solver is needed.
 

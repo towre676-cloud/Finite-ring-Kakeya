@@ -24,7 +24,7 @@ public:
     }
 
     void print() const {
-        if (tested != 1141504 || exact == 0) {
+        if (tested != 1141504 || exact != 43008) {
             throw std::runtime_error("Unexpected size of independent enumeration");
         }
         std::cout << "Fixed-pair heavy sets checked = " << tested << '\n'
