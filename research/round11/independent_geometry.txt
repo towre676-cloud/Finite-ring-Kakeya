@@ -1,0 +1,3 @@
+Fixed-pair heavy sets checked = 1141504
+With exactly two missing differences = 43008
+All heavy vertices meet a unique edge outside the missing plane
